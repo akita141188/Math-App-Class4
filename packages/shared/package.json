@@ -1,0 +1,21 @@
+{
+  "name": "@math-app/shared",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "echo No shared runtime tests required"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
