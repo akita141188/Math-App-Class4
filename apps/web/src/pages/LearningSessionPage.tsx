@@ -152,17 +152,27 @@ export function LearningSessionPage() {
       return;
     }
 
+    if (customStatement) {
+      setLearningState('FOUNDATION_REVIEW');
+      setFeedback({
+        kind: 'hint',
+        message:
+          'Bản hiện tại chưa tự chấm đề em nhập. Em có thể luyện theo dạng với các câu đã được kiểm tra nội dung.',
+      });
+      return;
+    }
+
     setChecking(true);
     try {
       const result = await checkDemoAnswer({ problemId: problem.id, answer: value });
-      setLearningState(result.nextState);
+      setLearningState(result.correct ? 'TRANSFER_TEST' : result.nextState);
       setFeedback({
         kind: result.correct ? 'success' : 'retry',
         message: result.feedback,
       });
     } catch {
       const correct = value.replace(/\s/g, '').includes('1470');
-      setLearningState(correct ? 'SOLVED' : 'ERROR_DIAGNOSIS');
+      setLearningState(correct ? 'TRANSFER_TEST' : 'ERROR_DIAGNOSIS');
       setFeedback({
         kind: correct ? 'success' : 'retry',
         message: correct
@@ -177,7 +187,7 @@ export function LearningSessionPage() {
   function checkTransfer() {
     const correct = transferAnswer.replace(/\s/g, '').includes('512');
     setTransferDone(correct);
-    setLearningState(correct ? 'COMPLETE' : 'RETRY');
+    setLearningState(correct ? 'COMPLETE' : 'TRANSFER_TEST');
     setFeedback({
       kind: correct ? 'success' : 'retry',
       message: correct
@@ -186,7 +196,36 @@ export function LearningSessionPage() {
     });
   }
 
-  const solved = learningState === 'SOLVED' || learningState === 'TRANSFER_TEST' || transferDone;
+  const solved =
+    learningState === 'SOLVED' ||
+    learningState === 'TRANSFER_TEST' ||
+    learningState === 'COMPLETE' ||
+    transferDone;
+
+  if (learningState === 'COMPLETE') {
+    return (
+      <PageContainer className={'session-page'}>
+        <LearningCard
+          eyebrow={'Hoàn thành'}
+          title={'Em đã vận dụng được cách làm'}
+          className={'transfer-card'}
+        >
+          <div className={'celebration-mark'} aria-hidden={'true'}>
+            <Check />
+          </div>
+          <p>Tuyệt vời! Em đã giải đúng bài chính và một bài tương tự.</p>
+          <div className={'session-actions'}>
+            <Link className={'button button-secondary'} to={'/learn/types'}>
+              Chọn dạng khác
+            </Link>
+            <Link className={'button button-primary'} to={'/daily'}>
+              Bài tập hôm nay <ArrowRight size={19} aria-hidden={'true'} />
+            </Link>
+          </div>
+        </LearningCard>
+      </PageContainer>
+    );
+  }
 
   return (
     <PageContainer className="session-page">

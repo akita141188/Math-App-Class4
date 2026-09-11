@@ -17,7 +17,13 @@
     "test": "pnpm -r test",
     "test:web": "pnpm --filter @math-app/web test",
     "test:api": "pnpm --filter @math-app/api test",
-    "build": "pnpm -r build"
+    "build": "pnpm -r build",
+    "content:build-bank": "pnpm --filter @math-app/api content:build-bank",
+    "content:validate": "pnpm --filter @math-app/api content:validate",
+    "content:audit": "pnpm --filter @math-app/api content:audit",
+    "content:duplicates": "pnpm --filter @math-app/api content:duplicates",
+    "content:stats": "pnpm --filter @math-app/api content:stats",
+    "content:review-export": "pnpm --filter @math-app/api content:review-export"
   },
   "devDependencies": {
     "@eslint/js": "^9.35.0",

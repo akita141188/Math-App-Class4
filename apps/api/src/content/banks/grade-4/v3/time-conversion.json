@@ -1,0 +1,6922 @@
+[
+  {
+    "id": "g4-time-conversion-e5145c80ce7c4d66",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t1",
+    "fingerprint": "118fbd5760f4ec1a69f85c559a5a9c94",
+    "generatorParams": {
+      "value": 3,
+      "factor": 60,
+      "from": "giờ",
+      "to": "phút"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "3 giờ bằng bao nhiêu phút?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 180,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 60 = 180 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-e10bdf63bda45afa",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t2",
+    "fingerprint": "2042f9d4e22547fb9999c7426ee03721",
+    "generatorParams": {
+      "value": 3,
+      "factor": 60,
+      "from": "phút",
+      "to": "giây"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "3 phút bằng bao nhiêu giây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 180,
+      "unit": "giây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 60 = 180 giây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-152bfc83cce94ef8",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t3",
+    "fingerprint": "db6597f4814868ee818174ea5520bb1c",
+    "generatorParams": {
+      "value": 3,
+      "factor": 24,
+      "from": "ngày",
+      "to": "giờ"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "3 ngày bằng bao nhiêu giờ?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "72 giờ"
+      },
+      {
+        "id": "option-2",
+        "label": "65 giờ"
+      },
+      {
+        "id": "option-3",
+        "label": "86 giờ"
+      },
+      {
+        "id": "option-4",
+        "label": "79 giờ"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 24 = 72 giờ.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-becdb0256ab0f418",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t4",
+    "fingerprint": "3e5705fbbd9589579e0fb00d1b036756",
+    "generatorParams": {
+      "value": 3,
+      "factor": 7,
+      "from": "tuần",
+      "to": "ngày"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "3 tuần bằng bao nhiêu ngày? Bạn An cho rằng đáp án là 21 ngày. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 7 = 21 ngày.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-4d04c5d6ae7ed7bb",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t5",
+    "fingerprint": "ff2b792d552a3529dd1ee45c1fa9aeb6",
+    "generatorParams": {
+      "value": 3,
+      "factor": 100,
+      "from": "thế kỉ",
+      "to": "năm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "3 thế kỉ bằng bao nhiêu năm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 300,
+      "unit": "năm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 100 = 300 năm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-aa710622204f833a",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t1",
+    "fingerprint": "727a9ccabe4fb3a372acb5297291d120",
+    "generatorParams": {
+      "value": 4,
+      "factor": 60,
+      "from": "giờ",
+      "to": "phút"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "4 giờ bằng bao nhiêu phút?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 240,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 60 = 240 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-cd9c82ad6349392d",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t2",
+    "fingerprint": "fc60f35267b8ae055e046eab39370244",
+    "generatorParams": {
+      "value": 4,
+      "factor": 60,
+      "from": "phút",
+      "to": "giây"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "4 phút bằng bao nhiêu giây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 240,
+      "unit": "giây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 60 = 240 giây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-2d7acf00e5b589fe",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t3",
+    "fingerprint": "94f1b3e8fb5e0db92b137b134d3fd896",
+    "generatorParams": {
+      "value": 4,
+      "factor": 24,
+      "from": "ngày",
+      "to": "giờ"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "4 ngày bằng bao nhiêu giờ?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "87 giờ"
+      },
+      {
+        "id": "option-2",
+        "label": "105 giờ"
+      },
+      {
+        "id": "option-3",
+        "label": "114 giờ"
+      },
+      {
+        "id": "option-4",
+        "label": "96 giờ"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 24 = 96 giờ.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-117e8de75a7bcbce",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t4",
+    "fingerprint": "d2939ad3531d800cb0f986f67c4bcc02",
+    "generatorParams": {
+      "value": 4,
+      "factor": 7,
+      "from": "tuần",
+      "to": "ngày"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "4 tuần bằng bao nhiêu ngày? Bạn An cho rằng đáp án là 30 ngày. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 7 = 28 ngày.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-797d3f1e597ef23e",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t5",
+    "fingerprint": "a5d317d080ad099ec98019b33968b1b0",
+    "generatorParams": {
+      "value": 4,
+      "factor": 100,
+      "from": "thế kỉ",
+      "to": "năm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "4 thế kỉ bằng bao nhiêu năm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 400,
+      "unit": "năm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 100 = 400 năm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-cea375f2acfe2470",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t1",
+    "fingerprint": "480676636b1a0bbebf591a927cc667c8",
+    "generatorParams": {
+      "value": 5,
+      "factor": 60,
+      "from": "giờ",
+      "to": "phút"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "5 giờ bằng bao nhiêu phút?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 300,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 60 = 300 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-a55107447be57419",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t2",
+    "fingerprint": "2b79ddda8b52a6b267f6bf2526d4f838",
+    "generatorParams": {
+      "value": 5,
+      "factor": 60,
+      "from": "phút",
+      "to": "giây"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "5 phút bằng bao nhiêu giây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 300,
+      "unit": "giây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 60 = 300 giây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-b16c4f817efac951",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t3",
+    "fingerprint": "650b4cd60e6fceff9746679392e631b1",
+    "generatorParams": {
+      "value": 5,
+      "factor": 24,
+      "from": "ngày",
+      "to": "giờ"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "5 ngày bằng bao nhiêu giờ?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "132 giờ"
+      },
+      {
+        "id": "option-2",
+        "label": "144 giờ"
+      },
+      {
+        "id": "option-3",
+        "label": "108 giờ"
+      },
+      {
+        "id": "option-4",
+        "label": "120 giờ"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 24 = 120 giờ.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-c0fcef5dd32ac15e",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t4",
+    "fingerprint": "e2213e032f6dacce4a864870634bc931",
+    "generatorParams": {
+      "value": 5,
+      "factor": 7,
+      "from": "tuần",
+      "to": "ngày"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "5 tuần bằng bao nhiêu ngày? Bạn An cho rằng đáp án là 35 ngày. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 7 = 35 ngày.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-225c19d38855a4af",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t5",
+    "fingerprint": "0f06d13ba24424fbabf1265493e6ddfe",
+    "generatorParams": {
+      "value": 5,
+      "factor": 100,
+      "from": "thế kỉ",
+      "to": "năm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "5 thế kỉ bằng bao nhiêu năm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 500,
+      "unit": "năm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 100 = 500 năm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-1782bafbe1993a6f",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t1",
+    "fingerprint": "98e5260b297e3fb4301474bdcd86f929",
+    "generatorParams": {
+      "value": 6,
+      "factor": 60,
+      "from": "giờ",
+      "to": "phút"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "6 giờ bằng bao nhiêu phút?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 360,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 60 = 360 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-18a9eda0b98704b5",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t2",
+    "fingerprint": "d6e5c771c97b9a3024fc379db0a5c09d",
+    "generatorParams": {
+      "value": 6,
+      "factor": 60,
+      "from": "phút",
+      "to": "giây"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "6 phút bằng bao nhiêu giây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 360,
+      "unit": "giây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 60 = 360 giây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-9543304db8571032",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t3",
+    "fingerprint": "6e9e6c93d574e4e3717af151bae652dc",
+    "generatorParams": {
+      "value": 6,
+      "factor": 24,
+      "from": "ngày",
+      "to": "giờ"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "6 ngày bằng bao nhiêu giờ?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "130 giờ"
+      },
+      {
+        "id": "option-2",
+        "label": "172 giờ"
+      },
+      {
+        "id": "option-3",
+        "label": "158 giờ"
+      },
+      {
+        "id": "option-4",
+        "label": "144 giờ"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 24 = 144 giờ.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-7a2b79f43702ab61",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t4",
+    "fingerprint": "615ffb026f2ce29e994dc7117f31f878",
+    "generatorParams": {
+      "value": 6,
+      "factor": 7,
+      "from": "tuần",
+      "to": "ngày"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "6 tuần bằng bao nhiêu ngày? Bạn An cho rằng đáp án là 46 ngày. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 7 = 42 ngày.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-98c296fbaa74740b",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t5",
+    "fingerprint": "4e18d8e428ae53e2abd59b66d7071319",
+    "generatorParams": {
+      "value": 6,
+      "factor": 100,
+      "from": "thế kỉ",
+      "to": "năm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "6 thế kỉ bằng bao nhiêu năm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 600,
+      "unit": "năm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 100 = 600 năm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-b5ae990ef692443b",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t1",
+    "fingerprint": "82752f0a71c853435f02a8da1d6cd8f5",
+    "generatorParams": {
+      "value": 7,
+      "factor": 60,
+      "from": "giờ",
+      "to": "phút"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "7 giờ bằng bao nhiêu phút?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 420,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 60 = 420 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-4aeb6b363cafe1fc",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t2",
+    "fingerprint": "9fb1054cd602f8ad34da60968219b747",
+    "generatorParams": {
+      "value": 7,
+      "factor": 60,
+      "from": "phút",
+      "to": "giây"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "7 phút bằng bao nhiêu giây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 420,
+      "unit": "giây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 60 = 420 giây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-c110de615b7efd3a",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t3",
+    "fingerprint": "5a4b5ef1b20f1dfe271865d8957d93ca",
+    "generatorParams": {
+      "value": 7,
+      "factor": 24,
+      "from": "ngày",
+      "to": "giờ"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "7 ngày bằng bao nhiêu giờ?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "168 giờ"
+      },
+      {
+        "id": "option-2",
+        "label": "184 giờ"
+      },
+      {
+        "id": "option-3",
+        "label": "152 giờ"
+      },
+      {
+        "id": "option-4",
+        "label": "200 giờ"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 24 = 168 giờ.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-dbca06dd9e8edaf0",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t4",
+    "fingerprint": "2d2fa7aa9289055310f924ade630e6c1",
+    "generatorParams": {
+      "value": 7,
+      "factor": 7,
+      "from": "tuần",
+      "to": "ngày"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "7 tuần bằng bao nhiêu ngày? Bạn An cho rằng đáp án là 49 ngày. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 7 = 49 ngày.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-c315597460ee23a7",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t5",
+    "fingerprint": "efa6d18d8e8c3bae3f1a52c944e95682",
+    "generatorParams": {
+      "value": 7,
+      "factor": 100,
+      "from": "thế kỉ",
+      "to": "năm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "7 thế kỉ bằng bao nhiêu năm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 700,
+      "unit": "năm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 100 = 700 năm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-1a23dfe8971cca97",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t1",
+    "fingerprint": "b2fe242af57920e00b62e96ceeaa30c4",
+    "generatorParams": {
+      "value": 8,
+      "factor": 60,
+      "from": "giờ",
+      "to": "phút"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "8 giờ bằng bao nhiêu phút?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 480,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 60 = 480 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-5d4f109393657294",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t2",
+    "fingerprint": "7de403af149ce5d85e878d821df892e9",
+    "generatorParams": {
+      "value": 8,
+      "factor": 60,
+      "from": "phút",
+      "to": "giây"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "8 phút bằng bao nhiêu giây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 480,
+      "unit": "giây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 60 = 480 giây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-f041917c0c9209eb",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t3",
+    "fingerprint": "958d779d27e9043e6809135da83b43e8",
+    "generatorParams": {
+      "value": 8,
+      "factor": 24,
+      "from": "ngày",
+      "to": "giờ"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "8 ngày bằng bao nhiêu giờ?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "192 giờ"
+      },
+      {
+        "id": "option-2",
+        "label": "211 giờ"
+      },
+      {
+        "id": "option-3",
+        "label": "173 giờ"
+      },
+      {
+        "id": "option-4",
+        "label": "230 giờ"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 24 = 192 giờ.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-33696032f22439cd",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t4",
+    "fingerprint": "20cc3f13dfa5a25d9cacf99bad09a614",
+    "generatorParams": {
+      "value": 8,
+      "factor": 7,
+      "from": "tuần",
+      "to": "ngày"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "8 tuần bằng bao nhiêu ngày? Bạn An cho rằng đáp án là 61 ngày. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 7 = 56 ngày.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-bdd4fb3611e3ae6d",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t5",
+    "fingerprint": "1b6b5ea0d453a6b0730fd9f8410d3260",
+    "generatorParams": {
+      "value": 8,
+      "factor": 100,
+      "from": "thế kỉ",
+      "to": "năm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "8 thế kỉ bằng bao nhiêu năm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 800,
+      "unit": "năm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 100 = 800 năm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-544295ee9c21e840",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t1",
+    "fingerprint": "c8dd6d373dea72bbbe704127c5a46179",
+    "generatorParams": {
+      "value": 12,
+      "factor": 60,
+      "from": "giờ",
+      "to": "phút"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "12 giờ bằng bao nhiêu phút?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 720,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12 × 60 = 720 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-0ccc6f033d936d2e",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t2",
+    "fingerprint": "41d3908a26126e4621e609d6ee5faeb0",
+    "generatorParams": {
+      "value": 12,
+      "factor": 60,
+      "from": "phút",
+      "to": "giây"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "12 phút bằng bao nhiêu giây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 720,
+      "unit": "giây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12 × 60 = 720 giây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-8c1e41808d08a586",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t3",
+    "fingerprint": "06f7282e1c91349b35bd64ddef4178c2",
+    "generatorParams": {
+      "value": 12,
+      "factor": 24,
+      "from": "ngày",
+      "to": "giờ"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "12 ngày bằng bao nhiêu giờ?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "288 giờ"
+      },
+      {
+        "id": "option-2",
+        "label": "316 giờ"
+      },
+      {
+        "id": "option-3",
+        "label": "260 giờ"
+      },
+      {
+        "id": "option-4",
+        "label": "344 giờ"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12 × 24 = 288 giờ.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-d98edbd9397fa977",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t4",
+    "fingerprint": "9b4e724cc5c317554dcbd6b4d61e03c4",
+    "generatorParams": {
+      "value": 12,
+      "factor": 7,
+      "from": "tuần",
+      "to": "ngày"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "12 tuần bằng bao nhiêu ngày? Bạn An cho rằng đáp án là 84 ngày. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12 × 7 = 84 ngày.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-7f2ca15713687dd9",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t5",
+    "fingerprint": "d66bc1da8d01a9aeadd46997539acea4",
+    "generatorParams": {
+      "value": 12,
+      "factor": 100,
+      "from": "thế kỉ",
+      "to": "năm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "12 thế kỉ bằng bao nhiêu năm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1200,
+      "unit": "năm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12 × 100 = 1.200 năm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-a97b93c530470137",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t1",
+    "fingerprint": "fcfeec80eb6c801d6282035e7d865a9d",
+    "generatorParams": {
+      "value": 13,
+      "factor": 60,
+      "from": "giờ",
+      "to": "phút"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "13 giờ bằng bao nhiêu phút?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 780,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "13 × 60 = 780 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-3c3a9d2f03513d58",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t2",
+    "fingerprint": "e0eeb9201d02b36d76af5e6d842818eb",
+    "generatorParams": {
+      "value": 13,
+      "factor": 60,
+      "from": "phút",
+      "to": "giây"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "13 phút bằng bao nhiêu giây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 780,
+      "unit": "giây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "13 × 60 = 780 giây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-3ec3f98b16450116",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t3",
+    "fingerprint": "b77ee2a2e615da1873644f5a8d3a8d39",
+    "generatorParams": {
+      "value": 13,
+      "factor": 24,
+      "from": "ngày",
+      "to": "giờ"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "13 ngày bằng bao nhiêu giờ?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "374 giờ"
+      },
+      {
+        "id": "option-2",
+        "label": "281 giờ"
+      },
+      {
+        "id": "option-3",
+        "label": "343 giờ"
+      },
+      {
+        "id": "option-4",
+        "label": "312 giờ"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "13 × 24 = 312 giờ.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-d460212fba8b6ce7",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t4",
+    "fingerprint": "eb521da00140ebfa02265a63f835a827",
+    "generatorParams": {
+      "value": 13,
+      "factor": 7,
+      "from": "tuần",
+      "to": "ngày"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "13 tuần bằng bao nhiêu ngày? Bạn An cho rằng đáp án là 100 ngày. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "13 × 7 = 91 ngày.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-b20915eab894b8bc",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t5",
+    "fingerprint": "400b8d69acc75b681af0048421da4584",
+    "generatorParams": {
+      "value": 13,
+      "factor": 100,
+      "from": "thế kỉ",
+      "to": "năm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "13 thế kỉ bằng bao nhiêu năm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1300,
+      "unit": "năm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "13 × 100 = 1.300 năm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-0dd2b6d4dcac7715",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t1",
+    "fingerprint": "babf5ca45e6aa843ba080b5754142e8a",
+    "generatorParams": {
+      "value": 14,
+      "factor": 60,
+      "from": "giờ",
+      "to": "phút"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "14 giờ bằng bao nhiêu phút?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 840,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 × 60 = 840 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-b152243524e15e30",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t2",
+    "fingerprint": "fdf726d8deaf48bf96a73d9434462f39",
+    "generatorParams": {
+      "value": 14,
+      "factor": 60,
+      "from": "phút",
+      "to": "giây"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "14 phút bằng bao nhiêu giây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 840,
+      "unit": "giây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 × 60 = 840 giây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-40752336c3cbe751",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t3",
+    "fingerprint": "8104a93c8a027bbc4be438d98f897f19",
+    "generatorParams": {
+      "value": 14,
+      "factor": 24,
+      "from": "ngày",
+      "to": "giờ"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "14 ngày bằng bao nhiêu giờ?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "336 giờ"
+      },
+      {
+        "id": "option-2",
+        "label": "369 giờ"
+      },
+      {
+        "id": "option-3",
+        "label": "402 giờ"
+      },
+      {
+        "id": "option-4",
+        "label": "303 giờ"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 × 24 = 336 giờ.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-c745198825a89340",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t4",
+    "fingerprint": "fa3d6f3049505c009be7f7a9dedd53ac",
+    "generatorParams": {
+      "value": 14,
+      "factor": 7,
+      "from": "tuần",
+      "to": "ngày"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "14 tuần bằng bao nhiêu ngày? Bạn An cho rằng đáp án là 98 ngày. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 × 7 = 98 ngày.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-bbd89bd5e2cbffde",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t5",
+    "fingerprint": "bb65af64ff0f1dac8a92d9553803f2e9",
+    "generatorParams": {
+      "value": 14,
+      "factor": 100,
+      "from": "thế kỉ",
+      "to": "năm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "14 thế kỉ bằng bao nhiêu năm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1400,
+      "unit": "năm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 × 100 = 1.400 năm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-331ca4c46058412d",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t1",
+    "fingerprint": "7f954ca45fc7f7f4e023db0c9d198820",
+    "generatorParams": {
+      "value": 15,
+      "factor": 60,
+      "from": "giờ",
+      "to": "phút"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "15 giờ bằng bao nhiêu phút?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 900,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 × 60 = 900 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-c3adfb8a9797b40e",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t2",
+    "fingerprint": "41ee13afd6932384028ad5dd1cacfe44",
+    "generatorParams": {
+      "value": 15,
+      "factor": 60,
+      "from": "phút",
+      "to": "giây"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "15 phút bằng bao nhiêu giây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 900,
+      "unit": "giây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 × 60 = 900 giây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-b2f7523d5e21b861",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t3",
+    "fingerprint": "c595e582167b12e7c39f725d1da4a7a6",
+    "generatorParams": {
+      "value": 15,
+      "factor": 24,
+      "from": "ngày",
+      "to": "giờ"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "15 ngày bằng bao nhiêu giờ?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "324 giờ"
+      },
+      {
+        "id": "option-2",
+        "label": "360 giờ"
+      },
+      {
+        "id": "option-3",
+        "label": "396 giờ"
+      },
+      {
+        "id": "option-4",
+        "label": "432 giờ"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 × 24 = 360 giờ.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-877462ef62dd1194",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t4",
+    "fingerprint": "a31aeb63a07fcc41e324117d96afd9eb",
+    "generatorParams": {
+      "value": 15,
+      "factor": 7,
+      "from": "tuần",
+      "to": "ngày"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "15 tuần bằng bao nhiêu ngày? Bạn An cho rằng đáp án là 115 ngày. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 × 7 = 105 ngày.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-1b229becb6e680b9",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t5",
+    "fingerprint": "9bd5e2e3815a2393a6277e24bdf04d3a",
+    "generatorParams": {
+      "value": 15,
+      "factor": 100,
+      "from": "thế kỉ",
+      "to": "năm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "15 thế kỉ bằng bao nhiêu năm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1500,
+      "unit": "năm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 × 100 = 1.500 năm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-baee3a748d89ce15",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t1",
+    "fingerprint": "8c67fde9dd865ca859f3919edfe04acd",
+    "generatorParams": {
+      "value": 16,
+      "factor": 60,
+      "from": "giờ",
+      "to": "phút"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "16 giờ bằng bao nhiêu phút?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 960,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 × 60 = 960 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-221230bb4dc5d4f7",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t2",
+    "fingerprint": "6443a92a88630b85b7c98c90f51c44a3",
+    "generatorParams": {
+      "value": 16,
+      "factor": 60,
+      "from": "phút",
+      "to": "giây"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "16 phút bằng bao nhiêu giây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 960,
+      "unit": "giây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 × 60 = 960 giây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-402e28b81d79b815",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t3",
+    "fingerprint": "1e087ed7ce2f1a8a0585cb2e94bf52bc",
+    "generatorParams": {
+      "value": 16,
+      "factor": 24,
+      "from": "ngày",
+      "to": "giờ"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "16 ngày bằng bao nhiêu giờ?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "422 giờ"
+      },
+      {
+        "id": "option-2",
+        "label": "460 giờ"
+      },
+      {
+        "id": "option-3",
+        "label": "346 giờ"
+      },
+      {
+        "id": "option-4",
+        "label": "384 giờ"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 × 24 = 384 giờ.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-2981c183834558bc",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t4",
+    "fingerprint": "47d1f17d5a6f404613fdc22ca84f5377",
+    "generatorParams": {
+      "value": 16,
+      "factor": 7,
+      "from": "tuần",
+      "to": "ngày"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "16 tuần bằng bao nhiêu ngày? Bạn An cho rằng đáp án là 112 ngày. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 × 7 = 112 ngày.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-d9da9a1afdb2a442",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t5",
+    "fingerprint": "a2a7d86db74a16e68c41fb20cefd3703",
+    "generatorParams": {
+      "value": 16,
+      "factor": 100,
+      "from": "thế kỉ",
+      "to": "năm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "16 thế kỉ bằng bao nhiêu năm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1600,
+      "unit": "năm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 × 100 = 1.600 năm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-916937149c8e349a",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t1",
+    "fingerprint": "9bfbd72d636f6c1392d0dec075e052c0",
+    "generatorParams": {
+      "value": 17,
+      "factor": 60,
+      "from": "giờ",
+      "to": "phút"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "17 giờ bằng bao nhiêu phút?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1020,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 × 60 = 1.020 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-d280b68945b52635",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t2",
+    "fingerprint": "17e1cf32d08354ed7d6d375edc03a5be",
+    "generatorParams": {
+      "value": 17,
+      "factor": 60,
+      "from": "phút",
+      "to": "giây"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "17 phút bằng bao nhiêu giây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1020,
+      "unit": "giây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 × 60 = 1.020 giây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-c467e98741b71a91",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t3",
+    "fingerprint": "6935c6c53da23810d7fabe0b2d29c6a2",
+    "generatorParams": {
+      "value": 17,
+      "factor": 24,
+      "from": "ngày",
+      "to": "giờ"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "17 ngày bằng bao nhiêu giờ?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "368 giờ"
+      },
+      {
+        "id": "option-2",
+        "label": "408 giờ"
+      },
+      {
+        "id": "option-3",
+        "label": "488 giờ"
+      },
+      {
+        "id": "option-4",
+        "label": "448 giờ"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 × 24 = 408 giờ.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-d8426d7d214f166c",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t4",
+    "fingerprint": "d8f28324e3f21fcd40ba49359361f3e2",
+    "generatorParams": {
+      "value": 17,
+      "factor": 7,
+      "from": "tuần",
+      "to": "ngày"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "17 tuần bằng bao nhiêu ngày? Bạn An cho rằng đáp án là 130 ngày. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 × 7 = 119 ngày.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-1dcb391a6078a4c2",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t5",
+    "fingerprint": "80b27fd109de296527e777e5e94dbcf5",
+    "generatorParams": {
+      "value": 17,
+      "factor": 100,
+      "from": "thế kỉ",
+      "to": "năm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "17 thế kỉ bằng bao nhiêu năm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1700,
+      "unit": "năm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 × 100 = 1.700 năm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-01a3c5d6cf7dd04e",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t1",
+    "fingerprint": "b7595bf2b65410ae707d0cf760310edd",
+    "generatorParams": {
+      "value": 18,
+      "factor": 60,
+      "from": "giờ",
+      "to": "phút"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "18 giờ bằng bao nhiêu phút?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1080,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 × 60 = 1.080 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-720b65a9675abc70",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t2",
+    "fingerprint": "004123826662ab4a672d9c3decd51071",
+    "generatorParams": {
+      "value": 18,
+      "factor": 60,
+      "from": "phút",
+      "to": "giây"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "18 phút bằng bao nhiêu giây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1080,
+      "unit": "giây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 × 60 = 1.080 giây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-c01a17e69e767581",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t3",
+    "fingerprint": "dd96665f707f974e5992552fed6eaf13",
+    "generatorParams": {
+      "value": 18,
+      "factor": 24,
+      "from": "ngày",
+      "to": "giờ"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "18 ngày bằng bao nhiêu giờ?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "518 giờ"
+      },
+      {
+        "id": "option-2",
+        "label": "432 giờ"
+      },
+      {
+        "id": "option-3",
+        "label": "475 giờ"
+      },
+      {
+        "id": "option-4",
+        "label": "389 giờ"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 × 24 = 432 giờ.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-ba606445fe0a967a",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t4",
+    "fingerprint": "adf21e93267ab568bfacf9d7912fefa7",
+    "generatorParams": {
+      "value": 18,
+      "factor": 7,
+      "from": "tuần",
+      "to": "ngày"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "18 tuần bằng bao nhiêu ngày? Bạn An cho rằng đáp án là 126 ngày. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 × 7 = 126 ngày.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-20bc2a8d00dec248",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t5",
+    "fingerprint": "a1ce6bfbadcdd809e6bb47365a14781a",
+    "generatorParams": {
+      "value": 18,
+      "factor": 100,
+      "from": "thế kỉ",
+      "to": "năm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "18 thế kỉ bằng bao nhiêu năm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1800,
+      "unit": "năm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 × 100 = 1.800 năm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-16d7a8cc466d3e23",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t1",
+    "fingerprint": "14f42a08e6263bd9d0fde71a457d746c",
+    "generatorParams": {
+      "value": 19,
+      "factor": 60,
+      "from": "giờ",
+      "to": "phút"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "19 giờ bằng bao nhiêu phút?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1140,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 60 = 1.140 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-938eb9a20e786877",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t2",
+    "fingerprint": "4f72c03086ad3cbf0b69639adeffe624",
+    "generatorParams": {
+      "value": 19,
+      "factor": 60,
+      "from": "phút",
+      "to": "giây"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "19 phút bằng bao nhiêu giây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1140,
+      "unit": "giây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 60 = 1.140 giây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-52b1ecbf5845975e",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t3",
+    "fingerprint": "1660f32080a0907de5b6b8ed0b328b94",
+    "generatorParams": {
+      "value": 19,
+      "factor": 24,
+      "from": "ngày",
+      "to": "giờ"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "19 ngày bằng bao nhiêu giờ?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "411 giờ"
+      },
+      {
+        "id": "option-2",
+        "label": "501 giờ"
+      },
+      {
+        "id": "option-3",
+        "label": "546 giờ"
+      },
+      {
+        "id": "option-4",
+        "label": "456 giờ"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 24 = 456 giờ.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-a1ec05f2d915cd51",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t4",
+    "fingerprint": "a3d921b6bf0e877b23e0b00ce960df3f",
+    "generatorParams": {
+      "value": 19,
+      "factor": 7,
+      "from": "tuần",
+      "to": "ngày"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "19 tuần bằng bao nhiêu ngày? Bạn An cho rằng đáp án là 146 ngày. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 7 = 133 ngày.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-cdc4d32e2bce53a8",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t5",
+    "fingerprint": "854218d041f78f313181e49e3d4a7092",
+    "generatorParams": {
+      "value": 19,
+      "factor": 100,
+      "from": "thế kỉ",
+      "to": "năm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "19 thế kỉ bằng bao nhiêu năm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1900,
+      "unit": "năm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 100 = 1.900 năm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-5278a8f7d0d2febd",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t1",
+    "fingerprint": "e25a80fa3e055046a5a23b916ddb95a4",
+    "generatorParams": {
+      "value": 20,
+      "factor": 60,
+      "from": "giờ",
+      "to": "phút"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "20 giờ bằng bao nhiêu phút?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1200,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 60 = 1.200 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-265c9dcdfc177545",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t2",
+    "fingerprint": "3283b3860eed2a8af7f92a4351fc2f60",
+    "generatorParams": {
+      "value": 20,
+      "factor": 60,
+      "from": "phút",
+      "to": "giây"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "20 phút bằng bao nhiêu giây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1200,
+      "unit": "giây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 60 = 1.200 giây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-01d7bdfafbb42818",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t3",
+    "fingerprint": "cdbfe0d70c2ab7820c135472734d2008",
+    "generatorParams": {
+      "value": 20,
+      "factor": 24,
+      "from": "ngày",
+      "to": "giờ"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "20 ngày bằng bao nhiêu giờ?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "480 giờ"
+      },
+      {
+        "id": "option-2",
+        "label": "432 giờ"
+      },
+      {
+        "id": "option-3",
+        "label": "528 giờ"
+      },
+      {
+        "id": "option-4",
+        "label": "576 giờ"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 24 = 480 giờ.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-2afc1ab046a44447",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t4",
+    "fingerprint": "82f67c2e525432fb20b2cff0ce49d2d8",
+    "generatorParams": {
+      "value": 20,
+      "factor": 7,
+      "from": "tuần",
+      "to": "ngày"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "20 tuần bằng bao nhiêu ngày? Bạn An cho rằng đáp án là 140 ngày. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 7 = 140 ngày.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-4c860adfebfd16b9",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t5",
+    "fingerprint": "9e1e471d7762ef02543d6c72c013e911",
+    "generatorParams": {
+      "value": 20,
+      "factor": 100,
+      "from": "thế kỉ",
+      "to": "năm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "20 thế kỉ bằng bao nhiêu năm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2000,
+      "unit": "năm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 100 = 2.000 năm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-dc43cbaf942d3ce4",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t1",
+    "fingerprint": "55a399ec1269b41dd8a56fbedd77b23f",
+    "generatorParams": {
+      "value": 21,
+      "factor": 60,
+      "from": "giờ",
+      "to": "phút"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "21 giờ bằng bao nhiêu phút?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1260,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 60 = 1.260 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-675ebd18f3fe7e9c",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t2",
+    "fingerprint": "f9ede6d8fbc2a1d7a90cd0b62be94fe6",
+    "generatorParams": {
+      "value": 21,
+      "factor": 60,
+      "from": "phút",
+      "to": "giây"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "21 phút bằng bao nhiêu giây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1260,
+      "unit": "giây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 60 = 1.260 giây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-f962ea831189f122",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t3",
+    "fingerprint": "9b5a6fa4d19b07f6b89a6e8c19114419",
+    "generatorParams": {
+      "value": 21,
+      "factor": 24,
+      "from": "ngày",
+      "to": "giờ"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "21 ngày bằng bao nhiêu giờ?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "454 giờ"
+      },
+      {
+        "id": "option-2",
+        "label": "504 giờ"
+      },
+      {
+        "id": "option-3",
+        "label": "604 giờ"
+      },
+      {
+        "id": "option-4",
+        "label": "554 giờ"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 24 = 504 giờ.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-b1e57e376c042d53",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t4",
+    "fingerprint": "951a8da138ded33a27d14a6e157e1d50",
+    "generatorParams": {
+      "value": 21,
+      "factor": 7,
+      "from": "tuần",
+      "to": "ngày"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "21 tuần bằng bao nhiêu ngày? Bạn An cho rằng đáp án là 161 ngày. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 7 = 147 ngày.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-a00dedc5af63a883",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t5",
+    "fingerprint": "b6e4551996687a2f646b72ada2176d7c",
+    "generatorParams": {
+      "value": 21,
+      "factor": 100,
+      "from": "thế kỉ",
+      "to": "năm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "21 thế kỉ bằng bao nhiêu năm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2100,
+      "unit": "năm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 100 = 2.100 năm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-c16298a1b2298088",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t1",
+    "fingerprint": "e311e0fc8dbf8ed35ecbf91bca1b6e95",
+    "generatorParams": {
+      "value": 25,
+      "factor": 60,
+      "from": "giờ",
+      "to": "phút"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "25 giờ bằng bao nhiêu phút?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1500,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "25 × 60 = 1.500 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-6c33a74b9c5b531a",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t2",
+    "fingerprint": "1d49a460f6929e79b1d9ff851bca1ae8",
+    "generatorParams": {
+      "value": 25,
+      "factor": 60,
+      "from": "phút",
+      "to": "giây"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "25 phút bằng bao nhiêu giây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1500,
+      "unit": "giây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "25 × 60 = 1.500 giây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-304f695ce10cbb88",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t3",
+    "fingerprint": "3e7538848c220ab818a580afcf9ee70a",
+    "generatorParams": {
+      "value": 25,
+      "factor": 24,
+      "from": "ngày",
+      "to": "giờ"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "25 ngày bằng bao nhiêu giờ?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "660 giờ"
+      },
+      {
+        "id": "option-2",
+        "label": "540 giờ"
+      },
+      {
+        "id": "option-3",
+        "label": "600 giờ"
+      },
+      {
+        "id": "option-4",
+        "label": "720 giờ"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "25 × 24 = 600 giờ.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-9bd098d1faf61523",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t4",
+    "fingerprint": "bae3ca0f79ba3184e9bf8f8a6073e77c",
+    "generatorParams": {
+      "value": 25,
+      "factor": 7,
+      "from": "tuần",
+      "to": "ngày"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "25 tuần bằng bao nhiêu ngày? Bạn An cho rằng đáp án là 175 ngày. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "25 × 7 = 175 ngày.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-01ff057310200bd7",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t5",
+    "fingerprint": "f9fca4f419dfd5fb6df32c678214ce1a",
+    "generatorParams": {
+      "value": 25,
+      "factor": 100,
+      "from": "thế kỉ",
+      "to": "năm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "25 thế kỉ bằng bao nhiêu năm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2500,
+      "unit": "năm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "25 × 100 = 2.500 năm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-491156087172a85c",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t1",
+    "fingerprint": "a43dba5291a385f51b4a4f964e51dbce",
+    "generatorParams": {
+      "value": 26,
+      "factor": 60,
+      "from": "giờ",
+      "to": "phút"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "26 giờ bằng bao nhiêu phút?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1560,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "26 × 60 = 1.560 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-9f4e2c18d97cc629",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t2",
+    "fingerprint": "93a98576a352ad06d5e88d1b1031215b",
+    "generatorParams": {
+      "value": 26,
+      "factor": 60,
+      "from": "phút",
+      "to": "giây"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "26 phút bằng bao nhiêu giây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1560,
+      "unit": "giây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "26 × 60 = 1.560 giây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-2568891fde8bfb57",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t3",
+    "fingerprint": "89f40ba749a7b7983596a4b512571459",
+    "generatorParams": {
+      "value": 26,
+      "factor": 24,
+      "from": "ngày",
+      "to": "giờ"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "26 ngày bằng bao nhiêu giờ?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "748 giờ"
+      },
+      {
+        "id": "option-2",
+        "label": "624 giờ"
+      },
+      {
+        "id": "option-3",
+        "label": "562 giờ"
+      },
+      {
+        "id": "option-4",
+        "label": "686 giờ"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "26 × 24 = 624 giờ.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-a9c1f42c688e142f",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t4",
+    "fingerprint": "1aa9865b49afaa63ca9a4212dd232e2b",
+    "generatorParams": {
+      "value": 26,
+      "factor": 7,
+      "from": "tuần",
+      "to": "ngày"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "26 tuần bằng bao nhiêu ngày? Bạn An cho rằng đáp án là 200 ngày. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "26 × 7 = 182 ngày.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-ef50f92c6544b55a",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t5",
+    "fingerprint": "385b05099354379d8cae11084b5fc38f",
+    "generatorParams": {
+      "value": 26,
+      "factor": 100,
+      "from": "thế kỉ",
+      "to": "năm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "26 thế kỉ bằng bao nhiêu năm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2600,
+      "unit": "năm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "26 × 100 = 2.600 năm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-453c3d1bab811b36",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t1",
+    "fingerprint": "3fd8d7b38df0373679ff3a44fff229d0",
+    "generatorParams": {
+      "value": 27,
+      "factor": 60,
+      "from": "giờ",
+      "to": "phút"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "27 giờ bằng bao nhiêu phút?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1620,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "27 × 60 = 1.620 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-69376e0064156345",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t2",
+    "fingerprint": "a3ba6d0766f244ff517e26c52c937c4d",
+    "generatorParams": {
+      "value": 27,
+      "factor": 60,
+      "from": "phút",
+      "to": "giây"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "27 phút bằng bao nhiêu giây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1620,
+      "unit": "giây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "27 × 60 = 1.620 giây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-7a189b7fb749cfbd",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t3",
+    "fingerprint": "0da2d62ab9d7a833899cec027b77bc28",
+    "generatorParams": {
+      "value": 27,
+      "factor": 24,
+      "from": "ngày",
+      "to": "giờ"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "27 ngày bằng bao nhiêu giờ?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "712 giờ"
+      },
+      {
+        "id": "option-2",
+        "label": "776 giờ"
+      },
+      {
+        "id": "option-3",
+        "label": "648 giờ"
+      },
+      {
+        "id": "option-4",
+        "label": "584 giờ"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "27 × 24 = 648 giờ.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-69d375d36aa0ab19",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t4",
+    "fingerprint": "8d98ceccb7fefeb3b2f9d0bd1d83347a",
+    "generatorParams": {
+      "value": 27,
+      "factor": 7,
+      "from": "tuần",
+      "to": "ngày"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "27 tuần bằng bao nhiêu ngày? Bạn An cho rằng đáp án là 189 ngày. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "27 × 7 = 189 ngày.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-8c980e1ffaaeda57",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t5",
+    "fingerprint": "1e95e2577bfc81f555d4a1708168559a",
+    "generatorParams": {
+      "value": 27,
+      "factor": 100,
+      "from": "thế kỉ",
+      "to": "năm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "27 thế kỉ bằng bao nhiêu năm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2700,
+      "unit": "năm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "27 × 100 = 2.700 năm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-a0779ffe98ecbabd",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t1",
+    "fingerprint": "7659b3b62cccc04bcf17e59ff31aa87e",
+    "generatorParams": {
+      "value": 28,
+      "factor": 60,
+      "from": "giờ",
+      "to": "phút"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "28 giờ bằng bao nhiêu phút?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1680,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 giờ = 60 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "28 × 60 = 1.680 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-2d7e293b5643bd89",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t2",
+    "fingerprint": "4f1cbf9c708aefee837c997b3c9be305",
+    "generatorParams": {
+      "value": 28,
+      "factor": 60,
+      "from": "phút",
+      "to": "giây"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "28 phút bằng bao nhiêu giây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1680,
+      "unit": "giây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 phút = 60 giây."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "28 × 60 = 1.680 giây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-e4398150046a15e0",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t3",
+    "fingerprint": "3cedbe0e75f9dc672602478667722e3b",
+    "generatorParams": {
+      "value": 28,
+      "factor": 24,
+      "from": "ngày",
+      "to": "giờ"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "28 ngày bằng bao nhiêu giờ?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "739 giờ"
+      },
+      {
+        "id": "option-2",
+        "label": "806 giờ"
+      },
+      {
+        "id": "option-3",
+        "label": "672 giờ"
+      },
+      {
+        "id": "option-4",
+        "label": "605 giờ"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 ngày = 24 giờ."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "28 × 24 = 672 giờ.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-0c2aa105a11b5e71",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t4",
+    "fingerprint": "9300d4795b2df9632dac40186483847d",
+    "generatorParams": {
+      "value": 28,
+      "factor": 7,
+      "from": "tuần",
+      "to": "ngày"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "28 tuần bằng bao nhiêu ngày? Bạn An cho rằng đáp án là 215 ngày. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tuần = 7 ngày."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "28 × 7 = 196 ngày.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-time-conversion-1c756ea4e9f23b5a",
+    "contentVersion": "grade4-v3",
+    "templateId": "time-conversion-t5",
+    "fingerprint": "6cd9aa47bd3eb9d7d96085145cf47449",
+    "generatorParams": {
+      "value": 28,
+      "factor": 100,
+      "from": "thế kỉ",
+      "to": "năm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "time-conversion-skill",
+    "problemTypeId": "time-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "28 thế kỉ bằng bao nhiêu năm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2800,
+      "unit": "năm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 thế kỉ = 100 năm."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi thời gian về cùng một đơn vị rồi tính nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "28 × 100 = 2.800 năm.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

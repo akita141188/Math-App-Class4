@@ -1,0 +1,6822 @@
+[
+  {
+    "id": "g4-average-problem-414c2646eaf0be45",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t1",
+    "fingerprint": "6075120bbf5d160985c38ef71e3080dc",
+    "generatorParams": {
+      "first": 20,
+      "second": 22,
+      "third": 24
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 20, 22, 24 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 22,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(20 + 22 + 24) : 3 = 22 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-36e51f2410a835fc",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t2",
+    "fingerprint": "0ff66fe248eb25bb348691b4746afd2d",
+    "generatorParams": {
+      "first": 20,
+      "second": 23,
+      "third": 26
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 20, 23, 26 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 23,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(20 + 23 + 26) : 3 = 23 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-1c4cb2ecd6f62d34",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t3",
+    "fingerprint": "62217acc8631064fee6ec1a1b20a5201",
+    "generatorParams": {
+      "first": 20,
+      "second": 24,
+      "third": 28
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 20, 24, 28 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "22 cây"
+      },
+      {
+        "id": "option-2",
+        "label": "26 cây"
+      },
+      {
+        "id": "option-3",
+        "label": "28 cây"
+      },
+      {
+        "id": "option-4",
+        "label": "24 cây"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(20 + 24 + 28) : 3 = 24 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-673723c494cc55a0",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t4",
+    "fingerprint": "9f612ee0ff7144c6378c6110fc30ad9a",
+    "generatorParams": {
+      "first": 20,
+      "second": 25,
+      "third": 30
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 20, 25, 30 cây. Trung bình mỗi lớp trồng bao nhiêu cây? Bạn An cho rằng đáp án là 25 cây. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(20 + 25 + 30) : 3 = 25 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-44f1ce06ee7a7f48",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t5",
+    "fingerprint": "42a8bb691294f28f7bec542517f2e25d",
+    "generatorParams": {
+      "first": 20,
+      "second": 26,
+      "third": 32
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 20, 26, 32 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 26,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(20 + 26 + 32) : 3 = 26 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-1743fea743b68b7d",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t1",
+    "fingerprint": "272d3005b8d0eda50e875c74f5667482",
+    "generatorParams": {
+      "first": 22,
+      "second": 24,
+      "third": 26
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 22, 24, 26 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 24,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(22 + 24 + 26) : 3 = 24 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-7a7d6d7965f61346",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t2",
+    "fingerprint": "d7fd89be9b3142e9d035f3c76e14f0d3",
+    "generatorParams": {
+      "first": 22,
+      "second": 25,
+      "third": 28
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 22, 25, 28 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 25,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(22 + 25 + 28) : 3 = 25 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-e8b87c6782326a90",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t3",
+    "fingerprint": "5ab47df57d176ec4903057bde7ed3f68",
+    "generatorParams": {
+      "first": 22,
+      "second": 26,
+      "third": 30
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 22, 26, 30 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "24 cây"
+      },
+      {
+        "id": "option-2",
+        "label": "26 cây"
+      },
+      {
+        "id": "option-3",
+        "label": "28 cây"
+      },
+      {
+        "id": "option-4",
+        "label": "30 cây"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(22 + 26 + 30) : 3 = 26 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-b85d078bb70859d7",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t4",
+    "fingerprint": "f2561053387d97a20a9da76bee8b83c0",
+    "generatorParams": {
+      "first": 22,
+      "second": 27,
+      "third": 32
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 22, 27, 32 cây. Trung bình mỗi lớp trồng bao nhiêu cây? Bạn An cho rằng đáp án là 29 cây. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(22 + 27 + 32) : 3 = 27 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-8d80aaecae39bb72",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t5",
+    "fingerprint": "04f7be085a97eeddb9266f04594ee764",
+    "generatorParams": {
+      "first": 22,
+      "second": 28,
+      "third": 34
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 22, 28, 34 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 28,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(22 + 28 + 34) : 3 = 28 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-d56e0fd60dad23e9",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t1",
+    "fingerprint": "6ba90612bf19c8d63c87fcb9ef96cd22",
+    "generatorParams": {
+      "first": 24,
+      "second": 26,
+      "third": 28
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 24, 26, 28 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 26,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(24 + 26 + 28) : 3 = 26 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-a7771c00b957d004",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t2",
+    "fingerprint": "320ecca58b9db23d6f16b635b20e9627",
+    "generatorParams": {
+      "first": 24,
+      "second": 27,
+      "third": 30
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 24, 27, 30 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 27,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(24 + 27 + 30) : 3 = 27 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-79a348fcf030fa8e",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t3",
+    "fingerprint": "6b9512037c3af8f75b3f5daf2cc06c9b",
+    "generatorParams": {
+      "first": 24,
+      "second": 28,
+      "third": 32
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 24, 28, 32 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "30 cây"
+      },
+      {
+        "id": "option-2",
+        "label": "32 cây"
+      },
+      {
+        "id": "option-3",
+        "label": "26 cây"
+      },
+      {
+        "id": "option-4",
+        "label": "28 cây"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(24 + 28 + 32) : 3 = 28 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-83911d73c4f42072",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t4",
+    "fingerprint": "c67410b795a8d44e81822b83d55a0c69",
+    "generatorParams": {
+      "first": 24,
+      "second": 29,
+      "third": 34
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 24, 29, 34 cây. Trung bình mỗi lớp trồng bao nhiêu cây? Bạn An cho rằng đáp án là 29 cây. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(24 + 29 + 34) : 3 = 29 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-a72b73e50b516b4a",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t5",
+    "fingerprint": "c0077396bf8953ade39278187047cc5b",
+    "generatorParams": {
+      "first": 24,
+      "second": 30,
+      "third": 36
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 24, 30, 36 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 30,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(24 + 30 + 36) : 3 = 30 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-c8fab6f6219f2384",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t1",
+    "fingerprint": "0f20e4f183e3427cac4c818fb761b762",
+    "generatorParams": {
+      "first": 26,
+      "second": 28,
+      "third": 30
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 26, 28, 30 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 28,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(26 + 28 + 30) : 3 = 28 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-de829c59f6295292",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t2",
+    "fingerprint": "59eb93fc76f27acdd18605577fa53a09",
+    "generatorParams": {
+      "first": 26,
+      "second": 29,
+      "third": 32
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 26, 29, 32 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 29,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(26 + 29 + 32) : 3 = 29 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-5b9fbec0d847a5f7",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t3",
+    "fingerprint": "23b29d41414ea1a0b5b5044034f14837",
+    "generatorParams": {
+      "first": 26,
+      "second": 30,
+      "third": 34
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 26, 30, 34 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "33 cây"
+      },
+      {
+        "id": "option-2",
+        "label": "27 cây"
+      },
+      {
+        "id": "option-3",
+        "label": "36 cây"
+      },
+      {
+        "id": "option-4",
+        "label": "30 cây"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(26 + 30 + 34) : 3 = 30 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-c6dd94a20669f0db",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t4",
+    "fingerprint": "709c8f4533b3b17db0cf49f28707edfa",
+    "generatorParams": {
+      "first": 26,
+      "second": 31,
+      "third": 36
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 26, 31, 36 cây. Trung bình mỗi lớp trồng bao nhiêu cây? Bạn An cho rằng đáp án là 34 cây. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(26 + 31 + 36) : 3 = 31 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-f8ca2b5e9d56fc21",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t5",
+    "fingerprint": "a5fac41587ef35d7551a1c40373aae94",
+    "generatorParams": {
+      "first": 26,
+      "second": 32,
+      "third": 38
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 26, 32, 38 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 32,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(26 + 32 + 38) : 3 = 32 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-693702171afb4bb8",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t1",
+    "fingerprint": "90a6575010136a27597a8144d5270b6a",
+    "generatorParams": {
+      "first": 28,
+      "second": 30,
+      "third": 32
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 28, 30, 32 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 30,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(28 + 30 + 32) : 3 = 30 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-ad430bb5cf711c71",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t2",
+    "fingerprint": "333b2e082f17d6f0b559c3b71291c648",
+    "generatorParams": {
+      "first": 28,
+      "second": 31,
+      "third": 34
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 28, 31, 34 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 31,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(28 + 31 + 34) : 3 = 31 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-94799b832f57969b",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t3",
+    "fingerprint": "fd2004ff4b8507181a0b872473e5c0e5",
+    "generatorParams": {
+      "first": 28,
+      "second": 32,
+      "third": 36
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 28, 32, 36 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "38 cây"
+      },
+      {
+        "id": "option-2",
+        "label": "35 cây"
+      },
+      {
+        "id": "option-3",
+        "label": "29 cây"
+      },
+      {
+        "id": "option-4",
+        "label": "32 cây"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(28 + 32 + 36) : 3 = 32 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-e5360d3adc35716a",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t4",
+    "fingerprint": "0bd80aeec19d720a3518c2942eec0051",
+    "generatorParams": {
+      "first": 28,
+      "second": 33,
+      "third": 38
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 28, 33, 38 cây. Trung bình mỗi lớp trồng bao nhiêu cây? Bạn An cho rằng đáp án là 33 cây. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(28 + 33 + 38) : 3 = 33 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-e45db4fd1f7fb747",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t5",
+    "fingerprint": "7ef7e292c794672ca7058ac955728f31",
+    "generatorParams": {
+      "first": 28,
+      "second": 34,
+      "third": 40
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 28, 34, 40 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 34,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(28 + 34 + 40) : 3 = 34 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-861cbfc3f24cb1ed",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t1",
+    "fingerprint": "71df4ed7e16084a73cb0a122cfd677fe",
+    "generatorParams": {
+      "first": 30,
+      "second": 32,
+      "third": 34
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 30, 32, 34 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 32,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(30 + 32 + 34) : 3 = 32 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-ea0fdc3d331949cc",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t2",
+    "fingerprint": "74dcbb20c1690eafbaff209a66afc4e4",
+    "generatorParams": {
+      "first": 30,
+      "second": 33,
+      "third": 36
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 30, 33, 36 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 33,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(30 + 33 + 36) : 3 = 33 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-c23137e50db0c9e7",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t3",
+    "fingerprint": "de498101a83765e9fc014dc63f3e1d6d",
+    "generatorParams": {
+      "first": 30,
+      "second": 34,
+      "third": 38
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 30, 34, 38 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "40 cây"
+      },
+      {
+        "id": "option-2",
+        "label": "31 cây"
+      },
+      {
+        "id": "option-3",
+        "label": "37 cây"
+      },
+      {
+        "id": "option-4",
+        "label": "34 cây"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(30 + 34 + 38) : 3 = 34 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-d5d3ce7c56081fce",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t4",
+    "fingerprint": "7fd270ac9a746bc585fee7bc9a152fad",
+    "generatorParams": {
+      "first": 30,
+      "second": 35,
+      "third": 40
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 30, 35, 40 cây. Trung bình mỗi lớp trồng bao nhiêu cây? Bạn An cho rằng đáp án là 38 cây. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(30 + 35 + 40) : 3 = 35 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-e5fae7a7d1e7aa54",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t5",
+    "fingerprint": "7046faf4a1e78b0988febda29515a4b8",
+    "generatorParams": {
+      "first": 30,
+      "second": 36,
+      "third": 42
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 30, 36, 42 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 36,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(30 + 36 + 42) : 3 = 36 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-9ee5c1f6cfd5a0b1",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t1",
+    "fingerprint": "4bb2f5ff1e1c3f856fda2d12aa770f71",
+    "generatorParams": {
+      "first": 37,
+      "second": 39,
+      "third": 41
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 37, 39, 41 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 39,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(37 + 39 + 41) : 3 = 39 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-db9c9c01e17c928b",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t2",
+    "fingerprint": "b3c500df4ce0c0df8f5900b71e98d130",
+    "generatorParams": {
+      "first": 37,
+      "second": 40,
+      "third": 43
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 37, 40, 43 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 40,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(37 + 40 + 43) : 3 = 40 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-e820eaea235a9d8e",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t3",
+    "fingerprint": "f12373b3aa6e5f20fb5f3a50be86aaaa",
+    "generatorParams": {
+      "first": 37,
+      "second": 41,
+      "third": 45
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 37, 41, 45 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "41 cây"
+      },
+      {
+        "id": "option-2",
+        "label": "37 cây"
+      },
+      {
+        "id": "option-3",
+        "label": "45 cây"
+      },
+      {
+        "id": "option-4",
+        "label": "49 cây"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(37 + 41 + 45) : 3 = 41 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-786932d62e1ac559",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t4",
+    "fingerprint": "e3f9d36604272949d8e767558a3fdaaf",
+    "generatorParams": {
+      "first": 37,
+      "second": 42,
+      "third": 47
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 37, 42, 47 cây. Trung bình mỗi lớp trồng bao nhiêu cây? Bạn An cho rằng đáp án là 42 cây. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(37 + 42 + 47) : 3 = 42 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-95e2f02de3c8b5f0",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t5",
+    "fingerprint": "603cab8285f829b11a37e97bf390090a",
+    "generatorParams": {
+      "first": 37,
+      "second": 43,
+      "third": 49
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 37, 43, 49 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 43,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(37 + 43 + 49) : 3 = 43 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-c9741ba8493d1e38",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t1",
+    "fingerprint": "4bac32bca14d7ebf1174a6666a7729f5",
+    "generatorParams": {
+      "first": 39,
+      "second": 41,
+      "third": 43
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 39, 41, 43 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 41,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(39 + 41 + 43) : 3 = 41 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-803504d8c7e56a11",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t2",
+    "fingerprint": "741541318b88beef537d501339184618",
+    "generatorParams": {
+      "first": 39,
+      "second": 42,
+      "third": 45
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 39, 42, 45 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 42,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(39 + 42 + 45) : 3 = 42 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-2b85cb53a0158caf",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t3",
+    "fingerprint": "efd3b4e3d24851214145ed7735f01448",
+    "generatorParams": {
+      "first": 39,
+      "second": 43,
+      "third": 47
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 39, 43, 47 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "43 cây"
+      },
+      {
+        "id": "option-2",
+        "label": "39 cây"
+      },
+      {
+        "id": "option-3",
+        "label": "51 cây"
+      },
+      {
+        "id": "option-4",
+        "label": "47 cây"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(39 + 43 + 47) : 3 = 43 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-f912d0124b360a75",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t4",
+    "fingerprint": "f250562c612f4516c4835410703134cf",
+    "generatorParams": {
+      "first": 39,
+      "second": 44,
+      "third": 49
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 39, 44, 49 cây. Trung bình mỗi lớp trồng bao nhiêu cây? Bạn An cho rằng đáp án là 48 cây. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(39 + 44 + 49) : 3 = 44 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-58865915fab50c92",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t5",
+    "fingerprint": "dfc3cad4f5c4f308f4ffe3551ccb6b49",
+    "generatorParams": {
+      "first": 39,
+      "second": 45,
+      "third": 51
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 39, 45, 51 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 45,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(39 + 45 + 51) : 3 = 45 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-3f9b57e7c63c731a",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t1",
+    "fingerprint": "6db39f3c4491a7c6a52622bdb96cd826",
+    "generatorParams": {
+      "first": 41,
+      "second": 43,
+      "third": 45
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 41, 43, 45 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 43,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(41 + 43 + 45) : 3 = 43 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-45009c6568033551",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t2",
+    "fingerprint": "23ab488cd8ad58ce3410e7fffe280b57",
+    "generatorParams": {
+      "first": 41,
+      "second": 44,
+      "third": 47
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 41, 44, 47 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 44,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(41 + 44 + 47) : 3 = 44 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-ed90e42c23283ea9",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t3",
+    "fingerprint": "a455f32e1f9287ee18430ff588741d3a",
+    "generatorParams": {
+      "first": 41,
+      "second": 45,
+      "third": 49
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 41, 45, 49 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "41 cây"
+      },
+      {
+        "id": "option-2",
+        "label": "49 cây"
+      },
+      {
+        "id": "option-3",
+        "label": "45 cây"
+      },
+      {
+        "id": "option-4",
+        "label": "53 cây"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(41 + 45 + 49) : 3 = 45 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-1831cc60780a5b22",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t4",
+    "fingerprint": "f2398183e4f6c88130e4e04bace0a6e1",
+    "generatorParams": {
+      "first": 41,
+      "second": 46,
+      "third": 51
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 41, 46, 51 cây. Trung bình mỗi lớp trồng bao nhiêu cây? Bạn An cho rằng đáp án là 46 cây. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(41 + 46 + 51) : 3 = 46 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-5679789963904b18",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t5",
+    "fingerprint": "1bf163ad5891043913ef4bea9919e53a",
+    "generatorParams": {
+      "first": 41,
+      "second": 47,
+      "third": 53
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 41, 47, 53 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 47,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(41 + 47 + 53) : 3 = 47 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-39bda15505decd73",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t1",
+    "fingerprint": "5534ad075788d1a1e929335718c9a7b8",
+    "generatorParams": {
+      "first": 43,
+      "second": 45,
+      "third": 47
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 43, 45, 47 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 45,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(43 + 45 + 47) : 3 = 45 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-60f84b916e719bd5",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t2",
+    "fingerprint": "62fe788bcf49a2279ab734281410cb11",
+    "generatorParams": {
+      "first": 43,
+      "second": 46,
+      "third": 49
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 43, 46, 49 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 46,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(43 + 46 + 49) : 3 = 46 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-4646fbde5c4f7092",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t3",
+    "fingerprint": "10492fa85c2f8d3f1dc8f46cb62d9bd8",
+    "generatorParams": {
+      "first": 43,
+      "second": 47,
+      "third": 51
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 43, 47, 51 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "43 cây"
+      },
+      {
+        "id": "option-2",
+        "label": "55 cây"
+      },
+      {
+        "id": "option-3",
+        "label": "51 cây"
+      },
+      {
+        "id": "option-4",
+        "label": "47 cây"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(43 + 47 + 51) : 3 = 47 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-aa384c5aa8edd598",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t4",
+    "fingerprint": "b35ae63e7cee953852fb46c3d03d441e",
+    "generatorParams": {
+      "first": 43,
+      "second": 48,
+      "third": 53
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 43, 48, 53 cây. Trung bình mỗi lớp trồng bao nhiêu cây? Bạn An cho rằng đáp án là 52 cây. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(43 + 48 + 53) : 3 = 48 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-1ec24e40ed5acc2e",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t5",
+    "fingerprint": "709ff1046d0bb1d75b1fe5cb8fe58442",
+    "generatorParams": {
+      "first": 43,
+      "second": 49,
+      "third": 55
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 43, 49, 55 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 49,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(43 + 49 + 55) : 3 = 49 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-0f297dd5a094b051",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t1",
+    "fingerprint": "7857c5278e55de9ade8829a67cffd2a6",
+    "generatorParams": {
+      "first": 45,
+      "second": 47,
+      "third": 49
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 45, 47, 49 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 47,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(45 + 47 + 49) : 3 = 47 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-3b3ce454637eb2ab",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t2",
+    "fingerprint": "f01113fd7da5262926b3fff697506846",
+    "generatorParams": {
+      "first": 45,
+      "second": 48,
+      "third": 51
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 45, 48, 51 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 48,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(45 + 48 + 51) : 3 = 48 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-2717ebd53dbf395c",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t3",
+    "fingerprint": "2a2e8f566812b9630b5d01c28c22e9a9",
+    "generatorParams": {
+      "first": 45,
+      "second": 49,
+      "third": 53
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 45, 49, 53 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "53 cây"
+      },
+      {
+        "id": "option-2",
+        "label": "45 cây"
+      },
+      {
+        "id": "option-3",
+        "label": "49 cây"
+      },
+      {
+        "id": "option-4",
+        "label": "57 cây"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(45 + 49 + 53) : 3 = 49 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-bad9d0a09ef73dcd",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t4",
+    "fingerprint": "327b7903cecd78ccd26e5e2ccbe0771f",
+    "generatorParams": {
+      "first": 45,
+      "second": 50,
+      "third": 55
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 45, 50, 55 cây. Trung bình mỗi lớp trồng bao nhiêu cây? Bạn An cho rằng đáp án là 50 cây. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(45 + 50 + 55) : 3 = 50 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-a26a74d44455bb8a",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t5",
+    "fingerprint": "e57592f64a29f8349011ad8a2127dd17",
+    "generatorParams": {
+      "first": 45,
+      "second": 51,
+      "third": 57
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 45, 51, 57 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 51,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(45 + 51 + 57) : 3 = 51 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-1f9411cb69496857",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t1",
+    "fingerprint": "5b938eec8c18c3c51fdfc80ba50c0954",
+    "generatorParams": {
+      "first": 47,
+      "second": 49,
+      "third": 51
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 47, 49, 51 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 49,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(47 + 49 + 51) : 3 = 49 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-d55c6fae836fee78",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t2",
+    "fingerprint": "20f30e79a8c887161826784d6cbd8144",
+    "generatorParams": {
+      "first": 47,
+      "second": 50,
+      "third": 53
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 47, 50, 53 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 50,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(47 + 50 + 53) : 3 = 50 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-8d1fe5e45b5190d6",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t3",
+    "fingerprint": "ca1eb994d61cc437c57a8b57bcae78ea",
+    "generatorParams": {
+      "first": 47,
+      "second": 51,
+      "third": 55
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 47, 51, 55 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "51 cây"
+      },
+      {
+        "id": "option-2",
+        "label": "61 cây"
+      },
+      {
+        "id": "option-3",
+        "label": "46 cây"
+      },
+      {
+        "id": "option-4",
+        "label": "56 cây"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(47 + 51 + 55) : 3 = 51 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-8e484ba203fa0cd4",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t4",
+    "fingerprint": "66163940066d68a26c4a7cdd318622e9",
+    "generatorParams": {
+      "first": 47,
+      "second": 52,
+      "third": 57
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 47, 52, 57 cây. Trung bình mỗi lớp trồng bao nhiêu cây? Bạn An cho rằng đáp án là 57 cây. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(47 + 52 + 57) : 3 = 52 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-e2c306e093c085b9",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t5",
+    "fingerprint": "4b19212a8b2eab034df8572d9c63a59d",
+    "generatorParams": {
+      "first": 47,
+      "second": 53,
+      "third": 59
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 47, 53, 59 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 53,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(47 + 53 + 59) : 3 = 53 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-8a5a3e4197eca84e",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t1",
+    "fingerprint": "c81fc7aadaaa3b19fe8165fc490e83d3",
+    "generatorParams": {
+      "first": 49,
+      "second": 51,
+      "third": 53
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 49, 51, 53 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 51,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(49 + 51 + 53) : 3 = 51 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-2b93725de54399d2",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t2",
+    "fingerprint": "d30d71e344c2014c264b0404ac1cb96d",
+    "generatorParams": {
+      "first": 49,
+      "second": 52,
+      "third": 55
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 49, 52, 55 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 52,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(49 + 52 + 55) : 3 = 52 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-af3f2526ecb30528",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t3",
+    "fingerprint": "df876cced90a7ed98db679fb44e9c210",
+    "generatorParams": {
+      "first": 49,
+      "second": 53,
+      "third": 57
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 49, 53, 57 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "58 cây"
+      },
+      {
+        "id": "option-2",
+        "label": "63 cây"
+      },
+      {
+        "id": "option-3",
+        "label": "48 cây"
+      },
+      {
+        "id": "option-4",
+        "label": "53 cây"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(49 + 53 + 57) : 3 = 53 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-384fab8f34ae5ad0",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t4",
+    "fingerprint": "cf19a3601cb6795cc38dcc12f1a59c51",
+    "generatorParams": {
+      "first": 49,
+      "second": 54,
+      "third": 59
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 49, 54, 59 cây. Trung bình mỗi lớp trồng bao nhiêu cây? Bạn An cho rằng đáp án là 54 cây. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(49 + 54 + 59) : 3 = 54 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-0cbf6091b316899f",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t5",
+    "fingerprint": "65c0510f4fd3784ff7f5109b43908f70",
+    "generatorParams": {
+      "first": 49,
+      "second": 55,
+      "third": 61
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 49, 55, 61 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 55,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(49 + 55 + 61) : 3 = 55 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-95589e52f1f80e76",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t1",
+    "fingerprint": "3de0f138797b69af8015918c58c90bb1",
+    "generatorParams": {
+      "first": 51,
+      "second": 53,
+      "third": 55
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 51, 53, 55 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 53,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(51 + 53 + 55) : 3 = 53 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-5bbc94fdfdda1ab0",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t2",
+    "fingerprint": "b83cd2d7a225588c73fdabc83d5326a4",
+    "generatorParams": {
+      "first": 51,
+      "second": 54,
+      "third": 57
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 51, 54, 57 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 54,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(51 + 54 + 57) : 3 = 54 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-72b3a42e8e30ab04",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t3",
+    "fingerprint": "5400a5b57d7a8c50cc4874b8c110e500",
+    "generatorParams": {
+      "first": 51,
+      "second": 55,
+      "third": 59
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 51, 55, 59 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "65 cây"
+      },
+      {
+        "id": "option-2",
+        "label": "60 cây"
+      },
+      {
+        "id": "option-3",
+        "label": "55 cây"
+      },
+      {
+        "id": "option-4",
+        "label": "50 cây"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(51 + 55 + 59) : 3 = 55 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-a28b1efa900cb157",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t4",
+    "fingerprint": "5c9c5cd24d82b21ab4d07235aed359ec",
+    "generatorParams": {
+      "first": 51,
+      "second": 56,
+      "third": 61
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 51, 56, 61 cây. Trung bình mỗi lớp trồng bao nhiêu cây? Bạn An cho rằng đáp án là 61 cây. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(51 + 56 + 61) : 3 = 56 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-d6a752c9b06b78a1",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t5",
+    "fingerprint": "1de6e1b9ac13ce21c47da80be9b94fc4",
+    "generatorParams": {
+      "first": 51,
+      "second": 57,
+      "third": 63
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 51, 57, 63 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 57,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(51 + 57 + 63) : 3 = 57 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-4d955d57cf4e7ef1",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t1",
+    "fingerprint": "97e9d6fb631cfb58e2c0d453c2538e2e",
+    "generatorParams": {
+      "first": 53,
+      "second": 55,
+      "third": 57
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 53, 55, 57 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 55,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(53 + 55 + 57) : 3 = 55 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-ec8f9b7e2cf9f710",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t2",
+    "fingerprint": "c4c39d6f23ecea43f577862b891a0cbf",
+    "generatorParams": {
+      "first": 53,
+      "second": 56,
+      "third": 59
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 53, 56, 59 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 56,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(53 + 56 + 59) : 3 = 56 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-260510a03bb8cd6f",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t3",
+    "fingerprint": "943605a4a6c44fcee88eccbd95b659d6",
+    "generatorParams": {
+      "first": 53,
+      "second": 57,
+      "third": 61
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 53, 57, 61 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "62 cây"
+      },
+      {
+        "id": "option-2",
+        "label": "52 cây"
+      },
+      {
+        "id": "option-3",
+        "label": "57 cây"
+      },
+      {
+        "id": "option-4",
+        "label": "67 cây"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(53 + 57 + 61) : 3 = 57 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-adbe2cf83a795ecc",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t4",
+    "fingerprint": "e92755f624db249de15638f18127e60c",
+    "generatorParams": {
+      "first": 53,
+      "second": 58,
+      "third": 63
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 53, 58, 63 cây. Trung bình mỗi lớp trồng bao nhiêu cây? Bạn An cho rằng đáp án là 58 cây. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(53 + 58 + 63) : 3 = 58 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-c23bc3f17bacde03",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t5",
+    "fingerprint": "190da2e917c399a5cd5ab6f952c0c6ee",
+    "generatorParams": {
+      "first": 53,
+      "second": 59,
+      "third": 65
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 53, 59, 65 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 59,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(53 + 59 + 65) : 3 = 59 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-c77fae062b0d6999",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t1",
+    "fingerprint": "930ed70dba53364e08351bc4f842c834",
+    "generatorParams": {
+      "first": 55,
+      "second": 57,
+      "third": 59
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 55, 57, 59 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 57,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(55 + 57 + 59) : 3 = 57 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-be06b525f09b7936",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t2",
+    "fingerprint": "26351c5bf67497d9600ac989d8181be7",
+    "generatorParams": {
+      "first": 55,
+      "second": 58,
+      "third": 61
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 55, 58, 61 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 58,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(55 + 58 + 61) : 3 = 58 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-046e5ef6fcad9ea8",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t3",
+    "fingerprint": "7bfef529d9629031e547de6a362ee2cd",
+    "generatorParams": {
+      "first": 55,
+      "second": 59,
+      "third": 63
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 55, 59, 63 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "69 cây"
+      },
+      {
+        "id": "option-2",
+        "label": "64 cây"
+      },
+      {
+        "id": "option-3",
+        "label": "54 cây"
+      },
+      {
+        "id": "option-4",
+        "label": "59 cây"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(55 + 59 + 63) : 3 = 59 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-79bda5c8f1b59784",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t4",
+    "fingerprint": "b98b143c803d0abbcf399fbb0b5272c8",
+    "generatorParams": {
+      "first": 55,
+      "second": 60,
+      "third": 65
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 55, 60, 65 cây. Trung bình mỗi lớp trồng bao nhiêu cây? Bạn An cho rằng đáp án là 66 cây. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(55 + 60 + 65) : 3 = 60 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-7b5016d42020ea02",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t5",
+    "fingerprint": "388e7dd0449e58bf6ce61eb545345edb",
+    "generatorParams": {
+      "first": 55,
+      "second": 61,
+      "third": 67
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 55, 61, 67 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 61,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(55 + 61 + 67) : 3 = 61 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-813d20d7882925be",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t1",
+    "fingerprint": "77c9808e1b290c20d0a9fd68944d4d96",
+    "generatorParams": {
+      "first": 62,
+      "second": 64,
+      "third": 66
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 62, 64, 66 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 64,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(62 + 64 + 66) : 3 = 64 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-674b1e62d14d3673",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t2",
+    "fingerprint": "188e7ceb70d43a2bd3d7566cf712b8f6",
+    "generatorParams": {
+      "first": 62,
+      "second": 65,
+      "third": 68
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 62, 65, 68 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 65,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(62 + 65 + 68) : 3 = 65 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-637bfe32fe0a2675",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t3",
+    "fingerprint": "3980045449fdc8795123585424b819ee",
+    "generatorParams": {
+      "first": 62,
+      "second": 66,
+      "third": 70
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 62, 66, 70 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "78 cây"
+      },
+      {
+        "id": "option-2",
+        "label": "60 cây"
+      },
+      {
+        "id": "option-3",
+        "label": "72 cây"
+      },
+      {
+        "id": "option-4",
+        "label": "66 cây"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(62 + 66 + 70) : 3 = 66 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-71a1a4e51f49578b",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t4",
+    "fingerprint": "086d936f39fd6adff727726825f6b0c1",
+    "generatorParams": {
+      "first": 62,
+      "second": 67,
+      "third": 72
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 62, 67, 72 cây. Trung bình mỗi lớp trồng bao nhiêu cây? Bạn An cho rằng đáp án là 67 cây. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(62 + 67 + 72) : 3 = 67 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-f3a976bf8f6aed8c",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t5",
+    "fingerprint": "1d12c866f1364c171260fb05ea662190",
+    "generatorParams": {
+      "first": 62,
+      "second": 68,
+      "third": 74
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 62, 68, 74 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 68,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(62 + 68 + 74) : 3 = 68 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-f15e37a4a6b9b22d",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t1",
+    "fingerprint": "556036a7e7a144ee64362558890fb2b0",
+    "generatorParams": {
+      "first": 64,
+      "second": 66,
+      "third": 68
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 64, 66, 68 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 66,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(64 + 66 + 68) : 3 = 66 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-d61c8074e587f001",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t2",
+    "fingerprint": "85670b86052a6314d9a8e6ea1cdd730e",
+    "generatorParams": {
+      "first": 64,
+      "second": 67,
+      "third": 70
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 64, 67, 70 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 67,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(64 + 67 + 70) : 3 = 67 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-dcc1a11d91550972",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t3",
+    "fingerprint": "3068b7c4a8956b084dd4eca01511c58c",
+    "generatorParams": {
+      "first": 64,
+      "second": 68,
+      "third": 72
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 64, 68, 72 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "80 cây"
+      },
+      {
+        "id": "option-2",
+        "label": "74 cây"
+      },
+      {
+        "id": "option-3",
+        "label": "62 cây"
+      },
+      {
+        "id": "option-4",
+        "label": "68 cây"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(64 + 68 + 72) : 3 = 68 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-c84e2af3415c99e8",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t4",
+    "fingerprint": "f10e5ae6fb734baa08bd2e7ced8577a9",
+    "generatorParams": {
+      "first": 64,
+      "second": 69,
+      "third": 74
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 64, 69, 74 cây. Trung bình mỗi lớp trồng bao nhiêu cây? Bạn An cho rằng đáp án là 75 cây. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(64 + 69 + 74) : 3 = 69 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-e7636dde176d9040",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t5",
+    "fingerprint": "2b1611cb01b8373b184754471048de3d",
+    "generatorParams": {
+      "first": 64,
+      "second": 70,
+      "third": 76
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 64, 70, 76 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 70,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(64 + 70 + 76) : 3 = 70 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-54ebd7f937a7d5c0",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t1",
+    "fingerprint": "79684e80cc61b1697b1738a54e8ae33c",
+    "generatorParams": {
+      "first": 66,
+      "second": 68,
+      "third": 70
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 66, 68, 70 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 68,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(66 + 68 + 70) : 3 = 68 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-320d58432023030c",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t2",
+    "fingerprint": "1acb531d81a67700a5e23812b867e45f",
+    "generatorParams": {
+      "first": 66,
+      "second": 69,
+      "third": 72
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 66, 69, 72 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 69,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(66 + 69 + 72) : 3 = 69 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-6309ce66beebac2f",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t3",
+    "fingerprint": "e1a99583c0502badb22883d8acdd732d",
+    "generatorParams": {
+      "first": 66,
+      "second": 70,
+      "third": 74
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 66, 70, 74 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "63 cây"
+      },
+      {
+        "id": "option-2",
+        "label": "84 cây"
+      },
+      {
+        "id": "option-3",
+        "label": "70 cây"
+      },
+      {
+        "id": "option-4",
+        "label": "77 cây"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(66 + 70 + 74) : 3 = 70 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-77fd79cd8a588f74",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t4",
+    "fingerprint": "831ec8db86bc52f2a996f8a50fea817f",
+    "generatorParams": {
+      "first": 66,
+      "second": 71,
+      "third": 76
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 66, 71, 76 cây. Trung bình mỗi lớp trồng bao nhiêu cây? Bạn An cho rằng đáp án là 71 cây. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(66 + 71 + 76) : 3 = 71 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-b13d95a7b0cc6508",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t5",
+    "fingerprint": "072cf23b745b6f144764c5e6f3735543",
+    "generatorParams": {
+      "first": 66,
+      "second": 72,
+      "third": 78
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 66, 72, 78 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 72,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(66 + 72 + 78) : 3 = 72 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-3a99114491964b62",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t1",
+    "fingerprint": "115c5a80bb86fcbfdbd307af8d1fb51b",
+    "generatorParams": {
+      "first": 68,
+      "second": 70,
+      "third": 72
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 68, 70, 72 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 70,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(68 + 70 + 72) : 3 = 70 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-ec46625fbfd35866",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t2",
+    "fingerprint": "9601706fdd5fa3acbf0aa21b60f31775",
+    "generatorParams": {
+      "first": 68,
+      "second": 71,
+      "third": 74
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 68, 71, 74 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 71,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(68 + 71 + 74) : 3 = 71 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-04908da2c4454843",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t3",
+    "fingerprint": "869c931d0d52823590dce8c803059e6c",
+    "generatorParams": {
+      "first": 68,
+      "second": 72,
+      "third": 76
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 68, 72, 76 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "72 cây"
+      },
+      {
+        "id": "option-2",
+        "label": "86 cây"
+      },
+      {
+        "id": "option-3",
+        "label": "65 cây"
+      },
+      {
+        "id": "option-4",
+        "label": "79 cây"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(68 + 72 + 76) : 3 = 72 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-420b684a6bf6968e",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t4",
+    "fingerprint": "bd19e8cfbba1373a09cbf0c1378467f7",
+    "generatorParams": {
+      "first": 68,
+      "second": 73,
+      "third": 78
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 68, 73, 78 cây. Trung bình mỗi lớp trồng bao nhiêu cây? Bạn An cho rằng đáp án là 80 cây. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(68 + 73 + 78) : 3 = 73 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-average-problem-04a2f4bce5c7f306",
+    "contentVersion": "grade4-v3",
+    "templateId": "average-problem-t5",
+    "fingerprint": "a86329d5c106a35c0f351843e6d6f36f",
+    "generatorParams": {
+      "first": 68,
+      "second": 74,
+      "third": 80
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "average-problem-skill",
+    "problemTypeId": "average-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Ba lớp trồng lần lượt 68, 74, 80 cây. Trung bình mỗi lớp trồng bao nhiêu cây?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 74,
+      "unit": "cây"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Cộng số cây của ba lớp rồi chia cho 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(68 + 74 + 80) : 3 = 74 cây.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

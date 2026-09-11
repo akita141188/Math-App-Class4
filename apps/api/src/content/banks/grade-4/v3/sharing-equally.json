@@ -1,0 +1,6822 @@
+[
+  {
+    "id": "g4-sharing-equally-74af60794e1cc854",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t1",
+    "fingerprint": "1534b3979dcddc875d4cba8d823cdbf5",
+    "generatorParams": {
+      "people": 4,
+      "each": 9,
+      "total": 36
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 36 quyển vở cho 4 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 9,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "36 : 4 = 9, nên mỗi bạn nhận 9 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-9c1f9f070ca3e6f9",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t2",
+    "fingerprint": "031b8df493f422e2fe7e25536eea3f60",
+    "generatorParams": {
+      "people": 5,
+      "each": 10,
+      "total": 50
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 50 quyển vở cho 5 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 10,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "50 : 5 = 10, nên mỗi bạn nhận 10 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-2fc9b36bd6df92d1",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t3",
+    "fingerprint": "dfe6b1d10b4a6a4acf329a1f8e5dd17b",
+    "generatorParams": {
+      "people": 6,
+      "each": 11,
+      "total": 66
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 66 quyển vở cho 6 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "11 quyển"
+      },
+      {
+        "id": "option-2",
+        "label": "10 quyển"
+      },
+      {
+        "id": "option-3",
+        "label": "13 quyển"
+      },
+      {
+        "id": "option-4",
+        "label": "12 quyển"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "66 : 6 = 11, nên mỗi bạn nhận 11 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-b2e9e1e6f896ba53",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t4",
+    "fingerprint": "4119ddd45880563b1288ca43d7b1c36c",
+    "generatorParams": {
+      "people": 7,
+      "each": 12,
+      "total": 84
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 84 quyển vở cho 7 bạn. Mỗi bạn nhận được bao nhiêu quyển? Bạn An cho rằng đáp án là 12 quyển. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "84 : 7 = 12, nên mỗi bạn nhận 12 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-46a37b29a14c4fde",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t5",
+    "fingerprint": "8b347626080273576f7bae23ba5560fc",
+    "generatorParams": {
+      "people": 8,
+      "each": 13,
+      "total": 104
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 104 quyển vở cho 8 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 13,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "104 : 8 = 13, nên mỗi bạn nhận 13 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-476fca52bb8bbc69",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t1",
+    "fingerprint": "4089b10b64b3288f92d658158acde202",
+    "generatorParams": {
+      "people": 5,
+      "each": 10,
+      "total": 50
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 50 quyển vở cho 5 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 10,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "50 : 5 = 10, nên mỗi bạn nhận 10 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-0afe49fb555eec7e",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t2",
+    "fingerprint": "1afb372ce32de09b28eaed090cae8add",
+    "generatorParams": {
+      "people": 6,
+      "each": 11,
+      "total": 66
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 66 quyển vở cho 6 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 11,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "66 : 6 = 11, nên mỗi bạn nhận 11 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-58b7b86c90ddeac4",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t3",
+    "fingerprint": "9af0fe171a0ca1d513cc8488fab5204a",
+    "generatorParams": {
+      "people": 7,
+      "each": 12,
+      "total": 84
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 84 quyển vở cho 7 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "14 quyển"
+      },
+      {
+        "id": "option-2",
+        "label": "13 quyển"
+      },
+      {
+        "id": "option-3",
+        "label": "12 quyển"
+      },
+      {
+        "id": "option-4",
+        "label": "11 quyển"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "84 : 7 = 12, nên mỗi bạn nhận 12 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-4b7ee8e11f13ebf7",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t4",
+    "fingerprint": "4e720b9dbfc9b917776d7272b80c5416",
+    "generatorParams": {
+      "people": 8,
+      "each": 13,
+      "total": 104
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 104 quyển vở cho 8 bạn. Mỗi bạn nhận được bao nhiêu quyển? Bạn An cho rằng đáp án là 14 quyển. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "104 : 8 = 13, nên mỗi bạn nhận 13 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-ae283c354fae93e0",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t5",
+    "fingerprint": "c052cb524483ee0cd2fea651e1b321a0",
+    "generatorParams": {
+      "people": 9,
+      "each": 14,
+      "total": 126
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 126 quyển vở cho 9 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 14,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "126 : 9 = 14, nên mỗi bạn nhận 14 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-4bae20c3bf612294",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t1",
+    "fingerprint": "c69f7974daa235f07c2709e64aeab0b5",
+    "generatorParams": {
+      "people": 6,
+      "each": 11,
+      "total": 66
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 66 quyển vở cho 6 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 11,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "66 : 6 = 11, nên mỗi bạn nhận 11 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-d46851eea4d356a8",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t2",
+    "fingerprint": "1eff6592ef7007ea1830b81bb2a02f61",
+    "generatorParams": {
+      "people": 7,
+      "each": 12,
+      "total": 84
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 84 quyển vở cho 7 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 12,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "84 : 7 = 12, nên mỗi bạn nhận 12 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-6a4c2319126fe846",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t3",
+    "fingerprint": "46ef0bd5348b8e6f05e79193870bf233",
+    "generatorParams": {
+      "people": 8,
+      "each": 13,
+      "total": 104
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 104 quyển vở cho 8 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "14 quyển"
+      },
+      {
+        "id": "option-2",
+        "label": "13 quyển"
+      },
+      {
+        "id": "option-3",
+        "label": "15 quyển"
+      },
+      {
+        "id": "option-4",
+        "label": "12 quyển"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "104 : 8 = 13, nên mỗi bạn nhận 13 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-a928cf875d0d64bf",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t4",
+    "fingerprint": "a2178d92ad04b3bb46a37a3cb9a3a243",
+    "generatorParams": {
+      "people": 9,
+      "each": 14,
+      "total": 126
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 126 quyển vở cho 9 bạn. Mỗi bạn nhận được bao nhiêu quyển? Bạn An cho rằng đáp án là 14 quyển. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "126 : 9 = 14, nên mỗi bạn nhận 14 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-19f45ccfe54115a9",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t5",
+    "fingerprint": "375591165dc9eb6eca9e1ac01e70e716",
+    "generatorParams": {
+      "people": 3,
+      "each": 15,
+      "total": 45
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 45 quyển vở cho 3 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 15,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "45 : 3 = 15, nên mỗi bạn nhận 15 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-9aad5bd00a1d425f",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t1",
+    "fingerprint": "e8f2c22103684d3849ae10ca23f7cdb1",
+    "generatorParams": {
+      "people": 7,
+      "each": 12,
+      "total": 84
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 84 quyển vở cho 7 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 12,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "84 : 7 = 12, nên mỗi bạn nhận 12 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-05ec33032f1632c3",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t2",
+    "fingerprint": "6cc8b61c166642a89b473e2731047d5f",
+    "generatorParams": {
+      "people": 8,
+      "each": 13,
+      "total": 104
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 104 quyển vở cho 8 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 13,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "104 : 8 = 13, nên mỗi bạn nhận 13 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-4eea6a5c3fa234cc",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t3",
+    "fingerprint": "331bf0a927c5e2399850c7929ca2fe80",
+    "generatorParams": {
+      "people": 9,
+      "each": 14,
+      "total": 126
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 126 quyển vở cho 9 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "16 quyển"
+      },
+      {
+        "id": "option-2",
+        "label": "14 quyển"
+      },
+      {
+        "id": "option-3",
+        "label": "15 quyển"
+      },
+      {
+        "id": "option-4",
+        "label": "13 quyển"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "126 : 9 = 14, nên mỗi bạn nhận 14 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-794c2f01152e90f4",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t4",
+    "fingerprint": "adfcfd4aafd1ce7a1e79a19b0103992e",
+    "generatorParams": {
+      "people": 3,
+      "each": 15,
+      "total": 45
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 45 quyển vở cho 3 bạn. Mỗi bạn nhận được bao nhiêu quyển? Bạn An cho rằng đáp án là 16 quyển. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "45 : 3 = 15, nên mỗi bạn nhận 15 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-a925b3f65edc3193",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t5",
+    "fingerprint": "4e35a63c521352be72862eb7ee2c82ee",
+    "generatorParams": {
+      "people": 4,
+      "each": 16,
+      "total": 64
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 64 quyển vở cho 4 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 16,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "64 : 4 = 16, nên mỗi bạn nhận 16 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-7e0a21ad3753fbe7",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t1",
+    "fingerprint": "d8e2c936c9c4069218bcabc5bd2e71e0",
+    "generatorParams": {
+      "people": 8,
+      "each": 13,
+      "total": 104
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 104 quyển vở cho 8 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 13,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "104 : 8 = 13, nên mỗi bạn nhận 13 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-097e7ae0b6ddcfbc",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t2",
+    "fingerprint": "38bc1fd447ac595e82a84f99a5260f4c",
+    "generatorParams": {
+      "people": 9,
+      "each": 14,
+      "total": 126
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 126 quyển vở cho 9 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 14,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "126 : 9 = 14, nên mỗi bạn nhận 14 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-413c0e06dd29fa46",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t3",
+    "fingerprint": "41c04a4fa516a5dc2718da6a1cc64aa8",
+    "generatorParams": {
+      "people": 3,
+      "each": 15,
+      "total": 45
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 45 quyển vở cho 3 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "17 quyển"
+      },
+      {
+        "id": "option-2",
+        "label": "14 quyển"
+      },
+      {
+        "id": "option-3",
+        "label": "16 quyển"
+      },
+      {
+        "id": "option-4",
+        "label": "15 quyển"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "45 : 3 = 15, nên mỗi bạn nhận 15 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-ae95271785613048",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t4",
+    "fingerprint": "2905434b46cf9becf257e1ba5f199c97",
+    "generatorParams": {
+      "people": 4,
+      "each": 16,
+      "total": 64
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 64 quyển vở cho 4 bạn. Mỗi bạn nhận được bao nhiêu quyển? Bạn An cho rằng đáp án là 16 quyển. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "64 : 4 = 16, nên mỗi bạn nhận 16 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-7303aca8d8edb725",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t5",
+    "fingerprint": "b8aac439cdace9483204c357c4aa467d",
+    "generatorParams": {
+      "people": 5,
+      "each": 17,
+      "total": 85
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 85 quyển vở cho 5 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 17,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "85 : 5 = 17, nên mỗi bạn nhận 17 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-87d64af044f52d14",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t1",
+    "fingerprint": "a4f602f76094e8c2cb396380b665f510",
+    "generatorParams": {
+      "people": 9,
+      "each": 20,
+      "total": 180
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 180 quyển vở cho 9 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 20,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "180 : 9 = 20, nên mỗi bạn nhận 20 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-1c63e3000799b6fa",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t2",
+    "fingerprint": "e7b91da758655f9a867a31ece3268af4",
+    "generatorParams": {
+      "people": 3,
+      "each": 21,
+      "total": 63
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 63 quyển vở cho 3 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 21,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "63 : 3 = 21, nên mỗi bạn nhận 21 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-2bd231e84b5b5b31",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t3",
+    "fingerprint": "f9a61718a685154d500259f810d05691",
+    "generatorParams": {
+      "people": 4,
+      "each": 22,
+      "total": 88
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 88 quyển vở cho 4 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "26 quyển"
+      },
+      {
+        "id": "option-2",
+        "label": "24 quyển"
+      },
+      {
+        "id": "option-3",
+        "label": "22 quyển"
+      },
+      {
+        "id": "option-4",
+        "label": "20 quyển"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "88 : 4 = 22, nên mỗi bạn nhận 22 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-97775947982229aa",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t4",
+    "fingerprint": "d877c0aaf7fd80e265f9a604c02ec7b5",
+    "generatorParams": {
+      "people": 5,
+      "each": 23,
+      "total": 115
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 115 quyển vở cho 5 bạn. Mỗi bạn nhận được bao nhiêu quyển? Bạn An cho rằng đáp án là 25 quyển. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "115 : 5 = 23, nên mỗi bạn nhận 23 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-647ee7740de06fd5",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t5",
+    "fingerprint": "5f7f39d40c42e6696b3627ef08c5f8a8",
+    "generatorParams": {
+      "people": 6,
+      "each": 24,
+      "total": 144
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 144 quyển vở cho 6 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 24,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "144 : 6 = 24, nên mỗi bạn nhận 24 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-db0b18a5c987a0fd",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t1",
+    "fingerprint": "192c69533804730447479869ee29a99c",
+    "generatorParams": {
+      "people": 3,
+      "each": 22,
+      "total": 66
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 66 quyển vở cho 3 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 22,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "66 : 3 = 22, nên mỗi bạn nhận 22 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-e476b5582119ae9a",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t2",
+    "fingerprint": "b6eda36c677f422f1761497da790fabe",
+    "generatorParams": {
+      "people": 4,
+      "each": 23,
+      "total": 92
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 92 quyển vở cho 4 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 23,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "92 : 4 = 23, nên mỗi bạn nhận 23 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-bffba585766b75e6",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t3",
+    "fingerprint": "71c5d453c63a2b337f8060e122c5e13c",
+    "generatorParams": {
+      "people": 5,
+      "each": 24,
+      "total": 120
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 120 quyển vở cho 5 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "26 quyển"
+      },
+      {
+        "id": "option-2",
+        "label": "28 quyển"
+      },
+      {
+        "id": "option-3",
+        "label": "24 quyển"
+      },
+      {
+        "id": "option-4",
+        "label": "22 quyển"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "120 : 5 = 24, nên mỗi bạn nhận 24 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-a72f21ff30b8518c",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t4",
+    "fingerprint": "dda6f4246cba19d0d8fa32594ba8adcc",
+    "generatorParams": {
+      "people": 6,
+      "each": 25,
+      "total": 150
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 150 quyển vở cho 6 bạn. Mỗi bạn nhận được bao nhiêu quyển? Bạn An cho rằng đáp án là 25 quyển. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "150 : 6 = 25, nên mỗi bạn nhận 25 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-56a93bc1327cdd02",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t5",
+    "fingerprint": "cfde508bfb1feccc2c59bec9f97645a4",
+    "generatorParams": {
+      "people": 7,
+      "each": 26,
+      "total": 182
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 182 quyển vở cho 7 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 26,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "182 : 7 = 26, nên mỗi bạn nhận 26 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-b72365ef7784f5ef",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t1",
+    "fingerprint": "3668800be8fcfef626da6d5df9b63834",
+    "generatorParams": {
+      "people": 4,
+      "each": 24,
+      "total": 96
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 96 quyển vở cho 4 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 24,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "96 : 4 = 24, nên mỗi bạn nhận 24 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-e5e5d4778f1c2715",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t2",
+    "fingerprint": "9924b74fb15a93369d96980e0f551463",
+    "generatorParams": {
+      "people": 5,
+      "each": 25,
+      "total": 125
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 125 quyển vở cho 5 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 25,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "125 : 5 = 25, nên mỗi bạn nhận 25 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-0229d44a93cdc4e4",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t3",
+    "fingerprint": "4223863273a8ad745e1d916d38e58ff7",
+    "generatorParams": {
+      "people": 6,
+      "each": 26,
+      "total": 156
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 156 quyển vở cho 6 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "26 quyển"
+      },
+      {
+        "id": "option-2",
+        "label": "28 quyển"
+      },
+      {
+        "id": "option-3",
+        "label": "30 quyển"
+      },
+      {
+        "id": "option-4",
+        "label": "24 quyển"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "156 : 6 = 26, nên mỗi bạn nhận 26 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-e16664f93bea89ed",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t4",
+    "fingerprint": "bd82fe0e75f35c70b634c3403c874c6a",
+    "generatorParams": {
+      "people": 7,
+      "each": 27,
+      "total": 189
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 189 quyển vở cho 7 bạn. Mỗi bạn nhận được bao nhiêu quyển? Bạn An cho rằng đáp án là 29 quyển. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "189 : 7 = 27, nên mỗi bạn nhận 27 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-6bd728a63eea698b",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t5",
+    "fingerprint": "9fc958955021a81e8f03bd7811870264",
+    "generatorParams": {
+      "people": 8,
+      "each": 28,
+      "total": 224
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 224 quyển vở cho 8 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 28,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "224 : 8 = 28, nên mỗi bạn nhận 28 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-8563bc9d00f6ffe3",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t1",
+    "fingerprint": "78e3216c90b89db38a79410efcdc5b00",
+    "generatorParams": {
+      "people": 5,
+      "each": 26,
+      "total": 130
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 130 quyển vở cho 5 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 26,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "130 : 5 = 26, nên mỗi bạn nhận 26 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-492d8809c6abd80a",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t2",
+    "fingerprint": "25166c5463ce7d5791f658514e275534",
+    "generatorParams": {
+      "people": 6,
+      "each": 27,
+      "total": 162
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 162 quyển vở cho 6 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 27,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "162 : 6 = 27, nên mỗi bạn nhận 27 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-cd662f5c8a5da9eb",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t3",
+    "fingerprint": "c970e098815ba616d8165227271aa154",
+    "generatorParams": {
+      "people": 7,
+      "each": 28,
+      "total": 196
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 196 quyển vở cho 7 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "32 quyển"
+      },
+      {
+        "id": "option-2",
+        "label": "30 quyển"
+      },
+      {
+        "id": "option-3",
+        "label": "26 quyển"
+      },
+      {
+        "id": "option-4",
+        "label": "28 quyển"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "196 : 7 = 28, nên mỗi bạn nhận 28 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-a56a6dafd5d385c9",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t4",
+    "fingerprint": "df78e8e7c28d8ad47bf886e8f7debb9e",
+    "generatorParams": {
+      "people": 8,
+      "each": 29,
+      "total": 232
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 232 quyển vở cho 8 bạn. Mỗi bạn nhận được bao nhiêu quyển? Bạn An cho rằng đáp án là 29 quyển. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "232 : 8 = 29, nên mỗi bạn nhận 29 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-a245cf77352e5ebc",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t5",
+    "fingerprint": "422befbddcc6a250f906014f808f2fd4",
+    "generatorParams": {
+      "people": 9,
+      "each": 30,
+      "total": 270
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 270 quyển vở cho 9 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 30,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "270 : 9 = 30, nên mỗi bạn nhận 30 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-5f57689690136a35",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t1",
+    "fingerprint": "c81ecf18e729436a56d896f5f2d09079",
+    "generatorParams": {
+      "people": 6,
+      "each": 28,
+      "total": 168
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 168 quyển vở cho 6 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 28,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "168 : 6 = 28, nên mỗi bạn nhận 28 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-bc31d01df46d85fc",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t2",
+    "fingerprint": "3798a610d942d7813c118190092cc3df",
+    "generatorParams": {
+      "people": 7,
+      "each": 29,
+      "total": 203
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 203 quyển vở cho 7 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 29,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "203 : 7 = 29, nên mỗi bạn nhận 29 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-3f3a25205ee141d0",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t3",
+    "fingerprint": "6e40fba7c345badbf90b3a3bae5487fe",
+    "generatorParams": {
+      "people": 8,
+      "each": 30,
+      "total": 240
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 240 quyển vở cho 8 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "33 quyển"
+      },
+      {
+        "id": "option-2",
+        "label": "36 quyển"
+      },
+      {
+        "id": "option-3",
+        "label": "30 quyển"
+      },
+      {
+        "id": "option-4",
+        "label": "27 quyển"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "240 : 8 = 30, nên mỗi bạn nhận 30 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-5417781f385fa129",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t4",
+    "fingerprint": "310d28eca370802890722cab89e7dc60",
+    "generatorParams": {
+      "people": 9,
+      "each": 31,
+      "total": 279
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 279 quyển vở cho 9 bạn. Mỗi bạn nhận được bao nhiêu quyển? Bạn An cho rằng đáp án là 34 quyển. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "279 : 9 = 31, nên mỗi bạn nhận 31 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-ae0e36d38ad9b6a2",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t5",
+    "fingerprint": "b97883269aef4ccac235ef2b5a42fb21",
+    "generatorParams": {
+      "people": 3,
+      "each": 32,
+      "total": 96
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 96 quyển vở cho 3 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 32,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "96 : 3 = 32, nên mỗi bạn nhận 32 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-4314d04e35df4832",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t1",
+    "fingerprint": "5a3c12e5e59353862feada1581db8adc",
+    "generatorParams": {
+      "people": 7,
+      "each": 30,
+      "total": 210
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 210 quyển vở cho 7 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 30,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "210 : 7 = 30, nên mỗi bạn nhận 30 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-a4ab21454ab21daf",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t2",
+    "fingerprint": "4e0603e161a89b483e5016f708d9b607",
+    "generatorParams": {
+      "people": 8,
+      "each": 31,
+      "total": 248
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 248 quyển vở cho 8 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 31,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "248 : 8 = 31, nên mỗi bạn nhận 31 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-4ef17ad1b5fa36f3",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t3",
+    "fingerprint": "df7cc93707e50c45a85ca28293b20519",
+    "generatorParams": {
+      "people": 9,
+      "each": 32,
+      "total": 288
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 288 quyển vở cho 9 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "38 quyển"
+      },
+      {
+        "id": "option-2",
+        "label": "32 quyển"
+      },
+      {
+        "id": "option-3",
+        "label": "35 quyển"
+      },
+      {
+        "id": "option-4",
+        "label": "29 quyển"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "288 : 9 = 32, nên mỗi bạn nhận 32 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-374f64590667270e",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t4",
+    "fingerprint": "3b88d49d7510df2d891b32aae10ddae7",
+    "generatorParams": {
+      "people": 3,
+      "each": 33,
+      "total": 99
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 99 quyển vở cho 3 bạn. Mỗi bạn nhận được bao nhiêu quyển? Bạn An cho rằng đáp án là 33 quyển. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "99 : 3 = 33, nên mỗi bạn nhận 33 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-f07061d35301333f",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t5",
+    "fingerprint": "d06ad538f829b2b8392f00549ec4310a",
+    "generatorParams": {
+      "people": 4,
+      "each": 34,
+      "total": 136
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 136 quyển vở cho 4 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 34,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "136 : 4 = 34, nên mỗi bạn nhận 34 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-e12bf83986b3654d",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t1",
+    "fingerprint": "fa57b6e128e2494ebdb54f8c2b3cd789",
+    "generatorParams": {
+      "people": 8,
+      "each": 32,
+      "total": 256
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 256 quyển vở cho 8 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 32,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "256 : 8 = 32, nên mỗi bạn nhận 32 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-99b04a519aaaa56c",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t2",
+    "fingerprint": "38101964132a527c74abd33f4631915e",
+    "generatorParams": {
+      "people": 9,
+      "each": 33,
+      "total": 297
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 297 quyển vở cho 9 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 33,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "297 : 9 = 33, nên mỗi bạn nhận 33 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-814ea3c38ef0c84b",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t3",
+    "fingerprint": "bc8e9be3b2573b1de481013ac1fbffef",
+    "generatorParams": {
+      "people": 3,
+      "each": 34,
+      "total": 102
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 102 quyển vở cho 3 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "37 quyển"
+      },
+      {
+        "id": "option-2",
+        "label": "34 quyển"
+      },
+      {
+        "id": "option-3",
+        "label": "31 quyển"
+      },
+      {
+        "id": "option-4",
+        "label": "40 quyển"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "102 : 3 = 34, nên mỗi bạn nhận 34 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-70244528a69c1346",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t4",
+    "fingerprint": "d1f65e97f61907cb0319d04e88d3968f",
+    "generatorParams": {
+      "people": 4,
+      "each": 35,
+      "total": 140
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 140 quyển vở cho 4 bạn. Mỗi bạn nhận được bao nhiêu quyển? Bạn An cho rằng đáp án là 38 quyển. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "140 : 4 = 35, nên mỗi bạn nhận 35 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-969e499c4eb0a965",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t5",
+    "fingerprint": "67da54b5d77dfdb722de9b10128fed12",
+    "generatorParams": {
+      "people": 5,
+      "each": 36,
+      "total": 180
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 180 quyển vở cho 5 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 36,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "180 : 5 = 36, nên mỗi bạn nhận 36 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-ece5bc160c14ad93",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t1",
+    "fingerprint": "55efb8269d9123d4c95ae5a5dd9d374e",
+    "generatorParams": {
+      "people": 9,
+      "each": 34,
+      "total": 306
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 306 quyển vở cho 9 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 34,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "306 : 9 = 34, nên mỗi bạn nhận 34 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-7ca9aea1d180fe38",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t2",
+    "fingerprint": "ff6b2cd5162309d1c8bab57c2d3f1692",
+    "generatorParams": {
+      "people": 3,
+      "each": 35,
+      "total": 105
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 105 quyển vở cho 3 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 35,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "105 : 3 = 35, nên mỗi bạn nhận 35 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-6ff3886157233e51",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t3",
+    "fingerprint": "3f8b32a2bd3296e2f06170a77988372e",
+    "generatorParams": {
+      "people": 4,
+      "each": 36,
+      "total": 144
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 144 quyển vở cho 4 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "42 quyển"
+      },
+      {
+        "id": "option-2",
+        "label": "33 quyển"
+      },
+      {
+        "id": "option-3",
+        "label": "39 quyển"
+      },
+      {
+        "id": "option-4",
+        "label": "36 quyển"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "144 : 4 = 36, nên mỗi bạn nhận 36 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-a3282d38d370bdd0",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t4",
+    "fingerprint": "5aa83ab49c906df0c7daec5fc80f5239",
+    "generatorParams": {
+      "people": 5,
+      "each": 37,
+      "total": 185
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 185 quyển vở cho 5 bạn. Mỗi bạn nhận được bao nhiêu quyển? Bạn An cho rằng đáp án là 37 quyển. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "185 : 5 = 37, nên mỗi bạn nhận 37 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-a43a8e592ec81dfd",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t5",
+    "fingerprint": "81f8c18a3f171c25d3c12d5f758a0f34",
+    "generatorParams": {
+      "people": 6,
+      "each": 38,
+      "total": 228
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 228 quyển vở cho 6 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 38,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "228 : 6 = 38, nên mỗi bạn nhận 38 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-ced7e80462066235",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t1",
+    "fingerprint": "3ab11ce7fc7971eab66b1111c5d255a3",
+    "generatorParams": {
+      "people": 3,
+      "each": 36,
+      "total": 108
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 108 quyển vở cho 3 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 36,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "108 : 3 = 36, nên mỗi bạn nhận 36 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-3542fd1696535f16",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t2",
+    "fingerprint": "5bab422f7463de7fff8da9b27e2cb507",
+    "generatorParams": {
+      "people": 4,
+      "each": 37,
+      "total": 148
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 148 quyển vở cho 4 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 37,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "148 : 4 = 37, nên mỗi bạn nhận 37 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-20ee7fe80752a5fe",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t3",
+    "fingerprint": "34d2dc278ebc211518fc4e954b8f4654",
+    "generatorParams": {
+      "people": 5,
+      "each": 38,
+      "total": 190
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 190 quyển vở cho 5 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "35 quyển"
+      },
+      {
+        "id": "option-2",
+        "label": "41 quyển"
+      },
+      {
+        "id": "option-3",
+        "label": "38 quyển"
+      },
+      {
+        "id": "option-4",
+        "label": "44 quyển"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "190 : 5 = 38, nên mỗi bạn nhận 38 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-29355b558947d2f1",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t4",
+    "fingerprint": "3f82c42c5dad4c8a8583651370aa6021",
+    "generatorParams": {
+      "people": 6,
+      "each": 39,
+      "total": 234
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 234 quyển vở cho 6 bạn. Mỗi bạn nhận được bao nhiêu quyển? Bạn An cho rằng đáp án là 42 quyển. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "234 : 6 = 39, nên mỗi bạn nhận 39 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-7fb82b753a572123",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t5",
+    "fingerprint": "6cfff439c0d06a9b147cd609f0284ea0",
+    "generatorParams": {
+      "people": 7,
+      "each": 40,
+      "total": 280
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 280 quyển vở cho 7 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 40,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "280 : 7 = 40, nên mỗi bạn nhận 40 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-8f31ca23745a9212",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t1",
+    "fingerprint": "e03b6571d52c90de14e5ab20f81ef20e",
+    "generatorParams": {
+      "people": 4,
+      "each": 38,
+      "total": 152
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 152 quyển vở cho 4 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 38,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "152 : 4 = 38, nên mỗi bạn nhận 38 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-2fa937f307287cfd",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t2",
+    "fingerprint": "cc3ac8da2614be2fe383929c82b6666c",
+    "generatorParams": {
+      "people": 5,
+      "each": 39,
+      "total": 195
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 195 quyển vở cho 5 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 39,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "195 : 5 = 39, nên mỗi bạn nhận 39 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-3be7283bd4f43d42",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t3",
+    "fingerprint": "9692c07df3d3134aff65c446c68b7b41",
+    "generatorParams": {
+      "people": 6,
+      "each": 40,
+      "total": 240
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 240 quyển vở cho 6 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "40 quyển"
+      },
+      {
+        "id": "option-2",
+        "label": "36 quyển"
+      },
+      {
+        "id": "option-3",
+        "label": "48 quyển"
+      },
+      {
+        "id": "option-4",
+        "label": "44 quyển"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "240 : 6 = 40, nên mỗi bạn nhận 40 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-ce05b74d36ec8b3b",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t4",
+    "fingerprint": "33bb6c40069b97d7bf070ae941fa1a2a",
+    "generatorParams": {
+      "people": 7,
+      "each": 41,
+      "total": 287
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 287 quyển vở cho 7 bạn. Mỗi bạn nhận được bao nhiêu quyển? Bạn An cho rằng đáp án là 41 quyển. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "287 : 7 = 41, nên mỗi bạn nhận 41 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-88abd07a3ca17c84",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t5",
+    "fingerprint": "e9f5fb06c6dbcca213ddb7aacc2fe49a",
+    "generatorParams": {
+      "people": 8,
+      "each": 42,
+      "total": 336
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 336 quyển vở cho 8 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 42,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "336 : 8 = 42, nên mỗi bạn nhận 42 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-0b71bcf5c41f0493",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t1",
+    "fingerprint": "2f281124caa844abf13ddf9abef9b950",
+    "generatorParams": {
+      "people": 5,
+      "each": 56,
+      "total": 280
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 280 quyển vở cho 5 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 56,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "280 : 5 = 56, nên mỗi bạn nhận 56 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-12358b82237b87a6",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t2",
+    "fingerprint": "cb268396222cbf5e9427c7b9747f052b",
+    "generatorParams": {
+      "people": 6,
+      "each": 57,
+      "total": 342
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 342 quyển vở cho 6 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 57,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "342 : 6 = 57, nên mỗi bạn nhận 57 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-3eece914f4f93635",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t3",
+    "fingerprint": "5bfd0a56a7645e06cd41df5274759656",
+    "generatorParams": {
+      "people": 7,
+      "each": 58,
+      "total": 406
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 406 quyển vở cho 7 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "53 quyển"
+      },
+      {
+        "id": "option-2",
+        "label": "68 quyển"
+      },
+      {
+        "id": "option-3",
+        "label": "63 quyển"
+      },
+      {
+        "id": "option-4",
+        "label": "58 quyển"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "406 : 7 = 58, nên mỗi bạn nhận 58 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-7c78bdacde5ee757",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t4",
+    "fingerprint": "c7d1732c9eb6e9a34d1e074de9b0eaee",
+    "generatorParams": {
+      "people": 8,
+      "each": 59,
+      "total": 472
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 472 quyển vở cho 8 bạn. Mỗi bạn nhận được bao nhiêu quyển? Bạn An cho rằng đáp án là 64 quyển. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "472 : 8 = 59, nên mỗi bạn nhận 59 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-db4f0d90520cb69a",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t5",
+    "fingerprint": "cb2cae2d0b118de2a47dc0b846cbf061",
+    "generatorParams": {
+      "people": 9,
+      "each": 60,
+      "total": 540
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 540 quyển vở cho 9 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 60,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "540 : 9 = 60, nên mỗi bạn nhận 60 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-4fb0f382e494ec02",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t1",
+    "fingerprint": "c9a8932a1cec8f3e23daac192d6ca55e",
+    "generatorParams": {
+      "people": 6,
+      "each": 59,
+      "total": 354
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 354 quyển vở cho 6 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 59,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "354 : 6 = 59, nên mỗi bạn nhận 59 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-bfe9b96cd68f4d96",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t2",
+    "fingerprint": "31e90e04653c374425ca2123daa87287",
+    "generatorParams": {
+      "people": 7,
+      "each": 60,
+      "total": 420
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 420 quyển vở cho 7 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 60,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "420 : 7 = 60, nên mỗi bạn nhận 60 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-51ef9f7a57e82701",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t3",
+    "fingerprint": "0db174650a9b8209430c7cf80575e497",
+    "generatorParams": {
+      "people": 8,
+      "each": 61,
+      "total": 488
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 488 quyển vở cho 8 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "67 quyển"
+      },
+      {
+        "id": "option-2",
+        "label": "61 quyển"
+      },
+      {
+        "id": "option-3",
+        "label": "73 quyển"
+      },
+      {
+        "id": "option-4",
+        "label": "55 quyển"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "488 : 8 = 61, nên mỗi bạn nhận 61 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-dd76804413d5b620",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t4",
+    "fingerprint": "d342f422d36b36b4fb2338a4eb2d5ec6",
+    "generatorParams": {
+      "people": 9,
+      "each": 62,
+      "total": 558
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 558 quyển vở cho 9 bạn. Mỗi bạn nhận được bao nhiêu quyển? Bạn An cho rằng đáp án là 62 quyển. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "558 : 9 = 62, nên mỗi bạn nhận 62 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-55c814c67f9b3ece",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t5",
+    "fingerprint": "5646cca332a0e2e515fb845bd1fc3abe",
+    "generatorParams": {
+      "people": 3,
+      "each": 63,
+      "total": 189
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 189 quyển vở cho 3 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 63,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "189 : 3 = 63, nên mỗi bạn nhận 63 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-6b0aa652cb915700",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t1",
+    "fingerprint": "aa4486ac81f90983f21b34515cbb6364",
+    "generatorParams": {
+      "people": 7,
+      "each": 62,
+      "total": 434
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 434 quyển vở cho 7 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 62,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "434 : 7 = 62, nên mỗi bạn nhận 62 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-58a8bb18a4cc441b",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t2",
+    "fingerprint": "2f9e6b21f78320c084afe75c10db18be",
+    "generatorParams": {
+      "people": 8,
+      "each": 63,
+      "total": 504
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 504 quyển vở cho 8 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 63,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "504 : 8 = 63, nên mỗi bạn nhận 63 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-2487173a6507eff2",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t3",
+    "fingerprint": "babc4050d551bcedc2d4dd2fb9a8ba37",
+    "generatorParams": {
+      "people": 9,
+      "each": 64,
+      "total": 576
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 576 quyển vở cho 9 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "58 quyển"
+      },
+      {
+        "id": "option-2",
+        "label": "64 quyển"
+      },
+      {
+        "id": "option-3",
+        "label": "70 quyển"
+      },
+      {
+        "id": "option-4",
+        "label": "76 quyển"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "576 : 9 = 64, nên mỗi bạn nhận 64 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-59f80e2bcb40f1b4",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t4",
+    "fingerprint": "bc061dceca79b54fd9d22d015fb2106a",
+    "generatorParams": {
+      "people": 3,
+      "each": 65,
+      "total": 195
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 195 quyển vở cho 3 bạn. Mỗi bạn nhận được bao nhiêu quyển? Bạn An cho rằng đáp án là 71 quyển. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "195 : 3 = 65, nên mỗi bạn nhận 65 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-e0e674df9ab85b3f",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t5",
+    "fingerprint": "3e5a80e1a7b9bfaf59365f2cfc234414",
+    "generatorParams": {
+      "people": 4,
+      "each": 66,
+      "total": 264
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 264 quyển vở cho 4 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 66,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "264 : 4 = 66, nên mỗi bạn nhận 66 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-7979f513fd5008a6",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t1",
+    "fingerprint": "a041a969516fb0ba07249813c9371b5a",
+    "generatorParams": {
+      "people": 8,
+      "each": 65,
+      "total": 520
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 520 quyển vở cho 8 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 65,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "520 : 8 = 65, nên mỗi bạn nhận 65 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-5b9815b1c8d41cea",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t2",
+    "fingerprint": "f4269885dbbf96f0026d0ac51fb340c3",
+    "generatorParams": {
+      "people": 9,
+      "each": 66,
+      "total": 594
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 594 quyển vở cho 9 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 66,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "594 : 9 = 66, nên mỗi bạn nhận 66 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-3fd41784ecca2772",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t3",
+    "fingerprint": "e7e51459fc2b9055eecd098ce2f2f7fe",
+    "generatorParams": {
+      "people": 3,
+      "each": 67,
+      "total": 201
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 201 quyển vở cho 3 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "73 quyển"
+      },
+      {
+        "id": "option-2",
+        "label": "79 quyển"
+      },
+      {
+        "id": "option-3",
+        "label": "61 quyển"
+      },
+      {
+        "id": "option-4",
+        "label": "67 quyển"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "201 : 3 = 67, nên mỗi bạn nhận 67 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-7a14f6d46db20269",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t4",
+    "fingerprint": "f003a71665c7110bce626094166720c0",
+    "generatorParams": {
+      "people": 4,
+      "each": 68,
+      "total": 272
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 272 quyển vở cho 4 bạn. Mỗi bạn nhận được bao nhiêu quyển? Bạn An cho rằng đáp án là 68 quyển. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "272 : 4 = 68, nên mỗi bạn nhận 68 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-62083d013f1ce06f",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t5",
+    "fingerprint": "6311c789332a14b5e4088f97d3359324",
+    "generatorParams": {
+      "people": 5,
+      "each": 69,
+      "total": 345
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 345 quyển vở cho 5 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 69,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "345 : 5 = 69, nên mỗi bạn nhận 69 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-3f93dd7acf92abe4",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t1",
+    "fingerprint": "7a11f1850161a384782a1af90ba910a2",
+    "generatorParams": {
+      "people": 9,
+      "each": 68,
+      "total": 612
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 612 quyển vở cho 9 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 68,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "612 : 9 = 68, nên mỗi bạn nhận 68 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-2033241bd16410d9",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t2",
+    "fingerprint": "84f94c9b6f6d95fd30e72ad92c8d6476",
+    "generatorParams": {
+      "people": 3,
+      "each": 69,
+      "total": 207
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 207 quyển vở cho 3 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 69,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "207 : 3 = 69, nên mỗi bạn nhận 69 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-ce9ca36e99679db4",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t3",
+    "fingerprint": "b59ce3d58aab67953a9610f2f30f874b",
+    "generatorParams": {
+      "people": 4,
+      "each": 70,
+      "total": 280
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 280 quyển vở cho 4 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "77 quyển"
+      },
+      {
+        "id": "option-2",
+        "label": "84 quyển"
+      },
+      {
+        "id": "option-3",
+        "label": "63 quyển"
+      },
+      {
+        "id": "option-4",
+        "label": "70 quyển"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "280 : 4 = 70, nên mỗi bạn nhận 70 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-0db9c7e8ed1224fd",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t4",
+    "fingerprint": "7aee9155a47a56e4159353dcd1372b0c",
+    "generatorParams": {
+      "people": 5,
+      "each": 71,
+      "total": 355
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 355 quyển vở cho 5 bạn. Mỗi bạn nhận được bao nhiêu quyển? Bạn An cho rằng đáp án là 78 quyển. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "355 : 5 = 71, nên mỗi bạn nhận 71 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sharing-equally-bb2d842a7fc8301f",
+    "contentVersion": "grade4-v3",
+    "templateId": "sharing-equally-t5",
+    "fingerprint": "3b37dc009c0f1f7a0c8ad11388a7df73",
+    "generatorParams": {
+      "people": 6,
+      "each": 72,
+      "total": 432
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "sharing-equally-skill",
+    "problemTypeId": "sharing-equally",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 432 quyển vở cho 6 bạn. Mỗi bạn nhận được bao nhiêu quyển?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 72,
+      "unit": "quyển"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Lấy tổng số vở chia cho số bạn."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "432 : 6 = 72, nên mỗi bạn nhận 72 quyển.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

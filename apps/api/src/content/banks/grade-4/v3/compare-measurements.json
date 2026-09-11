@@ -1,0 +1,6722 @@
+[
+  {
+    "id": "g4-compare-measurements-d5eee0bfbd97b3e0",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t1",
+    "fingerprint": "04e008fc1cba94ddf35c5e2f57e8b80c",
+    "generatorParams": {
+      "metres": 3,
+      "centimetres": 311
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 3 m hay 311 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 311,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 m = 300 cm; vì 311 > 300 nên đại lượng dài hơn là 311 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-425de8d251cda4cc",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t2",
+    "fingerprint": "7eb526ea9bd31831fabe0db327917dcc",
+    "generatorParams": {
+      "metres": 3,
+      "centimetres": 312
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 3 m hay 312 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 312,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 m = 300 cm; vì 312 > 300 nên đại lượng dài hơn là 312 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-e127170064adc80e",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t3",
+    "fingerprint": "f56d7ffc8a1943a336cb66e54644eab0",
+    "generatorParams": {
+      "metres": 3,
+      "centimetres": 313
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 3 m hay 313 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "344 cm"
+      },
+      {
+        "id": "option-2",
+        "label": "282 cm"
+      },
+      {
+        "id": "option-3",
+        "label": "375 cm"
+      },
+      {
+        "id": "option-4",
+        "label": "313 cm"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 m = 300 cm; vì 313 > 300 nên đại lượng dài hơn là 313 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-07a1cc7b943adaec",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t4",
+    "fingerprint": "db61505927930c726051d36507dd188d",
+    "generatorParams": {
+      "metres": 3,
+      "centimetres": 314
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 3 m hay 314 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn. Bạn An cho rằng đáp án là 314 cm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 m = 300 cm; vì 314 > 300 nên đại lượng dài hơn là 314 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-9a7dbbf056ff6aec",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t5",
+    "fingerprint": "243e7adde8fa40ea9e9e787de0d9d1b0",
+    "generatorParams": {
+      "metres": 3,
+      "centimetres": 315
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 3 m hay 315 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 315,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 m = 300 cm; vì 315 > 300 nên đại lượng dài hơn là 315 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-e3ab34026bc490f0",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t1",
+    "fingerprint": "672f3378aad1f642760623c77f0046ef",
+    "generatorParams": {
+      "metres": 4,
+      "centimetres": 412
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 4 m hay 412 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 412,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 m = 400 cm; vì 412 > 400 nên đại lượng dài hơn là 412 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-f26cc812edc9e722",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t2",
+    "fingerprint": "53b9e6547645a734f410c6a5010eb225",
+    "generatorParams": {
+      "metres": 4,
+      "centimetres": 413
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 4 m hay 413 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 413,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 m = 400 cm; vì 413 > 400 nên đại lượng dài hơn là 413 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-18aa3198c555f171",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t3",
+    "fingerprint": "e1c0389148ce55812d0c6808c085ac70",
+    "generatorParams": {
+      "metres": 4,
+      "centimetres": 414
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 4 m hay 414 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "373 cm"
+      },
+      {
+        "id": "option-2",
+        "label": "496 cm"
+      },
+      {
+        "id": "option-3",
+        "label": "414 cm"
+      },
+      {
+        "id": "option-4",
+        "label": "455 cm"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 m = 400 cm; vì 414 > 400 nên đại lượng dài hơn là 414 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-0a6ee8b79917ad77",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t4",
+    "fingerprint": "e264d3e59e36220236cf23c2084b7e8d",
+    "generatorParams": {
+      "metres": 4,
+      "centimetres": 415
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 4 m hay 415 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn. Bạn An cho rằng đáp án là 456 cm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 m = 400 cm; vì 415 > 400 nên đại lượng dài hơn là 415 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-8d30960d3f85c59e",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t5",
+    "fingerprint": "aa34153702c9b295b8142f2d169e6675",
+    "generatorParams": {
+      "metres": 4,
+      "centimetres": 416
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 4 m hay 416 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 416,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 m = 400 cm; vì 416 > 400 nên đại lượng dài hơn là 416 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-28974a1907bea098",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t1",
+    "fingerprint": "b6df3ad053c6e8e1b800017c09e4cf1e",
+    "generatorParams": {
+      "metres": 5,
+      "centimetres": 513
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 5 m hay 513 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 513,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 m = 500 cm; vì 513 > 500 nên đại lượng dài hơn là 513 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-9a280377a4ea3f70",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t2",
+    "fingerprint": "4f38d63e396a150e5dae0efe14c872f6",
+    "generatorParams": {
+      "metres": 5,
+      "centimetres": 514
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 5 m hay 514 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 514,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 m = 500 cm; vì 514 > 500 nên đại lượng dài hơn là 514 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-890b80b7d94a67d7",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t3",
+    "fingerprint": "68947d0ca7320d7a48ae791b155bb9e8",
+    "generatorParams": {
+      "metres": 5,
+      "centimetres": 515
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 5 m hay 515 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "566 cm"
+      },
+      {
+        "id": "option-2",
+        "label": "515 cm"
+      },
+      {
+        "id": "option-3",
+        "label": "617 cm"
+      },
+      {
+        "id": "option-4",
+        "label": "464 cm"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 m = 500 cm; vì 515 > 500 nên đại lượng dài hơn là 515 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-1af5b0657d937dae",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t4",
+    "fingerprint": "8ea3bec0f886fa967d19e6ad3236c1b1",
+    "generatorParams": {
+      "metres": 5,
+      "centimetres": 516
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 5 m hay 516 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn. Bạn An cho rằng đáp án là 516 cm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 m = 500 cm; vì 516 > 500 nên đại lượng dài hơn là 516 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-fab9b246b08356e8",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t5",
+    "fingerprint": "8dc2e8619c3cbb6cbd727e2ab9f994ac",
+    "generatorParams": {
+      "metres": 5,
+      "centimetres": 517
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 5 m hay 517 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 517,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 m = 500 cm; vì 517 > 500 nên đại lượng dài hơn là 517 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-0955978d72b0c835",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t1",
+    "fingerprint": "aac33cca8d8a7326631bf1d97d2522a0",
+    "generatorParams": {
+      "metres": 6,
+      "centimetres": 614
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 6 m hay 614 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 614,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 m = 600 cm; vì 614 > 600 nên đại lượng dài hơn là 614 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-2c421dc0fd12bc26",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t2",
+    "fingerprint": "cb44a07825870e2c87151e8ff9961a98",
+    "generatorParams": {
+      "metres": 6,
+      "centimetres": 615
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 6 m hay 615 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 615,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 m = 600 cm; vì 615 > 600 nên đại lượng dài hơn là 615 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-fdc63ffdb8f4caeb",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t3",
+    "fingerprint": "8e9287d6d34d14b766b5375a63d2bc34",
+    "generatorParams": {
+      "metres": 6,
+      "centimetres": 616
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 6 m hay 616 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "738 cm"
+      },
+      {
+        "id": "option-2",
+        "label": "677 cm"
+      },
+      {
+        "id": "option-3",
+        "label": "616 cm"
+      },
+      {
+        "id": "option-4",
+        "label": "555 cm"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 m = 600 cm; vì 616 > 600 nên đại lượng dài hơn là 616 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-4b7e53e18a8dd94e",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t4",
+    "fingerprint": "028002e885d0bd9b009728b01e53bd33",
+    "generatorParams": {
+      "metres": 6,
+      "centimetres": 617
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 6 m hay 617 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn. Bạn An cho rằng đáp án là 678 cm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 m = 600 cm; vì 617 > 600 nên đại lượng dài hơn là 617 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-52cdbe03be64eb60",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t5",
+    "fingerprint": "2d62d36259d5230c2d79b0160ff161a8",
+    "generatorParams": {
+      "metres": 6,
+      "centimetres": 618
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 6 m hay 618 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 618,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 m = 600 cm; vì 618 > 600 nên đại lượng dài hơn là 618 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-58a9a86174bd2519",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t1",
+    "fingerprint": "63bf7c403b67f0962b9fd21c083c4815",
+    "generatorParams": {
+      "metres": 7,
+      "centimetres": 715
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 7 m hay 715 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 715,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 m = 700 cm; vì 715 > 700 nên đại lượng dài hơn là 715 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-ec0675954f8551da",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t2",
+    "fingerprint": "298136e5e42d4414deb334d37c19c837",
+    "generatorParams": {
+      "metres": 7,
+      "centimetres": 716
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 7 m hay 716 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 716,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 m = 700 cm; vì 716 > 700 nên đại lượng dài hơn là 716 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-d2b7112b75a62868",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t3",
+    "fingerprint": "5c335c0e55337836a81abb5f1fc165d4",
+    "generatorParams": {
+      "metres": 7,
+      "centimetres": 717
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 7 m hay 717 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "788 cm"
+      },
+      {
+        "id": "option-2",
+        "label": "717 cm"
+      },
+      {
+        "id": "option-3",
+        "label": "859 cm"
+      },
+      {
+        "id": "option-4",
+        "label": "646 cm"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 m = 700 cm; vì 717 > 700 nên đại lượng dài hơn là 717 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-fcbd4727be48568a",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t4",
+    "fingerprint": "54586264a41c5bcf51296b034525c45c",
+    "generatorParams": {
+      "metres": 7,
+      "centimetres": 718
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 7 m hay 718 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn. Bạn An cho rằng đáp án là 718 cm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 m = 700 cm; vì 718 > 700 nên đại lượng dài hơn là 718 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-978a4a16aa04419f",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t5",
+    "fingerprint": "6e9ddeb26236a7c90f8929dbc2a47da4",
+    "generatorParams": {
+      "metres": 7,
+      "centimetres": 719
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 7 m hay 719 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 719,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 m = 700 cm; vì 719 > 700 nên đại lượng dài hơn là 719 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-a4d11eeae739f737",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t1",
+    "fingerprint": "34f05e0b78dd122bb5eb9a630f8b9672",
+    "generatorParams": {
+      "metres": 8,
+      "centimetres": 816
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 8 m hay 816 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 816,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 m = 800 cm; vì 816 > 800 nên đại lượng dài hơn là 816 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-30d2c722ee01d31f",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t2",
+    "fingerprint": "77d4b0cd2a79945d63cbdeb865d46f77",
+    "generatorParams": {
+      "metres": 8,
+      "centimetres": 817
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 8 m hay 817 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 817,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 m = 800 cm; vì 817 > 800 nên đại lượng dài hơn là 817 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-43e0d84ecc2765c9",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t3",
+    "fingerprint": "f034ed308ad31c9eb09461a342edb60b",
+    "generatorParams": {
+      "metres": 8,
+      "centimetres": 818
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 8 m hay 818 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "737 cm"
+      },
+      {
+        "id": "option-2",
+        "label": "980 cm"
+      },
+      {
+        "id": "option-3",
+        "label": "818 cm"
+      },
+      {
+        "id": "option-4",
+        "label": "899 cm"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 m = 800 cm; vì 818 > 800 nên đại lượng dài hơn là 818 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-2385017cf463028d",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t4",
+    "fingerprint": "9afed20ebcc89deea92862a674db660a",
+    "generatorParams": {
+      "metres": 8,
+      "centimetres": 819
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 8 m hay 819 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn. Bạn An cho rằng đáp án là 900 cm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 m = 800 cm; vì 819 > 800 nên đại lượng dài hơn là 819 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-1f3543dc699a4e7b",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t5",
+    "fingerprint": "6ca42e9d1f30c7b6cd69f0bb7e4f89a9",
+    "generatorParams": {
+      "metres": 8,
+      "centimetres": 820
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 8 m hay 820 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 820,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 m = 800 cm; vì 820 > 800 nên đại lượng dài hơn là 820 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-465548fdf9a0738e",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t1",
+    "fingerprint": "81ca6c9d7e279f6232997548b0daa832",
+    "generatorParams": {
+      "metres": 14,
+      "centimetres": 1417
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 14 m hay 1417 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1417,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 m = 1400 cm; vì 1417 > 1400 nên đại lượng dài hơn là 1417 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-4b14abc811778467",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t2",
+    "fingerprint": "1db21d8f8289103d3779e6dc313a5be0",
+    "generatorParams": {
+      "metres": 14,
+      "centimetres": 1418
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 14 m hay 1418 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1418,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 m = 1400 cm; vì 1418 > 1400 nên đại lượng dài hơn là 1418 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-556ff5470a13537b",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t3",
+    "fingerprint": "4c8eb65401be713edb858a2f47d2d852",
+    "generatorParams": {
+      "metres": 14,
+      "centimetres": 1419
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 14 m hay 1419 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1560 cm"
+      },
+      {
+        "id": "option-2",
+        "label": "1278 cm"
+      },
+      {
+        "id": "option-3",
+        "label": "1419 cm"
+      },
+      {
+        "id": "option-4",
+        "label": "1701 cm"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 m = 1400 cm; vì 1419 > 1400 nên đại lượng dài hơn là 1419 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-ce823d1d5be2d10d",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t4",
+    "fingerprint": "b5adfb687b04b57c5d7a09e1f98d070a",
+    "generatorParams": {
+      "metres": 14,
+      "centimetres": 1420
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 14 m hay 1420 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn. Bạn An cho rằng đáp án là 1420 cm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 m = 1400 cm; vì 1420 > 1400 nên đại lượng dài hơn là 1420 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-fab6573526873697",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t5",
+    "fingerprint": "4abdfb3f841fcaeabb2cf777f8fb6213",
+    "generatorParams": {
+      "metres": 14,
+      "centimetres": 1421
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 14 m hay 1421 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1421,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 m = 1400 cm; vì 1421 > 1400 nên đại lượng dài hơn là 1421 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-e912e30e8832f481",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t1",
+    "fingerprint": "13be6bcdcdd42c920f02100b3e0c8eca",
+    "generatorParams": {
+      "metres": 15,
+      "centimetres": 1518
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 15 m hay 1518 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1518,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 m = 1500 cm; vì 1518 > 1500 nên đại lượng dài hơn là 1518 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-d089f889591ff4d0",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t2",
+    "fingerprint": "59ac78d163f9d1e92e11ed5f09f9f9e8",
+    "generatorParams": {
+      "metres": 15,
+      "centimetres": 1519
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 15 m hay 1519 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1519,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 m = 1500 cm; vì 1519 > 1500 nên đại lượng dài hơn là 1519 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-77aabb9c7d45aab2",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t3",
+    "fingerprint": "3cf20786c86ed8d13796b2db141bf9bd",
+    "generatorParams": {
+      "metres": 15,
+      "centimetres": 1520
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 15 m hay 1520 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1520 cm"
+      },
+      {
+        "id": "option-2",
+        "label": "1368 cm"
+      },
+      {
+        "id": "option-3",
+        "label": "1824 cm"
+      },
+      {
+        "id": "option-4",
+        "label": "1672 cm"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 m = 1500 cm; vì 1520 > 1500 nên đại lượng dài hơn là 1520 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-6352e9167e525889",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t4",
+    "fingerprint": "61614b1d848802da50c94b9c6e6c90ba",
+    "generatorParams": {
+      "metres": 15,
+      "centimetres": 1521
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 15 m hay 1521 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn. Bạn An cho rằng đáp án là 1673 cm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 m = 1500 cm; vì 1521 > 1500 nên đại lượng dài hơn là 1521 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-dcc262c5cc5bb955",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t5",
+    "fingerprint": "f32c491196237a65f01eb8c30dd90e83",
+    "generatorParams": {
+      "metres": 15,
+      "centimetres": 1522
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 15 m hay 1522 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1522,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 m = 1500 cm; vì 1522 > 1500 nên đại lượng dài hơn là 1522 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-edad2f898f54cf35",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t1",
+    "fingerprint": "52dfda1a6912d1889f545df2a7b76e44",
+    "generatorParams": {
+      "metres": 16,
+      "centimetres": 1619
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 16 m hay 1619 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1619,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 m = 1600 cm; vì 1619 > 1600 nên đại lượng dài hơn là 1619 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-87547cd8713e6592",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t2",
+    "fingerprint": "290772be14fec520f2b661c97a632d03",
+    "generatorParams": {
+      "metres": 16,
+      "centimetres": 1620
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 16 m hay 1620 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1620,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 m = 1600 cm; vì 1620 > 1600 nên đại lượng dài hơn là 1620 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-cafcac359dc3a68e",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t3",
+    "fingerprint": "62ca2dfc38ea9407adc081d1f4918a47",
+    "generatorParams": {
+      "metres": 16,
+      "centimetres": 1621
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 16 m hay 1621 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1621 cm"
+      },
+      {
+        "id": "option-2",
+        "label": "1783 cm"
+      },
+      {
+        "id": "option-3",
+        "label": "1459 cm"
+      },
+      {
+        "id": "option-4",
+        "label": "1945 cm"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 m = 1600 cm; vì 1621 > 1600 nên đại lượng dài hơn là 1621 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-45a85698a3d13207",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t4",
+    "fingerprint": "153fd48dbd0c469204c5ec04ea9f3bc1",
+    "generatorParams": {
+      "metres": 16,
+      "centimetres": 1622
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 16 m hay 1622 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn. Bạn An cho rằng đáp án là 1622 cm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 m = 1600 cm; vì 1622 > 1600 nên đại lượng dài hơn là 1622 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-5fc1c6e3dc79a343",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t5",
+    "fingerprint": "58bcd44bbebdb0587ba5d51cbf0c868d",
+    "generatorParams": {
+      "metres": 16,
+      "centimetres": 1623
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 16 m hay 1623 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1623,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 m = 1600 cm; vì 1623 > 1600 nên đại lượng dài hơn là 1623 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-091f765a36723768",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t1",
+    "fingerprint": "0dfb01c028ff810aa0d3f704524cf629",
+    "generatorParams": {
+      "metres": 17,
+      "centimetres": 1720
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 17 m hay 1720 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1720,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 m = 1700 cm; vì 1720 > 1700 nên đại lượng dài hơn là 1720 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-d3183a104db2fcf7",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t2",
+    "fingerprint": "4bab4d10e13a51ff4c235d6260821286",
+    "generatorParams": {
+      "metres": 17,
+      "centimetres": 1721
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 17 m hay 1721 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1721,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 m = 1700 cm; vì 1721 > 1700 nên đại lượng dài hơn là 1721 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-c4214b6445093bfa",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t3",
+    "fingerprint": "7cb5453c1f04a4d8c231f969902f5c25",
+    "generatorParams": {
+      "metres": 17,
+      "centimetres": 1722
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 17 m hay 1722 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1550 cm"
+      },
+      {
+        "id": "option-2",
+        "label": "1894 cm"
+      },
+      {
+        "id": "option-3",
+        "label": "2066 cm"
+      },
+      {
+        "id": "option-4",
+        "label": "1722 cm"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 m = 1700 cm; vì 1722 > 1700 nên đại lượng dài hơn là 1722 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-166651bff540ebb2",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t4",
+    "fingerprint": "824a3f8b303819664a7343d2203d2621",
+    "generatorParams": {
+      "metres": 17,
+      "centimetres": 1723
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 17 m hay 1723 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn. Bạn An cho rằng đáp án là 1895 cm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 m = 1700 cm; vì 1723 > 1700 nên đại lượng dài hơn là 1723 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-fb3ba88d6d985a69",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t5",
+    "fingerprint": "d6fcf5041f2c8b9e38bcc5c3ae715c9b",
+    "generatorParams": {
+      "metres": 17,
+      "centimetres": 1724
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 17 m hay 1724 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1724,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 m = 1700 cm; vì 1724 > 1700 nên đại lượng dài hơn là 1724 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-ed72135cf4967198",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t1",
+    "fingerprint": "771731d1e6ae78248f61052aed446b0b",
+    "generatorParams": {
+      "metres": 18,
+      "centimetres": 1821
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 18 m hay 1821 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1821,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 m = 1800 cm; vì 1821 > 1800 nên đại lượng dài hơn là 1821 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-0fedf02350db21c3",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t2",
+    "fingerprint": "ed19c830231818d2010e8bd4399ff452",
+    "generatorParams": {
+      "metres": 18,
+      "centimetres": 1822
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 18 m hay 1822 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1822,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 m = 1800 cm; vì 1822 > 1800 nên đại lượng dài hơn là 1822 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-2e53810c3cf892fb",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t3",
+    "fingerprint": "1c2ec7b0b612b296a5bb9bd9507b7c93",
+    "generatorParams": {
+      "metres": 18,
+      "centimetres": 1823
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 18 m hay 1823 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2005 cm"
+      },
+      {
+        "id": "option-2",
+        "label": "1641 cm"
+      },
+      {
+        "id": "option-3",
+        "label": "2187 cm"
+      },
+      {
+        "id": "option-4",
+        "label": "1823 cm"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 m = 1800 cm; vì 1823 > 1800 nên đại lượng dài hơn là 1823 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-41f778df98081bd6",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t4",
+    "fingerprint": "c01d3be6164d8df88b6215915a2c557d",
+    "generatorParams": {
+      "metres": 18,
+      "centimetres": 1824
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 18 m hay 1824 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn. Bạn An cho rằng đáp án là 1824 cm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 m = 1800 cm; vì 1824 > 1800 nên đại lượng dài hơn là 1824 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-446781ac1c8b8b1c",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t5",
+    "fingerprint": "b6eeef28620b464d1a996b18a674ef95",
+    "generatorParams": {
+      "metres": 18,
+      "centimetres": 1825
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 18 m hay 1825 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1825,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 m = 1800 cm; vì 1825 > 1800 nên đại lượng dài hơn là 1825 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-650fd2316b30d79b",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t1",
+    "fingerprint": "86e42488736079e98c868978c83b0eea",
+    "generatorParams": {
+      "metres": 19,
+      "centimetres": 1922
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 19 m hay 1922 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1922,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 m = 1900 cm; vì 1922 > 1900 nên đại lượng dài hơn là 1922 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-a1186a11b3032ae8",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t2",
+    "fingerprint": "41fe61a571fbb87c7a7230fa1168242b",
+    "generatorParams": {
+      "metres": 19,
+      "centimetres": 1923
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 19 m hay 1923 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1923,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 m = 1900 cm; vì 1923 > 1900 nên đại lượng dài hơn là 1923 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-8162528c662f565b",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t3",
+    "fingerprint": "53c08ede72e0ebe90c6ca81ae11ce389",
+    "generatorParams": {
+      "metres": 19,
+      "centimetres": 1924
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 19 m hay 1924 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1732 cm"
+      },
+      {
+        "id": "option-2",
+        "label": "2116 cm"
+      },
+      {
+        "id": "option-3",
+        "label": "2308 cm"
+      },
+      {
+        "id": "option-4",
+        "label": "1924 cm"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 m = 1900 cm; vì 1924 > 1900 nên đại lượng dài hơn là 1924 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-19bb5305ce4f677a",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t4",
+    "fingerprint": "9fcaca3df2d7923eb58e3d335a3fc053",
+    "generatorParams": {
+      "metres": 19,
+      "centimetres": 1925
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 19 m hay 1925 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn. Bạn An cho rằng đáp án là 2117 cm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 m = 1900 cm; vì 1925 > 1900 nên đại lượng dài hơn là 1925 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-0935de10bdb1903a",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t5",
+    "fingerprint": "8bd1affa7b0699d9db9851a68fefad9f",
+    "generatorParams": {
+      "metres": 19,
+      "centimetres": 1926
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 19 m hay 1926 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1926,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 m = 1900 cm; vì 1926 > 1900 nên đại lượng dài hơn là 1926 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-7dfb86e9e375db0c",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t1",
+    "fingerprint": "7a6ff3d0d158d4b3c52527b5d03ce560",
+    "generatorParams": {
+      "metres": 20,
+      "centimetres": 2023
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 20 m hay 2023 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2023,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 m = 2000 cm; vì 2023 > 2000 nên đại lượng dài hơn là 2023 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-32c414ca28e97835",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t2",
+    "fingerprint": "b4ee97a246046874df780f81d8f15964",
+    "generatorParams": {
+      "metres": 20,
+      "centimetres": 2024
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 20 m hay 2024 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2024,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 m = 2000 cm; vì 2024 > 2000 nên đại lượng dài hơn là 2024 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-7c8c192f63a81ebf",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t3",
+    "fingerprint": "e3704cf497902be49a5895790a073e21",
+    "generatorParams": {
+      "metres": 20,
+      "centimetres": 2025
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 20 m hay 2025 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2227 cm"
+      },
+      {
+        "id": "option-2",
+        "label": "1823 cm"
+      },
+      {
+        "id": "option-3",
+        "label": "2429 cm"
+      },
+      {
+        "id": "option-4",
+        "label": "2025 cm"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 m = 2000 cm; vì 2025 > 2000 nên đại lượng dài hơn là 2025 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-419ecff0a5594a4b",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t4",
+    "fingerprint": "5579353a1cec9e13e5f4a6ca53258d49",
+    "generatorParams": {
+      "metres": 20,
+      "centimetres": 2026
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 20 m hay 2026 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn. Bạn An cho rằng đáp án là 2026 cm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 m = 2000 cm; vì 2026 > 2000 nên đại lượng dài hơn là 2026 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-4e73669d8e3b4302",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t5",
+    "fingerprint": "97c46d73993bc0125cfffbff907c66c5",
+    "generatorParams": {
+      "metres": 20,
+      "centimetres": 2027
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 20 m hay 2027 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2027,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 m = 2000 cm; vì 2027 > 2000 nên đại lượng dài hơn là 2027 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-59d90c860b85d358",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t1",
+    "fingerprint": "5c279a3b1ad2538698cdf0bdb7368b0c",
+    "generatorParams": {
+      "metres": 21,
+      "centimetres": 2124
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 21 m hay 2124 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2124,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 m = 2100 cm; vì 2124 > 2100 nên đại lượng dài hơn là 2124 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-e4d382b6be82023b",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t2",
+    "fingerprint": "ba8bf5bf1ae792a968684dec96a05048",
+    "generatorParams": {
+      "metres": 21,
+      "centimetres": 2125
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 21 m hay 2125 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2125,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 m = 2100 cm; vì 2125 > 2100 nên đại lượng dài hơn là 2125 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-deec200addcad40f",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t3",
+    "fingerprint": "e5a105e5d51bd820a370de878a0fe225",
+    "generatorParams": {
+      "metres": 21,
+      "centimetres": 2126
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 21 m hay 2126 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2550 cm"
+      },
+      {
+        "id": "option-2",
+        "label": "2338 cm"
+      },
+      {
+        "id": "option-3",
+        "label": "2126 cm"
+      },
+      {
+        "id": "option-4",
+        "label": "1914 cm"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 m = 2100 cm; vì 2126 > 2100 nên đại lượng dài hơn là 2126 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-a89bd1e8f4e9c7c9",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t4",
+    "fingerprint": "5b5e0db0f282cdf45b8f84814a118d19",
+    "generatorParams": {
+      "metres": 21,
+      "centimetres": 2127
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 21 m hay 2127 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn. Bạn An cho rằng đáp án là 2339 cm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 m = 2100 cm; vì 2127 > 2100 nên đại lượng dài hơn là 2127 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-ada3c9e27665e850",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t5",
+    "fingerprint": "8d1971dd32115ca8fa7d19ef3582d096",
+    "generatorParams": {
+      "metres": 21,
+      "centimetres": 2128
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 21 m hay 2128 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2128,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 m = 2100 cm; vì 2128 > 2100 nên đại lượng dài hơn là 2128 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-dfc6c39924ddc210",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t1",
+    "fingerprint": "2177a96ba469496f3d6b435d59677657",
+    "generatorParams": {
+      "metres": 22,
+      "centimetres": 2225
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 22 m hay 2225 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2225,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "22 m = 2200 cm; vì 2225 > 2200 nên đại lượng dài hơn là 2225 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-77c7c67895ace2e0",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t2",
+    "fingerprint": "6d0a2c790b90e35a9b3d874da87a1de4",
+    "generatorParams": {
+      "metres": 22,
+      "centimetres": 2226
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 22 m hay 2226 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2226,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "22 m = 2200 cm; vì 2226 > 2200 nên đại lượng dài hơn là 2226 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-f7afef729b795445",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t3",
+    "fingerprint": "fb3bb6e8940121903d390ef4613a70d8",
+    "generatorParams": {
+      "metres": 22,
+      "centimetres": 2227
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 22 m hay 2227 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2005 cm"
+      },
+      {
+        "id": "option-2",
+        "label": "2671 cm"
+      },
+      {
+        "id": "option-3",
+        "label": "2449 cm"
+      },
+      {
+        "id": "option-4",
+        "label": "2227 cm"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "22 m = 2200 cm; vì 2227 > 2200 nên đại lượng dài hơn là 2227 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-bd977fe4d2d9ed51",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t4",
+    "fingerprint": "e4244b6ba6055bcd36199a55d3266547",
+    "generatorParams": {
+      "metres": 22,
+      "centimetres": 2228
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 22 m hay 2228 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn. Bạn An cho rằng đáp án là 2228 cm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "22 m = 2200 cm; vì 2228 > 2200 nên đại lượng dài hơn là 2228 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-9a821a9df25ec3dd",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t5",
+    "fingerprint": "667a9bb7f35b9e0b35df068c119c3007",
+    "generatorParams": {
+      "metres": 22,
+      "centimetres": 2229
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 22 m hay 2229 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2229,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "22 m = 2200 cm; vì 2229 > 2200 nên đại lượng dài hơn là 2229 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-d6b5454253b6d51b",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t1",
+    "fingerprint": "a2171f8ef4793dd95edd2afac2df2194",
+    "generatorParams": {
+      "metres": 23,
+      "centimetres": 2326
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 23 m hay 2326 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2326,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23 m = 2300 cm; vì 2326 > 2300 nên đại lượng dài hơn là 2326 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-7282e4cf7c4c6ea4",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t2",
+    "fingerprint": "2b07c94969fe0be87f1916385f6bef5b",
+    "generatorParams": {
+      "metres": 23,
+      "centimetres": 2327
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 23 m hay 2327 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2327,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23 m = 2300 cm; vì 2327 > 2300 nên đại lượng dài hơn là 2327 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-5af74fd17f6d57f4",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t3",
+    "fingerprint": "4c8a4e44db698f16a66a3e2023e8c487",
+    "generatorParams": {
+      "metres": 23,
+      "centimetres": 2328
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 23 m hay 2328 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2560 cm"
+      },
+      {
+        "id": "option-2",
+        "label": "2792 cm"
+      },
+      {
+        "id": "option-3",
+        "label": "2096 cm"
+      },
+      {
+        "id": "option-4",
+        "label": "2328 cm"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23 m = 2300 cm; vì 2328 > 2300 nên đại lượng dài hơn là 2328 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-80ba99d1cc3d5681",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t4",
+    "fingerprint": "f2b1fafd71061d370a58c90a89ca6cb7",
+    "generatorParams": {
+      "metres": 23,
+      "centimetres": 2329
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 23 m hay 2329 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn. Bạn An cho rằng đáp án là 2561 cm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23 m = 2300 cm; vì 2329 > 2300 nên đại lượng dài hơn là 2329 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-a695767d8fecd723",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t5",
+    "fingerprint": "06533342fdfe1a2d47c2b49f241f2a27",
+    "generatorParams": {
+      "metres": 23,
+      "centimetres": 2330
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 23 m hay 2330 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2330,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23 m = 2300 cm; vì 2330 > 2300 nên đại lượng dài hơn là 2330 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-7ef1a68dc03c326c",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t1",
+    "fingerprint": "92a89c023a0ce62271e8eed5f3beea57",
+    "generatorParams": {
+      "metres": 29,
+      "centimetres": 2927
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 29 m hay 2927 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2927,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "29 m = 2900 cm; vì 2927 > 2900 nên đại lượng dài hơn là 2927 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-ee38f85c16a4e699",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t2",
+    "fingerprint": "aeac96d04e9636e80a9494f140dd9823",
+    "generatorParams": {
+      "metres": 29,
+      "centimetres": 2928
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 29 m hay 2928 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2928,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "29 m = 2900 cm; vì 2928 > 2900 nên đại lượng dài hơn là 2928 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-a3a99e2d94ee4d03",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t3",
+    "fingerprint": "f8e033b0f246d22d8990e5036c118162",
+    "generatorParams": {
+      "metres": 29,
+      "centimetres": 2929
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 29 m hay 2929 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2637 cm"
+      },
+      {
+        "id": "option-2",
+        "label": "3221 cm"
+      },
+      {
+        "id": "option-3",
+        "label": "3513 cm"
+      },
+      {
+        "id": "option-4",
+        "label": "2929 cm"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "29 m = 2900 cm; vì 2929 > 2900 nên đại lượng dài hơn là 2929 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-89d0e1df716d3ee9",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t4",
+    "fingerprint": "e4bb4152e09e20462569251f8c0382f0",
+    "generatorParams": {
+      "metres": 29,
+      "centimetres": 2930
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 29 m hay 2930 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn. Bạn An cho rằng đáp án là 2930 cm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "29 m = 2900 cm; vì 2930 > 2900 nên đại lượng dài hơn là 2930 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-a87d74e5be01c9df",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t5",
+    "fingerprint": "4f436de77df3c115d7214032c35694f1",
+    "generatorParams": {
+      "metres": 29,
+      "centimetres": 2931
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 29 m hay 2931 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2931,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "29 m = 2900 cm; vì 2931 > 2900 nên đại lượng dài hơn là 2931 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-40d09b435c0aba02",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t1",
+    "fingerprint": "35abd031967604da967aaf96ab05037e",
+    "generatorParams": {
+      "metres": 30,
+      "centimetres": 3028
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 30 m hay 3028 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3028,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "30 m = 3000 cm; vì 3028 > 3000 nên đại lượng dài hơn là 3028 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-46507940d6005fa9",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t2",
+    "fingerprint": "03d33956254682150d4b70c9653f780e",
+    "generatorParams": {
+      "metres": 30,
+      "centimetres": 3029
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 30 m hay 3029 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3029,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "30 m = 3000 cm; vì 3029 > 3000 nên đại lượng dài hơn là 3029 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-3866b6471388ae16",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t3",
+    "fingerprint": "536a49162e1848df770807c47c942dd0",
+    "generatorParams": {
+      "metres": 30,
+      "centimetres": 3030
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 30 m hay 3030 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3636 cm"
+      },
+      {
+        "id": "option-2",
+        "label": "3333 cm"
+      },
+      {
+        "id": "option-3",
+        "label": "2727 cm"
+      },
+      {
+        "id": "option-4",
+        "label": "3030 cm"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "30 m = 3000 cm; vì 3030 > 3000 nên đại lượng dài hơn là 3030 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-26607ead7a7af350",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t4",
+    "fingerprint": "6c2dadb452fefc3022dbccf19fdaaaa6",
+    "generatorParams": {
+      "metres": 30,
+      "centimetres": 3031
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 30 m hay 3031 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn. Bạn An cho rằng đáp án là 3334 cm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "30 m = 3000 cm; vì 3031 > 3000 nên đại lượng dài hơn là 3031 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-2b0331c0abf2d308",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t5",
+    "fingerprint": "3a3e15f8a688a2e904b8c84612a5a52c",
+    "generatorParams": {
+      "metres": 30,
+      "centimetres": 3032
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 30 m hay 3032 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3032,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "30 m = 3000 cm; vì 3032 > 3000 nên đại lượng dài hơn là 3032 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-30be8983d688e073",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t1",
+    "fingerprint": "70b31f8247536f8cd3a32c94eedbfeeb",
+    "generatorParams": {
+      "metres": 31,
+      "centimetres": 3129
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 31 m hay 3129 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3129,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "31 m = 3100 cm; vì 3129 > 3100 nên đại lượng dài hơn là 3129 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-9f1ef455476ccbb4",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t2",
+    "fingerprint": "77d2926674cedb0a3ca84151fc3bdb7d",
+    "generatorParams": {
+      "metres": 31,
+      "centimetres": 3130
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 31 m hay 3130 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3130,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "31 m = 3100 cm; vì 3130 > 3100 nên đại lượng dài hơn là 3130 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-2365d8bae6566b4c",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t3",
+    "fingerprint": "7701e9313d0db1d66e288c4a6f3815fd",
+    "generatorParams": {
+      "metres": 31,
+      "centimetres": 3131
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 31 m hay 3131 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2818 cm"
+      },
+      {
+        "id": "option-2",
+        "label": "3131 cm"
+      },
+      {
+        "id": "option-3",
+        "label": "3444 cm"
+      },
+      {
+        "id": "option-4",
+        "label": "3757 cm"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "31 m = 3100 cm; vì 3131 > 3100 nên đại lượng dài hơn là 3131 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-e6e680cded4529ea",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t4",
+    "fingerprint": "b26b13f91a33b3f68ad62b608c35676f",
+    "generatorParams": {
+      "metres": 31,
+      "centimetres": 3132
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 31 m hay 3132 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn. Bạn An cho rằng đáp án là 3132 cm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "31 m = 3100 cm; vì 3132 > 3100 nên đại lượng dài hơn là 3132 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-4b19ab8736c5b2aa",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t5",
+    "fingerprint": "7ea0fc055ecb14a284dd2ce3d4cdf2b1",
+    "generatorParams": {
+      "metres": 31,
+      "centimetres": 3133
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 31 m hay 3133 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3133,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "31 m = 3100 cm; vì 3133 > 3100 nên đại lượng dài hơn là 3133 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-a65580b1d336c53a",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t1",
+    "fingerprint": "bbbb577cda7560450546339fdc2006ba",
+    "generatorParams": {
+      "metres": 32,
+      "centimetres": 3230
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 32 m hay 3230 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3230,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "32 m = 3200 cm; vì 3230 > 3200 nên đại lượng dài hơn là 3230 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-fe5c13cf41f7cdc6",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t2",
+    "fingerprint": "30d39fbe134d5207481d2947f0ef1c5a",
+    "generatorParams": {
+      "metres": 32,
+      "centimetres": 3231
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 32 m hay 3231 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3231,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "32 m = 3200 cm; vì 3231 > 3200 nên đại lượng dài hơn là 3231 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-111474d281552671",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t3",
+    "fingerprint": "a43dcae84d0785805467d07c2580d364",
+    "generatorParams": {
+      "metres": 32,
+      "centimetres": 3232
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 32 m hay 3232 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2909 cm"
+      },
+      {
+        "id": "option-2",
+        "label": "3555 cm"
+      },
+      {
+        "id": "option-3",
+        "label": "3232 cm"
+      },
+      {
+        "id": "option-4",
+        "label": "3878 cm"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "32 m = 3200 cm; vì 3232 > 3200 nên đại lượng dài hơn là 3232 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-52d984af058cdce6",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t4",
+    "fingerprint": "78c2c524df450a9b690079854e8be9ff",
+    "generatorParams": {
+      "metres": 32,
+      "centimetres": 3233
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 32 m hay 3233 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn. Bạn An cho rằng đáp án là 3556 cm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "32 m = 3200 cm; vì 3233 > 3200 nên đại lượng dài hơn là 3233 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-measurements-13f062119aae0854",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-measurements-t5",
+    "fingerprint": "8c299ec77cab9d678840d15c7a3d5762",
+    "generatorParams": {
+      "metres": 32,
+      "centimetres": 3234
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "compare-measurements-skill",
+    "problemTypeId": "compare-measurements",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đại lượng nào dài hơn: 32 m hay 3234 cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3234,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "32 m = 3200 cm; vì 3234 > 3200 nên đại lượng dài hơn là 3234 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

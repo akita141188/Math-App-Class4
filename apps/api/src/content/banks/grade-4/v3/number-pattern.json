@@ -1,0 +1,6662 @@
+[
+  {
+    "id": "g4-number-pattern-c6aea18af57e2e87",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t1",
+    "fingerprint": "962729512e4a17665220e69d8aa100b2",
+    "generatorParams": {
+      "start": 3,
+      "step": 2
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 3, 5, 7, 9, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 11
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 2, nên số tiếp theo là 11.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-af8b76350ddd7ff1",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t2",
+    "fingerprint": "331f258214e6dacc20ba10ff135966fa",
+    "generatorParams": {
+      "start": 4,
+      "step": 3
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 4, 7, 10, 13, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 16
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 3, nên số tiếp theo là 16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-e8758dcb5af897a9",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t3",
+    "fingerprint": "1a1a149a41b8339635e5468eabd94d79",
+    "generatorParams": {
+      "start": 5,
+      "step": 4
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 5, 9, 13, 17, ...",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "23"
+      },
+      {
+        "id": "option-2",
+        "label": "21"
+      },
+      {
+        "id": "option-3",
+        "label": "19"
+      },
+      {
+        "id": "option-4",
+        "label": "25"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 4, nên số tiếp theo là 21.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-a71cdb1f7eafb523",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t4",
+    "fingerprint": "fe3594d0956ca46c7327f4b845bc9b15",
+    "generatorParams": {
+      "start": 6,
+      "step": 5
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 6, 11, 16, 21, ... Bạn An cho rằng đáp án là 26. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 5, nên số tiếp theo là 26.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-7d659eb0dc26e4dd",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t5",
+    "fingerprint": "23cee4544f6d68c99dd0c2d6b60408d2",
+    "generatorParams": {
+      "start": 7,
+      "step": 6
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 7, 13, 19, 25, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 31
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 6, nên số tiếp theo là 31.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-1bf5ca8289127e64",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t1",
+    "fingerprint": "227ab3f4fdb84d46f852081fd11df7a8",
+    "generatorParams": {
+      "start": 4,
+      "step": 2
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 4, 6, 8, 10, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 12
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 2, nên số tiếp theo là 12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-274355c5f7049ad5",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t2",
+    "fingerprint": "b6e9d63cc790c79360a4af13bacf85c7",
+    "generatorParams": {
+      "start": 5,
+      "step": 3
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 5, 8, 11, 14, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 17
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 3, nên số tiếp theo là 17.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-9c2ea93af93315fa",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t3",
+    "fingerprint": "93fca7f4e351f39deffb620675d435ab",
+    "generatorParams": {
+      "start": 6,
+      "step": 4
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 6, 10, 14, 18, ...",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "22"
+      },
+      {
+        "id": "option-2",
+        "label": "26"
+      },
+      {
+        "id": "option-3",
+        "label": "20"
+      },
+      {
+        "id": "option-4",
+        "label": "24"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 4, nên số tiếp theo là 22.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-63c065d129bd9375",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t4",
+    "fingerprint": "f0c16ed4260b2cd875e4b8aa461f42aa",
+    "generatorParams": {
+      "start": 7,
+      "step": 5
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 7, 12, 17, 22, ... Bạn An cho rằng đáp án là 29. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 5, nên số tiếp theo là 27.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-0dec83f6d07c0d03",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t5",
+    "fingerprint": "7dc78a4718d9c1106d04d2e38ca22725",
+    "generatorParams": {
+      "start": 8,
+      "step": 6
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 8, 14, 20, 26, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 32
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 6, nên số tiếp theo là 32.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-b5c1c9a66df5686e",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t1",
+    "fingerprint": "2ee82e9cdd9ecf89360aa805cc40c709",
+    "generatorParams": {
+      "start": 5,
+      "step": 2
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 5, 7, 9, 11, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 13
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 2, nên số tiếp theo là 13.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-fb1778838984afca",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t2",
+    "fingerprint": "64cbd4149bf4947820ef9ca222b4add1",
+    "generatorParams": {
+      "start": 6,
+      "step": 3
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 6, 9, 12, 15, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 18
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 3, nên số tiếp theo là 18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-f7ddc90b763fdd3f",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t3",
+    "fingerprint": "648774693edf5ab3d4d6c4fc72b9bc6c",
+    "generatorParams": {
+      "start": 7,
+      "step": 4
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 7, 11, 15, 19, ...",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "23"
+      },
+      {
+        "id": "option-2",
+        "label": "21"
+      },
+      {
+        "id": "option-3",
+        "label": "25"
+      },
+      {
+        "id": "option-4",
+        "label": "27"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 4, nên số tiếp theo là 23.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-f2e2714c67b724f0",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t4",
+    "fingerprint": "f29a6a2b78951641a94b6e5e08b1f351",
+    "generatorParams": {
+      "start": 8,
+      "step": 5
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 8, 13, 18, 23, ... Bạn An cho rằng đáp án là 28. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 5, nên số tiếp theo là 28.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-84e2412a4c77730d",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t5",
+    "fingerprint": "0bbf6d1da0a8eb52b67faae35e052aed",
+    "generatorParams": {
+      "start": 9,
+      "step": 6
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 9, 15, 21, 27, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 33
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 6, nên số tiếp theo là 33.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-f6221493c511142c",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t1",
+    "fingerprint": "4bab6ddbd524eef6c4b512848f5b535f",
+    "generatorParams": {
+      "start": 6,
+      "step": 2
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 6, 8, 10, 12, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 14
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 2, nên số tiếp theo là 14.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-f6c316aaa15e56e6",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t2",
+    "fingerprint": "4add4dc2aabf5d2e7333bcd6309c3248",
+    "generatorParams": {
+      "start": 7,
+      "step": 3
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 7, 10, 13, 16, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 19
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 3, nên số tiếp theo là 19.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-f69b8bfa778babca",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t3",
+    "fingerprint": "95ac20cd0a70143ee917d73d3a2e06a8",
+    "generatorParams": {
+      "start": 8,
+      "step": 4
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 8, 12, 16, 20, ...",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "22"
+      },
+      {
+        "id": "option-2",
+        "label": "24"
+      },
+      {
+        "id": "option-3",
+        "label": "26"
+      },
+      {
+        "id": "option-4",
+        "label": "28"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 4, nên số tiếp theo là 24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-38e5be6e09b660a0",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t4",
+    "fingerprint": "eb388e1576013f08a009ab31cdde459c",
+    "generatorParams": {
+      "start": 9,
+      "step": 5
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 9, 14, 19, 24, ... Bạn An cho rằng đáp án là 31. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 5, nên số tiếp theo là 29.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-dba252f026db9ca1",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t5",
+    "fingerprint": "5d6428f7d00a192fa1b7317eddf8d93f",
+    "generatorParams": {
+      "start": 10,
+      "step": 6
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 10, 16, 22, 28, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 34
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 6, nên số tiếp theo là 34.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-330b4cf06ec65039",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t1",
+    "fingerprint": "3972e628da278df1291746fb94f0a8fd",
+    "generatorParams": {
+      "start": 7,
+      "step": 2
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 7, 9, 11, 13, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 15
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 2, nên số tiếp theo là 15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-b6d6bdb025da3041",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t2",
+    "fingerprint": "2c7b748765f9a2ee6d448a595cf4b873",
+    "generatorParams": {
+      "start": 8,
+      "step": 3
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 8, 11, 14, 17, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 20
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 3, nên số tiếp theo là 20.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-a2d586046200ab2a",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t3",
+    "fingerprint": "7051e9b27d566f388dd87d3ce9799969",
+    "generatorParams": {
+      "start": 9,
+      "step": 4
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 9, 13, 17, 21, ...",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "29"
+      },
+      {
+        "id": "option-2",
+        "label": "27"
+      },
+      {
+        "id": "option-3",
+        "label": "23"
+      },
+      {
+        "id": "option-4",
+        "label": "25"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 4, nên số tiếp theo là 25.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-41e0fb6576ffa1b6",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t4",
+    "fingerprint": "06a580cefe6e001d93f7c52312924989",
+    "generatorParams": {
+      "start": 10,
+      "step": 5
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 10, 15, 20, 25, ... Bạn An cho rằng đáp án là 30. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 5, nên số tiếp theo là 30.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-bc135913a72e85f3",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t5",
+    "fingerprint": "680833f75418e24b4e4c2fde0103c41e",
+    "generatorParams": {
+      "start": 11,
+      "step": 6
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 11, 17, 23, 29, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 35
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 6, nên số tiếp theo là 35.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-d886b452ab65b8c1",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t1",
+    "fingerprint": "04730341a8317b9e6ce673f95f6b43ec",
+    "generatorParams": {
+      "start": 8,
+      "step": 2
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 8, 10, 12, 14, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 16
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 2, nên số tiếp theo là 16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-96f6a5673942bea3",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t2",
+    "fingerprint": "8ae6b3603c76495815917ed90b8732ae",
+    "generatorParams": {
+      "start": 9,
+      "step": 3
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 9, 12, 15, 18, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 21
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 3, nên số tiếp theo là 21.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-6367d6d26a7fd485",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t3",
+    "fingerprint": "2fba2c3355b0be336fcd9fed8290d98c",
+    "generatorParams": {
+      "start": 10,
+      "step": 4
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 10, 14, 18, 22, ...",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "26"
+      },
+      {
+        "id": "option-2",
+        "label": "24"
+      },
+      {
+        "id": "option-3",
+        "label": "30"
+      },
+      {
+        "id": "option-4",
+        "label": "28"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 4, nên số tiếp theo là 26.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-1050b016b540ba5c",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t4",
+    "fingerprint": "3f97bf4c96e95cf22525b563686f3126",
+    "generatorParams": {
+      "start": 11,
+      "step": 5
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 11, 16, 21, 26, ... Bạn An cho rằng đáp án là 34. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 5, nên số tiếp theo là 31.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-ebc333105b198a69",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t5",
+    "fingerprint": "304d72ea1baf81019ce4adbd951f5fad",
+    "generatorParams": {
+      "start": 12,
+      "step": 6
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 12, 18, 24, 30, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 36
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 6, nên số tiếp theo là 36.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-29b978343c80a63c",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t1",
+    "fingerprint": "20ae3b6cead3c655f9a84c3c8a3da189",
+    "generatorParams": {
+      "start": 9,
+      "step": 3
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 9, 12, 15, 18, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 21
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 3, nên số tiếp theo là 21.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-f94937ef32eb8727",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t2",
+    "fingerprint": "87a19fd535e6c74f2f15497aae2b9ff2",
+    "generatorParams": {
+      "start": 10,
+      "step": 4
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 10, 14, 18, 22, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 26
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 4, nên số tiếp theo là 26.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-481a044faf0b867d",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t3",
+    "fingerprint": "3aa34898867aed84e94b2a8cf426f7a1",
+    "generatorParams": {
+      "start": 11,
+      "step": 5
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 11, 16, 21, 26, ...",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "31"
+      },
+      {
+        "id": "option-2",
+        "label": "28"
+      },
+      {
+        "id": "option-3",
+        "label": "34"
+      },
+      {
+        "id": "option-4",
+        "label": "37"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 5, nên số tiếp theo là 31.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-2879c15faaeac909",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t4",
+    "fingerprint": "ba4a99cc340a12c122482bee30c157af",
+    "generatorParams": {
+      "start": 12,
+      "step": 6
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 12, 18, 24, 30, ... Bạn An cho rằng đáp án là 36. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 6, nên số tiếp theo là 36.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-83f6ae41651bf381",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t5",
+    "fingerprint": "66f78c815cabdb52d87f9e1fdf194bdb",
+    "generatorParams": {
+      "start": 13,
+      "step": 7
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 13, 20, 27, 34, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 41
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 7, nên số tiếp theo là 41.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-6409a7a57cb25749",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t1",
+    "fingerprint": "4d51619e467d215e6f0e67e8abbeeb19",
+    "generatorParams": {
+      "start": 10,
+      "step": 3
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 10, 13, 16, 19, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 22
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 3, nên số tiếp theo là 22.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-625fa7659ebef1ae",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t2",
+    "fingerprint": "9289e1f7ee749e50e4a3bd488eae2eea",
+    "generatorParams": {
+      "start": 11,
+      "step": 4
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 11, 15, 19, 23, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 27
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 4, nên số tiếp theo là 27.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-93181afc4917f43d",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t3",
+    "fingerprint": "d3cd5c1fd02cf38f8017dab8c09c73cd",
+    "generatorParams": {
+      "start": 12,
+      "step": 5
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 12, 17, 22, 27, ...",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "32"
+      },
+      {
+        "id": "option-2",
+        "label": "29"
+      },
+      {
+        "id": "option-3",
+        "label": "35"
+      },
+      {
+        "id": "option-4",
+        "label": "38"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 5, nên số tiếp theo là 32.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-01f15285c9ba9d87",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t4",
+    "fingerprint": "0d45d36e55b21894a3b9049ca00f82fa",
+    "generatorParams": {
+      "start": 13,
+      "step": 6
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 13, 19, 25, 31, ... Bạn An cho rằng đáp án là 40. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 6, nên số tiếp theo là 37.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-e5c19152c2956ab7",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t5",
+    "fingerprint": "20054a6a6163c5323087c11ca26e6f06",
+    "generatorParams": {
+      "start": 14,
+      "step": 7
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 14, 21, 28, 35, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 42
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 7, nên số tiếp theo là 42.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-1ff8a6e5264ce2aa",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t1",
+    "fingerprint": "d6a97fac3f4e0084d86194443f1ec42a",
+    "generatorParams": {
+      "start": 11,
+      "step": 3
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 11, 14, 17, 20, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 23
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 3, nên số tiếp theo là 23.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-05273c033a9fde20",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t2",
+    "fingerprint": "cc4d8d8dc16c1d80526dfae846864bfa",
+    "generatorParams": {
+      "start": 12,
+      "step": 4
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 12, 16, 20, 24, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 28
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 4, nên số tiếp theo là 28.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-c06d0f1330ac9079",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t3",
+    "fingerprint": "fc1f9191c588477c8beaa22f1775ee69",
+    "generatorParams": {
+      "start": 13,
+      "step": 5
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 13, 18, 23, 28, ...",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "39"
+      },
+      {
+        "id": "option-2",
+        "label": "36"
+      },
+      {
+        "id": "option-3",
+        "label": "33"
+      },
+      {
+        "id": "option-4",
+        "label": "30"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 5, nên số tiếp theo là 33.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-da4dbd4541d860bf",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t4",
+    "fingerprint": "a0c284f38012c616d20d52d4bc147b2b",
+    "generatorParams": {
+      "start": 14,
+      "step": 6
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 14, 20, 26, 32, ... Bạn An cho rằng đáp án là 38. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 6, nên số tiếp theo là 38.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-379c06afeb946a19",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t5",
+    "fingerprint": "f6a5a39761717f022534e68d7a11a4e6",
+    "generatorParams": {
+      "start": 15,
+      "step": 7
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 15, 22, 29, 36, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 43
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 7, nên số tiếp theo là 43.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-0e92111b03a48783",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t1",
+    "fingerprint": "61453ffd75bb2ff880000c1769d5fd15",
+    "generatorParams": {
+      "start": 12,
+      "step": 3
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 12, 15, 18, 21, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 24
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 3, nên số tiếp theo là 24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-24dac2c4c0713390",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t2",
+    "fingerprint": "3fe0e62e37c5cd4b570be800cf4705f6",
+    "generatorParams": {
+      "start": 13,
+      "step": 4
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 13, 17, 21, 25, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 29
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 4, nên số tiếp theo là 29.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-fc58d3ff5406bbcf",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t3",
+    "fingerprint": "180a8ee3a5e2112ec470787d947fe989",
+    "generatorParams": {
+      "start": 14,
+      "step": 5
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 14, 19, 24, 29, ...",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "37"
+      },
+      {
+        "id": "option-2",
+        "label": "40"
+      },
+      {
+        "id": "option-3",
+        "label": "34"
+      },
+      {
+        "id": "option-4",
+        "label": "31"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 5, nên số tiếp theo là 34.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-0b540106a1313809",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t4",
+    "fingerprint": "e43a2c83e1bf6090c8766d71a4d0c8d1",
+    "generatorParams": {
+      "start": 15,
+      "step": 6
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 15, 21, 27, 33, ... Bạn An cho rằng đáp án là 42. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 6, nên số tiếp theo là 39.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-19d13d9666bd3161",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t5",
+    "fingerprint": "b76b78f5ed94db98e194c58299ec8105",
+    "generatorParams": {
+      "start": 16,
+      "step": 7
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 16, 23, 30, 37, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 44
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 7, nên số tiếp theo là 44.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-e4250b0874826993",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t1",
+    "fingerprint": "c6807b9c36455d4fbcbfbad7bb90bc73",
+    "generatorParams": {
+      "start": 13,
+      "step": 3
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 13, 16, 19, 22, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 25
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 3, nên số tiếp theo là 25.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-baa1265356d23525",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t2",
+    "fingerprint": "ecac7b9a172264cd56c9ca0699489e9d",
+    "generatorParams": {
+      "start": 14,
+      "step": 4
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 14, 18, 22, 26, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 30
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 4, nên số tiếp theo là 30.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-f3fe4691b26c0fd2",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t3",
+    "fingerprint": "483dc9db80d57c400bfbbfc716a6efb6",
+    "generatorParams": {
+      "start": 15,
+      "step": 5
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 15, 20, 25, 30, ...",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "32"
+      },
+      {
+        "id": "option-2",
+        "label": "35"
+      },
+      {
+        "id": "option-3",
+        "label": "41"
+      },
+      {
+        "id": "option-4",
+        "label": "38"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 5, nên số tiếp theo là 35.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-14c25c4c99ae9316",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t4",
+    "fingerprint": "6c289e0d52eb041aa7e2c0ea1c2a0d02",
+    "generatorParams": {
+      "start": 16,
+      "step": 6
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 16, 22, 28, 34, ... Bạn An cho rằng đáp án là 40. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 6, nên số tiếp theo là 40.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-cc8d588b54ec3d8c",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t5",
+    "fingerprint": "1027d748a5d61fc011e8b7424d5414b3",
+    "generatorParams": {
+      "start": 17,
+      "step": 7
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 17, 24, 31, 38, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 45
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 7, nên số tiếp theo là 45.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-35ea42e08a5ed2bd",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t1",
+    "fingerprint": "7118f35de4c806d985696f80440829f9",
+    "generatorParams": {
+      "start": 14,
+      "step": 3
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 14, 17, 20, 23, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 26
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 3, nên số tiếp theo là 26.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-c8ef81d9832401d3",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t2",
+    "fingerprint": "91610f1064ee54e8c722f318dae67445",
+    "generatorParams": {
+      "start": 15,
+      "step": 4
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 15, 19, 23, 27, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 31
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 4, nên số tiếp theo là 31.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-7d347cdc0fedd00b",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t3",
+    "fingerprint": "ceb38ce18937081cd841c98d6bdea0ac",
+    "generatorParams": {
+      "start": 16,
+      "step": 5
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 16, 21, 26, 31, ...",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "33"
+      },
+      {
+        "id": "option-2",
+        "label": "36"
+      },
+      {
+        "id": "option-3",
+        "label": "39"
+      },
+      {
+        "id": "option-4",
+        "label": "42"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 5, nên số tiếp theo là 36.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-c3cc5e4730094135",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t4",
+    "fingerprint": "8f7e75ae726bfba4b82515c9529e67a5",
+    "generatorParams": {
+      "start": 17,
+      "step": 6
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 17, 23, 29, 35, ... Bạn An cho rằng đáp án là 45. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 6, nên số tiếp theo là 41.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-6ffa1a97493e4d2e",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t5",
+    "fingerprint": "6b3f0b8793ebb4a8d77286109fafa19b",
+    "generatorParams": {
+      "start": 18,
+      "step": 7
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 18, 25, 32, 39, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 46
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 7, nên số tiếp theo là 46.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-c8a515478c464120",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t1",
+    "fingerprint": "056bdfd2cfd7a23d15477d4203b8853c",
+    "generatorParams": {
+      "start": 15,
+      "step": 3
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 15, 18, 21, 24, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 27
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 3, nên số tiếp theo là 27.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-866230f3003a6335",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t2",
+    "fingerprint": "13aa286c26f2f6732bd070be8fd9827e",
+    "generatorParams": {
+      "start": 16,
+      "step": 4
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 16, 20, 24, 28, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 32
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 4, nên số tiếp theo là 32.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-8798eb20174ec59d",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t3",
+    "fingerprint": "1d626ce0fc6dab0ec21ca6ad2433fb9c",
+    "generatorParams": {
+      "start": 17,
+      "step": 5
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 17, 22, 27, 32, ...",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "40"
+      },
+      {
+        "id": "option-2",
+        "label": "43"
+      },
+      {
+        "id": "option-3",
+        "label": "37"
+      },
+      {
+        "id": "option-4",
+        "label": "34"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 5, nên số tiếp theo là 37.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-7799ec404c893c99",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t4",
+    "fingerprint": "e94150fd20eb225155cea065a325fc8c",
+    "generatorParams": {
+      "start": 18,
+      "step": 6
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 18, 24, 30, 36, ... Bạn An cho rằng đáp án là 42. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 6, nên số tiếp theo là 42.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-b16c5bc249a59b04",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t5",
+    "fingerprint": "8720742bcc9464a591861ad6e5b85299",
+    "generatorParams": {
+      "start": 19,
+      "step": 7
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 19, 26, 33, 40, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 47
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 7, nên số tiếp theo là 47.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-8839a46877a6166b",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t1",
+    "fingerprint": "2c56f2f9747c2f57d0db354f71d82769",
+    "generatorParams": {
+      "start": 16,
+      "step": 3
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 16, 19, 22, 25, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 28
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 3, nên số tiếp theo là 28.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-8ac3475c453b127e",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t2",
+    "fingerprint": "97bf9a22955dcb3ee5a1d71651091953",
+    "generatorParams": {
+      "start": 17,
+      "step": 4
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 17, 21, 25, 29, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 33
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 4, nên số tiếp theo là 33.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-96e3ddec40a90767",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t3",
+    "fingerprint": "54eaafe02e7ba8273f603079fd516762",
+    "generatorParams": {
+      "start": 18,
+      "step": 5
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 18, 23, 28, 33, ...",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "35"
+      },
+      {
+        "id": "option-2",
+        "label": "41"
+      },
+      {
+        "id": "option-3",
+        "label": "38"
+      },
+      {
+        "id": "option-4",
+        "label": "44"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 5, nên số tiếp theo là 38.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-1fb385e6bfc096d8",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t4",
+    "fingerprint": "dc3cd4ef12f7924160844e1ed6da2b50",
+    "generatorParams": {
+      "start": 19,
+      "step": 6
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 19, 25, 31, 37, ... Bạn An cho rằng đáp án là 47. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 6, nên số tiếp theo là 43.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-5f4ee7c1b761d5c2",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t5",
+    "fingerprint": "0532f91c70d6e2b076e77d4d3caee546",
+    "generatorParams": {
+      "start": 20,
+      "step": 7
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 20, 27, 34, 41, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 48
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 7, nên số tiếp theo là 48.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-822e6babad221294",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t1",
+    "fingerprint": "ec52fd616828e4637a464e0bbb3f74ed",
+    "generatorParams": {
+      "start": 17,
+      "step": 3
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 17, 20, 23, 26, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 29
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 3, nên số tiếp theo là 29.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-43c96355ebc062de",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t2",
+    "fingerprint": "2191ff17caead8f1e9cb48a845d3a8b0",
+    "generatorParams": {
+      "start": 18,
+      "step": 4
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 18, 22, 26, 30, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 34
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 4, nên số tiếp theo là 34.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-db303a88e4fecf81",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t3",
+    "fingerprint": "76f60b5f5cad92e4ab84a06c2723bc91",
+    "generatorParams": {
+      "start": 19,
+      "step": 5
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 19, 24, 29, 34, ...",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "36"
+      },
+      {
+        "id": "option-2",
+        "label": "45"
+      },
+      {
+        "id": "option-3",
+        "label": "42"
+      },
+      {
+        "id": "option-4",
+        "label": "39"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 5, nên số tiếp theo là 39.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-66cb49775c2cfc00",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t4",
+    "fingerprint": "34cce119f268c0132de5b1778202f7c7",
+    "generatorParams": {
+      "start": 20,
+      "step": 6
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 20, 26, 32, 38, ... Bạn An cho rằng đáp án là 44. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 6, nên số tiếp theo là 44.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-58d57fca563113fd",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t5",
+    "fingerprint": "20e453820726313e87beeff3c8836977",
+    "generatorParams": {
+      "start": 21,
+      "step": 7
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 21, 28, 35, 42, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 49
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 7, nên số tiếp theo là 49.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-7b5e6c3d0b2fcb4e",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t1",
+    "fingerprint": "a1c03bfaaa348d9a678443821b0ffa1e",
+    "generatorParams": {
+      "start": 18,
+      "step": 3
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 18, 21, 24, 27, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 30
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 3, nên số tiếp theo là 30.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-a4a199b08660d7a9",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t2",
+    "fingerprint": "fff1d3c6d529c6edbe5dd010aff52444",
+    "generatorParams": {
+      "start": 19,
+      "step": 4
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 19, 23, 27, 31, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 35
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 4, nên số tiếp theo là 35.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-10dfcd3263948ff7",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t3",
+    "fingerprint": "e15e3ab6b42c6431076431ca5b45dacd",
+    "generatorParams": {
+      "start": 20,
+      "step": 5
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 20, 25, 30, 35, ...",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "44"
+      },
+      {
+        "id": "option-2",
+        "label": "36"
+      },
+      {
+        "id": "option-3",
+        "label": "48"
+      },
+      {
+        "id": "option-4",
+        "label": "40"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 5, nên số tiếp theo là 40.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-cc20788700343334",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t4",
+    "fingerprint": "3bfc39114184315ac3a5aef3dcb0a1b8",
+    "generatorParams": {
+      "start": 21,
+      "step": 6
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 21, 27, 33, 39, ... Bạn An cho rằng đáp án là 49. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 6, nên số tiếp theo là 45.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-44e75ad1ccde5cc6",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t5",
+    "fingerprint": "051ae36bce129a5eac73dfd6da3be2a2",
+    "generatorParams": {
+      "start": 22,
+      "step": 7
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 22, 29, 36, 43, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 50
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 7, nên số tiếp theo là 50.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-98a2cba19f6f5614",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t1",
+    "fingerprint": "ce7bda4155029ec74f45207171ce4930",
+    "generatorParams": {
+      "start": 19,
+      "step": 4
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 19, 23, 27, 31, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 35
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 4, nên số tiếp theo là 35.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-e23f74ad4f960081",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t2",
+    "fingerprint": "fcd088d46fba9caf323f91af280e0dd9",
+    "generatorParams": {
+      "start": 20,
+      "step": 5
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 20, 25, 30, 35, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 40
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 5, nên số tiếp theo là 40.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-1f230a7e7f379377",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t3",
+    "fingerprint": "07204dac18451ae78984c14578a41e84",
+    "generatorParams": {
+      "start": 21,
+      "step": 6
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 21, 27, 33, 39, ...",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "41"
+      },
+      {
+        "id": "option-2",
+        "label": "45"
+      },
+      {
+        "id": "option-3",
+        "label": "53"
+      },
+      {
+        "id": "option-4",
+        "label": "49"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 6, nên số tiếp theo là 45.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-4751fd1cee85f5fd",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t4",
+    "fingerprint": "b9df87261c0ccc9dfd816e0bd5914644",
+    "generatorParams": {
+      "start": 22,
+      "step": 7
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 22, 29, 36, 43, ... Bạn An cho rằng đáp án là 50. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 7, nên số tiếp theo là 50.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-704a21aa46aeeba6",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t5",
+    "fingerprint": "c1686054e106745dc82674b8e24d3faa",
+    "generatorParams": {
+      "start": 23,
+      "step": 8
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 23, 31, 39, 47, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 55
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 8, nên số tiếp theo là 55.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-ae5ffc0538e124e2",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t1",
+    "fingerprint": "b865ccc9f2a42a7dcbabfc12fed2ae06",
+    "generatorParams": {
+      "start": 20,
+      "step": 4
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 20, 24, 28, 32, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 36
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 4, nên số tiếp theo là 36.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-457f33fb495b7cea",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t2",
+    "fingerprint": "d7548a6e1a6424a2325f3515fea8ce05",
+    "generatorParams": {
+      "start": 21,
+      "step": 5
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 21, 26, 31, 36, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 41
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 5, nên số tiếp theo là 41.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-f88ef9d8c0f97f81",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t3",
+    "fingerprint": "d8191843e540ae0c779f1efe07f410ee",
+    "generatorParams": {
+      "start": 22,
+      "step": 6
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 22, 28, 34, 40, ...",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "42"
+      },
+      {
+        "id": "option-2",
+        "label": "54"
+      },
+      {
+        "id": "option-3",
+        "label": "50"
+      },
+      {
+        "id": "option-4",
+        "label": "46"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 6, nên số tiếp theo là 46.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-e37acbff2644f49f",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t4",
+    "fingerprint": "47a01086fb98624cbaeff2f0b75a688a",
+    "generatorParams": {
+      "start": 23,
+      "step": 7
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 23, 30, 37, 44, ... Bạn An cho rằng đáp án là 56. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 7, nên số tiếp theo là 51.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-b57b8aeb6d0894f5",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t5",
+    "fingerprint": "f52b8b6ac394b12c99c97da32829b87a",
+    "generatorParams": {
+      "start": 24,
+      "step": 8
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 24, 32, 40, 48, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 56
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 8, nên số tiếp theo là 56.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-fa62c59712bf4013",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t1",
+    "fingerprint": "8aefe9e77b172e5c3e535f66d0be3cf7",
+    "generatorParams": {
+      "start": 21,
+      "step": 4
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 21, 25, 29, 33, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 37
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 4, nên số tiếp theo là 37.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-769b7d86400a6cb8",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t2",
+    "fingerprint": "30c895f1aa2fc6adb628c645f57ff8d3",
+    "generatorParams": {
+      "start": 22,
+      "step": 5
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 22, 27, 32, 37, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 42
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 5, nên số tiếp theo là 42.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-61b9dd50e2112b8f",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t3",
+    "fingerprint": "32ca42aa0f28a66271f5bfa6ad98c9ae",
+    "generatorParams": {
+      "start": 23,
+      "step": 6
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 23, 29, 35, 41, ...",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "55"
+      },
+      {
+        "id": "option-2",
+        "label": "47"
+      },
+      {
+        "id": "option-3",
+        "label": "43"
+      },
+      {
+        "id": "option-4",
+        "label": "51"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 6, nên số tiếp theo là 47.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-0daed440158aa482",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t4",
+    "fingerprint": "102e9a657e0d47f9fbfe220e57ee09b3",
+    "generatorParams": {
+      "start": 24,
+      "step": 7
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 24, 31, 38, 45, ... Bạn An cho rằng đáp án là 52. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 7, nên số tiếp theo là 52.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-3d5bc1758611671a",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t5",
+    "fingerprint": "1360f6e524b41ab5d6e15a9975061bcc",
+    "generatorParams": {
+      "start": 25,
+      "step": 8
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 25, 33, 41, 49, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 57
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 8, nên số tiếp theo là 57.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-cb83be5837493f5a",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t1",
+    "fingerprint": "972c7f2729b402bdff5474c22960c6c8",
+    "generatorParams": {
+      "start": 22,
+      "step": 4
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 22, 26, 30, 34, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 38
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 4, nên số tiếp theo là 38.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-37ce623b67aaa15e",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t2",
+    "fingerprint": "7941248dd1d5793319c3bf25f415e456",
+    "generatorParams": {
+      "start": 23,
+      "step": 5
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 23, 28, 33, 38, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 43
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 5, nên số tiếp theo là 43.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-585e2e4bbe830f0f",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t3",
+    "fingerprint": "0dfefc4896a481b2b52c2c1ac4304280",
+    "generatorParams": {
+      "start": 24,
+      "step": 6
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 24, 30, 36, 42, ...",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "52"
+      },
+      {
+        "id": "option-2",
+        "label": "48"
+      },
+      {
+        "id": "option-3",
+        "label": "44"
+      },
+      {
+        "id": "option-4",
+        "label": "56"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 6, nên số tiếp theo là 48.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-cffa9bac5e456e63",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t4",
+    "fingerprint": "026ec64328baeb3c153b9b71ffdb20f2",
+    "generatorParams": {
+      "start": 25,
+      "step": 7
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 25, 32, 39, 46, ... Bạn An cho rằng đáp án là 58. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 7, nên số tiếp theo là 53.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-number-pattern-1787df560d853c66",
+    "contentVersion": "grade4-v3",
+    "templateId": "number-pattern-t5",
+    "fingerprint": "19eb6c6d78db3bae754441f2a8b6ec0c",
+    "generatorParams": {
+      "start": 26,
+      "step": 8
+    },
+    "grade": 4,
+    "domainId": "logic",
+    "topicId": "patterns",
+    "skillId": "number-pattern-skill",
+    "problemTypeId": "number-pattern",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số tiếp theo: 26, 34, 42, 50, ...",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 58
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Tìm hiệu giữa hai số đứng cạnh nhau."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "QUESTION_MISREAD",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Mỗi số tăng thêm 8, nên số tiếp theo là 58.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

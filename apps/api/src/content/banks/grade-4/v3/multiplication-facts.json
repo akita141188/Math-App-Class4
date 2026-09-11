@@ -1,0 +1,6662 @@
+[
+  {
+    "id": "g4-multiplication-facts-81e5acc0ed4157fb",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t1",
+    "fingerprint": "d7e47b05e660004b359df429e4fb7091",
+    "generatorParams": {
+      "left": 2,
+      "right": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính nhẩm 2 × 2.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 4
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 2 hoặc 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 2 hoặc 2."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2 × 2 = 4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-e07b9741a4f80837",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t2",
+    "fingerprint": "64c00eab682febaf5b5d9c864013e0cf",
+    "generatorParams": {
+      "left": 6,
+      "right": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 6 × 4 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 24
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 6 hoặc 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 6 hoặc 4."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 4 = 24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-9573aac3c24fd5f3",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t3",
+    "fingerprint": "1b957400501f16facd61e8e0e5db913b",
+    "generatorParams": {
+      "left": 2,
+      "right": 7
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Có 2 nhóm, mỗi nhóm 7 đồ vật. Có tất cả bao nhiêu đồ vật?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "15"
+      },
+      {
+        "id": "option-2",
+        "label": "14"
+      },
+      {
+        "id": "option-3",
+        "label": "13"
+      },
+      {
+        "id": "option-4",
+        "label": "24"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 2 hoặc 7."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 2 hoặc 7."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2 × 7 = 14.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-b27ad947e774ec95",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t4",
+    "fingerprint": "de8431d82e088c03a33b24f151fa190d",
+    "generatorParams": {
+      "left": 6,
+      "right": 9
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An đang kiểm tra phép nhân 6 × 9. Kết quả đúng là bao nhiêu? Bạn An cho rằng đáp án là 54. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 6 hoặc 9."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 6 hoặc 9."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 9 = 54.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-18d00e23efe09dfc",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t5",
+    "fingerprint": "d2468d8bb11fd604f56437595ec7568e",
+    "generatorParams": {
+      "left": 2,
+      "right": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Dùng quan hệ với phép chia để tìm tích 2 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 8
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 2 hoặc 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 2 hoặc 4."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2 × 4 = 8.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-187971585f45ee55",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t1",
+    "fingerprint": "e52a4a17c77f4de7838dda845ea4621d",
+    "generatorParams": {
+      "left": 3,
+      "right": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính nhẩm 3 × 2.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 6
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 3 hoặc 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 3 hoặc 2."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 2 = 6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-8ffed76ef9076215",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t2",
+    "fingerprint": "fdee0950b2a9eb34bcda048bd9f50d00",
+    "generatorParams": {
+      "left": 7,
+      "right": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 7 × 4 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 28
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 7 hoặc 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 7 hoặc 4."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 4 = 28.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-fa8367e123a6bc27",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t3",
+    "fingerprint": "39ab3b7c58207e100dee6a55269826c6",
+    "generatorParams": {
+      "left": 3,
+      "right": 7
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Có 3 nhóm, mỗi nhóm 7 đồ vật. Có tất cả bao nhiêu đồ vật?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "21"
+      },
+      {
+        "id": "option-2",
+        "label": "31"
+      },
+      {
+        "id": "option-3",
+        "label": "20"
+      },
+      {
+        "id": "option-4",
+        "label": "22"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 3 hoặc 7."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 3 hoặc 7."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 7 = 21.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-845d5f5e4fc88f0d",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t4",
+    "fingerprint": "380ce51e28929b7129e63746fbbdaad8",
+    "generatorParams": {
+      "left": 7,
+      "right": 9
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An đang kiểm tra phép nhân 7 × 9. Kết quả đúng là bao nhiêu? Bạn An cho rằng đáp án là 64. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 7 hoặc 9."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 7 hoặc 9."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 9 = 63.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-11e6bce6033b831f",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t5",
+    "fingerprint": "b341f80843893271041ae9ca845514dd",
+    "generatorParams": {
+      "left": 3,
+      "right": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Dùng quan hệ với phép chia để tìm tích 3 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 12
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 3 hoặc 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 3 hoặc 4."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 4 = 12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-428797cfb9819d8e",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t1",
+    "fingerprint": "cedc929f9a3345ba63c3b450a698f52c",
+    "generatorParams": {
+      "left": 4,
+      "right": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính nhẩm 4 × 2.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 8
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 4 hoặc 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 4 hoặc 2."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 2 = 8.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-e96fe079eadf2bc2",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t2",
+    "fingerprint": "c431a40f792846ff273a28d8935b6dec",
+    "generatorParams": {
+      "left": 8,
+      "right": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 8 × 4 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 32
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 8 hoặc 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 8 hoặc 4."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 4 = 32.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-4ab9ec2aefd18e1b",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t3",
+    "fingerprint": "174f9c88c94cf2487567c72a13ab2c3c",
+    "generatorParams": {
+      "left": 4,
+      "right": 7
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Có 4 nhóm, mỗi nhóm 7 đồ vật. Có tất cả bao nhiêu đồ vật?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "28"
+      },
+      {
+        "id": "option-2",
+        "label": "38"
+      },
+      {
+        "id": "option-3",
+        "label": "29"
+      },
+      {
+        "id": "option-4",
+        "label": "27"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 4 hoặc 7."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 4 hoặc 7."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 7 = 28.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-5862ef35848862bd",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t4",
+    "fingerprint": "61d214e898f8ec5bfeefb36f4844e420",
+    "generatorParams": {
+      "left": 8,
+      "right": 9
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An đang kiểm tra phép nhân 8 × 9. Kết quả đúng là bao nhiêu? Bạn An cho rằng đáp án là 72. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 8 hoặc 9."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 8 hoặc 9."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 9 = 72.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-41e05f8a302190c3",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t5",
+    "fingerprint": "9d33b000add98c8c151acef4f5a28488",
+    "generatorParams": {
+      "left": 4,
+      "right": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Dùng quan hệ với phép chia để tìm tích 4 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 16
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 4 hoặc 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 4 hoặc 4."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 4 = 16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-550e25d3773aced4",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t1",
+    "fingerprint": "00cb0ccf9bb4434097bb49e736e9af6a",
+    "generatorParams": {
+      "left": 5,
+      "right": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính nhẩm 5 × 2.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 10
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 5 hoặc 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 5 hoặc 2."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 2 = 10.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-d9cf68e236ec39a3",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t2",
+    "fingerprint": "eddc7af411355a99ff421e32e999a660",
+    "generatorParams": {
+      "left": 9,
+      "right": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 9 × 4 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 36
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 9 hoặc 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 9 hoặc 4."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9 × 4 = 36.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-db91029c22ac44ef",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t3",
+    "fingerprint": "ef6ec243c06c2c6bcf1005fe784841fa",
+    "generatorParams": {
+      "left": 5,
+      "right": 7
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Có 5 nhóm, mỗi nhóm 7 đồ vật. Có tất cả bao nhiêu đồ vật?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "35"
+      },
+      {
+        "id": "option-2",
+        "label": "36"
+      },
+      {
+        "id": "option-3",
+        "label": "34"
+      },
+      {
+        "id": "option-4",
+        "label": "45"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 5 hoặc 7."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 5 hoặc 7."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 7 = 35.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-dbcd4b8e883f4c11",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t4",
+    "fingerprint": "fd758ab38c0bfd625d4cdc431ec7dc9b",
+    "generatorParams": {
+      "left": 9,
+      "right": 9
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An đang kiểm tra phép nhân 9 × 9. Kết quả đúng là bao nhiêu? Bạn An cho rằng đáp án là 82. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 9 hoặc 9."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 9 hoặc 9."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9 × 9 = 81.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-3c77901a80047884",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t5",
+    "fingerprint": "0678825e47f88322db7913716d63c4c8",
+    "generatorParams": {
+      "left": 5,
+      "right": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Dùng quan hệ với phép chia để tìm tích 5 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 20
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 5 hoặc 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 5 hoặc 4."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 4 = 20.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-3d66efab2a12ebaa",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t1",
+    "fingerprint": "ba99b3faa1a9c46fd29c29323daed806",
+    "generatorParams": {
+      "left": 6,
+      "right": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính nhẩm 6 × 2.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 12
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 6 hoặc 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 6 hoặc 2."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 2 = 12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-be82ee87d5ed4464",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t2",
+    "fingerprint": "1fa87543210d7d357004070d657b0b16",
+    "generatorParams": {
+      "left": 2,
+      "right": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 2 × 5 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 10
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 2 hoặc 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 2 hoặc 5."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2 × 5 = 10.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-138f70b4c5be8e1e",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t3",
+    "fingerprint": "7985930a99d13c0cb4b1c28a680734c5",
+    "generatorParams": {
+      "left": 6,
+      "right": 7
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Có 6 nhóm, mỗi nhóm 7 đồ vật. Có tất cả bao nhiêu đồ vật?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "52"
+      },
+      {
+        "id": "option-2",
+        "label": "42"
+      },
+      {
+        "id": "option-3",
+        "label": "41"
+      },
+      {
+        "id": "option-4",
+        "label": "43"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 6 hoặc 7."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 6 hoặc 7."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 7 = 42.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-f416e5238f46d4f9",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t4",
+    "fingerprint": "a6c29ecba92de9432ceaa7f82f790e90",
+    "generatorParams": {
+      "left": 2,
+      "right": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An đang kiểm tra phép nhân 2 × 2. Kết quả đúng là bao nhiêu? Bạn An cho rằng đáp án là 4. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 2 hoặc 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 2 hoặc 2."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2 × 2 = 4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-5aa47b9a05e8dd6b",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t5",
+    "fingerprint": "9f9c0d78a283130011b6eace937fcddf",
+    "generatorParams": {
+      "left": 6,
+      "right": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Dùng quan hệ với phép chia để tìm tích 6 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 24
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 6 hoặc 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 6 hoặc 4."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 4 = 24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-197ea54b12702299",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t1",
+    "fingerprint": "16fd704a6a092a02c5d87f7522e1cdfc",
+    "generatorParams": {
+      "left": 7,
+      "right": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính nhẩm 7 × 2.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 14
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 7 hoặc 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 7 hoặc 2."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 2 = 14.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-a753a33ac6f9e915",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t2",
+    "fingerprint": "c8564d10210e30206dd97853fa00f8d9",
+    "generatorParams": {
+      "left": 3,
+      "right": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 3 × 5 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 15
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 3 hoặc 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 3 hoặc 5."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 5 = 15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-6f84aaab78f39791",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t3",
+    "fingerprint": "b10f5252d6e4c8e5e43929fd01b3a55b",
+    "generatorParams": {
+      "left": 7,
+      "right": 7
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Có 7 nhóm, mỗi nhóm 7 đồ vật. Có tất cả bao nhiêu đồ vật?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "48"
+      },
+      {
+        "id": "option-2",
+        "label": "59"
+      },
+      {
+        "id": "option-3",
+        "label": "50"
+      },
+      {
+        "id": "option-4",
+        "label": "49"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 7 hoặc 7."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 7 hoặc 7."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 7 = 49.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-65ae691ff21fa6b9",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t4",
+    "fingerprint": "effada3c42d1b7885b17adb23d5f1546",
+    "generatorParams": {
+      "left": 3,
+      "right": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An đang kiểm tra phép nhân 3 × 2. Kết quả đúng là bao nhiêu? Bạn An cho rằng đáp án là 7. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 3 hoặc 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 3 hoặc 2."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 2 = 6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-ae5a37b2657b46e2",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t5",
+    "fingerprint": "3dfd581b20a887498cd3383dc594a3da",
+    "generatorParams": {
+      "left": 7,
+      "right": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Dùng quan hệ với phép chia để tìm tích 7 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 28
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 7 hoặc 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 7 hoặc 4."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 4 = 28.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-322ae71b5be71417",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t1",
+    "fingerprint": "e545ba395189a8f586ed111261aadaf8",
+    "generatorParams": {
+      "left": 8,
+      "right": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính nhẩm 8 × 2.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 16
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 8 hoặc 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 8 hoặc 2."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 2 = 16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-2995235d258d9cb0",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t2",
+    "fingerprint": "35e58eeb27a0b13c423817b797251265",
+    "generatorParams": {
+      "left": 4,
+      "right": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 4 × 5 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 20
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 4 hoặc 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 4 hoặc 5."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 5 = 20.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-63492f5e110f9dae",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t3",
+    "fingerprint": "ec9095b9ef408130f7e0bdcbc5223895",
+    "generatorParams": {
+      "left": 8,
+      "right": 7
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Có 8 nhóm, mỗi nhóm 7 đồ vật. Có tất cả bao nhiêu đồ vật?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "66"
+      },
+      {
+        "id": "option-2",
+        "label": "56"
+      },
+      {
+        "id": "option-3",
+        "label": "55"
+      },
+      {
+        "id": "option-4",
+        "label": "57"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 8 hoặc 7."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 8 hoặc 7."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 7 = 56.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-9623091f7ec9663e",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t4",
+    "fingerprint": "9b4c53c03f8a06cc85f829d744e09265",
+    "generatorParams": {
+      "left": 4,
+      "right": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An đang kiểm tra phép nhân 4 × 2. Kết quả đúng là bao nhiêu? Bạn An cho rằng đáp án là 8. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 4 hoặc 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 4 hoặc 2."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 2 = 8.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-562cdab17af243dd",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t5",
+    "fingerprint": "04ddb458d0aa2fdf0cd3fb310df8266a",
+    "generatorParams": {
+      "left": 8,
+      "right": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Dùng quan hệ với phép chia để tìm tích 8 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 32
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 8 hoặc 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 8 hoặc 4."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 4 = 32.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-5e7163a9f7f0b1a7",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t1",
+    "fingerprint": "258c0749fcf2ea6749fcc5a744925ef6",
+    "generatorParams": {
+      "left": 9,
+      "right": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính nhẩm 9 × 2.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 18
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 9 hoặc 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 9 hoặc 2."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9 × 2 = 18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-3c01e4408b3605ee",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t2",
+    "fingerprint": "69e15c204fa15fe2a4a4a680eb155c46",
+    "generatorParams": {
+      "left": 5,
+      "right": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 5 × 5 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 25
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 5 hoặc 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 5 hoặc 5."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 5 = 25.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-f6f29dbb68aaf23e",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t3",
+    "fingerprint": "40e63432ff893eecd75ebf42e2d746a7",
+    "generatorParams": {
+      "left": 9,
+      "right": 7
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Có 9 nhóm, mỗi nhóm 7 đồ vật. Có tất cả bao nhiêu đồ vật?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "62"
+      },
+      {
+        "id": "option-2",
+        "label": "73"
+      },
+      {
+        "id": "option-3",
+        "label": "63"
+      },
+      {
+        "id": "option-4",
+        "label": "64"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 9 hoặc 7."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 9 hoặc 7."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9 × 7 = 63.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-67cf051f208eb625",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t4",
+    "fingerprint": "c6d90ddfa796d1ebd95f6b9e7420e63b",
+    "generatorParams": {
+      "left": 5,
+      "right": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An đang kiểm tra phép nhân 5 × 2. Kết quả đúng là bao nhiêu? Bạn An cho rằng đáp án là 11. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 5 hoặc 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 5 hoặc 2."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 2 = 10.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-7fde353612fc409f",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t5",
+    "fingerprint": "81cb76ae58262a57b06f8392a090d07c",
+    "generatorParams": {
+      "left": 9,
+      "right": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Dùng quan hệ với phép chia để tìm tích 9 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 36
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 9 hoặc 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 9 hoặc 4."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9 × 4 = 36.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-1771a3920ecd050f",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t1",
+    "fingerprint": "2a5c9168d34c10e18adbcc0525fb13d9",
+    "generatorParams": {
+      "left": 2,
+      "right": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính nhẩm 2 × 3.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 6
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 2 hoặc 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 2 hoặc 3."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2 × 3 = 6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-04dc7c8fddda21dc",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t2",
+    "fingerprint": "bed21d3f1b77b56cf9b7affc64fabead",
+    "generatorParams": {
+      "left": 6,
+      "right": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 6 × 5 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 30
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 6 hoặc 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 6 hoặc 5."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 5 = 30.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-08cf9624bed7f494",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t3",
+    "fingerprint": "8a2436934771e38306148dd4ace8e758",
+    "generatorParams": {
+      "left": 2,
+      "right": 8
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Có 2 nhóm, mỗi nhóm 8 đồ vật. Có tất cả bao nhiêu đồ vật?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "15"
+      },
+      {
+        "id": "option-2",
+        "label": "17"
+      },
+      {
+        "id": "option-3",
+        "label": "16"
+      },
+      {
+        "id": "option-4",
+        "label": "26"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 2 hoặc 8."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 2 hoặc 8."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2 × 8 = 16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-d509f089f24ceb7e",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t4",
+    "fingerprint": "2e33b521407281d461a8a3e06c8f774e",
+    "generatorParams": {
+      "left": 6,
+      "right": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An đang kiểm tra phép nhân 6 × 2. Kết quả đúng là bao nhiêu? Bạn An cho rằng đáp án là 12. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 6 hoặc 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 6 hoặc 2."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 2 = 12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-cdc104baf8ae7457",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t5",
+    "fingerprint": "c6c7f2eb3125628557559cc37e77b2e6",
+    "generatorParams": {
+      "left": 2,
+      "right": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Dùng quan hệ với phép chia để tìm tích 2 × 5.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 10
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 2 hoặc 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 2 hoặc 5."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2 × 5 = 10.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-58fbe9ce91d0a377",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t1",
+    "fingerprint": "32c84adba463c2c3fcf426578c60d00a",
+    "generatorParams": {
+      "left": 3,
+      "right": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính nhẩm 3 × 3.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 9
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 3 hoặc 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 3 hoặc 3."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 3 = 9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-5ee1216ab79e29ba",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t2",
+    "fingerprint": "f8479a13d65526740a68d4c4f068d515",
+    "generatorParams": {
+      "left": 7,
+      "right": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 7 × 5 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 35
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 7 hoặc 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 7 hoặc 5."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 5 = 35.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-1132cf3ee22f2629",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t3",
+    "fingerprint": "80552a9adcba2df74948ce3c8c7bd1a3",
+    "generatorParams": {
+      "left": 3,
+      "right": 8
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Có 3 nhóm, mỗi nhóm 8 đồ vật. Có tất cả bao nhiêu đồ vật?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "24"
+      },
+      {
+        "id": "option-2",
+        "label": "34"
+      },
+      {
+        "id": "option-3",
+        "label": "25"
+      },
+      {
+        "id": "option-4",
+        "label": "23"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 3 hoặc 8."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 3 hoặc 8."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 8 = 24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-abcb80b53c5d9cfb",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t4",
+    "fingerprint": "aadf886b8fca83647f74483a02834470",
+    "generatorParams": {
+      "left": 7,
+      "right": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An đang kiểm tra phép nhân 7 × 2. Kết quả đúng là bao nhiêu? Bạn An cho rằng đáp án là 15. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 7 hoặc 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 7 hoặc 2."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 2 = 14.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-314c61e1d2434c7f",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t5",
+    "fingerprint": "a5d3e7e0343c380af62693ff799d452d",
+    "generatorParams": {
+      "left": 3,
+      "right": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Dùng quan hệ với phép chia để tìm tích 3 × 5.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 15
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 3 hoặc 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 3 hoặc 5."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 5 = 15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-5767b33ed0c55b15",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t1",
+    "fingerprint": "fc4b7d22d29bf6d6157ebda251b35db7",
+    "generatorParams": {
+      "left": 4,
+      "right": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính nhẩm 4 × 3.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 12
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 4 hoặc 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 4 hoặc 3."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 3 = 12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-2c16b2b8d6790764",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t2",
+    "fingerprint": "e4a08c386e8739e203be17d9903fd59e",
+    "generatorParams": {
+      "left": 8,
+      "right": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 8 × 5 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 40
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 8 hoặc 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 8 hoặc 5."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 5 = 40.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-4d556cea8b4eb24a",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t3",
+    "fingerprint": "46fd28e127c121f2f3f55da5c6bb0266",
+    "generatorParams": {
+      "left": 4,
+      "right": 8
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Có 4 nhóm, mỗi nhóm 8 đồ vật. Có tất cả bao nhiêu đồ vật?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "33"
+      },
+      {
+        "id": "option-2",
+        "label": "32"
+      },
+      {
+        "id": "option-3",
+        "label": "31"
+      },
+      {
+        "id": "option-4",
+        "label": "42"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 4 hoặc 8."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 4 hoặc 8."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 8 = 32.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-5d134befc4f42c71",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t4",
+    "fingerprint": "e7db9fc6594d694ece1877b7d51cd940",
+    "generatorParams": {
+      "left": 8,
+      "right": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An đang kiểm tra phép nhân 8 × 2. Kết quả đúng là bao nhiêu? Bạn An cho rằng đáp án là 16. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 8 hoặc 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 8 hoặc 2."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 2 = 16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-85eead14ce3c38d8",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t5",
+    "fingerprint": "25d3ac169bc581167626aaf88017c262",
+    "generatorParams": {
+      "left": 4,
+      "right": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Dùng quan hệ với phép chia để tìm tích 4 × 5.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 20
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 4 hoặc 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 4 hoặc 5."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 5 = 20.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-3c706a8f18654cac",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t1",
+    "fingerprint": "514842f62dfbb0f0cb56d45263caa7d1",
+    "generatorParams": {
+      "left": 5,
+      "right": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính nhẩm 5 × 3.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 15
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 5 hoặc 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 5 hoặc 3."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 3 = 15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-5dc5c4ea1f7f0a76",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t2",
+    "fingerprint": "ef43e388f600d43ae6711c65e3c5bd81",
+    "generatorParams": {
+      "left": 9,
+      "right": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 9 × 5 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 45
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 9 hoặc 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 9 hoặc 5."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9 × 5 = 45.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-f3a1952c5e872a17",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t3",
+    "fingerprint": "4ee463bfe46143d35facf02f3a98078e",
+    "generatorParams": {
+      "left": 5,
+      "right": 8
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Có 5 nhóm, mỗi nhóm 8 đồ vật. Có tất cả bao nhiêu đồ vật?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "41"
+      },
+      {
+        "id": "option-2",
+        "label": "39"
+      },
+      {
+        "id": "option-3",
+        "label": "40"
+      },
+      {
+        "id": "option-4",
+        "label": "50"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 5 hoặc 8."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 5 hoặc 8."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 8 = 40.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-3773aaaf27c200b0",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t4",
+    "fingerprint": "4f8751b3373ec875618953ef525291b1",
+    "generatorParams": {
+      "left": 9,
+      "right": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An đang kiểm tra phép nhân 9 × 2. Kết quả đúng là bao nhiêu? Bạn An cho rằng đáp án là 19. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 9 hoặc 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 9 hoặc 2."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9 × 2 = 18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-d0bb0733524f5523",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t5",
+    "fingerprint": "7202518364891746b83254b4538cb5c7",
+    "generatorParams": {
+      "left": 5,
+      "right": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Dùng quan hệ với phép chia để tìm tích 5 × 5.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 25
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 5 hoặc 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 5 hoặc 5."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 5 = 25.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-9bb1da9b2baeb540",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t1",
+    "fingerprint": "3e867121440f004f07ff408f8c93c1dd",
+    "generatorParams": {
+      "left": 6,
+      "right": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính nhẩm 6 × 3.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 18
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 6 hoặc 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 6 hoặc 3."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 3 = 18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-be8e90c08e841e88",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t2",
+    "fingerprint": "1987471212f85ca56e9c80d8094bdfff",
+    "generatorParams": {
+      "left": 2,
+      "right": 6
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 2 × 6 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 12
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 2 hoặc 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 2 hoặc 6."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2 × 6 = 12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-eea59cf11bbf155d",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t3",
+    "fingerprint": "d3ece158c5be8aa3beb32bb576ff1a44",
+    "generatorParams": {
+      "left": 6,
+      "right": 8
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Có 6 nhóm, mỗi nhóm 8 đồ vật. Có tất cả bao nhiêu đồ vật?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "47"
+      },
+      {
+        "id": "option-2",
+        "label": "49"
+      },
+      {
+        "id": "option-3",
+        "label": "48"
+      },
+      {
+        "id": "option-4",
+        "label": "58"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 6 hoặc 8."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 6 hoặc 8."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 8 = 48.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-e42bcfe392fe4164",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t4",
+    "fingerprint": "d957d36affd7e524f15453f471737c72",
+    "generatorParams": {
+      "left": 2,
+      "right": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An đang kiểm tra phép nhân 2 × 3. Kết quả đúng là bao nhiêu? Bạn An cho rằng đáp án là 6. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 2 hoặc 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 2 hoặc 3."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2 × 3 = 6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-007cc29e8a953222",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t5",
+    "fingerprint": "b5841e5b355abfe35d50678c77f6f3f8",
+    "generatorParams": {
+      "left": 6,
+      "right": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Dùng quan hệ với phép chia để tìm tích 6 × 5.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 30
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 6 hoặc 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 6 hoặc 5."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 5 = 30.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-a646af887f03e3f3",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t1",
+    "fingerprint": "de9a43a23d5b560c50735a4ee4542e60",
+    "generatorParams": {
+      "left": 7,
+      "right": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính nhẩm 7 × 3.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 21
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 7 hoặc 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 7 hoặc 3."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 3 = 21.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-e3059cec891207ff",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t2",
+    "fingerprint": "3ff8d2c3f97e8f3cb1838bb736898e81",
+    "generatorParams": {
+      "left": 3,
+      "right": 6
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 3 × 6 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 18
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 3 hoặc 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 3 hoặc 6."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 6 = 18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-66fe1c0df8bad58b",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t3",
+    "fingerprint": "0806e74c610ddc77bd57a247cd9339b5",
+    "generatorParams": {
+      "left": 7,
+      "right": 8
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Có 7 nhóm, mỗi nhóm 8 đồ vật. Có tất cả bao nhiêu đồ vật?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "66"
+      },
+      {
+        "id": "option-2",
+        "label": "55"
+      },
+      {
+        "id": "option-3",
+        "label": "56"
+      },
+      {
+        "id": "option-4",
+        "label": "57"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 7 hoặc 8."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 7 hoặc 8."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 8 = 56.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-876ad19c0eebd01a",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t4",
+    "fingerprint": "9f35be0eb31886080597288572c349be",
+    "generatorParams": {
+      "left": 3,
+      "right": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An đang kiểm tra phép nhân 3 × 3. Kết quả đúng là bao nhiêu? Bạn An cho rằng đáp án là 10. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 3 hoặc 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 3 hoặc 3."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 3 = 9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-fa1ac91cb373a631",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t5",
+    "fingerprint": "e50679bf91ae71f7ed1f80af50cad270",
+    "generatorParams": {
+      "left": 7,
+      "right": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Dùng quan hệ với phép chia để tìm tích 7 × 5.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 35
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 7 hoặc 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 7 hoặc 5."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 5 = 35.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-85916c3905656273",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t1",
+    "fingerprint": "5fa9b1867f010eec3b39da3363eae90b",
+    "generatorParams": {
+      "left": 8,
+      "right": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính nhẩm 8 × 3.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 24
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 8 hoặc 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 8 hoặc 3."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 3 = 24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-6d8512f629b9c64f",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t2",
+    "fingerprint": "d26a294c164347a8e1c560f011a09a90",
+    "generatorParams": {
+      "left": 4,
+      "right": 6
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 4 × 6 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 24
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 4 hoặc 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 4 hoặc 6."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 6 = 24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-c65e039cd232e06e",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t3",
+    "fingerprint": "091d6a7278366d3bdfe252dfb4f44ac3",
+    "generatorParams": {
+      "left": 8,
+      "right": 8
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Có 8 nhóm, mỗi nhóm 8 đồ vật. Có tất cả bao nhiêu đồ vật?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "64"
+      },
+      {
+        "id": "option-2",
+        "label": "74"
+      },
+      {
+        "id": "option-3",
+        "label": "63"
+      },
+      {
+        "id": "option-4",
+        "label": "65"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 8 hoặc 8."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 8 hoặc 8."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 8 = 64.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-0b7c522f4bc525b1",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t4",
+    "fingerprint": "40b1d61cbb077922b81c7c39f70f8605",
+    "generatorParams": {
+      "left": 4,
+      "right": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An đang kiểm tra phép nhân 4 × 3. Kết quả đúng là bao nhiêu? Bạn An cho rằng đáp án là 12. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 4 hoặc 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 4 hoặc 3."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 3 = 12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-7613ab7941622ccd",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t5",
+    "fingerprint": "ef23a42064fe731cba7b2b846400b2cc",
+    "generatorParams": {
+      "left": 8,
+      "right": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Dùng quan hệ với phép chia để tìm tích 8 × 5.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 40
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 8 hoặc 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 8 hoặc 5."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 5 = 40.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-2b25e13aef998454",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t1",
+    "fingerprint": "5840e561ba37728857244bdd33ec43b6",
+    "generatorParams": {
+      "left": 9,
+      "right": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính nhẩm 9 × 3.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 27
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 9 hoặc 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 9 hoặc 3."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9 × 3 = 27.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-0e321111eebc840f",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t2",
+    "fingerprint": "697c4d855ec4f3f26045f3fd4d99166f",
+    "generatorParams": {
+      "left": 5,
+      "right": 6
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 5 × 6 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 30
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 5 hoặc 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 5 hoặc 6."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 6 = 30.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-d4bb7ae979b2e0a8",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t3",
+    "fingerprint": "d073eeb78b9e88cd86e3f70b6acbe2cf",
+    "generatorParams": {
+      "left": 9,
+      "right": 8
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Có 9 nhóm, mỗi nhóm 8 đồ vật. Có tất cả bao nhiêu đồ vật?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "82"
+      },
+      {
+        "id": "option-2",
+        "label": "73"
+      },
+      {
+        "id": "option-3",
+        "label": "71"
+      },
+      {
+        "id": "option-4",
+        "label": "72"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 9 hoặc 8."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 9 hoặc 8."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9 × 8 = 72.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-4d4850496ba3f7c0",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t4",
+    "fingerprint": "acde8c3bca81a13a8a75ab22fb008c62",
+    "generatorParams": {
+      "left": 5,
+      "right": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An đang kiểm tra phép nhân 5 × 3. Kết quả đúng là bao nhiêu? Bạn An cho rằng đáp án là 16. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 5 hoặc 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 5 hoặc 3."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 3 = 15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-ac23702d79178b9c",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t5",
+    "fingerprint": "d33700a585bcfacee7b3acbd3933a0ca",
+    "generatorParams": {
+      "left": 9,
+      "right": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Dùng quan hệ với phép chia để tìm tích 9 × 5.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 45
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 9 hoặc 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 9 hoặc 5."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9 × 5 = 45.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-ee877084d69c717a",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t1",
+    "fingerprint": "d52c58c8dfeebf5ad649c68d4ae35a0e",
+    "generatorParams": {
+      "left": 2,
+      "right": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính nhẩm 2 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 8
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 2 hoặc 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 2 hoặc 4."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2 × 4 = 8.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-930dd3095616882c",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t2",
+    "fingerprint": "cbb3ceb97ccb3fa40b756cab14d6df66",
+    "generatorParams": {
+      "left": 6,
+      "right": 6
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 6 × 6 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 36
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 6 hoặc 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 6 hoặc 6."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 6 = 36.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-0b3538ebb524ba0e",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t3",
+    "fingerprint": "e6ab0f50bcbca3b94fa096e5a35d29e0",
+    "generatorParams": {
+      "left": 2,
+      "right": 9
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Có 2 nhóm, mỗi nhóm 9 đồ vật. Có tất cả bao nhiêu đồ vật?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "28"
+      },
+      {
+        "id": "option-2",
+        "label": "18"
+      },
+      {
+        "id": "option-3",
+        "label": "17"
+      },
+      {
+        "id": "option-4",
+        "label": "19"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 2 hoặc 9."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 2 hoặc 9."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2 × 9 = 18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-0e47f31b334d22d0",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t4",
+    "fingerprint": "5a98ff2afcad1f96ad08e2cfbb2664f8",
+    "generatorParams": {
+      "left": 6,
+      "right": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An đang kiểm tra phép nhân 6 × 3. Kết quả đúng là bao nhiêu? Bạn An cho rằng đáp án là 18. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 6 hoặc 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 6 hoặc 3."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 3 = 18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-296853469a5dec3c",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t5",
+    "fingerprint": "ea84550bd1c127f2106337729a63a8c9",
+    "generatorParams": {
+      "left": 2,
+      "right": 6
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Dùng quan hệ với phép chia để tìm tích 2 × 6.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 12
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 2 hoặc 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 2 hoặc 6."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2 × 6 = 12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-ccfb8337f29d679a",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t1",
+    "fingerprint": "024cb7bd9b27c99169ef80726099ee19",
+    "generatorParams": {
+      "left": 3,
+      "right": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính nhẩm 3 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 12
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 3 hoặc 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 3 hoặc 4."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 4 = 12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-c56e764461fcf82b",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t2",
+    "fingerprint": "1666b5b38bd6d27dd4162d2cb8fe4e6d",
+    "generatorParams": {
+      "left": 7,
+      "right": 6
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 7 × 6 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 42
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 7 hoặc 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 7 hoặc 6."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 6 = 42.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-28a5dc36d30440b1",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t3",
+    "fingerprint": "6d4d02aa9d8afbcb04edb570cdccf71d",
+    "generatorParams": {
+      "left": 3,
+      "right": 9
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Có 3 nhóm, mỗi nhóm 9 đồ vật. Có tất cả bao nhiêu đồ vật?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "37"
+      },
+      {
+        "id": "option-2",
+        "label": "28"
+      },
+      {
+        "id": "option-3",
+        "label": "26"
+      },
+      {
+        "id": "option-4",
+        "label": "27"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 3 hoặc 9."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 3 hoặc 9."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 9 = 27.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-43fe8f0fdfadc440",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t4",
+    "fingerprint": "ca7e66e2e12f76869c0e096ff02b5927",
+    "generatorParams": {
+      "left": 7,
+      "right": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An đang kiểm tra phép nhân 7 × 3. Kết quả đúng là bao nhiêu? Bạn An cho rằng đáp án là 22. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 7 hoặc 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 7 hoặc 3."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 3 = 21.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-3e3be544d454b1c0",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t5",
+    "fingerprint": "ed61cd0823b1f46b2ea2c0e083f1cc7a",
+    "generatorParams": {
+      "left": 3,
+      "right": 6
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Dùng quan hệ với phép chia để tìm tích 3 × 6.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 18
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 3 hoặc 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 3 hoặc 6."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 6 = 18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-aff0535131df2fd1",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t1",
+    "fingerprint": "790583c8c5d232ef1bef5572329f2d77",
+    "generatorParams": {
+      "left": 4,
+      "right": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính nhẩm 4 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 16
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 4 hoặc 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 4 hoặc 4."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 4 = 16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-fcd4a27ef3f76057",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t2",
+    "fingerprint": "38452b46b2cf7524a63bdb7feff85727",
+    "generatorParams": {
+      "left": 8,
+      "right": 6
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 8 × 6 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 48
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 8 hoặc 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 8 hoặc 6."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 6 = 48.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-eab2c61406eca689",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t3",
+    "fingerprint": "b09b1f904b4235ed95b6ca7c1638b430",
+    "generatorParams": {
+      "left": 4,
+      "right": 9
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Có 4 nhóm, mỗi nhóm 9 đồ vật. Có tất cả bao nhiêu đồ vật?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "35"
+      },
+      {
+        "id": "option-2",
+        "label": "37"
+      },
+      {
+        "id": "option-3",
+        "label": "36"
+      },
+      {
+        "id": "option-4",
+        "label": "46"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 4 hoặc 9."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 4 hoặc 9."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 9 = 36.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-5ecde961f8226ed0",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t4",
+    "fingerprint": "9ed64aa41a0fefb9e3fee41d198532f6",
+    "generatorParams": {
+      "left": 8,
+      "right": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An đang kiểm tra phép nhân 8 × 3. Kết quả đúng là bao nhiêu? Bạn An cho rằng đáp án là 24. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 8 hoặc 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 8 hoặc 3."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 3 = 24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-c8c48e49c7cda12d",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t5",
+    "fingerprint": "40df001f19e9e14214e8743926df4d1d",
+    "generatorParams": {
+      "left": 4,
+      "right": 6
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Dùng quan hệ với phép chia để tìm tích 4 × 6.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 24
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 4 hoặc 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 4 hoặc 6."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 6 = 24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-fb140f062aa70bb2",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t1",
+    "fingerprint": "0faec1131563bebce5a6343aea2b5954",
+    "generatorParams": {
+      "left": 5,
+      "right": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính nhẩm 5 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 20
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 5 hoặc 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 5 hoặc 4."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 4 = 20.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-6d9737bf48cbfc80",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t2",
+    "fingerprint": "e861ca6949839137b6a599a0fd2f2f38",
+    "generatorParams": {
+      "left": 9,
+      "right": 6
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 9 × 6 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 54
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 9 hoặc 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 9 hoặc 6."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9 × 6 = 54.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-bc3c1c169b8e4d42",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t3",
+    "fingerprint": "8f30c3f0d5f0aa73f326fb1e151cbae1",
+    "generatorParams": {
+      "left": 5,
+      "right": 9
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Có 5 nhóm, mỗi nhóm 9 đồ vật. Có tất cả bao nhiêu đồ vật?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "44"
+      },
+      {
+        "id": "option-2",
+        "label": "46"
+      },
+      {
+        "id": "option-3",
+        "label": "55"
+      },
+      {
+        "id": "option-4",
+        "label": "45"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 5 hoặc 9."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 5 hoặc 9."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 9 = 45.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-274686a365ff75b0",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t4",
+    "fingerprint": "65fc92d7ada5d09fdc0e5d3766a0f606",
+    "generatorParams": {
+      "left": 9,
+      "right": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An đang kiểm tra phép nhân 9 × 3. Kết quả đúng là bao nhiêu? Bạn An cho rằng đáp án là 28. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 9 hoặc 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 9 hoặc 3."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9 × 3 = 27.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-facts-45c522cb333baf5d",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-facts-t5",
+    "fingerprint": "d58e66ac014f4de8725166e5b7d9c744",
+    "generatorParams": {
+      "left": 5,
+      "right": 6
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-facts-skill",
+    "problemTypeId": "multiplication-facts",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Dùng quan hệ với phép chia để tìm tích 5 × 6.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 30
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Vận dụng bảng nhân 5 hoặc 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định chính xác dữ kiện được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Vận dụng bảng nhân 5 hoặc 6."
+      },
+      {
+        "level": 3,
+        "text": "Tính rồi đối chiếu lại với dữ kiện ban đầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 6 = 30.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

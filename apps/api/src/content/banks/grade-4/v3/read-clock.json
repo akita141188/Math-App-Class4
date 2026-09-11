@@ -1,0 +1,7322 @@
+[
+  {
+    "id": "g4-read-clock-e099d6a563233ff1",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t1",
+    "fingerprint": "c92fb9f109923f519df3d234b363fc15",
+    "generatorParams": {
+      "hour": 1,
+      "minute": 0
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 1 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 1 giờ 0 phút.",
+      "hour": 1,
+      "minute": 0
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 0,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 0 phút; đồng hồ chỉ 1 giờ 00 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-eaafb52033098ec9",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t2",
+    "fingerprint": "cbe1fab29146ef229b3f21a97b1e92a3",
+    "generatorParams": {
+      "hour": 3,
+      "minute": 25
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 3 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 3 giờ 25 phút.",
+      "hour": 3,
+      "minute": 25
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 25,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 25 phút; đồng hồ chỉ 3 giờ 25 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-f7671804f834fbde",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t3",
+    "fingerprint": "7f1f1bce5026279396cdfd6016c37970",
+    "generatorParams": {
+      "hour": 5,
+      "minute": 50
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 5 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 5 giờ 50 phút.",
+      "hour": 5,
+      "minute": 50
+    },
+    "options": [
+      {
+        "id": "option-1",
+        "label": "60 phút"
+      },
+      {
+        "id": "option-2",
+        "label": "45 phút"
+      },
+      {
+        "id": "option-3",
+        "label": "50 phút"
+      },
+      {
+        "id": "option-4",
+        "label": "55 phút"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 50 phút; đồng hồ chỉ 5 giờ 50 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-41a49cb2cc3e7df8",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t4",
+    "fingerprint": "e3c79ce5066b7dfa9c1ce1cf785eaaa1",
+    "generatorParams": {
+      "hour": 8,
+      "minute": 15
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 8 giờ? Bạn An cho rằng đáp án là 15 phút. Bạn An nói đúng hay sai?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 8 giờ 15 phút.",
+      "hour": 8,
+      "minute": 15
+    },
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 15 phút; đồng hồ chỉ 8 giờ 15 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-974548afffcddc58",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t5",
+    "fingerprint": "8ce5e7a91ee520a98c6d4d8058da7071",
+    "generatorParams": {
+      "hour": 10,
+      "minute": 40
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 10 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 10 giờ 40 phút.",
+      "hour": 10,
+      "minute": 40
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 40,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 40 phút; đồng hồ chỉ 10 giờ 40 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-62e412f17c9620e8",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t1",
+    "fingerprint": "c3864fdf040f91130ffad31bf590aeb0",
+    "generatorParams": {
+      "hour": 1,
+      "minute": 35
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 1 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 1 giờ 35 phút.",
+      "hour": 1,
+      "minute": 35
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 35,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 35 phút; đồng hồ chỉ 1 giờ 35 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-1c88f86aee0e31b7",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t2",
+    "fingerprint": "18fb6c52664002ab8fbbd40393c34674",
+    "generatorParams": {
+      "hour": 4,
+      "minute": 0
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 4 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 4 giờ 0 phút.",
+      "hour": 4,
+      "minute": 0
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 0,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 0 phút; đồng hồ chỉ 4 giờ 00 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-a2be51db052f0c2e",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t3",
+    "fingerprint": "b81471b21840ef4d88c4127e5c079ad6",
+    "generatorParams": {
+      "hour": 6,
+      "minute": 25
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 6 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 6 giờ 25 phút.",
+      "hour": 6,
+      "minute": 25
+    },
+    "options": [
+      {
+        "id": "option-1",
+        "label": "23 phút"
+      },
+      {
+        "id": "option-2",
+        "label": "29 phút"
+      },
+      {
+        "id": "option-3",
+        "label": "27 phút"
+      },
+      {
+        "id": "option-4",
+        "label": "25 phút"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 25 phút; đồng hồ chỉ 6 giờ 25 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-6f772bcb09be3438",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t4",
+    "fingerprint": "3d4c8362e1f8217326caf27c99644de1",
+    "generatorParams": {
+      "hour": 8,
+      "minute": 50
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 8 giờ? Bạn An cho rằng đáp án là 55 phút. Bạn An nói đúng hay sai?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 8 giờ 50 phút.",
+      "hour": 8,
+      "minute": 50
+    },
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 50 phút; đồng hồ chỉ 8 giờ 50 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-fb5fa1c01d4cd35a",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t5",
+    "fingerprint": "57cddca8d2d843611095c821f48c5d84",
+    "generatorParams": {
+      "hour": 11,
+      "minute": 15
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 11 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 11 giờ 15 phút.",
+      "hour": 11,
+      "minute": 15
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 15,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 15 phút; đồng hồ chỉ 11 giờ 15 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-7b3c93be0c0d2bc9",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t1",
+    "fingerprint": "ce80526e98f62a07f6de471ab2f90495",
+    "generatorParams": {
+      "hour": 2,
+      "minute": 10
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 2 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 2 giờ 10 phút.",
+      "hour": 2,
+      "minute": 10
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 10,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 10 phút; đồng hồ chỉ 2 giờ 10 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-3faf501973daf144",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t2",
+    "fingerprint": "d2a643f7807c5ca9ddb7f96cf2a07bee",
+    "generatorParams": {
+      "hour": 4,
+      "minute": 35
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 4 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 4 giờ 35 phút.",
+      "hour": 4,
+      "minute": 35
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 35,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 35 phút; đồng hồ chỉ 4 giờ 35 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-ca97c9c18a7fcd00",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t3",
+    "fingerprint": "d05ded58dfdb40c7f27daa04f8035a78",
+    "generatorParams": {
+      "hour": 7,
+      "minute": 0
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 7 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 7 giờ 0 phút.",
+      "hour": 7,
+      "minute": 0
+    },
+    "options": [
+      {
+        "id": "option-1",
+        "label": "0 phút"
+      },
+      {
+        "id": "option-2",
+        "label": "1 phút"
+      },
+      {
+        "id": "option-3",
+        "label": "Cần tính lại 3"
+      },
+      {
+        "id": "option-4",
+        "label": "2 phút"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 0 phút; đồng hồ chỉ 7 giờ 00 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-2d6d17c75637b78b",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t4",
+    "fingerprint": "16c052e891e7f29511620b08c8bd4e18",
+    "generatorParams": {
+      "hour": 9,
+      "minute": 25
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 9 giờ? Bạn An cho rằng đáp án là 25 phút. Bạn An nói đúng hay sai?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 9 giờ 25 phút.",
+      "hour": 9,
+      "minute": 25
+    },
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 25 phút; đồng hồ chỉ 9 giờ 25 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-a6c36cfef669c81f",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t5",
+    "fingerprint": "b6af257e393d235f151126b27ea7bf9d",
+    "generatorParams": {
+      "hour": 11,
+      "minute": 50
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 11 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 11 giờ 50 phút.",
+      "hour": 11,
+      "minute": 50
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 50,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 50 phút; đồng hồ chỉ 11 giờ 50 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-4f3d5249372b191b",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t1",
+    "fingerprint": "962adb22b859ee9c4faf8521ad989e3b",
+    "generatorParams": {
+      "hour": 2,
+      "minute": 45
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 2 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 2 giờ 45 phút.",
+      "hour": 2,
+      "minute": 45
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 45,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 45 phút; đồng hồ chỉ 2 giờ 45 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-22717aeaad260432",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t2",
+    "fingerprint": "6537b6397616da22340ab9c4d6875755",
+    "generatorParams": {
+      "hour": 5,
+      "minute": 10
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 5 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 5 giờ 10 phút.",
+      "hour": 5,
+      "minute": 10
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 10,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 10 phút; đồng hồ chỉ 5 giờ 10 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-d58a648799d816d8",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t3",
+    "fingerprint": "f03535bc365e2a24ab1ea9097684aafd",
+    "generatorParams": {
+      "hour": 7,
+      "minute": 35
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 7 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 7 giờ 35 phút.",
+      "hour": 7,
+      "minute": 35
+    },
+    "options": [
+      {
+        "id": "option-1",
+        "label": "38 phút"
+      },
+      {
+        "id": "option-2",
+        "label": "32 phút"
+      },
+      {
+        "id": "option-3",
+        "label": "35 phút"
+      },
+      {
+        "id": "option-4",
+        "label": "41 phút"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 35 phút; đồng hồ chỉ 7 giờ 35 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-53158c8319408b9c",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t4",
+    "fingerprint": "ccbede6824dbc135848cf88ab2b3e428",
+    "generatorParams": {
+      "hour": 10,
+      "minute": 0
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 10 giờ? Bạn An cho rằng đáp án là 1 phút. Bạn An nói đúng hay sai?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 10 giờ 0 phút.",
+      "hour": 10,
+      "minute": 0
+    },
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 0 phút; đồng hồ chỉ 10 giờ 00 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-8630d0da8864147b",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t5",
+    "fingerprint": "cf9b1ef729d2eec5c945b41170297092",
+    "generatorParams": {
+      "hour": 12,
+      "minute": 25
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 12 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 12 giờ 25 phút.",
+      "hour": 12,
+      "minute": 25
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 25,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 25 phút; đồng hồ chỉ 12 giờ 25 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-ed3649b90a9f0d16",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t1",
+    "fingerprint": "4ac91eb0a86134c41f5ad0110bfad2c7",
+    "generatorParams": {
+      "hour": 3,
+      "minute": 20
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 3 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 3 giờ 20 phút.",
+      "hour": 3,
+      "minute": 20
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 20,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 20 phút; đồng hồ chỉ 3 giờ 20 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-1b8c50b4fe6cefe4",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t2",
+    "fingerprint": "27f5a1fb9aac1f8d03291403958072c9",
+    "generatorParams": {
+      "hour": 5,
+      "minute": 45
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 5 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 5 giờ 45 phút.",
+      "hour": 5,
+      "minute": 45
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 45,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 45 phút; đồng hồ chỉ 5 giờ 45 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-bb298258aa6193ab",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t3",
+    "fingerprint": "242b8e9fc566fbe669c89eacb193ca44",
+    "generatorParams": {
+      "hour": 8,
+      "minute": 10
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 8 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 8 giờ 10 phút.",
+      "hour": 8,
+      "minute": 10
+    },
+    "options": [
+      {
+        "id": "option-1",
+        "label": "9 phút"
+      },
+      {
+        "id": "option-2",
+        "label": "12 phút"
+      },
+      {
+        "id": "option-3",
+        "label": "10 phút"
+      },
+      {
+        "id": "option-4",
+        "label": "11 phút"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 10 phút; đồng hồ chỉ 8 giờ 10 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-d7a4db75ca41fc11",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t4",
+    "fingerprint": "8f0a5fd8d4cbb7fc9250e56bf4b1ef5c",
+    "generatorParams": {
+      "hour": 10,
+      "minute": 35
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 10 giờ? Bạn An cho rằng đáp án là 35 phút. Bạn An nói đúng hay sai?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 10 giờ 35 phút.",
+      "hour": 10,
+      "minute": 35
+    },
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 35 phút; đồng hồ chỉ 10 giờ 35 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-2869ce0d3a26f453",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t5",
+    "fingerprint": "e3757e8347895eb286d45be6bc12ff1f",
+    "generatorParams": {
+      "hour": 1,
+      "minute": 0
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 1 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 1 giờ 0 phút.",
+      "hour": 1,
+      "minute": 0
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 0,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 0 phút; đồng hồ chỉ 1 giờ 00 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-d80ed87a09b66f80",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t1",
+    "fingerprint": "80c6113a096f2fbdf32099b5ed54cc9f",
+    "generatorParams": {
+      "hour": 3,
+      "minute": 55
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 3 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 3 giờ 55 phút.",
+      "hour": 3,
+      "minute": 55
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 55,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 55 phút; đồng hồ chỉ 3 giờ 55 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-f167335f1b01e9de",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t2",
+    "fingerprint": "38ff7a875c884b2698d9682ceefe380c",
+    "generatorParams": {
+      "hour": 6,
+      "minute": 20
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 6 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 6 giờ 20 phút.",
+      "hour": 6,
+      "minute": 20
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 20,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 20 phút; đồng hồ chỉ 6 giờ 20 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-8d8f3ee1774d4a4b",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t3",
+    "fingerprint": "e2a3e7c2850989dec2f0acf3d5ee1d7b",
+    "generatorParams": {
+      "hour": 8,
+      "minute": 45
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 8 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 8 giờ 45 phút.",
+      "hour": 8,
+      "minute": 45
+    },
+    "options": [
+      {
+        "id": "option-1",
+        "label": "41 phút"
+      },
+      {
+        "id": "option-2",
+        "label": "49 phút"
+      },
+      {
+        "id": "option-3",
+        "label": "45 phút"
+      },
+      {
+        "id": "option-4",
+        "label": "53 phút"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 45 phút; đồng hồ chỉ 8 giờ 45 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-096135ce258554f3",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t4",
+    "fingerprint": "cdcb30afd68e285d4e43daafa662818e",
+    "generatorParams": {
+      "hour": 11,
+      "minute": 10
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 11 giờ? Bạn An cho rằng đáp án là 11 phút. Bạn An nói đúng hay sai?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 11 giờ 10 phút.",
+      "hour": 11,
+      "minute": 10
+    },
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 10 phút; đồng hồ chỉ 11 giờ 10 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-f102c42fd7ea874f",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t5",
+    "fingerprint": "b04c000be9d88bbf52bef64a643397c2",
+    "generatorParams": {
+      "hour": 1,
+      "minute": 35
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 1 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 1 giờ 35 phút.",
+      "hour": 1,
+      "minute": 35
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 35,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 35 phút; đồng hồ chỉ 1 giờ 35 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-5d9e93d4dcc813ad",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t1",
+    "fingerprint": "42ac8a79fe1f9cba388e78a51f0b79be",
+    "generatorParams": {
+      "hour": 4,
+      "minute": 30
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 4 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 4 giờ 30 phút.",
+      "hour": 4,
+      "minute": 30
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 30,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 30 phút; đồng hồ chỉ 4 giờ 30 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-28a5780b8c53156b",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t2",
+    "fingerprint": "61aea2b9bb36e070aa0f2e7436a87148",
+    "generatorParams": {
+      "hour": 6,
+      "minute": 55
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 6 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 6 giờ 55 phút.",
+      "hour": 6,
+      "minute": 55
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 55,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 55 phút; đồng hồ chỉ 6 giờ 55 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-85a9edfa86ff0c37",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t3",
+    "fingerprint": "e70faf93ba8b43d79bd53b943d48c4a2",
+    "generatorParams": {
+      "hour": 9,
+      "minute": 20
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 9 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 9 giờ 20 phút.",
+      "hour": 9,
+      "minute": 20
+    },
+    "options": [
+      {
+        "id": "option-1",
+        "label": "22 phút"
+      },
+      {
+        "id": "option-2",
+        "label": "20 phút"
+      },
+      {
+        "id": "option-3",
+        "label": "24 phút"
+      },
+      {
+        "id": "option-4",
+        "label": "18 phút"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 20 phút; đồng hồ chỉ 9 giờ 20 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-cbb56531e0558ec8",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t4",
+    "fingerprint": "e915f7e07ad87902126678a4ec21bf52",
+    "generatorParams": {
+      "hour": 11,
+      "minute": 45
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 11 giờ? Bạn An cho rằng đáp án là 45 phút. Bạn An nói đúng hay sai?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 11 giờ 45 phút.",
+      "hour": 11,
+      "minute": 45
+    },
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 45 phút; đồng hồ chỉ 11 giờ 45 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-e8a03cfd6c9b5f1d",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t5",
+    "fingerprint": "d9cbd60460a01400dd8545d154fed274",
+    "generatorParams": {
+      "hour": 2,
+      "minute": 10
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 2 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 2 giờ 10 phút.",
+      "hour": 2,
+      "minute": 10
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 10,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 10 phút; đồng hồ chỉ 2 giờ 10 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-4026f5c16d737b81",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t1",
+    "fingerprint": "946c2b5167cac74229f2ceb5e214ef4a",
+    "generatorParams": {
+      "hour": 5,
+      "minute": 5
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 5 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 5 giờ 5 phút.",
+      "hour": 5,
+      "minute": 5
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 5,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 5 phút; đồng hồ chỉ 5 giờ 05 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-c4d97ace55628d58",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t2",
+    "fingerprint": "c8b99e8616b3200c5a50ff6e6265f6e7",
+    "generatorParams": {
+      "hour": 7,
+      "minute": 30
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 7 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 7 giờ 30 phút.",
+      "hour": 7,
+      "minute": 30
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 30,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 30 phút; đồng hồ chỉ 7 giờ 30 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-8dda0abea163a1fb",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t3",
+    "fingerprint": "335ff00d39b6e18b40ba8bc128280212",
+    "generatorParams": {
+      "hour": 9,
+      "minute": 55
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 9 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 9 giờ 55 phút.",
+      "hour": 9,
+      "minute": 55
+    },
+    "options": [
+      {
+        "id": "option-1",
+        "label": "60 phút"
+      },
+      {
+        "id": "option-2",
+        "label": "50 phút"
+      },
+      {
+        "id": "option-3",
+        "label": "65 phút"
+      },
+      {
+        "id": "option-4",
+        "label": "55 phút"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 55 phút; đồng hồ chỉ 9 giờ 55 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-82e965880d0d81eb",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t4",
+    "fingerprint": "a3f016e0d582fc590f8b9f0c44be836b",
+    "generatorParams": {
+      "hour": 12,
+      "minute": 20
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 12 giờ? Bạn An cho rằng đáp án là 22 phút. Bạn An nói đúng hay sai?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 12 giờ 20 phút.",
+      "hour": 12,
+      "minute": 20
+    },
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 20 phút; đồng hồ chỉ 12 giờ 20 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-5b441bd750481759",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t5",
+    "fingerprint": "ab2378daff65365ec5c26b9c83a49e54",
+    "generatorParams": {
+      "hour": 2,
+      "minute": 45
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 2 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 2 giờ 45 phút.",
+      "hour": 2,
+      "minute": 45
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 45,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 45 phút; đồng hồ chỉ 2 giờ 45 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-71290e5c9f637c4e",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t1",
+    "fingerprint": "c2863c40af221ed4ae3ba1e074ebe261",
+    "generatorParams": {
+      "hour": 5,
+      "minute": 40
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 5 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 5 giờ 40 phút.",
+      "hour": 5,
+      "minute": 40
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 40,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 40 phút; đồng hồ chỉ 5 giờ 40 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-8b24bf7d214be4d0",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t2",
+    "fingerprint": "44efe2e8d4f5fdb52ba49b7fae386911",
+    "generatorParams": {
+      "hour": 8,
+      "minute": 5
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 8 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 8 giờ 5 phút.",
+      "hour": 8,
+      "minute": 5
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 5,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 5 phút; đồng hồ chỉ 8 giờ 05 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-adef2b354bfa835e",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t3",
+    "fingerprint": "95b797d9be88cf92a96406b6d2fe53db",
+    "generatorParams": {
+      "hour": 10,
+      "minute": 30
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 10 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 10 giờ 30 phút.",
+      "hour": 10,
+      "minute": 30
+    },
+    "options": [
+      {
+        "id": "option-1",
+        "label": "27 phút"
+      },
+      {
+        "id": "option-2",
+        "label": "36 phút"
+      },
+      {
+        "id": "option-3",
+        "label": "30 phút"
+      },
+      {
+        "id": "option-4",
+        "label": "33 phút"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 30 phút; đồng hồ chỉ 10 giờ 30 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-ee33e2672dc91cc3",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t4",
+    "fingerprint": "4d1d908d9efe9314dd1350ff22e4b8eb",
+    "generatorParams": {
+      "hour": 12,
+      "minute": 55
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 12 giờ? Bạn An cho rằng đáp án là 55 phút. Bạn An nói đúng hay sai?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 12 giờ 55 phút.",
+      "hour": 12,
+      "minute": 55
+    },
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 55 phút; đồng hồ chỉ 12 giờ 55 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-1999a391a28d7e89",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t5",
+    "fingerprint": "e7cbf98c423c1a375895cb83a209be3b",
+    "generatorParams": {
+      "hour": 3,
+      "minute": 20
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 3 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 3 giờ 20 phút.",
+      "hour": 3,
+      "minute": 20
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 20,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 20 phút; đồng hồ chỉ 3 giờ 20 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-1ce8304a3327ad3f",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t1",
+    "fingerprint": "5962b46ff7852033b59f4dd469b4d07c",
+    "generatorParams": {
+      "hour": 6,
+      "minute": 15
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 6 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 6 giờ 15 phút.",
+      "hour": 6,
+      "minute": 15
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 15,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 15 phút; đồng hồ chỉ 6 giờ 15 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-932176e3e2da5246",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t2",
+    "fingerprint": "58494fce54ce9e2dfafd0653386675c6",
+    "generatorParams": {
+      "hour": 8,
+      "minute": 40
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 8 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 8 giờ 40 phút.",
+      "hour": 8,
+      "minute": 40
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 40,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 40 phút; đồng hồ chỉ 8 giờ 40 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-12de897c930edfe6",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t3",
+    "fingerprint": "ed5e8731141f491a0e9f6c849eafba3a",
+    "generatorParams": {
+      "hour": 11,
+      "minute": 5
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 11 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 11 giờ 5 phút.",
+      "hour": 11,
+      "minute": 5
+    },
+    "options": [
+      {
+        "id": "option-1",
+        "label": "7 phút"
+      },
+      {
+        "id": "option-2",
+        "label": "4 phút"
+      },
+      {
+        "id": "option-3",
+        "label": "5 phút"
+      },
+      {
+        "id": "option-4",
+        "label": "6 phút"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 5 phút; đồng hồ chỉ 11 giờ 05 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-248d51accffcd375",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t4",
+    "fingerprint": "b3a96e69c89d9d364021d745a58be595",
+    "generatorParams": {
+      "hour": 1,
+      "minute": 30
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 1 giờ? Bạn An cho rằng đáp án là 33 phút. Bạn An nói đúng hay sai?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 1 giờ 30 phút.",
+      "hour": 1,
+      "minute": 30
+    },
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 30 phút; đồng hồ chỉ 1 giờ 30 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-3ff3fb4bbd3eb1ce",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t5",
+    "fingerprint": "d78a489b9aa9eb7b1984c3c8841ea3a3",
+    "generatorParams": {
+      "hour": 3,
+      "minute": 55
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 3 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 3 giờ 55 phút.",
+      "hour": 3,
+      "minute": 55
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 55,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 55 phút; đồng hồ chỉ 3 giờ 55 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-3f1ad6bed23cc67c",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t1",
+    "fingerprint": "02213a07aa76a3f88163558cd8425c36",
+    "generatorParams": {
+      "hour": 6,
+      "minute": 50
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 6 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 6 giờ 50 phút.",
+      "hour": 6,
+      "minute": 50
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 50,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 50 phút; đồng hồ chỉ 6 giờ 50 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-38e396709ed9b459",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t2",
+    "fingerprint": "27ba6f32befe12d779e203bf9409dee6",
+    "generatorParams": {
+      "hour": 9,
+      "minute": 15
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 9 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 9 giờ 15 phút.",
+      "hour": 9,
+      "minute": 15
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 15,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 15 phút; đồng hồ chỉ 9 giờ 15 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-f5a2133687920c6a",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t3",
+    "fingerprint": "e3a838653cfb91f507012163c3114e74",
+    "generatorParams": {
+      "hour": 11,
+      "minute": 40
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 11 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 11 giờ 40 phút.",
+      "hour": 11,
+      "minute": 40
+    },
+    "options": [
+      {
+        "id": "option-1",
+        "label": "44 phút"
+      },
+      {
+        "id": "option-2",
+        "label": "36 phút"
+      },
+      {
+        "id": "option-3",
+        "label": "40 phút"
+      },
+      {
+        "id": "option-4",
+        "label": "48 phút"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 40 phút; đồng hồ chỉ 11 giờ 40 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-e7020b61242acbe5",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t4",
+    "fingerprint": "498a799ed190fd3ba265853f2cb6511c",
+    "generatorParams": {
+      "hour": 2,
+      "minute": 5
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 2 giờ? Bạn An cho rằng đáp án là 5 phút. Bạn An nói đúng hay sai?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 2 giờ 5 phút.",
+      "hour": 2,
+      "minute": 5
+    },
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 5 phút; đồng hồ chỉ 2 giờ 05 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-07a43947bcd61639",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t5",
+    "fingerprint": "9b1173caa9ecb714cf7bc9577f5a8bb6",
+    "generatorParams": {
+      "hour": 4,
+      "minute": 30
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 4 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 4 giờ 30 phút.",
+      "hour": 4,
+      "minute": 30
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 30,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 30 phút; đồng hồ chỉ 4 giờ 30 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-4fa7d46180baa557",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t1",
+    "fingerprint": "cffafe1ecc4c580cfd3028e044d71fa6",
+    "generatorParams": {
+      "hour": 7,
+      "minute": 25
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 7 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 7 giờ 25 phút.",
+      "hour": 7,
+      "minute": 25
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 25,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 25 phút; đồng hồ chỉ 7 giờ 25 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-39ad26e1dbef9003",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t2",
+    "fingerprint": "df4fae5c7aeb6bd96eb9b68bc06a487f",
+    "generatorParams": {
+      "hour": 9,
+      "minute": 50
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 9 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 9 giờ 50 phút.",
+      "hour": 9,
+      "minute": 50
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 50,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 50 phút; đồng hồ chỉ 9 giờ 50 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-9caa951039b75b96",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t3",
+    "fingerprint": "f9db4a2186b7ba33e2b146c97236c035",
+    "generatorParams": {
+      "hour": 12,
+      "minute": 15
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 12 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 12 giờ 15 phút.",
+      "hour": 12,
+      "minute": 15
+    },
+    "options": [
+      {
+        "id": "option-1",
+        "label": "17 phút"
+      },
+      {
+        "id": "option-2",
+        "label": "14 phút"
+      },
+      {
+        "id": "option-3",
+        "label": "15 phút"
+      },
+      {
+        "id": "option-4",
+        "label": "16 phút"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 15 phút; đồng hồ chỉ 12 giờ 15 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-4a696ba012f4f908",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t4",
+    "fingerprint": "26e498293096cde99ebbea0957aa3ffe",
+    "generatorParams": {
+      "hour": 2,
+      "minute": 40
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 2 giờ? Bạn An cho rằng đáp án là 44 phút. Bạn An nói đúng hay sai?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 2 giờ 40 phút.",
+      "hour": 2,
+      "minute": 40
+    },
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 40 phút; đồng hồ chỉ 2 giờ 40 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-9fc0a309fcef342e",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t5",
+    "fingerprint": "75d4ffd2f21a42411ada6dbe17e084c7",
+    "generatorParams": {
+      "hour": 5,
+      "minute": 5
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 5 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 5 giờ 5 phút.",
+      "hour": 5,
+      "minute": 5
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 5,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 5 phút; đồng hồ chỉ 5 giờ 05 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-cdd00ed4a4df3f85",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t1",
+    "fingerprint": "88afb43673740b81cbe7cdd7adb6c5df",
+    "generatorParams": {
+      "hour": 8,
+      "minute": 0
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 8 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 8 giờ 0 phút.",
+      "hour": 8,
+      "minute": 0
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 0,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 0 phút; đồng hồ chỉ 8 giờ 00 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-a4c4d87a9fd502c7",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t2",
+    "fingerprint": "a3b7ee238fd3c711ec8f1df0e7dd5e7f",
+    "generatorParams": {
+      "hour": 10,
+      "minute": 25
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 10 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 10 giờ 25 phút.",
+      "hour": 10,
+      "minute": 25
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 25,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 25 phút; đồng hồ chỉ 10 giờ 25 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-4ab926dc132c41d2",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t3",
+    "fingerprint": "f3d9c340f0810b1d7c77964f1a9ec2d6",
+    "generatorParams": {
+      "hour": 12,
+      "minute": 50
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 12 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 12 giờ 50 phút.",
+      "hour": 12,
+      "minute": 50
+    },
+    "options": [
+      {
+        "id": "option-1",
+        "label": "50 phút"
+      },
+      {
+        "id": "option-2",
+        "label": "55 phút"
+      },
+      {
+        "id": "option-3",
+        "label": "45 phút"
+      },
+      {
+        "id": "option-4",
+        "label": "60 phút"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 50 phút; đồng hồ chỉ 12 giờ 50 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-0ccc948dac99ef28",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t4",
+    "fingerprint": "26388e2437eb4b3cb30282a35d518f19",
+    "generatorParams": {
+      "hour": 3,
+      "minute": 15
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 3 giờ? Bạn An cho rằng đáp án là 15 phút. Bạn An nói đúng hay sai?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 3 giờ 15 phút.",
+      "hour": 3,
+      "minute": 15
+    },
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 15 phút; đồng hồ chỉ 3 giờ 15 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-b610a74bbb61c961",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t5",
+    "fingerprint": "3d4b72c46ca4ba0256d32e3cba43ac89",
+    "generatorParams": {
+      "hour": 5,
+      "minute": 40
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 5 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 5 giờ 40 phút.",
+      "hour": 5,
+      "minute": 40
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 40,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 40 phút; đồng hồ chỉ 5 giờ 40 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-784e3d20227eca6c",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t1",
+    "fingerprint": "7206c2e42d35d1dcc301d585aa1f421f",
+    "generatorParams": {
+      "hour": 8,
+      "minute": 35
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 8 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 8 giờ 35 phút.",
+      "hour": 8,
+      "minute": 35
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 35,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 35 phút; đồng hồ chỉ 8 giờ 35 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-2eb6524e8a8e2642",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t2",
+    "fingerprint": "59bc583ee32f5556dbf053109961f5b6",
+    "generatorParams": {
+      "hour": 11,
+      "minute": 0
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 11 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 11 giờ 0 phút.",
+      "hour": 11,
+      "minute": 0
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 0,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 0 phút; đồng hồ chỉ 11 giờ 00 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-eaa5d1ac4a3afb41",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t3",
+    "fingerprint": "d169c14ddae96fbe5711e7653a387c38",
+    "generatorParams": {
+      "hour": 1,
+      "minute": 25
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 1 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 1 giờ 25 phút.",
+      "hour": 1,
+      "minute": 25
+    },
+    "options": [
+      {
+        "id": "option-1",
+        "label": "23 phút"
+      },
+      {
+        "id": "option-2",
+        "label": "25 phút"
+      },
+      {
+        "id": "option-3",
+        "label": "29 phút"
+      },
+      {
+        "id": "option-4",
+        "label": "27 phút"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 25 phút; đồng hồ chỉ 1 giờ 25 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-97da6c4628f83ef5",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t4",
+    "fingerprint": "2b2272d0a0957de70adaeb69ac905fb3",
+    "generatorParams": {
+      "hour": 3,
+      "minute": 50
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 3 giờ? Bạn An cho rằng đáp án là 55 phút. Bạn An nói đúng hay sai?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 3 giờ 50 phút.",
+      "hour": 3,
+      "minute": 50
+    },
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 50 phút; đồng hồ chỉ 3 giờ 50 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-be3dc965d15f3b5f",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t5",
+    "fingerprint": "7d1c5573afe377ddd25eff8bf63ebf7c",
+    "generatorParams": {
+      "hour": 6,
+      "minute": 15
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 6 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 6 giờ 15 phút.",
+      "hour": 6,
+      "minute": 15
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 15,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 15 phút; đồng hồ chỉ 6 giờ 15 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-57b08b20d9d45793",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t1",
+    "fingerprint": "3ce1b16799c25e7d2425057a8d1092e7",
+    "generatorParams": {
+      "hour": 9,
+      "minute": 10
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 9 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 9 giờ 10 phút.",
+      "hour": 9,
+      "minute": 10
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 10,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 10 phút; đồng hồ chỉ 9 giờ 10 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-0babf06de39d87d0",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t2",
+    "fingerprint": "1a757ef741fc089522057f0d6d8bbd1e",
+    "generatorParams": {
+      "hour": 11,
+      "minute": 35
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 11 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 11 giờ 35 phút.",
+      "hour": 11,
+      "minute": 35
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 35,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 35 phút; đồng hồ chỉ 11 giờ 35 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-d21c68ec95aab49a",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t3",
+    "fingerprint": "a23f097884c81ec1f8e451db9f4791a6",
+    "generatorParams": {
+      "hour": 2,
+      "minute": 0
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 2 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 2 giờ 0 phút.",
+      "hour": 2,
+      "minute": 0
+    },
+    "options": [
+      {
+        "id": "option-1",
+        "label": "0 phút"
+      },
+      {
+        "id": "option-2",
+        "label": "1 phút"
+      },
+      {
+        "id": "option-3",
+        "label": "2 phút"
+      },
+      {
+        "id": "option-4",
+        "label": "Cần tính lại 3"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 0 phút; đồng hồ chỉ 2 giờ 00 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-98bce8453983aec6",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t4",
+    "fingerprint": "02a7c94d43c44694572fa3d1b5224ff6",
+    "generatorParams": {
+      "hour": 4,
+      "minute": 25
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 4 giờ? Bạn An cho rằng đáp án là 25 phút. Bạn An nói đúng hay sai?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 4 giờ 25 phút.",
+      "hour": 4,
+      "minute": 25
+    },
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 25 phút; đồng hồ chỉ 4 giờ 25 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-b341f88847ee5859",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t5",
+    "fingerprint": "41630104788d0911d80e2c5fb28ab245",
+    "generatorParams": {
+      "hour": 6,
+      "minute": 50
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 6 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 6 giờ 50 phút.",
+      "hour": 6,
+      "minute": 50
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 50,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 50 phút; đồng hồ chỉ 6 giờ 50 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-35e5711908123460",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t1",
+    "fingerprint": "46c70a9df47248f900e64b2c22a67687",
+    "generatorParams": {
+      "hour": 9,
+      "minute": 45
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 9 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 9 giờ 45 phút.",
+      "hour": 9,
+      "minute": 45
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 45,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 45 phút; đồng hồ chỉ 9 giờ 45 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-c3501733bcdfcdbb",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t2",
+    "fingerprint": "8a9e1de3868118e4b941be93a52fa3b2",
+    "generatorParams": {
+      "hour": 12,
+      "minute": 10
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 12 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 12 giờ 10 phút.",
+      "hour": 12,
+      "minute": 10
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 10,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 10 phút; đồng hồ chỉ 12 giờ 10 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-4020986ae3f77f8d",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t3",
+    "fingerprint": "55375893807be69a651f77626488bc6c",
+    "generatorParams": {
+      "hour": 2,
+      "minute": 35
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 2 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 2 giờ 35 phút.",
+      "hour": 2,
+      "minute": 35
+    },
+    "options": [
+      {
+        "id": "option-1",
+        "label": "32 phút"
+      },
+      {
+        "id": "option-2",
+        "label": "35 phút"
+      },
+      {
+        "id": "option-3",
+        "label": "41 phút"
+      },
+      {
+        "id": "option-4",
+        "label": "38 phút"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 35 phút; đồng hồ chỉ 2 giờ 35 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-46485aafa38511f2",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t4",
+    "fingerprint": "e3221c5e179fd3f161817a27c5606c99",
+    "generatorParams": {
+      "hour": 5,
+      "minute": 0
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 5 giờ? Bạn An cho rằng đáp án là 1 phút. Bạn An nói đúng hay sai?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 5 giờ 0 phút.",
+      "hour": 5,
+      "minute": 0
+    },
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 0 phút; đồng hồ chỉ 5 giờ 00 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-0ed70b419da6e2c1",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t5",
+    "fingerprint": "eb374c3afd6eb7b6df92b92dc9008bc3",
+    "generatorParams": {
+      "hour": 7,
+      "minute": 25
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 7 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 7 giờ 25 phút.",
+      "hour": 7,
+      "minute": 25
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 25,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 25 phút; đồng hồ chỉ 7 giờ 25 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-7bb89f7662930a0a",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t1",
+    "fingerprint": "9bd6a8114599960be7360133cffaf867",
+    "generatorParams": {
+      "hour": 10,
+      "minute": 20
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 10 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 10 giờ 20 phút.",
+      "hour": 10,
+      "minute": 20
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 20,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 20 phút; đồng hồ chỉ 10 giờ 20 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-5675f8c1ad8022bf",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t2",
+    "fingerprint": "1829fde410415a0d1bb9d6b3d620016e",
+    "generatorParams": {
+      "hour": 12,
+      "minute": 45
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 12 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 12 giờ 45 phút.",
+      "hour": 12,
+      "minute": 45
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 45,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 45 phút; đồng hồ chỉ 12 giờ 45 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-557decbc75a5d251",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t3",
+    "fingerprint": "d60e027bcf118b05183c08400cb87769",
+    "generatorParams": {
+      "hour": 3,
+      "minute": 10
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 3 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 3 giờ 10 phút.",
+      "hour": 3,
+      "minute": 10
+    },
+    "options": [
+      {
+        "id": "option-1",
+        "label": "12 phút"
+      },
+      {
+        "id": "option-2",
+        "label": "10 phút"
+      },
+      {
+        "id": "option-3",
+        "label": "11 phút"
+      },
+      {
+        "id": "option-4",
+        "label": "9 phút"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 10 phút; đồng hồ chỉ 3 giờ 10 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-865d3db54b1096f2",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t4",
+    "fingerprint": "d1db938ed6ea8bcc329c9542ef824a8f",
+    "generatorParams": {
+      "hour": 5,
+      "minute": 35
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 5 giờ? Bạn An cho rằng đáp án là 35 phút. Bạn An nói đúng hay sai?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 5 giờ 35 phút.",
+      "hour": 5,
+      "minute": 35
+    },
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 35 phút; đồng hồ chỉ 5 giờ 35 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-817e353dfae5523e",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t5",
+    "fingerprint": "4ea21e466aadc5155770472d267ee73a",
+    "generatorParams": {
+      "hour": 8,
+      "minute": 0
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 8 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 8 giờ 0 phút.",
+      "hour": 8,
+      "minute": 0
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 0,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 0 phút; đồng hồ chỉ 8 giờ 00 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-e4cfe9896a4ca62e",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t1",
+    "fingerprint": "59c46923ef0def8b87496fdee098a389",
+    "generatorParams": {
+      "hour": 10,
+      "minute": 55
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 10 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 10 giờ 55 phút.",
+      "hour": 10,
+      "minute": 55
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 55,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 55 phút; đồng hồ chỉ 10 giờ 55 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-13e1ae639f6d5e29",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t2",
+    "fingerprint": "6f6e7ac8704db7a63a661e3d194d213a",
+    "generatorParams": {
+      "hour": 1,
+      "minute": 20
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 1 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 1 giờ 20 phút.",
+      "hour": 1,
+      "minute": 20
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 20,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 20 phút; đồng hồ chỉ 1 giờ 20 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-1ee75ed01273599e",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t3",
+    "fingerprint": "f7333170bcd28afa91248d7c4da9f15d",
+    "generatorParams": {
+      "hour": 3,
+      "minute": 45
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 3 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 3 giờ 45 phút.",
+      "hour": 3,
+      "minute": 45
+    },
+    "options": [
+      {
+        "id": "option-1",
+        "label": "45 phút"
+      },
+      {
+        "id": "option-2",
+        "label": "49 phút"
+      },
+      {
+        "id": "option-3",
+        "label": "53 phút"
+      },
+      {
+        "id": "option-4",
+        "label": "41 phút"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 45 phút; đồng hồ chỉ 3 giờ 45 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-f6830b5cb8d1fa22",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t4",
+    "fingerprint": "75339d77616aea3fb58a810aded287b5",
+    "generatorParams": {
+      "hour": 6,
+      "minute": 10
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 6 giờ? Bạn An cho rằng đáp án là 11 phút. Bạn An nói đúng hay sai?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 6 giờ 10 phút.",
+      "hour": 6,
+      "minute": 10
+    },
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 10 phút; đồng hồ chỉ 6 giờ 10 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-5c689248dd266f55",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t5",
+    "fingerprint": "af110ce9b6a9b2036b03afc0975d89e5",
+    "generatorParams": {
+      "hour": 8,
+      "minute": 35
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 8 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 8 giờ 35 phút.",
+      "hour": 8,
+      "minute": 35
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 35,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 35 phút; đồng hồ chỉ 8 giờ 35 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-ea8260f0a4f78f7c",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t1",
+    "fingerprint": "88e55f509a865c27f3c56e23b6fcdc58",
+    "generatorParams": {
+      "hour": 11,
+      "minute": 30
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 11 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 11 giờ 30 phút.",
+      "hour": 11,
+      "minute": 30
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 30,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 30 phút; đồng hồ chỉ 11 giờ 30 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-5b8645e71db2eb69",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t2",
+    "fingerprint": "2d1a1370ed321d52579e8c2625ba1016",
+    "generatorParams": {
+      "hour": 1,
+      "minute": 55
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 1 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 1 giờ 55 phút.",
+      "hour": 1,
+      "minute": 55
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 55,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 55 phút; đồng hồ chỉ 1 giờ 55 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-79508db198fc345f",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t3",
+    "fingerprint": "1faebd5807fd9a8f69073d549573e7f2",
+    "generatorParams": {
+      "hour": 4,
+      "minute": 20
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 4 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 4 giờ 20 phút.",
+      "hour": 4,
+      "minute": 20
+    },
+    "options": [
+      {
+        "id": "option-1",
+        "label": "24 phút"
+      },
+      {
+        "id": "option-2",
+        "label": "20 phút"
+      },
+      {
+        "id": "option-3",
+        "label": "22 phút"
+      },
+      {
+        "id": "option-4",
+        "label": "18 phút"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 20 phút; đồng hồ chỉ 4 giờ 20 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-7cd1130af0540522",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t4",
+    "fingerprint": "09737f64b42239b77aa1d9aacada303f",
+    "generatorParams": {
+      "hour": 6,
+      "minute": 45
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 6 giờ? Bạn An cho rằng đáp án là 45 phút. Bạn An nói đúng hay sai?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 6 giờ 45 phút.",
+      "hour": 6,
+      "minute": 45
+    },
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 45 phút; đồng hồ chỉ 6 giờ 45 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-e864311fb4ad6123",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t5",
+    "fingerprint": "641fc2ec5f75d03babd6f5d640913a78",
+    "generatorParams": {
+      "hour": 9,
+      "minute": 10
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 9 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 9 giờ 10 phút.",
+      "hour": 9,
+      "minute": 10
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 10,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 10 phút; đồng hồ chỉ 9 giờ 10 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-799460a8aa35ef14",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t1",
+    "fingerprint": "76feaa570f269af249b163360ed4b199",
+    "generatorParams": {
+      "hour": 12,
+      "minute": 5
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 12 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 12 giờ 5 phút.",
+      "hour": 12,
+      "minute": 5
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 5,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 5 phút; đồng hồ chỉ 12 giờ 05 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-8676ecadfce0830e",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t2",
+    "fingerprint": "6a0da1bdccc3cacd9f820aca4562cf11",
+    "generatorParams": {
+      "hour": 2,
+      "minute": 30
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 2 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 2 giờ 30 phút.",
+      "hour": 2,
+      "minute": 30
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 30,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 30 phút; đồng hồ chỉ 2 giờ 30 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-1e826ffc016acbad",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t3",
+    "fingerprint": "fcab5627621b10f67945b4b48bcddb2d",
+    "generatorParams": {
+      "hour": 4,
+      "minute": 55
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 4 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 4 giờ 55 phút.",
+      "hour": 4,
+      "minute": 55
+    },
+    "options": [
+      {
+        "id": "option-1",
+        "label": "50 phút"
+      },
+      {
+        "id": "option-2",
+        "label": "60 phút"
+      },
+      {
+        "id": "option-3",
+        "label": "65 phút"
+      },
+      {
+        "id": "option-4",
+        "label": "55 phút"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 55 phút; đồng hồ chỉ 4 giờ 55 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-2259372fe4cf8235",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t4",
+    "fingerprint": "824dfcf58b8c67922dcb52a8b4730fde",
+    "generatorParams": {
+      "hour": 7,
+      "minute": 20
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 7 giờ? Bạn An cho rằng đáp án là 22 phút. Bạn An nói đúng hay sai?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 7 giờ 20 phút.",
+      "hour": 7,
+      "minute": 20
+    },
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 20 phút; đồng hồ chỉ 7 giờ 20 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-clock-97673199a45cf5ff",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-clock-t5",
+    "fingerprint": "82b5805895b092412222129d0e0d4be5",
+    "generatorParams": {
+      "hour": 9,
+      "minute": 45
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "time-and-money",
+    "skillId": "read-clock-skill",
+    "problemTypeId": "read-clock",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đồng hồ trong hình chỉ bao nhiêu phút sau 9 giờ?",
+    "visual": {
+      "type": "CLOCK",
+      "alt": "Đồng hồ chỉ 9 giờ 45 phút.",
+      "hour": 9,
+      "minute": 45
+    },
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 45,
+      "unit": "phút"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Mỗi số kim phút đi qua tương ứng 5 phút."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em nhớ mỗi số trên mặt đồng hồ ứng với 5 phút nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Kim phút chỉ 45 phút; đồng hồ chỉ 9 giờ 45 phút.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

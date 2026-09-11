@@ -1,90 +1,82 @@
 # Math App Class 4
 
-Nền tảng ban đầu cho ứng dụng Gia sư Toán có hướng dẫn dành cho học sinh lớp 4 tại Hà Nội.
+Nền tảng học Toán có hướng dẫn cho học sinh lớp 4 Việt Nam. Sản phẩm ưu tiên học sinh tự suy nghĩ, deterministic math validation và nội dung version-controlled.
 
 ## Yêu cầu
 
 - Node.js 22 trở lên
-- pnpm 11.9.0 trở lên
+- pnpm 11.9.0
 
-## Cài đặt trên Windows PowerShell
+## PowerShell
 
-```powershell
-git clone <repository-url> Math-app-class4
-Set-Location Math-app-class4
-Copy-Item .env.example .env
-pnpm install
-```
+Cài dependencies:
 
-## Chạy phát triển
+    pnpm install
 
-Chạy frontend và backend cùng lúc:
+Chạy web và API:
 
-```powershell
-pnpm dev
-```
+    pnpm dev
 
-- Frontend: http://localhost:5173
-- Backend: http://localhost:3000/api
+Chỉ frontend:
+
+    pnpm dev:web
+
+Chỉ API:
+
+    pnpm dev:api
+
+TypeScript:
+
+    pnpm typecheck
+
+Lint:
+
+    pnpm lint
+
+Kiểm tra format:
+
+    pnpm format:check
+
+Test:
+
+    pnpm test
+
+Build:
+
+    pnpm build
+
+Kiểm định nội dung:
+
+    pnpm content:build-bank
+    pnpm content:validate
+    pnpm content:audit
+    pnpm content:duplicates
+
+Thống kê nội dung:
+
+    pnpm content:stats
+
+Xuất trang review nội dung:
+
+    pnpm content:review-export
+
+## URL phát triển
+
+- Web: http://localhost:5173
+- API: http://localhost:3000/api
 - Swagger: http://localhost:3000/api/docs
-
-Chỉ chạy frontend:
-
-```powershell
-pnpm dev:web
-```
-
-Chỉ chạy backend:
-
-```powershell
-pnpm dev:api
-```
-
-## Kiểm tra
-
-Chạy toàn bộ kiểm thử:
-
-```powershell
-pnpm test
-```
-
-Chạy riêng từng phần:
-
-```powershell
-pnpm test:web
-pnpm test:api
-```
-
-Kiểm tra TypeScript:
-
-```powershell
-pnpm typecheck
-```
-
-Kiểm tra mã nguồn:
-
-```powershell
-pnpm lint
-pnpm format:check
-```
-
-## Build production
-
-```powershell
-pnpm build
-```
-
-Kết quả frontend nằm ở `apps/web/dist`; kết quả backend nằm ở `apps/api/dist`.
 
 ## Cấu trúc
 
-```text
-apps/
-  web/      React + Vite
-  api/      NestJS REST API
-packages/
-  shared/   Hợp đồng TypeScript dùng chung
-docs/       Nguyên tắc sản phẩm và kiến trúc
-```
+- apps/web — React, Vite, student UI, parent shell, local progress adapter.
+- apps/api — NestJS REST, curriculum, question bank, validator, practice và test attempt đóng băng trong memory.
+- packages/shared — contract TypeScript.
+- docs — product, architecture, content map và authoring.
 
-Đây là bản foundation dùng dữ liệu mẫu trong bộ nhớ. Chưa có AI, OCR, cơ sở dữ liệu hoặc xác thực. Ảnh trẻ chọn trong màn hình thử nghiệm chỉ được xem trước trong trình duyệt và không được tải lên.
+## Nội dung hiện tại
+
+Grade 4 V3 có 7 domain, 14 topic, 64 selectable leaf type và 2.560 câu REVIEWED. Mỗi leaf có đúng 40 câu (12 EASY, 20 MEDIUM, 8 HARD), ID/fingerprint duy nhất và visual có cấu trúc. Ứng dụng có practice, lịch sử/completion cục bộ và 5 blueprint bài kiểm tra.
+
+## Ranh giới
+
+Chưa tích hợp AI, OCR, database, authentication hoặc tracking. Ảnh không được upload. Bài tự nhập không được tự chấm giả. Progress/history localStorage và attempt in-memory là adapter prototype, không phải persistence production hay đồng bộ đa thiết bị.

@@ -1,0 +1,6762 @@
+[
+  {
+    "id": "g4-divide-one-digit-c81235306e6fc84c",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t1",
+    "fingerprint": "998a1d7717197d3d50ae1c69d7ff5203",
+    "generatorParams": {
+      "dividend": 147,
+      "divisor": 3,
+      "quotient": 49
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đặt tính rồi tính 147 : 3.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 49
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "147 : 3 = 49 vì 49 × 3 = 147.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-a168f9b9ce919c7c",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t2",
+    "fingerprint": "6cc5da803510495b1d4927dacc0fe0e9",
+    "generatorParams": {
+      "dividend": 200,
+      "divisor": 4,
+      "quotient": 50
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 200 : 4 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 50
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "200 : 4 = 50 vì 50 × 4 = 200.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-633fcb81dca9f355",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t3",
+    "fingerprint": "99538cda2981cf637042b15b271592f7",
+    "generatorParams": {
+      "dividend": 255,
+      "divisor": 5,
+      "quotient": 51
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 255 sản phẩm vào 5 nhóm. Mỗi nhóm có bao nhiêu sản phẩm?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "61"
+      },
+      {
+        "id": "option-2",
+        "label": "56"
+      },
+      {
+        "id": "option-3",
+        "label": "46"
+      },
+      {
+        "id": "option-4",
+        "label": "51"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "255 : 5 = 51 vì 51 × 5 = 255.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-153427fa55c7e63a",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t4",
+    "fingerprint": "d5d06e7798ba66a068bb6b0e0442db22",
+    "generatorParams": {
+      "dividend": 312,
+      "divisor": 6,
+      "quotient": 52
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An tính 312 : 6. Hãy kiểm tra kết quả của bạn An. Bạn An cho rằng đáp án là 52. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "312 : 6 = 52 vì 52 × 6 = 312.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-c8fc9ae04dcc7f8a",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t5",
+    "fingerprint": "530e624628797fc2ad7f846454ab24ff",
+    "generatorParams": {
+      "dividend": 371,
+      "divisor": 7,
+      "quotient": 53
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Trình bày cách tính 371 : 7 và dùng phép nhân để thử lại.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 53
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "371 : 7 = 53 vì 53 × 7 = 371.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-dd748b2a2aaf250a",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t1",
+    "fingerprint": "61c9b52d200779229417ee503f722499",
+    "generatorParams": {
+      "dividend": 224,
+      "divisor": 4,
+      "quotient": 56
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đặt tính rồi tính 224 : 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 56
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "224 : 4 = 56 vì 56 × 4 = 224.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-0c79f3b77b01e96e",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t2",
+    "fingerprint": "24346b04b3584bcdfc095d1388b48adc",
+    "generatorParams": {
+      "dividend": 285,
+      "divisor": 5,
+      "quotient": 57
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 285 : 5 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 57
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "285 : 5 = 57 vì 57 × 5 = 285.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-b0e4a5b2ea2349e9",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t3",
+    "fingerprint": "e2b97d847c2fdd8c940c821e0f570368",
+    "generatorParams": {
+      "dividend": 348,
+      "divisor": 6,
+      "quotient": 58
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 348 sản phẩm vào 6 nhóm. Mỗi nhóm có bao nhiêu sản phẩm?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "68"
+      },
+      {
+        "id": "option-2",
+        "label": "53"
+      },
+      {
+        "id": "option-3",
+        "label": "63"
+      },
+      {
+        "id": "option-4",
+        "label": "58"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "348 : 6 = 58 vì 58 × 6 = 348.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-6217def45f4ca2f8",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t4",
+    "fingerprint": "4e3aba0d8fc08077591d58679bdd9347",
+    "generatorParams": {
+      "dividend": 413,
+      "divisor": 7,
+      "quotient": 59
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An tính 413 : 7. Hãy kiểm tra kết quả của bạn An. Bạn An cho rằng đáp án là 64. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "413 : 7 = 59 vì 59 × 7 = 413.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-de29b0548cbc016d",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t5",
+    "fingerprint": "3c129b81f0e8d27cbf21a0d73da7f408",
+    "generatorParams": {
+      "dividend": 480,
+      "divisor": 8,
+      "quotient": 60
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Trình bày cách tính 480 : 8 và dùng phép nhân để thử lại.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 60
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "480 : 8 = 60 vì 60 × 8 = 480.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-431c13e8b731e504",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t1",
+    "fingerprint": "795fb87ee05cf4f820d01e3069999337",
+    "generatorParams": {
+      "dividend": 315,
+      "divisor": 5,
+      "quotient": 63
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đặt tính rồi tính 315 : 5.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 63
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "315 : 5 = 63 vì 63 × 5 = 315.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-9600f64a0935b71f",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t2",
+    "fingerprint": "f7a0e1eddbe756bf94d7fd54437cad17",
+    "generatorParams": {
+      "dividend": 384,
+      "divisor": 6,
+      "quotient": 64
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 384 : 6 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 64
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "384 : 6 = 64 vì 64 × 6 = 384.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-e3000cbe889cb2c1",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t3",
+    "fingerprint": "57aefdd3f5dd5b75e9b2256ad1f94dcf",
+    "generatorParams": {
+      "dividend": 455,
+      "divisor": 7,
+      "quotient": 65
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 455 sản phẩm vào 7 nhóm. Mỗi nhóm có bao nhiêu sản phẩm?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "71"
+      },
+      {
+        "id": "option-2",
+        "label": "77"
+      },
+      {
+        "id": "option-3",
+        "label": "59"
+      },
+      {
+        "id": "option-4",
+        "label": "65"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "455 : 7 = 65 vì 65 × 7 = 455.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-ffb0a8a6f597a276",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t4",
+    "fingerprint": "4f4898eefb4576f9d0cdb3cd7c3c2274",
+    "generatorParams": {
+      "dividend": 528,
+      "divisor": 8,
+      "quotient": 66
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An tính 528 : 8. Hãy kiểm tra kết quả của bạn An. Bạn An cho rằng đáp án là 66. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "528 : 8 = 66 vì 66 × 8 = 528.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-da03b38adc1d85e5",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t5",
+    "fingerprint": "7ab270356afcb67e950ee7832374503c",
+    "generatorParams": {
+      "dividend": 603,
+      "divisor": 9,
+      "quotient": 67
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Trình bày cách tính 603 : 9 và dùng phép nhân để thử lại.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 67
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "603 : 9 = 67 vì 67 × 9 = 603.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-73d57faaf8b4dfa5",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t1",
+    "fingerprint": "15689cee29a61a122a306e51f50f35f8",
+    "generatorParams": {
+      "dividend": 420,
+      "divisor": 6,
+      "quotient": 70
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đặt tính rồi tính 420 : 6.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 70
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "420 : 6 = 70 vì 70 × 6 = 420.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-da5b3874b36d165f",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t2",
+    "fingerprint": "e449681ea236967807132933f4cddddb",
+    "generatorParams": {
+      "dividend": 497,
+      "divisor": 7,
+      "quotient": 71
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 497 : 7 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 71
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "497 : 7 = 71 vì 71 × 7 = 497.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-e635cb46c710c6d5",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t3",
+    "fingerprint": "5bd27ab055b234459ecb00374f02b965",
+    "generatorParams": {
+      "dividend": 576,
+      "divisor": 8,
+      "quotient": 72
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 576 sản phẩm vào 8 nhóm. Mỗi nhóm có bao nhiêu sản phẩm?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "79"
+      },
+      {
+        "id": "option-2",
+        "label": "72"
+      },
+      {
+        "id": "option-3",
+        "label": "86"
+      },
+      {
+        "id": "option-4",
+        "label": "65"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "576 : 8 = 72 vì 72 × 8 = 576.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-a7d9ca882782f522",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t4",
+    "fingerprint": "a164e7d3249fcc6c553fd0a595d848b5",
+    "generatorParams": {
+      "dividend": 657,
+      "divisor": 9,
+      "quotient": 73
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An tính 657 : 9. Hãy kiểm tra kết quả của bạn An. Bạn An cho rằng đáp án là 80. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "657 : 9 = 73 vì 73 × 9 = 657.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-7d879ac33c23df43",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t5",
+    "fingerprint": "61f63518e693ac908e5b153a430f51c9",
+    "generatorParams": {
+      "dividend": 148,
+      "divisor": 2,
+      "quotient": 74
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Trình bày cách tính 148 : 2 và dùng phép nhân để thử lại.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 74
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "148 : 2 = 74 vì 74 × 2 = 148.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-98d0ca7959e7087b",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t1",
+    "fingerprint": "eef249de3ce585dcd8363220c8cc6efa",
+    "generatorParams": {
+      "dividend": 539,
+      "divisor": 7,
+      "quotient": 77
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đặt tính rồi tính 539 : 7.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 77
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "539 : 7 = 77 vì 77 × 7 = 539.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-f299dbde39f199d0",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t2",
+    "fingerprint": "c354ce18063b3798be04185f9680fba1",
+    "generatorParams": {
+      "dividend": 624,
+      "divisor": 8,
+      "quotient": 78
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 624 : 8 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 78
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "624 : 8 = 78 vì 78 × 8 = 624.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-a80edb2f71f59dfd",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t3",
+    "fingerprint": "848c21cce21e2ec017c03edaa56f3969",
+    "generatorParams": {
+      "dividend": 711,
+      "divisor": 9,
+      "quotient": 79
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 711 sản phẩm vào 9 nhóm. Mỗi nhóm có bao nhiêu sản phẩm?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "86"
+      },
+      {
+        "id": "option-2",
+        "label": "72"
+      },
+      {
+        "id": "option-3",
+        "label": "93"
+      },
+      {
+        "id": "option-4",
+        "label": "79"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "711 : 9 = 79 vì 79 × 9 = 711.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-43f0f760f3abbe11",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t4",
+    "fingerprint": "f42580cc0a8bcab45334c2c6eb45c611",
+    "generatorParams": {
+      "dividend": 160,
+      "divisor": 2,
+      "quotient": 80
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An tính 160 : 2. Hãy kiểm tra kết quả của bạn An. Bạn An cho rằng đáp án là 80. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "160 : 2 = 80 vì 80 × 2 = 160.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-2edef930d82e2396",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t5",
+    "fingerprint": "75680a3833fd2680d881d709e1350cab",
+    "generatorParams": {
+      "dividend": 243,
+      "divisor": 3,
+      "quotient": 81
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Trình bày cách tính 243 : 3 và dùng phép nhân để thử lại.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 81
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "243 : 3 = 81 vì 81 × 3 = 243.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-6937316e54278dee",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t1",
+    "fingerprint": "d0a346b3e07bb0cb1e0a77139acbf008",
+    "generatorParams": {
+      "dividend": 6720,
+      "divisor": 8,
+      "quotient": 840
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đặt tính rồi tính 6.720 : 8.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 840
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6.720 : 8 = 840 vì 840 × 8 = 6.720.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-f2f735cabdb373f9",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t2",
+    "fingerprint": "e75e547dc11c27a3a91cc0706a63fccd",
+    "generatorParams": {
+      "dividend": 7650,
+      "divisor": 9,
+      "quotient": 850
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 7.650 : 9 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 850
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7.650 : 9 = 850 vì 850 × 9 = 7.650.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-7d0fbd4935870b6d",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t3",
+    "fingerprint": "8f2f5d004359fd04c023370e07fd26b0",
+    "generatorParams": {
+      "dividend": 1720,
+      "divisor": 2,
+      "quotient": 860
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 1.720 sản phẩm vào 2 nhóm. Mỗi nhóm có bao nhiêu sản phẩm?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "774"
+      },
+      {
+        "id": "option-2",
+        "label": "946"
+      },
+      {
+        "id": "option-3",
+        "label": "860"
+      },
+      {
+        "id": "option-4",
+        "label": "1032"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.720 : 2 = 860 vì 860 × 2 = 1.720.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-acbec7453aa73f34",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t4",
+    "fingerprint": "72e12cc16f1ccc9ee303f820dc80a2b3",
+    "generatorParams": {
+      "dividend": 2610,
+      "divisor": 3,
+      "quotient": 870
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An tính 2.610 : 3. Hãy kiểm tra kết quả của bạn An. Bạn An cho rằng đáp án là 957. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.610 : 3 = 870 vì 870 × 3 = 2.610.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-00ec9425d89cc597",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t5",
+    "fingerprint": "137bee5613b881266f37f08bf78a1302",
+    "generatorParams": {
+      "dividend": 3520,
+      "divisor": 4,
+      "quotient": 880
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Trình bày cách tính 3.520 : 4 và dùng phép nhân để thử lại.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 880
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3.520 : 4 = 880 vì 880 × 4 = 3.520.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-940411730618eb13",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t1",
+    "fingerprint": "d9a84257bfa6e21c1e640242049fb027",
+    "generatorParams": {
+      "dividend": 8190,
+      "divisor": 9,
+      "quotient": 910
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đặt tính rồi tính 8.190 : 9.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 910
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8.190 : 9 = 910 vì 910 × 9 = 8.190.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-5ada66c3b3164b65",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t2",
+    "fingerprint": "aace4bdf784c6ed3f840d38c976af355",
+    "generatorParams": {
+      "dividend": 1840,
+      "divisor": 2,
+      "quotient": 920
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 1.840 : 2 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 920
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.840 : 2 = 920 vì 920 × 2 = 1.840.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-d4e11fcff7edd067",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t3",
+    "fingerprint": "8a27dc30ded0d52d89c79355e78ad7f8",
+    "generatorParams": {
+      "dividend": 2790,
+      "divisor": 3,
+      "quotient": 930
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 2.790 sản phẩm vào 3 nhóm. Mỗi nhóm có bao nhiêu sản phẩm?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "930"
+      },
+      {
+        "id": "option-2",
+        "label": "1116"
+      },
+      {
+        "id": "option-3",
+        "label": "837"
+      },
+      {
+        "id": "option-4",
+        "label": "1023"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.790 : 3 = 930 vì 930 × 3 = 2.790.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-7e87958c1bd1b4c1",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t4",
+    "fingerprint": "df66199385023c9e994fd84ddb81c6cf",
+    "generatorParams": {
+      "dividend": 3760,
+      "divisor": 4,
+      "quotient": 940
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An tính 3.760 : 4. Hãy kiểm tra kết quả của bạn An. Bạn An cho rằng đáp án là 940. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3.760 : 4 = 940 vì 940 × 4 = 3.760.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-a9c5f3f1510efc1b",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t5",
+    "fingerprint": "e5429778749b34fdd146aea8c6a85784",
+    "generatorParams": {
+      "dividend": 4750,
+      "divisor": 5,
+      "quotient": 950
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Trình bày cách tính 4.750 : 5 và dùng phép nhân để thử lại.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 950
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4.750 : 5 = 950 vì 950 × 5 = 4.750.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-5d91a1cdb17ec4dd",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t1",
+    "fingerprint": "fb6bacb3f47aa1f5452fe6809c47af6f",
+    "generatorParams": {
+      "dividend": 1960,
+      "divisor": 2,
+      "quotient": 980
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đặt tính rồi tính 1.960 : 2.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 980
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.960 : 2 = 980 vì 980 × 2 = 1.960.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-5482c69b1c2d2e54",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t2",
+    "fingerprint": "73b657182a2466ecd644537ae10d97b9",
+    "generatorParams": {
+      "dividend": 2970,
+      "divisor": 3,
+      "quotient": 990
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 2.970 : 3 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 990
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.970 : 3 = 990 vì 990 × 3 = 2.970.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-51f2283c9d9141e8",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t3",
+    "fingerprint": "98640baae207d1c9319ff4118c4d376b",
+    "generatorParams": {
+      "dividend": 4000,
+      "divisor": 4,
+      "quotient": 1000
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 4.000 sản phẩm vào 4 nhóm. Mỗi nhóm có bao nhiêu sản phẩm?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "900"
+      },
+      {
+        "id": "option-2",
+        "label": "1000"
+      },
+      {
+        "id": "option-3",
+        "label": "1200"
+      },
+      {
+        "id": "option-4",
+        "label": "1100"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4.000 : 4 = 1.000 vì 1.000 × 4 = 4.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-e0d5b192957757d2",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t4",
+    "fingerprint": "7d236b44af02e62c106b1259005e0a76",
+    "generatorParams": {
+      "dividend": 5050,
+      "divisor": 5,
+      "quotient": 1010
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An tính 5.050 : 5. Hãy kiểm tra kết quả của bạn An. Bạn An cho rằng đáp án là 1110. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5.050 : 5 = 1.010 vì 1.010 × 5 = 5.050.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-8a963fc8081b6cf0",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t5",
+    "fingerprint": "328bf148f71592c60b5ea4a42fa02a1d",
+    "generatorParams": {
+      "dividend": 6120,
+      "divisor": 6,
+      "quotient": 1020
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Trình bày cách tính 6.120 : 6 và dùng phép nhân để thử lại.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1020
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6.120 : 6 = 1.020 vì 1.020 × 6 = 6.120.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-c3c0564689bc1899",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t1",
+    "fingerprint": "58422f456b007de166887d76424d661a",
+    "generatorParams": {
+      "dividend": 3150,
+      "divisor": 3,
+      "quotient": 1050
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đặt tính rồi tính 3.150 : 3.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1050
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3.150 : 3 = 1.050 vì 1.050 × 3 = 3.150.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-b8584f4e84dba5c0",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t2",
+    "fingerprint": "f0390a23d6bb06eca3c8282ca6a9e65e",
+    "generatorParams": {
+      "dividend": 4240,
+      "divisor": 4,
+      "quotient": 1060
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 4.240 : 4 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1060
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4.240 : 4 = 1.060 vì 1.060 × 4 = 4.240.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-06e5a50fcef84554",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t3",
+    "fingerprint": "60273b7746bbc724bab82e0e5ca62a69",
+    "generatorParams": {
+      "dividend": 5350,
+      "divisor": 5,
+      "quotient": 1070
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 5.350 sản phẩm vào 5 nhóm. Mỗi nhóm có bao nhiêu sản phẩm?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1070"
+      },
+      {
+        "id": "option-2",
+        "label": "1270"
+      },
+      {
+        "id": "option-3",
+        "label": "1170"
+      },
+      {
+        "id": "option-4",
+        "label": "970"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5.350 : 5 = 1.070 vì 1.070 × 5 = 5.350.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-a12580c1e3732c78",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t4",
+    "fingerprint": "35356cc4c6997c38a8cd43eda7edf5f4",
+    "generatorParams": {
+      "dividend": 6480,
+      "divisor": 6,
+      "quotient": 1080
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An tính 6.480 : 6. Hãy kiểm tra kết quả của bạn An. Bạn An cho rằng đáp án là 1080. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6.480 : 6 = 1.080 vì 1.080 × 6 = 6.480.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-dc6ab9b817069fcf",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t5",
+    "fingerprint": "df9b4c8aa2c4a5950dea75181fdfcab6",
+    "generatorParams": {
+      "dividend": 7630,
+      "divisor": 7,
+      "quotient": 1090
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Trình bày cách tính 7.630 : 7 và dùng phép nhân để thử lại.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1090
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7.630 : 7 = 1.090 vì 1.090 × 7 = 7.630.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-16ab1df335437d07",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t1",
+    "fingerprint": "ceb4d1755ea7e25b1028645fa4c5b98e",
+    "generatorParams": {
+      "dividend": 4480,
+      "divisor": 4,
+      "quotient": 1120
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đặt tính rồi tính 4.480 : 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1120
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4.480 : 4 = 1.120 vì 1.120 × 4 = 4.480.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-d32ba308110a91b9",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t2",
+    "fingerprint": "d9d6bd9822b563306c313d4c4f5f684d",
+    "generatorParams": {
+      "dividend": 5650,
+      "divisor": 5,
+      "quotient": 1130
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 5.650 : 5 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1130
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5.650 : 5 = 1.130 vì 1.130 × 5 = 5.650.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-c4e9bcf5083dabc8",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t3",
+    "fingerprint": "b8160acb514fcf4eafcbbbada5999850",
+    "generatorParams": {
+      "dividend": 6840,
+      "divisor": 6,
+      "quotient": 1140
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 6.840 sản phẩm vào 6 nhóm. Mỗi nhóm có bao nhiêu sản phẩm?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1040"
+      },
+      {
+        "id": "option-2",
+        "label": "1340"
+      },
+      {
+        "id": "option-3",
+        "label": "1140"
+      },
+      {
+        "id": "option-4",
+        "label": "1240"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6.840 : 6 = 1.140 vì 1.140 × 6 = 6.840.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-4b62e5b3d63ec225",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t4",
+    "fingerprint": "d292987d86c02f16fec337a38b9f42b6",
+    "generatorParams": {
+      "dividend": 8050,
+      "divisor": 7,
+      "quotient": 1150
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An tính 8.050 : 7. Hãy kiểm tra kết quả của bạn An. Bạn An cho rằng đáp án là 1250. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8.050 : 7 = 1.150 vì 1.150 × 7 = 8.050.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-d5e8509e6175153a",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t5",
+    "fingerprint": "f42c36e1e3f6d0922e74c3075e028a0f",
+    "generatorParams": {
+      "dividend": 9280,
+      "divisor": 8,
+      "quotient": 1160
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Trình bày cách tính 9.280 : 8 và dùng phép nhân để thử lại.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1160
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9.280 : 8 = 1.160 vì 1.160 × 8 = 9.280.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-cf526df7da814d1a",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t1",
+    "fingerprint": "1616ce47165b5c4b978a07b8f7268874",
+    "generatorParams": {
+      "dividend": 5950,
+      "divisor": 5,
+      "quotient": 1190
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đặt tính rồi tính 5.950 : 5.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1190
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5.950 : 5 = 1.190 vì 1.190 × 5 = 5.950.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-e56955ec83d13e03",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t2",
+    "fingerprint": "f8b96a6f9bbff1aacc1ff640568664e0",
+    "generatorParams": {
+      "dividend": 7200,
+      "divisor": 6,
+      "quotient": 1200
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 7.200 : 6 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1200
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7.200 : 6 = 1.200 vì 1.200 × 6 = 7.200.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-cf936d7e6c1d03d6",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t3",
+    "fingerprint": "fa3b990d63f9b2b32415343dad25ae72",
+    "generatorParams": {
+      "dividend": 8470,
+      "divisor": 7,
+      "quotient": 1210
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 8.470 sản phẩm vào 7 nhóm. Mỗi nhóm có bao nhiêu sản phẩm?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1410"
+      },
+      {
+        "id": "option-2",
+        "label": "1310"
+      },
+      {
+        "id": "option-3",
+        "label": "1110"
+      },
+      {
+        "id": "option-4",
+        "label": "1210"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8.470 : 7 = 1.210 vì 1.210 × 7 = 8.470.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-a542f82927262223",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t4",
+    "fingerprint": "1c709c2e969772ba7119a84120658a9f",
+    "generatorParams": {
+      "dividend": 9760,
+      "divisor": 8,
+      "quotient": 1220
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An tính 9.760 : 8. Hãy kiểm tra kết quả của bạn An. Bạn An cho rằng đáp án là 1220. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9.760 : 8 = 1.220 vì 1.220 × 8 = 9.760.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-dc9cbaf756cd4f92",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t5",
+    "fingerprint": "b4e5013873ff68931ea77edd6c8f6464",
+    "generatorParams": {
+      "dividend": 11070,
+      "divisor": 9,
+      "quotient": 1230
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Trình bày cách tính 11.070 : 9 và dùng phép nhân để thử lại.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1230
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "11.070 : 9 = 1.230 vì 1.230 × 9 = 11.070.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-f2c20fcbc7dc0987",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t1",
+    "fingerprint": "8f6e70bfa2444bb64a2a07ddbc5f4992",
+    "generatorParams": {
+      "dividend": 7560,
+      "divisor": 6,
+      "quotient": 1260
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đặt tính rồi tính 7.560 : 6.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1260
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7.560 : 6 = 1.260 vì 1.260 × 6 = 7.560.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-6be381ed99641310",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t2",
+    "fingerprint": "d1c5bc14a22a2086f08c21f058819216",
+    "generatorParams": {
+      "dividend": 8890,
+      "divisor": 7,
+      "quotient": 1270
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 8.890 : 7 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1270
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8.890 : 7 = 1.270 vì 1.270 × 7 = 8.890.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-446af35aee979df8",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t3",
+    "fingerprint": "8a990b6922f28bff5b5063016d895086",
+    "generatorParams": {
+      "dividend": 10240,
+      "divisor": 8,
+      "quotient": 1280
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 10.240 sản phẩm vào 8 nhóm. Mỗi nhóm có bao nhiêu sản phẩm?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1280"
+      },
+      {
+        "id": "option-2",
+        "label": "1480"
+      },
+      {
+        "id": "option-3",
+        "label": "1180"
+      },
+      {
+        "id": "option-4",
+        "label": "1380"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "10.240 : 8 = 1.280 vì 1.280 × 8 = 10.240.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-ed78d44cf2fdaf51",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t4",
+    "fingerprint": "bcbd061923aa01aeb18ab84e32a6b2ce",
+    "generatorParams": {
+      "dividend": 11610,
+      "divisor": 9,
+      "quotient": 1290
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An tính 11.610 : 9. Hãy kiểm tra kết quả của bạn An. Bạn An cho rằng đáp án là 1390. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "11.610 : 9 = 1.290 vì 1.290 × 9 = 11.610.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-b2c25919d7a8ef13",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t5",
+    "fingerprint": "7c3e62aed0c4de9b8afdaab20bb0e536",
+    "generatorParams": {
+      "dividend": 2600,
+      "divisor": 2,
+      "quotient": 1300
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Trình bày cách tính 2.600 : 2 và dùng phép nhân để thử lại.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1300
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.600 : 2 = 1.300 vì 1.300 × 2 = 2.600.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-d9809cc03955559e",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t1",
+    "fingerprint": "faa1697d21073420b44f307196a09690",
+    "generatorParams": {
+      "dividend": 9310,
+      "divisor": 7,
+      "quotient": 1330
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đặt tính rồi tính 9.310 : 7.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1330
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9.310 : 7 = 1.330 vì 1.330 × 7 = 9.310.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-efba1f2812d05dd8",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t2",
+    "fingerprint": "38ab345e4af5640a742b8fda9de8113c",
+    "generatorParams": {
+      "dividend": 10720,
+      "divisor": 8,
+      "quotient": 1340
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 10.720 : 8 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1340
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "10.720 : 8 = 1.340 vì 1.340 × 8 = 10.720.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-9dd785c931e329d7",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t3",
+    "fingerprint": "2d4f18e44508806bc761a39dd846de79",
+    "generatorParams": {
+      "dividend": 12150,
+      "divisor": 9,
+      "quotient": 1350
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 12.150 sản phẩm vào 9 nhóm. Mỗi nhóm có bao nhiêu sản phẩm?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1250"
+      },
+      {
+        "id": "option-2",
+        "label": "1450"
+      },
+      {
+        "id": "option-3",
+        "label": "1550"
+      },
+      {
+        "id": "option-4",
+        "label": "1350"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12.150 : 9 = 1.350 vì 1.350 × 9 = 12.150.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-8e47970ed6e28521",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t4",
+    "fingerprint": "5d24cd0903854e5504531802917305d9",
+    "generatorParams": {
+      "dividend": 2720,
+      "divisor": 2,
+      "quotient": 1360
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An tính 2.720 : 2. Hãy kiểm tra kết quả của bạn An. Bạn An cho rằng đáp án là 1360. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.720 : 2 = 1.360 vì 1.360 × 2 = 2.720.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-1dcf1aeb22f9949a",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t5",
+    "fingerprint": "4ca34fc90a7824b05c5c2c661019c3a6",
+    "generatorParams": {
+      "dividend": 4110,
+      "divisor": 3,
+      "quotient": 1370
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Trình bày cách tính 4.110 : 3 và dùng phép nhân để thử lại.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1370
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4.110 : 3 = 1.370 vì 1.370 × 3 = 4.110.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-4f67e451d530fdc2",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t1",
+    "fingerprint": "851a364b7c2066230be30094d27d9804",
+    "generatorParams": {
+      "dividend": 11200,
+      "divisor": 8,
+      "quotient": 1400
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đặt tính rồi tính 11.200 : 8.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1400
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "11.200 : 8 = 1.400 vì 1.400 × 8 = 11.200.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-bc9efa24506d23af",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t2",
+    "fingerprint": "8418e276f8deeaaee205c07e9a893052",
+    "generatorParams": {
+      "dividend": 12690,
+      "divisor": 9,
+      "quotient": 1410
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 12.690 : 9 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1410
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12.690 : 9 = 1.410 vì 1.410 × 9 = 12.690.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-094dedad6245de5b",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t3",
+    "fingerprint": "f0c7dcd2a115899f9a87b439768250cc",
+    "generatorParams": {
+      "dividend": 2840,
+      "divisor": 2,
+      "quotient": 1420
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 2.840 sản phẩm vào 2 nhóm. Mỗi nhóm có bao nhiêu sản phẩm?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1320"
+      },
+      {
+        "id": "option-2",
+        "label": "1620"
+      },
+      {
+        "id": "option-3",
+        "label": "1420"
+      },
+      {
+        "id": "option-4",
+        "label": "1520"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.840 : 2 = 1.420 vì 1.420 × 2 = 2.840.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-b0372187dd1acff1",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t4",
+    "fingerprint": "b949a5141871bc988e26ddb9e19bdb17",
+    "generatorParams": {
+      "dividend": 4290,
+      "divisor": 3,
+      "quotient": 1430
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An tính 4.290 : 3. Hãy kiểm tra kết quả của bạn An. Bạn An cho rằng đáp án là 1530. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4.290 : 3 = 1.430 vì 1.430 × 3 = 4.290.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-f2fbed5951c32527",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t5",
+    "fingerprint": "4c9de1befde98282a98f022188720e40",
+    "generatorParams": {
+      "dividend": 5760,
+      "divisor": 4,
+      "quotient": 1440
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Trình bày cách tính 5.760 : 4 và dùng phép nhân để thử lại.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1440
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5.760 : 4 = 1.440 vì 1.440 × 4 = 5.760.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-74157c4be5904220",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t1",
+    "fingerprint": "a176f5d004a1c2c044389e4169722b7d",
+    "generatorParams": {
+      "dividend": 13230,
+      "divisor": 9,
+      "quotient": 1470
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đặt tính rồi tính 13.230 : 9.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1470
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "13.230 : 9 = 1.470 vì 1.470 × 9 = 13.230.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-c58038eebe8fa9d4",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t2",
+    "fingerprint": "6a30d99bf2954d03deb046a497d3f04d",
+    "generatorParams": {
+      "dividend": 2960,
+      "divisor": 2,
+      "quotient": 1480
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 2.960 : 2 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1480
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.960 : 2 = 1.480 vì 1.480 × 2 = 2.960.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-9d4dc017c6a5df20",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t3",
+    "fingerprint": "f3ca0580cfe4868a715e572076ca1305",
+    "generatorParams": {
+      "dividend": 4470,
+      "divisor": 3,
+      "quotient": 1490
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 4.470 sản phẩm vào 3 nhóm. Mỗi nhóm có bao nhiêu sản phẩm?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1390"
+      },
+      {
+        "id": "option-2",
+        "label": "1690"
+      },
+      {
+        "id": "option-3",
+        "label": "1490"
+      },
+      {
+        "id": "option-4",
+        "label": "1590"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4.470 : 3 = 1.490 vì 1.490 × 3 = 4.470.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-012373316988ba6b",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t4",
+    "fingerprint": "1d10be596469b562ad3bb601e9e166e1",
+    "generatorParams": {
+      "dividend": 6000,
+      "divisor": 4,
+      "quotient": 1500
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An tính 6.000 : 4. Hãy kiểm tra kết quả của bạn An. Bạn An cho rằng đáp án là 1500. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6.000 : 4 = 1.500 vì 1.500 × 4 = 6.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-12ec7b7bcdade9da",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t5",
+    "fingerprint": "4c8244e1e86547fc9faa7059191ab9d7",
+    "generatorParams": {
+      "dividend": 7550,
+      "divisor": 5,
+      "quotient": 1510
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Trình bày cách tính 7.550 : 5 và dùng phép nhân để thử lại.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1510
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7.550 : 5 = 1.510 vì 1.510 × 5 = 7.550.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-c054ebaf7572fec2",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t1",
+    "fingerprint": "3b1adce080dfb4f41b08aca792705dbe",
+    "generatorParams": {
+      "dividend": 30800,
+      "divisor": 2,
+      "quotient": 15400
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đặt tính rồi tính 30.800 : 2.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 15400
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "30.800 : 2 = 15.400 vì 15.400 × 2 = 30.800.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-4c558aeecc3aa151",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t2",
+    "fingerprint": "24a96c976e1d1a0713eb5134aefbfb36",
+    "generatorParams": {
+      "dividend": 46500,
+      "divisor": 3,
+      "quotient": 15500
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 46.500 : 3 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 15500
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "46.500 : 3 = 15.500 vì 15.500 × 3 = 46.500.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-4a9c8638224c4a9d",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t3",
+    "fingerprint": "c8df4e5a2c60d48b6ab67f222774ac1a",
+    "generatorParams": {
+      "dividend": 62400,
+      "divisor": 4,
+      "quotient": 15600
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 62.400 sản phẩm vào 4 nhóm. Mỗi nhóm có bao nhiêu sản phẩm?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "15500"
+      },
+      {
+        "id": "option-2",
+        "label": "15600"
+      },
+      {
+        "id": "option-3",
+        "label": "15800"
+      },
+      {
+        "id": "option-4",
+        "label": "15700"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "62.400 : 4 = 15.600 vì 15.600 × 4 = 62.400.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-118fb4759a5e039e",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t4",
+    "fingerprint": "01ab651f44ef304092fcb4432f12e221",
+    "generatorParams": {
+      "dividend": 78500,
+      "divisor": 5,
+      "quotient": 15700
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An tính 78.500 : 5. Hãy kiểm tra kết quả của bạn An. Bạn An cho rằng đáp án là 15800. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "78.500 : 5 = 15.700 vì 15.700 × 5 = 78.500.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-e2831ace01881915",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t5",
+    "fingerprint": "31307ac4cc430721674f24ba904ab186",
+    "generatorParams": {
+      "dividend": 94800,
+      "divisor": 6,
+      "quotient": 15800
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Trình bày cách tính 94.800 : 6 và dùng phép nhân để thử lại.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 15800
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "94.800 : 6 = 15.800 vì 15.800 × 6 = 94.800.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-6c1900c4e7261aee",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t1",
+    "fingerprint": "d3dbb5087f5dbfe22bb5c12adbc518f9",
+    "generatorParams": {
+      "dividend": 48300,
+      "divisor": 3,
+      "quotient": 16100
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đặt tính rồi tính 48.300 : 3.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 16100
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "48.300 : 3 = 16.100 vì 16.100 × 3 = 48.300.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-de583820009ee6e9",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t2",
+    "fingerprint": "f74e56b6350e9d3d6c4bbec8b0908415",
+    "generatorParams": {
+      "dividend": 64800,
+      "divisor": 4,
+      "quotient": 16200
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 64.800 : 4 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 16200
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "64.800 : 4 = 16.200 vì 16.200 × 4 = 64.800.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-0d7a513e597fe38e",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t3",
+    "fingerprint": "2762d2e8fee2b28b3a8bc306d14ed56a",
+    "generatorParams": {
+      "dividend": 81500,
+      "divisor": 5,
+      "quotient": 16300
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 81.500 sản phẩm vào 5 nhóm. Mỗi nhóm có bao nhiêu sản phẩm?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "16300"
+      },
+      {
+        "id": "option-2",
+        "label": "16200"
+      },
+      {
+        "id": "option-3",
+        "label": "16400"
+      },
+      {
+        "id": "option-4",
+        "label": "16500"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "81.500 : 5 = 16.300 vì 16.300 × 5 = 81.500.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-a513ed3980ef98ba",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t4",
+    "fingerprint": "97bf999bc1cd2deb47ab6b5676751f41",
+    "generatorParams": {
+      "dividend": 98400,
+      "divisor": 6,
+      "quotient": 16400
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An tính 98.400 : 6. Hãy kiểm tra kết quả của bạn An. Bạn An cho rằng đáp án là 16400. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "98.400 : 6 = 16.400 vì 16.400 × 6 = 98.400.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-69be436ec3a2f28d",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t5",
+    "fingerprint": "812f86898708d8b72f0fbda6300d5266",
+    "generatorParams": {
+      "dividend": 115500,
+      "divisor": 7,
+      "quotient": 16500
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Trình bày cách tính 115.500 : 7 và dùng phép nhân để thử lại.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 16500
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "115.500 : 7 = 16.500 vì 16.500 × 7 = 115.500.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-3e3ff0e5c16e7f94",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t1",
+    "fingerprint": "5ec872d4ccdaf056918a9d6bd113ffff",
+    "generatorParams": {
+      "dividend": 67200,
+      "divisor": 4,
+      "quotient": 16800
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đặt tính rồi tính 67.200 : 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 16800
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "67.200 : 4 = 16.800 vì 16.800 × 4 = 67.200.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-6995fb4f0c23cd0a",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t2",
+    "fingerprint": "c109e85eacd79dba935b5caf0ad5d418",
+    "generatorParams": {
+      "dividend": 84500,
+      "divisor": 5,
+      "quotient": 16900
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 84.500 : 5 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 16900
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "84.500 : 5 = 16.900 vì 16.900 × 5 = 84.500.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-673789ad39c6a37f",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t3",
+    "fingerprint": "f0753bee1c1d22f9aee51b9b5d8d254a",
+    "generatorParams": {
+      "dividend": 102000,
+      "divisor": 6,
+      "quotient": 17000
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 102.000 sản phẩm vào 6 nhóm. Mỗi nhóm có bao nhiêu sản phẩm?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "17100"
+      },
+      {
+        "id": "option-2",
+        "label": "16900"
+      },
+      {
+        "id": "option-3",
+        "label": "17000"
+      },
+      {
+        "id": "option-4",
+        "label": "17200"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "102.000 : 6 = 17.000 vì 17.000 × 6 = 102.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-2367379f1252bce9",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t4",
+    "fingerprint": "69057c4c0a2ea851db6ea4ddfd290f36",
+    "generatorParams": {
+      "dividend": 119700,
+      "divisor": 7,
+      "quotient": 17100
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An tính 119.700 : 7. Hãy kiểm tra kết quả của bạn An. Bạn An cho rằng đáp án là 17200. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "119.700 : 7 = 17.100 vì 17.100 × 7 = 119.700.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-e6e909e9884e3c2d",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t5",
+    "fingerprint": "f6815b668a5e478738f1f2a922595228",
+    "generatorParams": {
+      "dividend": 137600,
+      "divisor": 8,
+      "quotient": 17200
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Trình bày cách tính 137.600 : 8 và dùng phép nhân để thử lại.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 17200
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "137.600 : 8 = 17.200 vì 17.200 × 8 = 137.600.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-f768cc7d964aec66",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t1",
+    "fingerprint": "d3b400d9cbda39bc3bc782d4fb153ada",
+    "generatorParams": {
+      "dividend": 87500,
+      "divisor": 5,
+      "quotient": 17500
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đặt tính rồi tính 87.500 : 5.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 17500
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "87.500 : 5 = 17.500 vì 17.500 × 5 = 87.500.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-fae96671b51e9e01",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t2",
+    "fingerprint": "d134215e37d60b873dbb9e8dfbc80b03",
+    "generatorParams": {
+      "dividend": 105600,
+      "divisor": 6,
+      "quotient": 17600
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 105.600 : 6 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 17600
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "105.600 : 6 = 17.600 vì 17.600 × 6 = 105.600.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-8192fa92545d719a",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t3",
+    "fingerprint": "463a15ca23a7f517edb6f59dfe0220f1",
+    "generatorParams": {
+      "dividend": 123900,
+      "divisor": 7,
+      "quotient": 17700
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 123.900 sản phẩm vào 7 nhóm. Mỗi nhóm có bao nhiêu sản phẩm?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "17800"
+      },
+      {
+        "id": "option-2",
+        "label": "17900"
+      },
+      {
+        "id": "option-3",
+        "label": "17600"
+      },
+      {
+        "id": "option-4",
+        "label": "17700"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "123.900 : 7 = 17.700 vì 17.700 × 7 = 123.900.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-6dd1fd50e89ecce4",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t4",
+    "fingerprint": "d2c745fccb243472255f9e8f32b6b26c",
+    "generatorParams": {
+      "dividend": 142400,
+      "divisor": 8,
+      "quotient": 17800
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An tính 142.400 : 8. Hãy kiểm tra kết quả của bạn An. Bạn An cho rằng đáp án là 17800. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "142.400 : 8 = 17.800 vì 17.800 × 8 = 142.400.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-508d2a9b07ceab11",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t5",
+    "fingerprint": "75ae37f89ba726e1634f835da8454790",
+    "generatorParams": {
+      "dividend": 161100,
+      "divisor": 9,
+      "quotient": 17900
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Trình bày cách tính 161.100 : 9 và dùng phép nhân để thử lại.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 17900
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "161.100 : 9 = 17.900 vì 17.900 × 9 = 161.100.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-b00cc914aa1c6c5e",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t1",
+    "fingerprint": "0872b0a0f3b5b84bccedaf127d94f65f",
+    "generatorParams": {
+      "dividend": 109200,
+      "divisor": 6,
+      "quotient": 18200
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Đặt tính rồi tính 109.200 : 6.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 18200
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "109.200 : 6 = 18.200 vì 18.200 × 6 = 109.200.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-d794fe0b592eca67",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t2",
+    "fingerprint": "d54ef00d4205ca3ec58c1724cdec5f21",
+    "generatorParams": {
+      "dividend": 128100,
+      "divisor": 7,
+      "quotient": 18300
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 128.100 : 7 = □.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 18300
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "128.100 : 7 = 18.300 vì 18.300 × 7 = 128.100.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-df9adccf5ccbf43b",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t3",
+    "fingerprint": "d9bfaa2def1bbdd5905714d7751eaeb6",
+    "generatorParams": {
+      "dividend": 147200,
+      "divisor": 8,
+      "quotient": 18400
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Chia đều 147.200 sản phẩm vào 8 nhóm. Mỗi nhóm có bao nhiêu sản phẩm?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "18500"
+      },
+      {
+        "id": "option-2",
+        "label": "18600"
+      },
+      {
+        "id": "option-3",
+        "label": "18400"
+      },
+      {
+        "id": "option-4",
+        "label": "18300"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "147.200 : 8 = 18.400 vì 18.400 × 8 = 147.200.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-2a4056e6c55d7560",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t4",
+    "fingerprint": "a998068065b8e9c6d4f5c8728d9308ce",
+    "generatorParams": {
+      "dividend": 166500,
+      "divisor": 9,
+      "quotient": 18500
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Bạn An tính 166.500 : 9. Hãy kiểm tra kết quả của bạn An. Bạn An cho rằng đáp án là 18600. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "166.500 : 9 = 18.500 vì 18.500 × 9 = 166.500.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-one-digit-8f27cd88ce417ea2",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-one-digit-t5",
+    "fingerprint": "e88f115aeb071400508e6008d9daa25a",
+    "generatorParams": {
+      "dividend": 37200,
+      "divisor": 2,
+      "quotient": 18600
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "divide-one-digit-skill",
+    "problemTypeId": "divide-one-digit",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Trình bày cách tính 37.200 : 2 và dùng phép nhân để thử lại.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 18600
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Dùng phép nhân ngược để ước lượng và kiểm tra thương."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "37.200 : 2 = 18.600 vì 18.600 × 2 = 37.200.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

@@ -1,0 +1,6922 @@
+[
+  {
+    "id": "g4-area-conversion-7d9bc590fc5a466f",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t1",
+    "fingerprint": "e777e50a17a2e35b4edeca5667b4c279",
+    "generatorParams": {
+      "value": 3,
+      "factor": 100,
+      "from": "m²",
+      "to": "dm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "3 m² bằng bao nhiêu dm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 300,
+      "unit": "dm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 100 = 300 dm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-0a07f01fd25f1350",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t2",
+    "fingerprint": "0067366b6c01c9c4bfd20cb2c8ac3dae",
+    "generatorParams": {
+      "value": 3,
+      "factor": 100,
+      "from": "dm²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "3 dm² bằng bao nhiêu cm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 300,
+      "unit": "cm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 100 = 300 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-efc0bb988d9dd5ec",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t3",
+    "fingerprint": "b86cb13d9069ed342dd68a3e9f4582c6",
+    "generatorParams": {
+      "value": 3,
+      "factor": 100,
+      "from": "cm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "3 cm² bằng bao nhiêu mm²?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "270 mm²"
+      },
+      {
+        "id": "option-2",
+        "label": "330 mm²"
+      },
+      {
+        "id": "option-3",
+        "label": "300 mm²"
+      },
+      {
+        "id": "option-4",
+        "label": "360 mm²"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 100 = 300 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-b3618e842e8cc93c",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t4",
+    "fingerprint": "43b033b4efeedf5df0b7605835fce7a6",
+    "generatorParams": {
+      "value": 3,
+      "factor": 10000,
+      "from": "m²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "3 m² bằng bao nhiêu cm²? Bạn An cho rằng đáp án là 30000 cm². Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 10.000 = 30.000 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-4929a94743482d33",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t5",
+    "fingerprint": "cd6252f185778f870512eb4be248ced0",
+    "generatorParams": {
+      "value": 3,
+      "factor": 10000,
+      "from": "dm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "3 dm² bằng bao nhiêu mm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 30000,
+      "unit": "mm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 10.000 = 30.000 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-c74b8d01d4ef43dc",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t1",
+    "fingerprint": "efb725be60749b6c44f823883c97cf7d",
+    "generatorParams": {
+      "value": 4,
+      "factor": 100,
+      "from": "m²",
+      "to": "dm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "4 m² bằng bao nhiêu dm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 400,
+      "unit": "dm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 100 = 400 dm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-4aea101fae9cc8fd",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t2",
+    "fingerprint": "487a2abf651620ad2a4c55c35b0fda2c",
+    "generatorParams": {
+      "value": 4,
+      "factor": 100,
+      "from": "dm²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "4 dm² bằng bao nhiêu cm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 400,
+      "unit": "cm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 100 = 400 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-4386320b7534e470",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t3",
+    "fingerprint": "0e2b0bffc4695d7fff3c05e13349a023",
+    "generatorParams": {
+      "value": 4,
+      "factor": 100,
+      "from": "cm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "4 cm² bằng bao nhiêu mm²?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "480 mm²"
+      },
+      {
+        "id": "option-2",
+        "label": "440 mm²"
+      },
+      {
+        "id": "option-3",
+        "label": "360 mm²"
+      },
+      {
+        "id": "option-4",
+        "label": "400 mm²"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 100 = 400 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-2a5452655d55859a",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t4",
+    "fingerprint": "3e935b811fd8785e28ce7c1d12935f4f",
+    "generatorParams": {
+      "value": 4,
+      "factor": 10000,
+      "from": "m²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "4 m² bằng bao nhiêu cm²? Bạn An cho rằng đáp án là 44000 cm². Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 10.000 = 40.000 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-092f8b801611c830",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t5",
+    "fingerprint": "b5241cd2b1d251e32b480688051e6569",
+    "generatorParams": {
+      "value": 4,
+      "factor": 10000,
+      "from": "dm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "4 dm² bằng bao nhiêu mm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 40000,
+      "unit": "mm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 10.000 = 40.000 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-0f3162f0c51f4cbe",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t1",
+    "fingerprint": "6d6ccab30a9701696a1f4cbd772d87f4",
+    "generatorParams": {
+      "value": 5,
+      "factor": 100,
+      "from": "m²",
+      "to": "dm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "5 m² bằng bao nhiêu dm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 500,
+      "unit": "dm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 100 = 500 dm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-4e1265975af76485",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t2",
+    "fingerprint": "4216f5594d1c62c2d84b648fffb1f847",
+    "generatorParams": {
+      "value": 5,
+      "factor": 100,
+      "from": "dm²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "5 dm² bằng bao nhiêu cm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 500,
+      "unit": "cm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 100 = 500 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-c5124b7c0e68b445",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t3",
+    "fingerprint": "5208909c0cdc25e3cf269ff7d2e06175",
+    "generatorParams": {
+      "value": 5,
+      "factor": 100,
+      "from": "cm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "5 cm² bằng bao nhiêu mm²?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "600 mm²"
+      },
+      {
+        "id": "option-2",
+        "label": "550 mm²"
+      },
+      {
+        "id": "option-3",
+        "label": "450 mm²"
+      },
+      {
+        "id": "option-4",
+        "label": "500 mm²"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 100 = 500 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-f7309853ee013a12",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t4",
+    "fingerprint": "c491a7c388ba4b0755d0a16ecca0a8b8",
+    "generatorParams": {
+      "value": 5,
+      "factor": 10000,
+      "from": "m²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "5 m² bằng bao nhiêu cm²? Bạn An cho rằng đáp án là 50000 cm². Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 10.000 = 50.000 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-0f9037dbc65e4563",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t5",
+    "fingerprint": "392b5f113101c8dfc444dcc1beea4c23",
+    "generatorParams": {
+      "value": 5,
+      "factor": 10000,
+      "from": "dm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "5 dm² bằng bao nhiêu mm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 50000,
+      "unit": "mm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 10.000 = 50.000 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-7bf6bb2198d1cfe9",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t1",
+    "fingerprint": "95027b8328bc61527520defa0de13951",
+    "generatorParams": {
+      "value": 6,
+      "factor": 100,
+      "from": "m²",
+      "to": "dm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "6 m² bằng bao nhiêu dm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 600,
+      "unit": "dm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 100 = 600 dm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-faf3f3b040722166",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t2",
+    "fingerprint": "665b1a29fe0bfd9fcb6925a9a75f9793",
+    "generatorParams": {
+      "value": 6,
+      "factor": 100,
+      "from": "dm²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "6 dm² bằng bao nhiêu cm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 600,
+      "unit": "cm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 100 = 600 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-680f0d3e3dd59305",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t3",
+    "fingerprint": "d7aca1b84a712d11105ebd7ac27c3d54",
+    "generatorParams": {
+      "value": 6,
+      "factor": 100,
+      "from": "cm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "6 cm² bằng bao nhiêu mm²?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "600 mm²"
+      },
+      {
+        "id": "option-2",
+        "label": "720 mm²"
+      },
+      {
+        "id": "option-3",
+        "label": "540 mm²"
+      },
+      {
+        "id": "option-4",
+        "label": "660 mm²"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 100 = 600 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-468b6f1c537aca19",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t4",
+    "fingerprint": "fa63c30e2de5c187f78450f4cf5a4c15",
+    "generatorParams": {
+      "value": 6,
+      "factor": 10000,
+      "from": "m²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "6 m² bằng bao nhiêu cm²? Bạn An cho rằng đáp án là 66000 cm². Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 10.000 = 60.000 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-d6b54e436e51ee0f",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t5",
+    "fingerprint": "6cfc581498bbb688d9f00c45e47d0370",
+    "generatorParams": {
+      "value": 6,
+      "factor": 10000,
+      "from": "dm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "6 dm² bằng bao nhiêu mm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 60000,
+      "unit": "mm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 10.000 = 60.000 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-f38134ee64df73db",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t1",
+    "fingerprint": "00494dd71ec0adc5520e8ffae76a77b8",
+    "generatorParams": {
+      "value": 7,
+      "factor": 100,
+      "from": "m²",
+      "to": "dm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "7 m² bằng bao nhiêu dm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 700,
+      "unit": "dm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 100 = 700 dm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-984564a72a9f9c85",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t2",
+    "fingerprint": "454e30a0c107347861b5c291b043b647",
+    "generatorParams": {
+      "value": 7,
+      "factor": 100,
+      "from": "dm²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "7 dm² bằng bao nhiêu cm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 700,
+      "unit": "cm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 100 = 700 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-03dc744d04c811d8",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t3",
+    "fingerprint": "c70dfa7966e1fcd1b1afe6e0109e5e5f",
+    "generatorParams": {
+      "value": 7,
+      "factor": 100,
+      "from": "cm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "7 cm² bằng bao nhiêu mm²?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "630 mm²"
+      },
+      {
+        "id": "option-2",
+        "label": "770 mm²"
+      },
+      {
+        "id": "option-3",
+        "label": "700 mm²"
+      },
+      {
+        "id": "option-4",
+        "label": "840 mm²"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 100 = 700 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-827779e4cae55c2e",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t4",
+    "fingerprint": "3ef29cf9fbd124250909f2370e980d3e",
+    "generatorParams": {
+      "value": 7,
+      "factor": 10000,
+      "from": "m²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "7 m² bằng bao nhiêu cm²? Bạn An cho rằng đáp án là 70000 cm². Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 10.000 = 70.000 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-e567198491b93d5a",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t5",
+    "fingerprint": "3b10b210416967f2915f6c3565a14293",
+    "generatorParams": {
+      "value": 7,
+      "factor": 10000,
+      "from": "dm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "7 dm² bằng bao nhiêu mm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 70000,
+      "unit": "mm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 10.000 = 70.000 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-1e28410b22737d98",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t1",
+    "fingerprint": "4e0572484150bb7e0165145b5f8fd95f",
+    "generatorParams": {
+      "value": 8,
+      "factor": 100,
+      "from": "m²",
+      "to": "dm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "8 m² bằng bao nhiêu dm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 800,
+      "unit": "dm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 100 = 800 dm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-74fc289a8d462518",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t2",
+    "fingerprint": "6f7d14165650e4f565ac9f59a3e8578c",
+    "generatorParams": {
+      "value": 8,
+      "factor": 100,
+      "from": "dm²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "8 dm² bằng bao nhiêu cm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 800,
+      "unit": "cm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 100 = 800 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-ab5f7fd034d3ee8d",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t3",
+    "fingerprint": "a39b85ccc3b8a2f377d71608a1f06544",
+    "generatorParams": {
+      "value": 8,
+      "factor": 100,
+      "from": "cm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "8 cm² bằng bao nhiêu mm²?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "880 mm²"
+      },
+      {
+        "id": "option-2",
+        "label": "720 mm²"
+      },
+      {
+        "id": "option-3",
+        "label": "960 mm²"
+      },
+      {
+        "id": "option-4",
+        "label": "800 mm²"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 100 = 800 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-88ea9567b9b521ae",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t4",
+    "fingerprint": "101be6ab69a4be118448fb5f9751a006",
+    "generatorParams": {
+      "value": 8,
+      "factor": 10000,
+      "from": "m²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "8 m² bằng bao nhiêu cm²? Bạn An cho rằng đáp án là 88000 cm². Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 10.000 = 80.000 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-86d08d675700312c",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t5",
+    "fingerprint": "7c8e7fe0650b68c54134ecb60f538429",
+    "generatorParams": {
+      "value": 8,
+      "factor": 10000,
+      "from": "dm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "8 dm² bằng bao nhiêu mm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 80000,
+      "unit": "mm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 10.000 = 80.000 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-b086a4a941e0760e",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t1",
+    "fingerprint": "c9eb2f1ccdd317ebb280abe89b915185",
+    "generatorParams": {
+      "value": 12,
+      "factor": 100,
+      "from": "m²",
+      "to": "dm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "12 m² bằng bao nhiêu dm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1200,
+      "unit": "dm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12 × 100 = 1.200 dm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-c6fe1dd4621ab414",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t2",
+    "fingerprint": "a4ce5032826d9618c2eae2d1dfc3ffa6",
+    "generatorParams": {
+      "value": 12,
+      "factor": 100,
+      "from": "dm²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "12 dm² bằng bao nhiêu cm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1200,
+      "unit": "cm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12 × 100 = 1.200 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-fdb1849ae9b19fe1",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t3",
+    "fingerprint": "da3398b10c00280a7015bbd5f7b816f9",
+    "generatorParams": {
+      "value": 12,
+      "factor": 100,
+      "from": "cm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "12 cm² bằng bao nhiêu mm²?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1080 mm²"
+      },
+      {
+        "id": "option-2",
+        "label": "1440 mm²"
+      },
+      {
+        "id": "option-3",
+        "label": "1200 mm²"
+      },
+      {
+        "id": "option-4",
+        "label": "1320 mm²"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12 × 100 = 1.200 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-1ed744c34410cd9c",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t4",
+    "fingerprint": "9b1776fb48fe86845b6840e4e5f3f530",
+    "generatorParams": {
+      "value": 12,
+      "factor": 10000,
+      "from": "m²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "12 m² bằng bao nhiêu cm²? Bạn An cho rằng đáp án là 120000 cm². Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12 × 10.000 = 120.000 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-47856d19137b66e6",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t5",
+    "fingerprint": "0f29278026fedc445f274b665ba40618",
+    "generatorParams": {
+      "value": 12,
+      "factor": 10000,
+      "from": "dm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "12 dm² bằng bao nhiêu mm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 120000,
+      "unit": "mm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12 × 10.000 = 120.000 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-3ad960bfacf4f51d",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t1",
+    "fingerprint": "2de713268c5e28fd573aea6739eff837",
+    "generatorParams": {
+      "value": 13,
+      "factor": 100,
+      "from": "m²",
+      "to": "dm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "13 m² bằng bao nhiêu dm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1300,
+      "unit": "dm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "13 × 100 = 1.300 dm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-6ed029df73e0c2db",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t2",
+    "fingerprint": "4afc915a920f443e124aa4df6006e2e0",
+    "generatorParams": {
+      "value": 13,
+      "factor": 100,
+      "from": "dm²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "13 dm² bằng bao nhiêu cm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1300,
+      "unit": "cm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "13 × 100 = 1.300 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-4d7895642561c117",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t3",
+    "fingerprint": "b2dff37b759912fa8db0760166b1d5cc",
+    "generatorParams": {
+      "value": 13,
+      "factor": 100,
+      "from": "cm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "13 cm² bằng bao nhiêu mm²?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1560 mm²"
+      },
+      {
+        "id": "option-2",
+        "label": "1430 mm²"
+      },
+      {
+        "id": "option-3",
+        "label": "1170 mm²"
+      },
+      {
+        "id": "option-4",
+        "label": "1300 mm²"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "13 × 100 = 1.300 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-56ef3a20d3c74c04",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t4",
+    "fingerprint": "06fdb0a0e80c65563b37f9d4343296e2",
+    "generatorParams": {
+      "value": 13,
+      "factor": 10000,
+      "from": "m²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "13 m² bằng bao nhiêu cm²? Bạn An cho rằng đáp án là 143000 cm². Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "13 × 10.000 = 130.000 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-a246df2b60b300ca",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t5",
+    "fingerprint": "6e13792373b38451275437f6413b31c7",
+    "generatorParams": {
+      "value": 13,
+      "factor": 10000,
+      "from": "dm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "13 dm² bằng bao nhiêu mm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 130000,
+      "unit": "mm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "13 × 10.000 = 130.000 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-3a9d8d18c19971a5",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t1",
+    "fingerprint": "a4484b753cd403663a9c9d43b5fc30d6",
+    "generatorParams": {
+      "value": 14,
+      "factor": 100,
+      "from": "m²",
+      "to": "dm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "14 m² bằng bao nhiêu dm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1400,
+      "unit": "dm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 × 100 = 1.400 dm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-d48701241b2fa531",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t2",
+    "fingerprint": "b27afcd7b218126ba1d58af6d506c2d7",
+    "generatorParams": {
+      "value": 14,
+      "factor": 100,
+      "from": "dm²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "14 dm² bằng bao nhiêu cm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1400,
+      "unit": "cm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 × 100 = 1.400 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-d973a08ef91b7c33",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t3",
+    "fingerprint": "fc57c61867de9bb5d4027228e0c92d17",
+    "generatorParams": {
+      "value": 14,
+      "factor": 100,
+      "from": "cm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "14 cm² bằng bao nhiêu mm²?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1400 mm²"
+      },
+      {
+        "id": "option-2",
+        "label": "1680 mm²"
+      },
+      {
+        "id": "option-3",
+        "label": "1540 mm²"
+      },
+      {
+        "id": "option-4",
+        "label": "1260 mm²"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 × 100 = 1.400 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-d6fb375fd5a3b802",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t4",
+    "fingerprint": "8e4bc2a576ef2a3d25c36b9474e6bf95",
+    "generatorParams": {
+      "value": 14,
+      "factor": 10000,
+      "from": "m²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "14 m² bằng bao nhiêu cm²? Bạn An cho rằng đáp án là 140000 cm². Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 × 10.000 = 140.000 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-4054ec130fda46f9",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t5",
+    "fingerprint": "3211c07546bb363a5bad935dbe4c004a",
+    "generatorParams": {
+      "value": 14,
+      "factor": 10000,
+      "from": "dm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "14 dm² bằng bao nhiêu mm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 140000,
+      "unit": "mm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 × 10.000 = 140.000 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-75dc71930c6ae850",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t1",
+    "fingerprint": "b909476f0ef1ac1e8cdeb88c5f41897a",
+    "generatorParams": {
+      "value": 15,
+      "factor": 100,
+      "from": "m²",
+      "to": "dm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "15 m² bằng bao nhiêu dm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1500,
+      "unit": "dm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 × 100 = 1.500 dm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-e4668968e7af5aed",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t2",
+    "fingerprint": "2f4d329ee09c75d16943ed1a6da3de54",
+    "generatorParams": {
+      "value": 15,
+      "factor": 100,
+      "from": "dm²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "15 dm² bằng bao nhiêu cm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1500,
+      "unit": "cm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 × 100 = 1.500 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-ea012f36d9041acf",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t3",
+    "fingerprint": "6c4671c6227f9050536e26a21ea96c60",
+    "generatorParams": {
+      "value": 15,
+      "factor": 100,
+      "from": "cm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "15 cm² bằng bao nhiêu mm²?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1650 mm²"
+      },
+      {
+        "id": "option-2",
+        "label": "1350 mm²"
+      },
+      {
+        "id": "option-3",
+        "label": "1500 mm²"
+      },
+      {
+        "id": "option-4",
+        "label": "1800 mm²"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 × 100 = 1.500 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-50e45982983830c6",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t4",
+    "fingerprint": "22c19eabb6f826b55db6ef60305bfb03",
+    "generatorParams": {
+      "value": 15,
+      "factor": 10000,
+      "from": "m²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "15 m² bằng bao nhiêu cm²? Bạn An cho rằng đáp án là 165000 cm². Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 × 10.000 = 150.000 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-ccb4ec7039efca0f",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t5",
+    "fingerprint": "3a0e5608b7c9abfe2a5d58dfde3ea297",
+    "generatorParams": {
+      "value": 15,
+      "factor": 10000,
+      "from": "dm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "15 dm² bằng bao nhiêu mm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 150000,
+      "unit": "mm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 × 10.000 = 150.000 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-e7b83aebf9f114bc",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t1",
+    "fingerprint": "f2d14835853a76f4121806d658101966",
+    "generatorParams": {
+      "value": 16,
+      "factor": 100,
+      "from": "m²",
+      "to": "dm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "16 m² bằng bao nhiêu dm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1600,
+      "unit": "dm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 × 100 = 1.600 dm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-9f77ad112339a7ee",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t2",
+    "fingerprint": "53075e56655a27e7c8ace2613e170709",
+    "generatorParams": {
+      "value": 16,
+      "factor": 100,
+      "from": "dm²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "16 dm² bằng bao nhiêu cm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1600,
+      "unit": "cm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 × 100 = 1.600 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-65044c93b7b0fdc2",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t3",
+    "fingerprint": "d81f53a184d9b5ba8a4aa3fc1cad6550",
+    "generatorParams": {
+      "value": 16,
+      "factor": 100,
+      "from": "cm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "16 cm² bằng bao nhiêu mm²?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1760 mm²"
+      },
+      {
+        "id": "option-2",
+        "label": "1600 mm²"
+      },
+      {
+        "id": "option-3",
+        "label": "1920 mm²"
+      },
+      {
+        "id": "option-4",
+        "label": "1440 mm²"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 × 100 = 1.600 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-b07fb6597ff168c6",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t4",
+    "fingerprint": "d838888f29a1e35a7c4ceed059c485f6",
+    "generatorParams": {
+      "value": 16,
+      "factor": 10000,
+      "from": "m²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "16 m² bằng bao nhiêu cm²? Bạn An cho rằng đáp án là 160000 cm². Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 × 10.000 = 160.000 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-5853b8f2d4813f32",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t5",
+    "fingerprint": "b10072c47d15d7c30f189cee602f3446",
+    "generatorParams": {
+      "value": 16,
+      "factor": 10000,
+      "from": "dm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "16 dm² bằng bao nhiêu mm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 160000,
+      "unit": "mm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 × 10.000 = 160.000 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-6d3f74867ee6bbfa",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t1",
+    "fingerprint": "be158bbbfd605d3b4db5365ecb584520",
+    "generatorParams": {
+      "value": 17,
+      "factor": 100,
+      "from": "m²",
+      "to": "dm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "17 m² bằng bao nhiêu dm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1700,
+      "unit": "dm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 × 100 = 1.700 dm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-b0cc094c8058f7c9",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t2",
+    "fingerprint": "0856ab7c6d0b7faa14e2af359a91d879",
+    "generatorParams": {
+      "value": 17,
+      "factor": 100,
+      "from": "dm²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "17 dm² bằng bao nhiêu cm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1700,
+      "unit": "cm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 × 100 = 1.700 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-8f3a5440c4e896c3",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t3",
+    "fingerprint": "02555a91bf497b811a05f65c2180047c",
+    "generatorParams": {
+      "value": 17,
+      "factor": 100,
+      "from": "cm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "17 cm² bằng bao nhiêu mm²?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1700 mm²"
+      },
+      {
+        "id": "option-2",
+        "label": "1870 mm²"
+      },
+      {
+        "id": "option-3",
+        "label": "1530 mm²"
+      },
+      {
+        "id": "option-4",
+        "label": "2040 mm²"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 × 100 = 1.700 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-1d71b7142adbe813",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t4",
+    "fingerprint": "aa8695a1b5b76dd13d4d2a3c2d353571",
+    "generatorParams": {
+      "value": 17,
+      "factor": 10000,
+      "from": "m²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "17 m² bằng bao nhiêu cm²? Bạn An cho rằng đáp án là 187000 cm². Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 × 10.000 = 170.000 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-e535b459e85ca957",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t5",
+    "fingerprint": "b1b7e30ee833fb15222a2bc45f162e96",
+    "generatorParams": {
+      "value": 17,
+      "factor": 10000,
+      "from": "dm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "17 dm² bằng bao nhiêu mm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 170000,
+      "unit": "mm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 × 10.000 = 170.000 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-1e56ddda07e355cb",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t1",
+    "fingerprint": "f1b9b20cf0e86a9f0bd131ffd4012267",
+    "generatorParams": {
+      "value": 18,
+      "factor": 100,
+      "from": "m²",
+      "to": "dm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "18 m² bằng bao nhiêu dm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1800,
+      "unit": "dm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 × 100 = 1.800 dm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-81b9e0ee03ea4b2a",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t2",
+    "fingerprint": "dad17f2a976ca38c41a78413d433f0bf",
+    "generatorParams": {
+      "value": 18,
+      "factor": 100,
+      "from": "dm²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "18 dm² bằng bao nhiêu cm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1800,
+      "unit": "cm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 × 100 = 1.800 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-83e303989ae181c4",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t3",
+    "fingerprint": "1569a51f34bb3f5e451e13d006ef88ab",
+    "generatorParams": {
+      "value": 18,
+      "factor": 100,
+      "from": "cm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "18 cm² bằng bao nhiêu mm²?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1800 mm²"
+      },
+      {
+        "id": "option-2",
+        "label": "1980 mm²"
+      },
+      {
+        "id": "option-3",
+        "label": "1620 mm²"
+      },
+      {
+        "id": "option-4",
+        "label": "2160 mm²"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 × 100 = 1.800 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-e779780e9ab6cf3e",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t4",
+    "fingerprint": "4f4f502941020e552f6f698b9501162d",
+    "generatorParams": {
+      "value": 18,
+      "factor": 10000,
+      "from": "m²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "18 m² bằng bao nhiêu cm²? Bạn An cho rằng đáp án là 180000 cm². Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 × 10.000 = 180.000 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-13d5f5238a6d15e5",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t5",
+    "fingerprint": "71197cdd5939d9ce476e4dd6e464306f",
+    "generatorParams": {
+      "value": 18,
+      "factor": 10000,
+      "from": "dm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "18 dm² bằng bao nhiêu mm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 180000,
+      "unit": "mm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 × 10.000 = 180.000 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-f4de7b3c4fb5b3e7",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t1",
+    "fingerprint": "006fbfe55277ab61449394c56b62a9c0",
+    "generatorParams": {
+      "value": 19,
+      "factor": 100,
+      "from": "m²",
+      "to": "dm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "19 m² bằng bao nhiêu dm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1900,
+      "unit": "dm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 100 = 1.900 dm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-7340657ca1f9d4ae",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t2",
+    "fingerprint": "37fb85b4ceb1c6f68b8872c1fe88208b",
+    "generatorParams": {
+      "value": 19,
+      "factor": 100,
+      "from": "dm²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "19 dm² bằng bao nhiêu cm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1900,
+      "unit": "cm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 100 = 1.900 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-b11652dc5774352a",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t3",
+    "fingerprint": "3bf3a7cd5a84ad1de4a834ecb838b0e4",
+    "generatorParams": {
+      "value": 19,
+      "factor": 100,
+      "from": "cm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "19 cm² bằng bao nhiêu mm²?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1710 mm²"
+      },
+      {
+        "id": "option-2",
+        "label": "2090 mm²"
+      },
+      {
+        "id": "option-3",
+        "label": "2280 mm²"
+      },
+      {
+        "id": "option-4",
+        "label": "1900 mm²"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 100 = 1.900 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-32dec3b1089c35ad",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t4",
+    "fingerprint": "f9fc4c02bcbe3b037d14214bdbbd5193",
+    "generatorParams": {
+      "value": 19,
+      "factor": 10000,
+      "from": "m²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "19 m² bằng bao nhiêu cm²? Bạn An cho rằng đáp án là 209000 cm². Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 10.000 = 190.000 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-3061801c1ee66906",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t5",
+    "fingerprint": "7c379ede1e6cc8514fc7f3474ab29784",
+    "generatorParams": {
+      "value": 19,
+      "factor": 10000,
+      "from": "dm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "19 dm² bằng bao nhiêu mm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 190000,
+      "unit": "mm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 10.000 = 190.000 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-c3cb9f2b3edc7079",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t1",
+    "fingerprint": "9f8a0bd8dc22a5f485cad776ac737793",
+    "generatorParams": {
+      "value": 20,
+      "factor": 100,
+      "from": "m²",
+      "to": "dm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "20 m² bằng bao nhiêu dm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2000,
+      "unit": "dm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 100 = 2.000 dm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-3cf0621dfa54593b",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t2",
+    "fingerprint": "1999c6022e01577c3c1b89256bbf06d3",
+    "generatorParams": {
+      "value": 20,
+      "factor": 100,
+      "from": "dm²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "20 dm² bằng bao nhiêu cm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2000,
+      "unit": "cm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 100 = 2.000 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-5a5f8d222f7abbf6",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t3",
+    "fingerprint": "b913bb9c05fee4f225ca44470c7038d2",
+    "generatorParams": {
+      "value": 20,
+      "factor": 100,
+      "from": "cm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "20 cm² bằng bao nhiêu mm²?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2400 mm²"
+      },
+      {
+        "id": "option-2",
+        "label": "1800 mm²"
+      },
+      {
+        "id": "option-3",
+        "label": "2200 mm²"
+      },
+      {
+        "id": "option-4",
+        "label": "2000 mm²"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 100 = 2.000 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-268f81a5d49536d6",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t4",
+    "fingerprint": "2aebb0c70dc9138e89d45d256c81a792",
+    "generatorParams": {
+      "value": 20,
+      "factor": 10000,
+      "from": "m²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "20 m² bằng bao nhiêu cm²? Bạn An cho rằng đáp án là 200000 cm². Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 10.000 = 200.000 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-95fea6700c85ba5f",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t5",
+    "fingerprint": "c3ddc434651ac69ecb8afafb2eac79c2",
+    "generatorParams": {
+      "value": 20,
+      "factor": 10000,
+      "from": "dm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "20 dm² bằng bao nhiêu mm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 200000,
+      "unit": "mm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 10.000 = 200.000 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-55bf9e799fd68f65",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t1",
+    "fingerprint": "3cba89078769c9717791b60c69b1f92e",
+    "generatorParams": {
+      "value": 21,
+      "factor": 100,
+      "from": "m²",
+      "to": "dm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "21 m² bằng bao nhiêu dm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2100,
+      "unit": "dm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 100 = 2.100 dm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-d72b82426ed74499",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t2",
+    "fingerprint": "b12115d9db65a6fc69e38611e81cf13a",
+    "generatorParams": {
+      "value": 21,
+      "factor": 100,
+      "from": "dm²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "21 dm² bằng bao nhiêu cm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2100,
+      "unit": "cm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 100 = 2.100 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-b6fe5a6720c6f799",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t3",
+    "fingerprint": "ac1acea5ae6f172e4cf4d02aec71255c",
+    "generatorParams": {
+      "value": 21,
+      "factor": 100,
+      "from": "cm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "21 cm² bằng bao nhiêu mm²?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2100 mm²"
+      },
+      {
+        "id": "option-2",
+        "label": "2310 mm²"
+      },
+      {
+        "id": "option-3",
+        "label": "2520 mm²"
+      },
+      {
+        "id": "option-4",
+        "label": "1890 mm²"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 100 = 2.100 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-31ea59ab6f121e54",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t4",
+    "fingerprint": "14484debc960923115a3279a739dedfb",
+    "generatorParams": {
+      "value": 21,
+      "factor": 10000,
+      "from": "m²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "21 m² bằng bao nhiêu cm²? Bạn An cho rằng đáp án là 231000 cm². Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 10.000 = 210.000 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-54595eafc685dcb0",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t5",
+    "fingerprint": "b6e81a6dd081e4b114695c07ed520399",
+    "generatorParams": {
+      "value": 21,
+      "factor": 10000,
+      "from": "dm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "21 dm² bằng bao nhiêu mm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 210000,
+      "unit": "mm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 10.000 = 210.000 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-7ea8c8947452997c",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t1",
+    "fingerprint": "530914fd179f6f82a4739706a5f666d3",
+    "generatorParams": {
+      "value": 25,
+      "factor": 100,
+      "from": "m²",
+      "to": "dm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "25 m² bằng bao nhiêu dm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2500,
+      "unit": "dm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "25 × 100 = 2.500 dm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-f3b06c34dfa819b2",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t2",
+    "fingerprint": "35740326832cd3f5e07ddf27ec421068",
+    "generatorParams": {
+      "value": 25,
+      "factor": 100,
+      "from": "dm²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "25 dm² bằng bao nhiêu cm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2500,
+      "unit": "cm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "25 × 100 = 2.500 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-0695b05d891381bb",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t3",
+    "fingerprint": "d81b4926e980b0816f68556b92ac7bd6",
+    "generatorParams": {
+      "value": 25,
+      "factor": 100,
+      "from": "cm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "25 cm² bằng bao nhiêu mm²?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3000 mm²"
+      },
+      {
+        "id": "option-2",
+        "label": "2250 mm²"
+      },
+      {
+        "id": "option-3",
+        "label": "2500 mm²"
+      },
+      {
+        "id": "option-4",
+        "label": "2750 mm²"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "25 × 100 = 2.500 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-686dc828a75559c9",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t4",
+    "fingerprint": "c8497e4a9676c09264b79cb7c714d221",
+    "generatorParams": {
+      "value": 25,
+      "factor": 10000,
+      "from": "m²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "25 m² bằng bao nhiêu cm²? Bạn An cho rằng đáp án là 250000 cm². Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "25 × 10.000 = 250.000 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-dd0c53ae86a9bbb6",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t5",
+    "fingerprint": "993c2f3622ef977540367278a82d38ba",
+    "generatorParams": {
+      "value": 25,
+      "factor": 10000,
+      "from": "dm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "25 dm² bằng bao nhiêu mm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 250000,
+      "unit": "mm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "25 × 10.000 = 250.000 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-057381593ef0b639",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t1",
+    "fingerprint": "767bdad383c57af07d4e5355685c81ed",
+    "generatorParams": {
+      "value": 26,
+      "factor": 100,
+      "from": "m²",
+      "to": "dm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "26 m² bằng bao nhiêu dm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2600,
+      "unit": "dm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "26 × 100 = 2.600 dm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-f01ddfedf64c1cac",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t2",
+    "fingerprint": "d174ba57393e4b6d7aeda6a7214f8abd",
+    "generatorParams": {
+      "value": 26,
+      "factor": 100,
+      "from": "dm²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "26 dm² bằng bao nhiêu cm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2600,
+      "unit": "cm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "26 × 100 = 2.600 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-d77f3054b6c0c590",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t3",
+    "fingerprint": "80b9e0e6c4b63614af9ac66d57786b59",
+    "generatorParams": {
+      "value": 26,
+      "factor": 100,
+      "from": "cm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "26 cm² bằng bao nhiêu mm²?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2600 mm²"
+      },
+      {
+        "id": "option-2",
+        "label": "3120 mm²"
+      },
+      {
+        "id": "option-3",
+        "label": "2340 mm²"
+      },
+      {
+        "id": "option-4",
+        "label": "2860 mm²"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "26 × 100 = 2.600 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-c867aca995084330",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t4",
+    "fingerprint": "ab5f641bea50b9212ea6eac83830ef2b",
+    "generatorParams": {
+      "value": 26,
+      "factor": 10000,
+      "from": "m²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "26 m² bằng bao nhiêu cm²? Bạn An cho rằng đáp án là 286000 cm². Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "26 × 10.000 = 260.000 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-cfc46a8a8f808457",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t5",
+    "fingerprint": "c187d626cf6efa61bf45f5e03963594d",
+    "generatorParams": {
+      "value": 26,
+      "factor": 10000,
+      "from": "dm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "26 dm² bằng bao nhiêu mm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 260000,
+      "unit": "mm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "26 × 10.000 = 260.000 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-7f681699898a275e",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t1",
+    "fingerprint": "082b905060bfc2ce35bd9fd56e56adcc",
+    "generatorParams": {
+      "value": 27,
+      "factor": 100,
+      "from": "m²",
+      "to": "dm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "27 m² bằng bao nhiêu dm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2700,
+      "unit": "dm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "27 × 100 = 2.700 dm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-873e95a359390bd5",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t2",
+    "fingerprint": "ac66bb55063c4cccfc69040490cf6833",
+    "generatorParams": {
+      "value": 27,
+      "factor": 100,
+      "from": "dm²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "27 dm² bằng bao nhiêu cm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2700,
+      "unit": "cm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "27 × 100 = 2.700 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-6ee708d392fe09f9",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t3",
+    "fingerprint": "35b83cb15de468cdae6e0202b00a0142",
+    "generatorParams": {
+      "value": 27,
+      "factor": 100,
+      "from": "cm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "27 cm² bằng bao nhiêu mm²?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2970 mm²"
+      },
+      {
+        "id": "option-2",
+        "label": "3240 mm²"
+      },
+      {
+        "id": "option-3",
+        "label": "2700 mm²"
+      },
+      {
+        "id": "option-4",
+        "label": "2430 mm²"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "27 × 100 = 2.700 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-a687b0e6364c0fc7",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t4",
+    "fingerprint": "b55a2ddacf1a972a9ebd6e9d6dbeacd8",
+    "generatorParams": {
+      "value": 27,
+      "factor": 10000,
+      "from": "m²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "27 m² bằng bao nhiêu cm²? Bạn An cho rằng đáp án là 270000 cm². Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "27 × 10.000 = 270.000 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-576f308d71e6ad24",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t5",
+    "fingerprint": "33532a8bab15b6def1beb3c187a1de8a",
+    "generatorParams": {
+      "value": 27,
+      "factor": 10000,
+      "from": "dm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "27 dm² bằng bao nhiêu mm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 270000,
+      "unit": "mm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "27 × 10.000 = 270.000 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-eb726da68c80e43a",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t1",
+    "fingerprint": "029e1d60b4142fe22166d871fb5f826d",
+    "generatorParams": {
+      "value": 28,
+      "factor": 100,
+      "from": "m²",
+      "to": "dm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "28 m² bằng bao nhiêu dm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2800,
+      "unit": "dm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "28 × 100 = 2.800 dm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-e3ab485a06670817",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t2",
+    "fingerprint": "5d8b2b7b51b7e712d5e581d6493d3ef7",
+    "generatorParams": {
+      "value": 28,
+      "factor": 100,
+      "from": "dm²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "28 dm² bằng bao nhiêu cm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2800,
+      "unit": "cm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "28 × 100 = 2.800 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-af0e063a7b60d59f",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t3",
+    "fingerprint": "7a8064520e8b40464ed246039f3dadcc",
+    "generatorParams": {
+      "value": 28,
+      "factor": 100,
+      "from": "cm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "28 cm² bằng bao nhiêu mm²?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2520 mm²"
+      },
+      {
+        "id": "option-2",
+        "label": "3360 mm²"
+      },
+      {
+        "id": "option-3",
+        "label": "3080 mm²"
+      },
+      {
+        "id": "option-4",
+        "label": "2800 mm²"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "28 × 100 = 2.800 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-c0cb1027a82d3f89",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t4",
+    "fingerprint": "c30f0da0d07b067c771fa4f22d707452",
+    "generatorParams": {
+      "value": 28,
+      "factor": 10000,
+      "from": "m²",
+      "to": "cm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "28 m² bằng bao nhiêu cm²? Bạn An cho rằng đáp án là 308000 cm². Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "28 × 10.000 = 280.000 cm².",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-area-conversion-17d3e63e2d0e3b5c",
+    "contentVersion": "grade4-v3",
+    "templateId": "area-conversion-t5",
+    "fingerprint": "d2cba501c6d11a02daecb9d80e1602f7",
+    "generatorParams": {
+      "value": 28,
+      "factor": 10000,
+      "from": "dm²",
+      "to": "mm²"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "area-conversion-skill",
+    "problemTypeId": "area-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "28 dm² bằng bao nhiêu mm²?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 280000,
+      "unit": "mm²"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra hệ số đổi đơn vị, đặc biệt với diện tích nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "28 × 10.000 = 280.000 mm².",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

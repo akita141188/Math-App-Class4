@@ -14,6 +14,7 @@ export default tseslint.config(
       '**/*.cjs',
       'eslint.config.mjs',
       '.tmp/**',
+      'download/**',
     ],
   },
   eslint.configs.recommended,

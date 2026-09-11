@@ -1,0 +1,130 @@
+﻿import type { CurriculumCatalog, StudentQuestion } from '@math-app/shared';
+
+export const catalogFixture: CurriculumCatalog = {
+  grade: {
+    id: 'grade-4',
+    grade: 4,
+    name: 'Toán lớp 4',
+    description: 'Bản đồ học tập lớp 4.',
+  },
+  domains: [
+    {
+      id: 'number-and-operations',
+      gradeId: 'grade-4',
+      name: 'Số và phép tính',
+      description: 'Bốn phép tính.',
+      order: 1,
+      topicCount: 1,
+    },
+    {
+      id: 'measurement',
+      gradeId: 'grade-4',
+      name: 'Đại lượng và đo lường',
+      description: 'Đổi đơn vị.',
+      order: 2,
+      topicCount: 1,
+    },
+  ],
+  topics: [
+    {
+      id: 'multiplication',
+      domainId: 'number-and-operations',
+      name: 'Phép nhân',
+      skill: 'Nhân và vận dụng',
+      problemTypeCount: 2,
+    },
+    {
+      id: 'units',
+      domainId: 'measurement',
+      name: 'Đơn vị đo',
+      skill: 'Đổi đơn vị',
+      problemTypeCount: 1,
+    },
+  ],
+  skills: [
+    {
+      id: 'multiply-one-digit-skill',
+      topicId: 'multiplication',
+      name: 'Nhân với số có một chữ số',
+      prerequisiteSkillIds: [],
+      misconceptionCodes: ['ARITHMETIC_SLIP'],
+    },
+    {
+      id: 'equal-groups-skill',
+      topicId: 'multiplication',
+      name: 'Nhiều nhóm bằng nhau',
+      prerequisiteSkillIds: ['multiply-one-digit-skill'],
+      misconceptionCodes: ['WRONG_OPERATION'],
+    },
+  ],
+  problemTypes: [
+    {
+      id: 'multiply-one-digit',
+      domainId: 'number-and-operations',
+      topicId: 'multiplication',
+      skillId: 'multiply-one-digit-skill',
+      name: 'Nhân với số có một chữ số',
+      description: 'Nhân lần lượt theo từng hàng.',
+      questionCount: 100,
+      visualQuestionCount: 0,
+      supportedDifficulties: ['EASY', 'MEDIUM', 'HARD'],
+      difficultyCounts: { EASY: 30, MEDIUM: 50, HARD: 20 },
+    },
+    {
+      id: 'equal-groups',
+      domainId: 'number-and-operations',
+      topicId: 'multiplication',
+      skillId: 'equal-groups-skill',
+      name: 'Nhiều nhóm bằng nhau',
+      description: 'Dùng phép nhân cho các nhóm đều.',
+      questionCount: 100,
+      visualQuestionCount: 100,
+      supportedDifficulties: ['EASY', 'MEDIUM', 'HARD'],
+      difficultyCounts: { EASY: 30, MEDIUM: 50, HARD: 20 },
+    },
+    {
+      id: 'length-conversion',
+      domainId: 'measurement',
+      topicId: 'units',
+      skillId: 'length-conversion-skill',
+      name: 'Đổi đơn vị độ dài',
+      description: 'Đổi giữa mét và xăng-ti-mét.',
+      questionCount: 100,
+      visualQuestionCount: 1,
+      supportedDifficulties: ['EASY', 'MEDIUM', 'HARD'],
+      difficultyCounts: { EASY: 30, MEDIUM: 50, HARD: 20 },
+    },
+  ],
+};
+
+export function studentQuestion(
+  id: string,
+  stem: string,
+  skillId = 'multiply-one-digit-skill',
+): StudentQuestion {
+  return {
+    id,
+    contentVersion: 'grade4-v3',
+    templateId: 'multiply-one-digit-t1',
+    fingerprint: `fingerprint-${id}`,
+    grade: 4,
+    domainId: 'number-and-operations',
+    topicId: 'multiplication',
+    skillId,
+    problemTypeId: 'multiply-one-digit',
+    format: 'SHORT_ANSWER',
+    difficulty: 'EASY',
+    assessmentLevel: 'LEVEL_1',
+    testEligible: true,
+    scoreWeight: 1,
+    stem,
+    hints: [
+      { level: 1, text: 'Xác định hai thừa số.' },
+      { level: 2, text: 'Nhân từ hàng đơn vị.' },
+      { level: 3, text: 'Viết phép tính theo cột.' },
+    ],
+    prerequisiteSkillIds: [],
+    status: 'REVIEWED',
+    version: 1,
+  };
+}

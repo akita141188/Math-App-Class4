@@ -1,0 +1,6862 @@
+[
+  {
+    "id": "g4-unknown-subtraction-part-7a06090a2da9a790",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t1",
+    "fingerprint": "25ed8c2d827fadd466c32794559857c1",
+    "generatorParams": {
+      "minuend": 372,
+      "subtrahend": 143,
+      "difference": 229,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 143 = 229.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 372
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "229 + 143 = 372.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-aef8de666d062017",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t2",
+    "fingerprint": "4a21a8f79ade363d8094394f9b805e34",
+    "generatorParams": {
+      "minuend": 261,
+      "subtrahend": 117,
+      "difference": 144,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 261 − □ = 144.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 117
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "261 − 144 = 117.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-bf3f227654820245",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t3",
+    "fingerprint": "eeff956b1586ba387e221be9953bb086",
+    "generatorParams": {
+      "minuend": 374,
+      "subtrahend": 145,
+      "difference": 229,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 145 = 229.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "337"
+      },
+      {
+        "id": "option-2",
+        "label": "411"
+      },
+      {
+        "id": "option-3",
+        "label": "448"
+      },
+      {
+        "id": "option-4",
+        "label": "374"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "229 + 145 = 374.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-054eaec484fff4f2",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t4",
+    "fingerprint": "6fada79e42d1ffc8a8a1aa651d333a46",
+    "generatorParams": {
+      "minuend": 263,
+      "subtrahend": 117,
+      "difference": 146,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 263 − □ = 146. Bạn An cho rằng đáp án là 117. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "263 − 146 = 117.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-5718dce8d3ddc3a9",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t5",
+    "fingerprint": "9d9f4fd655326f68762755c99f9dac5d",
+    "generatorParams": {
+      "minuend": 376,
+      "subtrahend": 147,
+      "difference": 229,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 147 = 229.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 376
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "229 + 147 = 376.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-3aba9e7a872c0628",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t1",
+    "fingerprint": "7ac784b38c4c623d31a2ab8ba76ac704",
+    "generatorParams": {
+      "minuend": 404,
+      "subtrahend": 156,
+      "difference": 248,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 156 = 248.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 404
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "248 + 156 = 404.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-0568d933582352b0",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t2",
+    "fingerprint": "1f927e430fe925cc982753dd964ccbea",
+    "generatorParams": {
+      "minuend": 291,
+      "subtrahend": 134,
+      "difference": 157,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 291 − □ = 157.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 134
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "291 − 157 = 134.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-b70d38581227323e",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t3",
+    "fingerprint": "3e4f5b3deafc8c047fd014eef428474c",
+    "generatorParams": {
+      "minuend": 406,
+      "subtrahend": 158,
+      "difference": 248,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 158 = 248.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "486"
+      },
+      {
+        "id": "option-2",
+        "label": "446"
+      },
+      {
+        "id": "option-3",
+        "label": "366"
+      },
+      {
+        "id": "option-4",
+        "label": "406"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "248 + 158 = 406.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-a354dce01cb8763a",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t4",
+    "fingerprint": "fd4ba05a5634546e1be9f6e1e9734060",
+    "generatorParams": {
+      "minuend": 293,
+      "subtrahend": 134,
+      "difference": 159,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 293 − □ = 159. Bạn An cho rằng đáp án là 147. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "293 − 159 = 134.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-66ba53d9b47b6ca8",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t5",
+    "fingerprint": "7ffd73eddbe9b8f84ec254ecdccb5260",
+    "generatorParams": {
+      "minuend": 408,
+      "subtrahend": 160,
+      "difference": 248,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 160 = 248.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 408
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "248 + 160 = 408.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-bce225abf4d68c2d",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t1",
+    "fingerprint": "b0031f0fca7ecd93bbd021252c2a680d",
+    "generatorParams": {
+      "minuend": 436,
+      "subtrahend": 169,
+      "difference": 267,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 169 = 267.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 436
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "267 + 169 = 436.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-137ceb5662d4c933",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t2",
+    "fingerprint": "75f4011434c080e7780d0586643c4db5",
+    "generatorParams": {
+      "minuend": 321,
+      "subtrahend": 151,
+      "difference": 170,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 321 − □ = 170.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 151
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "321 − 170 = 151.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-fda1ce39cf3ffda2",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t3",
+    "fingerprint": "e068f7a1f30d10cd27a6bce241f50fb8",
+    "generatorParams": {
+      "minuend": 438,
+      "subtrahend": 171,
+      "difference": 267,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 171 = 267.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "395"
+      },
+      {
+        "id": "option-2",
+        "label": "438"
+      },
+      {
+        "id": "option-3",
+        "label": "524"
+      },
+      {
+        "id": "option-4",
+        "label": "481"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "267 + 171 = 438.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-ac2ad7fa148737a6",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t4",
+    "fingerprint": "1987eca984128e50a99648958a873923",
+    "generatorParams": {
+      "minuend": 323,
+      "subtrahend": 151,
+      "difference": 172,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 323 − □ = 172. Bạn An cho rằng đáp án là 151. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "323 − 172 = 151.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-e4b005f7f71c49c2",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t5",
+    "fingerprint": "6b3f2f673b37d113d462f3fe9411f4c7",
+    "generatorParams": {
+      "minuend": 440,
+      "subtrahend": 173,
+      "difference": 267,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 173 = 267.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 440
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "267 + 173 = 440.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-6d6ed14765dce79b",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t1",
+    "fingerprint": "f7131052095279c89d687f9c79b7352d",
+    "generatorParams": {
+      "minuend": 468,
+      "subtrahend": 182,
+      "difference": 286,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 182 = 286.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 468
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "286 + 182 = 468.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-4a5b4351d2314ab5",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t2",
+    "fingerprint": "cc1e449d15966431ba7f51c9c8f1d5c8",
+    "generatorParams": {
+      "minuend": 351,
+      "subtrahend": 168,
+      "difference": 183,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 351 − □ = 183.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 168
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "351 − 183 = 168.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-ef2479bf7d34fe9a",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t3",
+    "fingerprint": "cd0565e21153bcc2fc4cfe21f3328520",
+    "generatorParams": {
+      "minuend": 470,
+      "subtrahend": 184,
+      "difference": 286,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 184 = 286.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "564"
+      },
+      {
+        "id": "option-2",
+        "label": "470"
+      },
+      {
+        "id": "option-3",
+        "label": "423"
+      },
+      {
+        "id": "option-4",
+        "label": "517"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "286 + 184 = 470.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-84fb2d6443ec4b87",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t4",
+    "fingerprint": "96bc0e8e5201c2d653c62ee88e5a369d",
+    "generatorParams": {
+      "minuend": 353,
+      "subtrahend": 168,
+      "difference": 185,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 353 − □ = 185. Bạn An cho rằng đáp án là 184. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "353 − 185 = 168.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-0e3fc08e19420be7",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t5",
+    "fingerprint": "0985f67b483e0cd4051c4cfad8143fe2",
+    "generatorParams": {
+      "minuend": 472,
+      "subtrahend": 186,
+      "difference": 286,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 186 = 286.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 472
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "286 + 186 = 472.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-4d3a604ed8f52d20",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t1",
+    "fingerprint": "581c86a1142e8abcaaa973640af5308a",
+    "generatorParams": {
+      "minuend": 500,
+      "subtrahend": 195,
+      "difference": 305,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 195 = 305.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 500
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "305 + 195 = 500.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-107a8b0659da0f51",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t2",
+    "fingerprint": "2d42476e4ef66cb3220d57972ede8225",
+    "generatorParams": {
+      "minuend": 381,
+      "subtrahend": 185,
+      "difference": 196,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 381 − □ = 196.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 185
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "381 − 196 = 185.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-715ddea955578f52",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t3",
+    "fingerprint": "8329629601d4f02fae4581fe6aae7cce",
+    "generatorParams": {
+      "minuend": 502,
+      "subtrahend": 197,
+      "difference": 305,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 197 = 305.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "552"
+      },
+      {
+        "id": "option-2",
+        "label": "502"
+      },
+      {
+        "id": "option-3",
+        "label": "452"
+      },
+      {
+        "id": "option-4",
+        "label": "602"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "305 + 197 = 502.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-85a9e5494699f8df",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t4",
+    "fingerprint": "71f8b82d1db85773dce6caad2e990cd4",
+    "generatorParams": {
+      "minuend": 383,
+      "subtrahend": 185,
+      "difference": 198,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 383 − □ = 198. Bạn An cho rằng đáp án là 185. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "383 − 198 = 185.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-b154562fd5aec3e1",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t5",
+    "fingerprint": "d662d64e9099cd62227b32a3a9844a4f",
+    "generatorParams": {
+      "minuend": 504,
+      "subtrahend": 199,
+      "difference": 305,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 199 = 305.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 504
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "305 + 199 = 504.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-be36e594df2e2696",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t1",
+    "fingerprint": "ea5bbadd9b207410511f2a99a8310b2f",
+    "generatorParams": {
+      "minuend": 3592,
+      "subtrahend": 1378,
+      "difference": 2214,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.378 = 2.214.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3592
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.214 + 1.378 = 3.592.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-c294d04133db5997",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t2",
+    "fingerprint": "7656e692e1c8b32956e55ab031175410",
+    "generatorParams": {
+      "minuend": 2481,
+      "subtrahend": 1102,
+      "difference": 1379,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 2.481 − □ = 1.379.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1102
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.481 − 1.379 = 1.102.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-bcbe4e39c60e0931",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t3",
+    "fingerprint": "cb8babe66bd5de928ba82b8727a4baad",
+    "generatorParams": {
+      "minuend": 3594,
+      "subtrahend": 1380,
+      "difference": 2214,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.380 = 2.214.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3794"
+      },
+      {
+        "id": "option-2",
+        "label": "3694"
+      },
+      {
+        "id": "option-3",
+        "label": "3494"
+      },
+      {
+        "id": "option-4",
+        "label": "3594"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.214 + 1.380 = 3.594.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-0e4dbc909e58a923",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t4",
+    "fingerprint": "9b4feeea52a13616e392129704b47a8a",
+    "generatorParams": {
+      "minuend": 2483,
+      "subtrahend": 1102,
+      "difference": 1381,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 2.483 − □ = 1.381. Bạn An cho rằng đáp án là 1202. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.483 − 1.381 = 1.102.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-1f938210c88c9ef2",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t5",
+    "fingerprint": "2275727504fcc09a1800b19e47a45e1c",
+    "generatorParams": {
+      "minuend": 3596,
+      "subtrahend": 1382,
+      "difference": 2214,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.382 = 2.214.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3596
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.214 + 1.382 = 3.596.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-0e54e04867e2b3e4",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t1",
+    "fingerprint": "f51ef0bfbfed3540cae65eb8241c981a",
+    "generatorParams": {
+      "minuend": 3624,
+      "subtrahend": 1391,
+      "difference": 2233,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.391 = 2.233.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3624
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.233 + 1.391 = 3.624.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-356b31ca832e7946",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t2",
+    "fingerprint": "749382dcba21b09a03d172def3350ead",
+    "generatorParams": {
+      "minuend": 2511,
+      "subtrahend": 1119,
+      "difference": 1392,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 2.511 − □ = 1.392.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1119
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.511 − 1.392 = 1.119.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-fe3a825f8a52d907",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t3",
+    "fingerprint": "34a2887e78112c1100b3c07347797419",
+    "generatorParams": {
+      "minuend": 3626,
+      "subtrahend": 1393,
+      "difference": 2233,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.393 = 2.233.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3626"
+      },
+      {
+        "id": "option-2",
+        "label": "3526"
+      },
+      {
+        "id": "option-3",
+        "label": "3826"
+      },
+      {
+        "id": "option-4",
+        "label": "3726"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.233 + 1.393 = 3.626.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-addcbc89bfe1ef93",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t4",
+    "fingerprint": "8b1e889b18f4d55b16a6c8975da540dd",
+    "generatorParams": {
+      "minuend": 2513,
+      "subtrahend": 1119,
+      "difference": 1394,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 2.513 − □ = 1.394. Bạn An cho rằng đáp án là 1119. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.513 − 1.394 = 1.119.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-c5a409ec00e7c182",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t5",
+    "fingerprint": "970edb76a94d54721ddb7d5259e70ed4",
+    "generatorParams": {
+      "minuend": 3628,
+      "subtrahend": 1395,
+      "difference": 2233,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.395 = 2.233.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3628
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.233 + 1.395 = 3.628.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-352b8e6002167b23",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t1",
+    "fingerprint": "bfca7bd4c04384cd5e3aaff72c41a8c3",
+    "generatorParams": {
+      "minuend": 3656,
+      "subtrahend": 1404,
+      "difference": 2252,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.404 = 2.252.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3656
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.252 + 1.404 = 3.656.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-ea426cce042255cf",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t2",
+    "fingerprint": "fcf873a44a1f6f9f650d77c4e7c6ad56",
+    "generatorParams": {
+      "minuend": 2541,
+      "subtrahend": 1136,
+      "difference": 1405,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 2.541 − □ = 1.405.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1136
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.541 − 1.405 = 1.136.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-f388c07a0c71418a",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t3",
+    "fingerprint": "8a1a0fbd40e4320f71f7c157babf8268",
+    "generatorParams": {
+      "minuend": 3658,
+      "subtrahend": 1406,
+      "difference": 2252,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.406 = 2.252.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3658"
+      },
+      {
+        "id": "option-2",
+        "label": "3758"
+      },
+      {
+        "id": "option-3",
+        "label": "3858"
+      },
+      {
+        "id": "option-4",
+        "label": "3558"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.252 + 1.406 = 3.658.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-c12c88fde64715de",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t4",
+    "fingerprint": "58f24a6a69e566ada33e6e987a4505cc",
+    "generatorParams": {
+      "minuend": 2543,
+      "subtrahend": 1136,
+      "difference": 1407,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 2.543 − □ = 1.407. Bạn An cho rằng đáp án là 1236. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.543 − 1.407 = 1.136.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-61ff17ad1eb437de",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t5",
+    "fingerprint": "f314e36055a21c3ff07d4d197abf5bb2",
+    "generatorParams": {
+      "minuend": 3660,
+      "subtrahend": 1408,
+      "difference": 2252,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.408 = 2.252.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3660
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.252 + 1.408 = 3.660.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-cf77c16b691561a1",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t1",
+    "fingerprint": "19183cef4c09000605940a67348072b4",
+    "generatorParams": {
+      "minuend": 3688,
+      "subtrahend": 1417,
+      "difference": 2271,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.417 = 2.271.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3688
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.271 + 1.417 = 3.688.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-56280af20ea3c739",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t2",
+    "fingerprint": "1139fc58bb9c1a3a7798b59b1534fb03",
+    "generatorParams": {
+      "minuend": 2571,
+      "subtrahend": 1153,
+      "difference": 1418,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 2.571 − □ = 1.418.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1153
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.571 − 1.418 = 1.153.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-4fe1f5b93f42a217",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t3",
+    "fingerprint": "bcc298e870fa83431d77720c38a7b753",
+    "generatorParams": {
+      "minuend": 3690,
+      "subtrahend": 1419,
+      "difference": 2271,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.419 = 2.271.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3890"
+      },
+      {
+        "id": "option-2",
+        "label": "3790"
+      },
+      {
+        "id": "option-3",
+        "label": "3690"
+      },
+      {
+        "id": "option-4",
+        "label": "3590"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.271 + 1.419 = 3.690.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-8595128bf51021ec",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t4",
+    "fingerprint": "df9107faa689f05fce13740b9d364411",
+    "generatorParams": {
+      "minuend": 2573,
+      "subtrahend": 1153,
+      "difference": 1420,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 2.573 − □ = 1.420. Bạn An cho rằng đáp án là 1153. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.573 − 1.420 = 1.153.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-be83c3e28e9e82cd",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t5",
+    "fingerprint": "c6e3fd20d505c935cc984c487585ac46",
+    "generatorParams": {
+      "minuend": 3692,
+      "subtrahend": 1421,
+      "difference": 2271,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.421 = 2.271.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3692
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.271 + 1.421 = 3.692.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-ed3e7e1cad64f97e",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t1",
+    "fingerprint": "deb289a91f043dd876db82608adf898d",
+    "generatorParams": {
+      "minuend": 3720,
+      "subtrahend": 1430,
+      "difference": 2290,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.430 = 2.290.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3720
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.290 + 1.430 = 3.720.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-3311f86d6db39ea2",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t2",
+    "fingerprint": "779990a67254e856d6da1e2b372a6bfb",
+    "generatorParams": {
+      "minuend": 2601,
+      "subtrahend": 1170,
+      "difference": 1431,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 2.601 − □ = 1.431.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1170
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.601 − 1.431 = 1.170.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-36d7cda08f5b0bb3",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t3",
+    "fingerprint": "ff8676c8049658fd4d251f9b5a895446",
+    "generatorParams": {
+      "minuend": 3722,
+      "subtrahend": 1432,
+      "difference": 2290,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.432 = 2.290.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3622"
+      },
+      {
+        "id": "option-2",
+        "label": "3922"
+      },
+      {
+        "id": "option-3",
+        "label": "3722"
+      },
+      {
+        "id": "option-4",
+        "label": "3822"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.290 + 1.432 = 3.722.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-b03453b0a1dd8a76",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t4",
+    "fingerprint": "524b7e251dc52959bc011011a7afa4be",
+    "generatorParams": {
+      "minuend": 2603,
+      "subtrahend": 1170,
+      "difference": 1433,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 2.603 − □ = 1.433. Bạn An cho rằng đáp án là 1270. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.603 − 1.433 = 1.170.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-de285f66341a5fc4",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t5",
+    "fingerprint": "f1f8c2d3d50ab1c25531b3c1bd74a322",
+    "generatorParams": {
+      "minuend": 3724,
+      "subtrahend": 1434,
+      "difference": 2290,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.434 = 2.290.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3724
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.290 + 1.434 = 3.724.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-6bdc9297b5a3ae55",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t1",
+    "fingerprint": "e05397ee5ab5f20904fdd102ddb6da4c",
+    "generatorParams": {
+      "minuend": 3752,
+      "subtrahend": 1443,
+      "difference": 2309,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.443 = 2.309.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3752
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.309 + 1.443 = 3.752.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-54b38449c7ba5beb",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t2",
+    "fingerprint": "ac865c9cf0e874cf6b43f2697858817e",
+    "generatorParams": {
+      "minuend": 2631,
+      "subtrahend": 1187,
+      "difference": 1444,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 2.631 − □ = 1.444.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1187
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.631 − 1.444 = 1.187.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-5322e103be7b7bea",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t3",
+    "fingerprint": "76d2b4e5be916dacc5533674b322254f",
+    "generatorParams": {
+      "minuend": 3754,
+      "subtrahend": 1445,
+      "difference": 2309,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.445 = 2.309.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3754"
+      },
+      {
+        "id": "option-2",
+        "label": "3954"
+      },
+      {
+        "id": "option-3",
+        "label": "3854"
+      },
+      {
+        "id": "option-4",
+        "label": "3654"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.309 + 1.445 = 3.754.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-4554b109c40d1cd7",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t4",
+    "fingerprint": "df6806bf0871ba62d330ef48ac507ea0",
+    "generatorParams": {
+      "minuend": 2633,
+      "subtrahend": 1187,
+      "difference": 1446,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 2.633 − □ = 1.446. Bạn An cho rằng đáp án là 1187. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.633 − 1.446 = 1.187.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-224b33ddb366cf41",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t5",
+    "fingerprint": "906b2b5722d2d055ba02eb65fd62785f",
+    "generatorParams": {
+      "minuend": 3756,
+      "subtrahend": 1447,
+      "difference": 2309,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.447 = 2.309.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3756
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.309 + 1.447 = 3.756.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-b4b0ff376638bab0",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t1",
+    "fingerprint": "ef12a0a3496b335bec099d6423f7dbe7",
+    "generatorParams": {
+      "minuend": 3784,
+      "subtrahend": 1456,
+      "difference": 2328,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.456 = 2.328.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3784
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.328 + 1.456 = 3.784.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-6a0ce8ea87d7e3a2",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t2",
+    "fingerprint": "f35adcde94ae357b5cedd91926879028",
+    "generatorParams": {
+      "minuend": 2661,
+      "subtrahend": 1204,
+      "difference": 1457,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 2.661 − □ = 1.457.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1204
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.661 − 1.457 = 1.204.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-09e298d8236a1941",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t3",
+    "fingerprint": "1c191bcf6fe11fcb0ed47dbb2128bad5",
+    "generatorParams": {
+      "minuend": 3786,
+      "subtrahend": 1458,
+      "difference": 2328,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.458 = 2.328.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3986"
+      },
+      {
+        "id": "option-2",
+        "label": "3786"
+      },
+      {
+        "id": "option-3",
+        "label": "3686"
+      },
+      {
+        "id": "option-4",
+        "label": "3886"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.328 + 1.458 = 3.786.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-bba5c86422ee6fba",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t4",
+    "fingerprint": "d7d776c23cf12e678a5685f9d47b3cc5",
+    "generatorParams": {
+      "minuend": 2663,
+      "subtrahend": 1204,
+      "difference": 1459,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 2.663 − □ = 1.459. Bạn An cho rằng đáp án là 1304. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.663 − 1.459 = 1.204.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-c35a4f616fcbb3f4",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t5",
+    "fingerprint": "da8b4a715567991b52c81efda28445c6",
+    "generatorParams": {
+      "minuend": 3788,
+      "subtrahend": 1460,
+      "difference": 2328,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.460 = 2.328.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3788
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.328 + 1.460 = 3.788.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-a5be865e7b96bac2",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t1",
+    "fingerprint": "94368c0c0d387c2c745cd12b7cc232c8",
+    "generatorParams": {
+      "minuend": 3816,
+      "subtrahend": 1469,
+      "difference": 2347,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.469 = 2.347.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3816
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.347 + 1.469 = 3.816.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-ffcbaf485f8f905a",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t2",
+    "fingerprint": "7dd317aedc8e451fc91fb13e53567940",
+    "generatorParams": {
+      "minuend": 2691,
+      "subtrahend": 1221,
+      "difference": 1470,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 2.691 − □ = 1.470.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1221
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.691 − 1.470 = 1.221.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-89835bd302190eb1",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t3",
+    "fingerprint": "d2276d6d7e30da24fe73cff643f35ef8",
+    "generatorParams": {
+      "minuend": 3818,
+      "subtrahend": 1471,
+      "difference": 2347,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.471 = 2.347.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "4018"
+      },
+      {
+        "id": "option-2",
+        "label": "3918"
+      },
+      {
+        "id": "option-3",
+        "label": "3818"
+      },
+      {
+        "id": "option-4",
+        "label": "3718"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.347 + 1.471 = 3.818.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-90d2410af0d09687",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t4",
+    "fingerprint": "30b4516af2e3fc538ca2b1d2df133f37",
+    "generatorParams": {
+      "minuend": 2693,
+      "subtrahend": 1221,
+      "difference": 1472,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 2.693 − □ = 1.472. Bạn An cho rằng đáp án là 1221. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.693 − 1.472 = 1.221.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-2c39d81b6abf291d",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t5",
+    "fingerprint": "0bfcd66fc2a5a44a0c9e672b6df4ac25",
+    "generatorParams": {
+      "minuend": 3820,
+      "subtrahend": 1473,
+      "difference": 2347,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.473 = 2.347.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3820
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.347 + 1.473 = 3.820.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-af1686d1223915de",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t1",
+    "fingerprint": "d7ab3b6c2283ba2362ba083d95ca12a8",
+    "generatorParams": {
+      "minuend": 3848,
+      "subtrahend": 1482,
+      "difference": 2366,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.482 = 2.366.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3848
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.366 + 1.482 = 3.848.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-3746386fc9cfe258",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t2",
+    "fingerprint": "3cdfdacda67d9787ec7b559279436a84",
+    "generatorParams": {
+      "minuend": 2721,
+      "subtrahend": 1238,
+      "difference": 1483,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 2.721 − □ = 1.483.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1238
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.721 − 1.483 = 1.238.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-1bc9861e1490a834",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t3",
+    "fingerprint": "6c44ad08be446e821b60241e2a403268",
+    "generatorParams": {
+      "minuend": 3850,
+      "subtrahend": 1484,
+      "difference": 2366,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.484 = 2.366.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3950"
+      },
+      {
+        "id": "option-2",
+        "label": "4050"
+      },
+      {
+        "id": "option-3",
+        "label": "3750"
+      },
+      {
+        "id": "option-4",
+        "label": "3850"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.366 + 1.484 = 3.850.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-1d3d16f6b45d410d",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t4",
+    "fingerprint": "9c43f3fc99bcbbb8d2ea21d93880c41f",
+    "generatorParams": {
+      "minuend": 2723,
+      "subtrahend": 1238,
+      "difference": 1485,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 2.723 − □ = 1.485. Bạn An cho rằng đáp án là 1338. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.723 − 1.485 = 1.238.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-f226007d1d2e340d",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t5",
+    "fingerprint": "2c0218650c1012d203486a58c768b406",
+    "generatorParams": {
+      "minuend": 3852,
+      "subtrahend": 1486,
+      "difference": 2366,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.486 = 2.366.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3852
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.366 + 1.486 = 3.852.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-8989edfccdfc7cb7",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t1",
+    "fingerprint": "861a1959bef9b70e7d12e34f7e1448ae",
+    "generatorParams": {
+      "minuend": 3880,
+      "subtrahend": 1495,
+      "difference": 2385,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.495 = 2.385.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3880
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.385 + 1.495 = 3.880.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-b1d0e796134b8df6",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t2",
+    "fingerprint": "0fad5c4b63b39496f6e09461ae95b83a",
+    "generatorParams": {
+      "minuend": 2751,
+      "subtrahend": 1255,
+      "difference": 1496,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 2.751 − □ = 1.496.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1255
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.751 − 1.496 = 1.255.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-9cd96492137f5be4",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t3",
+    "fingerprint": "e5a3b9383785e55668ac01eca796ebc0",
+    "generatorParams": {
+      "minuend": 3882,
+      "subtrahend": 1497,
+      "difference": 2385,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.497 = 2.385.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3882"
+      },
+      {
+        "id": "option-2",
+        "label": "3782"
+      },
+      {
+        "id": "option-3",
+        "label": "4082"
+      },
+      {
+        "id": "option-4",
+        "label": "3982"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.385 + 1.497 = 3.882.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-d0addfd1f4acb9e7",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t4",
+    "fingerprint": "93d2a48f11a99820a224232724b69a56",
+    "generatorParams": {
+      "minuend": 2753,
+      "subtrahend": 1255,
+      "difference": 1498,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 2.753 − □ = 1.498. Bạn An cho rằng đáp án là 1255. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.753 − 1.498 = 1.255.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-6a4c90e60032340a",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t5",
+    "fingerprint": "1ebf97b8a3782704db871b22e500b5a0",
+    "generatorParams": {
+      "minuend": 3884,
+      "subtrahend": 1499,
+      "difference": 2385,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 1.499 = 2.385.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3884
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.385 + 1.499 = 3.884.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-e40a92e06496d7a5",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t1",
+    "fingerprint": "4f5bb81a7ffb62b151ecfe55e9efcd18",
+    "generatorParams": {
+      "minuend": 34512,
+      "subtrahend": 13208,
+      "difference": 21304,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 13.208 = 21.304.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 34512
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21.304 + 13.208 = 34.512.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-d60d26f590d2110b",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t2",
+    "fingerprint": "f05a697fdcdc081d9dec9e85f880e364",
+    "generatorParams": {
+      "minuend": 23481,
+      "subtrahend": 10272,
+      "difference": 13209,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 23.481 − □ = 13.209.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 10272
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23.481 − 13.209 = 10.272.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-a6a4ed923c674a5f",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t3",
+    "fingerprint": "7923cf6fe01302d805b290b00e7d349a",
+    "generatorParams": {
+      "minuend": 34514,
+      "subtrahend": 13210,
+      "difference": 21304,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 13.210 = 21.304.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "34614"
+      },
+      {
+        "id": "option-2",
+        "label": "34414"
+      },
+      {
+        "id": "option-3",
+        "label": "34714"
+      },
+      {
+        "id": "option-4",
+        "label": "34514"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21.304 + 13.210 = 34.514.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-16835a7667628305",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t4",
+    "fingerprint": "c3814c0fedf5fd7f91f42d64d2ca75ac",
+    "generatorParams": {
+      "minuend": 23483,
+      "subtrahend": 10272,
+      "difference": 13211,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 23.483 − □ = 13.211. Bạn An cho rằng đáp án là 10372. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23.483 − 13.211 = 10.272.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-9086ad01fa06c568",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t5",
+    "fingerprint": "70f6373eabf88d76b2c61b7bc9994729",
+    "generatorParams": {
+      "minuend": 34516,
+      "subtrahend": 13212,
+      "difference": 21304,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 13.212 = 21.304.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 34516
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21.304 + 13.212 = 34.516.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-f7bc50eed03eb444",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t1",
+    "fingerprint": "0c629c16837a8f113d5895eddc6831ee",
+    "generatorParams": {
+      "minuend": 34544,
+      "subtrahend": 13221,
+      "difference": 21323,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 13.221 = 21.323.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 34544
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21.323 + 13.221 = 34.544.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-b8bdfddc624fdae6",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t2",
+    "fingerprint": "ba6f1b12ced8b71722fe1b72c82a4476",
+    "generatorParams": {
+      "minuend": 23511,
+      "subtrahend": 10289,
+      "difference": 13222,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 23.511 − □ = 13.222.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 10289
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23.511 − 13.222 = 10.289.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-1424377ea90a5936",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t3",
+    "fingerprint": "2a8f05e98fa5e5e85d2adec475d441d3",
+    "generatorParams": {
+      "minuend": 34546,
+      "subtrahend": 13223,
+      "difference": 21323,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 13.223 = 21.323.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "34446"
+      },
+      {
+        "id": "option-2",
+        "label": "34646"
+      },
+      {
+        "id": "option-3",
+        "label": "34746"
+      },
+      {
+        "id": "option-4",
+        "label": "34546"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21.323 + 13.223 = 34.546.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-7d4d5ba0eaaec207",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t4",
+    "fingerprint": "ea6e48dc61fbf0d65252b2d91443515d",
+    "generatorParams": {
+      "minuend": 23513,
+      "subtrahend": 10289,
+      "difference": 13224,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 23.513 − □ = 13.224. Bạn An cho rằng đáp án là 10289. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23.513 − 13.224 = 10.289.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-f43cd8a3843cc1d4",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t5",
+    "fingerprint": "8776da26cb6005691c14c322bb2604df",
+    "generatorParams": {
+      "minuend": 34548,
+      "subtrahend": 13225,
+      "difference": 21323,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 13.225 = 21.323.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 34548
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21.323 + 13.225 = 34.548.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-c4c29d9528a03276",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t1",
+    "fingerprint": "93e5705c91166105eff78e9148b941bc",
+    "generatorParams": {
+      "minuend": 34576,
+      "subtrahend": 13234,
+      "difference": 21342,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 13.234 = 21.342.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 34576
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21.342 + 13.234 = 34.576.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-1ae4cc72f5ccebe0",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t2",
+    "fingerprint": "2ad1a4fd316094340280f59e90db6f69",
+    "generatorParams": {
+      "minuend": 23541,
+      "subtrahend": 10306,
+      "difference": 13235,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 23.541 − □ = 13.235.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 10306
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23.541 − 13.235 = 10.306.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-17a17184c40fb97f",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t3",
+    "fingerprint": "034540d7787947b92eeec4e1a1fe96e8",
+    "generatorParams": {
+      "minuend": 34578,
+      "subtrahend": 13236,
+      "difference": 21342,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 13.236 = 21.342.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "34478"
+      },
+      {
+        "id": "option-2",
+        "label": "34778"
+      },
+      {
+        "id": "option-3",
+        "label": "34678"
+      },
+      {
+        "id": "option-4",
+        "label": "34578"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21.342 + 13.236 = 34.578.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-3a36fd90028e7889",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t4",
+    "fingerprint": "abdbe9926163b783a80659de69e6df2e",
+    "generatorParams": {
+      "minuend": 23543,
+      "subtrahend": 10306,
+      "difference": 13237,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 23.543 − □ = 13.237. Bạn An cho rằng đáp án là 10406. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23.543 − 13.237 = 10.306.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-f8989b0573f0f0e9",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t5",
+    "fingerprint": "c91fad9d6a52761fe4b5ee19c4bbd480",
+    "generatorParams": {
+      "minuend": 34580,
+      "subtrahend": 13238,
+      "difference": 21342,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 13.238 = 21.342.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 34580
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21.342 + 13.238 = 34.580.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-0d968da254b197bd",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t1",
+    "fingerprint": "2847a2d1e7d1f8f0a4d867a37d250821",
+    "generatorParams": {
+      "minuend": 34608,
+      "subtrahend": 13247,
+      "difference": 21361,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 13.247 = 21.361.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 34608
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21.361 + 13.247 = 34.608.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-b56450792c933e1e",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t2",
+    "fingerprint": "7f3e558432b2e61cffca5c34c033be9a",
+    "generatorParams": {
+      "minuend": 23571,
+      "subtrahend": 10323,
+      "difference": 13248,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 23.571 − □ = 13.248.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 10323
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23.571 − 13.248 = 10.323.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-5eaf94f6f5a709db",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t3",
+    "fingerprint": "c1d40524a67435a5d2059a678f6bfc9b",
+    "generatorParams": {
+      "minuend": 34610,
+      "subtrahend": 13249,
+      "difference": 21361,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 13.249 = 21.361.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "34610"
+      },
+      {
+        "id": "option-2",
+        "label": "34810"
+      },
+      {
+        "id": "option-3",
+        "label": "34510"
+      },
+      {
+        "id": "option-4",
+        "label": "34710"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21.361 + 13.249 = 34.610.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-4c62e9109b3ea2fc",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t4",
+    "fingerprint": "ff81af6cf41910ad0b0632f83570d619",
+    "generatorParams": {
+      "minuend": 23573,
+      "subtrahend": 10323,
+      "difference": 13250,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 23.573 − □ = 13.250. Bạn An cho rằng đáp án là 10323. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23.573 − 13.250 = 10.323.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-b17180076aa672a3",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t5",
+    "fingerprint": "77fb33e8496630df24f7b0c9730d7eb2",
+    "generatorParams": {
+      "minuend": 34612,
+      "subtrahend": 13251,
+      "difference": 21361,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 13.251 = 21.361.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 34612
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21.361 + 13.251 = 34.612.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-48aaa356c5c5e655",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t1",
+    "fingerprint": "29c010012c269eca3b6b1619b554e60f",
+    "generatorParams": {
+      "minuend": 34640,
+      "subtrahend": 13260,
+      "difference": 21380,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 13.260 = 21.380.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 34640
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21.380 + 13.260 = 34.640.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-533b8e7b27987f8d",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t2",
+    "fingerprint": "90eb1b9ab6636aaf0de15d31679d2ab6",
+    "generatorParams": {
+      "minuend": 23601,
+      "subtrahend": 10340,
+      "difference": 13261,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 23.601 − □ = 13.261.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 10340
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23.601 − 13.261 = 10.340.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-92a1d377ef59d52a",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t3",
+    "fingerprint": "8ed0e9cbd207d481a57b735d0233be60",
+    "generatorParams": {
+      "minuend": 34642,
+      "subtrahend": 13262,
+      "difference": 21380,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 13.262 = 21.380.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "34642"
+      },
+      {
+        "id": "option-2",
+        "label": "34542"
+      },
+      {
+        "id": "option-3",
+        "label": "34842"
+      },
+      {
+        "id": "option-4",
+        "label": "34742"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21.380 + 13.262 = 34.642.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-0a079892bed6d2b5",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t4",
+    "fingerprint": "27192b45789a5a4e2f4b630d46d281c6",
+    "generatorParams": {
+      "minuend": 23603,
+      "subtrahend": 10340,
+      "difference": 13263,
+      "askMinuend": false
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số trừ: 23.603 − □ = 13.263. Bạn An cho rằng đáp án là 10440. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số trừ, lấy số bị trừ trừ hiệu."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23.603 − 13.263 = 10.340.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-unknown-subtraction-part-92f575f3f7b0d02d",
+    "contentVersion": "grade4-v3",
+    "templateId": "unknown-subtraction-part-t5",
+    "fingerprint": "2520b3a2bc8a1462f9da6e4701875bb5",
+    "generatorParams": {
+      "minuend": 34644,
+      "subtrahend": 13264,
+      "difference": 21380,
+      "askMinuend": true
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "subtraction",
+    "skillId": "unknown-subtraction-part-skill",
+    "problemTypeId": "unknown-subtraction-part",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm số bị trừ: □ − 13.264 = 21.380.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 34644
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Muốn tìm số bị trừ, lấy hiệu cộng số trừ."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21.380 + 13.264 = 34.644.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

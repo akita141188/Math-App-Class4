@@ -1,37 +1,41 @@
-# Decisions
+# Architecture decisions
 
 ## ADR-001 — TypeScript pnpm monorepo
 
-**Status:** Accepted
+Giữ apps/web, apps/api và packages/shared để dùng chung contract và quality gates.
 
-Dùng một repository với `apps/web`, `apps/api` và `packages/shared`. pnpm workspace giữ lệnh cài đặt, test và build nhất quán mà không tạo thêm package không cần thiết.
+## ADR-002 — Version-controlled content first
 
-## ADR-002 — React + Vite cho frontend
+Curriculum và question bank là TypeScript deterministic có status/version. Chưa thêm PostgreSQL hoặc Prisma.
 
-**Status:** Accepted
+## ADR-003 — Deterministic validation
 
-React phù hợp với giao diện nhiều trạng thái; Vite cung cấp vòng lặp phát triển và production build nhỏ gọn. React Router quản lý bảy route hiện tại. TanStack Query quản lý trạng thái máy chủ. Chưa cần Zustand vì prototype không có global client state đủ lớn.
+Math validator quyết định đúng sai. Không dùng AI làm nguồn chân lý Toán học.
 
-## ADR-003 — NestJS cho backend
+## ADR-004 — REST MVP
 
-**Status:** Accepted
+REST đủ rõ cho catalog, question và practice session. Không thêm GraphQL, WebSocket hoặc event infrastructure.
 
-NestJS cung cấp module boundary, DTO validation, cấu hình và Swagger trực tiếp. Mỗi module hiện tại có endpoint hoặc logic thật; không tạo module dự phòng.
+## ADR-005 — Safe visual data
 
-## ADR-004 — REST cho MVP
+Visual là discriminated union và React SVG. Không render arbitrary HTML từ content, không thêm chart library.
 
-**Status:** Accepted
+## ADR-006 — Local progress adapter
 
-REST đủ rõ cho curriculum, problem và learning-session prototype. Hợp đồng tối thiểu được chia sẻ bằng TypeScript.
+Progress prototype dùng localStorage sau interface. Chỉ lưu counters, mastery và misconception code; không lưu raw child answer. Sẽ thay adapter khi có quyết định database.
 
-## ADR-005 — Guided workspace, không phải chat
+## ADR-007 — Parent shell isolation
 
-**Status:** Accepted
+Route parent nằm ngoài AppShell của trẻ để tránh trộn navigation và ngữ cảnh.
 
-Màn học hiển thị đề, bước hiện tại, ô suy nghĩ, gợi ý và kiểm tra. State machine có tên rõ ràng để sau này Tutor Orchestrator có thể điều khiển mà không thay đổi mô hình trải nghiệm.
+## ADR-008 — Versioned local learning history
 
-## ADR-006 — Công nghệ chưa đưa vào
+Prototype lưu tối đa 200 session practice/test đã hoàn thành trong localStorage schema V3. Hai loại record giữ semantics khác nhau; malformed/outdated data bị bỏ qua an toàn. Không thêm database khi chưa có account/sync requirement.
 
-**Status:** Accepted
+## ADR-009 — Frozen server-scored test attempts
 
-Chủ động chưa dùng GraphQL, WebSocket, PostgreSQL, Prisma, Redis, Kafka, CQRS, event bus, microservices, Kubernetes, authentication, payment, OCR provider hoặc LLM provider. Chỉ xem xét khi có yêu cầu sản phẩm và quyết định kiến trúc tương ứng.
+Blueprint chỉ chọn từ bank REVIEWED/testEligible, áp coverage, format, assessment level và recent avoidance. API giữ snapshot bất biến, không gửi hint/assessment level/đáp án trước nộp, chấm deterministic và khóa attempt sau submit. Điểm hiển thị là số nguyên thang 10 theo Thông tư 27.
+
+## Deferred
+
+AI, OCR, authentication, database, analytics, payment, ads, social, leaderboard, voice tutor và teacher portal cần phê duyệt riêng.

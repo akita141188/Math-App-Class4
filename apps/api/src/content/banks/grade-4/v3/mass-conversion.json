@@ -1,0 +1,6922 @@
+[
+  {
+    "id": "g4-mass-conversion-5655a66510fc160b",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t1",
+    "fingerprint": "7afd8e9495b783db76fb817012cf454e",
+    "generatorParams": {
+      "value": 3,
+      "factor": 1000,
+      "from": "kg",
+      "to": "g"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "3 kg bằng bao nhiêu g?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3000,
+      "unit": "g"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 1000 = 3.000 g.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-ed71ca521462d8b7",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t2",
+    "fingerprint": "9ad598ed9f3f1c22eb06779b7de8ba3b",
+    "generatorParams": {
+      "value": 3,
+      "factor": 10,
+      "from": "yến",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "3 yến bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 30,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 10 = 30 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-04b00ed5a4592bab",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t3",
+    "fingerprint": "d8c6f1d6132f3c888155ca4248c7ba4c",
+    "generatorParams": {
+      "value": 3,
+      "factor": 10,
+      "from": "tạ",
+      "to": "yến"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "3 tạ bằng bao nhiêu yến?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "33 yến"
+      },
+      {
+        "id": "option-2",
+        "label": "36 yến"
+      },
+      {
+        "id": "option-3",
+        "label": "30 yến"
+      },
+      {
+        "id": "option-4",
+        "label": "27 yến"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 10 = 30 yến.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-07b6fbb752197175",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t4",
+    "fingerprint": "3d46e337ff1799fb3508a44ad548993f",
+    "generatorParams": {
+      "value": 3,
+      "factor": 100,
+      "from": "tạ",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "3 tạ bằng bao nhiêu kg? Bạn An cho rằng đáp án là 300 kg. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 100 = 300 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-4eeedf6ac59c92ad",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t5",
+    "fingerprint": "a8a37268f3c8b486fb3b6a5e93fbbcbb",
+    "generatorParams": {
+      "value": 3,
+      "factor": 1000,
+      "from": "tấn",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "3 tấn bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3000,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 1000 = 3.000 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-c0e5436f72f5864c",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t1",
+    "fingerprint": "adba488b6556698c6bd9f797a1ea6663",
+    "generatorParams": {
+      "value": 4,
+      "factor": 1000,
+      "from": "kg",
+      "to": "g"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "4 kg bằng bao nhiêu g?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 4000,
+      "unit": "g"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 1000 = 4.000 g.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-f8838ba28387c680",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t2",
+    "fingerprint": "32556ffb10b5b87a5e1ed438153d231c",
+    "generatorParams": {
+      "value": 4,
+      "factor": 10,
+      "from": "yến",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "4 yến bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 40,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 10 = 40 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-bb4cbe05777375ea",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t3",
+    "fingerprint": "d9bba1b2295995c7ddbee7b37c2e1976",
+    "generatorParams": {
+      "value": 4,
+      "factor": 10,
+      "from": "tạ",
+      "to": "yến"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "4 tạ bằng bao nhiêu yến?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "44 yến"
+      },
+      {
+        "id": "option-2",
+        "label": "40 yến"
+      },
+      {
+        "id": "option-3",
+        "label": "36 yến"
+      },
+      {
+        "id": "option-4",
+        "label": "48 yến"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 10 = 40 yến.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-41a393c783a14df7",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t4",
+    "fingerprint": "d7cf8762811ccebc5735ff963dd4e0af",
+    "generatorParams": {
+      "value": 4,
+      "factor": 100,
+      "from": "tạ",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "4 tạ bằng bao nhiêu kg? Bạn An cho rằng đáp án là 440 kg. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 100 = 400 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-2722cae38d24556f",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t5",
+    "fingerprint": "939409fa40878f81ffee1dc96b82abd7",
+    "generatorParams": {
+      "value": 4,
+      "factor": 1000,
+      "from": "tấn",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "4 tấn bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 4000,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 1000 = 4.000 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-f5733b7a721c0cd5",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t1",
+    "fingerprint": "09ae51812d02bc790d47bbdfe3963138",
+    "generatorParams": {
+      "value": 5,
+      "factor": 1000,
+      "from": "kg",
+      "to": "g"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "5 kg bằng bao nhiêu g?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 5000,
+      "unit": "g"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 1000 = 5.000 g.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-4571ba1969053d3d",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t2",
+    "fingerprint": "cf21657be4c307b604e715ae0e720eb4",
+    "generatorParams": {
+      "value": 5,
+      "factor": 10,
+      "from": "yến",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "5 yến bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 50,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 10 = 50 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-84e71071e7f5d122",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t3",
+    "fingerprint": "3edd6dfcd94d34158b223cffe911ea61",
+    "generatorParams": {
+      "value": 5,
+      "factor": 10,
+      "from": "tạ",
+      "to": "yến"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "5 tạ bằng bao nhiêu yến?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "60 yến"
+      },
+      {
+        "id": "option-2",
+        "label": "50 yến"
+      },
+      {
+        "id": "option-3",
+        "label": "45 yến"
+      },
+      {
+        "id": "option-4",
+        "label": "55 yến"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 10 = 50 yến.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-42a0a0fc0de96b5c",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t4",
+    "fingerprint": "744d64e5455fddff01ad9e5fb7762dbb",
+    "generatorParams": {
+      "value": 5,
+      "factor": 100,
+      "from": "tạ",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "5 tạ bằng bao nhiêu kg? Bạn An cho rằng đáp án là 500 kg. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 100 = 500 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-056a1a1f193d53b6",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t5",
+    "fingerprint": "342bb8cc34d6edf3ede88fe6bf16f385",
+    "generatorParams": {
+      "value": 5,
+      "factor": 1000,
+      "from": "tấn",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "5 tấn bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 5000,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 1000 = 5.000 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-196f280a759fc967",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t1",
+    "fingerprint": "cc221739716b6efea31d35fe775d09a5",
+    "generatorParams": {
+      "value": 6,
+      "factor": 1000,
+      "from": "kg",
+      "to": "g"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "6 kg bằng bao nhiêu g?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 6000,
+      "unit": "g"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 1000 = 6.000 g.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-8e5a656b44bb46e1",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t2",
+    "fingerprint": "0b76783ecefec3c227e357ef1b0d4d1e",
+    "generatorParams": {
+      "value": 6,
+      "factor": 10,
+      "from": "yến",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "6 yến bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 60,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 10 = 60 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-3d832a854a904b92",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t3",
+    "fingerprint": "f114913b699bd7ded2ad64642fc63774",
+    "generatorParams": {
+      "value": 6,
+      "factor": 10,
+      "from": "tạ",
+      "to": "yến"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "6 tạ bằng bao nhiêu yến?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "60 yến"
+      },
+      {
+        "id": "option-2",
+        "label": "72 yến"
+      },
+      {
+        "id": "option-3",
+        "label": "54 yến"
+      },
+      {
+        "id": "option-4",
+        "label": "66 yến"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 10 = 60 yến.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-456c07bb42ee55d7",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t4",
+    "fingerprint": "ad446877915d43be3a12ffabb1f48c53",
+    "generatorParams": {
+      "value": 6,
+      "factor": 100,
+      "from": "tạ",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "6 tạ bằng bao nhiêu kg? Bạn An cho rằng đáp án là 660 kg. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 100 = 600 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-81f7da3cadcf81d7",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t5",
+    "fingerprint": "78b7fdb80f63e474916afdc572c16b18",
+    "generatorParams": {
+      "value": 6,
+      "factor": 1000,
+      "from": "tấn",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "6 tấn bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 6000,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 1000 = 6.000 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-5752de8ba60fc948",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t1",
+    "fingerprint": "3e317160f7ec99af4085b807abd2beb2",
+    "generatorParams": {
+      "value": 7,
+      "factor": 1000,
+      "from": "kg",
+      "to": "g"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "7 kg bằng bao nhiêu g?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 7000,
+      "unit": "g"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 1000 = 7.000 g.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-a6203d8ebe634281",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t2",
+    "fingerprint": "64a2294c106e13e22b765c65d535b068",
+    "generatorParams": {
+      "value": 7,
+      "factor": 10,
+      "from": "yến",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "7 yến bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 70,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 10 = 70 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-2712aaee8857c28b",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t3",
+    "fingerprint": "fb58a9e383eb17fe49cf6d305dbb4bf5",
+    "generatorParams": {
+      "value": 7,
+      "factor": 10,
+      "from": "tạ",
+      "to": "yến"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "7 tạ bằng bao nhiêu yến?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "84 yến"
+      },
+      {
+        "id": "option-2",
+        "label": "77 yến"
+      },
+      {
+        "id": "option-3",
+        "label": "70 yến"
+      },
+      {
+        "id": "option-4",
+        "label": "63 yến"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 10 = 70 yến.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-2c9042b4c553a903",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t4",
+    "fingerprint": "295cfef69098c0c2fcd9df8e7e70e7b4",
+    "generatorParams": {
+      "value": 7,
+      "factor": 100,
+      "from": "tạ",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "7 tạ bằng bao nhiêu kg? Bạn An cho rằng đáp án là 700 kg. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 100 = 700 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-eac660ad55ef4f3f",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t5",
+    "fingerprint": "9b68dd9c6fb9ea0e1e5b6439066e210e",
+    "generatorParams": {
+      "value": 7,
+      "factor": 1000,
+      "from": "tấn",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "7 tấn bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 7000,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 1000 = 7.000 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-9774a038e24a834b",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t1",
+    "fingerprint": "f7ef31fb61868bfbf8747d993db2c0d6",
+    "generatorParams": {
+      "value": 8,
+      "factor": 1000,
+      "from": "kg",
+      "to": "g"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "8 kg bằng bao nhiêu g?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 8000,
+      "unit": "g"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 1000 = 8.000 g.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-8ac645840705dda5",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t2",
+    "fingerprint": "9e43fb04b424ccd8dc3707516215e2a9",
+    "generatorParams": {
+      "value": 8,
+      "factor": 10,
+      "from": "yến",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "8 yến bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 80,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 10 = 80 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-9ace832c3a8f0b86",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t3",
+    "fingerprint": "ab693bcfe7e63069e31b4322ac07b821",
+    "generatorParams": {
+      "value": 8,
+      "factor": 10,
+      "from": "tạ",
+      "to": "yến"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "8 tạ bằng bao nhiêu yến?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "96 yến"
+      },
+      {
+        "id": "option-2",
+        "label": "72 yến"
+      },
+      {
+        "id": "option-3",
+        "label": "80 yến"
+      },
+      {
+        "id": "option-4",
+        "label": "88 yến"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 10 = 80 yến.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-1614fe489e482c30",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t4",
+    "fingerprint": "ca0a17fad83ff3c151026f6bf17a0baf",
+    "generatorParams": {
+      "value": 8,
+      "factor": 100,
+      "from": "tạ",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "8 tạ bằng bao nhiêu kg? Bạn An cho rằng đáp án là 880 kg. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 100 = 800 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-fed273e5e9769efe",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t5",
+    "fingerprint": "f3a800d5e99ae62ed0bfde6766eaaafa",
+    "generatorParams": {
+      "value": 8,
+      "factor": 1000,
+      "from": "tấn",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "8 tấn bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 8000,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 1000 = 8.000 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-4b1d23e6491267ac",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t1",
+    "fingerprint": "7adea3143c15889c21a0e518e9b0b06e",
+    "generatorParams": {
+      "value": 14,
+      "factor": 1000,
+      "from": "kg",
+      "to": "g"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "14 kg bằng bao nhiêu g?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 14000,
+      "unit": "g"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 × 1000 = 14.000 g.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-3620a6d8d30de2be",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t2",
+    "fingerprint": "9136fd1661d1978d44fa9e78589d20fb",
+    "generatorParams": {
+      "value": 14,
+      "factor": 10,
+      "from": "yến",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "14 yến bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 140,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 × 10 = 140 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-00d1965c3b14b543",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t3",
+    "fingerprint": "623088797178e780a580a93098381ca0",
+    "generatorParams": {
+      "value": 14,
+      "factor": 10,
+      "from": "tạ",
+      "to": "yến"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "14 tạ bằng bao nhiêu yến?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "140 yến"
+      },
+      {
+        "id": "option-2",
+        "label": "168 yến"
+      },
+      {
+        "id": "option-3",
+        "label": "126 yến"
+      },
+      {
+        "id": "option-4",
+        "label": "154 yến"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 × 10 = 140 yến.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-d88691e42dd30429",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t4",
+    "fingerprint": "fba84ec3df306261b153c12de9834e5c",
+    "generatorParams": {
+      "value": 14,
+      "factor": 100,
+      "from": "tạ",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "14 tạ bằng bao nhiêu kg? Bạn An cho rằng đáp án là 1400 kg. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 × 100 = 1.400 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-12c095fa1314c752",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t5",
+    "fingerprint": "e68b0537fe599f6256c796ee7160f2d0",
+    "generatorParams": {
+      "value": 14,
+      "factor": 1000,
+      "from": "tấn",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "14 tấn bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 14000,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 × 1000 = 14.000 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-0a43132537e94ddd",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t1",
+    "fingerprint": "dd275720246ba71cbe739561a402d3da",
+    "generatorParams": {
+      "value": 15,
+      "factor": 1000,
+      "from": "kg",
+      "to": "g"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "15 kg bằng bao nhiêu g?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 15000,
+      "unit": "g"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 × 1000 = 15.000 g.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-18d5156196a5c391",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t2",
+    "fingerprint": "9a2f748accb02762c674d9d201be54c9",
+    "generatorParams": {
+      "value": 15,
+      "factor": 10,
+      "from": "yến",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "15 yến bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 150,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 × 10 = 150 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-7e06c12199fd3be1",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t3",
+    "fingerprint": "7608ce47643b1408651d783c52156cb0",
+    "generatorParams": {
+      "value": 15,
+      "factor": 10,
+      "from": "tạ",
+      "to": "yến"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "15 tạ bằng bao nhiêu yến?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "150 yến"
+      },
+      {
+        "id": "option-2",
+        "label": "180 yến"
+      },
+      {
+        "id": "option-3",
+        "label": "135 yến"
+      },
+      {
+        "id": "option-4",
+        "label": "165 yến"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 × 10 = 150 yến.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-73dbc5f9ce8ab55d",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t4",
+    "fingerprint": "29808215cb58822ed5d3ed7a009b2be8",
+    "generatorParams": {
+      "value": 15,
+      "factor": 100,
+      "from": "tạ",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "15 tạ bằng bao nhiêu kg? Bạn An cho rằng đáp án là 1650 kg. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 × 100 = 1.500 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-785e4da81de01986",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t5",
+    "fingerprint": "151431fb66d7de8adf6b08b557c4db2d",
+    "generatorParams": {
+      "value": 15,
+      "factor": 1000,
+      "from": "tấn",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "15 tấn bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 15000,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 × 1000 = 15.000 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-a6351af65b1ec238",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t1",
+    "fingerprint": "0d390c256172148a59bf01f12eaa86d9",
+    "generatorParams": {
+      "value": 16,
+      "factor": 1000,
+      "from": "kg",
+      "to": "g"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "16 kg bằng bao nhiêu g?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 16000,
+      "unit": "g"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 × 1000 = 16.000 g.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-42ac4ca2332f854f",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t2",
+    "fingerprint": "2d9675414ec42be09d6f646f130c603a",
+    "generatorParams": {
+      "value": 16,
+      "factor": 10,
+      "from": "yến",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "16 yến bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 160,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 × 10 = 160 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-2fffd6a62f02107a",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t3",
+    "fingerprint": "e07203e650579a0a15ab7ca1ece2be2c",
+    "generatorParams": {
+      "value": 16,
+      "factor": 10,
+      "from": "tạ",
+      "to": "yến"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "16 tạ bằng bao nhiêu yến?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "176 yến"
+      },
+      {
+        "id": "option-2",
+        "label": "160 yến"
+      },
+      {
+        "id": "option-3",
+        "label": "192 yến"
+      },
+      {
+        "id": "option-4",
+        "label": "144 yến"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 × 10 = 160 yến.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-203b993be2f16d83",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t4",
+    "fingerprint": "558bcc4357920179a4b1ce3d99dcc66d",
+    "generatorParams": {
+      "value": 16,
+      "factor": 100,
+      "from": "tạ",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "16 tạ bằng bao nhiêu kg? Bạn An cho rằng đáp án là 1600 kg. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 × 100 = 1.600 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-77d623aa7398f760",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t5",
+    "fingerprint": "60273bfff28e4d9b782adf858234761c",
+    "generatorParams": {
+      "value": 16,
+      "factor": 1000,
+      "from": "tấn",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "16 tấn bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 16000,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 × 1000 = 16.000 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-1ebd22783675fa1b",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t1",
+    "fingerprint": "447a779bf3408c3ed1e0ba87ef9ebafa",
+    "generatorParams": {
+      "value": 17,
+      "factor": 1000,
+      "from": "kg",
+      "to": "g"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "17 kg bằng bao nhiêu g?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 17000,
+      "unit": "g"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 × 1000 = 17.000 g.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-8c2f033f8a741cfa",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t2",
+    "fingerprint": "ab14440acd85b6b89ce05329248dd4bd",
+    "generatorParams": {
+      "value": 17,
+      "factor": 10,
+      "from": "yến",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "17 yến bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 170,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 × 10 = 170 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-5e5affdebab8004a",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t3",
+    "fingerprint": "ee4bbf6bfc39403a570887c936d4baa5",
+    "generatorParams": {
+      "value": 17,
+      "factor": 10,
+      "from": "tạ",
+      "to": "yến"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "17 tạ bằng bao nhiêu yến?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "187 yến"
+      },
+      {
+        "id": "option-2",
+        "label": "170 yến"
+      },
+      {
+        "id": "option-3",
+        "label": "204 yến"
+      },
+      {
+        "id": "option-4",
+        "label": "153 yến"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 × 10 = 170 yến.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-2b8dc4c56cad0b69",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t4",
+    "fingerprint": "1a985791454abd5236457c7e1c6b7613",
+    "generatorParams": {
+      "value": 17,
+      "factor": 100,
+      "from": "tạ",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "17 tạ bằng bao nhiêu kg? Bạn An cho rằng đáp án là 1870 kg. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 × 100 = 1.700 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-c7c8ec398d5d9725",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t5",
+    "fingerprint": "483fbe2aa02baa12985fa0610d127df2",
+    "generatorParams": {
+      "value": 17,
+      "factor": 1000,
+      "from": "tấn",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "17 tấn bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 17000,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 × 1000 = 17.000 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-1ba397f78cbb065b",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t1",
+    "fingerprint": "4c7eda8b1fc525fba167cfe9afc3c4c0",
+    "generatorParams": {
+      "value": 18,
+      "factor": 1000,
+      "from": "kg",
+      "to": "g"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "18 kg bằng bao nhiêu g?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 18000,
+      "unit": "g"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 × 1000 = 18.000 g.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-9fe7a7c416cdeec5",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t2",
+    "fingerprint": "372532598ce5885073bea2b2addddf5e",
+    "generatorParams": {
+      "value": 18,
+      "factor": 10,
+      "from": "yến",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "18 yến bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 180,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 × 10 = 180 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-8df6eb239db1cfe1",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t3",
+    "fingerprint": "f17efb8d5fed9563e3b73b28479dbe8e",
+    "generatorParams": {
+      "value": 18,
+      "factor": 10,
+      "from": "tạ",
+      "to": "yến"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "18 tạ bằng bao nhiêu yến?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "180 yến"
+      },
+      {
+        "id": "option-2",
+        "label": "216 yến"
+      },
+      {
+        "id": "option-3",
+        "label": "198 yến"
+      },
+      {
+        "id": "option-4",
+        "label": "162 yến"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 × 10 = 180 yến.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-30d56b53903adbcc",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t4",
+    "fingerprint": "d266dab8ee57a5ab0f1ee65df725f08b",
+    "generatorParams": {
+      "value": 18,
+      "factor": 100,
+      "from": "tạ",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "18 tạ bằng bao nhiêu kg? Bạn An cho rằng đáp án là 1800 kg. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 × 100 = 1.800 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-41011be6abe7bfd3",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t5",
+    "fingerprint": "850d4dcc6427347313924be9372f98ef",
+    "generatorParams": {
+      "value": 18,
+      "factor": 1000,
+      "from": "tấn",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "18 tấn bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 18000,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 × 1000 = 18.000 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-c87b95aa0b1ff395",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t1",
+    "fingerprint": "ef3b32171741aeebd933f3080bcbb1c3",
+    "generatorParams": {
+      "value": 19,
+      "factor": 1000,
+      "from": "kg",
+      "to": "g"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "19 kg bằng bao nhiêu g?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 19000,
+      "unit": "g"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 1000 = 19.000 g.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-2066065ab8a79e40",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t2",
+    "fingerprint": "3c803cebc3d44c0244f08b52e13619ce",
+    "generatorParams": {
+      "value": 19,
+      "factor": 10,
+      "from": "yến",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "19 yến bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 190,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 10 = 190 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-a6d82eee5048accd",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t3",
+    "fingerprint": "0aa18880385ba06dec96f6e476a99a1a",
+    "generatorParams": {
+      "value": 19,
+      "factor": 10,
+      "from": "tạ",
+      "to": "yến"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "19 tạ bằng bao nhiêu yến?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "209 yến"
+      },
+      {
+        "id": "option-2",
+        "label": "190 yến"
+      },
+      {
+        "id": "option-3",
+        "label": "228 yến"
+      },
+      {
+        "id": "option-4",
+        "label": "171 yến"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 10 = 190 yến.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-31c9adfaacb29cc8",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t4",
+    "fingerprint": "ad2b25c7f70ecf114f32472056ff173a",
+    "generatorParams": {
+      "value": 19,
+      "factor": 100,
+      "from": "tạ",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "19 tạ bằng bao nhiêu kg? Bạn An cho rằng đáp án là 2090 kg. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 100 = 1.900 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-89727eb38d53e706",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t5",
+    "fingerprint": "fe9074890157189c18341d1debd9138f",
+    "generatorParams": {
+      "value": 19,
+      "factor": 1000,
+      "from": "tấn",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "19 tấn bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 19000,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 1000 = 19.000 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-bb89c88a586c498e",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t1",
+    "fingerprint": "6f1ffc1c28b9ff495dae5d0d89d871c2",
+    "generatorParams": {
+      "value": 20,
+      "factor": 1000,
+      "from": "kg",
+      "to": "g"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "20 kg bằng bao nhiêu g?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 20000,
+      "unit": "g"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 1000 = 20.000 g.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-360433906eec6ee5",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t2",
+    "fingerprint": "fc67ef14ad12cde7ac8ef7827d41c45f",
+    "generatorParams": {
+      "value": 20,
+      "factor": 10,
+      "from": "yến",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "20 yến bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 200,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 10 = 200 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-daf8dc9aea66a073",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t3",
+    "fingerprint": "4718cee627783484c6cb1dfce7b9a09a",
+    "generatorParams": {
+      "value": 20,
+      "factor": 10,
+      "from": "tạ",
+      "to": "yến"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "20 tạ bằng bao nhiêu yến?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "200 yến"
+      },
+      {
+        "id": "option-2",
+        "label": "180 yến"
+      },
+      {
+        "id": "option-3",
+        "label": "220 yến"
+      },
+      {
+        "id": "option-4",
+        "label": "240 yến"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 10 = 200 yến.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-bb535585d19583e8",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t4",
+    "fingerprint": "4b2ae3064c6ed499067d5b2530197ecf",
+    "generatorParams": {
+      "value": 20,
+      "factor": 100,
+      "from": "tạ",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "20 tạ bằng bao nhiêu kg? Bạn An cho rằng đáp án là 2000 kg. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 100 = 2.000 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-0facb8470bc40ac8",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t5",
+    "fingerprint": "5ef5891886566c87a04d1a731c06b883",
+    "generatorParams": {
+      "value": 20,
+      "factor": 1000,
+      "from": "tấn",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "20 tấn bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 20000,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 1000 = 20.000 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-56d2885b68ba194e",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t1",
+    "fingerprint": "0368cc32c885b11537ecac7c5b8ae351",
+    "generatorParams": {
+      "value": 21,
+      "factor": 1000,
+      "from": "kg",
+      "to": "g"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "21 kg bằng bao nhiêu g?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 21000,
+      "unit": "g"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 1000 = 21.000 g.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-75428d8c7e2fc9df",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t2",
+    "fingerprint": "8d46d33547571694e6113a52b73bcc97",
+    "generatorParams": {
+      "value": 21,
+      "factor": 10,
+      "from": "yến",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "21 yến bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 210,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 10 = 210 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-f4d2bc71308a9c54",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t3",
+    "fingerprint": "43e4eceb2a6021170c6620cca743dfd9",
+    "generatorParams": {
+      "value": 21,
+      "factor": 10,
+      "from": "tạ",
+      "to": "yến"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "21 tạ bằng bao nhiêu yến?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "252 yến"
+      },
+      {
+        "id": "option-2",
+        "label": "231 yến"
+      },
+      {
+        "id": "option-3",
+        "label": "210 yến"
+      },
+      {
+        "id": "option-4",
+        "label": "189 yến"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 10 = 210 yến.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-988184c6b3da1760",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t4",
+    "fingerprint": "dc9a69a68d816792f2e2541c92c16d06",
+    "generatorParams": {
+      "value": 21,
+      "factor": 100,
+      "from": "tạ",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "21 tạ bằng bao nhiêu kg? Bạn An cho rằng đáp án là 2310 kg. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 100 = 2.100 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-c8d17ae1b8049325",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t5",
+    "fingerprint": "7615c280523581792954a90db485e5b7",
+    "generatorParams": {
+      "value": 21,
+      "factor": 1000,
+      "from": "tấn",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "21 tấn bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 21000,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 1000 = 21.000 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-38a8121a305baadd",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t1",
+    "fingerprint": "712551e8bc4e6935925941d469548ce7",
+    "generatorParams": {
+      "value": 22,
+      "factor": 1000,
+      "from": "kg",
+      "to": "g"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "22 kg bằng bao nhiêu g?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 22000,
+      "unit": "g"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "22 × 1000 = 22.000 g.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-844053b5d13d12d0",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t2",
+    "fingerprint": "6896effeb0e940043136d7da1850f2ad",
+    "generatorParams": {
+      "value": 22,
+      "factor": 10,
+      "from": "yến",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "22 yến bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 220,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "22 × 10 = 220 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-1d6d686546bc9547",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t3",
+    "fingerprint": "35426cd3a5eae90a6f5fe82fd4ce9400",
+    "generatorParams": {
+      "value": 22,
+      "factor": 10,
+      "from": "tạ",
+      "to": "yến"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "22 tạ bằng bao nhiêu yến?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "220 yến"
+      },
+      {
+        "id": "option-2",
+        "label": "242 yến"
+      },
+      {
+        "id": "option-3",
+        "label": "264 yến"
+      },
+      {
+        "id": "option-4",
+        "label": "198 yến"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "22 × 10 = 220 yến.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-b643229b96a40921",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t4",
+    "fingerprint": "41bc89ec6d2cc3a655d679511299d9c1",
+    "generatorParams": {
+      "value": 22,
+      "factor": 100,
+      "from": "tạ",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "22 tạ bằng bao nhiêu kg? Bạn An cho rằng đáp án là 2200 kg. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "22 × 100 = 2.200 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-36d65315320819b0",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t5",
+    "fingerprint": "6f1006a3982b2f4959fe3f10fd332887",
+    "generatorParams": {
+      "value": 22,
+      "factor": 1000,
+      "from": "tấn",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "22 tấn bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 22000,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "22 × 1000 = 22.000 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-fc1838639864619c",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t1",
+    "fingerprint": "d3b46a47b369d2c79a3e94f589d3c338",
+    "generatorParams": {
+      "value": 23,
+      "factor": 1000,
+      "from": "kg",
+      "to": "g"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "23 kg bằng bao nhiêu g?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 23000,
+      "unit": "g"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23 × 1000 = 23.000 g.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-e2eb96a2c8294f82",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t2",
+    "fingerprint": "c1da4210e6c107a8a9cfc0d514927b4c",
+    "generatorParams": {
+      "value": 23,
+      "factor": 10,
+      "from": "yến",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "23 yến bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 230,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23 × 10 = 230 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-83d9ba9cb515527a",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t3",
+    "fingerprint": "af759aa905c287eedc98a762621f095b",
+    "generatorParams": {
+      "value": 23,
+      "factor": 10,
+      "from": "tạ",
+      "to": "yến"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "23 tạ bằng bao nhiêu yến?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "276 yến"
+      },
+      {
+        "id": "option-2",
+        "label": "253 yến"
+      },
+      {
+        "id": "option-3",
+        "label": "230 yến"
+      },
+      {
+        "id": "option-4",
+        "label": "207 yến"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23 × 10 = 230 yến.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-10ea450a9036e64b",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t4",
+    "fingerprint": "fff0b9c0bca0d0a114e19b27cfedf24f",
+    "generatorParams": {
+      "value": 23,
+      "factor": 100,
+      "from": "tạ",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "23 tạ bằng bao nhiêu kg? Bạn An cho rằng đáp án là 2530 kg. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23 × 100 = 2.300 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-d0227d18e04718c9",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t5",
+    "fingerprint": "34d3fa1c6b0166775cad61ce3185d27f",
+    "generatorParams": {
+      "value": 23,
+      "factor": 1000,
+      "from": "tấn",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "23 tấn bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 23000,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23 × 1000 = 23.000 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-bd7c937e6ee6c586",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t1",
+    "fingerprint": "d3eae4fb966a2c89a114ebd78d4b9039",
+    "generatorParams": {
+      "value": 29,
+      "factor": 1000,
+      "from": "kg",
+      "to": "g"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "29 kg bằng bao nhiêu g?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 29000,
+      "unit": "g"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "29 × 1000 = 29.000 g.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-f9308679751dbb74",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t2",
+    "fingerprint": "5d3129dab02b08a6545e39e97cb0cdc5",
+    "generatorParams": {
+      "value": 29,
+      "factor": 10,
+      "from": "yến",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "29 yến bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 290,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "29 × 10 = 290 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-bd706d517dd8a1c0",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t3",
+    "fingerprint": "b90df127f9f793cff9bf367fac76ab07",
+    "generatorParams": {
+      "value": 29,
+      "factor": 10,
+      "from": "tạ",
+      "to": "yến"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "29 tạ bằng bao nhiêu yến?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "348 yến"
+      },
+      {
+        "id": "option-2",
+        "label": "319 yến"
+      },
+      {
+        "id": "option-3",
+        "label": "290 yến"
+      },
+      {
+        "id": "option-4",
+        "label": "261 yến"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "29 × 10 = 290 yến.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-7f434c87ae32434c",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t4",
+    "fingerprint": "265ae0227775b273a14ee2631c3ea61b",
+    "generatorParams": {
+      "value": 29,
+      "factor": 100,
+      "from": "tạ",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "29 tạ bằng bao nhiêu kg? Bạn An cho rằng đáp án là 2900 kg. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "29 × 100 = 2.900 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-d52460bef6bfd00a",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t5",
+    "fingerprint": "ed1fa24107977bffefb4a7b2a82395cb",
+    "generatorParams": {
+      "value": 29,
+      "factor": 1000,
+      "from": "tấn",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "29 tấn bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 29000,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "29 × 1000 = 29.000 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-0a85db3d5b7e3d57",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t1",
+    "fingerprint": "b54b34c43a0119b830270035b5086810",
+    "generatorParams": {
+      "value": 30,
+      "factor": 1000,
+      "from": "kg",
+      "to": "g"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "30 kg bằng bao nhiêu g?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 30000,
+      "unit": "g"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "30 × 1000 = 30.000 g.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-f846fd5f380a6a75",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t2",
+    "fingerprint": "cf32a6a59f05d82e45d40a3baf644bba",
+    "generatorParams": {
+      "value": 30,
+      "factor": 10,
+      "from": "yến",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "30 yến bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 300,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "30 × 10 = 300 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-e1e960cbf2edcd34",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t3",
+    "fingerprint": "f86e058bb756b71ecb700f643cc52356",
+    "generatorParams": {
+      "value": 30,
+      "factor": 10,
+      "from": "tạ",
+      "to": "yến"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "30 tạ bằng bao nhiêu yến?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "330 yến"
+      },
+      {
+        "id": "option-2",
+        "label": "270 yến"
+      },
+      {
+        "id": "option-3",
+        "label": "360 yến"
+      },
+      {
+        "id": "option-4",
+        "label": "300 yến"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "30 × 10 = 300 yến.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-65902f3a4892ead6",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t4",
+    "fingerprint": "dc7a5aa949c767f1fe01a92162310514",
+    "generatorParams": {
+      "value": 30,
+      "factor": 100,
+      "from": "tạ",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "30 tạ bằng bao nhiêu kg? Bạn An cho rằng đáp án là 3300 kg. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "30 × 100 = 3.000 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-86ba5977d3127770",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t5",
+    "fingerprint": "8028f8e60f8bfbb6797b2c1b6220d0a9",
+    "generatorParams": {
+      "value": 30,
+      "factor": 1000,
+      "from": "tấn",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "30 tấn bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 30000,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "30 × 1000 = 30.000 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-3bc2e54fa6a4d06d",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t1",
+    "fingerprint": "8ad18227a235363ee08cab1302076a78",
+    "generatorParams": {
+      "value": 31,
+      "factor": 1000,
+      "from": "kg",
+      "to": "g"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "31 kg bằng bao nhiêu g?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 31000,
+      "unit": "g"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "31 × 1000 = 31.000 g.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-44132c970bba6b12",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t2",
+    "fingerprint": "2ae75ad4830239b8403f145df3e2b6e2",
+    "generatorParams": {
+      "value": 31,
+      "factor": 10,
+      "from": "yến",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "31 yến bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 310,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "31 × 10 = 310 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-34966332b52af171",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t3",
+    "fingerprint": "eca4996addda3141bcd558a63612c182",
+    "generatorParams": {
+      "value": 31,
+      "factor": 10,
+      "from": "tạ",
+      "to": "yến"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "31 tạ bằng bao nhiêu yến?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "341 yến"
+      },
+      {
+        "id": "option-2",
+        "label": "310 yến"
+      },
+      {
+        "id": "option-3",
+        "label": "279 yến"
+      },
+      {
+        "id": "option-4",
+        "label": "372 yến"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "31 × 10 = 310 yến.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-07d535d5d15f16d4",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t4",
+    "fingerprint": "4a91e71b13cb11fbc9beb86399b9c1fe",
+    "generatorParams": {
+      "value": 31,
+      "factor": 100,
+      "from": "tạ",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "31 tạ bằng bao nhiêu kg? Bạn An cho rằng đáp án là 3100 kg. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "31 × 100 = 3.100 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-6294cc8b515c0cbe",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t5",
+    "fingerprint": "0ee008a9ab5b84f23af595be09545b54",
+    "generatorParams": {
+      "value": 31,
+      "factor": 1000,
+      "from": "tấn",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "31 tấn bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 31000,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "31 × 1000 = 31.000 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-49cff3667e709d29",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t1",
+    "fingerprint": "ad506bfbc17f5b4bb77d16978874f513",
+    "generatorParams": {
+      "value": 32,
+      "factor": 1000,
+      "from": "kg",
+      "to": "g"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "32 kg bằng bao nhiêu g?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 32000,
+      "unit": "g"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 kg = 1000 g."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "32 × 1000 = 32.000 g.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-c0ef9a96deef3ced",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t2",
+    "fingerprint": "baddcdb9e45d83cf3cd67e4e3ef2f1b9",
+    "generatorParams": {
+      "value": 32,
+      "factor": 10,
+      "from": "yến",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "32 yến bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 320,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 yến = 10 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "32 × 10 = 320 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-7f836518b917d384",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t3",
+    "fingerprint": "c8592129f4f0939e1fbb2f7b796d3777",
+    "generatorParams": {
+      "value": 32,
+      "factor": 10,
+      "from": "tạ",
+      "to": "yến"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "32 tạ bằng bao nhiêu yến?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "384 yến"
+      },
+      {
+        "id": "option-2",
+        "label": "288 yến"
+      },
+      {
+        "id": "option-3",
+        "label": "352 yến"
+      },
+      {
+        "id": "option-4",
+        "label": "320 yến"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 10 yến."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "32 × 10 = 320 yến.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-a40f9250d5453407",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t4",
+    "fingerprint": "6de33fcf7d4116cbe84b4ff4d8e7365a",
+    "generatorParams": {
+      "value": 32,
+      "factor": 100,
+      "from": "tạ",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "32 tạ bằng bao nhiêu kg? Bạn An cho rằng đáp án là 3520 kg. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tạ = 100 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "32 × 100 = 3.200 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-mass-conversion-8e979d8cba2243e1",
+    "contentVersion": "grade4-v3",
+    "templateId": "mass-conversion-t5",
+    "fingerprint": "4d8d54f4636fd56e1d8ddc01e921e525",
+    "generatorParams": {
+      "value": 32,
+      "factor": 1000,
+      "from": "tấn",
+      "to": "kg"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "mass-conversion-skill",
+    "problemTypeId": "mass-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "32 tấn bằng bao nhiêu kg?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 32000,
+      "unit": "kg"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Dùng quan hệ 1 tấn = 1000 kg."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em kiểm tra lại quan hệ giữa hai đơn vị khối lượng nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "32 × 1000 = 32.000 kg.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

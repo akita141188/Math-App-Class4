@@ -1,0 +1,6882 @@
+[
+  {
+    "id": "g4-equivalent-fractions-fb6eb10f4104f2d6",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t1",
+    "fingerprint": "14daffc3f0840a1669ff57e937f98b82",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 6,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 2/6 có mẫu số là 12.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 12,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 2/6 với 2, được 4/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-3ad49a2cf65efc9d",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t2",
+    "fingerprint": "bbc4d0442cad2483681f9e8b147ba280",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 11,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 4/11 có mẫu số là 33.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 12,
+      "denominator": 33,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 4/11 với 3, được 12/33.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-bcb343ae604722bc",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t3",
+    "fingerprint": "91f3c60d4b76ad12f25ef2228b90cc05",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 16,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 6/16 có mẫu số là 64.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "24/65"
+      },
+      {
+        "id": "option-2",
+        "label": "25/64"
+      },
+      {
+        "id": "option-3",
+        "label": "24/64"
+      },
+      {
+        "id": "option-4",
+        "label": "64/24"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 6/16 với 4, được 24/64.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-4fd5bbad50a05790",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t4",
+    "fingerprint": "0c30ef446833edd20bea06c2692df41a",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 4,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 2/4 có mẫu số là 20. Bạn An cho rằng đáp án là 10/20. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 2/4 với 5, được 10/20.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-ec803bef6598d561",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t5",
+    "fingerprint": "0315bb2e404cb35910aec2bdefd41968",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 9,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 2/9 có mẫu số là 18.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 18,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 2/9 với 2, được 4/18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-e86b80f79fe63a07",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t1",
+    "fingerprint": "f75c6b417721d6c9381acb6692a31213",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 9,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 3/9 có mẫu số là 18.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 18,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 3/9 với 2, được 6/18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-215f53d248da5742",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t2",
+    "fingerprint": "6e56090db89ab812d59e025ac051a3a1",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 14,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 5/14 có mẫu số là 42.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 15,
+      "denominator": 42,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 5/14 với 3, được 15/42.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-f8130bdcdb2e7522",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t3",
+    "fingerprint": "00b16030acddb4be6505b4108a2af7d3",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 19,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 7/19 có mẫu số là 76.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "29/76"
+      },
+      {
+        "id": "option-2",
+        "label": "28/76"
+      },
+      {
+        "id": "option-3",
+        "label": "76/28"
+      },
+      {
+        "id": "option-4",
+        "label": "28/77"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 7/19 với 4, được 28/76.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-ca59d2ef47c1e03a",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t4",
+    "fingerprint": "517595fba600ea74e0daafc1879c0584",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 7,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 3/7 có mẫu số là 35. Bạn An cho rằng đáp án là 35/15. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 3/7 với 5, được 15/35.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-370881d27124b184",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t5",
+    "fingerprint": "17be4af6ad396cb13a1066e2fdb9a377",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 12,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 11/12 có mẫu số là 24.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 22,
+      "denominator": 24,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 11/12 với 2, được 22/24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-3d754b15c6f2130d",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t1",
+    "fingerprint": "213da25041b41a200e1a2c9a18ee6178",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 12,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 4/12 có mẫu số là 24.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 8,
+      "denominator": 24,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 4/12 với 2, được 8/24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-c80fd3daf82d4d87",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t2",
+    "fingerprint": "ffaf3512a27ec742cb31bd64a8b08e16",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 17,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 6/17 có mẫu số là 51.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 18,
+      "denominator": 51,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 6/17 với 3, được 18/51.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-07fa08739f00958d",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t3",
+    "fingerprint": "269b49cb3c35f24506d0329501f04b7b",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 5,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 4/5 có mẫu số là 20.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "16/20"
+      },
+      {
+        "id": "option-2",
+        "label": "20/16"
+      },
+      {
+        "id": "option-3",
+        "label": "16/21"
+      },
+      {
+        "id": "option-4",
+        "label": "17/20"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 4/5 với 4, được 16/20.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-7b20a82c3e0f0234",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t4",
+    "fingerprint": "9f8b67cfd86efea0d9db1413452d47c5",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 10,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 1/10 có mẫu số là 50. Bạn An cho rằng đáp án là 5/50. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 1/10 với 5, được 5/50.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-2fd454628710c9e1",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t5",
+    "fingerprint": "166a88c75b8c4ebe4a033fa10d205cc5",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 15,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 12/15 có mẫu số là 30.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 24,
+      "denominator": 30,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 12/15 với 2, được 24/30.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-57dac668413246ab",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t1",
+    "fingerprint": "0e08eb2c267454356c9fc3b1c7749ff0",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 15,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 5/15 có mẫu số là 30.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 10,
+      "denominator": 30,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 5/15 với 2, được 10/30.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-ac5ec6bdc167d89c",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t2",
+    "fingerprint": "b17d64fa15af430f12fd76abe12140b3",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 3,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 1/3 có mẫu số là 9.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 9,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 1/3 với 3, được 3/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-d23faec1d182bca8",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t3",
+    "fingerprint": "b826e64a9f6d9e444d733dfe61c09078",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 8,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 2/8 có mẫu số là 32.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "32/8"
+      },
+      {
+        "id": "option-2",
+        "label": "8/33"
+      },
+      {
+        "id": "option-3",
+        "label": "8/32"
+      },
+      {
+        "id": "option-4",
+        "label": "9/32"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 2/8 với 4, được 8/32.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-3db6e0a173e867a6",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t4",
+    "fingerprint": "d5306aac6023a7aa13757a77681c361f",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 13,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 11/13 có mẫu số là 65. Bạn An cho rằng đáp án là 65/55. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 11/13 với 5, được 55/65.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-d3df053b9ec70fb1",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t5",
+    "fingerprint": "07d9923fb7fafcdf67c993f26bd7757d",
+    "generatorParams": {
+      "numerator": 13,
+      "denominator": 18,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 13/18 có mẫu số là 36.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 26,
+      "denominator": 36,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 13/18 với 2, được 26/36.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-44406690aef14766",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t1",
+    "fingerprint": "cf8c061e5a56212df48dae9e2997e6c5",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 18,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 6/18 có mẫu số là 36.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 12,
+      "denominator": 36,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 6/18 với 2, được 12/36.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-316d2702af82285d",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t2",
+    "fingerprint": "8bb5c43019707eae513acd4a2b876752",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 6,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 3/6 có mẫu số là 18.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 9,
+      "denominator": 18,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 3/6 với 3, được 9/18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-f524bbe4f7dc80ce",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t3",
+    "fingerprint": "abba390ed80d970f9b3d64579a2b52fe",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 11,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 10/11 có mẫu số là 44.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "44/40"
+      },
+      {
+        "id": "option-2",
+        "label": "41/44"
+      },
+      {
+        "id": "option-3",
+        "label": "40/44"
+      },
+      {
+        "id": "option-4",
+        "label": "40/45"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 10/11 với 4, được 40/44.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-d4c5a7ba4cc0972d",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t4",
+    "fingerprint": "3d237dda8bed96a397f7764a7b8f9bf4",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 16,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 12/16 có mẫu số là 80. Bạn An cho rằng đáp án là 60/80. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 12/16 với 5, được 60/80.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-8201fc7589381ba0",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t5",
+    "fingerprint": "0cb5c3bfec03a170db9b8d472a36dec3",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 4,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 2/4 có mẫu số là 8.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 8,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 2/4 với 2, được 4/8.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-2165438e87a2e798",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t1",
+    "fingerprint": "ecc0907d4cb02ec6c2d2072f44572c43",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 4,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 1/4 có mẫu số là 8.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 8,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 1/4 với 2, được 2/8.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-333aa57f62023cdc",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t2",
+    "fingerprint": "406162af78a66b6680eb2621b6f5d9f7",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 9,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 1/9 có mẫu số là 27.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 27,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 1/9 với 3, được 3/27.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-81e9cd9d0f4c82d3",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t3",
+    "fingerprint": "e2d462d923fdb58c66521504608dba4d",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 14,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 11/14 có mẫu số là 56.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "44/56"
+      },
+      {
+        "id": "option-2",
+        "label": "44/57"
+      },
+      {
+        "id": "option-3",
+        "label": "56/44"
+      },
+      {
+        "id": "option-4",
+        "label": "45/56"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 11/14 với 4, được 44/56.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-c733b472b78ff915",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t4",
+    "fingerprint": "251762eb6acc5fd2ab69e7fb9f82d008",
+    "generatorParams": {
+      "numerator": 13,
+      "denominator": 19,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 13/19 có mẫu số là 95. Bạn An cho rằng đáp án là 95/65. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 13/19 với 5, được 65/95.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-15e6d966c46de485",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t5",
+    "fingerprint": "ceb32c63d5007118d6778f6ad42c0e92",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 7,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 3/7 có mẫu số là 14.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 14,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 3/7 với 2, được 6/14.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-c4437334b1625c9e",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t1",
+    "fingerprint": "7e97ee40150881762c39e9462286a2c3",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 7,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 2/7 có mẫu số là 14.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 14,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 2/7 với 2, được 4/14.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-c81fff122e527347",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t2",
+    "fingerprint": "ee5f46bd7ae383f6e05f9b4f0263c220",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 12,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 10/12 có mẫu số là 36.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 30,
+      "denominator": 36,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 10/12 với 3, được 30/36.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-321e470e115d28c0",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t3",
+    "fingerprint": "9b68935ad5151b5ee7c5777b0f56fa90",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 17,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 12/17 có mẫu số là 68.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "48/69"
+      },
+      {
+        "id": "option-2",
+        "label": "48/68"
+      },
+      {
+        "id": "option-3",
+        "label": "68/48"
+      },
+      {
+        "id": "option-4",
+        "label": "49/68"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 12/17 với 4, được 48/68.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-98e61df7eee52139",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t4",
+    "fingerprint": "a7855d235652a48f375b605c7f67f9c5",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 5,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 2/5 có mẫu số là 25. Bạn An cho rằng đáp án là 10/25. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 2/5 với 5, được 10/25.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-c6dcd051df2e9e92",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t5",
+    "fingerprint": "e5a7f8108c6fea6ed50e3100d0e5dcbb",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 10,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 7/10 có mẫu số là 20.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 14,
+      "denominator": 20,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 7/10 với 2, được 14/20.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-6532a303ca9fd32b",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t1",
+    "fingerprint": "393c1e4b78496a967b7600324abaee9f",
+    "generatorParams": {
+      "numerator": 9,
+      "denominator": 10,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 9/10 có mẫu số là 20.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 18,
+      "denominator": 20,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 9/10 với 2, được 18/20.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-35ba63236da0c615",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t2",
+    "fingerprint": "2f2a73f69cb01e9b0bdcd1cb33cf2e03",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 15,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 11/15 có mẫu số là 45.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 33,
+      "denominator": 45,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 11/15 với 3, được 33/45.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-8e28f72a1e738324",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t3",
+    "fingerprint": "2ce7ed9bd650c09c11003e8c0707bc9b",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 3,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 1/3 có mẫu số là 12.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "4/12"
+      },
+      {
+        "id": "option-2",
+        "label": "12/4"
+      },
+      {
+        "id": "option-3",
+        "label": "4/13"
+      },
+      {
+        "id": "option-4",
+        "label": "5/12"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 1/3 với 4, được 4/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-530af216ac929ce6",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t4",
+    "fingerprint": "f932dbba1fbabb5855a517559b66b3d3",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 8,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 1/8 có mẫu số là 40. Bạn An cho rằng đáp án là 40/5. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 1/8 với 5, được 5/40.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-9a23db77ed5c19e1",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t5",
+    "fingerprint": "e2364e04807fbe3bf5fef11e8d43dbee",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 13,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 5/13 có mẫu số là 26.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 10,
+      "denominator": 26,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 5/13 với 2, được 10/26.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-85985b9046889a3f",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t1",
+    "fingerprint": "caa49e870bb27a3f547a1771e23087b8",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 13,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 10/13 có mẫu số là 26.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 20,
+      "denominator": 26,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 10/13 với 2, được 20/26.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-d9b110d88e8a7f57",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t2",
+    "fingerprint": "4366f93240733d1f5cd2ddca71da2051",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 18,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 12/18 có mẫu số là 54.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 36,
+      "denominator": 54,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 12/18 với 3, được 36/54.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-41ababae040d9eff",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t3",
+    "fingerprint": "de83f179b2816480832293ae8dea3d81",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 6,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 4/6 có mẫu số là 24.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "16/25"
+      },
+      {
+        "id": "option-2",
+        "label": "16/24"
+      },
+      {
+        "id": "option-3",
+        "label": "17/24"
+      },
+      {
+        "id": "option-4",
+        "label": "24/16"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 4/6 với 4, được 16/24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-d224e0c0e0e9bd10",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t4",
+    "fingerprint": "cf5e63fe967dcbbc6ceed5d7a87e8988",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 11,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 6/11 có mẫu số là 55. Bạn An cho rằng đáp án là 30/55. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 6/11 với 5, được 30/55.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-0a5e15636349c57e",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t5",
+    "fingerprint": "54b2c436d965e991cec415a229d5bfe1",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 16,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 3/16 có mẫu số là 32.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 32,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 3/16 với 2, được 6/32.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-89e1722d845e8b56",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t1",
+    "fingerprint": "0a8dabcbae177b939e847481d858d1e3",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 16,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 11/16 có mẫu số là 32.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 22,
+      "denominator": 32,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 11/16 với 2, được 22/32.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-be94a37854bc5b95",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t2",
+    "fingerprint": "c1e623c4f088d87462edd9adab5dba5d",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 4,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 1/4 có mẫu số là 12.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 12,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 1/4 với 3, được 3/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-b884d0a0cb4e97dd",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t3",
+    "fingerprint": "7bb438faed00c6c25e4cc2bf9c75cf23",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 9,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 7/9 có mẫu số là 36.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "29/36"
+      },
+      {
+        "id": "option-2",
+        "label": "28/36"
+      },
+      {
+        "id": "option-3",
+        "label": "28/37"
+      },
+      {
+        "id": "option-4",
+        "label": "36/28"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 7/9 với 4, được 28/36.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-3b73bfa8412857a6",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t4",
+    "fingerprint": "d55ddee43912295da0a0fc546625604f",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 14,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 4/14 có mẫu số là 70. Bạn An cho rằng đáp án là 70/20. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 4/14 với 5, được 20/70.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-8495c1c7ae8be20f",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t5",
+    "fingerprint": "1f94911dcb29f7b6cb845e57afa50d98",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 19,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 1/19 có mẫu số là 38.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 38,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 1/19 với 2, được 2/38.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-617ed036eb4e802e",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t1",
+    "fingerprint": "83058c0035de29e5d7d575a1f6e57f7e",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 19,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 12/19 có mẫu số là 38.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 24,
+      "denominator": 38,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 12/19 với 2, được 24/38.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-765fc58f16513a83",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t2",
+    "fingerprint": "a18aab7d4ddff7fa11c8a3b69bd458fb",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 7,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 2/7 có mẫu số là 21.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 21,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 2/7 với 3, được 6/21.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-113abd439c13c2ee",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t3",
+    "fingerprint": "0bc14cb8b43f5ce05331e18226ff2c12",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 12,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 5/12 có mẫu số là 48.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "21/48"
+      },
+      {
+        "id": "option-2",
+        "label": "20/49"
+      },
+      {
+        "id": "option-3",
+        "label": "20/48"
+      },
+      {
+        "id": "option-4",
+        "label": "48/20"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 5/12 với 4, được 20/48.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-3921cb07eeaa60c4",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t4",
+    "fingerprint": "ba999f5ef96ac762f0c54728ef50c301",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 17,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 2/17 có mẫu số là 85. Bạn An cho rằng đáp án là 10/85. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 2/17 với 5, được 10/85.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-533860fcaed23854",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t5",
+    "fingerprint": "1b0bce3e999056cc8b55cf91bb239653",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 5,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 4/5 có mẫu số là 10.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 8,
+      "denominator": 10,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 4/5 với 2, được 8/10.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-a55fcdafc5806e4e",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t1",
+    "fingerprint": "d9db767c23ebcaaf6a3e9407a2082b6c",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 5,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 1/5 có mẫu số là 10.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 10,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 1/5 với 2, được 2/10.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-d4180f105a6536ea",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t2",
+    "fingerprint": "20c438f74acf0e35e0273a881db883c6",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 10,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 6/10 có mẫu số là 30.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 18,
+      "denominator": 30,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 6/10 với 3, được 18/30.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-9acd9bfa45248590",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t3",
+    "fingerprint": "299f83adc5e46c440f61db5298034388",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 15,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 3/15 có mẫu số là 60.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "60/12"
+      },
+      {
+        "id": "option-2",
+        "label": "12/60"
+      },
+      {
+        "id": "option-3",
+        "label": "13/60"
+      },
+      {
+        "id": "option-4",
+        "label": "12/61"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 3/15 với 4, được 12/60.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-7c036a75d82e6b01",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t4",
+    "fingerprint": "0751bf493c1dd75a7153148752792733",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 3,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 1/3 có mẫu số là 15. Bạn An cho rằng đáp án là 15/5. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 1/3 với 5, được 5/15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-373b6f1278fd2bfc",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t5",
+    "fingerprint": "a59f6656b9707f559cb2cda47141edab",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 8,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 7/8 có mẫu số là 16.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 14,
+      "denominator": 16,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 7/8 với 2, được 14/16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-36be3557d443f321",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t1",
+    "fingerprint": "242609126bfeaa94a71ce3fd76251ed2",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 8,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 7/8 có mẫu số là 16.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 14,
+      "denominator": 16,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 7/8 với 2, được 14/16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-05e77c4fd6e8321c",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t2",
+    "fingerprint": "9a6efa18c015ef5944939d5bbc586fd4",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 13,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 4/13 có mẫu số là 39.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 12,
+      "denominator": 39,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 4/13 với 3, được 12/39.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-4cdcd3161089a468",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t3",
+    "fingerprint": "f643b51c9c402f4972380c0c4e77ddb5",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 18,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 1/18 có mẫu số là 72.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "4/73"
+      },
+      {
+        "id": "option-2",
+        "label": "5/72"
+      },
+      {
+        "id": "option-3",
+        "label": "4/72"
+      },
+      {
+        "id": "option-4",
+        "label": "72/4"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 1/18 với 4, được 4/72.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-4df2c93d11a3f8b0",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t4",
+    "fingerprint": "42a9930160db8ff08854fbe9aade8941",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 6,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 5/6 có mẫu số là 30. Bạn An cho rằng đáp án là 25/30. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 5/6 với 5, được 25/30.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-ee3c6afbe0a16219",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t5",
+    "fingerprint": "dc4e17eae2be9da6b9447968ab4eb8ff",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 11,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 2/11 có mẫu số là 22.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 22,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 2/11 với 2, được 4/22.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-ec9718bebc12a84c",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t1",
+    "fingerprint": "5e83c1d543d38e6c0f3c740893ffed97",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 11,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 5/11 có mẫu số là 22.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 10,
+      "denominator": 22,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 5/11 với 2, được 10/22.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-2c9a0e34ed9e0f5b",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t2",
+    "fingerprint": "e0074975a1c892b598430729ba9c33ae",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 16,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 2/16 có mẫu số là 48.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 48,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 2/16 với 3, được 6/48.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-b765cb9a578262ac",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t3",
+    "fingerprint": "e6d8ca06587b12b1d246d5eba8772a69",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 4,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 1/4 có mẫu số là 16.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "16/4"
+      },
+      {
+        "id": "option-2",
+        "label": "4/17"
+      },
+      {
+        "id": "option-3",
+        "label": "4/16"
+      },
+      {
+        "id": "option-4",
+        "label": "5/16"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 1/4 với 4, được 4/16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-051a8e24814f0b68",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t4",
+    "fingerprint": "10c32cd1ed83e052c7692401168675fb",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 9,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 5/9 có mẫu số là 45. Bạn An cho rằng đáp án là 45/25. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 5/9 với 5, được 25/45.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-b661674e9080af8c",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t5",
+    "fingerprint": "4e5fd2c3f2073d1c4aea88c540e8b660",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 14,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 10/14 có mẫu số là 28.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 20,
+      "denominator": 28,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 10/14 với 2, được 20/28.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-9c00a61748aa550f",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t1",
+    "fingerprint": "195e7156289aea59e6c9c732cef01026",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 14,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 3/14 có mẫu số là 28.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 28,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 3/14 với 2, được 6/28.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-5f9aa0141a915f1e",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t2",
+    "fingerprint": "5a31c1fb568b4d11e6e229b44c48ebcd",
+    "generatorParams": {
+      "numerator": 18,
+      "denominator": 19,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 18/19 có mẫu số là 57.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 54,
+      "denominator": 57,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 18/19 với 3, được 54/57.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-eea25836385ab80a",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t3",
+    "fingerprint": "3ee6546a23dffcf30fcd69b99ab515dd",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 7,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 2/7 có mẫu số là 28.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "9/28"
+      },
+      {
+        "id": "option-2",
+        "label": "28/8"
+      },
+      {
+        "id": "option-3",
+        "label": "8/29"
+      },
+      {
+        "id": "option-4",
+        "label": "8/28"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 2/7 với 4, được 8/28.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-10a5422953aa4e44",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t4",
+    "fingerprint": "a0b15f1d144f4fd5f352a3db8ec8ba31",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 12,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 11/12 có mẫu số là 60. Bạn An cho rằng đáp án là 55/60. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 11/12 với 5, được 55/60.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-d869d422e17dafc0",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t5",
+    "fingerprint": "ef62b455a36e79729d0112e8eedfef63",
+    "generatorParams": {
+      "numerator": 8,
+      "denominator": 17,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 8/17 có mẫu số là 34.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 16,
+      "denominator": 34,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 8/17 với 2, được 16/34.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-591b8a363752e8a8",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t1",
+    "fingerprint": "639d1db4390d500f6a1ca0b8b267a9c1",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 17,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 1/17 có mẫu số là 34.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 34,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 1/17 với 2, được 2/34.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-3828984c182f786f",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t2",
+    "fingerprint": "733120b3c138e4039c53b42132221a29",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 5,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 3/5 có mẫu số là 15.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 9,
+      "denominator": 15,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 3/5 với 3, được 9/15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-0e529666949d1c35",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t3",
+    "fingerprint": "c5529b683bc8d6c8064bc7ed061f9cf2",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 10,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 3/10 có mẫu số là 40.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "12/41"
+      },
+      {
+        "id": "option-2",
+        "label": "12/40"
+      },
+      {
+        "id": "option-3",
+        "label": "40/12"
+      },
+      {
+        "id": "option-4",
+        "label": "13/40"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 3/10 với 4, được 12/40.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-4e2b71a804ec7845",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t4",
+    "fingerprint": "2a54b1c1fe4068cb92a82de06a698dac",
+    "generatorParams": {
+      "numerator": 9,
+      "denominator": 15,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 9/15 có mẫu số là 75. Bạn An cho rằng đáp án là 75/45. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 9/15 với 5, được 45/75.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-0454e4a5ad8e8183",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t5",
+    "fingerprint": "d4a5a42264d2e36876d82ddb8b22e5a3",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 3,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 1/3 có mẫu số là 6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 1/3 với 2, được 2/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-5fd94d9654e8c4ca",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t1",
+    "fingerprint": "406e27e0caff9d7bb070e83e912891e6",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 3,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 2/3 có mẫu số là 6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 2/3 với 2, được 4/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-08e80a21e658e283",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t2",
+    "fingerprint": "af3c7012e81211f2c3859306416cba5b",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 8,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 6/8 có mẫu số là 24.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 18,
+      "denominator": 24,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 6/8 với 3, được 18/24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-d1034e0d64d6cc81",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t3",
+    "fingerprint": "a3cd62f8ca100a43e93ddcb659793a4e",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 13,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 10/13 có mẫu số là 52.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "40/52"
+      },
+      {
+        "id": "option-2",
+        "label": "52/40"
+      },
+      {
+        "id": "option-3",
+        "label": "40/53"
+      },
+      {
+        "id": "option-4",
+        "label": "41/52"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 10/13 với 4, được 40/52.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-e370dea0bbf34150",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t4",
+    "fingerprint": "37d9117fbfba9c30a1742245bd735474",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 18,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 7/18 có mẫu số là 90. Bạn An cho rằng đáp án là 35/90. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 7/18 với 5, được 35/90.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-7f8f4931f71b89bf",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t5",
+    "fingerprint": "0535639be8a9a5433d0e154617519adc",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 6,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 1/6 có mẫu số là 12.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 12,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 1/6 với 2, được 2/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-23547ae6d68771af",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t1",
+    "fingerprint": "e8b970fd7f77ccf744663a4d7c02d173",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 6,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 4/6 có mẫu số là 12.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 8,
+      "denominator": 12,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 4/6 với 2, được 8/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-1fca5cd581c31eff",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t2",
+    "fingerprint": "6dd25bafb751cb3d4317269da860858b",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 11,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 1/11 có mẫu số là 33.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 33,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 1/11 với 3, được 3/33.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-f8ba4cc7b0fa3d07",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t3",
+    "fingerprint": "dad3dc93144f3052658de0ff556d523d",
+    "generatorParams": {
+      "numerator": 8,
+      "denominator": 16,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 8/16 có mẫu số là 64.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "32/64"
+      },
+      {
+        "id": "option-2",
+        "label": "32/65"
+      },
+      {
+        "id": "option-3",
+        "label": "64/32"
+      },
+      {
+        "id": "option-4",
+        "label": "33/64"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 8/16 với 4, được 32/64.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-55ebc5932e8b72ce",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t4",
+    "fingerprint": "85e3f4bc65da2f5ab4b42fad78b9f09d",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 4,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 1/4 có mẫu số là 20. Bạn An cho rằng đáp án là 20/5. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 1/4 với 5, được 5/20.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-bc6ebdbe30dac829",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t5",
+    "fingerprint": "d1922a1a6c743e07f51b1f0f94f3bd00",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 9,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 3/9 có mẫu số là 18.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 18,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 3/9 với 2, được 6/18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-4800ac46d35ea318",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t1",
+    "fingerprint": "a567d67b870332c1a853f5485ca80702",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 9,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 4/9 có mẫu số là 18.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 8,
+      "denominator": 18,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 4/9 với 2, được 8/18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-80532c9d765399d7",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t2",
+    "fingerprint": "d15a56591c5aa1d2936be107003b40ed",
+    "generatorParams": {
+      "numerator": 9,
+      "denominator": 14,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 9/14 có mẫu số là 42.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 27,
+      "denominator": 42,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 9/14 với 3, được 27/42.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-2235c3028312860a",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t3",
+    "fingerprint": "77532c50268b3b64ff69b2e7c0564cf9",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 19,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 6/19 có mẫu số là 76.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "25/76"
+      },
+      {
+        "id": "option-2",
+        "label": "24/76"
+      },
+      {
+        "id": "option-3",
+        "label": "76/24"
+      },
+      {
+        "id": "option-4",
+        "label": "24/77"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 6/19 với 4, được 24/76.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-5e15120a367f3e6d",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t4",
+    "fingerprint": "1b80308ffc44e288a3f74cfef9f8ad60",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 7,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 2/7 có mẫu số là 35. Bạn An cho rằng đáp án là 10/35. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 2/7 với 5, được 10/35.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-7f787db23ecf8b64",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t5",
+    "fingerprint": "d16caa1cd3de12e1f3e14290f3a386dd",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 12,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 6/12 có mẫu số là 24.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 12,
+      "denominator": 24,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 6/12 với 2, được 12/24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-34155221e2e05b41",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t1",
+    "fingerprint": "801a365136693b775c84717e1f6d2d0a",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 12,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 10/12 có mẫu số là 24.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 20,
+      "denominator": 24,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 10/12 với 2, được 20/24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-df847a6dd9295a92",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t2",
+    "fingerprint": "a617c091db029d234793509be9dc940b",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 17,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 7/17 có mẫu số là 51.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 21,
+      "denominator": 51,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 7/17 với 3, được 21/51.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-a777f152fb9cc56e",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t3",
+    "fingerprint": "d201b12e22b542986fc5c9b6f001c37b",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 5,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 1/5 có mẫu số là 20.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "4/20"
+      },
+      {
+        "id": "option-2",
+        "label": "20/4"
+      },
+      {
+        "id": "option-3",
+        "label": "4/21"
+      },
+      {
+        "id": "option-4",
+        "label": "5/20"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 1/5 với 4, được 4/20.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-e785d72b7d76f6a0",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t4",
+    "fingerprint": "d6cccd7ddda475b47e5dc80c49469e07",
+    "generatorParams": {
+      "numerator": 9,
+      "denominator": 10,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 9/10 có mẫu số là 50. Bạn An cho rằng đáp án là 50/45. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 9/10 với 5, được 45/50.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-equivalent-fractions-56bcfbd313a3d375",
+    "contentVersion": "grade4-v3",
+    "templateId": "equivalent-fractions-t5",
+    "fingerprint": "a40d5ba1dc03bef646741978fcc0940f",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 15,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "equivalent-fractions-skill",
+    "problemTypeId": "equivalent-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tìm phân số bằng 1/15 có mẫu số là 30.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 30,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2; nhân tử số với cùng số đó."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Nhân cả tử và mẫu của 1/15 với 2, được 2/30.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

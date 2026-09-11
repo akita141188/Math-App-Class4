@@ -1,0 +1,6782 @@
+[
+  {
+    "id": "g4-write-fractions-811ebf16033e664d",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t1",
+    "fingerprint": "90b9b2aba2d14dd3feb286a5fb80fd59",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “hai phần sáu”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“hai phần sáu” được viết là 2/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-1d1060e1fc3b19a3",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t2",
+    "fingerprint": "f79120d353a98409e7a10c69c2b6cade",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 11
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “bốn phần mười một”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 11,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“bốn phần mười một” được viết là 4/11.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-cbfcf5cce563e0bf",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t3",
+    "fingerprint": "c131a3b4ec777ada7fd10bc764d20c4a",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 16
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “sáu phần 16”.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "6/16"
+      },
+      {
+        "id": "option-2",
+        "label": "7/16"
+      },
+      {
+        "id": "option-3",
+        "label": "16/6"
+      },
+      {
+        "id": "option-4",
+        "label": "6/17"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“sáu phần 16” được viết là 6/16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-881858223b90605f",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t4",
+    "fingerprint": "02e6d5e3092892acd117b9771a4fa37f",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “hai phần bốn”. Bạn An cho rằng đáp án là 2/4. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“hai phần bốn” được viết là 2/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-9c26256bf12e1727",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t5",
+    "fingerprint": "359993c4843e1cd5c8451600f5288460",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “hai phần chín”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 9,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“hai phần chín” được viết là 2/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-b9e6f18e281306de",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t1",
+    "fingerprint": "902abdc4a409bc154f5a734d7903cc05",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “ba phần chín”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 9,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“ba phần chín” được viết là 3/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-8a3eb5a7c2405cb8",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t2",
+    "fingerprint": "937968d719da01f2dd1642e1aaa0f5e1",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 14
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “năm phần 14”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 5,
+      "denominator": 14,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“năm phần 14” được viết là 5/14.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-c8fb65f5a739a02c",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t3",
+    "fingerprint": "4b45bcf9e876d1e0aeb2fa7befee05f3",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 19
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “bảy phần 19”.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "7/19"
+      },
+      {
+        "id": "option-2",
+        "label": "19/7"
+      },
+      {
+        "id": "option-3",
+        "label": "8/19"
+      },
+      {
+        "id": "option-4",
+        "label": "7/20"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“bảy phần 19” được viết là 7/19.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-b5e61d182ef3c7a2",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t4",
+    "fingerprint": "55cd72da56f26d996df19ee48d55a0af",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “ba phần bảy”. Bạn An cho rằng đáp án là 7/3. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“ba phần bảy” được viết là 3/7.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-931106de8127fc89",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t5",
+    "fingerprint": "0e1a6d71765b63648642da4bf1ab58a6",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 12
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “mười một phần mười hai”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 11,
+      "denominator": 12,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“mười một phần mười hai” được viết là 11/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-fe0295d0502cc9aa",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t1",
+    "fingerprint": "3679f1b720f9323598842821bdba608e",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 12
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “bốn phần mười hai”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 12,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“bốn phần mười hai” được viết là 4/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-d81a5cfee2c01930",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t2",
+    "fingerprint": "3a276e6d9fb4bc74090a9832f8d0b119",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 17
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “sáu phần 17”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 17,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“sáu phần 17” được viết là 6/17.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-f08508f882c9bedd",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t3",
+    "fingerprint": "1e82c7685ab68b91cdf6ba413e9d6186",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “bốn phần năm”.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "4/5"
+      },
+      {
+        "id": "option-2",
+        "label": "4/6"
+      },
+      {
+        "id": "option-3",
+        "label": "5/5"
+      },
+      {
+        "id": "option-4",
+        "label": "5/4"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“bốn phần năm” được viết là 4/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-9186c2997b3c4e98",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t4",
+    "fingerprint": "6cbb5daf91a6cb557f3298dbd1df26d9",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “một phần mười”. Bạn An cho rằng đáp án là 1/10. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“một phần mười” được viết là 1/10.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-1d40f3bea7e29e63",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t5",
+    "fingerprint": "dbed8f4b5075659798f7a136c4cefd9e",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 15
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “mười hai phần 15”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 12,
+      "denominator": 15,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“mười hai phần 15” được viết là 12/15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-a32685d3077d8fa6",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t1",
+    "fingerprint": "1450e4c745421c85b7919f41da14415d",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 15
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “năm phần 15”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 5,
+      "denominator": 15,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“năm phần 15” được viết là 5/15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-936bd7c00f492a98",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t2",
+    "fingerprint": "de05b77a48602dce0374c11433f2673d",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “một phần ba”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 3,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“một phần ba” được viết là 1/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-7b7a0a8079104fc1",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t3",
+    "fingerprint": "62b0e6229001cd69390a130dde2b5b95",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “hai phần tám”.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2/9"
+      },
+      {
+        "id": "option-2",
+        "label": "3/8"
+      },
+      {
+        "id": "option-3",
+        "label": "2/8"
+      },
+      {
+        "id": "option-4",
+        "label": "8/2"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“hai phần tám” được viết là 2/8.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-845816bfcb76aebd",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t4",
+    "fingerprint": "fda1eae2db060f5f333b7ebb36dea807",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 13
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “mười một phần 13”. Bạn An cho rằng đáp án là 13/11. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“mười một phần 13” được viết là 11/13.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-eaef86b532cc1a01",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t5",
+    "fingerprint": "c028bebe34f20557ee1bc0e6d5e346f0",
+    "generatorParams": {
+      "numerator": 13,
+      "denominator": 18
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “13 phần 18”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 13,
+      "denominator": 18,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“13 phần 18” được viết là 13/18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-2c08dd351d5e0a48",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t1",
+    "fingerprint": "f637734fa85b9741d2fdb51fd1a5b5a1",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 18
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “sáu phần 18”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 18,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“sáu phần 18” được viết là 6/18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-760f8e94aa656297",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t2",
+    "fingerprint": "26737ef0def3308cb0abdd8ed5e9b7aa",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “ba phần sáu”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“ba phần sáu” được viết là 3/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-4cd884174edf1c12",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t3",
+    "fingerprint": "b6e47ad9f840e2202055f1679e7f32ed",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 11
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “mười phần mười một”.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "10/12"
+      },
+      {
+        "id": "option-2",
+        "label": "10/11"
+      },
+      {
+        "id": "option-3",
+        "label": "11/11"
+      },
+      {
+        "id": "option-4",
+        "label": "11/10"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“mười phần mười một” được viết là 10/11.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-d4a25a42b4a52842",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t4",
+    "fingerprint": "779a4f3b012c5b3958882913ce3c2fda",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 16
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “mười hai phần 16”. Bạn An cho rằng đáp án là 12/16. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“mười hai phần 16” được viết là 12/16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-7d15a196e89868fd",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t5",
+    "fingerprint": "520f8012124ea915562faa5857738337",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “hai phần bốn”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 4,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“hai phần bốn” được viết là 2/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-c070fa95af5acfcf",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t1",
+    "fingerprint": "8b30c4cd97184e29ba3fd180c898a79b",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “một phần bốn”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 4,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“một phần bốn” được viết là 1/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-bf4acc522235f693",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t2",
+    "fingerprint": "1af3e60d55e87089b01b2b7257b926df",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “một phần chín”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 9,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“một phần chín” được viết là 1/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-956e100d579e19c1",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t3",
+    "fingerprint": "723eed77d14a6f731a7d69a7121bcb1a",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 14
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “mười một phần 14”.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "11/14"
+      },
+      {
+        "id": "option-2",
+        "label": "14/11"
+      },
+      {
+        "id": "option-3",
+        "label": "11/15"
+      },
+      {
+        "id": "option-4",
+        "label": "12/14"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“mười một phần 14” được viết là 11/14.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-69085ebee04eb92c",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t4",
+    "fingerprint": "f525e0163455c082d9eec10808183ec6",
+    "generatorParams": {
+      "numerator": 13,
+      "denominator": 19
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “13 phần 19”. Bạn An cho rằng đáp án là 19/13. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“13 phần 19” được viết là 13/19.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-329416157b9a78b7",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t5",
+    "fingerprint": "6b6e5ea04afdd7841160d6dcc7996c9a",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “ba phần bảy”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 7,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“ba phần bảy” được viết là 3/7.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-11c99d828e58c92c",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t1",
+    "fingerprint": "9c559e8dee8ac0806472342c8a239d75",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “hai phần bảy”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 7,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“hai phần bảy” được viết là 2/7.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-badef890ef063121",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t2",
+    "fingerprint": "f1800431b36e892da7094d78c144c0d6",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 12
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “mười phần mười hai”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 10,
+      "denominator": 12,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“mười phần mười hai” được viết là 10/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-98cd52eadb4744d1",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t3",
+    "fingerprint": "0d7611799cdd2fe8df90556c7f6cd88b",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 17
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “mười hai phần 17”.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "12/17"
+      },
+      {
+        "id": "option-2",
+        "label": "13/17"
+      },
+      {
+        "id": "option-3",
+        "label": "17/12"
+      },
+      {
+        "id": "option-4",
+        "label": "12/18"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“mười hai phần 17” được viết là 12/17.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-79c808a3fac20770",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t4",
+    "fingerprint": "05846ebb5cb9feb1e899bb8126499248",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “hai phần năm”. Bạn An cho rằng đáp án là 2/5. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“hai phần năm” được viết là 2/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-09870c0ee1c021ee",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t5",
+    "fingerprint": "c784bf2fcb766925184dc5221eadf0d3",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “bảy phần mười”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 7,
+      "denominator": 10,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“bảy phần mười” được viết là 7/10.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-954520766b0442f2",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t1",
+    "fingerprint": "5165743b659b79ebf143ebf94d21af23",
+    "generatorParams": {
+      "numerator": 9,
+      "denominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “chín phần mười”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 9,
+      "denominator": 10,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“chín phần mười” được viết là 9/10.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-69d59bb954637f38",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t2",
+    "fingerprint": "767e9fa8e16f5c233934f0e545d619f5",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 15
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “mười một phần 15”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 11,
+      "denominator": 15,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“mười một phần 15” được viết là 11/15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-e03dd9cd42fbf1d1",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t3",
+    "fingerprint": "8913e69a5009885bc1153121b2598c70",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “một phần ba”.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3/1"
+      },
+      {
+        "id": "option-2",
+        "label": "1/4"
+      },
+      {
+        "id": "option-3",
+        "label": "1/3"
+      },
+      {
+        "id": "option-4",
+        "label": "2/3"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“một phần ba” được viết là 1/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-203832df0cd9fb10",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t4",
+    "fingerprint": "d2d15587eb6390cc5c034c7192df2d56",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “một phần tám”. Bạn An cho rằng đáp án là 8/1. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“một phần tám” được viết là 1/8.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-ca273e1ed7e657d2",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t5",
+    "fingerprint": "123eeb7f3225440b313f9a87a3b6bdd9",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 13
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “năm phần 13”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 5,
+      "denominator": 13,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“năm phần 13” được viết là 5/13.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-5607f0b465d7dcf6",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t1",
+    "fingerprint": "f8711634156355818db48eeb747363b5",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 13
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “mười phần 13”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 10,
+      "denominator": 13,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“mười phần 13” được viết là 10/13.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-586b17c36a0dd101",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t2",
+    "fingerprint": "97dc46c3725c008b1f098edc2b9368c2",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 18
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “mười hai phần 18”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 12,
+      "denominator": 18,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“mười hai phần 18” được viết là 12/18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-c7bfea50721faa4c",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t3",
+    "fingerprint": "3b929d4af1b8b894fe04da388902b29c",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “bốn phần sáu”.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "6/4"
+      },
+      {
+        "id": "option-2",
+        "label": "4/7"
+      },
+      {
+        "id": "option-3",
+        "label": "4/6"
+      },
+      {
+        "id": "option-4",
+        "label": "5/6"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“bốn phần sáu” được viết là 4/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-ea2b743f98f7be5b",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t4",
+    "fingerprint": "675cc41f3bf01d55a4ae3c5b8a7bee06",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 11
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “sáu phần mười một”. Bạn An cho rằng đáp án là 6/11. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“sáu phần mười một” được viết là 6/11.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-3c76b9dd61276673",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t5",
+    "fingerprint": "422d8d21ffaf72bbc4c7abf61fe46b03",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 16
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “ba phần 16”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 16,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“ba phần 16” được viết là 3/16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-8bc56feef2345156",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t1",
+    "fingerprint": "3f44917f98ca35795b026cdc88f71227",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 16
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “mười một phần 16”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 11,
+      "denominator": 16,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“mười một phần 16” được viết là 11/16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-26fa5abf95c35ce2",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t2",
+    "fingerprint": "7183b7215a18a16906aec65f34f91b82",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “một phần bốn”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 4,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“một phần bốn” được viết là 1/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-874888b5776b207b",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t3",
+    "fingerprint": "8ad216dd812556002ea31f3344c3393a",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “bảy phần chín”.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "7/9"
+      },
+      {
+        "id": "option-2",
+        "label": "9/7"
+      },
+      {
+        "id": "option-3",
+        "label": "7/10"
+      },
+      {
+        "id": "option-4",
+        "label": "8/9"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“bảy phần chín” được viết là 7/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-c975f81e3eb045c6",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t4",
+    "fingerprint": "f5d2f275ada91a1c8be9b06e016528df",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 14
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “bốn phần 14”. Bạn An cho rằng đáp án là 14/4. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“bốn phần 14” được viết là 4/14.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-bea0b6e69742248c",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t5",
+    "fingerprint": "62cde39d508246a33f3f32bd64a52e94",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 19
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “một phần 19”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 19,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“một phần 19” được viết là 1/19.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-2de09bb98310fcd5",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t1",
+    "fingerprint": "4b6a629c7036d8dae879a0cd019738c6",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 19
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “mười hai phần 19”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 12,
+      "denominator": 19,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“mười hai phần 19” được viết là 12/19.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-a3190796fb219800",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t2",
+    "fingerprint": "b180da5f6fb2c7400c656fb89df95e1b",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “hai phần bảy”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 7,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“hai phần bảy” được viết là 2/7.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-9b8e75369d99b4e2",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t3",
+    "fingerprint": "b3736aac61dd5ad8fc746bcf6a1a49ae",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 12
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “năm phần mười hai”.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "5/12"
+      },
+      {
+        "id": "option-2",
+        "label": "5/13"
+      },
+      {
+        "id": "option-3",
+        "label": "12/5"
+      },
+      {
+        "id": "option-4",
+        "label": "6/12"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“năm phần mười hai” được viết là 5/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-f0067f1be904c5b6",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t4",
+    "fingerprint": "196ee5120e191467dbf7cee7e3e32ead",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 17
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “hai phần 17”. Bạn An cho rằng đáp án là 2/17. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“hai phần 17” được viết là 2/17.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-e4f66b6c537dac25",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t5",
+    "fingerprint": "298f851d53b1150b45813e09abf7addf",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “bốn phần năm”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 5,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“bốn phần năm” được viết là 4/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-557987ceaa79834c",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t1",
+    "fingerprint": "452c0d8d2b6b7eb4420caf159dac0ca8",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “một phần năm”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 5,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“một phần năm” được viết là 1/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-55965450f82a7521",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t2",
+    "fingerprint": "4c7ec226db81bcf4d05f2908d0c70732",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “sáu phần mười”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 10,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“sáu phần mười” được viết là 6/10.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-0f8f40652aa4dffb",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t3",
+    "fingerprint": "f2362038fbe93d4602679af8addf69db",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 15
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “ba phần 15”.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3/15"
+      },
+      {
+        "id": "option-2",
+        "label": "3/16"
+      },
+      {
+        "id": "option-3",
+        "label": "4/15"
+      },
+      {
+        "id": "option-4",
+        "label": "15/3"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“ba phần 15” được viết là 3/15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-431baa326ec26c43",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t4",
+    "fingerprint": "fa77c2d047723246b78411b3521c8211",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “một phần ba”. Bạn An cho rằng đáp án là 3/1. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“một phần ba” được viết là 1/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-5fef5c166a627459",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t5",
+    "fingerprint": "9ef267938c59297f8098d78199e546d8",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “bảy phần tám”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 7,
+      "denominator": 8,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“bảy phần tám” được viết là 7/8.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-855227e0d07fee59",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t1",
+    "fingerprint": "1559f126a276d421ebe13704493912e9",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “bảy phần tám”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 7,
+      "denominator": 8,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“bảy phần tám” được viết là 7/8.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-6ca21676efe3f6cc",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t2",
+    "fingerprint": "ddf1e5e3704a8e5b90ebab4b25d9e9ec",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 13
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “bốn phần 13”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 13,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“bốn phần 13” được viết là 4/13.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-39f56d8927f27ffb",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t3",
+    "fingerprint": "51eb3eb86218fe5e43329c4105137791",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 18
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “một phần 18”.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2/18"
+      },
+      {
+        "id": "option-2",
+        "label": "1/18"
+      },
+      {
+        "id": "option-3",
+        "label": "1/19"
+      },
+      {
+        "id": "option-4",
+        "label": "18/1"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“một phần 18” được viết là 1/18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-6584388ac3d69044",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t4",
+    "fingerprint": "08748ce1e6db49708555b67cfcd8bdee",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “năm phần sáu”. Bạn An cho rằng đáp án là 5/6. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“năm phần sáu” được viết là 5/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-503ebf0b2ebd3749",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t5",
+    "fingerprint": "6a023ab538cd19010c98e76552c6023c",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 11
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “hai phần mười một”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 11,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“hai phần mười một” được viết là 2/11.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-5a0c661ee79d1aa9",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t1",
+    "fingerprint": "b898f915f7260a6895a08ceaf4ea8533",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 11
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “năm phần mười một”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 5,
+      "denominator": 11,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“năm phần mười một” được viết là 5/11.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-ee4f5f0689a0e18f",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t2",
+    "fingerprint": "fd6d4ec0ccf0b88c437709f218b2fff1",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 16
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “hai phần 16”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 16,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“hai phần 16” được viết là 2/16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-460e900fee244f7d",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t3",
+    "fingerprint": "55b17691f9929fd479168611bc837184",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “một phần bốn”.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "4/1"
+      },
+      {
+        "id": "option-2",
+        "label": "1/4"
+      },
+      {
+        "id": "option-3",
+        "label": "2/4"
+      },
+      {
+        "id": "option-4",
+        "label": "1/5"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“một phần bốn” được viết là 1/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-e6ea8e9756ee5b05",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t4",
+    "fingerprint": "9698250840d9c62c8b22267904594017",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “năm phần chín”. Bạn An cho rằng đáp án là 9/5. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“năm phần chín” được viết là 5/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-16145b829b9fc7a6",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t5",
+    "fingerprint": "3d9071eafe737438838a666f7dbd2f45",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 14
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “mười phần 14”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 10,
+      "denominator": 14,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“mười phần 14” được viết là 10/14.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-68094bac3514faff",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t1",
+    "fingerprint": "2dabd6d894951ff1e82a0cef9639fb25",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 14
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “ba phần 14”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 14,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“ba phần 14” được viết là 3/14.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-a3279e93aa2a1d75",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t2",
+    "fingerprint": "a3f14b7172a7a67b08a5d098271f6c68",
+    "generatorParams": {
+      "numerator": 18,
+      "denominator": 19
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “18 phần 19”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 18,
+      "denominator": 19,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“18 phần 19” được viết là 18/19.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-b5985f578e55d825",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t3",
+    "fingerprint": "f1224dbc2a06b9bf0580fb9ac5349f9c",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “hai phần bảy”.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2/8"
+      },
+      {
+        "id": "option-2",
+        "label": "2/7"
+      },
+      {
+        "id": "option-3",
+        "label": "7/2"
+      },
+      {
+        "id": "option-4",
+        "label": "3/7"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“hai phần bảy” được viết là 2/7.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-6b65b5eb3fe8516c",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t4",
+    "fingerprint": "978c22dc71ff726cdf4ec15c3cdfe766",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 12
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “mười một phần mười hai”. Bạn An cho rằng đáp án là 11/12. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“mười một phần mười hai” được viết là 11/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-c4dd0a13eeea7bc2",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t5",
+    "fingerprint": "a01a369aaf1a49669a42ad0ccd485e48",
+    "generatorParams": {
+      "numerator": 8,
+      "denominator": 17
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “tám phần 17”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 8,
+      "denominator": 17,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“tám phần 17” được viết là 8/17.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-b3b935b5f8bbce99",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t1",
+    "fingerprint": "e65dd05011b8251982deafaa98edd09a",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 17
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “một phần 17”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 17,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“một phần 17” được viết là 1/17.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-358793f9abe697f7",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t2",
+    "fingerprint": "ac5e3d758efb46f4fa2cfc40352a44c9",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “ba phần năm”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 5,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“ba phần năm” được viết là 3/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-87af602fa33b566c",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t3",
+    "fingerprint": "48090a827ade51c09cf76ee4b79e2080",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “ba phần mười”.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3/11"
+      },
+      {
+        "id": "option-2",
+        "label": "3/10"
+      },
+      {
+        "id": "option-3",
+        "label": "4/10"
+      },
+      {
+        "id": "option-4",
+        "label": "10/3"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“ba phần mười” được viết là 3/10.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-dc59e943d8235f05",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t4",
+    "fingerprint": "fc38c172d112469406ff4c9dd4ee4f0b",
+    "generatorParams": {
+      "numerator": 9,
+      "denominator": 15
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “chín phần 15”. Bạn An cho rằng đáp án là 15/9. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“chín phần 15” được viết là 9/15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-146113e2c986ba2e",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t5",
+    "fingerprint": "426872dafc60d7ebb136dffe7242b2db",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “một phần ba”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 3,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“một phần ba” được viết là 1/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-fbfc8046f5b6a0a2",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t1",
+    "fingerprint": "46757fd7e4c854700b5c6143928ecd6f",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “hai phần ba”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 3,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“hai phần ba” được viết là 2/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-a464e3552366e74b",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t2",
+    "fingerprint": "51faf68aaaf0e1fb49507ee278a585c0",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “sáu phần tám”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 8,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“sáu phần tám” được viết là 6/8.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-863dcc3f8fc7e6c9",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t3",
+    "fingerprint": "8fd34a926cba5345eb5d024afa3d9932",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 13
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “mười phần 13”.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "10/14"
+      },
+      {
+        "id": "option-2",
+        "label": "11/13"
+      },
+      {
+        "id": "option-3",
+        "label": "13/10"
+      },
+      {
+        "id": "option-4",
+        "label": "10/13"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“mười phần 13” được viết là 10/13.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-5ce47a1d5dd74fe9",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t4",
+    "fingerprint": "4c62f16c17975d12435c39aeda976ecc",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 18
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “bảy phần 18”. Bạn An cho rằng đáp án là 7/18. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“bảy phần 18” được viết là 7/18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-5bd35042ebc8367c",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t5",
+    "fingerprint": "a135fadc4f75bbf9aca932156078ce94",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “một phần sáu”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“một phần sáu” được viết là 1/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-6fb85188d3d676ee",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t1",
+    "fingerprint": "17e80a3c24cf87afb5365dc21bd9209c",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “bốn phần sáu”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“bốn phần sáu” được viết là 4/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-e25c42828031ff9b",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t2",
+    "fingerprint": "c1f20ff04a117252cc98744753fc4be3",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 11
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “một phần mười một”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 11,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“một phần mười một” được viết là 1/11.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-57b2a1caed5b1fa3",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t3",
+    "fingerprint": "d2c108eb56b325474c301e6c8ca8bd4f",
+    "generatorParams": {
+      "numerator": 8,
+      "denominator": 16
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “tám phần 16”.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "9/16"
+      },
+      {
+        "id": "option-2",
+        "label": "8/17"
+      },
+      {
+        "id": "option-3",
+        "label": "16/8"
+      },
+      {
+        "id": "option-4",
+        "label": "8/16"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“tám phần 16” được viết là 8/16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-f3f222cad0678ede",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t4",
+    "fingerprint": "951645b142f1e0fca1f9801ccb01ac51",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “một phần bốn”. Bạn An cho rằng đáp án là 4/1. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“một phần bốn” được viết là 1/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-c2a61d4aead41ae7",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t5",
+    "fingerprint": "a80080fe12912890081c7cda0bf66cc4",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “ba phần chín”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 9,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“ba phần chín” được viết là 3/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-961c44a477c57335",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t1",
+    "fingerprint": "a15914b1edd92080821b617cda249629",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “bốn phần chín”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 9,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“bốn phần chín” được viết là 4/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-f76cc7651ec24001",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t2",
+    "fingerprint": "e87c17860c0853b4d87428c45a495450",
+    "generatorParams": {
+      "numerator": 9,
+      "denominator": 14
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “chín phần 14”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 9,
+      "denominator": 14,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“chín phần 14” được viết là 9/14.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-04e11f48abe9e88c",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t3",
+    "fingerprint": "0d2312b4949ebbc2c18a393fd715e90e",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 19
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “sáu phần 19”.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "6/20"
+      },
+      {
+        "id": "option-2",
+        "label": "6/19"
+      },
+      {
+        "id": "option-3",
+        "label": "19/6"
+      },
+      {
+        "id": "option-4",
+        "label": "7/19"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“sáu phần 19” được viết là 6/19.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-aa59d59daea8976e",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t4",
+    "fingerprint": "0fd72ea705ccd08308cac0773e1f58e6",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “hai phần bảy”. Bạn An cho rằng đáp án là 2/7. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“hai phần bảy” được viết là 2/7.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-b298496c3a712a11",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t5",
+    "fingerprint": "49765fd9f6e17c917ac1738b9f090847",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 12
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “sáu phần mười hai”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 12,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“sáu phần mười hai” được viết là 6/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-36a5a2db8f79d892",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t1",
+    "fingerprint": "f0e33fa6c10864e847a4f21a759404e3",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 12
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “mười phần mười hai”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 10,
+      "denominator": 12,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“mười phần mười hai” được viết là 10/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-08048f61127c1372",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t2",
+    "fingerprint": "122b3fb6a7fb5daba3c805b436388a3b",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 17
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “bảy phần 17”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 7,
+      "denominator": 17,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“bảy phần 17” được viết là 7/17.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-95de1706e1437879",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t3",
+    "fingerprint": "850b3c986fe74f6fb282e90499b89021",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “một phần năm”.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1/5"
+      },
+      {
+        "id": "option-2",
+        "label": "5/1"
+      },
+      {
+        "id": "option-3",
+        "label": "2/5"
+      },
+      {
+        "id": "option-4",
+        "label": "1/6"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“một phần năm” được viết là 1/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-c708ef459f5d90ca",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t4",
+    "fingerprint": "a86de629e3b8633fa5411a89aecb56e5",
+    "generatorParams": {
+      "numerator": 9,
+      "denominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “chín phần mười”. Bạn An cho rằng đáp án là 10/9. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“chín phần mười” được viết là 9/10.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-write-fractions-6c3330a856561500",
+    "contentVersion": "grade4-v3",
+    "templateId": "write-fractions-t5",
+    "fingerprint": "2ff4004db6c0cbf0817d5fed175ac354",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 15
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "write-fractions-skill",
+    "problemTypeId": "write-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết phân số được đọc là “một phần 15”.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 15,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Viết tử số ở trên và mẫu số ở dưới gạch phân số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "“một phần 15” được viết là 1/15.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

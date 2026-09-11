@@ -1,63 +1,69 @@
-import type { CurriculumTopic } from '@math-app/shared';
 import { useQuery } from '@tanstack/react-query';
-import { ArrowRight, BookOpen, Ruler, Shapes } from 'lucide-react';
+import { ArrowRight, RefreshCw } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { getCurriculumTopics } from '../api/client';
+import { getGradeCatalog } from '../api/client';
 import { PageContainer } from '../components/PageContainer';
+import { buildWeakSkillRecommendations } from '../features/progress/practiceRecommendations';
+import { localProgressRepository } from '../features/progress/progressRepository';
 
-const fallbackTopics: CurriculumTopic[] = [
-  { id: 'division', name: 'Phép chia', skill: 'Chia cho số có một chữ số' },
-  { id: 'measurement', name: 'Đổi đơn vị đo', skill: 'Độ dài và khối lượng' },
-  { id: 'word-problems', name: 'Bài toán có lời văn', skill: 'Tìm phép tính phù hợp' },
+const defaultReviewIds = [
+  'divide-one-digit-skill',
+  'length-conversion-skill',
+  'equal-groups-skill',
 ];
 
-const icons = [Shapes, Ruler, BookOpen];
-
 export function ReviewPage() {
-  const topicsQuery = useQuery({
-    queryKey: ['curriculum-topics'],
-    queryFn: getCurriculumTopics,
+  const catalogQuery = useQuery({
+    queryKey: ['grade-catalog', 4],
+    queryFn: () => getGradeCatalog(4),
   });
-  const topics = topicsQuery.data ?? fallbackTopics;
+  const progress = localProgressRepository.getSummary();
+  const weakProblemTypes = catalogQuery.data
+    ? buildWeakSkillRecommendations(progress, catalogQuery.data)
+    : [];
+  const problemTypes =
+    weakProblemTypes.length > 0
+      ? weakProblemTypes.slice(0, 4)
+      : (catalogQuery.data?.problemTypes ?? []).filter((item) =>
+          defaultReviewIds.includes(item.skillId),
+        );
 
   return (
     <PageContainer>
-      <header className="page-intro">
-        <span className="page-kicker">Ôn tập</span>
+      <header className={'page-intro'}>
+        <span className={'page-kicker'}>Ôn phần em còn yếu</span>
         <h1>Mỗi ngày vững hơn một chút</h1>
-        <p>Đây là những phần em nên luyện lại. Mình bắt đầu từ bài ngắn nhé.</p>
+        <p>
+          {weakProblemTypes.length > 0
+            ? 'Các dạng dưới đây dựa trên những lần em đã thử.'
+            : 'Em chưa có nhiều lượt luyện, nên mình bắt đầu bằng ba kỹ năng nền tảng.'}
+        </p>
       </header>
-      {topicsQuery.isLoading ? (
-        <div className="loading-list" aria-label="Đang tải nội dung ôn tập">
-          <span />
-          <span />
-          <span />
-        </div>
-      ) : (
-        <div className="review-list">
-          {topics.map((topic, index) => {
-            const Icon = icons[index % icons.length] ?? BookOpen;
-            return (
-              <article className="review-row" key={topic.id}>
-                <span className="review-icon">
-                  <Icon size={24} aria-hidden="true" />
-                </span>
-                <div>
-                  <h2>{topic.name}</h2>
-                  <p>{topic.skill}</p>
-                </div>
-                <span className="practice-length">5 phút</span>
-                <Link to="/learn/session" aria-label={'Luyện ' + topic.name}>
-                  Luyện ngay <ArrowRight size={18} aria-hidden="true" />
-                </Link>
-              </article>
-            );
-          })}
+      <div className={'review-list'}>
+        {problemTypes.map((problemType) => (
+          <article className={'review-row'} key={problemType.id}>
+            <span className={'review-icon'}>
+              <RefreshCw size={24} aria-hidden={'true'} />
+            </span>
+            <div>
+              <h2>{problemType.name}</h2>
+              <p>{problemType.description}</p>
+            </div>
+            <span className={'practice-length'}>5 câu</span>
+            <Link to={`/practice?types=${problemType.id}&difficulty=MEDIUM&mode=REVIEW&count=5`}>
+              Ôn ngay <ArrowRight size={18} />
+            </Link>
+          </article>
+        ))}
+      </div>
+      {catalogQuery.isLoading && (
+        <div className={'catalog-loading'} role={'status'}>
+          Đang chuẩn bị gợi ý ôn tập…
         </div>
       )}
-      {topicsQuery.isError && (
-        <p className="gentle-status" role="status">
-          Đang hiển thị kế hoạch ôn tập có sẵn.
+      {catalogQuery.isError && (
+        <p className={'gentle-status'} role={'status'}>
+          Chưa tải được danh sách ôn tập. Em thử lại sau nhé.
         </p>
       )}
     </PageContainer>

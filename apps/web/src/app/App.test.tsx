@@ -1,7 +1,8 @@
 import type { DemoProblem } from '@math-app/shared';
-import { cleanup, render, screen } from '@testing-library/react';
+import { cleanup, render, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { catalogFixture } from '../test/fixtures';
 import { App } from './App';
 
 const demoProblem: DemoProblem = {
@@ -22,14 +23,16 @@ beforeEach(() => {
   window.history.replaceState(null, '', '/');
   vi.stubGlobal(
     'fetch',
-    vi.fn(async () =>
-      Promise.resolve(
-        new Response(JSON.stringify(demoProblem), {
+    vi.fn(async (input: RequestInfo | URL) => {
+      const url = typeof input === 'string' ? input : input instanceof URL ? input.href : input.url;
+      const body = url.includes('/grades/4/catalog') ? catalogFixture : demoProblem;
+      return Promise.resolve(
+        new Response(JSON.stringify(body), {
           status: 200,
           headers: { 'Content-Type': 'application/json' },
         }),
-      ),
-    ),
+      );
+    }),
   );
 });
 
@@ -42,10 +45,28 @@ describe('student frontend', () => {
   it('renders the four primary home actions', () => {
     render(<App />);
 
-    expect(screen.getByRole('link', { name: /Chụp bài toán/i })).toBeInTheDocument();
-    expect(screen.getByRole('link', { name: /Nhập bài toán/i })).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /Giải bài/i })).toBeInTheDocument();
+    expect(screen.getAllByRole('link', { name: /Học theo dạng/i }).length).toBeGreaterThan(0);
     expect(screen.getByRole('link', { name: /Bài tập hôm nay/i })).toBeInTheDocument();
     expect(screen.getByRole('link', { name: /Ôn phần em còn yếu/i })).toBeInTheDocument();
+  });
+
+  it('renders the home slider and learning choices as the reference card system', () => {
+    render(<App />);
+
+    const slider = screen.getByRole('region', { name: 'Khám phá Toán lớp 4' });
+    expect(within(slider).getByRole('img', { name: 'Minh sẵn sàng học Toán' })).toHaveAttribute(
+      'src',
+      '/assets/redesign/home-hero-wide.webp',
+    );
+    expect(within(slider).getByRole('link', { name: /Học từng bước/i })).toHaveClass(
+      'button',
+      'button-primary',
+      'button-large',
+    );
+
+    const choices = screen.getByRole('list', { name: 'Cách bắt đầu học' });
+    expect(within(choices).getAllByRole('listitem')).toHaveLength(4);
   });
 
   it('accepts a text problem and starts a learning session', async () => {
@@ -95,8 +116,19 @@ describe('student frontend', () => {
       name: 'Điều hướng chính trên điện thoại',
     });
     expect(mobileNav).toHaveTextContent('Trang chủ');
-    expect(mobileNav).toHaveTextContent('Giải bài');
+    expect(mobileNav).toHaveTextContent('Học theo dạng');
     expect(mobileNav).toHaveTextContent('Ôn tập');
     expect(mobileNav).toHaveTextContent('Của em');
+  });
+
+  it('uses the dedicated parent navigation shell without the child mobile navigation', () => {
+    window.history.replaceState(null, '', '/parent');
+    render(<App />);
+
+    expect(screen.getByRole('main')).toHaveTextContent('Theo dõi việc học của Minh');
+    expect(screen.getByRole('navigation', { name: 'Điều hướng chính' })).toHaveClass('parent-nav');
+    expect(
+      screen.queryByRole('navigation', { name: 'Điều hướng chính trên điện thoại' }),
+    ).not.toBeInTheDocument();
   });
 });

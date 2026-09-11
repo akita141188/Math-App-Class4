@@ -1,0 +1,6662 @@
+[
+  {
+    "id": "g4-compare-numbers-ddad5482698de9a9",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t1",
+    "fingerprint": "995a435603303ddc5b35f7cf25e47194",
+    "generatorParams": {
+      "left": 104103,
+      "right": 104123
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 104.103 hay 104.123?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 104123
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "104.123 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-bea18a0f63220c87",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t2",
+    "fingerprint": "6a88465e31936576df97256a8e0ef2a5",
+    "generatorParams": {
+      "left": 104240,
+      "right": 104220
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 104.240 hay 104.220?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 104240
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "104.240 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-43c216bb707c5e35",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t3",
+    "fingerprint": "41a94f9df3432a3498d0be9136216247",
+    "generatorParams": {
+      "left": 104377,
+      "right": 104397
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 104.377 hay 104.397?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "104397"
+      },
+      {
+        "id": "option-2",
+        "label": "104297"
+      },
+      {
+        "id": "option-3",
+        "label": "104597"
+      },
+      {
+        "id": "option-4",
+        "label": "104497"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "104.397 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-e4a2c86689efd02c",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t4",
+    "fingerprint": "0e29da6b553e750f9b86d3a2f8235c9c",
+    "generatorParams": {
+      "left": 104514,
+      "right": 104494
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 104.514 hay 104.494? Bạn An cho rằng đáp án là 104514. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "104.514 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-b503a2e25a524ca6",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t5",
+    "fingerprint": "a05c9526e63b7fc707fe3d00529a8e5e",
+    "generatorParams": {
+      "left": 104651,
+      "right": 104671
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 104.651 hay 104.671?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 104671
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "104.671 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-d350fb177806d15a",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t1",
+    "fingerprint": "a9e66105c424fc4aae0f45eca0ad6533",
+    "generatorParams": {
+      "left": 108206,
+      "right": 108233
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 108.206 hay 108.233?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 108233
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "108.233 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-e6438894e741ecd5",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t2",
+    "fingerprint": "cc99096468ce6ebc8e62bb65990139aa",
+    "generatorParams": {
+      "left": 108343,
+      "right": 108316
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 108.343 hay 108.316?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 108343
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "108.343 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-344a18eb6e4818b7",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t3",
+    "fingerprint": "51357213d089597c35f2b5702e343cc3",
+    "generatorParams": {
+      "left": 108480,
+      "right": 108507
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 108.480 hay 108.507?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "108607"
+      },
+      {
+        "id": "option-2",
+        "label": "108507"
+      },
+      {
+        "id": "option-3",
+        "label": "108407"
+      },
+      {
+        "id": "option-4",
+        "label": "108707"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "108.507 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-87feaa57c923cf9a",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t4",
+    "fingerprint": "8920176fa57f6d413c1020fa6bd679ec",
+    "generatorParams": {
+      "left": 108617,
+      "right": 108590
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 108.617 hay 108.590? Bạn An cho rằng đáp án là 108717. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "108.617 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-1c2fa7a705dd3108",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t5",
+    "fingerprint": "4b390b3631a41d4ea35183f94d1473e7",
+    "generatorParams": {
+      "left": 108754,
+      "right": 108781
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 108.754 hay 108.781?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 108781
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "108.781 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-2582dfa480ae9924",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t1",
+    "fingerprint": "f3d929cbda9f17d33bcf2a4604607bd0",
+    "generatorParams": {
+      "left": 112309,
+      "right": 112343
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 112.309 hay 112.343?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 112343
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "112.343 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-905cf21e73949153",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t2",
+    "fingerprint": "10098f0809b5e930e6bd7ee87fd0bffa",
+    "generatorParams": {
+      "left": 112446,
+      "right": 112412
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 112.446 hay 112.412?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 112446
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "112.446 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-09fafd29a01be758",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t3",
+    "fingerprint": "87a028bf2e2badf457622047b5ce4e4b",
+    "generatorParams": {
+      "left": 112583,
+      "right": 112617
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 112.583 hay 112.617?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "112517"
+      },
+      {
+        "id": "option-2",
+        "label": "112817"
+      },
+      {
+        "id": "option-3",
+        "label": "112717"
+      },
+      {
+        "id": "option-4",
+        "label": "112617"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "112.617 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-5bfa78076a4ae6e0",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t4",
+    "fingerprint": "695a1d8f7402efc1c81f123d23566396",
+    "generatorParams": {
+      "left": 112720,
+      "right": 112686
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 112.720 hay 112.686? Bạn An cho rằng đáp án là 112720. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "112.720 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-e8d903cc0eca0b1c",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t5",
+    "fingerprint": "1ce507eebaa6fc8822d40a0dabd77526",
+    "generatorParams": {
+      "left": 112857,
+      "right": 112891
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 112.857 hay 112.891?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 112891
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "112.891 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-f6d892ceec3134ba",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t1",
+    "fingerprint": "709ae110644dc849ccce873b17b84347",
+    "generatorParams": {
+      "left": 116412,
+      "right": 116453
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 116.412 hay 116.453?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 116453
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "116.453 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-84eec701e23c3d30",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t2",
+    "fingerprint": "2afa72f23d9d1db47c231594c4359559",
+    "generatorParams": {
+      "left": 116549,
+      "right": 116508
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 116.549 hay 116.508?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 116549
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "116.549 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-61faf2ef6ee97b3a",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t3",
+    "fingerprint": "c915c830ef2e2297f36fcf6296337155",
+    "generatorParams": {
+      "left": 116686,
+      "right": 116727
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 116.686 hay 116.727?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "116727"
+      },
+      {
+        "id": "option-2",
+        "label": "116927"
+      },
+      {
+        "id": "option-3",
+        "label": "116627"
+      },
+      {
+        "id": "option-4",
+        "label": "116827"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "116.727 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-617c4a8db4a8d7f9",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t4",
+    "fingerprint": "bad4d25385fc90615052bbbda237804d",
+    "generatorParams": {
+      "left": 116823,
+      "right": 116782
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 116.823 hay 116.782? Bạn An cho rằng đáp án là 116923. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "116.823 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-964c6bca415a4c82",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t5",
+    "fingerprint": "3a3a08423e309baa01917c8033de8aa9",
+    "generatorParams": {
+      "left": 116960,
+      "right": 117001
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 116.960 hay 117.001?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 117001
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "117.001 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-3d9c5bdb6202ae30",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t1",
+    "fingerprint": "97bfd0874d541616ac9811594fac6303",
+    "generatorParams": {
+      "left": 120515,
+      "right": 120563
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 120.515 hay 120.563?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 120563
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "120.563 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-ddf4260a6d7f280b",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t2",
+    "fingerprint": "d08e131c677ad6e5d80a37e4917d6d82",
+    "generatorParams": {
+      "left": 120652,
+      "right": 120604
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 120.652 hay 120.604?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 120652
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "120.652 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-27e381acb89a73be",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t3",
+    "fingerprint": "5af9ed493acf6697f1fd3cb591fb0cc7",
+    "generatorParams": {
+      "left": 120789,
+      "right": 120837
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 120.789 hay 120.837?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "120937"
+      },
+      {
+        "id": "option-2",
+        "label": "120837"
+      },
+      {
+        "id": "option-3",
+        "label": "121037"
+      },
+      {
+        "id": "option-4",
+        "label": "120737"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "120.837 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-c0a43593f1283da9",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t4",
+    "fingerprint": "3e20f2f20f3f05e9d166e47090a8ce69",
+    "generatorParams": {
+      "left": 120926,
+      "right": 120878
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 120.926 hay 120.878? Bạn An cho rằng đáp án là 120926. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "120.926 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-21e0b7c88ce9dcfa",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t5",
+    "fingerprint": "747bf7b1f36afecbdf60bf687fe1553e",
+    "generatorParams": {
+      "left": 121063,
+      "right": 121111
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 121.063 hay 121.111?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 121111
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "121.111 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-62ba1d957e966146",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t1",
+    "fingerprint": "b0cc49a8a86cc2167dac73ff0a343233",
+    "generatorParams": {
+      "left": 1124618,
+      "right": 1124673
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.124.618 hay 1.124.673?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1124673
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.124.673 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-f8836a1461be3841",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t2",
+    "fingerprint": "93273b549ca87979fa69492910a66003",
+    "generatorParams": {
+      "left": 1124755,
+      "right": 1124700
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.124.755 hay 1.124.700?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1124755
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.124.755 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-95a6b201ad23de01",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t3",
+    "fingerprint": "12989d8efc37eb84ba09cc6888567238",
+    "generatorParams": {
+      "left": 1124892,
+      "right": 1124947
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.124.892 hay 1.124.947?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1125047"
+      },
+      {
+        "id": "option-2",
+        "label": "1124947"
+      },
+      {
+        "id": "option-3",
+        "label": "1124847"
+      },
+      {
+        "id": "option-4",
+        "label": "1125147"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.124.947 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-672aae6d90029007",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t4",
+    "fingerprint": "45fd4062753a9bd4bd8d223c7e373c35",
+    "generatorParams": {
+      "left": 1125029,
+      "right": 1124974
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.125.029 hay 1.124.974? Bạn An cho rằng đáp án là 1125129. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.125.029 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-755364dd09e45bc0",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t5",
+    "fingerprint": "104c27ee1bc9da1ed2fcd726c8a2ef48",
+    "generatorParams": {
+      "left": 1125166,
+      "right": 1125221
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.125.166 hay 1.125.221?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1125221
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.125.221 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-9878edfc51422f9f",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t1",
+    "fingerprint": "63df489f295cf2d019112906426f9bfa",
+    "generatorParams": {
+      "left": 1128721,
+      "right": 1128783
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.128.721 hay 1.128.783?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1128783
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.128.783 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-6958ca1d398f6701",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t2",
+    "fingerprint": "c2f760346b8274645e11aed7a388b905",
+    "generatorParams": {
+      "left": 1128858,
+      "right": 1128796
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.128.858 hay 1.128.796?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1128858
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.128.858 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-c312a36f4eec0aad",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t3",
+    "fingerprint": "a0f8c4522c307d99a7208f5379106a8c",
+    "generatorParams": {
+      "left": 1128995,
+      "right": 1129057
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.128.995 hay 1.129.057?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1128957"
+      },
+      {
+        "id": "option-2",
+        "label": "1129057"
+      },
+      {
+        "id": "option-3",
+        "label": "1129157"
+      },
+      {
+        "id": "option-4",
+        "label": "1129257"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.129.057 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-437b0476137822d5",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t4",
+    "fingerprint": "da51b7b9a27a064aa2637fc1f24ee5c5",
+    "generatorParams": {
+      "left": 1129132,
+      "right": 1129070
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.129.132 hay 1.129.070? Bạn An cho rằng đáp án là 1129132. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.129.132 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-f19827f3f6422620",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t5",
+    "fingerprint": "fcecde318b6f66bb351a7f9e98939c8e",
+    "generatorParams": {
+      "left": 1129269,
+      "right": 1129331
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.129.269 hay 1.129.331?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1129331
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.129.331 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-08e8a7d4fe147611",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t1",
+    "fingerprint": "8779b841f88da91470c9fea972786107",
+    "generatorParams": {
+      "left": 1132824,
+      "right": 1132893
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.132.824 hay 1.132.893?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1132893
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.132.893 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-41ac62152d913a43",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t2",
+    "fingerprint": "02576990abb89fac862b4ff34322dd34",
+    "generatorParams": {
+      "left": 1132961,
+      "right": 1132892
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.132.961 hay 1.132.892?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1132961
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.132.961 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-c1e11d1059d184af",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t3",
+    "fingerprint": "e16edf11956cc0a45c2cc7f08af7c963",
+    "generatorParams": {
+      "left": 1133098,
+      "right": 1133167
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.133.098 hay 1.133.167?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1133267"
+      },
+      {
+        "id": "option-2",
+        "label": "1133367"
+      },
+      {
+        "id": "option-3",
+        "label": "1133067"
+      },
+      {
+        "id": "option-4",
+        "label": "1133167"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.133.167 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-f47b8f2bfb01cfa4",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t4",
+    "fingerprint": "ee86a71766f4ed6137154c43f81f0d5b",
+    "generatorParams": {
+      "left": 1133235,
+      "right": 1133166
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.133.235 hay 1.133.166? Bạn An cho rằng đáp án là 1133335. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.133.235 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-5fbe85664e8b8ced",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t5",
+    "fingerprint": "1ad580a6d498e57d572346123221a55c",
+    "generatorParams": {
+      "left": 1133372,
+      "right": 1133441
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.133.372 hay 1.133.441?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1133441
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.133.441 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-ec8509a556e78140",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t1",
+    "fingerprint": "f9e797e75a4cca66149b56d7f1314638",
+    "generatorParams": {
+      "left": 1136927,
+      "right": 1137003
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.136.927 hay 1.137.003?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1137003
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.137.003 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-1d54f95e0029cbcd",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t2",
+    "fingerprint": "128bb2b4fb7ebfd4eaeef3bd7529741b",
+    "generatorParams": {
+      "left": 1137064,
+      "right": 1136988
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.137.064 hay 1.136.988?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1137064
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.137.064 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-0b8c16a7ddab5bf0",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t3",
+    "fingerprint": "62b929ed6eed8a65961578cbe48a05f0",
+    "generatorParams": {
+      "left": 1137201,
+      "right": 1137277
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.137.201 hay 1.137.277?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1137377"
+      },
+      {
+        "id": "option-2",
+        "label": "1137277"
+      },
+      {
+        "id": "option-3",
+        "label": "1137177"
+      },
+      {
+        "id": "option-4",
+        "label": "1137477"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.137.277 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-7b093a8079f0fdc6",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t4",
+    "fingerprint": "7bf5af6e62f2e5e2facf8428d03d6216",
+    "generatorParams": {
+      "left": 1137338,
+      "right": 1137262
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.137.338 hay 1.137.262? Bạn An cho rằng đáp án là 1137338. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.137.338 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-c7ccc43f5aa9b14e",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t5",
+    "fingerprint": "b39d3b2a36e389afbd87a6ad3e57d2dc",
+    "generatorParams": {
+      "left": 1137475,
+      "right": 1137551
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.137.475 hay 1.137.551?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1137551
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.137.551 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-69f00839a7ce2e73",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t1",
+    "fingerprint": "82031d55c071113024c64fcae9dbcaaa",
+    "generatorParams": {
+      "left": 1141030,
+      "right": 1141113
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.141.030 hay 1.141.113?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1141113
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.141.113 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-41936773fcc087c9",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t2",
+    "fingerprint": "e2115a3924019aa1e1cb47f3f6f68f6e",
+    "generatorParams": {
+      "left": 1141167,
+      "right": 1141084
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.141.167 hay 1.141.084?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1141167
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.141.167 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-5495961ce324c70b",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t3",
+    "fingerprint": "db2e8e47172fa73f6c10360822defacf",
+    "generatorParams": {
+      "left": 1141304,
+      "right": 1141387
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.141.304 hay 1.141.387?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1141587"
+      },
+      {
+        "id": "option-2",
+        "label": "1141387"
+      },
+      {
+        "id": "option-3",
+        "label": "1141287"
+      },
+      {
+        "id": "option-4",
+        "label": "1141487"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.141.387 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-524fefa19fef8e50",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t4",
+    "fingerprint": "fac27c5b94d07c36d3f1682c8465289f",
+    "generatorParams": {
+      "left": 1141441,
+      "right": 1141358
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.141.441 hay 1.141.358? Bạn An cho rằng đáp án là 1141541. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.141.441 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-f47ebba7cdd05433",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t5",
+    "fingerprint": "ed8d232a447df16d4b635d62962b0981",
+    "generatorParams": {
+      "left": 1141578,
+      "right": 1141661
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.141.578 hay 1.141.661?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1141661
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.141.661 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-c4fc569fc9b7d047",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t1",
+    "fingerprint": "8a4a1bae2743470a346a2ec842f9720d",
+    "generatorParams": {
+      "left": 1145133,
+      "right": 1145223
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.145.133 hay 1.145.223?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1145223
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.145.223 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-3ebe1b836f089516",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t2",
+    "fingerprint": "5ece27df6f126949e9942c4eb09055e4",
+    "generatorParams": {
+      "left": 1145270,
+      "right": 1145180
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.145.270 hay 1.145.180?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1145270
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.145.270 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-5c5fade6777231cd",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t3",
+    "fingerprint": "1d53a5637290df8030cac57694b4c7df",
+    "generatorParams": {
+      "left": 1145407,
+      "right": 1145497
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.145.407 hay 1.145.497?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1145397"
+      },
+      {
+        "id": "option-2",
+        "label": "1145697"
+      },
+      {
+        "id": "option-3",
+        "label": "1145597"
+      },
+      {
+        "id": "option-4",
+        "label": "1145497"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.145.497 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-61badac4b8dfaa48",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t4",
+    "fingerprint": "15e6db8181d538b4e97c42aab04d927a",
+    "generatorParams": {
+      "left": 1145544,
+      "right": 1145454
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.145.544 hay 1.145.454? Bạn An cho rằng đáp án là 1145544. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.145.544 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-ff915c58f4b80580",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t5",
+    "fingerprint": "1496c43ea0f21e6cb3c2dea4a14dd971",
+    "generatorParams": {
+      "left": 1145681,
+      "right": 1145771
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.145.681 hay 1.145.771?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1145771
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.145.771 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-aa4670507309180f",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t1",
+    "fingerprint": "50510395c0a1acb116551c6c3e54283f",
+    "generatorParams": {
+      "left": 1149236,
+      "right": 1149333
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.149.236 hay 1.149.333?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1149333
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.149.333 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-68346372c349570e",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t2",
+    "fingerprint": "353f89779ea7c737f10b4a8b9fa5fbf8",
+    "generatorParams": {
+      "left": 1149373,
+      "right": 1149276
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.149.373 hay 1.149.276?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1149373
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.149.373 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-9a551a102f21d848",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t3",
+    "fingerprint": "26f915b5f4a989492bf0dceff9d13b09",
+    "generatorParams": {
+      "left": 1149510,
+      "right": 1149607
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.149.510 hay 1.149.607?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1149707"
+      },
+      {
+        "id": "option-2",
+        "label": "1149507"
+      },
+      {
+        "id": "option-3",
+        "label": "1149607"
+      },
+      {
+        "id": "option-4",
+        "label": "1149807"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.149.607 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-8a9f3586e0d7f38f",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t4",
+    "fingerprint": "aecd716f1c8edc60164201b142ba3002",
+    "generatorParams": {
+      "left": 1149647,
+      "right": 1149550
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.149.647 hay 1.149.550? Bạn An cho rằng đáp án là 1149747. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.149.647 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-3a75654bd05f12b5",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t5",
+    "fingerprint": "26f42a6f901fdded355b7d62faeb8760",
+    "generatorParams": {
+      "left": 1149784,
+      "right": 1149881
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.149.784 hay 1.149.881?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1149881
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.149.881 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-52fcb62b4a1ad850",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t1",
+    "fingerprint": "2646323baeea2be71e0b5f0d9562ae69",
+    "generatorParams": {
+      "left": 1153339,
+      "right": 1153443
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.153.339 hay 1.153.443?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1153443
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.153.443 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-95ffafdbdab9c6b8",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t2",
+    "fingerprint": "828e18881a1c83cb75d99ed35b01cfdb",
+    "generatorParams": {
+      "left": 1153476,
+      "right": 1153372
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.153.476 hay 1.153.372?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1153476
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.153.476 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-61a0ef92044f4f39",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t3",
+    "fingerprint": "ef30f907b4eaa3bfa239d27abe1bd7ea",
+    "generatorParams": {
+      "left": 1153613,
+      "right": 1153717
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.153.613 hay 1.153.717?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1153617"
+      },
+      {
+        "id": "option-2",
+        "label": "1153717"
+      },
+      {
+        "id": "option-3",
+        "label": "1153917"
+      },
+      {
+        "id": "option-4",
+        "label": "1153817"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.153.717 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-4b4b0aceeaa506f5",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t4",
+    "fingerprint": "143a748c856c22697132364073193b7c",
+    "generatorParams": {
+      "left": 1153750,
+      "right": 1153646
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.153.750 hay 1.153.646? Bạn An cho rằng đáp án là 1153750. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.153.750 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-389d3a0ea46dc214",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t5",
+    "fingerprint": "4431a86037e4742ffa44fd10ab152a07",
+    "generatorParams": {
+      "left": 1153887,
+      "right": 1153991
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.153.887 hay 1.153.991?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1153991
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.153.991 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-6d1c144f3f561c46",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t1",
+    "fingerprint": "9edaa0947e8c8a11506c17ea7c0bb7ec",
+    "generatorParams": {
+      "left": 1157442,
+      "right": 1157553
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.157.442 hay 1.157.553?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1157553
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.157.553 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-4f6a38182eaeb840",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t2",
+    "fingerprint": "d777544a1808ba6d46518f9c3d4bafa9",
+    "generatorParams": {
+      "left": 1157579,
+      "right": 1157468
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.157.579 hay 1.157.468?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1157579
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.157.579 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-72d57320987c7510",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t3",
+    "fingerprint": "31a3a8d82605c8972cfa72d2788a5709",
+    "generatorParams": {
+      "left": 1157716,
+      "right": 1157827
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.157.716 hay 1.157.827?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1157827"
+      },
+      {
+        "id": "option-2",
+        "label": "1158027"
+      },
+      {
+        "id": "option-3",
+        "label": "1157927"
+      },
+      {
+        "id": "option-4",
+        "label": "1157727"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.157.827 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-3bc68684f7a42bf7",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t4",
+    "fingerprint": "cd8902e5b44d8ed7577d06e19ff63d61",
+    "generatorParams": {
+      "left": 1157853,
+      "right": 1157742
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.157.853 hay 1.157.742? Bạn An cho rằng đáp án là 1157953. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.157.853 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-2380cc7ac9c06e40",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t5",
+    "fingerprint": "4792a6bd58edb76c468ea0a66895dc9a",
+    "generatorParams": {
+      "left": 1157990,
+      "right": 1158101
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.157.990 hay 1.158.101?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1158101
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.158.101 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-567f8c26052deb95",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t1",
+    "fingerprint": "97abfa25f0585f1f5178f89e00e78657",
+    "generatorParams": {
+      "left": 1161545,
+      "right": 1161663
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.161.545 hay 1.161.663?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1161663
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.161.663 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-5a3885a6e6c95b95",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t2",
+    "fingerprint": "f7aaa55ae28c5ff2fd8aaa888d135773",
+    "generatorParams": {
+      "left": 1161682,
+      "right": 1161564
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.161.682 hay 1.161.564?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1161682
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.161.682 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-f799bf829c35586c",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t3",
+    "fingerprint": "ccdc0e98b36cda179ca3580671b116ea",
+    "generatorParams": {
+      "left": 1161819,
+      "right": 1161937
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.161.819 hay 1.161.937?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1161937"
+      },
+      {
+        "id": "option-2",
+        "label": "1162037"
+      },
+      {
+        "id": "option-3",
+        "label": "1162137"
+      },
+      {
+        "id": "option-4",
+        "label": "1161837"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.161.937 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-369028b3a6497160",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t4",
+    "fingerprint": "2b7650edd9599450ae4517e0af2f91d2",
+    "generatorParams": {
+      "left": 1161956,
+      "right": 1161838
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.161.956 hay 1.161.838? Bạn An cho rằng đáp án là 1161956. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.161.956 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-8cb419393921c2ec",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t5",
+    "fingerprint": "e8a08545791db45eadc35c5d81db48b3",
+    "generatorParams": {
+      "left": 1162093,
+      "right": 1162211
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 1.162.093 hay 1.162.211?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1162211
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.162.211 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-5a850e73da21677b",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t1",
+    "fingerprint": "9cdc98dd97050810463ebe11d3db14a7",
+    "generatorParams": {
+      "left": 2165648,
+      "right": 2165773
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 2.165.648 hay 2.165.773?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2165773
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.165.773 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-99e477a9686b7136",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t2",
+    "fingerprint": "b3d7559a5acbb5932df1ad7ff61cf5d8",
+    "generatorParams": {
+      "left": 2165785,
+      "right": 2165660
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 2.165.785 hay 2.165.660?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2165785
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.165.785 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-a10a9c589cbabe66",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t3",
+    "fingerprint": "ee0cdf6425cbe49c4eb66366bf8b0617",
+    "generatorParams": {
+      "left": 2165922,
+      "right": 2166047
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 2.165.922 hay 2.166.047?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2166247"
+      },
+      {
+        "id": "option-2",
+        "label": "2166147"
+      },
+      {
+        "id": "option-3",
+        "label": "2166047"
+      },
+      {
+        "id": "option-4",
+        "label": "2165947"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.166.047 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-3d4268fa8de32e58",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t4",
+    "fingerprint": "6c3f86403df567af7e82f4d73566a600",
+    "generatorParams": {
+      "left": 2166059,
+      "right": 2165934
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 2.166.059 hay 2.165.934? Bạn An cho rằng đáp án là 2166159. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.166.059 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-adc5a863f72cccc8",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t5",
+    "fingerprint": "9ffc853b1af2665b1b1a8f6b5d1b4ded",
+    "generatorParams": {
+      "left": 2166196,
+      "right": 2166321
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 2.166.196 hay 2.166.321?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2166321
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.166.321 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-42c30248dfb75f0e",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t1",
+    "fingerprint": "db8a0992363012da6d26c262c27c4020",
+    "generatorParams": {
+      "left": 2169751,
+      "right": 2169883
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 2.169.751 hay 2.169.883?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2169883
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.169.883 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-55a09b2bd0b9239e",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t2",
+    "fingerprint": "c8d181321ebf3c11582339af7651ae46",
+    "generatorParams": {
+      "left": 2169888,
+      "right": 2169756
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 2.169.888 hay 2.169.756?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2169888
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.169.888 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-2734436934e814e8",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t3",
+    "fingerprint": "9d2739345705f01aaf117c04d41221a3",
+    "generatorParams": {
+      "left": 2170025,
+      "right": 2170157
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 2.170.025 hay 2.170.157?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2170157"
+      },
+      {
+        "id": "option-2",
+        "label": "2170257"
+      },
+      {
+        "id": "option-3",
+        "label": "2170057"
+      },
+      {
+        "id": "option-4",
+        "label": "2170357"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.170.157 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-65ee1e4cc567a80c",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t4",
+    "fingerprint": "dea91273a05bd8584f1255335da6877e",
+    "generatorParams": {
+      "left": 2170162,
+      "right": 2170030
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 2.170.162 hay 2.170.030? Bạn An cho rằng đáp án là 2170162. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.170.162 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-da420492176ae199",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t5",
+    "fingerprint": "31a477f9b263b9d464f458105d5621f4",
+    "generatorParams": {
+      "left": 2170299,
+      "right": 2170431
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 2.170.299 hay 2.170.431?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2170431
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.170.431 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-46f4c29ddf67d4dc",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t1",
+    "fingerprint": "3f9290e72c05e0c5f236e05e30e5df8e",
+    "generatorParams": {
+      "left": 2173854,
+      "right": 2173993
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 2.173.854 hay 2.173.993?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2173993
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.173.993 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-18390cbe3be3ef6c",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t2",
+    "fingerprint": "b9f3b5fbbec06cf7782bcfc543845039",
+    "generatorParams": {
+      "left": 2173991,
+      "right": 2173852
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 2.173.991 hay 2.173.852?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2173991
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.173.991 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-ca497e40d7a7413e",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t3",
+    "fingerprint": "26d845c128c165ac35e8d870e62c2189",
+    "generatorParams": {
+      "left": 2174128,
+      "right": 2174267
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 2.174.128 hay 2.174.267?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2174367"
+      },
+      {
+        "id": "option-2",
+        "label": "2174467"
+      },
+      {
+        "id": "option-3",
+        "label": "2174267"
+      },
+      {
+        "id": "option-4",
+        "label": "2174167"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.174.267 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-5d9ba4c4e2bc2f49",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t4",
+    "fingerprint": "6eaed6a63a870985c831d292fa582c44",
+    "generatorParams": {
+      "left": 2174265,
+      "right": 2174126
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 2.174.265 hay 2.174.126? Bạn An cho rằng đáp án là 2174365. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.174.265 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-2e089a4921cc459f",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t5",
+    "fingerprint": "bfce1fed73e22f5305e23c4bd887b275",
+    "generatorParams": {
+      "left": 2174402,
+      "right": 2174541
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 2.174.402 hay 2.174.541?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2174541
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.174.541 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-b4c80d84f52d038d",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t1",
+    "fingerprint": "d8561157ad00ae33d64bfd2e284015aa",
+    "generatorParams": {
+      "left": 2177957,
+      "right": 2178103
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 2.177.957 hay 2.178.103?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2178103
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.178.103 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-0a71649b4815a911",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t2",
+    "fingerprint": "60a12ac388682f4c62e2a21347710eef",
+    "generatorParams": {
+      "left": 2178094,
+      "right": 2177948
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 2.178.094 hay 2.177.948?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2178094
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.178.094 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-c1cbdf4c82ebcf1c",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t3",
+    "fingerprint": "7ed3e269d900566d504be8555700e039",
+    "generatorParams": {
+      "left": 2178231,
+      "right": 2178377
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 2.178.231 hay 2.178.377?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2178577"
+      },
+      {
+        "id": "option-2",
+        "label": "2178477"
+      },
+      {
+        "id": "option-3",
+        "label": "2178277"
+      },
+      {
+        "id": "option-4",
+        "label": "2178377"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.178.377 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-fddd0558139c5817",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t4",
+    "fingerprint": "cf49b5575687809a9f52d6bcc2c5e93e",
+    "generatorParams": {
+      "left": 2178368,
+      "right": 2178222
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 2.178.368 hay 2.178.222? Bạn An cho rằng đáp án là 2178368. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.178.368 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-59cc4b9722b501ae",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t5",
+    "fingerprint": "b70545d1856981b0f48ba8859c84ad50",
+    "generatorParams": {
+      "left": 2178505,
+      "right": 2178651
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 2.178.505 hay 2.178.651?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2178651
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.178.651 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-812df3c6d3474cdf",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t1",
+    "fingerprint": "774318d98b6fcfb635cbaf1f33cda038",
+    "generatorParams": {
+      "left": 2182060,
+      "right": 2182213
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 2.182.060 hay 2.182.213?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2182213
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.182.213 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-5a7d19ac54c165dd",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t2",
+    "fingerprint": "11a646aff7d264cdef4b0abc3b1155a2",
+    "generatorParams": {
+      "left": 2182197,
+      "right": 2182044
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 2.182.197 hay 2.182.044?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2182197
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.182.197 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-3448288224a7e099",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t3",
+    "fingerprint": "83cb91b7ebd3aceee59db8087807dbc8",
+    "generatorParams": {
+      "left": 2182334,
+      "right": 2182487
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 2.182.334 hay 2.182.487?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2182387"
+      },
+      {
+        "id": "option-2",
+        "label": "2182587"
+      },
+      {
+        "id": "option-3",
+        "label": "2182487"
+      },
+      {
+        "id": "option-4",
+        "label": "2182687"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.182.487 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-f4106e36fb97cb0f",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t4",
+    "fingerprint": "a76c8f40291402fd2f38b34f469655ae",
+    "generatorParams": {
+      "left": 2182471,
+      "right": 2182318
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 2.182.471 hay 2.182.318? Bạn An cho rằng đáp án là 2182571. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.182.471 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-numbers-270f9f0b131c05af",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-numbers-t5",
+    "fingerprint": "a32c68741c3e4baad9b306462ba56d11",
+    "generatorParams": {
+      "left": 2182608,
+      "right": 2182761
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "natural-numbers",
+    "skillId": "compare-numbers-skill",
+    "problemTypeId": "compare-numbers",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Số nào lớn hơn: 2.182.608 hay 2.182.761?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2182761
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "So sánh số chữ số, rồi so sánh lần lượt các hàng từ trái sang phải."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "ARITHMETIC_SLIP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.182.761 lớn hơn vì tại hàng đầu tiên khác nhau, chữ số của số này lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

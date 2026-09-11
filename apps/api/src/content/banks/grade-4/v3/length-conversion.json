@@ -1,0 +1,6922 @@
+[
+  {
+    "id": "g4-length-conversion-2c11e366ca318f1f",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t1",
+    "fingerprint": "1e9ed92405e1cf0b41901ca8825f364e",
+    "generatorParams": {
+      "value": 3,
+      "factor": 10,
+      "from": "dm",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "3 dm bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 30,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 10 = 30, nên 3 dm = 30 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-a3137a69bacd0bff",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t2",
+    "fingerprint": "3cb033b71117ebebf42719f2dd8f3780",
+    "generatorParams": {
+      "value": 3,
+      "factor": 100,
+      "from": "m",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "3 m bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 300,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 100 = 300, nên 3 m = 300 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-845cd34ddbeb04c6",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t3",
+    "fingerprint": "76cb7326bdcaa3517260ff33e74411ed",
+    "generatorParams": {
+      "value": 3,
+      "factor": 1000,
+      "from": "km",
+      "to": "m"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "3 km bằng bao nhiêu m?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3000 m"
+      },
+      {
+        "id": "option-2",
+        "label": "3300 m"
+      },
+      {
+        "id": "option-3",
+        "label": "3600 m"
+      },
+      {
+        "id": "option-4",
+        "label": "2700 m"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 1000 = 3.000, nên 3 km = 3.000 m.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-18e5dcbf07c51aee",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t4",
+    "fingerprint": "8a16e7aa7a14c3341248b1f22266dfdb",
+    "generatorParams": {
+      "value": 3,
+      "factor": 10,
+      "from": "cm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "3 cm bằng bao nhiêu mm? Bạn An cho rằng đáp án là 30 mm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 10 = 30, nên 3 cm = 30 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-1fb4282edebb23c7",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t5",
+    "fingerprint": "c02195851f3cc3f29762fdcf2f415ea0",
+    "generatorParams": {
+      "value": 3,
+      "factor": 100,
+      "from": "dm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "3 dm bằng bao nhiêu mm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 300,
+      "unit": "mm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 100 = 300, nên 3 dm = 300 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-51f11de409726440",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t1",
+    "fingerprint": "1ce5214304f31919ee83c67542cc979a",
+    "generatorParams": {
+      "value": 4,
+      "factor": 10,
+      "from": "dm",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "4 dm bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 40,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 10 = 40, nên 4 dm = 40 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-74b5621480ec4334",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t2",
+    "fingerprint": "eb9eacd9d3b78d96baa97bf20dd97874",
+    "generatorParams": {
+      "value": 4,
+      "factor": 100,
+      "from": "m",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "4 m bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 400,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 100 = 400, nên 4 m = 400 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-ef23e2ebae52380d",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t3",
+    "fingerprint": "fbfefe9a7acb6533f4922216a4fccea1",
+    "generatorParams": {
+      "value": 4,
+      "factor": 1000,
+      "from": "km",
+      "to": "m"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "4 km bằng bao nhiêu m?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "4800 m"
+      },
+      {
+        "id": "option-2",
+        "label": "4000 m"
+      },
+      {
+        "id": "option-3",
+        "label": "4400 m"
+      },
+      {
+        "id": "option-4",
+        "label": "3600 m"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 1000 = 4.000, nên 4 km = 4.000 m.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-c40592d364e1f32b",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t4",
+    "fingerprint": "7108b5326a0accb411163fae20c37479",
+    "generatorParams": {
+      "value": 4,
+      "factor": 10,
+      "from": "cm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "4 cm bằng bao nhiêu mm? Bạn An cho rằng đáp án là 44 mm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 10 = 40, nên 4 cm = 40 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-be74c7cb1806cac3",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t5",
+    "fingerprint": "f51346f0bd17e928a28366734a1f693a",
+    "generatorParams": {
+      "value": 4,
+      "factor": 100,
+      "from": "dm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "4 dm bằng bao nhiêu mm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 400,
+      "unit": "mm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 100 = 400, nên 4 dm = 400 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-bd4d3c8e470f29cc",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t1",
+    "fingerprint": "abd26c599b361e3a264343d3c0e804b0",
+    "generatorParams": {
+      "value": 5,
+      "factor": 10,
+      "from": "dm",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "5 dm bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 50,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 10 = 50, nên 5 dm = 50 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-312b21068a60a9be",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t2",
+    "fingerprint": "5fc6167420e2e0484a0ee92172dffa45",
+    "generatorParams": {
+      "value": 5,
+      "factor": 100,
+      "from": "m",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "5 m bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 500,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 100 = 500, nên 5 m = 500 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-6a94322d84cf5604",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t3",
+    "fingerprint": "e56b2a45023c21f07ab42a7d6316dd19",
+    "generatorParams": {
+      "value": 5,
+      "factor": 1000,
+      "from": "km",
+      "to": "m"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "5 km bằng bao nhiêu m?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "4500 m"
+      },
+      {
+        "id": "option-2",
+        "label": "5000 m"
+      },
+      {
+        "id": "option-3",
+        "label": "5500 m"
+      },
+      {
+        "id": "option-4",
+        "label": "6000 m"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 1000 = 5.000, nên 5 km = 5.000 m.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-3a5d5b8f98c460b9",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t4",
+    "fingerprint": "5c4707beb1675f5a84abc6a8e561fbab",
+    "generatorParams": {
+      "value": 5,
+      "factor": 10,
+      "from": "cm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "5 cm bằng bao nhiêu mm? Bạn An cho rằng đáp án là 50 mm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 10 = 50, nên 5 cm = 50 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-1f8c69ffb6f6f36e",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t5",
+    "fingerprint": "da0994c8c0ee594a240c890dd0369bf2",
+    "generatorParams": {
+      "value": 5,
+      "factor": 100,
+      "from": "dm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "5 dm bằng bao nhiêu mm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 500,
+      "unit": "mm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 100 = 500, nên 5 dm = 500 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-248e692adace6897",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t1",
+    "fingerprint": "1a2cb5ecb5cf99b02e0d03a8be9a8d56",
+    "generatorParams": {
+      "value": 6,
+      "factor": 10,
+      "from": "dm",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "6 dm bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 60,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 10 = 60, nên 6 dm = 60 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-e412846c4c1dcf24",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t2",
+    "fingerprint": "d58e2f7741007b5353365020559b9e40",
+    "generatorParams": {
+      "value": 6,
+      "factor": 100,
+      "from": "m",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "6 m bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 600,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 100 = 600, nên 6 m = 600 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-731d9c15dca4b810",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t3",
+    "fingerprint": "1d945ab1ed08aeab19a47b26fa56d123",
+    "generatorParams": {
+      "value": 6,
+      "factor": 1000,
+      "from": "km",
+      "to": "m"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "6 km bằng bao nhiêu m?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "6600 m"
+      },
+      {
+        "id": "option-2",
+        "label": "6000 m"
+      },
+      {
+        "id": "option-3",
+        "label": "7200 m"
+      },
+      {
+        "id": "option-4",
+        "label": "5400 m"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 1000 = 6.000, nên 6 km = 6.000 m.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-b9620a0882b9b9bd",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t4",
+    "fingerprint": "9e7e506d2c1f29781c88d624404024ef",
+    "generatorParams": {
+      "value": 6,
+      "factor": 10,
+      "from": "cm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "6 cm bằng bao nhiêu mm? Bạn An cho rằng đáp án là 66 mm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 10 = 60, nên 6 cm = 60 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-d7d5b4a495f5147f",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t5",
+    "fingerprint": "93b373deb221dd404f5cdcad8fe7b679",
+    "generatorParams": {
+      "value": 6,
+      "factor": 100,
+      "from": "dm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "6 dm bằng bao nhiêu mm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 600,
+      "unit": "mm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 100 = 600, nên 6 dm = 600 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-051b60fa63298758",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t1",
+    "fingerprint": "780d6d72dad1edb52715586aa9fcc9a7",
+    "generatorParams": {
+      "value": 7,
+      "factor": 10,
+      "from": "dm",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "7 dm bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 70,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 10 = 70, nên 7 dm = 70 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-d966afcaa08f3d53",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t2",
+    "fingerprint": "3b36d67163b35ab5d64fa526a9d98e65",
+    "generatorParams": {
+      "value": 7,
+      "factor": 100,
+      "from": "m",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "7 m bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 700,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 100 = 700, nên 7 m = 700 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-a904151997e9991b",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t3",
+    "fingerprint": "7c81ca915052d7a6e0fed2f09c76cdcc",
+    "generatorParams": {
+      "value": 7,
+      "factor": 1000,
+      "from": "km",
+      "to": "m"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "7 km bằng bao nhiêu m?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "6300 m"
+      },
+      {
+        "id": "option-2",
+        "label": "8400 m"
+      },
+      {
+        "id": "option-3",
+        "label": "7000 m"
+      },
+      {
+        "id": "option-4",
+        "label": "7700 m"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 1000 = 7.000, nên 7 km = 7.000 m.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-d31ae46e7b6f3eb3",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t4",
+    "fingerprint": "82d0cd0db3421f47904f34b6ef1c1a87",
+    "generatorParams": {
+      "value": 7,
+      "factor": 10,
+      "from": "cm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "7 cm bằng bao nhiêu mm? Bạn An cho rằng đáp án là 70 mm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 10 = 70, nên 7 cm = 70 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-1a5ab29ebfc2562c",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t5",
+    "fingerprint": "c913be245327e9a36844d87f05035eed",
+    "generatorParams": {
+      "value": 7,
+      "factor": 100,
+      "from": "dm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "7 dm bằng bao nhiêu mm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 700,
+      "unit": "mm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 100 = 700, nên 7 dm = 700 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-ecd240fa3df74e50",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t1",
+    "fingerprint": "f66359b192c064bf11e5193a065d052e",
+    "generatorParams": {
+      "value": 8,
+      "factor": 10,
+      "from": "dm",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "8 dm bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 80,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 10 = 80, nên 8 dm = 80 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-431379ce8953d79c",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t2",
+    "fingerprint": "842179886575c3a466c0161db41cbc09",
+    "generatorParams": {
+      "value": 8,
+      "factor": 100,
+      "from": "m",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "8 m bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 800,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 100 = 800, nên 8 m = 800 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-dcf6cf333e2249a5",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t3",
+    "fingerprint": "f44f30d0b7fc4e75e0faa6d238fc8bf3",
+    "generatorParams": {
+      "value": 8,
+      "factor": 1000,
+      "from": "km",
+      "to": "m"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "8 km bằng bao nhiêu m?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "8000 m"
+      },
+      {
+        "id": "option-2",
+        "label": "8800 m"
+      },
+      {
+        "id": "option-3",
+        "label": "7200 m"
+      },
+      {
+        "id": "option-4",
+        "label": "9600 m"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 1000 = 8.000, nên 8 km = 8.000 m.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-39cd8a068e8a0b9f",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t4",
+    "fingerprint": "23fcf06f367fb10a8fcb090f1e24f0c1",
+    "generatorParams": {
+      "value": 8,
+      "factor": 10,
+      "from": "cm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "8 cm bằng bao nhiêu mm? Bạn An cho rằng đáp án là 88 mm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 10 = 80, nên 8 cm = 80 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-cb2144f8f11f4a78",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t5",
+    "fingerprint": "14c2f2d0d7f8bf25a81da3ccd27be378",
+    "generatorParams": {
+      "value": 8,
+      "factor": 100,
+      "from": "dm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "8 dm bằng bao nhiêu mm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 800,
+      "unit": "mm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 100 = 800, nên 8 dm = 800 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-b823b09fd63e6b86",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t1",
+    "fingerprint": "ebf3a4ee6d7053e7509bb215fbffb187",
+    "generatorParams": {
+      "value": 19,
+      "factor": 10,
+      "from": "dm",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "19 dm bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 190,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 10 = 190, nên 19 dm = 190 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-7c4b2beef409067e",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t2",
+    "fingerprint": "9a6e27b35933b832fa58f6a4d4947699",
+    "generatorParams": {
+      "value": 19,
+      "factor": 100,
+      "from": "m",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "19 m bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1900,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 100 = 1.900, nên 19 m = 1.900 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-0b3889028e280efe",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t3",
+    "fingerprint": "a8701d9057b01f10080c49cd37f181df",
+    "generatorParams": {
+      "value": 19,
+      "factor": 1000,
+      "from": "km",
+      "to": "m"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "19 km bằng bao nhiêu m?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "20900 m"
+      },
+      {
+        "id": "option-2",
+        "label": "22800 m"
+      },
+      {
+        "id": "option-3",
+        "label": "17100 m"
+      },
+      {
+        "id": "option-4",
+        "label": "19000 m"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 1000 = 19.000, nên 19 km = 19.000 m.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-0b1cbfd7320bb936",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t4",
+    "fingerprint": "2b9c650b4d14f0cef5b810412ae288f1",
+    "generatorParams": {
+      "value": 19,
+      "factor": 10,
+      "from": "cm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "19 cm bằng bao nhiêu mm? Bạn An cho rằng đáp án là 190 mm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 10 = 190, nên 19 cm = 190 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-d8f49ccddb8984ef",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t5",
+    "fingerprint": "03c39e2b6d479b343268319a860281a3",
+    "generatorParams": {
+      "value": 19,
+      "factor": 100,
+      "from": "dm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "19 dm bằng bao nhiêu mm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1900,
+      "unit": "mm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 100 = 1.900, nên 19 dm = 1.900 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-bfd03d4060e57626",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t1",
+    "fingerprint": "1342ba9f028e441a805b3f75f45ae261",
+    "generatorParams": {
+      "value": 20,
+      "factor": 10,
+      "from": "dm",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "20 dm bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 200,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 10 = 200, nên 20 dm = 200 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-874d3fb6076c1d2d",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t2",
+    "fingerprint": "d6cf1c5c25cec40dd34223815e3b5ebf",
+    "generatorParams": {
+      "value": 20,
+      "factor": 100,
+      "from": "m",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "20 m bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2000,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 100 = 2.000, nên 20 m = 2.000 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-51a11488c5d6a0d4",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t3",
+    "fingerprint": "c43c8844184e088bfdd81ef1a6b69c04",
+    "generatorParams": {
+      "value": 20,
+      "factor": 1000,
+      "from": "km",
+      "to": "m"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "20 km bằng bao nhiêu m?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "20000 m"
+      },
+      {
+        "id": "option-2",
+        "label": "22000 m"
+      },
+      {
+        "id": "option-3",
+        "label": "24000 m"
+      },
+      {
+        "id": "option-4",
+        "label": "18000 m"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 1000 = 20.000, nên 20 km = 20.000 m.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-de3cf8f71e79b299",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t4",
+    "fingerprint": "7a409347eabd08e437a5678d23f0cd67",
+    "generatorParams": {
+      "value": 20,
+      "factor": 10,
+      "from": "cm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "20 cm bằng bao nhiêu mm? Bạn An cho rằng đáp án là 220 mm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 10 = 200, nên 20 cm = 200 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-fbbb8680096fc58e",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t5",
+    "fingerprint": "1c81f79f9083add78fc70980f2207654",
+    "generatorParams": {
+      "value": 20,
+      "factor": 100,
+      "from": "dm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "20 dm bằng bao nhiêu mm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2000,
+      "unit": "mm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 100 = 2.000, nên 20 dm = 2.000 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-272487631c7f3f4c",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t1",
+    "fingerprint": "f12439226c57ea9a3816918bf33e817b",
+    "generatorParams": {
+      "value": 21,
+      "factor": 10,
+      "from": "dm",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "21 dm bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 210,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 10 = 210, nên 21 dm = 210 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-e0e946514ab331eb",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t2",
+    "fingerprint": "4ef7e4e0904eb12df27e2d355a9a2a87",
+    "generatorParams": {
+      "value": 21,
+      "factor": 100,
+      "from": "m",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "21 m bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2100,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 100 = 2.100, nên 21 m = 2.100 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-a6d987fe209f5c7c",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t3",
+    "fingerprint": "59da7391bfe7b375bee94b1ef47a9f5a",
+    "generatorParams": {
+      "value": 21,
+      "factor": 1000,
+      "from": "km",
+      "to": "m"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "21 km bằng bao nhiêu m?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "25200 m"
+      },
+      {
+        "id": "option-2",
+        "label": "23100 m"
+      },
+      {
+        "id": "option-3",
+        "label": "18900 m"
+      },
+      {
+        "id": "option-4",
+        "label": "21000 m"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 1000 = 21.000, nên 21 km = 21.000 m.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-eb2c7319d6d91eb7",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t4",
+    "fingerprint": "5aff1e43d48b659ae7ad10d7af94958c",
+    "generatorParams": {
+      "value": 21,
+      "factor": 10,
+      "from": "cm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "21 cm bằng bao nhiêu mm? Bạn An cho rằng đáp án là 210 mm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 10 = 210, nên 21 cm = 210 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-b5f3fb7e54257d78",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t5",
+    "fingerprint": "eb01cd5cfce47230049a0f97ea680d5f",
+    "generatorParams": {
+      "value": 21,
+      "factor": 100,
+      "from": "dm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "21 dm bằng bao nhiêu mm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2100,
+      "unit": "mm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 100 = 2.100, nên 21 dm = 2.100 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-9fc36e4c396fa1b7",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t1",
+    "fingerprint": "5f5548413e76c4188a1e566d037b64da",
+    "generatorParams": {
+      "value": 22,
+      "factor": 10,
+      "from": "dm",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "22 dm bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 220,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "22 × 10 = 220, nên 22 dm = 220 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-bd15323b651686b7",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t2",
+    "fingerprint": "35f437d08395ecf2b1c963313d1de7d1",
+    "generatorParams": {
+      "value": 22,
+      "factor": 100,
+      "from": "m",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "22 m bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2200,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "22 × 100 = 2.200, nên 22 m = 2.200 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-5952d7b673095160",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t3",
+    "fingerprint": "277c4ae79897e8b4514aa6d38dd4958e",
+    "generatorParams": {
+      "value": 22,
+      "factor": 1000,
+      "from": "km",
+      "to": "m"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "22 km bằng bao nhiêu m?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "26400 m"
+      },
+      {
+        "id": "option-2",
+        "label": "19800 m"
+      },
+      {
+        "id": "option-3",
+        "label": "24200 m"
+      },
+      {
+        "id": "option-4",
+        "label": "22000 m"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "22 × 1000 = 22.000, nên 22 km = 22.000 m.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-88eabba2de5f2b02",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t4",
+    "fingerprint": "ba3a47583ef5c1d5acb5e76981d3ae1f",
+    "generatorParams": {
+      "value": 22,
+      "factor": 10,
+      "from": "cm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "22 cm bằng bao nhiêu mm? Bạn An cho rằng đáp án là 242 mm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "22 × 10 = 220, nên 22 cm = 220 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-c77d445e4dd9c8a6",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t5",
+    "fingerprint": "bd518858b12c2d2549977446172439e7",
+    "generatorParams": {
+      "value": 22,
+      "factor": 100,
+      "from": "dm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "22 dm bằng bao nhiêu mm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2200,
+      "unit": "mm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "22 × 100 = 2.200, nên 22 dm = 2.200 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-4d392474f636972b",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t1",
+    "fingerprint": "e614b77da0b3196385b650677f458b9e",
+    "generatorParams": {
+      "value": 23,
+      "factor": 10,
+      "from": "dm",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "23 dm bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 230,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23 × 10 = 230, nên 23 dm = 230 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-9a58dc5ba698e471",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t2",
+    "fingerprint": "449d21fa703223def50096d0533691cb",
+    "generatorParams": {
+      "value": 23,
+      "factor": 100,
+      "from": "m",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "23 m bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2300,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23 × 100 = 2.300, nên 23 m = 2.300 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-84add01ac8cc0a59",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t3",
+    "fingerprint": "4302bc2d013c6db44270ffaffd6b0ff1",
+    "generatorParams": {
+      "value": 23,
+      "factor": 1000,
+      "from": "km",
+      "to": "m"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "23 km bằng bao nhiêu m?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "23000 m"
+      },
+      {
+        "id": "option-2",
+        "label": "20700 m"
+      },
+      {
+        "id": "option-3",
+        "label": "27600 m"
+      },
+      {
+        "id": "option-4",
+        "label": "25300 m"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23 × 1000 = 23.000, nên 23 km = 23.000 m.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-da2dc7f722267f0e",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t4",
+    "fingerprint": "4c05f3005136afe8f0d92fbcf2d11405",
+    "generatorParams": {
+      "value": 23,
+      "factor": 10,
+      "from": "cm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "23 cm bằng bao nhiêu mm? Bạn An cho rằng đáp án là 230 mm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23 × 10 = 230, nên 23 cm = 230 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-9603b3a37d2448e6",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t5",
+    "fingerprint": "775a0196edd793618fb79ce240d2d1e5",
+    "generatorParams": {
+      "value": 23,
+      "factor": 100,
+      "from": "dm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "23 dm bằng bao nhiêu mm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2300,
+      "unit": "mm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23 × 100 = 2.300, nên 23 dm = 2.300 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-b8212acaba904a4a",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t1",
+    "fingerprint": "d8ca1b530cee11d8f9c1b38d7d1828c8",
+    "generatorParams": {
+      "value": 24,
+      "factor": 10,
+      "from": "dm",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "24 dm bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 240,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "24 × 10 = 240, nên 24 dm = 240 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-fdafd04e06dfd467",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t2",
+    "fingerprint": "53e3d98c686e3d8cbe7ec5c4ddff7b07",
+    "generatorParams": {
+      "value": 24,
+      "factor": 100,
+      "from": "m",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "24 m bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2400,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "24 × 100 = 2.400, nên 24 m = 2.400 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-f9e446e42e88d9fa",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t3",
+    "fingerprint": "ac8280122179ec4b41e25ed234115187",
+    "generatorParams": {
+      "value": 24,
+      "factor": 1000,
+      "from": "km",
+      "to": "m"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "24 km bằng bao nhiêu m?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "28800 m"
+      },
+      {
+        "id": "option-2",
+        "label": "24000 m"
+      },
+      {
+        "id": "option-3",
+        "label": "21600 m"
+      },
+      {
+        "id": "option-4",
+        "label": "26400 m"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "24 × 1000 = 24.000, nên 24 km = 24.000 m.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-e52269ccec42dfdd",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t4",
+    "fingerprint": "79189a9ffce010d8913d21b3fe89ccb2",
+    "generatorParams": {
+      "value": 24,
+      "factor": 10,
+      "from": "cm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "24 cm bằng bao nhiêu mm? Bạn An cho rằng đáp án là 264 mm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "24 × 10 = 240, nên 24 cm = 240 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-544ad0e10c9c9403",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t5",
+    "fingerprint": "e1ac972aa14d6e59825fc66a07ead61d",
+    "generatorParams": {
+      "value": 24,
+      "factor": 100,
+      "from": "dm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "24 dm bằng bao nhiêu mm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2400,
+      "unit": "mm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "24 × 100 = 2.400, nên 24 dm = 2.400 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-a50bdc9583a0cf28",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t1",
+    "fingerprint": "4bb7ea4dc8fa9f165933b52d7fcb2fb3",
+    "generatorParams": {
+      "value": 25,
+      "factor": 10,
+      "from": "dm",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "25 dm bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 250,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "25 × 10 = 250, nên 25 dm = 250 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-f6869312b52c51d4",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t2",
+    "fingerprint": "1f67bb4255c3331806002e219da7ab01",
+    "generatorParams": {
+      "value": 25,
+      "factor": 100,
+      "from": "m",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "25 m bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2500,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "25 × 100 = 2.500, nên 25 m = 2.500 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-2a947b6ac011a396",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t3",
+    "fingerprint": "bc6bbd1b6d8b6b372508eb9c273740c1",
+    "generatorParams": {
+      "value": 25,
+      "factor": 1000,
+      "from": "km",
+      "to": "m"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "25 km bằng bao nhiêu m?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "22500 m"
+      },
+      {
+        "id": "option-2",
+        "label": "27500 m"
+      },
+      {
+        "id": "option-3",
+        "label": "25000 m"
+      },
+      {
+        "id": "option-4",
+        "label": "30000 m"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "25 × 1000 = 25.000, nên 25 km = 25.000 m.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-36bc58bcdc31e6ca",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t4",
+    "fingerprint": "84c1b87c7b41536424968139123c2118",
+    "generatorParams": {
+      "value": 25,
+      "factor": 10,
+      "from": "cm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "25 cm bằng bao nhiêu mm? Bạn An cho rằng đáp án là 250 mm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "25 × 10 = 250, nên 25 cm = 250 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-93c7946f8971eb53",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t5",
+    "fingerprint": "8301218f3f7358be5ab52fc36fc9d437",
+    "generatorParams": {
+      "value": 25,
+      "factor": 100,
+      "from": "dm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "25 dm bằng bao nhiêu mm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2500,
+      "unit": "mm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "25 × 100 = 2.500, nên 25 dm = 2.500 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-a7a3a3d3b7806731",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t1",
+    "fingerprint": "4c42b6ace0c959517bfb154a401b7c44",
+    "generatorParams": {
+      "value": 26,
+      "factor": 10,
+      "from": "dm",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "26 dm bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 260,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "26 × 10 = 260, nên 26 dm = 260 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-157cfab7d57bfa93",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t2",
+    "fingerprint": "ccbf6b44ff830116c7aa0e1d7146cf29",
+    "generatorParams": {
+      "value": 26,
+      "factor": 100,
+      "from": "m",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "26 m bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2600,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "26 × 100 = 2.600, nên 26 m = 2.600 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-1679f630a9d66843",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t3",
+    "fingerprint": "cb112238fa0fd3f1ba3d9a662f7c68de",
+    "generatorParams": {
+      "value": 26,
+      "factor": 1000,
+      "from": "km",
+      "to": "m"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "26 km bằng bao nhiêu m?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "31200 m"
+      },
+      {
+        "id": "option-2",
+        "label": "28600 m"
+      },
+      {
+        "id": "option-3",
+        "label": "26000 m"
+      },
+      {
+        "id": "option-4",
+        "label": "23400 m"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "26 × 1000 = 26.000, nên 26 km = 26.000 m.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-9d8facaf740ac2c7",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t4",
+    "fingerprint": "06dd7138a18cf3daaa1f7b020acbe3d0",
+    "generatorParams": {
+      "value": 26,
+      "factor": 10,
+      "from": "cm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "26 cm bằng bao nhiêu mm? Bạn An cho rằng đáp án là 286 mm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "26 × 10 = 260, nên 26 cm = 260 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-5c51d99a3513e211",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t5",
+    "fingerprint": "9958ca2cfd39ae97e4d5a0b3b68bba15",
+    "generatorParams": {
+      "value": 26,
+      "factor": 100,
+      "from": "dm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "26 dm bằng bao nhiêu mm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2600,
+      "unit": "mm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "26 × 100 = 2.600, nên 26 dm = 2.600 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-92f5289477bcb2f9",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t1",
+    "fingerprint": "6f9c97c8ced5a51c53791708bd97c555",
+    "generatorParams": {
+      "value": 27,
+      "factor": 10,
+      "from": "dm",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "27 dm bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 270,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "27 × 10 = 270, nên 27 dm = 270 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-83f01a1ee144ceb7",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t2",
+    "fingerprint": "8db942423aa3b9b11e9a17303bef7e38",
+    "generatorParams": {
+      "value": 27,
+      "factor": 100,
+      "from": "m",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "27 m bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2700,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "27 × 100 = 2.700, nên 27 m = 2.700 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-d3aab08b34fdd5aa",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t3",
+    "fingerprint": "d7526438986ca092898173e9fb25ca07",
+    "generatorParams": {
+      "value": 27,
+      "factor": 1000,
+      "from": "km",
+      "to": "m"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "27 km bằng bao nhiêu m?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "32400 m"
+      },
+      {
+        "id": "option-2",
+        "label": "29700 m"
+      },
+      {
+        "id": "option-3",
+        "label": "24300 m"
+      },
+      {
+        "id": "option-4",
+        "label": "27000 m"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "27 × 1000 = 27.000, nên 27 km = 27.000 m.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-3acf2d1d32c88e4a",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t4",
+    "fingerprint": "50f007a9fecd4faf58ba7c3d228e2807",
+    "generatorParams": {
+      "value": 27,
+      "factor": 10,
+      "from": "cm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "27 cm bằng bao nhiêu mm? Bạn An cho rằng đáp án là 270 mm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "27 × 10 = 270, nên 27 cm = 270 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-dfc244126447ad49",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t5",
+    "fingerprint": "7caa137090217741c73fc59f81c41d1b",
+    "generatorParams": {
+      "value": 27,
+      "factor": 100,
+      "from": "dm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "27 dm bằng bao nhiêu mm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2700,
+      "unit": "mm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "27 × 100 = 2.700, nên 27 dm = 2.700 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-0d922a1f80ccf5cf",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t1",
+    "fingerprint": "fa32046760a7389301f7805b39973fc6",
+    "generatorParams": {
+      "value": 28,
+      "factor": 10,
+      "from": "dm",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "28 dm bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 280,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "28 × 10 = 280, nên 28 dm = 280 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-ddc314ea504ef1a7",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t2",
+    "fingerprint": "f5d6493e7e65e84a93b0efcd4fce2219",
+    "generatorParams": {
+      "value": 28,
+      "factor": 100,
+      "from": "m",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "28 m bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2800,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "28 × 100 = 2.800, nên 28 m = 2.800 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-e8d26273b9e597dc",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t3",
+    "fingerprint": "b5defa8170969db36b8186ca986572a3",
+    "generatorParams": {
+      "value": 28,
+      "factor": 1000,
+      "from": "km",
+      "to": "m"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "28 km bằng bao nhiêu m?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "33600 m"
+      },
+      {
+        "id": "option-2",
+        "label": "30800 m"
+      },
+      {
+        "id": "option-3",
+        "label": "25200 m"
+      },
+      {
+        "id": "option-4",
+        "label": "28000 m"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "28 × 1000 = 28.000, nên 28 km = 28.000 m.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-9517f6e0efd4684f",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t4",
+    "fingerprint": "1b258ee5262728e1d6fd80ba44929b21",
+    "generatorParams": {
+      "value": 28,
+      "factor": 10,
+      "from": "cm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "28 cm bằng bao nhiêu mm? Bạn An cho rằng đáp án là 308 mm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "28 × 10 = 280, nên 28 cm = 280 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-589fa2d951639b91",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t5",
+    "fingerprint": "b9628c4923922b068b16ad666585144d",
+    "generatorParams": {
+      "value": 28,
+      "factor": 100,
+      "from": "dm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "28 dm bằng bao nhiêu mm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2800,
+      "unit": "mm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "28 × 100 = 2.800, nên 28 dm = 2.800 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-42b01615241e8efe",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t1",
+    "fingerprint": "a234a236249945b9ff5c094a13066728",
+    "generatorParams": {
+      "value": 39,
+      "factor": 10,
+      "from": "dm",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "39 dm bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 390,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "39 × 10 = 390, nên 39 dm = 390 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-3b3615add4026890",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t2",
+    "fingerprint": "08e00936ea34ffc418b71071938caa08",
+    "generatorParams": {
+      "value": 39,
+      "factor": 100,
+      "from": "m",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "39 m bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3900,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "39 × 100 = 3.900, nên 39 m = 3.900 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-07017bd5f8774aba",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t3",
+    "fingerprint": "45d08fd239666ea1d3745e0a8127369f",
+    "generatorParams": {
+      "value": 39,
+      "factor": 1000,
+      "from": "km",
+      "to": "m"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "39 km bằng bao nhiêu m?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "46800 m"
+      },
+      {
+        "id": "option-2",
+        "label": "35100 m"
+      },
+      {
+        "id": "option-3",
+        "label": "39000 m"
+      },
+      {
+        "id": "option-4",
+        "label": "42900 m"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "39 × 1000 = 39.000, nên 39 km = 39.000 m.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-d337a900ba5006ee",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t4",
+    "fingerprint": "f86e344da8b7fe313e5df94fb4be5f40",
+    "generatorParams": {
+      "value": 39,
+      "factor": 10,
+      "from": "cm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "39 cm bằng bao nhiêu mm? Bạn An cho rằng đáp án là 390 mm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "39 × 10 = 390, nên 39 cm = 390 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-8258776dfcb80b03",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t5",
+    "fingerprint": "4c10ebd0c5946d067b703356bab00789",
+    "generatorParams": {
+      "value": 39,
+      "factor": 100,
+      "from": "dm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "39 dm bằng bao nhiêu mm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3900,
+      "unit": "mm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "39 × 100 = 3.900, nên 39 dm = 3.900 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-09e1c4abb49e1c33",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t1",
+    "fingerprint": "88391ee72811519e883727797902a286",
+    "generatorParams": {
+      "value": 40,
+      "factor": 10,
+      "from": "dm",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "40 dm bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 400,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "40 × 10 = 400, nên 40 dm = 400 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-a4496e7580fd2450",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t2",
+    "fingerprint": "2c52b5187f46005b1ec0df21023af840",
+    "generatorParams": {
+      "value": 40,
+      "factor": 100,
+      "from": "m",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "40 m bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 4000,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "40 × 100 = 4.000, nên 40 m = 4.000 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-49fee11f5f678db1",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t3",
+    "fingerprint": "60c74ac3574de0b569c2a74b5b4698de",
+    "generatorParams": {
+      "value": 40,
+      "factor": 1000,
+      "from": "km",
+      "to": "m"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "40 km bằng bao nhiêu m?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "36000 m"
+      },
+      {
+        "id": "option-2",
+        "label": "48000 m"
+      },
+      {
+        "id": "option-3",
+        "label": "44000 m"
+      },
+      {
+        "id": "option-4",
+        "label": "40000 m"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "40 × 1000 = 40.000, nên 40 km = 40.000 m.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-6ac2bba3110b8642",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t4",
+    "fingerprint": "2b6b0dcd1aeebf0d8062233791bb9842",
+    "generatorParams": {
+      "value": 40,
+      "factor": 10,
+      "from": "cm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "40 cm bằng bao nhiêu mm? Bạn An cho rằng đáp án là 440 mm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "40 × 10 = 400, nên 40 cm = 400 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-eedcf6314c3834a1",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t5",
+    "fingerprint": "07feaee474db36e95377cfb5d2629691",
+    "generatorParams": {
+      "value": 40,
+      "factor": 100,
+      "from": "dm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "40 dm bằng bao nhiêu mm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 4000,
+      "unit": "mm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "40 × 100 = 4.000, nên 40 dm = 4.000 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-8aab884ab70bc3c1",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t1",
+    "fingerprint": "04a1777cc39069db23cb6b713cf1ea6e",
+    "generatorParams": {
+      "value": 41,
+      "factor": 10,
+      "from": "dm",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "41 dm bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 410,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "41 × 10 = 410, nên 41 dm = 410 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-8028a8522191da55",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t2",
+    "fingerprint": "849c8350c013e05e59dcb7ff9c7c5b3f",
+    "generatorParams": {
+      "value": 41,
+      "factor": 100,
+      "from": "m",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "41 m bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 4100,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "41 × 100 = 4.100, nên 41 m = 4.100 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-17e2e96282a30a2c",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t3",
+    "fingerprint": "df037df03601e78a4374b17c025ae30b",
+    "generatorParams": {
+      "value": 41,
+      "factor": 1000,
+      "from": "km",
+      "to": "m"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "41 km bằng bao nhiêu m?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "49200 m"
+      },
+      {
+        "id": "option-2",
+        "label": "45100 m"
+      },
+      {
+        "id": "option-3",
+        "label": "36900 m"
+      },
+      {
+        "id": "option-4",
+        "label": "41000 m"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "41 × 1000 = 41.000, nên 41 km = 41.000 m.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-09fd240f697fb7d4",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t4",
+    "fingerprint": "b3622ce104045d7cebbc65fc6a0c73ad",
+    "generatorParams": {
+      "value": 41,
+      "factor": 10,
+      "from": "cm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "41 cm bằng bao nhiêu mm? Bạn An cho rằng đáp án là 410 mm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "41 × 10 = 410, nên 41 cm = 410 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-6f07c1715eb0946d",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t5",
+    "fingerprint": "40cb8e2a8c32badf627c4bd38d5f8998",
+    "generatorParams": {
+      "value": 41,
+      "factor": 100,
+      "from": "dm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "41 dm bằng bao nhiêu mm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 4100,
+      "unit": "mm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "41 × 100 = 4.100, nên 41 dm = 4.100 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-7397d0188645e474",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t1",
+    "fingerprint": "7a1c4fc775783b60306ff003693fae67",
+    "generatorParams": {
+      "value": 42,
+      "factor": 10,
+      "from": "dm",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "42 dm bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 420,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "42 × 10 = 420, nên 42 dm = 420 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-a2e37cb846817b16",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t2",
+    "fingerprint": "a48f3ff1e73d559e9b0e5750e27f23ba",
+    "generatorParams": {
+      "value": 42,
+      "factor": 100,
+      "from": "m",
+      "to": "cm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "42 m bằng bao nhiêu cm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 4200,
+      "unit": "cm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "42 × 100 = 4.200, nên 42 m = 4.200 cm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-f5b989a1b05ec91d",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t3",
+    "fingerprint": "324875eb3f3eb25c86b342996cd39982",
+    "generatorParams": {
+      "value": 42,
+      "factor": 1000,
+      "from": "km",
+      "to": "m"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "42 km bằng bao nhiêu m?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "46200 m"
+      },
+      {
+        "id": "option-2",
+        "label": "37800 m"
+      },
+      {
+        "id": "option-3",
+        "label": "50400 m"
+      },
+      {
+        "id": "option-4",
+        "label": "42000 m"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "42 × 1000 = 42.000, nên 42 km = 42.000 m.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-78a709e981576971",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t4",
+    "fingerprint": "731f74dc9d6b74fd67819a66ae30de83",
+    "generatorParams": {
+      "value": 42,
+      "factor": 10,
+      "from": "cm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "42 cm bằng bao nhiêu mm? Bạn An cho rằng đáp án là 462 mm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "42 × 10 = 420, nên 42 cm = 420 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-length-conversion-e5507e2d8af1b6ad",
+    "contentVersion": "grade4-v3",
+    "templateId": "length-conversion-t5",
+    "fingerprint": "f00c9c1868b11f8b5dddbe33719ed98d",
+    "generatorParams": {
+      "value": 42,
+      "factor": 100,
+      "from": "dm",
+      "to": "mm"
+    },
+    "grade": 4,
+    "domainId": "measurement",
+    "topicId": "units",
+    "skillId": "length-conversion-skill",
+    "problemTypeId": "length-conversion",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "42 dm bằng bao nhiêu mm?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 4200,
+      "unit": "mm"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "UNIT_CONVERSION_ERROR",
+        "feedback": "Em đổi các đại lượng về cùng một đơn vị trước nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "42 × 100 = 4.200, nên 42 dm = 4.200 mm.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

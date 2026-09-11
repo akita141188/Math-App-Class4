@@ -1,0 +1,6662 @@
+[
+  {
+    "id": "g4-sum-difference-problem-f31da6c405e84056",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t1",
+    "fingerprint": "16afd377aa6607abc1d076387ad2307b",
+    "generatorParams": {
+      "total": 32,
+      "difference": 4
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 32, hiệu của hai số là 4. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 18
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(32 + 4) : 2 = 18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-cafc94586bd8d816",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t2",
+    "fingerprint": "640a51e75deb85eb3db1280098803012",
+    "generatorParams": {
+      "total": 36,
+      "difference": 6
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 36, hiệu của hai số là 6. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 21
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(36 + 6) : 2 = 21.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-e6e5c2e24fb53fd6",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t3",
+    "fingerprint": "11ef83f3d2877aa37ebcb680d889298e",
+    "generatorParams": {
+      "total": 40,
+      "difference": 8
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 40, hiệu của hai số là 8. Tìm số lớn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "26"
+      },
+      {
+        "id": "option-2",
+        "label": "22"
+      },
+      {
+        "id": "option-3",
+        "label": "24"
+      },
+      {
+        "id": "option-4",
+        "label": "28"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(40 + 8) : 2 = 24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-ebe0cba8bd02ce78",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t4",
+    "fingerprint": "c6083f6011fff2ab47da2051487edda8",
+    "generatorParams": {
+      "total": 44,
+      "difference": 10
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 44, hiệu của hai số là 10. Tìm số lớn. Bạn An cho rằng đáp án là 27. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(44 + 10) : 2 = 27.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-a4dab79375d04664",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t5",
+    "fingerprint": "f77b526cf93766eb4544d73800d97aa7",
+    "generatorParams": {
+      "total": 48,
+      "difference": 12
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 48, hiệu của hai số là 12. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 30
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(48 + 12) : 2 = 30.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-b17aa6d9a350c60a",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t1",
+    "fingerprint": "d18e208fbf39f80e524d2c909a254d60",
+    "generatorParams": {
+      "total": 36,
+      "difference": 4
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 36, hiệu của hai số là 4. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 20
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(36 + 4) : 2 = 20.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-d9f416664b08b067",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t2",
+    "fingerprint": "b599852cf8240984f436a2946d60d8e7",
+    "generatorParams": {
+      "total": 40,
+      "difference": 6
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 40, hiệu của hai số là 6. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 23
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(40 + 6) : 2 = 23.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-e8971a194d1ed6d8",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t3",
+    "fingerprint": "5432dce14cc9c270f99f736642f354a8",
+    "generatorParams": {
+      "total": 44,
+      "difference": 8
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 44, hiệu của hai số là 8. Tìm số lớn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "28"
+      },
+      {
+        "id": "option-2",
+        "label": "24"
+      },
+      {
+        "id": "option-3",
+        "label": "26"
+      },
+      {
+        "id": "option-4",
+        "label": "30"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(44 + 8) : 2 = 26.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-7ba4b01afd0b0dcd",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t4",
+    "fingerprint": "6a5721c73a97b07fa215724fb7b62177",
+    "generatorParams": {
+      "total": 48,
+      "difference": 10
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 48, hiệu của hai số là 10. Tìm số lớn. Bạn An cho rằng đáp án là 31. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(48 + 10) : 2 = 29.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-daa8315df2841b5e",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t5",
+    "fingerprint": "ec5ced3e10cb53fd56697f811a2c332f",
+    "generatorParams": {
+      "total": 52,
+      "difference": 12
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 52, hiệu của hai số là 12. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 32
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(52 + 12) : 2 = 32.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-9ab282b1505a8a9f",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t1",
+    "fingerprint": "7eca58be849fdeb63733b6045d8bbd49",
+    "generatorParams": {
+      "total": 40,
+      "difference": 4
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 40, hiệu của hai số là 4. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 22
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(40 + 4) : 2 = 22.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-0c2b8df0da7f83c1",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t2",
+    "fingerprint": "54a347997c435ece38cd65743b08a503",
+    "generatorParams": {
+      "total": 44,
+      "difference": 6
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 44, hiệu của hai số là 6. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 25
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(44 + 6) : 2 = 25.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-057010308fab32e8",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t3",
+    "fingerprint": "f8bd4b41ab601c3b77abea54027df776",
+    "generatorParams": {
+      "total": 48,
+      "difference": 8
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 48, hiệu của hai số là 8. Tìm số lớn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "30"
+      },
+      {
+        "id": "option-2",
+        "label": "28"
+      },
+      {
+        "id": "option-3",
+        "label": "32"
+      },
+      {
+        "id": "option-4",
+        "label": "26"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(48 + 8) : 2 = 28.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-dbd0b4bd7b04f532",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t4",
+    "fingerprint": "7b04306d21d549063350053a41092052",
+    "generatorParams": {
+      "total": 52,
+      "difference": 10
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 52, hiệu của hai số là 10. Tìm số lớn. Bạn An cho rằng đáp án là 31. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(52 + 10) : 2 = 31.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-93bd1447939ad74e",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t5",
+    "fingerprint": "077bf8e3ca8b66e6ea51fbbaa4f5044e",
+    "generatorParams": {
+      "total": 56,
+      "difference": 12
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 56, hiệu của hai số là 12. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 34
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(56 + 12) : 2 = 34.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-6b1fa5b6e6d50d87",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t1",
+    "fingerprint": "c81e8e61c2821d8681d71026a218ef98",
+    "generatorParams": {
+      "total": 44,
+      "difference": 4
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 44, hiệu của hai số là 4. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 24
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(44 + 4) : 2 = 24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-bc10b9b096b5a6df",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t2",
+    "fingerprint": "00c1815f89471fd24785238708213fe0",
+    "generatorParams": {
+      "total": 48,
+      "difference": 6
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 48, hiệu của hai số là 6. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 27
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(48 + 6) : 2 = 27.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-449d9fa8ca42c190",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t3",
+    "fingerprint": "0521d61c65f8dedefaa9bab4d1662fcd",
+    "generatorParams": {
+      "total": 52,
+      "difference": 8
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 52, hiệu của hai số là 8. Tìm số lớn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "30"
+      },
+      {
+        "id": "option-2",
+        "label": "33"
+      },
+      {
+        "id": "option-3",
+        "label": "36"
+      },
+      {
+        "id": "option-4",
+        "label": "27"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(52 + 8) : 2 = 30.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-987194495147ab93",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t4",
+    "fingerprint": "27f8322766ed8cffe7c4e30b50157970",
+    "generatorParams": {
+      "total": 56,
+      "difference": 10
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 56, hiệu của hai số là 10. Tìm số lớn. Bạn An cho rằng đáp án là 36. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(56 + 10) : 2 = 33.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-4965332edf632912",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t5",
+    "fingerprint": "9ac5eb7577a180cf37a22736cc8c2163",
+    "generatorParams": {
+      "total": 60,
+      "difference": 12
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 60, hiệu của hai số là 12. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 36
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(60 + 12) : 2 = 36.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-7df2c93227226b14",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t1",
+    "fingerprint": "59b52d35d4480ce18b06a0998667c006",
+    "generatorParams": {
+      "total": 48,
+      "difference": 4
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 48, hiệu của hai số là 4. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 26
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(48 + 4) : 2 = 26.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-321a53060d9df273",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t2",
+    "fingerprint": "4d0590f2edbd1df6065a78c142ab49f0",
+    "generatorParams": {
+      "total": 52,
+      "difference": 6
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 52, hiệu của hai số là 6. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 29
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(52 + 6) : 2 = 29.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-c8ee853e3e91641b",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t3",
+    "fingerprint": "8fa7166dd33bfc9db94ff9f32c55a80f",
+    "generatorParams": {
+      "total": 56,
+      "difference": 8
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 56, hiệu của hai số là 8. Tìm số lớn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "32"
+      },
+      {
+        "id": "option-2",
+        "label": "29"
+      },
+      {
+        "id": "option-3",
+        "label": "38"
+      },
+      {
+        "id": "option-4",
+        "label": "35"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(56 + 8) : 2 = 32.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-13c72f8a502ee4d7",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t4",
+    "fingerprint": "7a6a9788b185684ece2b989f3e8d3577",
+    "generatorParams": {
+      "total": 60,
+      "difference": 10
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 60, hiệu của hai số là 10. Tìm số lớn. Bạn An cho rằng đáp án là 35. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(60 + 10) : 2 = 35.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-27eb3ab7300a1b19",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t5",
+    "fingerprint": "caf202437c35d5c5b0ea0e9aa4727125",
+    "generatorParams": {
+      "total": 64,
+      "difference": 12
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 64, hiệu của hai số là 12. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 38
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(64 + 12) : 2 = 38.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-5f7b52c922bfb068",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t1",
+    "fingerprint": "ecddb5b62e58f1cd1d4a7a69c53f253d",
+    "generatorParams": {
+      "total": 52,
+      "difference": 4
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 52, hiệu của hai số là 4. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 28
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(52 + 4) : 2 = 28.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-0d8c6e87680f7a99",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t2",
+    "fingerprint": "8a3e0a2f3e670c20049aa99ff4009fb8",
+    "generatorParams": {
+      "total": 56,
+      "difference": 6
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 56, hiệu của hai số là 6. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 31
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(56 + 6) : 2 = 31.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-7fe1950bdcc5c055",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t3",
+    "fingerprint": "24368e4387e6a998014f459b9b8ff922",
+    "generatorParams": {
+      "total": 60,
+      "difference": 8
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 60, hiệu của hai số là 8. Tìm số lớn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "40"
+      },
+      {
+        "id": "option-2",
+        "label": "34"
+      },
+      {
+        "id": "option-3",
+        "label": "37"
+      },
+      {
+        "id": "option-4",
+        "label": "31"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(60 + 8) : 2 = 34.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-9b079bdeff1a4c15",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t4",
+    "fingerprint": "d1e99bbb5de385418c61c4d540c79da8",
+    "generatorParams": {
+      "total": 64,
+      "difference": 10
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 64, hiệu của hai số là 10. Tìm số lớn. Bạn An cho rằng đáp án là 40. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(64 + 10) : 2 = 37.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-48b080e0de19b6c6",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t5",
+    "fingerprint": "c76fad355be25a407c412afd4d95a490",
+    "generatorParams": {
+      "total": 68,
+      "difference": 12
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 68, hiệu của hai số là 12. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 40
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(68 + 12) : 2 = 40.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-64bf470512c7c4ab",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t1",
+    "fingerprint": "df0d5c68e0b5346e71a9ca4687bcb4a5",
+    "generatorParams": {
+      "total": 66,
+      "difference": 4
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 66, hiệu của hai số là 4. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 35
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(66 + 4) : 2 = 35.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-9856d545eba652f1",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t2",
+    "fingerprint": "ccf8a3416870eaa13bb14c6b67991bca",
+    "generatorParams": {
+      "total": 70,
+      "difference": 6
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 70, hiệu của hai số là 6. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 38
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(70 + 6) : 2 = 38.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-96e8a4186de411eb",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t3",
+    "fingerprint": "f772a2fd3606227ecc6cbb9669127c00",
+    "generatorParams": {
+      "total": 74,
+      "difference": 8
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 74, hiệu của hai số là 8. Tìm số lớn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "41"
+      },
+      {
+        "id": "option-2",
+        "label": "49"
+      },
+      {
+        "id": "option-3",
+        "label": "37"
+      },
+      {
+        "id": "option-4",
+        "label": "45"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(74 + 8) : 2 = 41.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-edd014ddb10a02aa",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t4",
+    "fingerprint": "2282a4225bfe27cbf242f57585db5497",
+    "generatorParams": {
+      "total": 78,
+      "difference": 10
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 78, hiệu của hai số là 10. Tìm số lớn. Bạn An cho rằng đáp án là 44. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(78 + 10) : 2 = 44.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-15e9c8b10b2b8a66",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t5",
+    "fingerprint": "b05bcce49e0a22718f929f082fd71f88",
+    "generatorParams": {
+      "total": 82,
+      "difference": 12
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 82, hiệu của hai số là 12. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 47
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(82 + 12) : 2 = 47.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-199b5e9f1a8479d3",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t1",
+    "fingerprint": "6d555e3e40ddc2669f23569b436ad4b4",
+    "generatorParams": {
+      "total": 70,
+      "difference": 4
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 70, hiệu của hai số là 4. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 37
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(70 + 4) : 2 = 37.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-88622daa09ef7e3a",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t2",
+    "fingerprint": "1bc733dea7b28840a6ae62863e1e5442",
+    "generatorParams": {
+      "total": 74,
+      "difference": 6
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 74, hiệu của hai số là 6. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 40
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(74 + 6) : 2 = 40.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-c4517adbd18695bb",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t3",
+    "fingerprint": "7f808d75bed53675e623b5c0025d7abf",
+    "generatorParams": {
+      "total": 78,
+      "difference": 8
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 78, hiệu của hai số là 8. Tìm số lớn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "43"
+      },
+      {
+        "id": "option-2",
+        "label": "39"
+      },
+      {
+        "id": "option-3",
+        "label": "51"
+      },
+      {
+        "id": "option-4",
+        "label": "47"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(78 + 8) : 2 = 43.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-3668d01bba4e608d",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t4",
+    "fingerprint": "2fb0a3551a15e3951fd33583db14b5c2",
+    "generatorParams": {
+      "total": 82,
+      "difference": 10
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 82, hiệu của hai số là 10. Tìm số lớn. Bạn An cho rằng đáp án là 50. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(82 + 10) : 2 = 46.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-9145db66f353a926",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t5",
+    "fingerprint": "da613d0db540fed6ef9d939874d01306",
+    "generatorParams": {
+      "total": 86,
+      "difference": 12
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 86, hiệu của hai số là 12. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 49
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(86 + 12) : 2 = 49.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-7bdea16c6e28c65c",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t1",
+    "fingerprint": "bcb3c14448d28d94d86c8e5f8da8c216",
+    "generatorParams": {
+      "total": 74,
+      "difference": 4
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 74, hiệu của hai số là 4. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 39
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(74 + 4) : 2 = 39.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-9eacb4447fc7d074",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t2",
+    "fingerprint": "99eb541f7a04d61a24f88a6483826d3f",
+    "generatorParams": {
+      "total": 78,
+      "difference": 6
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 78, hiệu của hai số là 6. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 42
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(78 + 6) : 2 = 42.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-c77806c922b621c9",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t3",
+    "fingerprint": "dd1cc81839816e83df235106bde4ba8a",
+    "generatorParams": {
+      "total": 82,
+      "difference": 8
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 82, hiệu của hai số là 8. Tìm số lớn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "45"
+      },
+      {
+        "id": "option-2",
+        "label": "41"
+      },
+      {
+        "id": "option-3",
+        "label": "53"
+      },
+      {
+        "id": "option-4",
+        "label": "49"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(82 + 8) : 2 = 45.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-799fa17460df658e",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t4",
+    "fingerprint": "3ed3fa6fe108c9bc939fc008e8d5ec05",
+    "generatorParams": {
+      "total": 86,
+      "difference": 10
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 86, hiệu của hai số là 10. Tìm số lớn. Bạn An cho rằng đáp án là 48. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(86 + 10) : 2 = 48.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-42845ba121e29b16",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t5",
+    "fingerprint": "9518c77c88da74dfa72b33b30d20705f",
+    "generatorParams": {
+      "total": 90,
+      "difference": 12
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 90, hiệu của hai số là 12. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 51
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(90 + 12) : 2 = 51.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-8107a0537f5e49cc",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t1",
+    "fingerprint": "c305edf07352b2ddde00f80697648813",
+    "generatorParams": {
+      "total": 78,
+      "difference": 4
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 78, hiệu của hai số là 4. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 41
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(78 + 4) : 2 = 41.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-f84db7c5bcbca76f",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t2",
+    "fingerprint": "dc0cdbfe8a560a0e6e46f6bb45496361",
+    "generatorParams": {
+      "total": 82,
+      "difference": 6
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 82, hiệu của hai số là 6. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 44
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(82 + 6) : 2 = 44.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-9b46fa8d5aa8e34b",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t3",
+    "fingerprint": "5b33f25f1cba97018a290948f65d1fb4",
+    "generatorParams": {
+      "total": 86,
+      "difference": 8
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 86, hiệu của hai số là 8. Tìm số lớn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "51"
+      },
+      {
+        "id": "option-2",
+        "label": "43"
+      },
+      {
+        "id": "option-3",
+        "label": "55"
+      },
+      {
+        "id": "option-4",
+        "label": "47"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(86 + 8) : 2 = 47.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-b7386e98adacc938",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t4",
+    "fingerprint": "28b9ecf8644ca9859cbbfb5f2e866f83",
+    "generatorParams": {
+      "total": 90,
+      "difference": 10
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 90, hiệu của hai số là 10. Tìm số lớn. Bạn An cho rằng đáp án là 55. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(90 + 10) : 2 = 50.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-1f0bd3c32b6c2037",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t5",
+    "fingerprint": "f437b81e7f7d08ee6eed778dcb5a24fe",
+    "generatorParams": {
+      "total": 94,
+      "difference": 12
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 94, hiệu của hai số là 12. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 53
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(94 + 12) : 2 = 53.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-3b08cc701acb64aa",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t1",
+    "fingerprint": "35ce0c019d64695b559e3d9f21ae9ae5",
+    "generatorParams": {
+      "total": 82,
+      "difference": 4
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 82, hiệu của hai số là 4. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 43
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(82 + 4) : 2 = 43.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-5dadc76a32753b38",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t2",
+    "fingerprint": "5099bd7189cd045aaae5b56b4e7793d9",
+    "generatorParams": {
+      "total": 86,
+      "difference": 6
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 86, hiệu của hai số là 6. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 46
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(86 + 6) : 2 = 46.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-1861697eacc81aea",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t3",
+    "fingerprint": "903345823a578197bb9b6fafa0a4ba08",
+    "generatorParams": {
+      "total": 90,
+      "difference": 8
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 90, hiệu của hai số là 8. Tìm số lớn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "57"
+      },
+      {
+        "id": "option-2",
+        "label": "53"
+      },
+      {
+        "id": "option-3",
+        "label": "49"
+      },
+      {
+        "id": "option-4",
+        "label": "45"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(90 + 8) : 2 = 49.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-73b943fee96cdf68",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t4",
+    "fingerprint": "62e2dd6716efd78dc637e4d21eef1eab",
+    "generatorParams": {
+      "total": 94,
+      "difference": 10
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 94, hiệu của hai số là 10. Tìm số lớn. Bạn An cho rằng đáp án là 52. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(94 + 10) : 2 = 52.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-026e8b65c850982a",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t5",
+    "fingerprint": "921428a2d0b473ba66432a3887909c62",
+    "generatorParams": {
+      "total": 98,
+      "difference": 12
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 98, hiệu của hai số là 12. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 55
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(98 + 12) : 2 = 55.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-b783027458631c6d",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t1",
+    "fingerprint": "e2fd9a9e019c32725b76b3637e468804",
+    "generatorParams": {
+      "total": 86,
+      "difference": 4
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 86, hiệu của hai số là 4. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 45
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(86 + 4) : 2 = 45.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-5ae7073480770a9c",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t2",
+    "fingerprint": "fd7381f8bf1cae2b42615c9512a55a3f",
+    "generatorParams": {
+      "total": 90,
+      "difference": 6
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 90, hiệu của hai số là 6. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 48
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(90 + 6) : 2 = 48.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-25fee4717f6bedb2",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t3",
+    "fingerprint": "fcd5b0161887a42240cebf571c7e4537",
+    "generatorParams": {
+      "total": 94,
+      "difference": 8
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 94, hiệu của hai số là 8. Tìm số lớn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "61"
+      },
+      {
+        "id": "option-2",
+        "label": "51"
+      },
+      {
+        "id": "option-3",
+        "label": "56"
+      },
+      {
+        "id": "option-4",
+        "label": "46"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(94 + 8) : 2 = 51.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-0ee7d0f99665a45a",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t4",
+    "fingerprint": "2ebcdf39d267ababc7ff960a76e327a1",
+    "generatorParams": {
+      "total": 98,
+      "difference": 10
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 98, hiệu của hai số là 10. Tìm số lớn. Bạn An cho rằng đáp án là 59. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(98 + 10) : 2 = 54.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-99e15c19d0105886",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t5",
+    "fingerprint": "ab0b3e9e799889823b8642c5f028697d",
+    "generatorParams": {
+      "total": 102,
+      "difference": 12
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 102, hiệu của hai số là 12. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 57
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(102 + 12) : 2 = 57.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-a0fe085e3048f041",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t1",
+    "fingerprint": "d1f3768e1502b09eeeaac92a965c6b0f",
+    "generatorParams": {
+      "total": 90,
+      "difference": 4
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 90, hiệu của hai số là 4. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 47
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(90 + 4) : 2 = 47.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-1c447cce7c0ef3c6",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t2",
+    "fingerprint": "565d72cea324b31e48f920dac52d500c",
+    "generatorParams": {
+      "total": 94,
+      "difference": 6
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 94, hiệu của hai số là 6. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 50
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(94 + 6) : 2 = 50.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-3bebb5c3281dc471",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t3",
+    "fingerprint": "675316e00cf2dc13426ed3068a986153",
+    "generatorParams": {
+      "total": 98,
+      "difference": 8
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 98, hiệu của hai số là 8. Tìm số lớn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "63"
+      },
+      {
+        "id": "option-2",
+        "label": "58"
+      },
+      {
+        "id": "option-3",
+        "label": "53"
+      },
+      {
+        "id": "option-4",
+        "label": "48"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(98 + 8) : 2 = 53.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-eb7c00d37590fa6a",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t4",
+    "fingerprint": "fd531f6a76dc0921b5b90f62b4545237",
+    "generatorParams": {
+      "total": 102,
+      "difference": 10
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 102, hiệu của hai số là 10. Tìm số lớn. Bạn An cho rằng đáp án là 56. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(102 + 10) : 2 = 56.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-4f61889e31cef629",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t5",
+    "fingerprint": "9623ae9297778aa548e065cf46c324e4",
+    "generatorParams": {
+      "total": 106,
+      "difference": 12
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 106, hiệu của hai số là 12. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 59
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(106 + 12) : 2 = 59.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-1be920fd090e6b74",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t1",
+    "fingerprint": "57c36c09c963c764b51781f30a97f5b4",
+    "generatorParams": {
+      "total": 94,
+      "difference": 4
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 94, hiệu của hai số là 4. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 49
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(94 + 4) : 2 = 49.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-e1db08650563fd32",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t2",
+    "fingerprint": "80512428e1c1695d5bc960f70cf4f1ea",
+    "generatorParams": {
+      "total": 98,
+      "difference": 6
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 98, hiệu của hai số là 6. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 52
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(98 + 6) : 2 = 52.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-6542653e3ad0fdbd",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t3",
+    "fingerprint": "c1c3704e520fc071d38210ad75867677",
+    "generatorParams": {
+      "total": 102,
+      "difference": 8
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 102, hiệu của hai số là 8. Tìm số lớn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "60"
+      },
+      {
+        "id": "option-2",
+        "label": "50"
+      },
+      {
+        "id": "option-3",
+        "label": "65"
+      },
+      {
+        "id": "option-4",
+        "label": "55"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(102 + 8) : 2 = 55.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-a80d4b7afc135a4b",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t4",
+    "fingerprint": "466377adda34217230dd3b6760b7383f",
+    "generatorParams": {
+      "total": 106,
+      "difference": 10
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 106, hiệu của hai số là 10. Tìm số lớn. Bạn An cho rằng đáp án là 63. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(106 + 10) : 2 = 58.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-e27bca1226f319c6",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t5",
+    "fingerprint": "b0554dff0b3d2be3f18017afe50d030c",
+    "generatorParams": {
+      "total": 110,
+      "difference": 12
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 110, hiệu của hai số là 12. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 61
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(110 + 12) : 2 = 61.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-ddd98356ccc50eb8",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t1",
+    "fingerprint": "897db395bdd9aa7723d8d191cc1c13c8",
+    "generatorParams": {
+      "total": 98,
+      "difference": 4
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 98, hiệu của hai số là 4. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 51
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(98 + 4) : 2 = 51.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-96bc6e75e02f68ed",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t2",
+    "fingerprint": "09302378464775928c0a11dfeac067e8",
+    "generatorParams": {
+      "total": 102,
+      "difference": 6
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 102, hiệu của hai số là 6. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 54
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(102 + 6) : 2 = 54.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-bed9dc160ddd9fd3",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t3",
+    "fingerprint": "c0e56dd812a9c9baf8add62d7846e979",
+    "generatorParams": {
+      "total": 106,
+      "difference": 8
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 106, hiệu của hai số là 8. Tìm số lớn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "62"
+      },
+      {
+        "id": "option-2",
+        "label": "57"
+      },
+      {
+        "id": "option-3",
+        "label": "52"
+      },
+      {
+        "id": "option-4",
+        "label": "67"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(106 + 8) : 2 = 57.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-36363e611c31cee5",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t4",
+    "fingerprint": "148af83872fe935a796377e006a65c2f",
+    "generatorParams": {
+      "total": 110,
+      "difference": 10
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 110, hiệu của hai số là 10. Tìm số lớn. Bạn An cho rằng đáp án là 60. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(110 + 10) : 2 = 60.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-c84d80607b533e13",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t5",
+    "fingerprint": "4a122cf3e268a087f4b596654bce95ef",
+    "generatorParams": {
+      "total": 114,
+      "difference": 12
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 114, hiệu của hai số là 12. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 63
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(114 + 12) : 2 = 63.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-a6fe18168133bc52",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t1",
+    "fingerprint": "cf52f31d12b59e2657324f9d33c3094a",
+    "generatorParams": {
+      "total": 102,
+      "difference": 4
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 102, hiệu của hai số là 4. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 53
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(102 + 4) : 2 = 53.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-83b84fdb8e114da8",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t2",
+    "fingerprint": "e3da9e54ba9faecc73a0e6ab890568d8",
+    "generatorParams": {
+      "total": 106,
+      "difference": 6
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 106, hiệu của hai số là 6. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 56
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(106 + 6) : 2 = 56.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-9f614ab2ab8f529d",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t3",
+    "fingerprint": "6af37533a8bad0701a334bedd7464873",
+    "generatorParams": {
+      "total": 110,
+      "difference": 8
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 110, hiệu của hai số là 8. Tìm số lớn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "64"
+      },
+      {
+        "id": "option-2",
+        "label": "59"
+      },
+      {
+        "id": "option-3",
+        "label": "54"
+      },
+      {
+        "id": "option-4",
+        "label": "69"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(110 + 8) : 2 = 59.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-c939c5e7e99ad942",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t4",
+    "fingerprint": "928a09bd052dc635a21cc1d93fc6617b",
+    "generatorParams": {
+      "total": 114,
+      "difference": 10
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 114, hiệu của hai số là 10. Tìm số lớn. Bạn An cho rằng đáp án là 68. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(114 + 10) : 2 = 62.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-52965aa667d97b24",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t5",
+    "fingerprint": "b2796e12686cd561362ed7f0156d45b5",
+    "generatorParams": {
+      "total": 118,
+      "difference": 12
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 118, hiệu của hai số là 12. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 65
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(118 + 12) : 2 = 65.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-e56749555330e2de",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t1",
+    "fingerprint": "9fd6b5e6927c020365a383d8fc31c7ad",
+    "generatorParams": {
+      "total": 116,
+      "difference": 4
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 116, hiệu của hai số là 4. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 60
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(116 + 4) : 2 = 60.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-927c53d9d1078615",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t2",
+    "fingerprint": "217b3ffa266a559264d66fa41712fba2",
+    "generatorParams": {
+      "total": 120,
+      "difference": 6
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 120, hiệu của hai số là 6. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 63
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(120 + 6) : 2 = 63.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-3ad4f60bff3338e1",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t3",
+    "fingerprint": "6445baf6515ebbf69705795e0e98dae7",
+    "generatorParams": {
+      "total": 124,
+      "difference": 8
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 124, hiệu của hai số là 8. Tìm số lớn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "78"
+      },
+      {
+        "id": "option-2",
+        "label": "72"
+      },
+      {
+        "id": "option-3",
+        "label": "66"
+      },
+      {
+        "id": "option-4",
+        "label": "60"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(124 + 8) : 2 = 66.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-c050e190a44cf5cc",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t4",
+    "fingerprint": "e7de7ba0e4773649b77d8c42eb920059",
+    "generatorParams": {
+      "total": 128,
+      "difference": 10
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 128, hiệu của hai số là 10. Tìm số lớn. Bạn An cho rằng đáp án là 69. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(128 + 10) : 2 = 69.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-036df68675d54df1",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t5",
+    "fingerprint": "f6fe8213fe20d77c1107390e63df5032",
+    "generatorParams": {
+      "total": 132,
+      "difference": 12
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 132, hiệu của hai số là 12. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 72
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(132 + 12) : 2 = 72.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-80225acc31289f95",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t1",
+    "fingerprint": "12880c2eafc94f090adb9eb655ebead7",
+    "generatorParams": {
+      "total": 120,
+      "difference": 4
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 120, hiệu của hai số là 4. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 62
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(120 + 4) : 2 = 62.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-1ee87e4ff82bc48d",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t2",
+    "fingerprint": "df956b3e085777b0384b72997e2fa4ac",
+    "generatorParams": {
+      "total": 124,
+      "difference": 6
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 124, hiệu của hai số là 6. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 65
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(124 + 6) : 2 = 65.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-98c4b44038fc3c6f",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t3",
+    "fingerprint": "79fc31e1edc188968a313f727a9c268e",
+    "generatorParams": {
+      "total": 128,
+      "difference": 8
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 128, hiệu của hai số là 8. Tìm số lớn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "80"
+      },
+      {
+        "id": "option-2",
+        "label": "74"
+      },
+      {
+        "id": "option-3",
+        "label": "62"
+      },
+      {
+        "id": "option-4",
+        "label": "68"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(128 + 8) : 2 = 68.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-4c0cac154aa23af2",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t4",
+    "fingerprint": "d4ddc79d087d8a7182e245d902584b9b",
+    "generatorParams": {
+      "total": 132,
+      "difference": 10
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 132, hiệu của hai số là 10. Tìm số lớn. Bạn An cho rằng đáp án là 78. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(132 + 10) : 2 = 71.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-92525395f315e339",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t5",
+    "fingerprint": "01ef7b07073c66511d85228dadea424a",
+    "generatorParams": {
+      "total": 136,
+      "difference": 12
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 136, hiệu của hai số là 12. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 74
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(136 + 12) : 2 = 74.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-4de83d55d0124b8b",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t1",
+    "fingerprint": "432bbc45238e515d3b3e2b3d2f085c6b",
+    "generatorParams": {
+      "total": 124,
+      "difference": 4
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 124, hiệu của hai số là 4. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 64
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(124 + 4) : 2 = 64.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-21a05ea1b385fdc8",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t2",
+    "fingerprint": "e3d35b323a1f636ff9bfd4c037d3c611",
+    "generatorParams": {
+      "total": 128,
+      "difference": 6
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 128, hiệu của hai số là 6. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 67
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(128 + 6) : 2 = 67.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-028a9323e16de6a7",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t3",
+    "fingerprint": "8aea976dcb7d2d4c9a049acae0453551",
+    "generatorParams": {
+      "total": 132,
+      "difference": 8
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 132, hiệu của hai số là 8. Tìm số lớn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "63"
+      },
+      {
+        "id": "option-2",
+        "label": "84"
+      },
+      {
+        "id": "option-3",
+        "label": "77"
+      },
+      {
+        "id": "option-4",
+        "label": "70"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(132 + 8) : 2 = 70.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-5a33c0f899539514",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t4",
+    "fingerprint": "09745f0eb801f82dc7bd07e39b0f27a6",
+    "generatorParams": {
+      "total": 136,
+      "difference": 10
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 136, hiệu của hai số là 10. Tìm số lớn. Bạn An cho rằng đáp án là 73. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(136 + 10) : 2 = 73.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-1f24db7e1edef917",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t5",
+    "fingerprint": "2a47244537fd12d20ce153c4b3ee4b2a",
+    "generatorParams": {
+      "total": 140,
+      "difference": 12
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 140, hiệu của hai số là 12. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 76
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(140 + 12) : 2 = 76.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-bbefa6c5f1598739",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t1",
+    "fingerprint": "9794059d4459eb743464fa044408b573",
+    "generatorParams": {
+      "total": 128,
+      "difference": 4
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 128, hiệu của hai số là 4. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 66
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(128 + 4) : 2 = 66.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-42ca3136d8f4fd20",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t2",
+    "fingerprint": "cf5297ec9e831212a3c986e88ad26217",
+    "generatorParams": {
+      "total": 132,
+      "difference": 6
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 132, hiệu của hai số là 6. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 69
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(132 + 6) : 2 = 69.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-01efeed7efdb7466",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t3",
+    "fingerprint": "e1a168c0fffb0af0c63bbf10939e29b7",
+    "generatorParams": {
+      "total": 136,
+      "difference": 8
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 136, hiệu của hai số là 8. Tìm số lớn.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "79"
+      },
+      {
+        "id": "option-2",
+        "label": "72"
+      },
+      {
+        "id": "option-3",
+        "label": "86"
+      },
+      {
+        "id": "option-4",
+        "label": "65"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(136 + 8) : 2 = 72.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-9db9a932e98b8a3c",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t4",
+    "fingerprint": "c2cad4530662de3c12d990781a9d1f2b",
+    "generatorParams": {
+      "total": 140,
+      "difference": 10
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 140, hiệu của hai số là 10. Tìm số lớn. Bạn An cho rằng đáp án là 82. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(140 + 10) : 2 = 75.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-sum-difference-problem-277a4d1eef322195",
+    "contentVersion": "grade4-v3",
+    "templateId": "sum-difference-problem-t5",
+    "fingerprint": "3866452aca7922cf293b5e424e28b7cc",
+    "generatorParams": {
+      "total": 144,
+      "difference": 12
+    },
+    "grade": 4,
+    "domainId": "word-problems",
+    "topicId": "multi-step-word-problems",
+    "skillId": "sum-difference-problem-skill",
+    "problemTypeId": "sum-difference-problem",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tổng của hai số là 144, hiệu của hai số là 12. Tìm số lớn.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 78
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định dữ kiện và đơn vị của từng đại lượng."
+      },
+      {
+        "level": 2,
+        "text": "Số lớn bằng (tổng + hiệu) chia 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi viết đáp số kèm đơn vị nếu đề yêu cầu."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "WRONG_OPERATION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "(144 + 12) : 2 = 78.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

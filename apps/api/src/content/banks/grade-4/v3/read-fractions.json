@@ -1,0 +1,6782 @@
+[
+  {
+    "id": "g4-read-fractions-b92a92bfc8be8c0a",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t1",
+    "fingerprint": "4c5a8a2602a4884f979448b6b3da9254",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 2/6 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "hai phần sáu"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 2, từ “phần”, rồi mẫu số 6: “hai phần sáu”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-5adea6f63b256d0f",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t2",
+    "fingerprint": "39cadfd3560c80849863939b02429237",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 11
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 4/11 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "bốn phần mười một"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 4, từ “phần”, rồi mẫu số 11: “bốn phần mười một”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-727d0424cea16b56",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t3",
+    "fingerprint": "1f6157073be92d1799c985d29b32af44",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 16
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 6/16 đọc là gì?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "sáu phần 16"
+      },
+      {
+        "id": "option-2",
+        "label": "sáu trên 16"
+      },
+      {
+        "id": "option-3",
+        "label": "sáu phần 16 phần"
+      },
+      {
+        "id": "option-4",
+        "label": "16 phần sáu"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 6, từ “phần”, rồi mẫu số 16: “sáu phần 16”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-0421a38744a99543",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t4",
+    "fingerprint": "f2aad08300321ca8765e37e6a8ffb515",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 2/4 đọc là gì? Bạn An cho rằng đáp án là hai phần bốn. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 2, từ “phần”, rồi mẫu số 4: “hai phần bốn”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-bab5d01229093fd9",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t5",
+    "fingerprint": "e461378c246773b088a461cc97925d4f",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 2/9 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "hai phần chín"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 2, từ “phần”, rồi mẫu số 9: “hai phần chín”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-5925900783c1c58c",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t1",
+    "fingerprint": "86a0deaf8a97beef53cedf6ab5d67cad",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 3/9 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "ba phần chín"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 3, từ “phần”, rồi mẫu số 9: “ba phần chín”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-393261f32074db06",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t2",
+    "fingerprint": "075eec1cd18055730c7f5c233d251ade",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 14
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 5/14 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "năm phần 14"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 5, từ “phần”, rồi mẫu số 14: “năm phần 14”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-aa95bf8c5d42a953",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t3",
+    "fingerprint": "6a822157a3728679675ac5ad9065d9c3",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 19
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 7/19 đọc là gì?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "19 phần bảy"
+      },
+      {
+        "id": "option-2",
+        "label": "bảy phần 19"
+      },
+      {
+        "id": "option-3",
+        "label": "bảy phần 19 phần"
+      },
+      {
+        "id": "option-4",
+        "label": "bảy trên 19"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 7, từ “phần”, rồi mẫu số 19: “bảy phần 19”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-9429ccc5d63cf41c",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t4",
+    "fingerprint": "3167e3be2ce2c7946619cc29be15f617",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 3/7 đọc là gì? Bạn An cho rằng đáp án là bảy phần ba. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 3, từ “phần”, rồi mẫu số 7: “ba phần bảy”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-67321b0a78e6d037",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t5",
+    "fingerprint": "d3cb7f510d4fcf86c177056d1dda47cd",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 12
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 11/12 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "mười một phần mười hai"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 11, từ “phần”, rồi mẫu số 12: “mười một phần mười hai”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-984e5fd52ce82e03",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t1",
+    "fingerprint": "20061a1cbccfabea3882cd8f92323877",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 12
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 4/12 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "bốn phần mười hai"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 4, từ “phần”, rồi mẫu số 12: “bốn phần mười hai”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-ef90121ad0a3041f",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t2",
+    "fingerprint": "e9b46172997b9d2c02ddda5af912f86a",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 17
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 6/17 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "sáu phần 17"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 6, từ “phần”, rồi mẫu số 17: “sáu phần 17”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-daba9100e2c30c0b",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t3",
+    "fingerprint": "40eacc27d4eaaa323029818d6d49c92b",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 4/5 đọc là gì?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "năm phần bốn"
+      },
+      {
+        "id": "option-2",
+        "label": "bốn phần năm"
+      },
+      {
+        "id": "option-3",
+        "label": "bốn trên năm"
+      },
+      {
+        "id": "option-4",
+        "label": "bốn phần năm phần"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 4, từ “phần”, rồi mẫu số 5: “bốn phần năm”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-becb6c5356b03aab",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t4",
+    "fingerprint": "6ae2d1edb10b0125cfd3511e9ba0b4a6",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 1/10 đọc là gì? Bạn An cho rằng đáp án là một phần mười. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 1, từ “phần”, rồi mẫu số 10: “một phần mười”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-5170cca806b450ba",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t5",
+    "fingerprint": "0753b309c6ee44d9d05154f4ba08b2f2",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 15
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 12/15 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "mười hai phần 15"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 12, từ “phần”, rồi mẫu số 15: “mười hai phần 15”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-8493e1fe94f513a5",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t1",
+    "fingerprint": "437e583200fac0db53a75254f243bce7",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 15
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 5/15 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "năm phần 15"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 5, từ “phần”, rồi mẫu số 15: “năm phần 15”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-bb010eb684502985",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t2",
+    "fingerprint": "f541ef957a33adbcecde58974dd746f5",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 1/3 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "một phần ba"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 1, từ “phần”, rồi mẫu số 3: “một phần ba”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-8b48bc3949300737",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t3",
+    "fingerprint": "c87fa6f1784aab02613786bade778bc6",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 2/8 đọc là gì?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "hai phần tám"
+      },
+      {
+        "id": "option-2",
+        "label": "tám phần hai"
+      },
+      {
+        "id": "option-3",
+        "label": "hai phần tám phần"
+      },
+      {
+        "id": "option-4",
+        "label": "hai trên tám"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 2, từ “phần”, rồi mẫu số 8: “hai phần tám”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-0cddc50cb78a59ac",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t4",
+    "fingerprint": "8dfdf094ae80c41ee4afd145f540154a",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 13
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 11/13 đọc là gì? Bạn An cho rằng đáp án là 13 phần mười một. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 11, từ “phần”, rồi mẫu số 13: “mười một phần 13”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-596686396114690f",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t5",
+    "fingerprint": "ccda79e6f0ce1ea9c816b0666183620f",
+    "generatorParams": {
+      "numerator": 13,
+      "denominator": 18
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 13/18 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "13 phần 18"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 13, từ “phần”, rồi mẫu số 18: “13 phần 18”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-abaa7c96c8c968bd",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t1",
+    "fingerprint": "20031ffb1057cda05721e7cc07cdaae9",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 18
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 6/18 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "sáu phần 18"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 6, từ “phần”, rồi mẫu số 18: “sáu phần 18”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-6f0eddb9a93944f7",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t2",
+    "fingerprint": "bcaaadfd7e9e660c25cec115f8fba72d",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 3/6 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "ba phần sáu"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 3, từ “phần”, rồi mẫu số 6: “ba phần sáu”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-bfd46cf878ff0411",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t3",
+    "fingerprint": "4253ad60efbbcd1eae08f9b1ed12ad9c",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 11
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 10/11 đọc là gì?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "mười phần mười một"
+      },
+      {
+        "id": "option-2",
+        "label": "mười một phần mười"
+      },
+      {
+        "id": "option-3",
+        "label": "mười phần mười một phần"
+      },
+      {
+        "id": "option-4",
+        "label": "mười trên mười một"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 10, từ “phần”, rồi mẫu số 11: “mười phần mười một”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-de06b756d2800230",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t4",
+    "fingerprint": "91acc97378aef9ac577ad0aa0b716031",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 16
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 12/16 đọc là gì? Bạn An cho rằng đáp án là mười hai phần 16. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 12, từ “phần”, rồi mẫu số 16: “mười hai phần 16”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-44ce891f7e15c6a7",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t5",
+    "fingerprint": "cee08137e931314c53bb13341015025d",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 2/4 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "hai phần bốn"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 2, từ “phần”, rồi mẫu số 4: “hai phần bốn”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-f191ab6d93cbaca5",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t1",
+    "fingerprint": "ea28d106c217384fd579baa8c7c33d8a",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 1/4 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "một phần bốn"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 1, từ “phần”, rồi mẫu số 4: “một phần bốn”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-53de5b53e7dfb3e4",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t2",
+    "fingerprint": "4b633655dfad108b5ee2c9c46b7a25fc",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 1/9 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "một phần chín"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 1, từ “phần”, rồi mẫu số 9: “một phần chín”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-acd6ae582b7bbf25",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t3",
+    "fingerprint": "f702078066967a82568a1948204bd5b1",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 14
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 11/14 đọc là gì?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "14 phần mười một"
+      },
+      {
+        "id": "option-2",
+        "label": "mười một phần 14 phần"
+      },
+      {
+        "id": "option-3",
+        "label": "mười một trên 14"
+      },
+      {
+        "id": "option-4",
+        "label": "mười một phần 14"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 11, từ “phần”, rồi mẫu số 14: “mười một phần 14”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-6a0f61ecd547d2e6",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t4",
+    "fingerprint": "d895160e20d76676ba3b5399ab2c25e0",
+    "generatorParams": {
+      "numerator": 13,
+      "denominator": 19
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 13/19 đọc là gì? Bạn An cho rằng đáp án là 19 phần 13. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 13, từ “phần”, rồi mẫu số 19: “13 phần 19”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-5891c88c996744ce",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t5",
+    "fingerprint": "aec88e4630e472e46623da689786d3f3",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 3/7 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "ba phần bảy"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 3, từ “phần”, rồi mẫu số 7: “ba phần bảy”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-75c6b50c4cbf5aa1",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t1",
+    "fingerprint": "7eab7e23d88774c461ae7991b19b879f",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 2/7 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "hai phần bảy"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 2, từ “phần”, rồi mẫu số 7: “hai phần bảy”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-c5afa1dc1180b49d",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t2",
+    "fingerprint": "97189792240d00a2a8b0b3fbd180ed6d",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 12
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 10/12 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "mười phần mười hai"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 10, từ “phần”, rồi mẫu số 12: “mười phần mười hai”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-53925d43c28d30b8",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t3",
+    "fingerprint": "acb6b84d839408c8c0553c534ed28777",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 17
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 12/17 đọc là gì?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "mười hai phần 17"
+      },
+      {
+        "id": "option-2",
+        "label": "17 phần mười hai"
+      },
+      {
+        "id": "option-3",
+        "label": "mười hai trên 17"
+      },
+      {
+        "id": "option-4",
+        "label": "mười hai phần 17 phần"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 12, từ “phần”, rồi mẫu số 17: “mười hai phần 17”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-ea9d13488bb5ffab",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t4",
+    "fingerprint": "f7d8d8b3d0c77b076dd48085219c1658",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 2/5 đọc là gì? Bạn An cho rằng đáp án là hai phần năm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 2, từ “phần”, rồi mẫu số 5: “hai phần năm”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-2a1e62fbc6e534a3",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t5",
+    "fingerprint": "f0f7ebcd61a4d134a7d5249c494500ac",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 7/10 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "bảy phần mười"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 7, từ “phần”, rồi mẫu số 10: “bảy phần mười”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-55bb09c2612a5ca3",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t1",
+    "fingerprint": "0f15b31c4f390cd11c1c5e25b54374f2",
+    "generatorParams": {
+      "numerator": 9,
+      "denominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 9/10 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "chín phần mười"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 9, từ “phần”, rồi mẫu số 10: “chín phần mười”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-e0fb9be0eb0b496d",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t2",
+    "fingerprint": "d15f3fd41ac31c02e81eeb6ab6356596",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 15
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 11/15 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "mười một phần 15"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 11, từ “phần”, rồi mẫu số 15: “mười một phần 15”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-1d11fb0594621175",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t3",
+    "fingerprint": "17de2b5acdac1f421502f66a27ae763e",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 1/3 đọc là gì?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "một trên ba"
+      },
+      {
+        "id": "option-2",
+        "label": "một phần ba"
+      },
+      {
+        "id": "option-3",
+        "label": "ba phần một"
+      },
+      {
+        "id": "option-4",
+        "label": "một phần ba phần"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 1, từ “phần”, rồi mẫu số 3: “một phần ba”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-be6b12875149302b",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t4",
+    "fingerprint": "de07bc8db3a4fd0daa4aaecf60ff81f0",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 1/8 đọc là gì? Bạn An cho rằng đáp án là tám phần một. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 1, từ “phần”, rồi mẫu số 8: “một phần tám”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-83a87a3111312b49",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t5",
+    "fingerprint": "f64089acb96fd9e9962ec70ca511b2b0",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 13
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 5/13 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "năm phần 13"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 5, từ “phần”, rồi mẫu số 13: “năm phần 13”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-96c4d03073a64448",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t1",
+    "fingerprint": "2d85bd54776e752b0045af9c0cd63859",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 13
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 10/13 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "mười phần 13"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 10, từ “phần”, rồi mẫu số 13: “mười phần 13”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-9129f937b5b145b1",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t2",
+    "fingerprint": "b46921e7e651087ffa1dc170f7999e7b",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 18
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 12/18 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "mười hai phần 18"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 12, từ “phần”, rồi mẫu số 18: “mười hai phần 18”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-a93dce12624b529c",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t3",
+    "fingerprint": "a983b21715779d8e441434fa7fbd2944",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 4/6 đọc là gì?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "bốn phần sáu"
+      },
+      {
+        "id": "option-2",
+        "label": "bốn trên sáu"
+      },
+      {
+        "id": "option-3",
+        "label": "sáu phần bốn"
+      },
+      {
+        "id": "option-4",
+        "label": "bốn phần sáu phần"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 4, từ “phần”, rồi mẫu số 6: “bốn phần sáu”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-33e079266db8d14d",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t4",
+    "fingerprint": "9a8dc1d0729d36b66a6a0a0c61a48e3b",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 11
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 6/11 đọc là gì? Bạn An cho rằng đáp án là sáu phần mười một. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 6, từ “phần”, rồi mẫu số 11: “sáu phần mười một”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-f6c7258c6f3b36f7",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t5",
+    "fingerprint": "fafe9649cdd0adfeff1c48b18d5a0636",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 16
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 3/16 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "ba phần 16"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 3, từ “phần”, rồi mẫu số 16: “ba phần 16”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-27bec46fcf108b5d",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t1",
+    "fingerprint": "5bf2690a5091d11145e4db5f78266173",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 16
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 11/16 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "mười một phần 16"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 11, từ “phần”, rồi mẫu số 16: “mười một phần 16”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-c0db0806cd1f3e08",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t2",
+    "fingerprint": "552433c210793e51bee7e0f88f961726",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 1/4 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "một phần bốn"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 1, từ “phần”, rồi mẫu số 4: “một phần bốn”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-3d2e1580896efe75",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t3",
+    "fingerprint": "bf75a4161dba5040c709a0ee7904891f",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 7/9 đọc là gì?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "bảy trên chín"
+      },
+      {
+        "id": "option-2",
+        "label": "bảy phần chín"
+      },
+      {
+        "id": "option-3",
+        "label": "bảy phần chín phần"
+      },
+      {
+        "id": "option-4",
+        "label": "chín phần bảy"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 7, từ “phần”, rồi mẫu số 9: “bảy phần chín”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-81e16f12e5d74ab1",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t4",
+    "fingerprint": "4b1beebace453cf9f77f9cfb4506edf3",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 14
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 4/14 đọc là gì? Bạn An cho rằng đáp án là 14 phần bốn. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 4, từ “phần”, rồi mẫu số 14: “bốn phần 14”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-977b0f56fd12be60",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t5",
+    "fingerprint": "51108c8ad1088eca0d04be038fc74a2e",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 19
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 1/19 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "một phần 19"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 1, từ “phần”, rồi mẫu số 19: “một phần 19”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-0e47f5f78290d25b",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t1",
+    "fingerprint": "80126bf55a6c548cab45b50ee23a646a",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 19
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 12/19 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "mười hai phần 19"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 12, từ “phần”, rồi mẫu số 19: “mười hai phần 19”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-39edfb448f44ab85",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t2",
+    "fingerprint": "17f0f9828c2dafec3d9faf772b8cdb12",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 2/7 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "hai phần bảy"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 2, từ “phần”, rồi mẫu số 7: “hai phần bảy”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-37c199ee368a118f",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t3",
+    "fingerprint": "8c3cecca657c7313a97cf7248b8734ef",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 12
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 5/12 đọc là gì?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "năm trên mười hai"
+      },
+      {
+        "id": "option-2",
+        "label": "năm phần mười hai phần"
+      },
+      {
+        "id": "option-3",
+        "label": "năm phần mười hai"
+      },
+      {
+        "id": "option-4",
+        "label": "mười hai phần năm"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 5, từ “phần”, rồi mẫu số 12: “năm phần mười hai”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-8db09551b8393f81",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t4",
+    "fingerprint": "cf3226896de156d514ded60fcef278a1",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 17
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 2/17 đọc là gì? Bạn An cho rằng đáp án là hai phần 17. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 2, từ “phần”, rồi mẫu số 17: “hai phần 17”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-22987bd83602785c",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t5",
+    "fingerprint": "4d1b4e4f9e3f8d4acb19d6270cf9037a",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 4/5 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "bốn phần năm"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 4, từ “phần”, rồi mẫu số 5: “bốn phần năm”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-79161a349c139813",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t1",
+    "fingerprint": "c55ebcc8372879595ff034513e4feff2",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 1/5 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "một phần năm"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 1, từ “phần”, rồi mẫu số 5: “một phần năm”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-ec5af4b55bc79875",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t2",
+    "fingerprint": "47aec5d305fef5d74390e9350dd67646",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 6/10 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "sáu phần mười"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 6, từ “phần”, rồi mẫu số 10: “sáu phần mười”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-3134e27a9d8dd46a",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t3",
+    "fingerprint": "bcdcfb1420d1e34387c8929094b0201d",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 15
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 3/15 đọc là gì?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "15 phần ba"
+      },
+      {
+        "id": "option-2",
+        "label": "ba phần 15 phần"
+      },
+      {
+        "id": "option-3",
+        "label": "ba phần 15"
+      },
+      {
+        "id": "option-4",
+        "label": "ba trên 15"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 3, từ “phần”, rồi mẫu số 15: “ba phần 15”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-8ed5d933039bb3f7",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t4",
+    "fingerprint": "0872e0e09635302a149c2ab00e7f1090",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 1/3 đọc là gì? Bạn An cho rằng đáp án là ba phần một. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 1, từ “phần”, rồi mẫu số 3: “một phần ba”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-37d387740e3fbf28",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t5",
+    "fingerprint": "dce91a59cc3d545bfa337472b0154f40",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 7/8 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "bảy phần tám"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 7, từ “phần”, rồi mẫu số 8: “bảy phần tám”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-89770b01d9afc7e1",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t1",
+    "fingerprint": "d0e980c9fc6a2ba40b83c823795cd5ce",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 7/8 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "bảy phần tám"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 7, từ “phần”, rồi mẫu số 8: “bảy phần tám”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-5c9d9dacdac0766d",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t2",
+    "fingerprint": "0a241837962e41e748f855173a9d6dd2",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 13
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 4/13 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "bốn phần 13"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 4, từ “phần”, rồi mẫu số 13: “bốn phần 13”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-f631f74451354805",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t3",
+    "fingerprint": "ca7f4752845aa4911521f52cb1068d09",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 18
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 1/18 đọc là gì?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "một trên 18"
+      },
+      {
+        "id": "option-2",
+        "label": "18 phần một"
+      },
+      {
+        "id": "option-3",
+        "label": "một phần 18"
+      },
+      {
+        "id": "option-4",
+        "label": "một phần 18 phần"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 1, từ “phần”, rồi mẫu số 18: “một phần 18”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-f5f6de81062e81ba",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t4",
+    "fingerprint": "3ab7a7c7ff5dcb9ca9fe290e266f6143",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 5/6 đọc là gì? Bạn An cho rằng đáp án là năm phần sáu. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 5, từ “phần”, rồi mẫu số 6: “năm phần sáu”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-7ec4d37394a68dd1",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t5",
+    "fingerprint": "88d7cd9d79bb0ff1b629ec852f4d477f",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 11
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 2/11 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "hai phần mười một"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 2, từ “phần”, rồi mẫu số 11: “hai phần mười một”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-9748e83e5299f448",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t1",
+    "fingerprint": "2a0c91fe6dcd827e4bdf994cc5333cab",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 11
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 5/11 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "năm phần mười một"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 5, từ “phần”, rồi mẫu số 11: “năm phần mười một”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-57c8cbb281cbc31d",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t2",
+    "fingerprint": "a519f552eff930933c5c8540b6024ac5",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 16
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 2/16 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "hai phần 16"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 2, từ “phần”, rồi mẫu số 16: “hai phần 16”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-3f8c7e4a61835b5e",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t3",
+    "fingerprint": "3786c4a87f2552e3c5c9a90837fc0f26",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 1/4 đọc là gì?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "một phần bốn phần"
+      },
+      {
+        "id": "option-2",
+        "label": "bốn phần một"
+      },
+      {
+        "id": "option-3",
+        "label": "một trên bốn"
+      },
+      {
+        "id": "option-4",
+        "label": "một phần bốn"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 1, từ “phần”, rồi mẫu số 4: “một phần bốn”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-7d2900119434ab04",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t4",
+    "fingerprint": "8fb441c74a55bb204f74838750a21844",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 5/9 đọc là gì? Bạn An cho rằng đáp án là chín phần năm. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 5, từ “phần”, rồi mẫu số 9: “năm phần chín”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-2b5768fc66549c25",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t5",
+    "fingerprint": "2b676753d3eabbcf32aa28d7ff3146b1",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 14
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 10/14 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "mười phần 14"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 10, từ “phần”, rồi mẫu số 14: “mười phần 14”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-4057a166db503c67",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t1",
+    "fingerprint": "441dbe71b295e7d25533e7bddd42a7ee",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 14
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 3/14 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "ba phần 14"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 3, từ “phần”, rồi mẫu số 14: “ba phần 14”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-12b84a92fbd40bb9",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t2",
+    "fingerprint": "f2ad4f7bc345798c36cc62c0998e38be",
+    "generatorParams": {
+      "numerator": 18,
+      "denominator": 19
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 18/19 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "18 phần 19"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 18, từ “phần”, rồi mẫu số 19: “18 phần 19”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-f3114b1d7dd1305a",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t3",
+    "fingerprint": "8d50695d15cb58e591e882297187f2fb",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 2/7 đọc là gì?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "hai phần bảy"
+      },
+      {
+        "id": "option-2",
+        "label": "hai phần bảy phần"
+      },
+      {
+        "id": "option-3",
+        "label": "hai trên bảy"
+      },
+      {
+        "id": "option-4",
+        "label": "bảy phần hai"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 2, từ “phần”, rồi mẫu số 7: “hai phần bảy”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-c853780a80e8162c",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t4",
+    "fingerprint": "f15690dbcdff60ce67c529ada5fa1bfb",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 12
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 11/12 đọc là gì? Bạn An cho rằng đáp án là mười một phần mười hai. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 11, từ “phần”, rồi mẫu số 12: “mười một phần mười hai”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-6dd7cb2e77d2ee23",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t5",
+    "fingerprint": "de0837b8e0bd05a9e141fb0808a1a84e",
+    "generatorParams": {
+      "numerator": 8,
+      "denominator": 17
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 8/17 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "tám phần 17"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 8, từ “phần”, rồi mẫu số 17: “tám phần 17”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-438b8020f0d4a4db",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t1",
+    "fingerprint": "a650ad78ff6cd36871121c9d4f8a566f",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 17
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 1/17 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "một phần 17"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 1, từ “phần”, rồi mẫu số 17: “một phần 17”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-8bf6819232f1b445",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t2",
+    "fingerprint": "b8ef2044a22a41459e3bafed5abb3001",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 3/5 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "ba phần năm"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 3, từ “phần”, rồi mẫu số 5: “ba phần năm”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-e00d790e07929ad6",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t3",
+    "fingerprint": "678e483d8c44dddc8be36252da246a57",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 3/10 đọc là gì?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "ba trên mười"
+      },
+      {
+        "id": "option-2",
+        "label": "ba phần mười"
+      },
+      {
+        "id": "option-3",
+        "label": "mười phần ba"
+      },
+      {
+        "id": "option-4",
+        "label": "ba phần mười phần"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 3, từ “phần”, rồi mẫu số 10: “ba phần mười”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-f70ee7423cc67638",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t4",
+    "fingerprint": "143d40c8b405840adf74ef0d9319bd74",
+    "generatorParams": {
+      "numerator": 9,
+      "denominator": 15
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 9/15 đọc là gì? Bạn An cho rằng đáp án là 15 phần chín. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 9, từ “phần”, rồi mẫu số 15: “chín phần 15”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-917b7664cb67bcf1",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t5",
+    "fingerprint": "78a2025660370ed45ea05cd85edfc1e2",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 1/3 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "một phần ba"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 1, từ “phần”, rồi mẫu số 3: “một phần ba”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-c517a3f8896f43e3",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t1",
+    "fingerprint": "24985dd69f7fbf6cf7cea2ba3cf6e22c",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 2/3 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "hai phần ba"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 2, từ “phần”, rồi mẫu số 3: “hai phần ba”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-6ac68fa6bfe8b01f",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t2",
+    "fingerprint": "bb3fe57d981de1a47e2cb201cba09a11",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 6/8 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "sáu phần tám"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 6, từ “phần”, rồi mẫu số 8: “sáu phần tám”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-3e24a8a11390d1bb",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t3",
+    "fingerprint": "1436dfe4f56436ab5270585ed73ede05",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 13
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 10/13 đọc là gì?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "mười phần 13 phần"
+      },
+      {
+        "id": "option-2",
+        "label": "mười trên 13"
+      },
+      {
+        "id": "option-3",
+        "label": "13 phần mười"
+      },
+      {
+        "id": "option-4",
+        "label": "mười phần 13"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 10, từ “phần”, rồi mẫu số 13: “mười phần 13”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-3e93c3601792fff5",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t4",
+    "fingerprint": "df4aa5eeb1513d091cbf5387a1980420",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 18
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 7/18 đọc là gì? Bạn An cho rằng đáp án là bảy phần 18. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 7, từ “phần”, rồi mẫu số 18: “bảy phần 18”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-2127ea3a808a4e56",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t5",
+    "fingerprint": "9620fc27ea8b3d9ad246ab63b8e862d7",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 1/6 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "một phần sáu"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 1, từ “phần”, rồi mẫu số 6: “một phần sáu”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-fb32b519ee160036",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t1",
+    "fingerprint": "a9d3461e9659eb79ffb2a1c892b62308",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 4/6 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "bốn phần sáu"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 4, từ “phần”, rồi mẫu số 6: “bốn phần sáu”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-e0486a56c90188ad",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t2",
+    "fingerprint": "a7d0d774a6ff2e08c1d2607b37ed5771",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 11
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 1/11 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "một phần mười một"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 1, từ “phần”, rồi mẫu số 11: “một phần mười một”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-59213cfe49a99c2a",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t3",
+    "fingerprint": "dcb2f9811744530a3bf9af1f46197184",
+    "generatorParams": {
+      "numerator": 8,
+      "denominator": 16
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 8/16 đọc là gì?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "tám phần 16"
+      },
+      {
+        "id": "option-2",
+        "label": "tám phần 16 phần"
+      },
+      {
+        "id": "option-3",
+        "label": "tám trên 16"
+      },
+      {
+        "id": "option-4",
+        "label": "16 phần tám"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 8, từ “phần”, rồi mẫu số 16: “tám phần 16”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-b7b0297eefa21c3e",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t4",
+    "fingerprint": "8b4dcb4201f7535d02b3f5484bb32643",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 1/4 đọc là gì? Bạn An cho rằng đáp án là bốn phần một. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 1, từ “phần”, rồi mẫu số 4: “một phần bốn”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-af7a103c68323942",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t5",
+    "fingerprint": "8c3e7d7072149ec8b8868d5faa6b1b6d",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 3/9 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "ba phần chín"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 3, từ “phần”, rồi mẫu số 9: “ba phần chín”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-055909d4532c6300",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t1",
+    "fingerprint": "397a9fb007c87ff35458027d0af07e7c",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 4/9 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "bốn phần chín"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 4, từ “phần”, rồi mẫu số 9: “bốn phần chín”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-bf6635efd9cc1402",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t2",
+    "fingerprint": "d0cd9e119656a7b16422178b99df0c09",
+    "generatorParams": {
+      "numerator": 9,
+      "denominator": 14
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 9/14 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "chín phần 14"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 9, từ “phần”, rồi mẫu số 14: “chín phần 14”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-97e43354f14e489c",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t3",
+    "fingerprint": "a4e6f8ffd65492eec2bf1c9f5723698d",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 19
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 6/19 đọc là gì?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "sáu trên 19"
+      },
+      {
+        "id": "option-2",
+        "label": "sáu phần 19"
+      },
+      {
+        "id": "option-3",
+        "label": "19 phần sáu"
+      },
+      {
+        "id": "option-4",
+        "label": "sáu phần 19 phần"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 6, từ “phần”, rồi mẫu số 19: “sáu phần 19”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-b2f5408d91d41073",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t4",
+    "fingerprint": "74ce8064e6abbdc046ad5f76fc2e67c7",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 2/7 đọc là gì? Bạn An cho rằng đáp án là hai phần bảy. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 2, từ “phần”, rồi mẫu số 7: “hai phần bảy”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-b7c64e895604cd04",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t5",
+    "fingerprint": "a5ec50bbc4fcf557f99c9437af4b79f7",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 12
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 6/12 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "sáu phần mười hai"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 6, từ “phần”, rồi mẫu số 12: “sáu phần mười hai”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-20a1a424eac6accd",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t1",
+    "fingerprint": "6cc0a8e47e8eb44ea0a8085b8c9e2526",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 12
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 10/12 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "mười phần mười hai"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 10, từ “phần”, rồi mẫu số 12: “mười phần mười hai”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-a26e8b3a7d1a6873",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t2",
+    "fingerprint": "8ce772eb267cecc2b3cf07e6a415a467",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 17
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 7/17 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "bảy phần 17"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 7, từ “phần”, rồi mẫu số 17: “bảy phần 17”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-cb55cdb5618caaca",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t3",
+    "fingerprint": "150f7c55e6abfa93ff76d9849a2eb21e",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 1/5 đọc là gì?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "một phần năm phần"
+      },
+      {
+        "id": "option-2",
+        "label": "một phần năm"
+      },
+      {
+        "id": "option-3",
+        "label": "năm phần một"
+      },
+      {
+        "id": "option-4",
+        "label": "một trên năm"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 1, từ “phần”, rồi mẫu số 5: “một phần năm”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-3b1fac48c5ccb5b5",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t4",
+    "fingerprint": "eb49029f62ab9e5a49618cdb40eb63b7",
+    "generatorParams": {
+      "numerator": 9,
+      "denominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 9/10 đọc là gì? Bạn An cho rằng đáp án là mười phần chín. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 9, từ “phần”, rồi mẫu số 10: “chín phần mười”.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-read-fractions-e706273a36e1b4ac",
+    "contentVersion": "grade4-v3",
+    "templateId": "read-fractions-t5",
+    "fingerprint": "103d24d02a537afb1c5493da52bc759c",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 15
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "read-fractions-skill",
+    "problemTypeId": "read-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Phân số 1/15 đọc là gì?",
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "một phần 15"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc tử số trước."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "id": "check",
+        "instruction": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc tử số trước."
+      },
+      {
+        "level": 2,
+        "text": "Đọc từ “phần” ở giữa."
+      },
+      {
+        "level": 3,
+        "text": "Đọc mẫu số sau cùng."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Đọc tử số 1, từ “phần”, rồi mẫu số 15: “một phần 15”.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

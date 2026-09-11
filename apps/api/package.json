@@ -7,7 +7,13 @@
     "build": "nest build",
     "start": "node dist/main.js",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "test": "jest --runInBand"
+    "test": "jest --runInBand",
+    "content:build-bank": "ts-node src/content/content-cli.v2.ts build-bank",
+    "content:validate": "ts-node src/content/content-cli.v2.ts validate",
+    "content:audit": "ts-node src/content/content-cli.v2.ts audit",
+    "content:duplicates": "ts-node src/content/content-cli.v2.ts duplicates",
+    "content:stats": "ts-node src/content/content-cli.v2.ts stats",
+    "content:review-export": "ts-node src/content/content-cli.v2.ts review-export"
   },
   "dependencies": {
     "@math-app/shared": "workspace:*",

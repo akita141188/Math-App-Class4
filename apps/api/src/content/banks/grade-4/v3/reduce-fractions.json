@@ -1,0 +1,6782 @@
+[
+  {
+    "id": "g4-reduce-fractions-7ee9a9749bcfa9f9",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t1",
+    "fingerprint": "c35cbc5d02400069ed525123d49e4c17",
+    "generatorParams": {
+      "rawNumerator": 4,
+      "rawDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 4/8 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 2,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 4 và 8 là 4; rút gọn được 1/2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-a5b6cf44973b4361",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t2",
+    "fingerprint": "c6f1f72d8ce4d747718f1db84e1d8bc5",
+    "generatorParams": {
+      "rawNumerator": 9,
+      "rawDenominator": 15
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 9/15 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 5,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 9 và 15 là 3; rút gọn được 3/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-a03c7ed64d94447a",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t3",
+    "fingerprint": "76b656c361282984c6ccec43a9bd9549",
+    "generatorParams": {
+      "rawNumerator": 16,
+      "rawDenominator": 24
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 16/24 về dạng tối giản.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2/3"
+      },
+      {
+        "id": "option-2",
+        "label": "3/3"
+      },
+      {
+        "id": "option-3",
+        "label": "2/4"
+      },
+      {
+        "id": "option-4",
+        "label": "3/2"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 16 và 24 là 8; rút gọn được 2/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-940740161e8ed35d",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t4",
+    "fingerprint": "71a82056caa8204f1e07f3ae60335c85",
+    "generatorParams": {
+      "rawNumerator": 25,
+      "rawDenominator": 35
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 25/35 về dạng tối giản. Bạn An cho rằng đáp án là 5/7. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 25 và 35 là 5; rút gọn được 5/7.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-255f8be07984b158",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t5",
+    "fingerprint": "868426f303cf45b53954fa8354937bac",
+    "generatorParams": {
+      "rawNumerator": 12,
+      "rawDenominator": 16
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 12/16 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 4,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 12 và 16 là 4; rút gọn được 3/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-64e3a0af451450a8",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t1",
+    "fingerprint": "11a35067037ce785356102f75b827c19",
+    "generatorParams": {
+      "rawNumerator": 6,
+      "rawDenominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 6/10 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 5,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 6 và 10 là 2; rút gọn được 3/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-1ee1f859d7b9e4c2",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t2",
+    "fingerprint": "79372587925b8f6c2077866a0079496d",
+    "generatorParams": {
+      "rawNumerator": 12,
+      "rawDenominator": 18
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 12/18 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 3,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 12 và 18 là 6; rút gọn được 2/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-fd8d4fa1c2b2028f",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t3",
+    "fingerprint": "c9066cba9faa93b684cba28832c76c8c",
+    "generatorParams": {
+      "rawNumerator": 20,
+      "rawDenominator": 28
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 20/28 về dạng tối giản.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "5/8"
+      },
+      {
+        "id": "option-2",
+        "label": "7/5"
+      },
+      {
+        "id": "option-3",
+        "label": "6/7"
+      },
+      {
+        "id": "option-4",
+        "label": "5/7"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 20 và 28 là 4; rút gọn được 5/7.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-f4b0d48c7b31a1e6",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t4",
+    "fingerprint": "73b61e3fb2adf6a5ce9ce4c362b74beb",
+    "generatorParams": {
+      "rawNumerator": 30,
+      "rawDenominator": 40
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 30/40 về dạng tối giản. Bạn An cho rằng đáp án là 4/3. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 30 và 40 là 10; rút gọn được 3/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-125a0fc3dcf9eba9",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t5",
+    "fingerprint": "3af516ca687fc3dbb50639774b0fcc57",
+    "generatorParams": {
+      "rawNumerator": 14,
+      "rawDenominator": 18
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 14/18 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 7,
+      "denominator": 9,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 14 và 18 là 2; rút gọn được 7/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-2f4a047ac25756c6",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t1",
+    "fingerprint": "a278f1d920fab8124422bc412df4a6a6",
+    "generatorParams": {
+      "rawNumerator": 8,
+      "rawDenominator": 12
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 8/12 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 3,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 8 và 12 là 4; rút gọn được 2/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-0d432bb380ddbe52",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t2",
+    "fingerprint": "52e663310966785879b40c13639524ce",
+    "generatorParams": {
+      "rawNumerator": 15,
+      "rawDenominator": 21
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 15/21 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 5,
+      "denominator": 7,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 15 và 21 là 3; rút gọn được 5/7.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-d2f67f9b362c6254",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t3",
+    "fingerprint": "5760ed5ad571df240eaf8cfd4292c0f3",
+    "generatorParams": {
+      "rawNumerator": 24,
+      "rawDenominator": 32
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 24/32 về dạng tối giản.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3/5"
+      },
+      {
+        "id": "option-2",
+        "label": "4/3"
+      },
+      {
+        "id": "option-3",
+        "label": "4/4"
+      },
+      {
+        "id": "option-4",
+        "label": "3/4"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 24 và 32 là 8; rút gọn được 3/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-663076f0e1873312",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t4",
+    "fingerprint": "3dcfde0d7a7891092c882d60f32fc2d5",
+    "generatorParams": {
+      "rawNumerator": 35,
+      "rawDenominator": 45
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 35/45 về dạng tối giản. Bạn An cho rằng đáp án là 7/9. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 35 và 45 là 5; rút gọn được 7/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-78a320b35a190348",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t5",
+    "fingerprint": "bb047628e4e6bf7d04757269be7cf5f6",
+    "generatorParams": {
+      "rawNumerator": 16,
+      "rawDenominator": 20
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 16/20 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 5,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 16 và 20 là 4; rút gọn được 4/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-be4813b25538759f",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t1",
+    "fingerprint": "3cc69c7a4600fcaad828a81b3196ad14",
+    "generatorParams": {
+      "rawNumerator": 10,
+      "rawDenominator": 14
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 10/14 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 5,
+      "denominator": 7,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 10 và 14 là 2; rút gọn được 5/7.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-6cb8bb648116ee91",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t2",
+    "fingerprint": "4d0dff43f591a7dddc8e0e7470a3eacf",
+    "generatorParams": {
+      "rawNumerator": 18,
+      "rawDenominator": 24
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 18/24 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 4,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 18 và 24 là 6; rút gọn được 3/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-a49cdfb032fc6177",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t3",
+    "fingerprint": "c0de261a261595d8d270e7995ce9e5b6",
+    "generatorParams": {
+      "rawNumerator": 28,
+      "rawDenominator": 36
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 28/36 về dạng tối giản.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "7/9"
+      },
+      {
+        "id": "option-2",
+        "label": "7/10"
+      },
+      {
+        "id": "option-3",
+        "label": "8/9"
+      },
+      {
+        "id": "option-4",
+        "label": "9/7"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 28 và 36 là 4; rút gọn được 7/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-5cfbd212cea2e124",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t4",
+    "fingerprint": "468ceadf4189ae07f0ea2f25ddfd2c70",
+    "generatorParams": {
+      "rawNumerator": 40,
+      "rawDenominator": 50
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 40/50 về dạng tối giản. Bạn An cho rằng đáp án là 5/4. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 40 và 50 là 10; rút gọn được 4/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-52f123798615f0fb",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t5",
+    "fingerprint": "789728a5a614f20a1c20c2691739b969",
+    "generatorParams": {
+      "rawNumerator": 18,
+      "rawDenominator": 22
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 18/22 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 9,
+      "denominator": 11,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 18 và 22 là 2; rút gọn được 9/11.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-5a5a87d9859c81a1",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t1",
+    "fingerprint": "a5b2758a15a561647e7384662340b3ea",
+    "generatorParams": {
+      "rawNumerator": 12,
+      "rawDenominator": 16
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 12/16 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 4,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 12 và 16 là 4; rút gọn được 3/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-7c2f401bddea4278",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t2",
+    "fingerprint": "93c9d20e3a54b15548ae01de2b5211e1",
+    "generatorParams": {
+      "rawNumerator": 21,
+      "rawDenominator": 27
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 21/27 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 7,
+      "denominator": 9,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 21 và 27 là 3; rút gọn được 7/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-06bee852310e4759",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t3",
+    "fingerprint": "dca5c813be209e9df6aba759914ea891",
+    "generatorParams": {
+      "rawNumerator": 32,
+      "rawDenominator": 40
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 32/40 về dạng tối giản.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "4/6"
+      },
+      {
+        "id": "option-2",
+        "label": "5/4"
+      },
+      {
+        "id": "option-3",
+        "label": "4/5"
+      },
+      {
+        "id": "option-4",
+        "label": "5/5"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 32 và 40 là 8; rút gọn được 4/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-de84a03693c79008",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t4",
+    "fingerprint": "6a7250004521160ef6b720071255ae0f",
+    "generatorParams": {
+      "rawNumerator": 45,
+      "rawDenominator": 55
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 45/55 về dạng tối giản. Bạn An cho rằng đáp án là 9/11. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 45 và 55 là 5; rút gọn được 9/11.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-3f0600ab4db82b9d",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t5",
+    "fingerprint": "92a4412e508229efcb39315fb469ceb4",
+    "generatorParams": {
+      "rawNumerator": 20,
+      "rawDenominator": 24
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 20/24 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 5,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 20 và 24 là 4; rút gọn được 5/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-51834c457cc4e980",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t1",
+    "fingerprint": "4fc8ce4eaac44733cfd3bc86e5f3608c",
+    "generatorParams": {
+      "rawNumerator": 14,
+      "rawDenominator": 18
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 14/18 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 7,
+      "denominator": 9,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 14 và 18 là 2; rút gọn được 7/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-9e3afaf8c72051af",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t2",
+    "fingerprint": "ec1ea6d53e641a3d34d4518532de7291",
+    "generatorParams": {
+      "rawNumerator": 24,
+      "rawDenominator": 30
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 24/30 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 5,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 24 và 30 là 6; rút gọn được 4/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-e73238d9a1831f6e",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t3",
+    "fingerprint": "c98ffc964862b24ef9a112ae9eb3aa81",
+    "generatorParams": {
+      "rawNumerator": 36,
+      "rawDenominator": 44
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 36/44 về dạng tối giản.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "11/9"
+      },
+      {
+        "id": "option-2",
+        "label": "9/11"
+      },
+      {
+        "id": "option-3",
+        "label": "10/11"
+      },
+      {
+        "id": "option-4",
+        "label": "9/12"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 36 và 44 là 4; rút gọn được 9/11.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-3ccc541b9967cc6d",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t4",
+    "fingerprint": "be07e92eb4ecdfddcd40430d775deb48",
+    "generatorParams": {
+      "rawNumerator": 50,
+      "rawDenominator": 60
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 50/60 về dạng tối giản. Bạn An cho rằng đáp án là 6/5. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 50 và 60 là 10; rút gọn được 5/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-ff07edd68a251120",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t5",
+    "fingerprint": "b95bd06e5cd7d53af30755dddde71a35",
+    "generatorParams": {
+      "rawNumerator": 22,
+      "rawDenominator": 26
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 22/26 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 11,
+      "denominator": 13,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 22 và 26 là 2; rút gọn được 11/13.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-a8603393267498aa",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t1",
+    "fingerprint": "bbf1c1c27fdb4199631bfb5dc4d009cc",
+    "generatorParams": {
+      "rawNumerator": 16,
+      "rawDenominator": 20
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 16/20 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 5,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 16 và 20 là 4; rút gọn được 4/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-b55c5eacfdb67d76",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t2",
+    "fingerprint": "4013fc2627a8c746c7d56af1ac867380",
+    "generatorParams": {
+      "rawNumerator": 27,
+      "rawDenominator": 33
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 27/33 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 9,
+      "denominator": 11,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 27 và 33 là 3; rút gọn được 9/11.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-c32dea1a0882ee81",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t3",
+    "fingerprint": "ebf9040abe00a346278ff5de727bc765",
+    "generatorParams": {
+      "rawNumerator": 40,
+      "rawDenominator": 48
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 40/48 về dạng tối giản.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "6/5"
+      },
+      {
+        "id": "option-2",
+        "label": "5/7"
+      },
+      {
+        "id": "option-3",
+        "label": "5/6"
+      },
+      {
+        "id": "option-4",
+        "label": "6/6"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 40 và 48 là 8; rút gọn được 5/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-244d0db649abf785",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t4",
+    "fingerprint": "4492ee3b85efd5b04b54f5c6896dcef3",
+    "generatorParams": {
+      "rawNumerator": 55,
+      "rawDenominator": 65
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 55/65 về dạng tối giản. Bạn An cho rằng đáp án là 11/13. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 55 và 65 là 5; rút gọn được 11/13.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-613533bacb58acee",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t5",
+    "fingerprint": "83bdc25381208a4e4c0a7881a9967bf9",
+    "generatorParams": {
+      "rawNumerator": 24,
+      "rawDenominator": 28
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 24/28 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 7,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 24 và 28 là 4; rút gọn được 6/7.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-84a9e207f0e5db91",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t1",
+    "fingerprint": "3fb44ffac6151938ceffc189eb852887",
+    "generatorParams": {
+      "rawNumerator": 18,
+      "rawDenominator": 22
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 18/22 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 9,
+      "denominator": 11,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 18 và 22 là 2; rút gọn được 9/11.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-35effc73801b1dd8",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t2",
+    "fingerprint": "bd78e3e417daf2a9867c14de3580afdd",
+    "generatorParams": {
+      "rawNumerator": 30,
+      "rawDenominator": 36
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 30/36 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 5,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 30 và 36 là 6; rút gọn được 5/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-2125e8fcab494918",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t3",
+    "fingerprint": "1112c5f09520fa6108d2f2bcd53c4ee1",
+    "generatorParams": {
+      "rawNumerator": 44,
+      "rawDenominator": 52
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 44/52 về dạng tối giản.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "12/13"
+      },
+      {
+        "id": "option-2",
+        "label": "11/13"
+      },
+      {
+        "id": "option-3",
+        "label": "13/11"
+      },
+      {
+        "id": "option-4",
+        "label": "11/14"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 44 và 52 là 4; rút gọn được 11/13.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-c15edec5f2209816",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t4",
+    "fingerprint": "91bc0f65016f0ffeac9bbc37e5476af1",
+    "generatorParams": {
+      "rawNumerator": 60,
+      "rawDenominator": 70
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 60/70 về dạng tối giản. Bạn An cho rằng đáp án là 7/6. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 60 và 70 là 10; rút gọn được 6/7.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-cf2a4443de269cb5",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t5",
+    "fingerprint": "d2a08991f5324c605e686ee787d46f5b",
+    "generatorParams": {
+      "rawNumerator": 26,
+      "rawDenominator": 30
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 26/30 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 13,
+      "denominator": 15,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 26 và 30 là 2; rút gọn được 13/15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-93e204bbfbb70000",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t1",
+    "fingerprint": "8b8861fd25a6e47f9b03bc60bed6a3fb",
+    "generatorParams": {
+      "rawNumerator": 20,
+      "rawDenominator": 24
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 20/24 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 5,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 20 và 24 là 4; rút gọn được 5/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-4e45f58b9af23898",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t2",
+    "fingerprint": "2ac9c9813a40e031a5bbd93dbf475059",
+    "generatorParams": {
+      "rawNumerator": 33,
+      "rawDenominator": 39
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 33/39 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 11,
+      "denominator": 13,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 33 và 39 là 3; rút gọn được 11/13.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-ee7b9855f2f85443",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t3",
+    "fingerprint": "7b8f78abe602f9aca542836679a9c3b2",
+    "generatorParams": {
+      "rawNumerator": 48,
+      "rawDenominator": 56
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 48/56 về dạng tối giản.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "7/6"
+      },
+      {
+        "id": "option-2",
+        "label": "6/8"
+      },
+      {
+        "id": "option-3",
+        "label": "7/7"
+      },
+      {
+        "id": "option-4",
+        "label": "6/7"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 48 và 56 là 8; rút gọn được 6/7.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-202f803237fa16a4",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t4",
+    "fingerprint": "fee3f8ebf6460722fc04c656a75236b8",
+    "generatorParams": {
+      "rawNumerator": 65,
+      "rawDenominator": 75
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 65/75 về dạng tối giản. Bạn An cho rằng đáp án là 13/15. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 65 và 75 là 5; rút gọn được 13/15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-49a3047f736389c5",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t5",
+    "fingerprint": "25394ee667847b919711fba1f29fd0ef",
+    "generatorParams": {
+      "rawNumerator": 28,
+      "rawDenominator": 32
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 28/32 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 7,
+      "denominator": 8,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 28 và 32 là 4; rút gọn được 7/8.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-89cd9bff13fb9dfd",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t1",
+    "fingerprint": "54d9bdf279cc7e820c9ba9d048b678ce",
+    "generatorParams": {
+      "rawNumerator": 22,
+      "rawDenominator": 26
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 22/26 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 11,
+      "denominator": 13,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 22 và 26 là 2; rút gọn được 11/13.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-1b17d06326ad139f",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t2",
+    "fingerprint": "b0671c2e126f9746bed02e17fa8757ea",
+    "generatorParams": {
+      "rawNumerator": 36,
+      "rawDenominator": 42
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 36/42 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 7,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 36 và 42 là 6; rút gọn được 6/7.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-b12dfa8d78a73235",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t3",
+    "fingerprint": "c4678ae95bdbb368ffc378b918270dbe",
+    "generatorParams": {
+      "rawNumerator": 52,
+      "rawDenominator": 60
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 52/60 về dạng tối giản.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "15/13"
+      },
+      {
+        "id": "option-2",
+        "label": "13/15"
+      },
+      {
+        "id": "option-3",
+        "label": "13/16"
+      },
+      {
+        "id": "option-4",
+        "label": "14/15"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 52 và 60 là 4; rút gọn được 13/15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-fbcae7abe97ab3fc",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t4",
+    "fingerprint": "690663ee4566b36a21f2094150f03bbb",
+    "generatorParams": {
+      "rawNumerator": 70,
+      "rawDenominator": 80
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 70/80 về dạng tối giản. Bạn An cho rằng đáp án là 8/7. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 70 và 80 là 10; rút gọn được 7/8.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-7acff8ac6682aa45",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t5",
+    "fingerprint": "530a488f102c8acdf4b24995683ee2b7",
+    "generatorParams": {
+      "rawNumerator": 30,
+      "rawDenominator": 34
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 30/34 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 15,
+      "denominator": 17,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 30 và 34 là 2; rút gọn được 15/17.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-36904ac5863f204d",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t1",
+    "fingerprint": "588635d49a3eae49dcbee4459bc59c63",
+    "generatorParams": {
+      "rawNumerator": 24,
+      "rawDenominator": 28
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 24/28 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 7,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 24 và 28 là 4; rút gọn được 6/7.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-a76290d3ce47f275",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t2",
+    "fingerprint": "f25505414f3a446d2bfaa25b6594dcbd",
+    "generatorParams": {
+      "rawNumerator": 39,
+      "rawDenominator": 45
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 39/45 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 13,
+      "denominator": 15,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 39 và 45 là 3; rút gọn được 13/15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-e4b93e12f7d35680",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t3",
+    "fingerprint": "526f78ccb8b21d5c58294a980b094cac",
+    "generatorParams": {
+      "rawNumerator": 56,
+      "rawDenominator": 64
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 56/64 về dạng tối giản.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "8/8"
+      },
+      {
+        "id": "option-2",
+        "label": "7/9"
+      },
+      {
+        "id": "option-3",
+        "label": "7/8"
+      },
+      {
+        "id": "option-4",
+        "label": "8/7"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 56 và 64 là 8; rút gọn được 7/8.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-51e796f101b48335",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t4",
+    "fingerprint": "9daf2b4032eaedac8dee679be341ea07",
+    "generatorParams": {
+      "rawNumerator": 75,
+      "rawDenominator": 85
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 75/85 về dạng tối giản. Bạn An cho rằng đáp án là 15/17. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 75 và 85 là 5; rút gọn được 15/17.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-98cc5dba2aff82ce",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t5",
+    "fingerprint": "1b742ef28566ea86507ea56321b042aa",
+    "generatorParams": {
+      "rawNumerator": 32,
+      "rawDenominator": 36
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 32/36 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 8,
+      "denominator": 9,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 32 và 36 là 4; rút gọn được 8/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-fbbcb1f4a5562706",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t1",
+    "fingerprint": "8a5b9b95079f0f02f69fea1fd7271974",
+    "generatorParams": {
+      "rawNumerator": 26,
+      "rawDenominator": 30
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 26/30 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 13,
+      "denominator": 15,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 26 và 30 là 2; rút gọn được 13/15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-b793be9ee0285638",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t2",
+    "fingerprint": "aeb101310683875c901bab2bf1ef5012",
+    "generatorParams": {
+      "rawNumerator": 42,
+      "rawDenominator": 48
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 42/48 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 7,
+      "denominator": 8,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 42 và 48 là 6; rút gọn được 7/8.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-65cf295b34533ff8",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t3",
+    "fingerprint": "eb119067ce9e348a866a874535b716d1",
+    "generatorParams": {
+      "rawNumerator": 60,
+      "rawDenominator": 68
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 60/68 về dạng tối giản.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "17/15"
+      },
+      {
+        "id": "option-2",
+        "label": "15/18"
+      },
+      {
+        "id": "option-3",
+        "label": "15/17"
+      },
+      {
+        "id": "option-4",
+        "label": "16/17"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 60 và 68 là 4; rút gọn được 15/17.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-9c4c9c6da498b27a",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t4",
+    "fingerprint": "2c0f5b54f028e08997ce368aac82a6f3",
+    "generatorParams": {
+      "rawNumerator": 80,
+      "rawDenominator": 90
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 80/90 về dạng tối giản. Bạn An cho rằng đáp án là 9/8. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 80 và 90 là 10; rút gọn được 8/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-9344f4d7b05e66c4",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t5",
+    "fingerprint": "21f749769a8cb4db723000830f50b163",
+    "generatorParams": {
+      "rawNumerator": 34,
+      "rawDenominator": 38
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 34/38 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 17,
+      "denominator": 19,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 34 và 38 là 2; rút gọn được 17/19.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-1faf9f37f2374472",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t1",
+    "fingerprint": "d48c03d9656338110985d674b74d49bf",
+    "generatorParams": {
+      "rawNumerator": 28,
+      "rawDenominator": 32
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 28/32 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 7,
+      "denominator": 8,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 28 và 32 là 4; rút gọn được 7/8.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-ad7921e201c7cad4",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t2",
+    "fingerprint": "ab7958096a7da856fb7f6adcee6a427a",
+    "generatorParams": {
+      "rawNumerator": 45,
+      "rawDenominator": 51
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 45/51 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 15,
+      "denominator": 17,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 45 và 51 là 3; rút gọn được 15/17.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-f1627092c4540303",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t3",
+    "fingerprint": "c3637bb6f83a4d14ebb89d52dcaa322f",
+    "generatorParams": {
+      "rawNumerator": 64,
+      "rawDenominator": 72
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 64/72 về dạng tối giản.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "9/9"
+      },
+      {
+        "id": "option-2",
+        "label": "8/9"
+      },
+      {
+        "id": "option-3",
+        "label": "8/10"
+      },
+      {
+        "id": "option-4",
+        "label": "9/8"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 64 và 72 là 8; rút gọn được 8/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-b723eb1bfff6c6d3",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t4",
+    "fingerprint": "e643b4884b71cd9807b7173ee37249cc",
+    "generatorParams": {
+      "rawNumerator": 85,
+      "rawDenominator": 95
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 85/95 về dạng tối giản. Bạn An cho rằng đáp án là 17/19. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 85 và 95 là 5; rút gọn được 17/19.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-0c63963f2b65bea7",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t5",
+    "fingerprint": "17585c9e34c74d21af4d85a931f48a39",
+    "generatorParams": {
+      "rawNumerator": 36,
+      "rawDenominator": 40
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 36/40 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 9,
+      "denominator": 10,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 36 và 40 là 4; rút gọn được 9/10.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-6f0f32018b78eae9",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t1",
+    "fingerprint": "c8d7a887db72491b1ee8683ebbb5908f",
+    "generatorParams": {
+      "rawNumerator": 30,
+      "rawDenominator": 34
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 30/34 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 15,
+      "denominator": 17,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 30 và 34 là 2; rút gọn được 15/17.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-67de023a1f790b38",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t2",
+    "fingerprint": "8e1afcc7e5298d4c6a312d10f58c7809",
+    "generatorParams": {
+      "rawNumerator": 48,
+      "rawDenominator": 54
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 48/54 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 8,
+      "denominator": 9,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 48 và 54 là 6; rút gọn được 8/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-0a0614a25cca93bd",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t3",
+    "fingerprint": "2fd46409e6b3b152b0b697b985485bba",
+    "generatorParams": {
+      "rawNumerator": 68,
+      "rawDenominator": 76
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 68/76 về dạng tối giản.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "17/19"
+      },
+      {
+        "id": "option-2",
+        "label": "17/20"
+      },
+      {
+        "id": "option-3",
+        "label": "18/19"
+      },
+      {
+        "id": "option-4",
+        "label": "19/17"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 68 và 76 là 4; rút gọn được 17/19.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-bf094d17a00f3c42",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t4",
+    "fingerprint": "5122c6c28198d1daf653fd0e339922a3",
+    "generatorParams": {
+      "rawNumerator": 90,
+      "rawDenominator": 100
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 90/100 về dạng tối giản. Bạn An cho rằng đáp án là 10/9. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 90 và 100 là 10; rút gọn được 9/10.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-ae95ab1d1ffdb118",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t5",
+    "fingerprint": "cfb3ce5a6dbd165123f6e737cec6a0c9",
+    "generatorParams": {
+      "rawNumerator": 38,
+      "rawDenominator": 42
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 38/42 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 19,
+      "denominator": 21,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 38 và 42 là 2; rút gọn được 19/21.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-a30c2613910ffbc7",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t1",
+    "fingerprint": "ed4b5b334e8b8afd00c83959e3025616",
+    "generatorParams": {
+      "rawNumerator": 32,
+      "rawDenominator": 36
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 32/36 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 8,
+      "denominator": 9,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 32 và 36 là 4; rút gọn được 8/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-7075c0bc9d64bec7",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t2",
+    "fingerprint": "f1508a6e5d12149024a996280a8a8678",
+    "generatorParams": {
+      "rawNumerator": 51,
+      "rawDenominator": 57
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 51/57 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 17,
+      "denominator": 19,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 51 và 57 là 3; rút gọn được 17/19.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-ed3bf3bc34c7a6f9",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t3",
+    "fingerprint": "aee645a7d52d968d6dda1419ac73da9b",
+    "generatorParams": {
+      "rawNumerator": 72,
+      "rawDenominator": 80
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 72/80 về dạng tối giản.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "9/11"
+      },
+      {
+        "id": "option-2",
+        "label": "10/9"
+      },
+      {
+        "id": "option-3",
+        "label": "9/10"
+      },
+      {
+        "id": "option-4",
+        "label": "10/10"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 72 và 80 là 8; rút gọn được 9/10.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-a07d9ae27c6d1541",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t4",
+    "fingerprint": "563a43ca9f1483a1e90c3998570b31ff",
+    "generatorParams": {
+      "rawNumerator": 95,
+      "rawDenominator": 105
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 95/105 về dạng tối giản. Bạn An cho rằng đáp án là 19/21. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 95 và 105 là 5; rút gọn được 19/21.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-b14a50b11f847e96",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t5",
+    "fingerprint": "82292a3f8e3a1383a9cada13d6ba7b91",
+    "generatorParams": {
+      "rawNumerator": 40,
+      "rawDenominator": 44
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 40/44 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 10,
+      "denominator": 11,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 40 và 44 là 4; rút gọn được 10/11.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-db4038fd487f856f",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t1",
+    "fingerprint": "a46190c53486cfe66a64ab70e485f189",
+    "generatorParams": {
+      "rawNumerator": 34,
+      "rawDenominator": 38
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 34/38 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 17,
+      "denominator": 19,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 34 và 38 là 2; rút gọn được 17/19.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-7eb19bfb0f7fdb62",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t2",
+    "fingerprint": "a17d5c62a64d52432e60490d7ef4b808",
+    "generatorParams": {
+      "rawNumerator": 54,
+      "rawDenominator": 60
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 54/60 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 9,
+      "denominator": 10,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 54 và 60 là 6; rút gọn được 9/10.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-5aea66ac14274366",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t3",
+    "fingerprint": "d46298716f9c28c25cbd2672fd4524df",
+    "generatorParams": {
+      "rawNumerator": 76,
+      "rawDenominator": 84
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 76/84 về dạng tối giản.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "20/21"
+      },
+      {
+        "id": "option-2",
+        "label": "21/19"
+      },
+      {
+        "id": "option-3",
+        "label": "19/21"
+      },
+      {
+        "id": "option-4",
+        "label": "19/22"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 76 và 84 là 4; rút gọn được 19/21.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-673f671c6f0fc34f",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t4",
+    "fingerprint": "02f75ad8e7a3761d1afbc7cbe1f4b953",
+    "generatorParams": {
+      "rawNumerator": 100,
+      "rawDenominator": 110
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 100/110 về dạng tối giản. Bạn An cho rằng đáp án là 11/10. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 100 và 110 là 10; rút gọn được 10/11.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-01350b3530f47f0a",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t5",
+    "fingerprint": "0eec37e015dd72d3471e926821d41c58",
+    "generatorParams": {
+      "rawNumerator": 42,
+      "rawDenominator": 46
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 42/46 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 21,
+      "denominator": 23,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 42 và 46 là 2; rút gọn được 21/23.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-e02da2e4a1d259c0",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t1",
+    "fingerprint": "cc513daad7c7663e5126a662dda37201",
+    "generatorParams": {
+      "rawNumerator": 36,
+      "rawDenominator": 40
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 36/40 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 9,
+      "denominator": 10,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 36 và 40 là 4; rút gọn được 9/10.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-44e7a89fb5cd5559",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t2",
+    "fingerprint": "d2d65d7832781c19442334eadefad223",
+    "generatorParams": {
+      "rawNumerator": 57,
+      "rawDenominator": 63
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 57/63 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 19,
+      "denominator": 21,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 57 và 63 là 3; rút gọn được 19/21.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-e6b221b5cb4a3f2d",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t3",
+    "fingerprint": "3b3aca95b8e6c29dcfc557660a07f128",
+    "generatorParams": {
+      "rawNumerator": 80,
+      "rawDenominator": 88
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 80/88 về dạng tối giản.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "11/10"
+      },
+      {
+        "id": "option-2",
+        "label": "10/12"
+      },
+      {
+        "id": "option-3",
+        "label": "11/11"
+      },
+      {
+        "id": "option-4",
+        "label": "10/11"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 80 và 88 là 8; rút gọn được 10/11.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-c6ea251fd693c5d9",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t4",
+    "fingerprint": "c522949d92dea16de2130a97e27383a1",
+    "generatorParams": {
+      "rawNumerator": 105,
+      "rawDenominator": 115
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 105/115 về dạng tối giản. Bạn An cho rằng đáp án là 21/23. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 105 và 115 là 5; rút gọn được 21/23.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-c1b7e00bed5dbc32",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t5",
+    "fingerprint": "80f8ee173d35f966032fe981ab189307",
+    "generatorParams": {
+      "rawNumerator": 44,
+      "rawDenominator": 48
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 44/48 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 11,
+      "denominator": 12,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 44 và 48 là 4; rút gọn được 11/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-9c52a0d2df9fc822",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t1",
+    "fingerprint": "e9364b1618b843677ae8590811e6954c",
+    "generatorParams": {
+      "rawNumerator": 38,
+      "rawDenominator": 42
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 38/42 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 19,
+      "denominator": 21,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 38 và 42 là 2; rút gọn được 19/21.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-9b79f203fc79fb14",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t2",
+    "fingerprint": "f0074c81e7766a0bcbd301f53fe47288",
+    "generatorParams": {
+      "rawNumerator": 60,
+      "rawDenominator": 66
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 60/66 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 10,
+      "denominator": 11,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 60 và 66 là 6; rút gọn được 10/11.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-dbbdd31e90814194",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t3",
+    "fingerprint": "dcb7480fca3ca2b343fe6589072a886e",
+    "generatorParams": {
+      "rawNumerator": 84,
+      "rawDenominator": 92
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 84/92 về dạng tối giản.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "23/21"
+      },
+      {
+        "id": "option-2",
+        "label": "21/24"
+      },
+      {
+        "id": "option-3",
+        "label": "21/23"
+      },
+      {
+        "id": "option-4",
+        "label": "22/23"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 84 và 92 là 4; rút gọn được 21/23.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-a3d0dff92a939c6e",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t4",
+    "fingerprint": "1a538968e7361e41037dd32cdbaef2f0",
+    "generatorParams": {
+      "rawNumerator": 110,
+      "rawDenominator": 120
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 110/120 về dạng tối giản. Bạn An cho rằng đáp án là 12/11. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 110 và 120 là 10; rút gọn được 11/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-e364df0bb7e4011e",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t5",
+    "fingerprint": "86b0eb8f537e1e953fe4ff9415c9a40d",
+    "generatorParams": {
+      "rawNumerator": 46,
+      "rawDenominator": 50
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 46/50 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 23,
+      "denominator": 25,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 46 và 50 là 2; rút gọn được 23/25.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-0abcf49cc59c6ac6",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t1",
+    "fingerprint": "87220e654c0cc945f55aeb7fabbea103",
+    "generatorParams": {
+      "rawNumerator": 40,
+      "rawDenominator": 44
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 40/44 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 10,
+      "denominator": 11,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 40 và 44 là 4; rút gọn được 10/11.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-a461deeaa0627da9",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t2",
+    "fingerprint": "c208580c30b5bd5bc62c76009476699c",
+    "generatorParams": {
+      "rawNumerator": 63,
+      "rawDenominator": 69
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 63/69 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 21,
+      "denominator": 23,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 63 và 69 là 3; rút gọn được 21/23.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-5ca92ca3017dc906",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t3",
+    "fingerprint": "5a5077dbf378f941beb0d1b9305b654e",
+    "generatorParams": {
+      "rawNumerator": 88,
+      "rawDenominator": 96
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 88/96 về dạng tối giản.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "12/11"
+      },
+      {
+        "id": "option-2",
+        "label": "11/13"
+      },
+      {
+        "id": "option-3",
+        "label": "11/12"
+      },
+      {
+        "id": "option-4",
+        "label": "12/12"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 88 và 96 là 8; rút gọn được 11/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-3b8140168345e1e5",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t4",
+    "fingerprint": "0f34052177d0106da9adaac68c5a3377",
+    "generatorParams": {
+      "rawNumerator": 115,
+      "rawDenominator": 125
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 115/125 về dạng tối giản. Bạn An cho rằng đáp án là 23/25. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 115 và 125 là 5; rút gọn được 23/25.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-c3d6bf16f71eb85a",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t5",
+    "fingerprint": "e7c6800819f1fdec91a97580982c89d3",
+    "generatorParams": {
+      "rawNumerator": 48,
+      "rawDenominator": 52
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 48/52 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 12,
+      "denominator": 13,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 48 và 52 là 4; rút gọn được 12/13.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-7490fdb6147ff22a",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t1",
+    "fingerprint": "d067a085d028ae8a707e4d39efe6195b",
+    "generatorParams": {
+      "rawNumerator": 42,
+      "rawDenominator": 46
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 42/46 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 21,
+      "denominator": 23,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 42 và 46 là 2; rút gọn được 21/23.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-534b3179d6a1b8f7",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t2",
+    "fingerprint": "80cdc02fbd22282b4c53ad24f79097a3",
+    "generatorParams": {
+      "rawNumerator": 66,
+      "rawDenominator": 72
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 66/72 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 11,
+      "denominator": 12,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 66 và 72 là 6; rút gọn được 11/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-844a19b8cb49d0c5",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t3",
+    "fingerprint": "6b2428f3e844b006c6b5bb18efff0d08",
+    "generatorParams": {
+      "rawNumerator": 92,
+      "rawDenominator": 100
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 92/100 về dạng tối giản.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "23/26"
+      },
+      {
+        "id": "option-2",
+        "label": "23/25"
+      },
+      {
+        "id": "option-3",
+        "label": "24/25"
+      },
+      {
+        "id": "option-4",
+        "label": "25/23"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 92 và 100 là 4; rút gọn được 23/25.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-7c6cdce424e50d4a",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t4",
+    "fingerprint": "6ee0e8ccdfbdc803292b72617a1524ff",
+    "generatorParams": {
+      "rawNumerator": 120,
+      "rawDenominator": 130
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 120/130 về dạng tối giản. Bạn An cho rằng đáp án là 13/12. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 120 và 130 là 10; rút gọn được 12/13.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-reduce-fractions-cecc96ad016439e3",
+    "contentVersion": "grade4-v3",
+    "templateId": "reduce-fractions-t5",
+    "fingerprint": "7d378d2b7d4eb262deeff6fcb7eaa49e",
+    "generatorParams": {
+      "rawNumerator": 50,
+      "rawDenominator": 54
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "reduce-fractions-skill",
+    "problemTypeId": "reduce-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Rút gọn phân số 50/54 về dạng tối giản.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 25,
+      "denominator": 27,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Chia cả tử số và mẫu số cho ước chung lớn nhất."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Ước chung lớn nhất của 50 và 54 là 2; rút gọn được 25/27.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

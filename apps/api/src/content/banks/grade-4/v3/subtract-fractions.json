@@ -1,0 +1,6882 @@
+[
+  {
+    "id": "g4-subtract-fractions-da90ff22e01db0f8",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t1",
+    "fingerprint": "4ee203d3b502ac5a891777093d6494c4",
+    "generatorParams": {
+      "leftNumerator": 2,
+      "rightNumerator": 1,
+      "commonDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/7 − 1/7.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 7,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/7 − 1/7 = 1/7.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-14c3d6c851729a5b",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t2",
+    "fingerprint": "5fd91974a7030bf2a2e0c97d7d840e9f",
+    "generatorParams": {
+      "leftNumerator": 3,
+      "rightNumerator": 2,
+      "commonDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/8 − 2/8.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 8,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/8 − 2/8 = 1/8.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-a60f7b33458f0ee7",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t3",
+    "fingerprint": "8821dc94e31b33d325ed82113b21b47d",
+    "generatorParams": {
+      "leftNumerator": 4,
+      "rightNumerator": 3,
+      "commonDenominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/9 − 3/9.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "9/1"
+      },
+      {
+        "id": "option-2",
+        "label": "1/9"
+      },
+      {
+        "id": "option-3",
+        "label": "2/9"
+      },
+      {
+        "id": "option-4",
+        "label": "1/10"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/9 − 3/9 = 1/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-20f14f0be6f0805d",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t4",
+    "fingerprint": "b66d65e3ca01754f49ca9f4e47be1aea",
+    "generatorParams": {
+      "leftNumerator": 5,
+      "rightNumerator": 4,
+      "commonDenominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/10 − 4/10. Bạn An cho rằng đáp án là 1/10. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/10 − 4/10 = 1/10.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-a7ead295c85ad654",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t5",
+    "fingerprint": "91f5330969ca54e09968b629ef1b1336",
+    "generatorParams": {
+      "leftNumerator": 2,
+      "rightNumerator": 1,
+      "commonDenominator": 11
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/11 − 1/11.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 11,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/11 − 1/11 = 1/11.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-897a070e52a0de78",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t1",
+    "fingerprint": "265f3fe21c7e1201a12144d5329c6663",
+    "generatorParams": {
+      "leftNumerator": 3,
+      "rightNumerator": 1,
+      "commonDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/8 − 1/8.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 8,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/8 − 1/8 = 2/8.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-64d674a029aaef0d",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t2",
+    "fingerprint": "d7278aa07b79f4e536d683413e4eaaff",
+    "generatorParams": {
+      "leftNumerator": 4,
+      "rightNumerator": 2,
+      "commonDenominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/9 − 2/9.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 9,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/9 − 2/9 = 2/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-49193a29b6a496ef",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t3",
+    "fingerprint": "e3bfad1d2e2b2069a5ad3d954bb846a1",
+    "generatorParams": {
+      "leftNumerator": 5,
+      "rightNumerator": 3,
+      "commonDenominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/10 − 3/10.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3/10"
+      },
+      {
+        "id": "option-2",
+        "label": "2/10"
+      },
+      {
+        "id": "option-3",
+        "label": "2/11"
+      },
+      {
+        "id": "option-4",
+        "label": "10/2"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/10 − 3/10 = 2/10.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-93b07eb09bc32bba",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t4",
+    "fingerprint": "164d31ecf97e6b2fbcba7925d7dfe886",
+    "generatorParams": {
+      "leftNumerator": 2,
+      "rightNumerator": 1,
+      "commonDenominator": 11
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/11 − 1/11. Bạn An cho rằng đáp án là 11/1. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/11 − 1/11 = 1/11.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-9541181878b69b2c",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t5",
+    "fingerprint": "d187aece32dffb19d500e3f8dda0479b",
+    "generatorParams": {
+      "leftNumerator": 2,
+      "rightNumerator": 1,
+      "commonDenominator": 12
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/12 − 1/12.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 12,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/12 − 1/12 = 1/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-614e6d0518698309",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t1",
+    "fingerprint": "61aa5e55678b8596a94d6f8cb1ac56cd",
+    "generatorParams": {
+      "leftNumerator": 4,
+      "rightNumerator": 1,
+      "commonDenominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/9 − 1/9.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 9,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/9 − 1/9 = 3/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-7a2f7aa149915e3d",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t2",
+    "fingerprint": "7b3fe68afc68e1d46f8f8071b7516649",
+    "generatorParams": {
+      "leftNumerator": 5,
+      "rightNumerator": 2,
+      "commonDenominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/10 − 2/10.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 10,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/10 − 2/10 = 3/10.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-9ee4d02896a250f9",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t3",
+    "fingerprint": "88bb40b2cff3d9de8353f750f83de96e",
+    "generatorParams": {
+      "leftNumerator": 2,
+      "rightNumerator": 1,
+      "commonDenominator": 11
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/11 − 1/11.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2/11"
+      },
+      {
+        "id": "option-2",
+        "label": "1/12"
+      },
+      {
+        "id": "option-3",
+        "label": "1/11"
+      },
+      {
+        "id": "option-4",
+        "label": "11/1"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/11 − 1/11 = 1/11.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-f76cb10f4989c6dd",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t4",
+    "fingerprint": "04fb1fbe8e63545ceb7f3112f76b8ec6",
+    "generatorParams": {
+      "leftNumerator": 2,
+      "rightNumerator": 1,
+      "commonDenominator": 12
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/12 − 1/12. Bạn An cho rằng đáp án là 1/12. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/12 − 1/12 = 1/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-e71c9bad7921a896",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t5",
+    "fingerprint": "ff6a430cfd89bbe7e1dffc25d6b8d661",
+    "generatorParams": {
+      "leftNumerator": 2,
+      "rightNumerator": 1,
+      "commonDenominator": 13
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/13 − 1/13.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 13,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/13 − 1/13 = 1/13.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-e26646229efe50b9",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t1",
+    "fingerprint": "88b55c3cb93803939e9d741c67de5f48",
+    "generatorParams": {
+      "leftNumerator": 5,
+      "rightNumerator": 1,
+      "commonDenominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/10 − 1/10.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 10,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/10 − 1/10 = 4/10.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-563065e85926028b",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t2",
+    "fingerprint": "bc50408806ed2ef22b2d29b02d662fab",
+    "generatorParams": {
+      "leftNumerator": 2,
+      "rightNumerator": 1,
+      "commonDenominator": 11
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/11 − 1/11.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 11,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/11 − 1/11 = 1/11.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-a90a016836d084bd",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t3",
+    "fingerprint": "3830d263bc7532d897f49ac622dce975",
+    "generatorParams": {
+      "leftNumerator": 2,
+      "rightNumerator": 1,
+      "commonDenominator": 12
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/12 − 1/12.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1/13"
+      },
+      {
+        "id": "option-2",
+        "label": "12/1"
+      },
+      {
+        "id": "option-3",
+        "label": "1/12"
+      },
+      {
+        "id": "option-4",
+        "label": "2/12"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/12 − 1/12 = 1/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-e143502b7727b316",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t4",
+    "fingerprint": "9ae124af16fe6763989a7648a246c538",
+    "generatorParams": {
+      "leftNumerator": 3,
+      "rightNumerator": 2,
+      "commonDenominator": 13
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/13 − 2/13. Bạn An cho rằng đáp án là 13/1. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/13 − 2/13 = 1/13.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-1f8f19bb8812e3c3",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t5",
+    "fingerprint": "be4cb94928adcc319d29a2b9a4eba7cd",
+    "generatorParams": {
+      "leftNumerator": 2,
+      "rightNumerator": 1,
+      "commonDenominator": 14
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/14 − 1/14.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 14,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/14 − 1/14 = 1/14.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-c59cdb34f79c62be",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t1",
+    "fingerprint": "c3238c71b8ee9be1efeb6e70422ef6f7",
+    "generatorParams": {
+      "leftNumerator": 2,
+      "rightNumerator": 1,
+      "commonDenominator": 11
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/11 − 1/11.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 11,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/11 − 1/11 = 1/11.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-2021d93613ba72c0",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t2",
+    "fingerprint": "3a421f12806ce8bf9be90952ebaca0cf",
+    "generatorParams": {
+      "leftNumerator": 2,
+      "rightNumerator": 1,
+      "commonDenominator": 12
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/12 − 1/12.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 12,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/12 − 1/12 = 1/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-97baaf4723e2352a",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t3",
+    "fingerprint": "7425fce075377e726b372a64bc826fa0",
+    "generatorParams": {
+      "leftNumerator": 2,
+      "rightNumerator": 1,
+      "commonDenominator": 13
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/13 − 1/13.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "13/1"
+      },
+      {
+        "id": "option-2",
+        "label": "2/13"
+      },
+      {
+        "id": "option-3",
+        "label": "1/13"
+      },
+      {
+        "id": "option-4",
+        "label": "1/14"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/13 − 1/13 = 1/13.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-113ef388f30fd262",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t4",
+    "fingerprint": "29bd3f919aad939592224cd9d55146d6",
+    "generatorParams": {
+      "leftNumerator": 3,
+      "rightNumerator": 2,
+      "commonDenominator": 14
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/14 − 2/14. Bạn An cho rằng đáp án là 1/14. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/14 − 2/14 = 1/14.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-a71bca5d75cea550",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t5",
+    "fingerprint": "09eff98a2591dd27d5309cd6d38889fc",
+    "generatorParams": {
+      "leftNumerator": 3,
+      "rightNumerator": 2,
+      "commonDenominator": 15
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/15 − 2/15.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 15,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/15 − 2/15 = 1/15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-2ed345b670a7a7da",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t1",
+    "fingerprint": "7583dd8bda0c4502518f90a75cec9289",
+    "generatorParams": {
+      "leftNumerator": 2,
+      "rightNumerator": 1,
+      "commonDenominator": 12
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/12 − 1/12.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 12,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/12 − 1/12 = 1/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-31b3fc9cddf95103",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t2",
+    "fingerprint": "acefe3285f70aba56b396c0d36c4f3ee",
+    "generatorParams": {
+      "leftNumerator": 3,
+      "rightNumerator": 2,
+      "commonDenominator": 13
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/13 − 2/13.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 13,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/13 − 2/13 = 1/13.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-39959a41249d4b3f",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t3",
+    "fingerprint": "e37205d984a0168bb0b72a59d17ca293",
+    "generatorParams": {
+      "leftNumerator": 2,
+      "rightNumerator": 1,
+      "commonDenominator": 14
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/14 − 1/14.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1/15"
+      },
+      {
+        "id": "option-2",
+        "label": "2/14"
+      },
+      {
+        "id": "option-3",
+        "label": "14/1"
+      },
+      {
+        "id": "option-4",
+        "label": "1/14"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/14 − 1/14 = 1/14.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-11b6e6349e3f4404",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t4",
+    "fingerprint": "5cf804f5e4b0cdf44a462d17e0228975",
+    "generatorParams": {
+      "leftNumerator": 3,
+      "rightNumerator": 1,
+      "commonDenominator": 15
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/15 − 1/15. Bạn An cho rằng đáp án là 15/2. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/15 − 1/15 = 2/15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-303782aa01f293f0",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t5",
+    "fingerprint": "671a7213fbc3b9af32bf34154700ff7c",
+    "generatorParams": {
+      "leftNumerator": 3,
+      "rightNumerator": 2,
+      "commonDenominator": 16
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/16 − 2/16.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 16,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/16 − 2/16 = 1/16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-a8e745c1f180b795",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t1",
+    "fingerprint": "b7a710d25f226d32a433eb55a50c61a7",
+    "generatorParams": {
+      "leftNumerator": 2,
+      "rightNumerator": 1,
+      "commonDenominator": 13
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/13 − 1/13.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 13,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/13 − 1/13 = 1/13.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-2154ce6d99e30011",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t2",
+    "fingerprint": "e01627654eced491786849941a7899b0",
+    "generatorParams": {
+      "leftNumerator": 3,
+      "rightNumerator": 2,
+      "commonDenominator": 14
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/14 − 2/14.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 14,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/14 − 2/14 = 1/14.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-f316f95c3f6c0562",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t3",
+    "fingerprint": "7297daf93f6bb6aa9f7f614eea022c54",
+    "generatorParams": {
+      "leftNumerator": 4,
+      "rightNumerator": 3,
+      "commonDenominator": 15
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/15 − 3/15.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "15/1"
+      },
+      {
+        "id": "option-2",
+        "label": "1/15"
+      },
+      {
+        "id": "option-3",
+        "label": "2/15"
+      },
+      {
+        "id": "option-4",
+        "label": "1/16"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/15 − 3/15 = 1/15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-099a1548235e8596",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t4",
+    "fingerprint": "31b305b3dde508410cb22e9ba8d669f8",
+    "generatorParams": {
+      "leftNumerator": 3,
+      "rightNumerator": 1,
+      "commonDenominator": 16
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/16 − 1/16. Bạn An cho rằng đáp án là 2/16. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/16 − 1/16 = 2/16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-c6623e1b87da0368",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t5",
+    "fingerprint": "729d69f08852018ab296e468b116d241",
+    "generatorParams": {
+      "leftNumerator": 4,
+      "rightNumerator": 1,
+      "commonDenominator": 17
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/17 − 1/17.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 17,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/17 − 1/17 = 3/17.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-68d9f95334afe6c0",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t1",
+    "fingerprint": "93d7f576840b4166665724882fa5edaa",
+    "generatorParams": {
+      "leftNumerator": 2,
+      "rightNumerator": 1,
+      "commonDenominator": 14
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/14 − 1/14.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 14,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/14 − 1/14 = 1/14.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-57fc1eeba7696478",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t2",
+    "fingerprint": "665025d5b54bacd891f45c47d426ba6d",
+    "generatorParams": {
+      "leftNumerator": 3,
+      "rightNumerator": 2,
+      "commonDenominator": 15
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/15 − 2/15.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 15,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/15 − 2/15 = 1/15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-eda34c7362bb7d91",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t3",
+    "fingerprint": "73a169c98c99fd9f035556fa0c72a89b",
+    "generatorParams": {
+      "leftNumerator": 4,
+      "rightNumerator": 3,
+      "commonDenominator": 16
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/16 − 3/16.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1/17"
+      },
+      {
+        "id": "option-2",
+        "label": "16/1"
+      },
+      {
+        "id": "option-3",
+        "label": "2/16"
+      },
+      {
+        "id": "option-4",
+        "label": "1/16"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/16 − 3/16 = 1/16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-05b71dd907d44910",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t4",
+    "fingerprint": "c4e0f3bb761a71f333a503393455d93f",
+    "generatorParams": {
+      "leftNumerator": 5,
+      "rightNumerator": 4,
+      "commonDenominator": 17
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/17 − 4/17. Bạn An cho rằng đáp án là 17/1. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/17 − 4/17 = 1/17.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-e4d3a0481ea05ac8",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t5",
+    "fingerprint": "a88aefa7bf2d32ce3b5b4743549e5a9c",
+    "generatorParams": {
+      "leftNumerator": 4,
+      "rightNumerator": 1,
+      "commonDenominator": 18
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/18 − 1/18.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 18,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/18 − 1/18 = 3/18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-38d77099c74e5357",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t1",
+    "fingerprint": "ae64c910517fcd8ce465576a23d364ef",
+    "generatorParams": {
+      "leftNumerator": 3,
+      "rightNumerator": 1,
+      "commonDenominator": 15
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/15 − 1/15.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 15,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/15 − 1/15 = 2/15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-60b7c0b888939435",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t2",
+    "fingerprint": "4d0554c81f932559e9d8ef7c5e1f80af",
+    "generatorParams": {
+      "leftNumerator": 3,
+      "rightNumerator": 2,
+      "commonDenominator": 16
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/16 − 2/16.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 16,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/16 − 2/16 = 1/16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-7b3b204ee4d5d8d9",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t3",
+    "fingerprint": "effc5c68f1325c12c2053c3beff14f89",
+    "generatorParams": {
+      "leftNumerator": 4,
+      "rightNumerator": 3,
+      "commonDenominator": 17
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/17 − 3/17.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "17/1"
+      },
+      {
+        "id": "option-2",
+        "label": "2/17"
+      },
+      {
+        "id": "option-3",
+        "label": "1/17"
+      },
+      {
+        "id": "option-4",
+        "label": "1/18"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/17 − 3/17 = 1/17.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-fe8710055a3281b1",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t4",
+    "fingerprint": "6bfbe8eeadc75bd1d941fc8a40fea154",
+    "generatorParams": {
+      "leftNumerator": 5,
+      "rightNumerator": 4,
+      "commonDenominator": 18
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/18 − 4/18. Bạn An cho rằng đáp án là 1/18. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/18 − 4/18 = 1/18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-947b6477f00e7ef9",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t5",
+    "fingerprint": "e8210dcbbdc52d747da67d29b31fcc62",
+    "generatorParams": {
+      "leftNumerator": 6,
+      "rightNumerator": 5,
+      "commonDenominator": 19
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/19 − 5/19.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 19,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/19 − 5/19 = 1/19.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-b16927bc10c2d35f",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t1",
+    "fingerprint": "7b7334b97bd21366732dbd311bd11aeb",
+    "generatorParams": {
+      "leftNumerator": 3,
+      "rightNumerator": 1,
+      "commonDenominator": 16
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/16 − 1/16.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 16,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/16 − 1/16 = 2/16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-37c699e5638882e4",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t2",
+    "fingerprint": "49ba501f36a0db42fa503908729a4514",
+    "generatorParams": {
+      "leftNumerator": 4,
+      "rightNumerator": 2,
+      "commonDenominator": 17
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/17 − 2/17.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 17,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/17 − 2/17 = 2/17.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-d9aeb665a9d356ba",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t3",
+    "fingerprint": "ab42be1f3018d44328207455729e3109",
+    "generatorParams": {
+      "leftNumerator": 4,
+      "rightNumerator": 3,
+      "commonDenominator": 18
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/18 − 3/18.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1/18"
+      },
+      {
+        "id": "option-2",
+        "label": "2/18"
+      },
+      {
+        "id": "option-3",
+        "label": "1/19"
+      },
+      {
+        "id": "option-4",
+        "label": "18/1"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/18 − 3/18 = 1/18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-ef4638df492282a1",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t4",
+    "fingerprint": "d1f3f564e50934afe529b860c85fc079",
+    "generatorParams": {
+      "leftNumerator": 5,
+      "rightNumerator": 4,
+      "commonDenominator": 19
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/19 − 4/19. Bạn An cho rằng đáp án là 19/1. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/19 − 4/19 = 1/19.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-3da7443223442637",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t5",
+    "fingerprint": "a3854e4453a141b99fad8552224b2326",
+    "generatorParams": {
+      "leftNumerator": 6,
+      "rightNumerator": 5,
+      "commonDenominator": 20
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/20 − 5/20.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 20,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/20 − 5/20 = 1/20.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-be49dee2da536d84",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t1",
+    "fingerprint": "f3aad0eb9cdd86f836ecc6a2467594e5",
+    "generatorParams": {
+      "leftNumerator": 4,
+      "rightNumerator": 1,
+      "commonDenominator": 17
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/17 − 1/17.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 17,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/17 − 1/17 = 3/17.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-4efd30e10b3fa884",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t2",
+    "fingerprint": "b89039be71e95fc38f2d0a3f72135ea2",
+    "generatorParams": {
+      "leftNumerator": 4,
+      "rightNumerator": 2,
+      "commonDenominator": 18
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/18 − 2/18.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 18,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/18 − 2/18 = 2/18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-fc98d0209c09923c",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t3",
+    "fingerprint": "69c165c99cc96d6321abd0eab9f9ca7d",
+    "generatorParams": {
+      "leftNumerator": 5,
+      "rightNumerator": 3,
+      "commonDenominator": 19
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/19 − 3/19.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2/20"
+      },
+      {
+        "id": "option-2",
+        "label": "19/2"
+      },
+      {
+        "id": "option-3",
+        "label": "3/19"
+      },
+      {
+        "id": "option-4",
+        "label": "2/19"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/19 − 3/19 = 2/19.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-65e3e3dfbd51ee16",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t4",
+    "fingerprint": "4977f520459cc8ad00fe54f86ffd3f93",
+    "generatorParams": {
+      "leftNumerator": 5,
+      "rightNumerator": 4,
+      "commonDenominator": 20
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/20 − 4/20. Bạn An cho rằng đáp án là 1/20. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/20 − 4/20 = 1/20.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-16e38d5cfc1d7829",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t5",
+    "fingerprint": "d4dcb56aaacd00b068626e7b65bf614e",
+    "generatorParams": {
+      "leftNumerator": 6,
+      "rightNumerator": 5,
+      "commonDenominator": 21
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/21 − 5/21.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 21,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/21 − 5/21 = 1/21.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-437f3c2a1de67410",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t1",
+    "fingerprint": "a68b2aad22c80c90b4076b3c12c374d4",
+    "generatorParams": {
+      "leftNumerator": 4,
+      "rightNumerator": 1,
+      "commonDenominator": 18
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/18 − 1/18.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 18,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/18 − 1/18 = 3/18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-3a6b6fd3005bc2b9",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t2",
+    "fingerprint": "3f77cf4f0035ee38e586858f176fe7f5",
+    "generatorParams": {
+      "leftNumerator": 5,
+      "rightNumerator": 2,
+      "commonDenominator": 19
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/19 − 2/19.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 19,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/19 − 2/19 = 3/19.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-37b74e70c0406f9f",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t3",
+    "fingerprint": "180643810ce948d88991712617490567",
+    "generatorParams": {
+      "leftNumerator": 5,
+      "rightNumerator": 3,
+      "commonDenominator": 20
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/20 − 3/20.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3/20"
+      },
+      {
+        "id": "option-2",
+        "label": "20/2"
+      },
+      {
+        "id": "option-3",
+        "label": "2/20"
+      },
+      {
+        "id": "option-4",
+        "label": "2/21"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/20 − 3/20 = 2/20.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-701f2ecce5b0d977",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t4",
+    "fingerprint": "7f5be76883d24060b5fd3d2957c2c0cb",
+    "generatorParams": {
+      "leftNumerator": 6,
+      "rightNumerator": 4,
+      "commonDenominator": 21
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/21 − 4/21. Bạn An cho rằng đáp án là 21/2. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/21 − 4/21 = 2/21.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-01b17267ef624f12",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t5",
+    "fingerprint": "22fe9742069527edc8ce94fd2f7d3f29",
+    "generatorParams": {
+      "leftNumerator": 6,
+      "rightNumerator": 5,
+      "commonDenominator": 22
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/22 − 5/22.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 22,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/22 − 5/22 = 1/22.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-38cc4d40efd7f156",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t1",
+    "fingerprint": "54aed1842e3ff651b58e8c33d8f0be1e",
+    "generatorParams": {
+      "leftNumerator": 5,
+      "rightNumerator": 1,
+      "commonDenominator": 19
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/19 − 1/19.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 19,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/19 − 1/19 = 4/19.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-d333b0d8b48bc903",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t2",
+    "fingerprint": "f5afb97962fab64fe82a851ff67f9ac3",
+    "generatorParams": {
+      "leftNumerator": 5,
+      "rightNumerator": 2,
+      "commonDenominator": 20
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/20 − 2/20.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 20,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/20 − 2/20 = 3/20.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-759cbed6dcdc256d",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t3",
+    "fingerprint": "43a7f118f8dc7e6f27437d70682fa8ad",
+    "generatorParams": {
+      "leftNumerator": 6,
+      "rightNumerator": 3,
+      "commonDenominator": 21
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/21 − 3/21.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "4/21"
+      },
+      {
+        "id": "option-2",
+        "label": "21/3"
+      },
+      {
+        "id": "option-3",
+        "label": "3/21"
+      },
+      {
+        "id": "option-4",
+        "label": "3/22"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/21 − 3/21 = 3/21.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-6bf90586aa3a06f2",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t4",
+    "fingerprint": "2f537e49837dfe94a0b06dca5a1731d5",
+    "generatorParams": {
+      "leftNumerator": 6,
+      "rightNumerator": 4,
+      "commonDenominator": 22
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/22 − 4/22. Bạn An cho rằng đáp án là 2/22. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/22 − 4/22 = 2/22.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-3bddb51b35a7640e",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t5",
+    "fingerprint": "ec1f2910f4f1a75fc3db447fa25a7894",
+    "generatorParams": {
+      "leftNumerator": 7,
+      "rightNumerator": 5,
+      "commonDenominator": 23
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7/23 − 5/23.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 23,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7/23 − 5/23 = 2/23.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-58148f75c544e9ef",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t1",
+    "fingerprint": "7a69e04819edbc75cbb873ca203ef121",
+    "generatorParams": {
+      "leftNumerator": 5,
+      "rightNumerator": 1,
+      "commonDenominator": 20
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/20 − 1/20.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 20,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/20 − 1/20 = 4/20.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-4dfcb09ff6134869",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t2",
+    "fingerprint": "177e57e61cb8c080144323388e657573",
+    "generatorParams": {
+      "leftNumerator": 6,
+      "rightNumerator": 2,
+      "commonDenominator": 21
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/21 − 2/21.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 21,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/21 − 2/21 = 4/21.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-23bdc83914f350b1",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t3",
+    "fingerprint": "fc032491e08696dea56c2a020faba6d7",
+    "generatorParams": {
+      "leftNumerator": 6,
+      "rightNumerator": 3,
+      "commonDenominator": 22
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/22 − 3/22.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3/23"
+      },
+      {
+        "id": "option-2",
+        "label": "22/3"
+      },
+      {
+        "id": "option-3",
+        "label": "3/22"
+      },
+      {
+        "id": "option-4",
+        "label": "4/22"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/22 − 3/22 = 3/22.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-c1bec6f724d35ef8",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t4",
+    "fingerprint": "1368cfa93a0f7a1acdc1056684dc68ad",
+    "generatorParams": {
+      "leftNumerator": 7,
+      "rightNumerator": 4,
+      "commonDenominator": 23
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7/23 − 4/23. Bạn An cho rằng đáp án là 23/3. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7/23 − 4/23 = 3/23.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-b51f0853f6326687",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t5",
+    "fingerprint": "0994cf0ee2cc53e771ef085e9eb93282",
+    "generatorParams": {
+      "leftNumerator": 7,
+      "rightNumerator": 5,
+      "commonDenominator": 24
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7/24 − 5/24.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 24,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7/24 − 5/24 = 2/24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-7b5817b43e9baa6b",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t1",
+    "fingerprint": "562b74461fb8569ac14206bdbf169467",
+    "generatorParams": {
+      "leftNumerator": 6,
+      "rightNumerator": 1,
+      "commonDenominator": 21
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/21 − 1/21.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 5,
+      "denominator": 21,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/21 − 1/21 = 5/21.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-90c470b91e3130c0",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t2",
+    "fingerprint": "1df263336dc0ead0338bf20d1ca4ca28",
+    "generatorParams": {
+      "leftNumerator": 6,
+      "rightNumerator": 2,
+      "commonDenominator": 22
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/22 − 2/22.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 22,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/22 − 2/22 = 4/22.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-10d585c2df65d03c",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t3",
+    "fingerprint": "1c1a7e47929e917b53fb895ca03173d3",
+    "generatorParams": {
+      "leftNumerator": 7,
+      "rightNumerator": 3,
+      "commonDenominator": 23
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7/23 − 3/23.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "5/23"
+      },
+      {
+        "id": "option-2",
+        "label": "4/24"
+      },
+      {
+        "id": "option-3",
+        "label": "23/4"
+      },
+      {
+        "id": "option-4",
+        "label": "4/23"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7/23 − 3/23 = 4/23.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-18dbc7f44e124a9e",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t4",
+    "fingerprint": "05a9c9049766ed4616e971e6128f9715",
+    "generatorParams": {
+      "leftNumerator": 7,
+      "rightNumerator": 4,
+      "commonDenominator": 24
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7/24 − 4/24. Bạn An cho rằng đáp án là 3/24. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7/24 − 4/24 = 3/24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-f636dc977ab33dba",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t5",
+    "fingerprint": "7b26e4d2364e87c84b75cffdf1b52399",
+    "generatorParams": {
+      "leftNumerator": 8,
+      "rightNumerator": 5,
+      "commonDenominator": 25
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 8/25 − 5/25.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 25,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8/25 − 5/25 = 3/25.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-5a2f7cb9ff24ac05",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t1",
+    "fingerprint": "d69a1110d2bd71cc07a35b87e3c580da",
+    "generatorParams": {
+      "leftNumerator": 6,
+      "rightNumerator": 1,
+      "commonDenominator": 22
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/22 − 1/22.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 5,
+      "denominator": 22,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/22 − 1/22 = 5/22.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-06d0de65a961723d",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t2",
+    "fingerprint": "f39bcb74a963cd248bca6f8ec40e7c34",
+    "generatorParams": {
+      "leftNumerator": 7,
+      "rightNumerator": 2,
+      "commonDenominator": 23
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7/23 − 2/23.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 5,
+      "denominator": 23,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7/23 − 2/23 = 5/23.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-701f7b75fb907563",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t3",
+    "fingerprint": "09fbd24695d9443214ff91ea66194fcd",
+    "generatorParams": {
+      "leftNumerator": 7,
+      "rightNumerator": 3,
+      "commonDenominator": 24
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7/24 − 3/24.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "5/24"
+      },
+      {
+        "id": "option-2",
+        "label": "24/4"
+      },
+      {
+        "id": "option-3",
+        "label": "4/25"
+      },
+      {
+        "id": "option-4",
+        "label": "4/24"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7/24 − 3/24 = 4/24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-36006b5b30ded6c4",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t4",
+    "fingerprint": "86e3127bf267f221c54e29764d213c3d",
+    "generatorParams": {
+      "leftNumerator": 8,
+      "rightNumerator": 4,
+      "commonDenominator": 25
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 8/25 − 4/25. Bạn An cho rằng đáp án là 25/4. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8/25 − 4/25 = 4/25.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-6b459a7698762bb8",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t5",
+    "fingerprint": "e3a846249c912aaa5d8f9c9f60d40058",
+    "generatorParams": {
+      "leftNumerator": 8,
+      "rightNumerator": 5,
+      "commonDenominator": 26
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 8/26 − 5/26.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 26,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8/26 − 5/26 = 3/26.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-120ef66fae40cd4b",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t1",
+    "fingerprint": "772a13c9644f60299f78b1606d1aa473",
+    "generatorParams": {
+      "leftNumerator": 7,
+      "rightNumerator": 1,
+      "commonDenominator": 23
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7/23 − 1/23.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 23,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7/23 − 1/23 = 6/23.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-59bf948a78eff44d",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t2",
+    "fingerprint": "8bb0e52ef4d9084dc1e667c74fa16151",
+    "generatorParams": {
+      "leftNumerator": 7,
+      "rightNumerator": 2,
+      "commonDenominator": 24
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7/24 − 2/24.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 5,
+      "denominator": 24,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7/24 − 2/24 = 5/24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-51eb52e469a4324e",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t3",
+    "fingerprint": "37c8a3a6d625b75e2b5640e82e05fa8b",
+    "generatorParams": {
+      "leftNumerator": 8,
+      "rightNumerator": 3,
+      "commonDenominator": 25
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 8/25 − 3/25.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "25/5"
+      },
+      {
+        "id": "option-2",
+        "label": "5/26"
+      },
+      {
+        "id": "option-3",
+        "label": "6/25"
+      },
+      {
+        "id": "option-4",
+        "label": "5/25"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8/25 − 3/25 = 5/25.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-f68da76e063aa153",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t4",
+    "fingerprint": "8003af277235761b3822729aec553820",
+    "generatorParams": {
+      "leftNumerator": 8,
+      "rightNumerator": 4,
+      "commonDenominator": 26
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 8/26 − 4/26. Bạn An cho rằng đáp án là 4/26. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8/26 − 4/26 = 4/26.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-04c6490923b765e3",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t5",
+    "fingerprint": "6ebf0669a85ded75dda58c79088d4736",
+    "generatorParams": {
+      "leftNumerator": 9,
+      "rightNumerator": 5,
+      "commonDenominator": 27
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 9/27 − 5/27.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 27,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9/27 − 5/27 = 4/27.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-24b5ebfcb0c9ea36",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t1",
+    "fingerprint": "c407d026f29f57642e50e5efa711435b",
+    "generatorParams": {
+      "leftNumerator": 7,
+      "rightNumerator": 1,
+      "commonDenominator": 24
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7/24 − 1/24.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 24,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7/24 − 1/24 = 6/24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-bf430b507e6909af",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t2",
+    "fingerprint": "c279cfadf099cf7a0acf938bebc9e4d9",
+    "generatorParams": {
+      "leftNumerator": 8,
+      "rightNumerator": 2,
+      "commonDenominator": 25
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 8/25 − 2/25.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 25,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8/25 − 2/25 = 6/25.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-bb0d58c47ccb1d0f",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t3",
+    "fingerprint": "12b528284e4054645379602e8ea49eaf",
+    "generatorParams": {
+      "leftNumerator": 8,
+      "rightNumerator": 3,
+      "commonDenominator": 26
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 8/26 − 3/26.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "5/26"
+      },
+      {
+        "id": "option-2",
+        "label": "26/5"
+      },
+      {
+        "id": "option-3",
+        "label": "6/26"
+      },
+      {
+        "id": "option-4",
+        "label": "5/27"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8/26 − 3/26 = 5/26.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-b89f6ae421cbdd80",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t4",
+    "fingerprint": "f3fb863d516cc6c5dac8fc213a16fcd0",
+    "generatorParams": {
+      "leftNumerator": 9,
+      "rightNumerator": 4,
+      "commonDenominator": 27
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 9/27 − 4/27. Bạn An cho rằng đáp án là 27/5. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9/27 − 4/27 = 5/27.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-8bfaf31ceabe1eed",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t5",
+    "fingerprint": "a3c73d5cb5e689a65c8612b766931e85",
+    "generatorParams": {
+      "leftNumerator": 9,
+      "rightNumerator": 5,
+      "commonDenominator": 28
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 9/28 − 5/28.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 28,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9/28 − 5/28 = 4/28.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-7bf3b2fe1d99d987",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t1",
+    "fingerprint": "a37b1a1a71ec38beaa1dc8ad1cdbfe4d",
+    "generatorParams": {
+      "leftNumerator": 8,
+      "rightNumerator": 1,
+      "commonDenominator": 25
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 8/25 − 1/25.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 7,
+      "denominator": 25,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8/25 − 1/25 = 7/25.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-6de526cb2ee4befe",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t2",
+    "fingerprint": "4363e75e19cae10cebb63452fae88cdf",
+    "generatorParams": {
+      "leftNumerator": 8,
+      "rightNumerator": 2,
+      "commonDenominator": 26
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 8/26 − 2/26.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 26,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8/26 − 2/26 = 6/26.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-bb27d06adf4aaf95",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t3",
+    "fingerprint": "4644e56d353581a20e3e25978f4d5d8a",
+    "generatorParams": {
+      "leftNumerator": 9,
+      "rightNumerator": 3,
+      "commonDenominator": 27
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 9/27 − 3/27.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "6/28"
+      },
+      {
+        "id": "option-2",
+        "label": "6/27"
+      },
+      {
+        "id": "option-3",
+        "label": "7/27"
+      },
+      {
+        "id": "option-4",
+        "label": "27/6"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9/27 − 3/27 = 6/27.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-a86031590a34f969",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t4",
+    "fingerprint": "37a56d30acd0e63f07e18a3613d23ad1",
+    "generatorParams": {
+      "leftNumerator": 9,
+      "rightNumerator": 4,
+      "commonDenominator": 28
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 9/28 − 4/28. Bạn An cho rằng đáp án là 5/28. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9/28 − 4/28 = 5/28.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-ed616f79f4383d7a",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t5",
+    "fingerprint": "08b943d422dab9f585e5217f78d21af8",
+    "generatorParams": {
+      "leftNumerator": 10,
+      "rightNumerator": 5,
+      "commonDenominator": 29
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 10/29 − 5/29.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 5,
+      "denominator": 29,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "10/29 − 5/29 = 5/29.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-5e4f30477f75a684",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t1",
+    "fingerprint": "b78ad0c0d15aded94da937dd8753e756",
+    "generatorParams": {
+      "leftNumerator": 8,
+      "rightNumerator": 1,
+      "commonDenominator": 26
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 8/26 − 1/26.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 7,
+      "denominator": 26,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8/26 − 1/26 = 7/26.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-9a3b909f68554f3a",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t2",
+    "fingerprint": "7feb3aac17c36838b3ce28349530b1b0",
+    "generatorParams": {
+      "leftNumerator": 9,
+      "rightNumerator": 2,
+      "commonDenominator": 27
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 9/27 − 2/27.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 7,
+      "denominator": 27,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9/27 − 2/27 = 7/27.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-a21021f04f5684c8",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t3",
+    "fingerprint": "1b4c5160262294b406ef48088ec37709",
+    "generatorParams": {
+      "leftNumerator": 9,
+      "rightNumerator": 3,
+      "commonDenominator": 28
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 9/28 − 3/28.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "6/28"
+      },
+      {
+        "id": "option-2",
+        "label": "28/6"
+      },
+      {
+        "id": "option-3",
+        "label": "7/28"
+      },
+      {
+        "id": "option-4",
+        "label": "6/29"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9/28 − 3/28 = 6/28.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-5661e2cd71410edf",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t4",
+    "fingerprint": "1b11eaaa47e8033fa7a505cbbd828926",
+    "generatorParams": {
+      "leftNumerator": 10,
+      "rightNumerator": 4,
+      "commonDenominator": 29
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 10/29 − 4/29. Bạn An cho rằng đáp án là 29/6. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "10/29 − 4/29 = 6/29.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-subtract-fractions-bf7015a8b8150a13",
+    "contentVersion": "grade4-v3",
+    "templateId": "subtract-fractions-t5",
+    "fingerprint": "ddf8cca00eb099d31e92a6e9fe93f417",
+    "generatorParams": {
+      "leftNumerator": 10,
+      "rightNumerator": 5,
+      "commonDenominator": 30
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "subtract-fractions-skill",
+    "problemTypeId": "subtract-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 10/30 − 5/30.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 5,
+      "denominator": 30,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: thực hiện phép tính với tử số, giữ nguyên mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "10/30 − 5/30 = 5/30.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

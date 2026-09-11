@@ -1,0 +1,6882 @@
+[
+  {
+    "id": "g4-compare-fractions-935987defcd6d435",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t1",
+    "fingerprint": "80e90e79a95fb6410c7d21b13f6da32b",
+    "generatorParams": {
+      "leftNumerator": 2,
+      "rightNumerator": 3,
+      "commonDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 2/6 và 3/6, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 3 > 2 nên 3/6 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-3e7c2ac7c2c6e70b",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t2",
+    "fingerprint": "d8e79aeadd97ab85e864dffc7b34a4a8",
+    "generatorParams": {
+      "leftNumerator": 3,
+      "rightNumerator": 4,
+      "commonDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 3/7 và 4/7, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 7,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 4 > 3 nên 4/7 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-bb2f918ef61c3405",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t3",
+    "fingerprint": "809720de1c1e917e596e4bd4d0c7ed64",
+    "generatorParams": {
+      "leftNumerator": 4,
+      "rightNumerator": 5,
+      "commonDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 4/8 và 5/8, phân số nào lớn hơn?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "8/5"
+      },
+      {
+        "id": "option-2",
+        "label": "5/9"
+      },
+      {
+        "id": "option-3",
+        "label": "5/8"
+      },
+      {
+        "id": "option-4",
+        "label": "6/8"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 5 > 4 nên 5/8 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-1c083fd70721d4c5",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t4",
+    "fingerprint": "853d2e4e707583af6d424221ca231cc2",
+    "generatorParams": {
+      "leftNumerator": 5,
+      "rightNumerator": 6,
+      "commonDenominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 5/9 và 6/9, phân số nào lớn hơn? Bạn An cho rằng đáp án là 6/9. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 6 > 5 nên 6/9 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-377cec7a7219a88f",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t5",
+    "fingerprint": "4df535208d8e3a9ee6764c755a2a15e4",
+    "generatorParams": {
+      "leftNumerator": 6,
+      "rightNumerator": 7,
+      "commonDenominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 6/10 và 7/10, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 7,
+      "denominator": 10,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 7 > 6 nên 7/10 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-afefa811d0953f8e",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t1",
+    "fingerprint": "0c1059c897ef60409f55cb945b22f14b",
+    "generatorParams": {
+      "leftNumerator": 3,
+      "rightNumerator": 4,
+      "commonDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 3/7 và 4/7, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 7,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 4 > 3 nên 4/7 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-2c2e1b327b105f3e",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t2",
+    "fingerprint": "6b3f9fdb73a50ad9c6ffb116ba4990fe",
+    "generatorParams": {
+      "leftNumerator": 4,
+      "rightNumerator": 5,
+      "commonDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 4/8 và 5/8, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 5,
+      "denominator": 8,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 5 > 4 nên 5/8 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-0ea73f4d423459dc",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t3",
+    "fingerprint": "62a58a32f102e52488a8b502a6b9220a",
+    "generatorParams": {
+      "leftNumerator": 5,
+      "rightNumerator": 6,
+      "commonDenominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 5/9 và 6/9, phân số nào lớn hơn?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "6/9"
+      },
+      {
+        "id": "option-2",
+        "label": "9/6"
+      },
+      {
+        "id": "option-3",
+        "label": "7/9"
+      },
+      {
+        "id": "option-4",
+        "label": "6/10"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 6 > 5 nên 6/9 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-252d2ad2ceb8b511",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t4",
+    "fingerprint": "b710e0b63c36377f4e011801c18c7020",
+    "generatorParams": {
+      "leftNumerator": 6,
+      "rightNumerator": 7,
+      "commonDenominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 6/10 và 7/10, phân số nào lớn hơn? Bạn An cho rằng đáp án là 10/7. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 7 > 6 nên 7/10 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-c068cb6bfbc84fb9",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t5",
+    "fingerprint": "c73ac24ef4a66c6e406c6777bd554720",
+    "generatorParams": {
+      "leftNumerator": 7,
+      "rightNumerator": 8,
+      "commonDenominator": 11
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 7/11 và 8/11, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 8,
+      "denominator": 11,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 8 > 7 nên 8/11 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-9ce37092f2367ffb",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t1",
+    "fingerprint": "94d150274e768d13658742536419bb00",
+    "generatorParams": {
+      "leftNumerator": 4,
+      "rightNumerator": 5,
+      "commonDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 4/8 và 5/8, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 5,
+      "denominator": 8,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 5 > 4 nên 5/8 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-a0097bc0e76badae",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t2",
+    "fingerprint": "1397a04424e64f964a385f5ebd015254",
+    "generatorParams": {
+      "leftNumerator": 5,
+      "rightNumerator": 6,
+      "commonDenominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 5/9 và 6/9, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 9,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 6 > 5 nên 6/9 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-eabd200a92b25f9d",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t3",
+    "fingerprint": "b75498b08117520ad3a98944c78ce28b",
+    "generatorParams": {
+      "leftNumerator": 6,
+      "rightNumerator": 7,
+      "commonDenominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 6/10 và 7/10, phân số nào lớn hơn?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "8/10"
+      },
+      {
+        "id": "option-2",
+        "label": "7/11"
+      },
+      {
+        "id": "option-3",
+        "label": "10/7"
+      },
+      {
+        "id": "option-4",
+        "label": "7/10"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 7 > 6 nên 7/10 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-b194ec4b38813076",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t4",
+    "fingerprint": "b62ac7e16f2df5069e9df41404222fdc",
+    "generatorParams": {
+      "leftNumerator": 7,
+      "rightNumerator": 8,
+      "commonDenominator": 11
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 7/11 và 8/11, phân số nào lớn hơn? Bạn An cho rằng đáp án là 8/11. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 8 > 7 nên 8/11 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-0dde29bc9a0fa430",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t5",
+    "fingerprint": "2b30a9bfd49f36ad1dc42bae1716dddc",
+    "generatorParams": {
+      "leftNumerator": 8,
+      "rightNumerator": 9,
+      "commonDenominator": 12
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 8/12 và 9/12, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 9,
+      "denominator": 12,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 9 > 8 nên 9/12 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-b10ed823dafe0495",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t1",
+    "fingerprint": "446fe3b2cd7bd42bbc14864d05ca7515",
+    "generatorParams": {
+      "leftNumerator": 5,
+      "rightNumerator": 6,
+      "commonDenominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 5/9 và 6/9, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 9,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 6 > 5 nên 6/9 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-d8fc3f66170279f3",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t2",
+    "fingerprint": "b45bb5d4be30300be10bf093a99d0e58",
+    "generatorParams": {
+      "leftNumerator": 6,
+      "rightNumerator": 7,
+      "commonDenominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 6/10 và 7/10, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 7,
+      "denominator": 10,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 7 > 6 nên 7/10 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-8ea842080f7eedba",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t3",
+    "fingerprint": "993c22e13316f1a07b232b94b9845515",
+    "generatorParams": {
+      "leftNumerator": 7,
+      "rightNumerator": 8,
+      "commonDenominator": 11
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 7/11 và 8/11, phân số nào lớn hơn?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "11/8"
+      },
+      {
+        "id": "option-2",
+        "label": "8/11"
+      },
+      {
+        "id": "option-3",
+        "label": "8/12"
+      },
+      {
+        "id": "option-4",
+        "label": "9/11"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 8 > 7 nên 8/11 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-d71dd5171724097d",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t4",
+    "fingerprint": "26d805f54918e4bc182e2fb64ef33df0",
+    "generatorParams": {
+      "leftNumerator": 8,
+      "rightNumerator": 9,
+      "commonDenominator": 12
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 8/12 và 9/12, phân số nào lớn hơn? Bạn An cho rằng đáp án là 12/9. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 9 > 8 nên 9/12 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-59dd37b52fb256c0",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t5",
+    "fingerprint": "990e09c4275a7881e19819355e7993ba",
+    "generatorParams": {
+      "leftNumerator": 9,
+      "rightNumerator": 10,
+      "commonDenominator": 13
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 9/13 và 10/13, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 10,
+      "denominator": 13,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 10 > 9 nên 10/13 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-176f594df566f030",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t1",
+    "fingerprint": "79f4a60fa8f04b380bf066f1a5e72668",
+    "generatorParams": {
+      "leftNumerator": 6,
+      "rightNumerator": 7,
+      "commonDenominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 6/10 và 7/10, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 7,
+      "denominator": 10,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 7 > 6 nên 7/10 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-182715830ceb3a77",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t2",
+    "fingerprint": "9fc24ab659f1f1c7047ad3aa7d3811c2",
+    "generatorParams": {
+      "leftNumerator": 7,
+      "rightNumerator": 8,
+      "commonDenominator": 11
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 7/11 và 8/11, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 8,
+      "denominator": 11,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 8 > 7 nên 8/11 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-198713357fe35bdd",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t3",
+    "fingerprint": "a70bd81192a1668d970829be891f5981",
+    "generatorParams": {
+      "leftNumerator": 8,
+      "rightNumerator": 9,
+      "commonDenominator": 12
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 8/12 và 9/12, phân số nào lớn hơn?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "9/12"
+      },
+      {
+        "id": "option-2",
+        "label": "9/13"
+      },
+      {
+        "id": "option-3",
+        "label": "12/9"
+      },
+      {
+        "id": "option-4",
+        "label": "10/12"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 9 > 8 nên 9/12 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-fceae257455ff39a",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t4",
+    "fingerprint": "80121f45b054012269e9d331f7300063",
+    "generatorParams": {
+      "leftNumerator": 9,
+      "rightNumerator": 10,
+      "commonDenominator": 13
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 9/13 và 10/13, phân số nào lớn hơn? Bạn An cho rằng đáp án là 10/13. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 10 > 9 nên 10/13 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-0916bbcfc5225547",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t5",
+    "fingerprint": "372f6d68423b36851bb27eba7a67ea74",
+    "generatorParams": {
+      "leftNumerator": 10,
+      "rightNumerator": 11,
+      "commonDenominator": 14
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 10/14 và 11/14, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 11,
+      "denominator": 14,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 11 > 10 nên 11/14 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-f0593aafbf121c70",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t1",
+    "fingerprint": "8303f377a2b5cb5afd86fd426d07cb04",
+    "generatorParams": {
+      "leftNumerator": 7,
+      "rightNumerator": 8,
+      "commonDenominator": 11
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 7/11 và 8/11, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 8,
+      "denominator": 11,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 8 > 7 nên 8/11 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-5f7ac41f21b4e527",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t2",
+    "fingerprint": "2de5a760580956bc49666725bff5b65a",
+    "generatorParams": {
+      "leftNumerator": 8,
+      "rightNumerator": 9,
+      "commonDenominator": 12
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 8/12 và 9/12, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 9,
+      "denominator": 12,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 9 > 8 nên 9/12 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-3299b09fba06f96b",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t3",
+    "fingerprint": "d17a79c6db9d55dff3a26f4e7b25a6f0",
+    "generatorParams": {
+      "leftNumerator": 9,
+      "rightNumerator": 10,
+      "commonDenominator": 13
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 9/13 và 10/13, phân số nào lớn hơn?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "10/14"
+      },
+      {
+        "id": "option-2",
+        "label": "13/10"
+      },
+      {
+        "id": "option-3",
+        "label": "10/13"
+      },
+      {
+        "id": "option-4",
+        "label": "11/13"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 10 > 9 nên 10/13 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-205deedfc5847823",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t4",
+    "fingerprint": "0f207325a218557e552e9b5eeb5682de",
+    "generatorParams": {
+      "leftNumerator": 10,
+      "rightNumerator": 11,
+      "commonDenominator": 14
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 10/14 và 11/14, phân số nào lớn hơn? Bạn An cho rằng đáp án là 14/11. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 11 > 10 nên 11/14 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-b01ad7ded0e27a16",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t5",
+    "fingerprint": "1dfaa775e5ebc2c70932cc6e1cb2f7f6",
+    "generatorParams": {
+      "leftNumerator": 11,
+      "rightNumerator": 12,
+      "commonDenominator": 15
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 11/15 và 12/15, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 12,
+      "denominator": 15,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 12 > 11 nên 12/15 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-e421e3f77a3ea619",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t1",
+    "fingerprint": "5c7eb2145b67d2a242dc0381bef87ed4",
+    "generatorParams": {
+      "leftNumerator": 8,
+      "rightNumerator": 9,
+      "commonDenominator": 12
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 8/12 và 9/12, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 9,
+      "denominator": 12,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 9 > 8 nên 9/12 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-854d89adabdb5b4a",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t2",
+    "fingerprint": "91a9b87c75771368ba7ec80cb28b42f3",
+    "generatorParams": {
+      "leftNumerator": 9,
+      "rightNumerator": 10,
+      "commonDenominator": 13
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 9/13 và 10/13, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 10,
+      "denominator": 13,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 10 > 9 nên 10/13 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-8fce6632ddcf5cd4",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t3",
+    "fingerprint": "829fab02697843180cceb90fee3f9c0a",
+    "generatorParams": {
+      "leftNumerator": 10,
+      "rightNumerator": 11,
+      "commonDenominator": 14
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 10/14 và 11/14, phân số nào lớn hơn?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "11/15"
+      },
+      {
+        "id": "option-2",
+        "label": "12/14"
+      },
+      {
+        "id": "option-3",
+        "label": "14/11"
+      },
+      {
+        "id": "option-4",
+        "label": "11/14"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 11 > 10 nên 11/14 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-4548ce478fb3f512",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t4",
+    "fingerprint": "97618d7b09d3e4c7682ad8a57bfb20bd",
+    "generatorParams": {
+      "leftNumerator": 11,
+      "rightNumerator": 12,
+      "commonDenominator": 15
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 11/15 và 12/15, phân số nào lớn hơn? Bạn An cho rằng đáp án là 12/15. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 12 > 11 nên 12/15 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-06c9a2d94c088078",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t5",
+    "fingerprint": "24c47a5f9043d720056fc629dcc9e3e5",
+    "generatorParams": {
+      "leftNumerator": 12,
+      "rightNumerator": 13,
+      "commonDenominator": 16
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 12/16 và 13/16, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 13,
+      "denominator": 16,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 13 > 12 nên 13/16 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-55a3c18c50c45c37",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t1",
+    "fingerprint": "89bb00881ee9b06ef0be683a55a85412",
+    "generatorParams": {
+      "leftNumerator": 9,
+      "rightNumerator": 10,
+      "commonDenominator": 13
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 9/13 và 10/13, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 10,
+      "denominator": 13,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 10 > 9 nên 10/13 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-301bed9a53516736",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t2",
+    "fingerprint": "39ec630667f11666ce0e1502ba31ff6a",
+    "generatorParams": {
+      "leftNumerator": 10,
+      "rightNumerator": 11,
+      "commonDenominator": 14
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 10/14 và 11/14, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 11,
+      "denominator": 14,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 11 > 10 nên 11/14 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-0b174dafce9e5bd9",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t3",
+    "fingerprint": "b5cc11ef30cf0cdd5f925c0c06c5e480",
+    "generatorParams": {
+      "leftNumerator": 11,
+      "rightNumerator": 12,
+      "commonDenominator": 15
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 11/15 và 12/15, phân số nào lớn hơn?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "15/12"
+      },
+      {
+        "id": "option-2",
+        "label": "12/15"
+      },
+      {
+        "id": "option-3",
+        "label": "13/15"
+      },
+      {
+        "id": "option-4",
+        "label": "12/16"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 12 > 11 nên 12/15 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-fa911bcf5bc4b518",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t4",
+    "fingerprint": "a771337a348c1409c8f94364c1d4dd0b",
+    "generatorParams": {
+      "leftNumerator": 12,
+      "rightNumerator": 13,
+      "commonDenominator": 16
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 12/16 và 13/16, phân số nào lớn hơn? Bạn An cho rằng đáp án là 16/13. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 13 > 12 nên 13/16 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-d57c42108ade2f92",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t5",
+    "fingerprint": "e3927e5f49255bb8d67134388bd65e38",
+    "generatorParams": {
+      "leftNumerator": 13,
+      "rightNumerator": 14,
+      "commonDenominator": 17
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 13/17 và 14/17, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 14,
+      "denominator": 17,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 14 > 13 nên 14/17 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-8c3e3bf38844f703",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t1",
+    "fingerprint": "72fe267731e58fb0faead97e847c0864",
+    "generatorParams": {
+      "leftNumerator": 10,
+      "rightNumerator": 11,
+      "commonDenominator": 14
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 10/14 và 11/14, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 11,
+      "denominator": 14,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 11 > 10 nên 11/14 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-f81abf4142e31846",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t2",
+    "fingerprint": "8c584818e174a427c2337d445673448c",
+    "generatorParams": {
+      "leftNumerator": 11,
+      "rightNumerator": 12,
+      "commonDenominator": 15
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 11/15 và 12/15, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 12,
+      "denominator": 15,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 12 > 11 nên 12/15 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-5275afd9efcb33db",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t3",
+    "fingerprint": "ba82939fb9723e6992329ffd59c02b9a",
+    "generatorParams": {
+      "leftNumerator": 12,
+      "rightNumerator": 13,
+      "commonDenominator": 16
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 12/16 và 13/16, phân số nào lớn hơn?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "16/13"
+      },
+      {
+        "id": "option-2",
+        "label": "13/16"
+      },
+      {
+        "id": "option-3",
+        "label": "13/17"
+      },
+      {
+        "id": "option-4",
+        "label": "14/16"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 13 > 12 nên 13/16 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-dd7fd4605fc74c9c",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t4",
+    "fingerprint": "320650f887ba5f5f2d642697148d11d0",
+    "generatorParams": {
+      "leftNumerator": 13,
+      "rightNumerator": 14,
+      "commonDenominator": 17
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 13/17 và 14/17, phân số nào lớn hơn? Bạn An cho rằng đáp án là 14/17. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 14 > 13 nên 14/17 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-4a25a763f7f96e56",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t5",
+    "fingerprint": "ffae1c41c3065f0bf2303148f2f7928a",
+    "generatorParams": {
+      "leftNumerator": 14,
+      "rightNumerator": 15,
+      "commonDenominator": 18
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 14/18 và 15/18, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 15,
+      "denominator": 18,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 15 > 14 nên 15/18 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-0809add562656365",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t1",
+    "fingerprint": "ea2e99234e5dd2c6ebfcc72f16366ccb",
+    "generatorParams": {
+      "leftNumerator": 11,
+      "rightNumerator": 12,
+      "commonDenominator": 15
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 11/15 và 12/15, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 12,
+      "denominator": 15,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 12 > 11 nên 12/15 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-ccaace4a9f81624d",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t2",
+    "fingerprint": "000c1f103654dda630a1338370d61d50",
+    "generatorParams": {
+      "leftNumerator": 12,
+      "rightNumerator": 13,
+      "commonDenominator": 16
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 12/16 và 13/16, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 13,
+      "denominator": 16,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 13 > 12 nên 13/16 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-a176ef376de11fe6",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t3",
+    "fingerprint": "bf013a1936c9307f26e8d78912c05812",
+    "generatorParams": {
+      "leftNumerator": 13,
+      "rightNumerator": 14,
+      "commonDenominator": 17
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 13/17 và 14/17, phân số nào lớn hơn?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "14/18"
+      },
+      {
+        "id": "option-2",
+        "label": "17/14"
+      },
+      {
+        "id": "option-3",
+        "label": "15/17"
+      },
+      {
+        "id": "option-4",
+        "label": "14/17"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 14 > 13 nên 14/17 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-555ea04106ea8320",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t4",
+    "fingerprint": "bfcc9b7bed7a03c224a1bb714fa0d3a3",
+    "generatorParams": {
+      "leftNumerator": 14,
+      "rightNumerator": 15,
+      "commonDenominator": 18
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 14/18 và 15/18, phân số nào lớn hơn? Bạn An cho rằng đáp án là 18/15. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 15 > 14 nên 15/18 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-7aab90fc8b8a1537",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t5",
+    "fingerprint": "d3e17ad31c333f1e1f7323ee320d1594",
+    "generatorParams": {
+      "leftNumerator": 15,
+      "rightNumerator": 16,
+      "commonDenominator": 19
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 15/19 và 16/19, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 16,
+      "denominator": 19,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 16 > 15 nên 16/19 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-eb490bc61d82ecd7",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t1",
+    "fingerprint": "82e9a544f9cd7eba7bec76db8e41ac30",
+    "generatorParams": {
+      "leftNumerator": 12,
+      "rightNumerator": 13,
+      "commonDenominator": 16
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 12/16 và 13/16, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 13,
+      "denominator": 16,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 13 > 12 nên 13/16 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-247bb0e26d1db5a9",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t2",
+    "fingerprint": "02d3eed24bca7ac15eef24c80b165781",
+    "generatorParams": {
+      "leftNumerator": 13,
+      "rightNumerator": 14,
+      "commonDenominator": 17
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 13/17 và 14/17, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 14,
+      "denominator": 17,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 14 > 13 nên 14/17 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-cdd91113fe88fbb4",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t3",
+    "fingerprint": "b340e90209df90e86078b80e96c82847",
+    "generatorParams": {
+      "leftNumerator": 14,
+      "rightNumerator": 15,
+      "commonDenominator": 18
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 14/18 và 15/18, phân số nào lớn hơn?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "16/18"
+      },
+      {
+        "id": "option-2",
+        "label": "18/15"
+      },
+      {
+        "id": "option-3",
+        "label": "15/18"
+      },
+      {
+        "id": "option-4",
+        "label": "15/19"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 15 > 14 nên 15/18 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-9072073e9c53a5f4",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t4",
+    "fingerprint": "f1fcd1ddd6e5ba6ea8eb73ea4d3a0331",
+    "generatorParams": {
+      "leftNumerator": 15,
+      "rightNumerator": 16,
+      "commonDenominator": 19
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 15/19 và 16/19, phân số nào lớn hơn? Bạn An cho rằng đáp án là 16/19. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 16 > 15 nên 16/19 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-66801a975eb9664a",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t5",
+    "fingerprint": "78eab38466531eccfb842944385c6cc6",
+    "generatorParams": {
+      "leftNumerator": 16,
+      "rightNumerator": 17,
+      "commonDenominator": 20
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 16/20 và 17/20, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 17,
+      "denominator": 20,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 17 > 16 nên 17/20 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-4edd62d219992da2",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t1",
+    "fingerprint": "bc77fc2522e07aa98cad83f19e298f2a",
+    "generatorParams": {
+      "leftNumerator": 13,
+      "rightNumerator": 14,
+      "commonDenominator": 17
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 13/17 và 14/17, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 14,
+      "denominator": 17,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 14 > 13 nên 14/17 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-fc07b6d996a042db",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t2",
+    "fingerprint": "ed270ddecf7c3435909428b68a06036b",
+    "generatorParams": {
+      "leftNumerator": 14,
+      "rightNumerator": 15,
+      "commonDenominator": 18
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 14/18 và 15/18, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 15,
+      "denominator": 18,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 15 > 14 nên 15/18 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-1a46ceeb9df358db",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t3",
+    "fingerprint": "fde27e47659cdb3675d7073eaa5d6777",
+    "generatorParams": {
+      "leftNumerator": 15,
+      "rightNumerator": 16,
+      "commonDenominator": 19
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 15/19 và 16/19, phân số nào lớn hơn?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "16/20"
+      },
+      {
+        "id": "option-2",
+        "label": "19/16"
+      },
+      {
+        "id": "option-3",
+        "label": "17/19"
+      },
+      {
+        "id": "option-4",
+        "label": "16/19"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 16 > 15 nên 16/19 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-4f83fcccefddbeff",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t4",
+    "fingerprint": "a68f5bb375c01c60292237256165af61",
+    "generatorParams": {
+      "leftNumerator": 16,
+      "rightNumerator": 17,
+      "commonDenominator": 20
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 16/20 và 17/20, phân số nào lớn hơn? Bạn An cho rằng đáp án là 20/17. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 17 > 16 nên 17/20 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-96a8f2955f1ba93c",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t5",
+    "fingerprint": "6f7c62cc38ea896bd6b66716755704b2",
+    "generatorParams": {
+      "leftNumerator": 17,
+      "rightNumerator": 18,
+      "commonDenominator": 21
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 17/21 và 18/21, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 18,
+      "denominator": 21,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 18 > 17 nên 18/21 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-1a0425b4e4f33816",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t1",
+    "fingerprint": "a3047b9caf539d2ba05817dc7ea6bb19",
+    "generatorParams": {
+      "leftNumerator": 14,
+      "rightNumerator": 15,
+      "commonDenominator": 18
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 14/18 và 15/18, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 15,
+      "denominator": 18,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 15 > 14 nên 15/18 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-8f0b42d0d113034f",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t2",
+    "fingerprint": "194b08e39002f78ce3dd8275d68afb26",
+    "generatorParams": {
+      "leftNumerator": 15,
+      "rightNumerator": 16,
+      "commonDenominator": 19
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 15/19 và 16/19, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 16,
+      "denominator": 19,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 16 > 15 nên 16/19 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-f6e00dba8fbd2263",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t3",
+    "fingerprint": "8016d25156971720f3837ce594517c34",
+    "generatorParams": {
+      "leftNumerator": 16,
+      "rightNumerator": 17,
+      "commonDenominator": 20
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 16/20 và 17/20, phân số nào lớn hơn?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "18/20"
+      },
+      {
+        "id": "option-2",
+        "label": "20/17"
+      },
+      {
+        "id": "option-3",
+        "label": "17/21"
+      },
+      {
+        "id": "option-4",
+        "label": "17/20"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 17 > 16 nên 17/20 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-dfc125d392de5ff5",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t4",
+    "fingerprint": "e912492c63605ef5cbc9065c5109cf67",
+    "generatorParams": {
+      "leftNumerator": 17,
+      "rightNumerator": 18,
+      "commonDenominator": 21
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 17/21 và 18/21, phân số nào lớn hơn? Bạn An cho rằng đáp án là 18/21. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 18 > 17 nên 18/21 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-7f8e4bf171c54b95",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t5",
+    "fingerprint": "41c4d3178a28eb3a248946119d6c3a29",
+    "generatorParams": {
+      "leftNumerator": 18,
+      "rightNumerator": 19,
+      "commonDenominator": 22
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 18/22 và 19/22, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 19,
+      "denominator": 22,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 19 > 18 nên 19/22 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-293c156385f8b05c",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t1",
+    "fingerprint": "9556307ff5cc0fa16769903b3f9cca58",
+    "generatorParams": {
+      "leftNumerator": 15,
+      "rightNumerator": 16,
+      "commonDenominator": 19
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 15/19 và 16/19, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 16,
+      "denominator": 19,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 16 > 15 nên 16/19 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-4d89dec2ef340bb6",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t2",
+    "fingerprint": "f83618b4b00c60d4c29a6b37bc5ced2e",
+    "generatorParams": {
+      "leftNumerator": 16,
+      "rightNumerator": 17,
+      "commonDenominator": 20
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 16/20 và 17/20, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 17,
+      "denominator": 20,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 17 > 16 nên 17/20 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-2c6e8b6f38717c8f",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t3",
+    "fingerprint": "e5e76be3149aa2d159c6851b93054c99",
+    "generatorParams": {
+      "leftNumerator": 17,
+      "rightNumerator": 18,
+      "commonDenominator": 21
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 17/21 và 18/21, phân số nào lớn hơn?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "21/18"
+      },
+      {
+        "id": "option-2",
+        "label": "19/21"
+      },
+      {
+        "id": "option-3",
+        "label": "18/21"
+      },
+      {
+        "id": "option-4",
+        "label": "18/22"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 18 > 17 nên 18/21 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-502473c38aeedea0",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t4",
+    "fingerprint": "df64989dc746e3b8af0b1337e666e322",
+    "generatorParams": {
+      "leftNumerator": 18,
+      "rightNumerator": 19,
+      "commonDenominator": 22
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 18/22 và 19/22, phân số nào lớn hơn? Bạn An cho rằng đáp án là 22/19. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 19 > 18 nên 19/22 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-9f9a510d71dc724e",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t5",
+    "fingerprint": "0112ff0d32193123a7a3f05ec5ce4853",
+    "generatorParams": {
+      "leftNumerator": 19,
+      "rightNumerator": 20,
+      "commonDenominator": 23
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 19/23 và 20/23, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 20,
+      "denominator": 23,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 20 > 19 nên 20/23 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-388de020a08a8547",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t1",
+    "fingerprint": "d3840ac8c85774f2e16bb36fd2fdea31",
+    "generatorParams": {
+      "leftNumerator": 16,
+      "rightNumerator": 17,
+      "commonDenominator": 20
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 16/20 và 17/20, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 17,
+      "denominator": 20,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 17 > 16 nên 17/20 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-ce197dc2c9d08b6c",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t2",
+    "fingerprint": "195e636e19e07beab9625b2a524d4294",
+    "generatorParams": {
+      "leftNumerator": 17,
+      "rightNumerator": 18,
+      "commonDenominator": 21
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 17/21 và 18/21, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 18,
+      "denominator": 21,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 18 > 17 nên 18/21 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-1a6437b8d12b3b2f",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t3",
+    "fingerprint": "51653687ff72671381ad268da4929e17",
+    "generatorParams": {
+      "leftNumerator": 18,
+      "rightNumerator": 19,
+      "commonDenominator": 22
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 18/22 và 19/22, phân số nào lớn hơn?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "22/19"
+      },
+      {
+        "id": "option-2",
+        "label": "19/22"
+      },
+      {
+        "id": "option-3",
+        "label": "19/23"
+      },
+      {
+        "id": "option-4",
+        "label": "20/22"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 19 > 18 nên 19/22 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-25b66a5232306c1a",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t4",
+    "fingerprint": "6afc05aceff0c35888a901fd6264a6f2",
+    "generatorParams": {
+      "leftNumerator": 19,
+      "rightNumerator": 20,
+      "commonDenominator": 23
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 19/23 và 20/23, phân số nào lớn hơn? Bạn An cho rằng đáp án là 20/23. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 20 > 19 nên 20/23 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-ebce43e55887c142",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t5",
+    "fingerprint": "9d963a1e7c13933f5053081d66a7863c",
+    "generatorParams": {
+      "leftNumerator": 20,
+      "rightNumerator": 21,
+      "commonDenominator": 24
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 20/24 và 21/24, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 21,
+      "denominator": 24,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 21 > 20 nên 21/24 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-272119527fd533b2",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t1",
+    "fingerprint": "2e082fafec36348b09a5757f52276d6e",
+    "generatorParams": {
+      "leftNumerator": 17,
+      "rightNumerator": 18,
+      "commonDenominator": 21
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 17/21 và 18/21, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 18,
+      "denominator": 21,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 18 > 17 nên 18/21 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-3bba222f1ef42ed3",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t2",
+    "fingerprint": "d5126db956473ffbc9acd1123dc3919f",
+    "generatorParams": {
+      "leftNumerator": 18,
+      "rightNumerator": 19,
+      "commonDenominator": 22
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 18/22 và 19/22, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 19,
+      "denominator": 22,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 19 > 18 nên 19/22 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-540bcc786b4f57b0",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t3",
+    "fingerprint": "4c6589f010a3ad124f4bef96985bfcaf",
+    "generatorParams": {
+      "leftNumerator": 19,
+      "rightNumerator": 20,
+      "commonDenominator": 23
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 19/23 và 20/23, phân số nào lớn hơn?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "21/23"
+      },
+      {
+        "id": "option-2",
+        "label": "20/23"
+      },
+      {
+        "id": "option-3",
+        "label": "20/24"
+      },
+      {
+        "id": "option-4",
+        "label": "23/20"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 20 > 19 nên 20/23 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-d9d0b8be41707086",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t4",
+    "fingerprint": "ef9de5cd7866d506da7afa6440ab9ee1",
+    "generatorParams": {
+      "leftNumerator": 20,
+      "rightNumerator": 21,
+      "commonDenominator": 24
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 20/24 và 21/24, phân số nào lớn hơn? Bạn An cho rằng đáp án là 24/21. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 21 > 20 nên 21/24 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-5d186d1d794345fb",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t5",
+    "fingerprint": "34ff73fece822c83c514799474de83b9",
+    "generatorParams": {
+      "leftNumerator": 21,
+      "rightNumerator": 22,
+      "commonDenominator": 25
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 21/25 và 22/25, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 22,
+      "denominator": 25,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 22 > 21 nên 22/25 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-5349dc1503d096a3",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t1",
+    "fingerprint": "8adeaaa0ba85b9186e4c93e440f07d75",
+    "generatorParams": {
+      "leftNumerator": 18,
+      "rightNumerator": 19,
+      "commonDenominator": 22
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 18/22 và 19/22, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 19,
+      "denominator": 22,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 19 > 18 nên 19/22 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-5a7666ef96e110cc",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t2",
+    "fingerprint": "4b4d6c43a807c83c2165632bf8aa7777",
+    "generatorParams": {
+      "leftNumerator": 19,
+      "rightNumerator": 20,
+      "commonDenominator": 23
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 19/23 và 20/23, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 20,
+      "denominator": 23,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 20 > 19 nên 20/23 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-b0752bb92ee0071e",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t3",
+    "fingerprint": "6de8c81507a1190481f49bb084363347",
+    "generatorParams": {
+      "leftNumerator": 20,
+      "rightNumerator": 21,
+      "commonDenominator": 24
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 20/24 và 21/24, phân số nào lớn hơn?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "21/24"
+      },
+      {
+        "id": "option-2",
+        "label": "21/25"
+      },
+      {
+        "id": "option-3",
+        "label": "24/21"
+      },
+      {
+        "id": "option-4",
+        "label": "22/24"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 21 > 20 nên 21/24 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-ef7578cb4a48cd48",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t4",
+    "fingerprint": "3de4b6b376e7d060f8a80ff8251262b4",
+    "generatorParams": {
+      "leftNumerator": 21,
+      "rightNumerator": 22,
+      "commonDenominator": 25
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 21/25 và 22/25, phân số nào lớn hơn? Bạn An cho rằng đáp án là 22/25. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 22 > 21 nên 22/25 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-5f0f52db247f2698",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t5",
+    "fingerprint": "8fdde1767fdfbe5a7a19e2e4aea9c7bc",
+    "generatorParams": {
+      "leftNumerator": 22,
+      "rightNumerator": 23,
+      "commonDenominator": 26
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 22/26 và 23/26, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 23,
+      "denominator": 26,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 23 > 22 nên 23/26 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-61992d4848d64abf",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t1",
+    "fingerprint": "b9aa603fedafd93cb10d250b77bbd2dc",
+    "generatorParams": {
+      "leftNumerator": 19,
+      "rightNumerator": 20,
+      "commonDenominator": 23
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 19/23 và 20/23, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 20,
+      "denominator": 23,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 20 > 19 nên 20/23 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-59ed48d1052466df",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t2",
+    "fingerprint": "4352dd4ae4d752adbd35876650b445cf",
+    "generatorParams": {
+      "leftNumerator": 20,
+      "rightNumerator": 21,
+      "commonDenominator": 24
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 20/24 và 21/24, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 21,
+      "denominator": 24,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 21 > 20 nên 21/24 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-a82fc1c84f8b3af4",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t3",
+    "fingerprint": "c4e9cf239592c9c50f03d3537d5cbc76",
+    "generatorParams": {
+      "leftNumerator": 21,
+      "rightNumerator": 22,
+      "commonDenominator": 25
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 21/25 và 22/25, phân số nào lớn hơn?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "23/25"
+      },
+      {
+        "id": "option-2",
+        "label": "22/25"
+      },
+      {
+        "id": "option-3",
+        "label": "22/26"
+      },
+      {
+        "id": "option-4",
+        "label": "25/22"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 22 > 21 nên 22/25 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-ab29b6295540a651",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t4",
+    "fingerprint": "eee98cd3f02c27c6242be75eba36b679",
+    "generatorParams": {
+      "leftNumerator": 22,
+      "rightNumerator": 23,
+      "commonDenominator": 26
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 22/26 và 23/26, phân số nào lớn hơn? Bạn An cho rằng đáp án là 26/23. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 23 > 22 nên 23/26 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-acfc99e126edd8db",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t5",
+    "fingerprint": "f9780f65b9eca8d628732c51b9da6f6a",
+    "generatorParams": {
+      "leftNumerator": 23,
+      "rightNumerator": 24,
+      "commonDenominator": 27
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 23/27 và 24/27, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 24,
+      "denominator": 27,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 24 > 23 nên 24/27 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-058b0ab1a7070c98",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t1",
+    "fingerprint": "659178633f99efc24629f97255ae9069",
+    "generatorParams": {
+      "leftNumerator": 20,
+      "rightNumerator": 21,
+      "commonDenominator": 24
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 20/24 và 21/24, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 21,
+      "denominator": 24,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 21 > 20 nên 21/24 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-6f3ec55175c8aefd",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t2",
+    "fingerprint": "948d120bd9d4b816fc5f5cc12ab02307",
+    "generatorParams": {
+      "leftNumerator": 21,
+      "rightNumerator": 22,
+      "commonDenominator": 25
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 21/25 và 22/25, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 22,
+      "denominator": 25,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 22 > 21 nên 22/25 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-d30db3775f7cb556",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t3",
+    "fingerprint": "c22033b273d82627e065522cef4506b7",
+    "generatorParams": {
+      "leftNumerator": 22,
+      "rightNumerator": 23,
+      "commonDenominator": 26
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 22/26 và 23/26, phân số nào lớn hơn?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "26/23"
+      },
+      {
+        "id": "option-2",
+        "label": "23/26"
+      },
+      {
+        "id": "option-3",
+        "label": "23/27"
+      },
+      {
+        "id": "option-4",
+        "label": "24/26"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 23 > 22 nên 23/26 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-fdc8b950ae26af53",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t4",
+    "fingerprint": "5e4710c9ae433739166f3d270dce665f",
+    "generatorParams": {
+      "leftNumerator": 23,
+      "rightNumerator": 24,
+      "commonDenominator": 27
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 23/27 và 24/27, phân số nào lớn hơn? Bạn An cho rằng đáp án là 24/27. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 24 > 23 nên 24/27 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-88b878ffc5ca4834",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t5",
+    "fingerprint": "481669cb8943144bde657621f23b88ed",
+    "generatorParams": {
+      "leftNumerator": 24,
+      "rightNumerator": 25,
+      "commonDenominator": 28
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 24/28 và 25/28, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 25,
+      "denominator": 28,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 25 > 24 nên 25/28 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-6367a2a6c5076ee8",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t1",
+    "fingerprint": "0a73a5adf6604ce0ee1f6ebb7b376fc3",
+    "generatorParams": {
+      "leftNumerator": 21,
+      "rightNumerator": 22,
+      "commonDenominator": 25
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 21/25 và 22/25, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 22,
+      "denominator": 25,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 22 > 21 nên 22/25 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-7c93bb34f6af6580",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t2",
+    "fingerprint": "e66e5f132f7277eae0bce0852b325956",
+    "generatorParams": {
+      "leftNumerator": 22,
+      "rightNumerator": 23,
+      "commonDenominator": 26
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 22/26 và 23/26, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 23,
+      "denominator": 26,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 23 > 22 nên 23/26 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-c60e4aecf258114a",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t3",
+    "fingerprint": "17dd9a76e11c6c325a413f328fc07cc5",
+    "generatorParams": {
+      "leftNumerator": 23,
+      "rightNumerator": 24,
+      "commonDenominator": 27
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 23/27 và 24/27, phân số nào lớn hơn?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "27/24"
+      },
+      {
+        "id": "option-2",
+        "label": "24/27"
+      },
+      {
+        "id": "option-3",
+        "label": "24/28"
+      },
+      {
+        "id": "option-4",
+        "label": "25/27"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 24 > 23 nên 24/27 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-42fb30d18ec1e057",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t4",
+    "fingerprint": "0b20f6e6a2f9a42cee5cc5e1c877f901",
+    "generatorParams": {
+      "leftNumerator": 24,
+      "rightNumerator": 25,
+      "commonDenominator": 28
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 24/28 và 25/28, phân số nào lớn hơn? Bạn An cho rằng đáp án là 28/25. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 25 > 24 nên 25/28 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-compare-fractions-4b852dbeaabb0cee",
+    "contentVersion": "grade4-v3",
+    "templateId": "compare-fractions-t5",
+    "fingerprint": "4ceec41db12688e36d9e39daa4de524d",
+    "generatorParams": {
+      "leftNumerator": 25,
+      "rightNumerator": 26,
+      "commonDenominator": 29
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "compare-fractions-skill",
+    "problemTypeId": "compare-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Hai phân số 25/29 và 26/29, phân số nào lớn hơn?",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 26,
+      "denominator": 29,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Hai phân số cùng mẫu: so sánh hai tử số."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vì 26 > 25 nên 26/29 lớn hơn.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

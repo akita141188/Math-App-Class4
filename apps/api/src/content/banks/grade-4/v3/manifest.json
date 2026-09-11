@@ -1,0 +1,584 @@
+{
+  "grade": 4,
+  "contentVersion": "grade4-v3",
+  "generationSeed": "grade4-bank-v3-reviewed-100",
+  "generatedAt": "2026-09-12T01:23:51.591Z",
+  "problemTypes": [
+    {
+      "problemTypeId": "read-write-numbers",
+      "file": "read-write-numbers.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "digit-place-value",
+      "file": "digit-place-value.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "compare-numbers",
+      "file": "compare-numbers.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "round-numbers",
+      "file": "round-numbers.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "mental-addition",
+      "file": "mental-addition.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "column-addition",
+      "file": "column-addition.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "unknown-addend",
+      "file": "unknown-addend.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "mental-subtraction",
+      "file": "mental-subtraction.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "column-subtraction",
+      "file": "column-subtraction.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "unknown-subtraction-part",
+      "file": "unknown-subtraction-part.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "multiplication-facts",
+      "file": "multiplication-facts.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "multiply-one-digit",
+      "file": "multiply-one-digit.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "multiply-two-digits",
+      "file": "multiply-two-digits.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "equal-groups",
+      "file": "equal-groups.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "division-facts",
+      "file": "division-facts.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "divide-one-digit",
+      "file": "divide-one-digit.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "division-remainder",
+      "file": "division-remainder.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "sharing-equally",
+      "file": "sharing-equally.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "operation-order",
+      "file": "operation-order.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "parentheses-expression",
+      "file": "parentheses-expression.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "identify-fraction",
+      "file": "identify-fraction.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "read-write-fraction",
+      "file": "read-write-fraction.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "equivalent-fractions",
+      "file": "equivalent-fractions.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "compare-fractions",
+      "file": "compare-fractions.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "length-conversion",
+      "file": "length-conversion.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "mass-conversion",
+      "file": "mass-conversion.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "compare-measurements",
+      "file": "compare-measurements.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "read-clock",
+      "file": "read-clock.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "calculate-duration",
+      "file": "calculate-duration.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "money-change",
+      "file": "money-change.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "recognize-shapes",
+      "file": "recognize-shapes.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "classify-angles",
+      "file": "classify-angles.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "parallel-perpendicular",
+      "file": "parallel-perpendicular.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "rectangle-perimeter",
+      "file": "rectangle-perimeter.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "rectangle-area",
+      "file": "rectangle-area.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "geometry-word-problem",
+      "file": "geometry-word-problem.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "two-step-problem",
+      "file": "two-step-problem.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "average-problem",
+      "file": "average-problem.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "read-bar-chart",
+      "file": "read-bar-chart.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "number-pattern",
+      "file": "number-pattern.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "write-natural-numbers",
+      "file": "write-natural-numbers.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "order-natural-numbers",
+      "file": "order-natural-numbers.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "missing-factor",
+      "file": "missing-factor.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "divide-two-digits",
+      "file": "divide-two-digits.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "read-fractions",
+      "file": "read-fractions.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "write-fractions",
+      "file": "write-fractions.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "reduce-fractions",
+      "file": "reduce-fractions.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "common-denominator",
+      "file": "common-denominator.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "add-fractions",
+      "file": "add-fractions.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "subtract-fractions",
+      "file": "subtract-fractions.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "multiply-fractions",
+      "file": "multiply-fractions.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "divide-fractions",
+      "file": "divide-fractions.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "fraction-of-quantity",
+      "file": "fraction-of-quantity.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "area-conversion",
+      "file": "area-conversion.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "time-conversion",
+      "file": "time-conversion.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "count-money",
+      "file": "count-money.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "perpendicular-lines",
+      "file": "perpendicular-lines.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "recognize-parallelogram-rhombus",
+      "file": "recognize-parallelogram-rhombus.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "square-perimeter",
+      "file": "square-perimeter.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "square-area",
+      "file": "square-area.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "sum-difference-problem",
+      "file": "sum-difference-problem.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "unit-rate-problem",
+      "file": "unit-rate-problem.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "read-data-table",
+      "file": "read-data-table.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    },
+    {
+      "problemTypeId": "compare-chart-data",
+      "file": "compare-chart-data.json",
+      "questionCount": 100,
+      "easy": 30,
+      "medium": 50,
+      "hard": 20,
+      "templates": 5
+    }
+  ]
+}

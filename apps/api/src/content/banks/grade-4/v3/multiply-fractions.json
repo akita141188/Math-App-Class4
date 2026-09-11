@@ -1,0 +1,6982 @@
+[
+  {
+    "id": "g4-multiply-fractions-5b02d78824b60da6",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t1",
+    "fingerprint": "0aeb227cedb3fe09249abc5ff1573160",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 6,
+      "rightNumerator": 1,
+      "rightDenominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/6 × 1/4.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 24,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/6 × 1/4 = 2/24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-5b8478694a7bd561",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t2",
+    "fingerprint": "c9bb5c3d5c75ba340870fa98ea90faf1",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 11,
+      "rightNumerator": 2,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/11 × 2/5.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 8,
+      "denominator": 55,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/11 × 2/5 = 8/55.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-b7086731e39b04a5",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t3",
+    "fingerprint": "cd5360ecdf3d1418c39b27ada4f7c19f",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 16,
+      "rightNumerator": 3,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/16 × 3/6.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "96/18"
+      },
+      {
+        "id": "option-2",
+        "label": "18/96"
+      },
+      {
+        "id": "option-3",
+        "label": "19/96"
+      },
+      {
+        "id": "option-4",
+        "label": "18/97"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/16 × 3/6 = 18/96.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-578ca24f70ac9051",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t4",
+    "fingerprint": "019bf2a0e09f04cdaa6dc89ea58220bc",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 4,
+      "rightNumerator": 4,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/4 × 4/7. Bạn An cho rằng đáp án là 8/28. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/4 × 4/7 = 8/28.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-f5554ed43cbfd495",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t5",
+    "fingerprint": "cfe023e9ae7ef8d3dcdd33a5d190c351",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 9,
+      "rightNumerator": 1,
+      "rightDenominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/9 × 1/4.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 36,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/9 × 1/4 = 2/36.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-b4c4c65a6ae58db4",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t1",
+    "fingerprint": "0be8af7c02ffcea3a11eeac13c197d45",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 9,
+      "rightNumerator": 1,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/9 × 1/5.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 45,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/9 × 1/5 = 3/45.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-9efa5201712c5264",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t2",
+    "fingerprint": "33b27b54793e083ef7e322e6be4e92eb",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 14,
+      "rightNumerator": 2,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/14 × 2/6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 10,
+      "denominator": 84,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/14 × 2/6 = 10/84.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-68860ef4861a8c76",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t3",
+    "fingerprint": "64c8ff98d6e35e311eddd96da173b0cf",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 19,
+      "rightNumerator": 3,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7/19 × 3/7.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "22/133"
+      },
+      {
+        "id": "option-2",
+        "label": "133/21"
+      },
+      {
+        "id": "option-3",
+        "label": "21/133"
+      },
+      {
+        "id": "option-4",
+        "label": "21/134"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7/19 × 3/7 = 21/133.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-d4ca8039a2ea1ab6",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t4",
+    "fingerprint": "e6f868542f142a617c3df6cd5e777537",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 7,
+      "rightNumerator": 4,
+      "rightDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/7 × 4/8. Bạn An cho rằng đáp án là 56/12. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/7 × 4/8 = 12/56.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-9518de147c33bd51",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t5",
+    "fingerprint": "1a575fefb3f3cee0b09c4d07f9ebe364",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 12,
+      "rightNumerator": 1,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 11/12 × 1/5.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 11,
+      "denominator": 60,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "11/12 × 1/5 = 11/60.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-d6299009db288a12",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t1",
+    "fingerprint": "8349ffb27ff66c847d379b6d4f854b37",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 12,
+      "rightNumerator": 1,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/12 × 1/6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 72,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/12 × 1/6 = 4/72.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-a49d49794d1b3907",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t2",
+    "fingerprint": "2294f325dda98712060e662acf30e75c",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 17,
+      "rightNumerator": 2,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/17 × 2/7.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 12,
+      "denominator": 119,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/17 × 2/7 = 12/119.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-dc0f33bc024b91a6",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t3",
+    "fingerprint": "2fba47ca0960c911a7d3dcb4b5f23067",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 5,
+      "rightNumerator": 3,
+      "rightDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/5 × 3/8.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "13/40"
+      },
+      {
+        "id": "option-2",
+        "label": "40/12"
+      },
+      {
+        "id": "option-3",
+        "label": "12/40"
+      },
+      {
+        "id": "option-4",
+        "label": "12/41"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/5 × 3/8 = 12/40.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-e6dd6cf88c1dbfd1",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t4",
+    "fingerprint": "ae5bb7a53b56168d6ea9a9294d2a300a",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 10,
+      "rightNumerator": 4,
+      "rightDenominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/10 × 4/9. Bạn An cho rằng đáp án là 4/90. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/10 × 4/9 = 4/90.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-113efc89ff885d3c",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t5",
+    "fingerprint": "487ea020d8da2d300be4befa2517572d",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 15,
+      "rightNumerator": 1,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 12/15 × 1/6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 12,
+      "denominator": 90,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12/15 × 1/6 = 12/90.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-df7baacdf3885a7b",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t1",
+    "fingerprint": "a0326df5ad8816dc83c33090329e6b6a",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 15,
+      "rightNumerator": 1,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/15 × 1/7.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 5,
+      "denominator": 105,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/15 × 1/7 = 5/105.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-95821f2ba7bf8077",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t2",
+    "fingerprint": "5ad871fd89028f06e44430147bbb7db9",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 3,
+      "rightNumerator": 2,
+      "rightDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/3 × 2/8.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 24,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/3 × 2/8 = 2/24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-022ce2c0abc97ab3",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t3",
+    "fingerprint": "4c6c26aef003ebc33c19fe45b54ce84c",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 8,
+      "rightNumerator": 3,
+      "rightDenominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/8 × 3/9.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "6/73"
+      },
+      {
+        "id": "option-2",
+        "label": "6/72"
+      },
+      {
+        "id": "option-3",
+        "label": "72/6"
+      },
+      {
+        "id": "option-4",
+        "label": "7/72"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/8 × 3/9 = 6/72.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-c7fb7bdb145b7efa",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t4",
+    "fingerprint": "81176b5b4768c7ff11f274d7b35c77b8",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 13,
+      "rightNumerator": 4,
+      "rightDenominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 11/13 × 4/10. Bạn An cho rằng đáp án là 130/44. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "11/13 × 4/10 = 44/130.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-3218121d1493e907",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t5",
+    "fingerprint": "db6e4da7a0bcd4845ae6076afb9c4831",
+    "generatorParams": {
+      "numerator": 13,
+      "denominator": 18,
+      "rightNumerator": 1,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 13/18 × 1/7.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 13,
+      "denominator": 126,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "13/18 × 1/7 = 13/126.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-07c964e5aca12244",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t1",
+    "fingerprint": "2a02b0b5c4d17b84b56535c0897a4714",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 18,
+      "rightNumerator": 1,
+      "rightDenominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/18 × 1/3.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 54,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/18 × 1/3 = 6/54.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-5720123886e26e41",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t2",
+    "fingerprint": "1e5ae2a10fd6a7dfe161cb1bfe725035",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 6,
+      "rightNumerator": 2,
+      "rightDenominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/6 × 2/4.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 24,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/6 × 2/4 = 6/24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-b3b9c72b507799a4",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t3",
+    "fingerprint": "1b17d24667bade863e6e1f05d960d1ee",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 11,
+      "rightNumerator": 3,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 10/11 × 3/5.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "30/55"
+      },
+      {
+        "id": "option-2",
+        "label": "31/55"
+      },
+      {
+        "id": "option-3",
+        "label": "55/30"
+      },
+      {
+        "id": "option-4",
+        "label": "30/56"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "10/11 × 3/5 = 30/55.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-5910bf7f0d4ce2cc",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t4",
+    "fingerprint": "c28554ec97b3282dd5f4ecd271d0c814",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 16,
+      "rightNumerator": 4,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 12/16 × 4/6. Bạn An cho rằng đáp án là 48/96. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12/16 × 4/6 = 48/96.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-0b585dbc38731517",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t5",
+    "fingerprint": "0463a6b67ab0bf88afd357c54c67b5f2",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 4,
+      "rightNumerator": 1,
+      "rightDenominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/4 × 1/3.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 12,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/4 × 1/3 = 2/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-8f429e3a698c3984",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t1",
+    "fingerprint": "9bc14b02f4bd9a853de1f81c81d714a0",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 4,
+      "rightNumerator": 1,
+      "rightDenominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/4 × 1/4.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 16,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/4 × 1/4 = 1/16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-51bee58e81ae360b",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t2",
+    "fingerprint": "de4dea256ce1da8bfb46115b2065cfa3",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 9,
+      "rightNumerator": 2,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/9 × 2/5.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 45,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/9 × 2/5 = 2/45.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-8e59983cac32bb30",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t3",
+    "fingerprint": "77f7298d74b965ab44a9a895f54dcd17",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 14,
+      "rightNumerator": 3,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 11/14 × 3/6.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "34/84"
+      },
+      {
+        "id": "option-2",
+        "label": "84/33"
+      },
+      {
+        "id": "option-3",
+        "label": "33/85"
+      },
+      {
+        "id": "option-4",
+        "label": "33/84"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "11/14 × 3/6 = 33/84.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-48e28267e451443d",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t4",
+    "fingerprint": "e6fdb1f8b548c662a6bd7bac8ce98e36",
+    "generatorParams": {
+      "numerator": 13,
+      "denominator": 19,
+      "rightNumerator": 4,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 13/19 × 4/7. Bạn An cho rằng đáp án là 133/52. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "13/19 × 4/7 = 52/133.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-b208c650964450e0",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t5",
+    "fingerprint": "462b3f905feb6e6f2f344ef46aced493",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 7,
+      "rightNumerator": 1,
+      "rightDenominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/7 × 1/4.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 28,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/7 × 1/4 = 3/28.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-935d92ca23dcc41f",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t1",
+    "fingerprint": "604576a5e081ec95ee37dddbec0d0e1f",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 7,
+      "rightNumerator": 1,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/7 × 1/5.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 35,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/7 × 1/5 = 2/35.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-f8ea536365799ca9",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t2",
+    "fingerprint": "f8d738259f115c27f0ede4a29c3410ce",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 12,
+      "rightNumerator": 2,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 10/12 × 2/6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 20,
+      "denominator": 72,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "10/12 × 2/6 = 20/72.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-2bf950691a2b0b19",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t3",
+    "fingerprint": "f763b82affa5a46e899cdde01565828f",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 17,
+      "rightNumerator": 3,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 12/17 × 3/7.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "36/119"
+      },
+      {
+        "id": "option-2",
+        "label": "119/36"
+      },
+      {
+        "id": "option-3",
+        "label": "36/120"
+      },
+      {
+        "id": "option-4",
+        "label": "37/119"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12/17 × 3/7 = 36/119.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-56f4f9d136139fd9",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t4",
+    "fingerprint": "6b90a93de86637193b770596c2a5ca8a",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 5,
+      "rightNumerator": 4,
+      "rightDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/5 × 4/8. Bạn An cho rằng đáp án là 8/40. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/5 × 4/8 = 8/40.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-63db4270550a9e32",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t5",
+    "fingerprint": "86802c977e79c4b4c6d141f2a94ebd16",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 10,
+      "rightNumerator": 1,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7/10 × 1/5.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 7,
+      "denominator": 50,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7/10 × 1/5 = 7/50.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-7ceb14bf363c46c7",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t1",
+    "fingerprint": "7fcc1594a9840d7e0e09d8717dc5601f",
+    "generatorParams": {
+      "numerator": 9,
+      "denominator": 10,
+      "rightNumerator": 1,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 9/10 × 1/6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 9,
+      "denominator": 60,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9/10 × 1/6 = 9/60.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-818c5a4e315c3bc0",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t2",
+    "fingerprint": "0a3c89b5c0046deba96b1c5afa0b7b8d",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 15,
+      "rightNumerator": 2,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 11/15 × 2/7.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 22,
+      "denominator": 105,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "11/15 × 2/7 = 22/105.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-7fc35e95d488e374",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t3",
+    "fingerprint": "80904231aa16f43e54505b63c0a8eaf3",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 3,
+      "rightNumerator": 3,
+      "rightDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/3 × 3/8.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3/25"
+      },
+      {
+        "id": "option-2",
+        "label": "4/24"
+      },
+      {
+        "id": "option-3",
+        "label": "3/24"
+      },
+      {
+        "id": "option-4",
+        "label": "24/3"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/3 × 3/8 = 3/24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-087b8e47d21f680a",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t4",
+    "fingerprint": "1f5311cd2eafae12bbaf71aa4920a14d",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 8,
+      "rightNumerator": 4,
+      "rightDenominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/8 × 4/9. Bạn An cho rằng đáp án là 72/4. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/8 × 4/9 = 4/72.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-47e23ec921f27759",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t5",
+    "fingerprint": "98e3cc25e5a021689890ba3b4f9d28fb",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 13,
+      "rightNumerator": 1,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/13 × 1/6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 5,
+      "denominator": 78,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/13 × 1/6 = 5/78.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-5c96920b2f5ca7e5",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t1",
+    "fingerprint": "ed7914e4131b5eba541ac138fe27bb95",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 13,
+      "rightNumerator": 1,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 10/13 × 1/7.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 10,
+      "denominator": 91,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "10/13 × 1/7 = 10/91.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-2af8fac53fed6f85",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t2",
+    "fingerprint": "ca2c52d90f04f3678ed4becf8a4eb5c1",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 18,
+      "rightNumerator": 2,
+      "rightDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 12/18 × 2/8.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 24,
+      "denominator": 144,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12/18 × 2/8 = 24/144.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-885d86da82cc0018",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t3",
+    "fingerprint": "f7a33331ed4e87fdd82dfacdc8ae863b",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 6,
+      "rightNumerator": 3,
+      "rightDenominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/6 × 3/9.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "12/55"
+      },
+      {
+        "id": "option-2",
+        "label": "12/54"
+      },
+      {
+        "id": "option-3",
+        "label": "13/54"
+      },
+      {
+        "id": "option-4",
+        "label": "54/12"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/6 × 3/9 = 12/54.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-9b8ce4eb984c3635",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t4",
+    "fingerprint": "1fa325a4359858699fa39af44492254a",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 11,
+      "rightNumerator": 4,
+      "rightDenominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/11 × 4/10. Bạn An cho rằng đáp án là 24/110. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/11 × 4/10 = 24/110.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-de24a60720c0143c",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t5",
+    "fingerprint": "157b28ee28f7a2a75292e327a8301316",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 16,
+      "rightNumerator": 1,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/16 × 1/7.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 112,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/16 × 1/7 = 3/112.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-77cc2741fcd4d864",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t1",
+    "fingerprint": "d7fef2c8d134a64b67fe7c4ea7610097",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 16,
+      "rightNumerator": 1,
+      "rightDenominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 11/16 × 1/3.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 11,
+      "denominator": 48,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "11/16 × 1/3 = 11/48.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-b881383f6898b3b5",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t2",
+    "fingerprint": "c0cf06642838675936b5eec40b4ef80d",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 4,
+      "rightNumerator": 2,
+      "rightDenominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/4 × 2/4.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 16,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/4 × 2/4 = 2/16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-4f4efe5921467e48",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t3",
+    "fingerprint": "a4a96aeea0d563faa262579483f8008a",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 9,
+      "rightNumerator": 3,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7/9 × 3/5.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "21/46"
+      },
+      {
+        "id": "option-2",
+        "label": "21/45"
+      },
+      {
+        "id": "option-3",
+        "label": "45/21"
+      },
+      {
+        "id": "option-4",
+        "label": "22/45"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7/9 × 3/5 = 21/45.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-187601e1c13e688e",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t4",
+    "fingerprint": "bbd6faac6a29ff3bf27db586598cee37",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 14,
+      "rightNumerator": 4,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/14 × 4/6. Bạn An cho rằng đáp án là 84/16. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/14 × 4/6 = 16/84.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-18c722877418a09d",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t5",
+    "fingerprint": "d01eb92e63916c456d68049ac872ffb1",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 19,
+      "rightNumerator": 1,
+      "rightDenominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/19 × 1/3.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 57,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/19 × 1/3 = 1/57.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-ebe6cb01e726d1be",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t1",
+    "fingerprint": "123a98c5e150ceb3defc02ea82364a7b",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 19,
+      "rightNumerator": 1,
+      "rightDenominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 12/19 × 1/4.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 12,
+      "denominator": 76,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12/19 × 1/4 = 12/76.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-6079906d93789b3e",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t2",
+    "fingerprint": "10a95814799c0f670eb617023e99d9b9",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 7,
+      "rightNumerator": 2,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/7 × 2/5.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 35,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/7 × 2/5 = 4/35.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-c7140f77e2773763",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t3",
+    "fingerprint": "e8b42e34ddf445fff36140bcd84d6ca7",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 12,
+      "rightNumerator": 3,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/12 × 3/6.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "16/72"
+      },
+      {
+        "id": "option-2",
+        "label": "72/15"
+      },
+      {
+        "id": "option-3",
+        "label": "15/72"
+      },
+      {
+        "id": "option-4",
+        "label": "15/73"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/12 × 3/6 = 15/72.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-27de05795180e655",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t4",
+    "fingerprint": "b9fe495e0c0da4a0bfeeea3a78378683",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 17,
+      "rightNumerator": 4,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/17 × 4/7. Bạn An cho rằng đáp án là 8/119. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/17 × 4/7 = 8/119.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-3d65303e1b112643",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t5",
+    "fingerprint": "d2a8cbe499ac8423d9a5e2b5b6d743b3",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 5,
+      "rightNumerator": 1,
+      "rightDenominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/5 × 1/4.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 20,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/5 × 1/4 = 4/20.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-71050cd65defe0e0",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t1",
+    "fingerprint": "ed242cb6a0bb3d0d93793a777f003c39",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 5,
+      "rightNumerator": 1,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/5 × 1/5.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 25,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/5 × 1/5 = 1/25.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-ff677bb5f902ce07",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t2",
+    "fingerprint": "7a11b217191fa265eb0e5d06eab951a8",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 10,
+      "rightNumerator": 2,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/10 × 2/6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 12,
+      "denominator": 60,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/10 × 2/6 = 12/60.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-ebf1bc0ea2f18813",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t3",
+    "fingerprint": "0dca260ec80cb7736f971ee64fc819f1",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 15,
+      "rightNumerator": 3,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/15 × 3/7.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "105/9"
+      },
+      {
+        "id": "option-2",
+        "label": "9/105"
+      },
+      {
+        "id": "option-3",
+        "label": "9/106"
+      },
+      {
+        "id": "option-4",
+        "label": "10/105"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/15 × 3/7 = 9/105.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-a9f7d20763b86593",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t4",
+    "fingerprint": "3346392be5f6aaa4c5fb17c7d04868f3",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 3,
+      "rightNumerator": 4,
+      "rightDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/3 × 4/8. Bạn An cho rằng đáp án là 24/4. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/3 × 4/8 = 4/24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-e59dc14b040a1f7c",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t5",
+    "fingerprint": "ad7860160e78151f89bf348c8c1a9e31",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 8,
+      "rightNumerator": 1,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7/8 × 1/5.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 7,
+      "denominator": 40,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7/8 × 1/5 = 7/40.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-4e3bcee299478f96",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t1",
+    "fingerprint": "ccc17e6f9828adf9bbbee22d9014fadc",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 8,
+      "rightNumerator": 1,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7/8 × 1/6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 7,
+      "denominator": 48,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7/8 × 1/6 = 7/48.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-fde833122ca42829",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t2",
+    "fingerprint": "0281eafcf2918ae8d551cadd6d91fc70",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 13,
+      "rightNumerator": 2,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/13 × 2/7.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 8,
+      "denominator": 91,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/13 × 2/7 = 8/91.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-8cc584ad861ad4c7",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t3",
+    "fingerprint": "412fdcfad1a6d17feb4c45c4521a1ef1",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 18,
+      "rightNumerator": 3,
+      "rightDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/18 × 3/8.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "144/3"
+      },
+      {
+        "id": "option-2",
+        "label": "4/144"
+      },
+      {
+        "id": "option-3",
+        "label": "3/144"
+      },
+      {
+        "id": "option-4",
+        "label": "3/145"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/18 × 3/8 = 3/144.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-25b83b9c4019ea53",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t4",
+    "fingerprint": "4393318899637ffda22b3ef692f5f7d3",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 6,
+      "rightNumerator": 4,
+      "rightDenominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/6 × 4/9. Bạn An cho rằng đáp án là 20/54. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/6 × 4/9 = 20/54.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-b26ec014ceb39cea",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t5",
+    "fingerprint": "a86096eb6172c370c2f9dd922901fb21",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 11,
+      "rightNumerator": 1,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/11 × 1/6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 66,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/11 × 1/6 = 2/66.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-d15dd4488781e5fd",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t1",
+    "fingerprint": "3021d531a6a7ffd5bb97a3bb837b6530",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 11,
+      "rightNumerator": 1,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/11 × 1/7.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 5,
+      "denominator": 77,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/11 × 1/7 = 5/77.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-16c4e9a21b3d67f0",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t2",
+    "fingerprint": "384a1c728d80faf94f234692ff3fddf3",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 16,
+      "rightNumerator": 2,
+      "rightDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/16 × 2/8.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 128,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/16 × 2/8 = 4/128.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-47fc2efa213b0f40",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t3",
+    "fingerprint": "826997797e125897cb45e652fd7137ba",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 4,
+      "rightNumerator": 3,
+      "rightDenominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/4 × 3/9.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3/36"
+      },
+      {
+        "id": "option-2",
+        "label": "36/3"
+      },
+      {
+        "id": "option-3",
+        "label": "4/36"
+      },
+      {
+        "id": "option-4",
+        "label": "3/37"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/4 × 3/9 = 3/36.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-7f6cf436b0e48f81",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t4",
+    "fingerprint": "5681f0264e44e4793aee7c5837d4c6fe",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 9,
+      "rightNumerator": 4,
+      "rightDenominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/9 × 4/10. Bạn An cho rằng đáp án là 90/20. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/9 × 4/10 = 20/90.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-2c29c880d6d40fd9",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t5",
+    "fingerprint": "77bef379d7a8cd56df785fb703585153",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 14,
+      "rightNumerator": 1,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 10/14 × 1/7.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 10,
+      "denominator": 98,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "10/14 × 1/7 = 10/98.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-5f610260a130563b",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t1",
+    "fingerprint": "8829e62e33898f762834d18f143d23f1",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 14,
+      "rightNumerator": 1,
+      "rightDenominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/14 × 1/3.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 42,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/14 × 1/3 = 3/42.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-8bb8c00eb96e917a",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t2",
+    "fingerprint": "42554f3022c2e23d00e80ab452e1f10b",
+    "generatorParams": {
+      "numerator": 18,
+      "denominator": 19,
+      "rightNumerator": 2,
+      "rightDenominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 18/19 × 2/4.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 36,
+      "denominator": 76,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18/19 × 2/4 = 36/76.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-8e7e379d3eaece89",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t3",
+    "fingerprint": "e51f8ea0b11fb40115dc572ce27341af",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 7,
+      "rightNumerator": 3,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/7 × 3/5.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "6/36"
+      },
+      {
+        "id": "option-2",
+        "label": "7/35"
+      },
+      {
+        "id": "option-3",
+        "label": "6/35"
+      },
+      {
+        "id": "option-4",
+        "label": "35/6"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/7 × 3/5 = 6/35.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-c3711aacf901a41e",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t4",
+    "fingerprint": "a4c012cefc90b385b9e55f1e7612327a",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 12,
+      "rightNumerator": 4,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 11/12 × 4/6. Bạn An cho rằng đáp án là 44/72. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "11/12 × 4/6 = 44/72.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-40545193306b44c5",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t5",
+    "fingerprint": "71eb35920e22414532d153fd25ebcb2e",
+    "generatorParams": {
+      "numerator": 8,
+      "denominator": 17,
+      "rightNumerator": 1,
+      "rightDenominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 8/17 × 1/3.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 8,
+      "denominator": 51,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8/17 × 1/3 = 8/51.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-6ee874104127d295",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t1",
+    "fingerprint": "46e83aee9dbad7e3587b9d32a42b9784",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 17,
+      "rightNumerator": 1,
+      "rightDenominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/17 × 1/4.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 68,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/17 × 1/4 = 1/68.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-87aec5506bdba125",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t2",
+    "fingerprint": "b1d059c1ab00a96a45dbcd2502daa019",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 5,
+      "rightNumerator": 2,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/5 × 2/5.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 25,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/5 × 2/5 = 6/25.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-1486692fb2fd36ac",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t3",
+    "fingerprint": "90a7f022dc4f73f567db5b903a788133",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 10,
+      "rightNumerator": 3,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/10 × 3/6.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "10/60"
+      },
+      {
+        "id": "option-2",
+        "label": "60/9"
+      },
+      {
+        "id": "option-3",
+        "label": "9/60"
+      },
+      {
+        "id": "option-4",
+        "label": "9/61"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/10 × 3/6 = 9/60.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-6eb612ae630edfbc",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t4",
+    "fingerprint": "7c3aea712468390cf72deb6f138744f7",
+    "generatorParams": {
+      "numerator": 9,
+      "denominator": 15,
+      "rightNumerator": 4,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 9/15 × 4/7. Bạn An cho rằng đáp án là 105/36. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9/15 × 4/7 = 36/105.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-327859812199937c",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t5",
+    "fingerprint": "2730a89e6b31b5294af2f4e4e287e478",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 3,
+      "rightNumerator": 1,
+      "rightDenominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/3 × 1/4.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 12,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/3 × 1/4 = 1/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-f9c8d66d9dc0bda0",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t1",
+    "fingerprint": "4e5912e7bdcefb73c4c2f0c3372fea44",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 3,
+      "rightNumerator": 1,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/3 × 1/5.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 15,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/3 × 1/5 = 2/15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-ffea3c200c8c6bdb",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t2",
+    "fingerprint": "826bf52c4038f9e1dfceb6ee445499ef",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 8,
+      "rightNumerator": 2,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/8 × 2/6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 12,
+      "denominator": 48,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/8 × 2/6 = 12/48.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-795571d2bcb2616c",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t3",
+    "fingerprint": "29d3c451ec6b40c4c3b169f3cb758220",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 13,
+      "rightNumerator": 3,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 10/13 × 3/7.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "30/91"
+      },
+      {
+        "id": "option-2",
+        "label": "31/91"
+      },
+      {
+        "id": "option-3",
+        "label": "30/92"
+      },
+      {
+        "id": "option-4",
+        "label": "91/30"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "10/13 × 3/7 = 30/91.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-f2a7920de9818a7e",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t4",
+    "fingerprint": "62ff782f8bcf6d4312f99b95256e0d8e",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 18,
+      "rightNumerator": 4,
+      "rightDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7/18 × 4/8. Bạn An cho rằng đáp án là 28/144. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7/18 × 4/8 = 28/144.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-67b049937fd6cb48",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t5",
+    "fingerprint": "851c14f4d4d98434f980b01495eca1e0",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 6,
+      "rightNumerator": 1,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/6 × 1/5.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 30,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/6 × 1/5 = 1/30.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-f420f2293e3bac92",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t1",
+    "fingerprint": "6d3a661eb5e64d04afb2cf51c05cf236",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 6,
+      "rightNumerator": 1,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/6 × 1/6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 36,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/6 × 1/6 = 4/36.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-72e4d6a25217e3f2",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t2",
+    "fingerprint": "10fc0b44e6c816d69aa1e094d5b4fe43",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 11,
+      "rightNumerator": 2,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/11 × 2/7.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 2,
+      "denominator": 77,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/11 × 2/7 = 2/77.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-c20915108e8adf04",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t3",
+    "fingerprint": "dfd8653ad15e2c70816eacf08550a096",
+    "generatorParams": {
+      "numerator": 8,
+      "denominator": 16,
+      "rightNumerator": 3,
+      "rightDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 8/16 × 3/8.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "128/24"
+      },
+      {
+        "id": "option-2",
+        "label": "24/129"
+      },
+      {
+        "id": "option-3",
+        "label": "25/128"
+      },
+      {
+        "id": "option-4",
+        "label": "24/128"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8/16 × 3/8 = 24/128.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-b232d84c328ddb1c",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t4",
+    "fingerprint": "0a4b3b8b6b8757b18f59e336311faea8",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 4,
+      "rightNumerator": 4,
+      "rightDenominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/4 × 4/9. Bạn An cho rằng đáp án là 36/4. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/4 × 4/9 = 4/36.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-8976eb86c5ab8dda",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t5",
+    "fingerprint": "29e2e54c59cd0d6d74a8196fdf53807a",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 9,
+      "rightNumerator": 1,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/9 × 1/6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 54,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/9 × 1/6 = 3/54.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-96b1ef4a09749a68",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t1",
+    "fingerprint": "4e05ae0b850c38443d35bac684dc30a8",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 9,
+      "rightNumerator": 1,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/9 × 1/7.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 63,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/9 × 1/7 = 4/63.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-d1be7bba59b2c68b",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t2",
+    "fingerprint": "d110d1b8e15add058ab8945a922d7b03",
+    "generatorParams": {
+      "numerator": 9,
+      "denominator": 14,
+      "rightNumerator": 2,
+      "rightDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 9/14 × 2/8.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 18,
+      "denominator": 112,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9/14 × 2/8 = 18/112.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-e448dbd58c1b71bc",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t3",
+    "fingerprint": "43b463b2ae02afb2ae61f45d769ebf12",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 19,
+      "rightNumerator": 3,
+      "rightDenominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/19 × 3/9.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "18/171"
+      },
+      {
+        "id": "option-2",
+        "label": "171/18"
+      },
+      {
+        "id": "option-3",
+        "label": "19/171"
+      },
+      {
+        "id": "option-4",
+        "label": "18/172"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/19 × 3/9 = 18/171.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-21dc07f92d6153bb",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t4",
+    "fingerprint": "b889cc12c97e650c9eeaf6bc045e17c9",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 7,
+      "rightNumerator": 4,
+      "rightDenominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/7 × 4/10. Bạn An cho rằng đáp án là 8/70. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/7 × 4/10 = 8/70.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-e5860cc15a4fdbe1",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t5",
+    "fingerprint": "11894b9be0a33d1d7af7b1b8eeb847a5",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 12,
+      "rightNumerator": 1,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/12 × 1/7.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 84,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/12 × 1/7 = 6/84.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-06a88c75498e22d4",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t1",
+    "fingerprint": "9d7a718336e999916ff8b6948ecb42ee",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 12,
+      "rightNumerator": 1,
+      "rightDenominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 10/12 × 1/3.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 10,
+      "denominator": 36,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "10/12 × 1/3 = 10/36.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-851a95669d0cd78a",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t2",
+    "fingerprint": "e17100346efeb5d2097dd6a6002abd68",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 17,
+      "rightNumerator": 2,
+      "rightDenominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7/17 × 2/4.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 14,
+      "denominator": 68,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7/17 × 2/4 = 14/68.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-1a14f461f244e013",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t3",
+    "fingerprint": "2368e965873d7f448e3f5e4706dbcd36",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 5,
+      "rightNumerator": 3,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/5 × 3/5.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3/25"
+      },
+      {
+        "id": "option-2",
+        "label": "4/25"
+      },
+      {
+        "id": "option-3",
+        "label": "3/26"
+      },
+      {
+        "id": "option-4",
+        "label": "25/3"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/5 × 3/5 = 3/25.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-3ce79007b5a667a2",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t4",
+    "fingerprint": "e0f6162618a27556e106c0ce801560eb",
+    "generatorParams": {
+      "numerator": 9,
+      "denominator": 10,
+      "rightNumerator": 4,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 9/10 × 4/6. Bạn An cho rằng đáp án là 60/36. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9/10 × 4/6 = 36/60.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-fractions-231ce9757dfbfef2",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-fractions-t5",
+    "fingerprint": "778b6d3e31a8fbe4c98fa74df976d483",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 15,
+      "rightNumerator": 1,
+      "rightDenominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "multiply-fractions-skill",
+    "problemTypeId": "multiply-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/15 × 1/3.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 1,
+      "denominator": 45,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân tử với tử, mẫu với mẫu rồi rút gọn."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/15 × 1/3 = 1/45.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

@@ -1,0 +1,631 @@
+{
+  "generatedAt": "2026-09-11T17:19:53.222Z",
+  "responsive": [
+    {
+      "path": "/practice",
+      "width": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "overflow": []
+    },
+    {
+      "path": "/practice",
+      "width": 1024,
+      "documentWidth": 1024,
+      "bodyWidth": 1024,
+      "overflow": []
+    },
+    {
+      "path": "/practice",
+      "width": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "overflow": []
+    }
+  ],
+  "fraction": {
+    "390": {
+      "stem": "Hình tròn được chia thành 6 phần bằng nhau. 1 phần đã được tô màu. Phần tô màu chiếm bao nhiêu phần của hình tròn?",
+      "sectorCount": 6,
+      "shadedCount": 1,
+      "angles": [
+        {
+          "start": -1.5707963267948966,
+          "end": -0.5235987755982989
+        },
+        {
+          "start": -0.5235987755982989,
+          "end": 0.5235987755982987
+        },
+        {
+          "start": 0.5235987755982987,
+          "end": 1.5707963267948963
+        },
+        {
+          "start": 1.5707963267948966,
+          "end": 2.617993877991494
+        },
+        {
+          "start": 2.617993877991494,
+          "end": 3.6651914291880914
+        },
+        {
+          "start": 3.6651914291880914,
+          "end": 4.712388980384689
+        }
+      ],
+      "viewBox": "0 0 420 220",
+      "svgRect": {
+        "left": 37,
+        "right": 353,
+        "width": 316
+      },
+      "circleRect": {
+        "left": 140.77670288085938,
+        "right": 249.22329711914062,
+        "width": 108.44659423828125,
+        "height": 108.44656372070312
+      },
+      "clipPath": true
+    },
+    "1024": {
+      "stem": "Hình tròn được chia thành 6 phần bằng nhau. 1 phần đã được tô màu. Phần tô màu chiếm bao nhiêu phần của hình tròn?",
+      "sectorCount": 6,
+      "shadedCount": 1,
+      "angles": [
+        {
+          "start": -1.5707963267948966,
+          "end": -0.5235987755982989
+        },
+        {
+          "start": -0.5235987755982989,
+          "end": 0.5235987755982987
+        },
+        {
+          "start": 0.5235987755982987,
+          "end": 1.5707963267948963
+        },
+        {
+          "start": 1.5707963267948966,
+          "end": 2.617993877991494
+        },
+        {
+          "start": 2.617993877991494,
+          "end": 3.6651914291880914
+        },
+        {
+          "start": 3.6651914291880914,
+          "end": 4.712388980384689
+        }
+      ],
+      "viewBox": "0 0 420 220",
+      "svgRect": {
+        "left": 252,
+        "right": 772,
+        "width": 520
+      },
+      "circleRect": {
+        "left": 419.89019775390625,
+        "right": 604.1098022460938,
+        "width": 184.2196044921875,
+        "height": 184.2196044921875
+      },
+      "clipPath": true
+    },
+    "1440": {
+      "stem": "Hình tròn được chia thành 6 phần bằng nhau. 1 phần đã được tô màu. Phần tô màu chiếm bao nhiêu phần của hình tròn?",
+      "sectorCount": 6,
+      "shadedCount": 1,
+      "angles": [
+        {
+          "start": -1.5707963267948966,
+          "end": -0.5235987755982989
+        },
+        {
+          "start": -0.5235987755982989,
+          "end": 0.5235987755982987
+        },
+        {
+          "start": 0.5235987755982987,
+          "end": 1.5707963267948963
+        },
+        {
+          "start": 1.5707963267948966,
+          "end": 2.617993877991494
+        },
+        {
+          "start": 2.617993877991494,
+          "end": 3.6651914291880914
+        },
+        {
+          "start": 3.6651914291880914,
+          "end": 4.712388980384689
+        }
+      ],
+      "viewBox": "0 0 420 220",
+      "svgRect": {
+        "left": 460,
+        "right": 980,
+        "width": 520
+      },
+      "circleRect": {
+        "left": 627.8901977539062,
+        "right": 812.1098022460938,
+        "width": 184.2196044921875,
+        "height": 184.2196044921875
+      },
+      "clipPath": true
+    }
+  },
+  "submissions": [
+    {
+      "answer": "1/5",
+      "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé.",
+      "request": {
+        "requestId": "26284.266",
+        "method": "POST",
+        "url": "http://127.0.0.1:5190/api/v1/practice-sessions/practice-19-e5daf04e4718/answer",
+        "postData": "{\"questionId\":\"g4-identify-fraction-1c9cc0028b7d4151\",\"answer\":{\"kind\":\"FRACTION\",\"numerator\":1,\"denominator\":5},\"hintCount\":0}"
+      },
+      "response": {
+        "requestId": "26284.266",
+        "status": 201,
+        "url": "http://127.0.0.1:5190/api/v1/practice-sessions/practice-19-e5daf04e4718/answer"
+      }
+    },
+    {
+      "answer": "2/6",
+      "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé.",
+      "request": {
+        "requestId": "26284.333",
+        "method": "POST",
+        "url": "http://127.0.0.1:5190/api/v1/practice-sessions/practice-20-c826c2d2de88/answer",
+        "postData": "{\"questionId\":\"g4-identify-fraction-1c9cc0028b7d4151\",\"answer\":{\"kind\":\"FRACTION\",\"numerator\":2,\"denominator\":6},\"hintCount\":0}"
+      },
+      "response": {
+        "requestId": "26284.333",
+        "status": 201,
+        "url": "http://127.0.0.1:5190/api/v1/practice-sessions/practice-20-c826c2d2de88/answer"
+      }
+    },
+    {
+      "answer": "1/6",
+      "feedback": "Chính xác! Em đã tự tìm được đáp án.",
+      "request": {
+        "requestId": "26284.400",
+        "method": "POST",
+        "url": "http://127.0.0.1:5190/api/v1/practice-sessions/practice-21-315a46cc05c1/answer",
+        "postData": "{\"questionId\":\"g4-identify-fraction-1c9cc0028b7d4151\",\"answer\":{\"kind\":\"FRACTION\",\"numerator\":1,\"denominator\":6},\"hintCount\":0}"
+      },
+      "response": {
+        "requestId": "26284.400",
+        "status": 201,
+        "url": "http://127.0.0.1:5190/api/v1/practice-sessions/practice-21-315a46cc05c1/answer"
+      }
+    }
+  ],
+  "routeChecks": [
+    {
+      "path": "/",
+      "width": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "overflow": []
+    },
+    {
+      "path": "/",
+      "width": 1024,
+      "documentWidth": 1024,
+      "bodyWidth": 1024,
+      "overflow": []
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "overflow": []
+    },
+    {
+      "path": "/learn",
+      "width": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "overflow": []
+    },
+    {
+      "path": "/learn",
+      "width": 1024,
+      "documentWidth": 1024,
+      "bodyWidth": 1024,
+      "overflow": []
+    },
+    {
+      "path": "/learn",
+      "width": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "overflow": []
+    },
+    {
+      "path": "/learn/types",
+      "width": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "overflow": []
+    },
+    {
+      "path": "/learn/types",
+      "width": 1024,
+      "documentWidth": 1024,
+      "bodyWidth": 1024,
+      "overflow": []
+    },
+    {
+      "path": "/learn/types",
+      "width": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "overflow": []
+    },
+    {
+      "path": "/learn/grade/4/number-and-operations/natural-numbers",
+      "width": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "overflow": []
+    },
+    {
+      "path": "/learn/grade/4/number-and-operations/natural-numbers",
+      "width": 1024,
+      "documentWidth": 1024,
+      "bodyWidth": 1024,
+      "overflow": []
+    },
+    {
+      "path": "/learn/grade/4/number-and-operations/natural-numbers",
+      "width": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "overflow": []
+    },
+    {
+      "path": "/tests",
+      "width": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "overflow": []
+    },
+    {
+      "path": "/tests",
+      "width": 1024,
+      "documentWidth": 1024,
+      "bodyWidth": 1024,
+      "overflow": []
+    },
+    {
+      "path": "/tests",
+      "width": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "overflow": []
+    },
+    {
+      "path": "/history",
+      "width": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "overflow": []
+    },
+    {
+      "path": "/history",
+      "width": 1024,
+      "documentWidth": 1024,
+      "bodyWidth": 1024,
+      "overflow": []
+    },
+    {
+      "path": "/history",
+      "width": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "overflow": []
+    },
+    {
+      "path": "/history/practice-22-4252c5aa1268",
+      "width": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "overflow": []
+    },
+    {
+      "path": "/history/practice-22-4252c5aa1268",
+      "width": 1024,
+      "documentWidth": 1024,
+      "bodyWidth": 1024,
+      "overflow": []
+    },
+    {
+      "path": "/history/practice-22-4252c5aa1268",
+      "width": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "overflow": []
+    },
+    {
+      "path": "/history/test-0ba6fd6703f9d1742b27",
+      "width": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "overflow": []
+    },
+    {
+      "path": "/history/test-0ba6fd6703f9d1742b27",
+      "width": 1024,
+      "documentWidth": 1024,
+      "bodyWidth": 1024,
+      "overflow": []
+    },
+    {
+      "path": "/history/test-0ba6fd6703f9d1742b27",
+      "width": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "overflow": []
+    },
+    {
+      "path": "/me",
+      "width": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "overflow": []
+    },
+    {
+      "path": "/me",
+      "width": 1024,
+      "documentWidth": 1024,
+      "bodyWidth": 1024,
+      "overflow": []
+    },
+    {
+      "path": "/me",
+      "width": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "overflow": []
+    },
+    {
+      "path": "/parent",
+      "width": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "overflow": []
+    },
+    {
+      "path": "/parent",
+      "width": 1024,
+      "documentWidth": 1024,
+      "bodyWidth": 1024,
+      "overflow": []
+    },
+    {
+      "path": "/parent",
+      "width": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "overflow": []
+    }
+  ],
+  "practiceCompletion": {
+    "practiceId": "practice-22-4252c5aa1268",
+    "text": "Hoàn thànhEm đã đi hết bộ câu hỏi!Em làm đúng 1/1 câu · 0 câu cần xem lại · 100% chính xác. Luyện bộ tương tựXem câu saiXem lịch sửChọn dạng khác",
+    "responsive": [
+      {
+        "path": "/practice",
+        "width": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440,
+        "overflow": []
+      },
+      {
+        "path": "/practice",
+        "width": 1024,
+        "documentWidth": 1024,
+        "bodyWidth": 1024,
+        "overflow": []
+      },
+      {
+        "path": "/practice",
+        "width": 390,
+        "documentWidth": 390,
+        "bodyWidth": 390,
+        "overflow": []
+      }
+    ],
+    "historyMetrics": {
+      "path": "/history/practice-22-4252c5aa1268",
+      "width": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "overflow": []
+    }
+  },
+  "selectAll": {
+    "global": {
+      "checked": true,
+      "label": "Chọn tất cả kết quả đang hiển thị",
+      "summary": "Bắt đầu luyện64 dạng đã chọnCó 2560 câu phù hợpMức độDễVừa sứcNâng caoTất cảCách họcTự luyệnHọc có gợi ýÔn phần còn yếuSố câu5 câu10 câu15 câu20 câu30 câu40 câu50 câuTất cả (2560 câu)Luyện các dạng đã chọn"
+    },
+    "topic": {
+      "checked": true,
+      "label": "Chọn tất cả các dạng",
+      "summary": "Bắt đầu luyện6 dạng đã chọnCó 240 câu phù hợpMức độDễVừa sứcNâng caoTất cảCách họcTự luyệnHọc có gợi ýÔn phần còn yếuSố câu5 câu10 câu15 câu20 câu30 câu40 câu50 câuTất cả (240 câu)Luyện các dạng đã chọn"
+    }
+  },
+  "testMode": {
+    "catalog": {
+      "scoringText": "Cách tính điểm: Mỗi câu 0,5 điểm · điểm cuối làm tròn số nguyên"
+    },
+    "startCta": {
+      "path": "/tests/attempt/test-938df048c951cfadf8f5",
+      "hasWorkspace": true
+    },
+    "created": {
+      "status": 201,
+      "id": "test-0ba6fd6703f9d1742b27",
+      "questionIds": [
+        "g4-operation-order-6edf4a8528e18354",
+        "g4-fraction-of-quantity-aa4bca75076ce6e5",
+        "g4-time-conversion-5a1a6d517d0c0559",
+        "g4-recognize-shapes-5fcbc94ad18271ca",
+        "g4-number-pattern-73b8f147eb86cded",
+        "g4-read-write-fraction-a8f4a5c3f51eead4",
+        "g4-write-fractions-4b8658d390aa1ce8",
+        "g4-read-fractions-bbe28a2fec29f3d8",
+        "g4-read-write-fraction-977909563598be2a",
+        "g4-classify-angles-5dea1cfa15b73fe9",
+        "g4-count-money-b68d87e97ee05e64",
+        "g4-time-conversion-9d1113c18d002116",
+        "g4-compare-fractions-fb6b6b9087819a94",
+        "g4-common-denominator-bec1719d32abfdae",
+        "g4-money-change-faca6d8446781425",
+        "g4-classify-angles-2fcf5c7dda64bfe8",
+        "g4-operation-order-cf2b9d9e760d4290",
+        "g4-write-fractions-a628c025c0e4c1cc",
+        "g4-reduce-fractions-c8cadeffdfeea8f9",
+        "g4-calculate-duration-8e58f1347db6af2b"
+      ],
+      "firstQuestionKeys": [
+        "contentVersion",
+        "difficulty",
+        "domainId",
+        "fingerprint",
+        "format",
+        "grade",
+        "id",
+        "prerequisiteSkillIds",
+        "problemTypeId",
+        "scoreWeight",
+        "skillId",
+        "status",
+        "stem",
+        "templateId",
+        "testEligible",
+        "topicId",
+        "version"
+      ]
+    },
+    "attemptResponsive": [
+      {
+        "path": "/tests/attempt/test-0ba6fd6703f9d1742b27",
+        "width": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440,
+        "overflow": []
+      },
+      {
+        "path": "/tests/attempt/test-0ba6fd6703f9d1742b27",
+        "width": 1024,
+        "documentWidth": 1024,
+        "bodyWidth": 1024,
+        "overflow": []
+      },
+      {
+        "path": "/tests/attempt/test-0ba6fd6703f9d1742b27",
+        "width": 390,
+        "documentWidth": 390,
+        "bodyWidth": 390,
+        "overflow": []
+      }
+    ],
+    "behavior": {
+      "frozen": {
+        "sameOrder": true,
+        "hasHints": false,
+        "hasAssessmentLevel": false,
+        "status": "IN_PROGRESS"
+      },
+      "beforeSubmit": {
+        "hasHintText": false,
+        "revealsCorrectAnswer": false,
+        "hasElapsedTime": true,
+        "hasUnansweredMarker": true
+      },
+      "resultText": "Hoàn thành bài kiểm traĐiểm: 0/100Đúng0Sai20Bỏ trống0%Chính xác1PhútKết quả theo chủ đềBiểu thức0/2Phân số lớp 40/9Thời gian và tiền0/5Hình và góc0/3Quy luật0/1Xem lại bàiLàm bài khácVề trang chủ",
+      "lockedStatus": 400
+    },
+    "resultResponsive": [
+      {
+        "path": "/tests/attempt/test-0ba6fd6703f9d1742b27",
+        "width": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440,
+        "overflow": []
+      },
+      {
+        "path": "/tests/attempt/test-0ba6fd6703f9d1742b27",
+        "width": 1024,
+        "documentWidth": 1024,
+        "bodyWidth": 1024,
+        "overflow": []
+      },
+      {
+        "path": "/tests/attempt/test-0ba6fd6703f9d1742b27",
+        "width": 390,
+        "documentWidth": 390,
+        "bodyWidth": 390,
+        "overflow": []
+      }
+    ],
+    "reviewResponsive": [
+      {
+        "path": "/tests/attempt/test-0ba6fd6703f9d1742b27/review",
+        "width": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440,
+        "overflow": []
+      },
+      {
+        "path": "/tests/attempt/test-0ba6fd6703f9d1742b27/review",
+        "width": 1024,
+        "documentWidth": 1024,
+        "bodyWidth": 1024,
+        "overflow": []
+      },
+      {
+        "path": "/tests/attempt/test-0ba6fd6703f9d1742b27/review",
+        "width": 390,
+        "documentWidth": 390,
+        "bodyWidth": 390,
+        "overflow": []
+      }
+    ],
+    "historyResponsive": [
+      {
+        "path": "/history/test-0ba6fd6703f9d1742b27",
+        "width": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440,
+        "overflow": []
+      },
+      {
+        "path": "/history/test-0ba6fd6703f9d1742b27",
+        "width": 1024,
+        "documentWidth": 1024,
+        "bodyWidth": 1024,
+        "overflow": []
+      },
+      {
+        "path": "/history/test-0ba6fd6703f9d1742b27",
+        "width": 390,
+        "documentWidth": 390,
+        "bodyWidth": 390,
+        "overflow": []
+      }
+    ],
+    "review": {
+      "showsCorrectAnswer": true,
+      "hasEnabledAnswerControl": false
+    }
+  }
+}

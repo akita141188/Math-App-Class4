@@ -1,0 +1,6982 @@
+[
+  {
+    "id": "g4-divide-fractions-4233447c397b5ce6",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t1",
+    "fingerprint": "299be504aa46234c2232ed2659d13145",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 6,
+      "rightNumerator": 1,
+      "rightDenominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/6 : 1/4.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 8,
+      "denominator": 6,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/6 : 1/4 = 8/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-41096c01e1e24b58",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t2",
+    "fingerprint": "7edc440266b4b571cef53d2ed279f1fd",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 11,
+      "rightNumerator": 2,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/11 : 2/5.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 20,
+      "denominator": 22,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/11 : 2/5 = 20/22.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-d06ee3f3cef13165",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t3",
+    "fingerprint": "9c21ea2c905096f74bba5ca4102b7187",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 16,
+      "rightNumerator": 3,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/16 : 3/6.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "37/48"
+      },
+      {
+        "id": "option-2",
+        "label": "36/48"
+      },
+      {
+        "id": "option-3",
+        "label": "36/49"
+      },
+      {
+        "id": "option-4",
+        "label": "48/36"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/16 : 3/6 = 36/48.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-97569b16f5eeffbe",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t4",
+    "fingerprint": "10bfbc52c274b9ac022850490692032e",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 4,
+      "rightNumerator": 4,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/4 : 4/7. Bạn An cho rằng đáp án là 14/16. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/4 : 4/7 = 14/16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-b220b0d912aabd40",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t5",
+    "fingerprint": "4d70696d1295fabe0496478eca77514c",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 9,
+      "rightNumerator": 1,
+      "rightDenominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/9 : 1/4.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 8,
+      "denominator": 9,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/9 : 1/4 = 8/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-99592d8e3a4f165b",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t1",
+    "fingerprint": "d142a3ae487b64fde1a4eb097cd4551d",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 9,
+      "rightNumerator": 1,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/9 : 1/5.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 15,
+      "denominator": 9,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/9 : 1/5 = 15/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-7f3243df7b78479b",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t2",
+    "fingerprint": "7c263143a97267f005080c1c96c24612",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 14,
+      "rightNumerator": 2,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/14 : 2/6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 30,
+      "denominator": 28,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/14 : 2/6 = 30/28.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-f18c2cd34c5bf10b",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t3",
+    "fingerprint": "5b696aeefe6f259d85c465c9953b31d2",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 19,
+      "rightNumerator": 3,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7/19 : 3/7.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "49/58"
+      },
+      {
+        "id": "option-2",
+        "label": "50/57"
+      },
+      {
+        "id": "option-3",
+        "label": "57/49"
+      },
+      {
+        "id": "option-4",
+        "label": "49/57"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7/19 : 3/7 = 49/57.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-064166e17685f201",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t4",
+    "fingerprint": "62176eb3ea1973c738dad76ba6b75c8e",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 7,
+      "rightNumerator": 4,
+      "rightDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/7 : 4/8. Bạn An cho rằng đáp án là 28/24. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/7 : 4/8 = 24/28.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-973e09b3e1fbf72d",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t5",
+    "fingerprint": "0a9712fcc60dca011399961d507d20f5",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 12,
+      "rightNumerator": 1,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 11/12 : 1/5.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 55,
+      "denominator": 12,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "11/12 : 1/5 = 55/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-230da39455cbc7a0",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t1",
+    "fingerprint": "77f82ec8a6c70e39f1c5ab30d01832b2",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 12,
+      "rightNumerator": 1,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/12 : 1/6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 24,
+      "denominator": 12,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/12 : 1/6 = 24/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-8574d82c213fc902",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t2",
+    "fingerprint": "8ac61e6ce6229ec50035942cf5a9e8d8",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 17,
+      "rightNumerator": 2,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/17 : 2/7.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 42,
+      "denominator": 34,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/17 : 2/7 = 42/34.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-bb8c441382e5dfa0",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t3",
+    "fingerprint": "ad678b97449a92cc3696dbd397fd7865",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 5,
+      "rightNumerator": 3,
+      "rightDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/5 : 3/8.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "32/16"
+      },
+      {
+        "id": "option-2",
+        "label": "32/15"
+      },
+      {
+        "id": "option-3",
+        "label": "15/32"
+      },
+      {
+        "id": "option-4",
+        "label": "33/15"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/5 : 3/8 = 32/15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-92ca82861eb8cf85",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t4",
+    "fingerprint": "ed1f9ecd905b5ab481586b279f786dfc",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 10,
+      "rightNumerator": 4,
+      "rightDenominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/10 : 4/9. Bạn An cho rằng đáp án là 9/40. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/10 : 4/9 = 9/40.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-94080c575f98082b",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t5",
+    "fingerprint": "c7b8a42e4f8b831b7b7195438ab59bee",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 15,
+      "rightNumerator": 1,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 12/15 : 1/6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 72,
+      "denominator": 15,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12/15 : 1/6 = 72/15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-0c8741b4f5cda8c8",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t1",
+    "fingerprint": "23cf16198c341aafec5d27e36131ae94",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 15,
+      "rightNumerator": 1,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/15 : 1/7.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 35,
+      "denominator": 15,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/15 : 1/7 = 35/15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-ecd2882c44237885",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t2",
+    "fingerprint": "fcbfff627f86c43793842042d80a327e",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 3,
+      "rightNumerator": 2,
+      "rightDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/3 : 2/8.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 8,
+      "denominator": 6,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/3 : 2/8 = 8/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-5d650bcc153eb23e",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t3",
+    "fingerprint": "0dcd3790ba014587440284af50d1e78d",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 8,
+      "rightNumerator": 3,
+      "rightDenominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/8 : 3/9.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "18/24"
+      },
+      {
+        "id": "option-2",
+        "label": "19/24"
+      },
+      {
+        "id": "option-3",
+        "label": "18/25"
+      },
+      {
+        "id": "option-4",
+        "label": "24/18"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/8 : 3/9 = 18/24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-9b9caace5c976cc4",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t4",
+    "fingerprint": "35f86ab7828251c597cc29553dc0281f",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 13,
+      "rightNumerator": 4,
+      "rightDenominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 11/13 : 4/10. Bạn An cho rằng đáp án là 52/110. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "11/13 : 4/10 = 110/52.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-0a5fb1d75c744070",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t5",
+    "fingerprint": "4ae68426e9b8d41cc4e224f78422f2f0",
+    "generatorParams": {
+      "numerator": 13,
+      "denominator": 18,
+      "rightNumerator": 1,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 13/18 : 1/7.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 91,
+      "denominator": 18,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "13/18 : 1/7 = 91/18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-440600ce70ec0823",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t1",
+    "fingerprint": "b6a6e6a9e33b6086260f30aee5b102ca",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 18,
+      "rightNumerator": 1,
+      "rightDenominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/18 : 1/3.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 18,
+      "denominator": 18,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/18 : 1/3 = 18/18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-85414e8ef19310e4",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t2",
+    "fingerprint": "c87f66db88fbbda6ff73e40ec1b8dcbe",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 6,
+      "rightNumerator": 2,
+      "rightDenominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/6 : 2/4.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 12,
+      "denominator": 12,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/6 : 2/4 = 12/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-3efcce338b92d779",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t3",
+    "fingerprint": "ea834bdaa35bfb10f2e45014ddff9dfe",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 11,
+      "rightNumerator": 3,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 10/11 : 3/5.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "51/33"
+      },
+      {
+        "id": "option-2",
+        "label": "33/50"
+      },
+      {
+        "id": "option-3",
+        "label": "50/34"
+      },
+      {
+        "id": "option-4",
+        "label": "50/33"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "10/11 : 3/5 = 50/33.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-02b3d5e978328bcd",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t4",
+    "fingerprint": "e412f3a83bebb88a2d532af4601751de",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 16,
+      "rightNumerator": 4,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 12/16 : 4/6. Bạn An cho rằng đáp án là 72/64. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12/16 : 4/6 = 72/64.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-eba55e17a2c18af8",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t5",
+    "fingerprint": "765fd17aea10275bfa71a9cefcd76498",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 4,
+      "rightNumerator": 1,
+      "rightDenominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/4 : 1/3.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 6,
+      "denominator": 4,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/4 : 1/3 = 6/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-cf0f052df7e9d4c6",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t1",
+    "fingerprint": "0787030450bf791cdeda5370803d0a5c",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 4,
+      "rightNumerator": 1,
+      "rightDenominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/4 : 1/4.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 4,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/4 : 1/4 = 4/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-e0fc9be84b925c72",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t2",
+    "fingerprint": "a3cb9927fa6a60d7292bc689b1b7e10d",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 9,
+      "rightNumerator": 2,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/9 : 2/5.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 5,
+      "denominator": 18,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/9 : 2/5 = 5/18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-7dcbb5f658c6c0f4",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t3",
+    "fingerprint": "7f52266ec91325e53a19ab1f60df84be",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 14,
+      "rightNumerator": 3,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 11/14 : 3/6.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "42/66"
+      },
+      {
+        "id": "option-2",
+        "label": "67/42"
+      },
+      {
+        "id": "option-3",
+        "label": "66/42"
+      },
+      {
+        "id": "option-4",
+        "label": "66/43"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "11/14 : 3/6 = 66/42.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-401eb430984f44a4",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t4",
+    "fingerprint": "75e08f4bc56ae38783c6371cfc30f66c",
+    "generatorParams": {
+      "numerator": 13,
+      "denominator": 19,
+      "rightNumerator": 4,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 13/19 : 4/7. Bạn An cho rằng đáp án là 76/91. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "13/19 : 4/7 = 91/76.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-150ad7837ce9c2ca",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t5",
+    "fingerprint": "13bbe00602242d8fb7d5a769b1f35aa6",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 7,
+      "rightNumerator": 1,
+      "rightDenominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/7 : 1/4.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 12,
+      "denominator": 7,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/7 : 1/4 = 12/7.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-380053ad7ba3c00f",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t1",
+    "fingerprint": "707c1af6062609a519a8f3314ffc8411",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 7,
+      "rightNumerator": 1,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/7 : 1/5.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 10,
+      "denominator": 7,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/7 : 1/5 = 10/7.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-9b860c17cd7f6feb",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t2",
+    "fingerprint": "dc57d6fdb41afa1135da5c4f8c40a3ab",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 12,
+      "rightNumerator": 2,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 10/12 : 2/6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 60,
+      "denominator": 24,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "10/12 : 2/6 = 60/24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-8eb8aadb039efb57",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t3",
+    "fingerprint": "eddc9aa2e00890bd68831c0af251c3c3",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 17,
+      "rightNumerator": 3,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 12/17 : 3/7.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "84/51"
+      },
+      {
+        "id": "option-2",
+        "label": "51/84"
+      },
+      {
+        "id": "option-3",
+        "label": "85/51"
+      },
+      {
+        "id": "option-4",
+        "label": "84/52"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12/17 : 3/7 = 84/51.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-c8b1f7917fefbfee",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t4",
+    "fingerprint": "b6c3d5b9e98ccb153fc58f5a15bae954",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 5,
+      "rightNumerator": 4,
+      "rightDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/5 : 4/8. Bạn An cho rằng đáp án là 16/20. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/5 : 4/8 = 16/20.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-197b37a2db1e2a1f",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t5",
+    "fingerprint": "f55231a9d416929812623e5155187c79",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 10,
+      "rightNumerator": 1,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7/10 : 1/5.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 35,
+      "denominator": 10,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7/10 : 1/5 = 35/10.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-8990cb4da4f561c3",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t1",
+    "fingerprint": "3b6b2ba2228c7af1ffd45f2ed7cf2ddb",
+    "generatorParams": {
+      "numerator": 9,
+      "denominator": 10,
+      "rightNumerator": 1,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 9/10 : 1/6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 54,
+      "denominator": 10,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9/10 : 1/6 = 54/10.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-5ba9c9066867a957",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t2",
+    "fingerprint": "246b15a60d6b984ee2eedfec7d761db1",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 15,
+      "rightNumerator": 2,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 11/15 : 2/7.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 77,
+      "denominator": 30,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "11/15 : 2/7 = 77/30.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-8777b6da60e58e3b",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t3",
+    "fingerprint": "0dbf769382b4df2cd0457856137b388e",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 3,
+      "rightNumerator": 3,
+      "rightDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/3 : 3/8.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "8/10"
+      },
+      {
+        "id": "option-2",
+        "label": "9/9"
+      },
+      {
+        "id": "option-3",
+        "label": "8/9"
+      },
+      {
+        "id": "option-4",
+        "label": "9/8"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/3 : 3/8 = 8/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-941c0b4d7185962b",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t4",
+    "fingerprint": "eee23c12b3ac5cee67e9ce32ffec3cb7",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 8,
+      "rightNumerator": 4,
+      "rightDenominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/8 : 4/9. Bạn An cho rằng đáp án là 32/9. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/8 : 4/9 = 9/32.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-c3269ca027818bbe",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t5",
+    "fingerprint": "6e4e5179b59d6782ac4b7554150759a6",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 13,
+      "rightNumerator": 1,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/13 : 1/6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 30,
+      "denominator": 13,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/13 : 1/6 = 30/13.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-f0e981ab3540a769",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t1",
+    "fingerprint": "61f004a886dc0736b9bbaa56e3e3efb5",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 13,
+      "rightNumerator": 1,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 10/13 : 1/7.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 70,
+      "denominator": 13,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "10/13 : 1/7 = 70/13.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-34fa00e979c42fbb",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t2",
+    "fingerprint": "5b8f8a068c8de076cbd92326b86c4a78",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 18,
+      "rightNumerator": 2,
+      "rightDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 12/18 : 2/8.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 96,
+      "denominator": 36,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12/18 : 2/8 = 96/36.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-264082558410250d",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t3",
+    "fingerprint": "3ef17feb943dda61b6e6018504010698",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 6,
+      "rightNumerator": 3,
+      "rightDenominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/6 : 3/9.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "36/18"
+      },
+      {
+        "id": "option-2",
+        "label": "36/19"
+      },
+      {
+        "id": "option-3",
+        "label": "18/36"
+      },
+      {
+        "id": "option-4",
+        "label": "37/18"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/6 : 3/9 = 36/18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-4549a44885f39b9b",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t4",
+    "fingerprint": "4110a31365be2e67194c68852d2e027e",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 11,
+      "rightNumerator": 4,
+      "rightDenominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/11 : 4/10. Bạn An cho rằng đáp án là 60/44. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/11 : 4/10 = 60/44.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-99c76f83c8e44c40",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t5",
+    "fingerprint": "9c498c4b07ef582095553dd62140c88b",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 16,
+      "rightNumerator": 1,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/16 : 1/7.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 21,
+      "denominator": 16,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/16 : 1/7 = 21/16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-bff761a5c5cafc18",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t1",
+    "fingerprint": "2f2f8713ac7010db4298e7b6469ed644",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 16,
+      "rightNumerator": 1,
+      "rightDenominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 11/16 : 1/3.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 33,
+      "denominator": 16,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "11/16 : 1/3 = 33/16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-2cad07c8f0b55605",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t2",
+    "fingerprint": "303c3046f2243072a03806c230a0c6c0",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 4,
+      "rightNumerator": 2,
+      "rightDenominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/4 : 2/4.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 8,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/4 : 2/4 = 4/8.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-9a7a60d1d31f0a9e",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t3",
+    "fingerprint": "9b03c6fb5b98b3ff67de62cdf2f9a74e",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 9,
+      "rightNumerator": 3,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7/9 : 3/5.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "27/35"
+      },
+      {
+        "id": "option-2",
+        "label": "36/27"
+      },
+      {
+        "id": "option-3",
+        "label": "35/27"
+      },
+      {
+        "id": "option-4",
+        "label": "35/28"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7/9 : 3/5 = 35/27.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-df7957adb12ffaf9",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t4",
+    "fingerprint": "900c643ba89b287feebe5ccdb1bb319b",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 14,
+      "rightNumerator": 4,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/14 : 4/6. Bạn An cho rằng đáp án là 56/24. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/14 : 4/6 = 24/56.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-0b098c0249ed290a",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t5",
+    "fingerprint": "af108b327b87c4731ea3bee7cc6a539d",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 19,
+      "rightNumerator": 1,
+      "rightDenominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/19 : 1/3.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 19,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/19 : 1/3 = 3/19.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-4ce171dbe03b3453",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t1",
+    "fingerprint": "5a568969800faa9002442ab510b6c67f",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 19,
+      "rightNumerator": 1,
+      "rightDenominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 12/19 : 1/4.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 48,
+      "denominator": 19,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12/19 : 1/4 = 48/19.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-5d3da748824dbef7",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t2",
+    "fingerprint": "c2154bd29f002304286ad848869b45cd",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 7,
+      "rightNumerator": 2,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/7 : 2/5.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 10,
+      "denominator": 14,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/7 : 2/5 = 10/14.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-fff7d614b6ee34c1",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t3",
+    "fingerprint": "ebc27e17d8b93c741c739567ec1a9721",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 12,
+      "rightNumerator": 3,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/12 : 3/6.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "30/37"
+      },
+      {
+        "id": "option-2",
+        "label": "31/36"
+      },
+      {
+        "id": "option-3",
+        "label": "30/36"
+      },
+      {
+        "id": "option-4",
+        "label": "36/30"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/12 : 3/6 = 30/36.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-ee3487ef2bc77a6c",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t4",
+    "fingerprint": "6c4f7ab563bf6424b498023b570b75fc",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 17,
+      "rightNumerator": 4,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/17 : 4/7. Bạn An cho rằng đáp án là 14/68. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/17 : 4/7 = 14/68.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-30c009f1bc5e7b37",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t5",
+    "fingerprint": "86946eb850a51b3777c12ce38b96e4ae",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 5,
+      "rightNumerator": 1,
+      "rightDenominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/5 : 1/4.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 16,
+      "denominator": 5,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/5 : 1/4 = 16/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-e33b360cee0b65be",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t1",
+    "fingerprint": "e33c3684fedab419c54b13f40c8fb64b",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 5,
+      "rightNumerator": 1,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/5 : 1/5.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 5,
+      "denominator": 5,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/5 : 1/5 = 5/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-946279ea87dd5494",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t2",
+    "fingerprint": "9cc8568adeb926083ca5c667c68c6de5",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 10,
+      "rightNumerator": 2,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/10 : 2/6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 36,
+      "denominator": 20,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/10 : 2/6 = 36/20.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-1d472ea7528c06aa",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t3",
+    "fingerprint": "1a81498445ea6660be72e056f56c78c4",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 15,
+      "rightNumerator": 3,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/15 : 3/7.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "45/21"
+      },
+      {
+        "id": "option-2",
+        "label": "21/45"
+      },
+      {
+        "id": "option-3",
+        "label": "21/46"
+      },
+      {
+        "id": "option-4",
+        "label": "22/45"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/15 : 3/7 = 21/45.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-c87f3cc3f80d553d",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t4",
+    "fingerprint": "98fe32800687ae3202da60dc842b4b6f",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 3,
+      "rightNumerator": 4,
+      "rightDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/3 : 4/8. Bạn An cho rằng đáp án là 12/8. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/3 : 4/8 = 8/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-2872d38143a5156f",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t5",
+    "fingerprint": "064b6adc082bf9f8b9c29cff17545c52",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 8,
+      "rightNumerator": 1,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7/8 : 1/5.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 35,
+      "denominator": 8,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7/8 : 1/5 = 35/8.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-cc3eeede22a36d68",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t1",
+    "fingerprint": "7225c5eb531a8b4bcfe4b0b2f795335c",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 8,
+      "rightNumerator": 1,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7/8 : 1/6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 42,
+      "denominator": 8,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7/8 : 1/6 = 42/8.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-e9010ba9a742945d",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t2",
+    "fingerprint": "09a6b069412b98806c4fd9ea05dd0d6c",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 13,
+      "rightNumerator": 2,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/13 : 2/7.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 28,
+      "denominator": 26,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/13 : 2/7 = 28/26.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-6add5e49313108ad",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t3",
+    "fingerprint": "b784f377ec0c554cd9eb2bf846ba5962",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 18,
+      "rightNumerator": 3,
+      "rightDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/18 : 3/8.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "8/55"
+      },
+      {
+        "id": "option-2",
+        "label": "54/8"
+      },
+      {
+        "id": "option-3",
+        "label": "9/54"
+      },
+      {
+        "id": "option-4",
+        "label": "8/54"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/18 : 3/8 = 8/54.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-469691761e106cea",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t4",
+    "fingerprint": "c62c96f0c2a9f6d274cc754f12bd412b",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 6,
+      "rightNumerator": 4,
+      "rightDenominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/6 : 4/9. Bạn An cho rằng đáp án là 45/24. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/6 : 4/9 = 45/24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-c2011684b46a416e",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t5",
+    "fingerprint": "59dcd99193a29191a92c374d9ca0acbf",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 11,
+      "rightNumerator": 1,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/11 : 1/6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 12,
+      "denominator": 11,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/11 : 1/6 = 12/11.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-eecabb99f81472aa",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t1",
+    "fingerprint": "6973b1dc2b7534cabd86e24c53982029",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 11,
+      "rightNumerator": 1,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/11 : 1/7.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 35,
+      "denominator": 11,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/11 : 1/7 = 35/11.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-788a9982292a27a0",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t2",
+    "fingerprint": "d10f02b392d907c556f40e5f87393db9",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 16,
+      "rightNumerator": 2,
+      "rightDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/16 : 2/8.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 16,
+      "denominator": 32,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/16 : 2/8 = 16/32.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-124d2d3b4651e156",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t3",
+    "fingerprint": "a67f667168979dbd720b4965e47c43e9",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 4,
+      "rightNumerator": 3,
+      "rightDenominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/4 : 3/9.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "9/13"
+      },
+      {
+        "id": "option-2",
+        "label": "10/12"
+      },
+      {
+        "id": "option-3",
+        "label": "9/12"
+      },
+      {
+        "id": "option-4",
+        "label": "12/9"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/4 : 3/9 = 9/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-f7e1e9077aca6af2",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t4",
+    "fingerprint": "fa06876574f54197ca5be5e44362be99",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 9,
+      "rightNumerator": 4,
+      "rightDenominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5/9 : 4/10. Bạn An cho rằng đáp án là 36/50. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5/9 : 4/10 = 50/36.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-1809d0bd46229c1f",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t5",
+    "fingerprint": "bb8b76082e1cd91e5718eb00e31976b1",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 14,
+      "rightNumerator": 1,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 10/14 : 1/7.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 70,
+      "denominator": 14,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "10/14 : 1/7 = 70/14.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-091f7d9ad5926b42",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t1",
+    "fingerprint": "ce554c3057a208aece7273c291b7d2ba",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 14,
+      "rightNumerator": 1,
+      "rightDenominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/14 : 1/3.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 9,
+      "denominator": 14,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/14 : 1/3 = 9/14.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-a2cf145168b824e9",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t2",
+    "fingerprint": "4ecd1ac3aedeec9e4ffe95b67fabf77f",
+    "generatorParams": {
+      "numerator": 18,
+      "denominator": 19,
+      "rightNumerator": 2,
+      "rightDenominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 18/19 : 2/4.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 72,
+      "denominator": 38,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18/19 : 2/4 = 72/38.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-83c378c85464a0ba",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t3",
+    "fingerprint": "175a5b3ec2fbf3de3fbb8010b9186e33",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 7,
+      "rightNumerator": 3,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/7 : 3/5.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "10/21"
+      },
+      {
+        "id": "option-2",
+        "label": "11/21"
+      },
+      {
+        "id": "option-3",
+        "label": "10/22"
+      },
+      {
+        "id": "option-4",
+        "label": "21/10"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/7 : 3/5 = 10/21.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-e722f0f12d3554f5",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t4",
+    "fingerprint": "b3cefd75b311940d3c2ca22fa395d41c",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 12,
+      "rightNumerator": 4,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 11/12 : 4/6. Bạn An cho rằng đáp án là 66/48. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "11/12 : 4/6 = 66/48.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-f200fb0f03b1c347",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t5",
+    "fingerprint": "8c148da6c7ebd6b9fe5d4ffa27bb1466",
+    "generatorParams": {
+      "numerator": 8,
+      "denominator": 17,
+      "rightNumerator": 1,
+      "rightDenominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 8/17 : 1/3.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 24,
+      "denominator": 17,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8/17 : 1/3 = 24/17.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-05829f49c08b3bb0",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t1",
+    "fingerprint": "f519204ce9882800941130801e5d5a12",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 17,
+      "rightNumerator": 1,
+      "rightDenominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/17 : 1/4.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 17,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/17 : 1/4 = 4/17.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-988da220d544d648",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t2",
+    "fingerprint": "1412521d0076bedadedcf1656eb0fdf2",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 5,
+      "rightNumerator": 2,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/5 : 2/5.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 15,
+      "denominator": 10,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/5 : 2/5 = 15/10.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-0822dc3bfdb02b5d",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t3",
+    "fingerprint": "f60ab858577db195f5e08ffeadc61ed3",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 10,
+      "rightNumerator": 3,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/10 : 3/6.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "30/18"
+      },
+      {
+        "id": "option-2",
+        "label": "19/30"
+      },
+      {
+        "id": "option-3",
+        "label": "18/30"
+      },
+      {
+        "id": "option-4",
+        "label": "18/31"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/10 : 3/6 = 18/30.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-15fd093b1ddcc2a3",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t4",
+    "fingerprint": "25bffea15ead8f7e381e813b0642d895",
+    "generatorParams": {
+      "numerator": 9,
+      "denominator": 15,
+      "rightNumerator": 4,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 9/15 : 4/7. Bạn An cho rằng đáp án là 60/63. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9/15 : 4/7 = 63/60.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-83ad8f68b14577ed",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t5",
+    "fingerprint": "6e18c1d7571b89f2eaaee46c1653f98d",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 3,
+      "rightNumerator": 1,
+      "rightDenominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/3 : 1/4.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 4,
+      "denominator": 3,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/3 : 1/4 = 4/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-c8e229b75caccf9e",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t1",
+    "fingerprint": "711666dd637d624a74b03d1f5799ba55",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 3,
+      "rightNumerator": 1,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/3 : 1/5.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 10,
+      "denominator": 3,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/3 : 1/5 = 10/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-65c35902a3751657",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t2",
+    "fingerprint": "e07ae2292fd583479b84ebc0392f9074",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 8,
+      "rightNumerator": 2,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/8 : 2/6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 36,
+      "denominator": 16,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/8 : 2/6 = 36/16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-66bb09b8e99805ba",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t3",
+    "fingerprint": "dda0b2619b6155c8f6bac171f1bd56f2",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 13,
+      "rightNumerator": 3,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 10/13 : 3/7.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "70/40"
+      },
+      {
+        "id": "option-2",
+        "label": "71/39"
+      },
+      {
+        "id": "option-3",
+        "label": "70/39"
+      },
+      {
+        "id": "option-4",
+        "label": "39/70"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "10/13 : 3/7 = 70/39.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-6c0ebc8a605ec34d",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t4",
+    "fingerprint": "b7409865a8d4e7b4ea4c30b6a60a1a02",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 18,
+      "rightNumerator": 4,
+      "rightDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7/18 : 4/8. Bạn An cho rằng đáp án là 56/72. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7/18 : 4/8 = 56/72.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-cef6510a67f57ea8",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t5",
+    "fingerprint": "7c865083332701ee4c9debdbf8995fa9",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 6,
+      "rightNumerator": 1,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/6 : 1/5.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 5,
+      "denominator": 6,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/6 : 1/5 = 5/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-31d1025825ef1349",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t1",
+    "fingerprint": "28c6c54e90e5a047888082880c8fb456",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 6,
+      "rightNumerator": 1,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/6 : 1/6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 24,
+      "denominator": 6,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/6 : 1/6 = 24/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-7bd8c26bd789a13d",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t2",
+    "fingerprint": "fa49605d012a90761974712bb570d3e5",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 11,
+      "rightNumerator": 2,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/11 : 2/7.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 7,
+      "denominator": 22,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/11 : 2/7 = 7/22.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-3fe24a3a69727519",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t3",
+    "fingerprint": "097b0fcf7c232bb4ff2fb9da2e738baf",
+    "generatorParams": {
+      "numerator": 8,
+      "denominator": 16,
+      "rightNumerator": 3,
+      "rightDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 8/16 : 3/8.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "64/49"
+      },
+      {
+        "id": "option-2",
+        "label": "64/48"
+      },
+      {
+        "id": "option-3",
+        "label": "48/64"
+      },
+      {
+        "id": "option-4",
+        "label": "65/48"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8/16 : 3/8 = 64/48.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-676395d779bac7b7",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t4",
+    "fingerprint": "a729a45ba8406a7c6e3df99c6f19a15c",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 4,
+      "rightNumerator": 4,
+      "rightDenominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/4 : 4/9. Bạn An cho rằng đáp án là 16/9. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/4 : 4/9 = 9/16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-2bc6d077d782c9c5",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t5",
+    "fingerprint": "967a46753660dbfd1e3432d927b3168a",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 9,
+      "rightNumerator": 1,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3/9 : 1/6.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 18,
+      "denominator": 9,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3/9 : 1/6 = 18/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-9e8997cdda381adc",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t1",
+    "fingerprint": "e542e93c18d518ec17ab4f58945bd4df",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 9,
+      "rightNumerator": 1,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4/9 : 1/7.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 28,
+      "denominator": 9,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4/9 : 1/7 = 28/9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-dc8f258b773e8d5a",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t2",
+    "fingerprint": "81192b186746e94f7f3c5a08fe027ee1",
+    "generatorParams": {
+      "numerator": 9,
+      "denominator": 14,
+      "rightNumerator": 2,
+      "rightDenominator": 8
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 9/14 : 2/8.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 72,
+      "denominator": 28,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9/14 : 2/8 = 72/28.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-7252082abbc5523b",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t3",
+    "fingerprint": "0b3b5c938d08995b2d338849097fa539",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 19,
+      "rightNumerator": 3,
+      "rightDenominator": 9
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/19 : 3/9.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "55/57"
+      },
+      {
+        "id": "option-2",
+        "label": "54/57"
+      },
+      {
+        "id": "option-3",
+        "label": "54/58"
+      },
+      {
+        "id": "option-4",
+        "label": "57/54"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/19 : 3/9 = 54/57.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-7615cb3d94532c0d",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t4",
+    "fingerprint": "7c34a10e5852eeadda12034c5c9bc563",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 7,
+      "rightNumerator": 4,
+      "rightDenominator": 10
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2/7 : 4/10. Bạn An cho rằng đáp án là 20/28. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2/7 : 4/10 = 20/28.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-0b7f9ae6712843cf",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t5",
+    "fingerprint": "c33ba2a178ae15d607bc366ec73c82c0",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 12,
+      "rightNumerator": 1,
+      "rightDenominator": 7
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6/12 : 1/7.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 42,
+      "denominator": 12,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6/12 : 1/7 = 42/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-4b3a5b2bfe1b7396",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t1",
+    "fingerprint": "55b9ac84686ae16fef1b6cdbc1b5b1ef",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 12,
+      "rightNumerator": 1,
+      "rightDenominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 10/12 : 1/3.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 30,
+      "denominator": 12,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "10/12 : 1/3 = 30/12.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-16ff3e09858d8a25",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t2",
+    "fingerprint": "b9dd0cb55957ca942012950716e77701",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 17,
+      "rightNumerator": 2,
+      "rightDenominator": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7/17 : 2/4.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 28,
+      "denominator": 34,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7/17 : 2/4 = 28/34.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-32810c7d8b0f43a0",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t3",
+    "fingerprint": "39b33301693b6e2f33cd77135eefd66c",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 5,
+      "rightNumerator": 3,
+      "rightDenominator": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/5 : 3/5.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "15/5"
+      },
+      {
+        "id": "option-2",
+        "label": "6/15"
+      },
+      {
+        "id": "option-3",
+        "label": "5/15"
+      },
+      {
+        "id": "option-4",
+        "label": "5/16"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/5 : 3/5 = 5/15.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-d27088905793ff33",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t4",
+    "fingerprint": "55c249cdf09357af495e5c376fbe2a6a",
+    "generatorParams": {
+      "numerator": 9,
+      "denominator": 10,
+      "rightNumerator": 4,
+      "rightDenominator": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 9/10 : 4/6. Bạn An cho rằng đáp án là 40/54. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9/10 : 4/6 = 54/40.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-divide-fractions-2cea708047fb20f3",
+    "contentVersion": "grade4-v3",
+    "templateId": "divide-fractions-t5",
+    "fingerprint": "157c96ccda042bec5212755d30f9436e",
+    "generatorParams": {
+      "numerator": 1,
+      "denominator": 15,
+      "rightNumerator": 1,
+      "rightDenominator": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "divide-fractions-skill",
+    "problemTypeId": "divide-fractions",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1/15 : 1/3.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 3,
+      "denominator": 15,
+      "requireExactForm": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định tử số, mẫu số và phép toán được hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Nhân phân số thứ nhất với phân số đảo ngược của phân số thứ hai."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại bằng tính chất phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1/15 : 1/3 = 3/15.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

@@ -1,0 +1,6862 @@
+[
+  {
+    "id": "g4-division-remainder-8d4180140fc690cd",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t1",
+    "fingerprint": "8ae958138667eec33463b18bffb804ed",
+    "generatorParams": {
+      "dividend": 55,
+      "divisor": 4,
+      "quotient": 13,
+      "remainder": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "55 chia cho 4 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "55 = 4 × 13 + 3; 3 < 4 nên số dư là 3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-490f5212ec628363",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t2",
+    "fingerprint": "65eb27ea5a7039ae889b016cadda64b9",
+    "generatorParams": {
+      "dividend": 74,
+      "divisor": 5,
+      "quotient": 14,
+      "remainder": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "74 chia cho 5 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 4
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "74 = 5 × 14 + 4; 4 < 5 nên số dư là 4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-3c67392c843eb1e5",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t3",
+    "fingerprint": "0aa4c4d936aaf77467a0ec0499ae525f",
+    "generatorParams": {
+      "dividend": 95,
+      "divisor": 6,
+      "quotient": 15,
+      "remainder": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "95 chia cho 6 có số dư là bao nhiêu?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "7"
+      },
+      {
+        "id": "option-2",
+        "label": "6"
+      },
+      {
+        "id": "option-3",
+        "label": "5"
+      },
+      {
+        "id": "option-4",
+        "label": "4"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "95 = 6 × 15 + 5; 5 < 6 nên số dư là 5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-fb40451be7f44c2d",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t4",
+    "fingerprint": "a2fb94e0289c56c690ac9db5818cf121",
+    "generatorParams": {
+      "dividend": 118,
+      "divisor": 7,
+      "quotient": 16,
+      "remainder": 6
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "118 chia cho 7 có số dư là bao nhiêu? Bạn An cho rằng đáp án là 6. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "118 = 7 × 16 + 6; 6 < 7 nên số dư là 6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-2d2f8070f6317e2b",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t5",
+    "fingerprint": "4f0f94c57f91409ff123496a7f62fcfc",
+    "generatorParams": {
+      "dividend": 143,
+      "divisor": 8,
+      "quotient": 17,
+      "remainder": 7
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "143 chia cho 8 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 7
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "143 = 8 × 17 + 7; 7 < 8 nên số dư là 7.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-f26ababc5f7befdf",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t1",
+    "fingerprint": "381a6162cbfe90d5f58008dcda04376b",
+    "generatorParams": {
+      "dividend": 71,
+      "divisor": 5,
+      "quotient": 14,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "71 chia cho 5 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "71 = 5 × 14 + 1; 1 < 5 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-0f53a242bb755c2a",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t2",
+    "fingerprint": "d3e1746f0d45f514a8cacf0e1838b621",
+    "generatorParams": {
+      "dividend": 91,
+      "divisor": 6,
+      "quotient": 15,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "91 chia cho 6 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "91 = 6 × 15 + 1; 1 < 6 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-030691a7fca1a3ac",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t3",
+    "fingerprint": "fcdf2e0ecf8616a6b3cafcc4d2209fc2",
+    "generatorParams": {
+      "dividend": 113,
+      "divisor": 7,
+      "quotient": 16,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "113 chia cho 7 có số dư là bao nhiêu?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2"
+      },
+      {
+        "id": "option-2",
+        "label": "3"
+      },
+      {
+        "id": "option-3",
+        "label": "0"
+      },
+      {
+        "id": "option-4",
+        "label": "1"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "113 = 7 × 16 + 1; 1 < 7 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-9ebca3615e68f8ad",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t4",
+    "fingerprint": "28dff28c90057edad166cd3a4b41498f",
+    "generatorParams": {
+      "dividend": 137,
+      "divisor": 8,
+      "quotient": 17,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "137 chia cho 8 có số dư là bao nhiêu? Bạn An cho rằng đáp án là 2. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "137 = 8 × 17 + 1; 1 < 8 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-33b381041d2ad401",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t5",
+    "fingerprint": "04b3056cde83773ed614f0ab58b7b6e7",
+    "generatorParams": {
+      "dividend": 163,
+      "divisor": 9,
+      "quotient": 18,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "163 chia cho 9 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "163 = 9 × 18 + 1; 1 < 9 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-3991a8c0dfb60859",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t1",
+    "fingerprint": "2d389f888f85dea2e7683f67cdb6e813",
+    "generatorParams": {
+      "dividend": 92,
+      "divisor": 6,
+      "quotient": 15,
+      "remainder": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "92 chia cho 6 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "92 = 6 × 15 + 2; 2 < 6 nên số dư là 2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-47320fb061d1a8a8",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t2",
+    "fingerprint": "00115d3f2ac755f7214b490fae9fa7b4",
+    "generatorParams": {
+      "dividend": 114,
+      "divisor": 7,
+      "quotient": 16,
+      "remainder": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "114 chia cho 7 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "114 = 7 × 16 + 2; 2 < 7 nên số dư là 2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-22560cf9b4182880",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t3",
+    "fingerprint": "e3a336a9a28b0630060356ce9cf75e83",
+    "generatorParams": {
+      "dividend": 138,
+      "divisor": 8,
+      "quotient": 17,
+      "remainder": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "138 chia cho 8 có số dư là bao nhiêu?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3"
+      },
+      {
+        "id": "option-2",
+        "label": "1"
+      },
+      {
+        "id": "option-3",
+        "label": "2"
+      },
+      {
+        "id": "option-4",
+        "label": "4"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "138 = 8 × 17 + 2; 2 < 8 nên số dư là 2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-8d2cff459a83eb23",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t4",
+    "fingerprint": "b98f3b88656150eee2e7baaf1c634f74",
+    "generatorParams": {
+      "dividend": 164,
+      "divisor": 9,
+      "quotient": 18,
+      "remainder": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "164 chia cho 9 có số dư là bao nhiêu? Bạn An cho rằng đáp án là 2. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "164 = 9 × 18 + 2; 2 < 9 nên số dư là 2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-1a74645bb49ca7ff",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t5",
+    "fingerprint": "5310cacd5e271add088cc3159293a666",
+    "generatorParams": {
+      "dividend": 192,
+      "divisor": 10,
+      "quotient": 19,
+      "remainder": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "192 chia cho 10 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "192 = 10 × 19 + 2; 2 < 10 nên số dư là 2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-50b71dbd0ecb888f",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t1",
+    "fingerprint": "13bb55866f86c6e20271a3f7a81da0f0",
+    "generatorParams": {
+      "dividend": 115,
+      "divisor": 7,
+      "quotient": 16,
+      "remainder": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "115 chia cho 7 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "115 = 7 × 16 + 3; 3 < 7 nên số dư là 3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-4b83e64aea6683eb",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t2",
+    "fingerprint": "891898f9e1a4017a55bdd9ca7c5696f4",
+    "generatorParams": {
+      "dividend": 139,
+      "divisor": 8,
+      "quotient": 17,
+      "remainder": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "139 chia cho 8 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "139 = 8 × 17 + 3; 3 < 8 nên số dư là 3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-904bb15f5adfc1a3",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t3",
+    "fingerprint": "049d41159265226463cb350cc7ae0f97",
+    "generatorParams": {
+      "dividend": 165,
+      "divisor": 9,
+      "quotient": 18,
+      "remainder": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "165 chia cho 9 có số dư là bao nhiêu?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3"
+      },
+      {
+        "id": "option-2",
+        "label": "5"
+      },
+      {
+        "id": "option-3",
+        "label": "4"
+      },
+      {
+        "id": "option-4",
+        "label": "2"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "165 = 9 × 18 + 3; 3 < 9 nên số dư là 3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-7415ae7d560b4101",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t4",
+    "fingerprint": "58131810b6d8a12e4ffa2aed11ccf657",
+    "generatorParams": {
+      "dividend": 193,
+      "divisor": 10,
+      "quotient": 19,
+      "remainder": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "193 chia cho 10 có số dư là bao nhiêu? Bạn An cho rằng đáp án là 4. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "193 = 10 × 19 + 3; 3 < 10 nên số dư là 3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-c8778717ef025707",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t5",
+    "fingerprint": "3503ba279d62b6cebe736c528970fa34",
+    "generatorParams": {
+      "dividend": 61,
+      "divisor": 3,
+      "quotient": 20,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "61 chia cho 3 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "61 = 3 × 20 + 1; 1 < 3 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-e0b8ac062ffb71d4",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t1",
+    "fingerprint": "bacc69461af29ebbd65fbef41824383d",
+    "generatorParams": {
+      "dividend": 140,
+      "divisor": 8,
+      "quotient": 17,
+      "remainder": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "140 chia cho 8 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 4
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "140 = 8 × 17 + 4; 4 < 8 nên số dư là 4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-9369f815015483f5",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t2",
+    "fingerprint": "23ca7b0ac0335198f46f0dfe18d0334a",
+    "generatorParams": {
+      "dividend": 166,
+      "divisor": 9,
+      "quotient": 18,
+      "remainder": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "166 chia cho 9 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 4
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "166 = 9 × 18 + 4; 4 < 9 nên số dư là 4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-3167973e96546ec7",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t3",
+    "fingerprint": "593bcf2d70ee3e105e9afacb7b4b185a",
+    "generatorParams": {
+      "dividend": 194,
+      "divisor": 10,
+      "quotient": 19,
+      "remainder": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "194 chia cho 10 có số dư là bao nhiêu?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3"
+      },
+      {
+        "id": "option-2",
+        "label": "5"
+      },
+      {
+        "id": "option-3",
+        "label": "4"
+      },
+      {
+        "id": "option-4",
+        "label": "6"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "194 = 10 × 19 + 4; 4 < 10 nên số dư là 4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-00fa461c841fda02",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t4",
+    "fingerprint": "eda1e45472a3889df3d80fb978140f5e",
+    "generatorParams": {
+      "dividend": 62,
+      "divisor": 3,
+      "quotient": 20,
+      "remainder": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "62 chia cho 3 có số dư là bao nhiêu? Bạn An cho rằng đáp án là 2. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "62 = 3 × 20 + 2; 2 < 3 nên số dư là 2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-f74fe2aef3c2e516",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t5",
+    "fingerprint": "90a492a283aa6970d16a89bfdb43c0b9",
+    "generatorParams": {
+      "dividend": 87,
+      "divisor": 4,
+      "quotient": 21,
+      "remainder": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "87 chia cho 4 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "87 = 4 × 21 + 3; 3 < 4 nên số dư là 3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-6602bc2def562dfd",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t1",
+    "fingerprint": "b18e09efe4e5657c886fc135f9e42b1a",
+    "generatorParams": {
+      "dividend": 221,
+      "divisor": 9,
+      "quotient": 24,
+      "remainder": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "221 chia cho 9 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 5
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "221 = 9 × 24 + 5; 5 < 9 nên số dư là 5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-07f035fb82affeaf",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t2",
+    "fingerprint": "423261ec6f02e5ab10ef961e3238f60e",
+    "generatorParams": {
+      "dividend": 255,
+      "divisor": 10,
+      "quotient": 25,
+      "remainder": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "255 chia cho 10 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 5
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "255 = 10 × 25 + 5; 5 < 10 nên số dư là 5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-def027d4580b6d92",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t3",
+    "fingerprint": "0cff9f11c4954e141b35b5df6dd08578",
+    "generatorParams": {
+      "dividend": 79,
+      "divisor": 3,
+      "quotient": 26,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "79 chia cho 3 có số dư là bao nhiêu?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3"
+      },
+      {
+        "id": "option-2",
+        "label": "2"
+      },
+      {
+        "id": "option-3",
+        "label": "0"
+      },
+      {
+        "id": "option-4",
+        "label": "1"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "79 = 3 × 26 + 1; 1 < 3 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-46329324c74d9cf5",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t4",
+    "fingerprint": "741c167316b25909b66c41c6f559bc4e",
+    "generatorParams": {
+      "dividend": 109,
+      "divisor": 4,
+      "quotient": 27,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "109 chia cho 4 có số dư là bao nhiêu? Bạn An cho rằng đáp án là 2. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "109 = 4 × 27 + 1; 1 < 4 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-50b1d56aeb7dfbc3",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t5",
+    "fingerprint": "4d63666b0387207824c05c990743400a",
+    "generatorParams": {
+      "dividend": 141,
+      "divisor": 5,
+      "quotient": 28,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "141 chia cho 5 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "141 = 5 × 28 + 1; 1 < 5 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-ffca570f498976a1",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t1",
+    "fingerprint": "f63ad3b7362ca07994fe0f1811156e43",
+    "generatorParams": {
+      "dividend": 266,
+      "divisor": 10,
+      "quotient": 26,
+      "remainder": 6
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "266 chia cho 10 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 6
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "266 = 10 × 26 + 6; 6 < 10 nên số dư là 6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-09a87dc944604f99",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t2",
+    "fingerprint": "86e4e3c3ab475c73680149b5c512686f",
+    "generatorParams": {
+      "dividend": 83,
+      "divisor": 3,
+      "quotient": 27,
+      "remainder": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "83 chia cho 3 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "83 = 3 × 27 + 2; 2 < 3 nên số dư là 2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-c5720b3865fc1fa0",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t3",
+    "fingerprint": "c98b3a5d0f7cb20aa2d5dc5e453552fa",
+    "generatorParams": {
+      "dividend": 114,
+      "divisor": 4,
+      "quotient": 28,
+      "remainder": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "114 chia cho 4 có số dư là bao nhiêu?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2"
+      },
+      {
+        "id": "option-2",
+        "label": "1"
+      },
+      {
+        "id": "option-3",
+        "label": "4"
+      },
+      {
+        "id": "option-4",
+        "label": "3"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "114 = 4 × 28 + 2; 2 < 4 nên số dư là 2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-7aaa647379a1aa4e",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t4",
+    "fingerprint": "a11d083118fe8d56a819302d518f9a03",
+    "generatorParams": {
+      "dividend": 147,
+      "divisor": 5,
+      "quotient": 29,
+      "remainder": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "147 chia cho 5 có số dư là bao nhiêu? Bạn An cho rằng đáp án là 2. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "147 = 5 × 29 + 2; 2 < 5 nên số dư là 2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-3dc5aa4e14fbb1d1",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t5",
+    "fingerprint": "0b458715ceef5032969f2a0502dee0db",
+    "generatorParams": {
+      "dividend": 184,
+      "divisor": 6,
+      "quotient": 30,
+      "remainder": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "184 chia cho 6 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 4
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "184 = 6 × 30 + 4; 4 < 6 nên số dư là 4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-1d2a31c3a7447976",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t1",
+    "fingerprint": "286f40cc4cc3f8f53bfa21b9f0678d8b",
+    "generatorParams": {
+      "dividend": 85,
+      "divisor": 3,
+      "quotient": 28,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "85 chia cho 3 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "85 = 3 × 28 + 1; 1 < 3 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-023d4125b2456e2f",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t2",
+    "fingerprint": "9f9d680a4bae83c3dff3e20b9cfcaedc",
+    "generatorParams": {
+      "dividend": 119,
+      "divisor": 4,
+      "quotient": 29,
+      "remainder": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "119 chia cho 4 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "119 = 4 × 29 + 3; 3 < 4 nên số dư là 3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-734a18a788f42f69",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t3",
+    "fingerprint": "87ba30bda9ef3f3351e4dd595f4e15f8",
+    "generatorParams": {
+      "dividend": 153,
+      "divisor": 5,
+      "quotient": 30,
+      "remainder": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "153 chia cho 5 có số dư là bao nhiêu?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "5"
+      },
+      {
+        "id": "option-2",
+        "label": "2"
+      },
+      {
+        "id": "option-3",
+        "label": "4"
+      },
+      {
+        "id": "option-4",
+        "label": "3"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "153 = 5 × 30 + 3; 3 < 5 nên số dư là 3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-b9f20951a21e5db7",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t4",
+    "fingerprint": "7c16d6109254c232c39176994fd3a9ac",
+    "generatorParams": {
+      "dividend": 191,
+      "divisor": 6,
+      "quotient": 31,
+      "remainder": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "191 chia cho 6 có số dư là bao nhiêu? Bạn An cho rằng đáp án là 6. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "191 = 6 × 31 + 5; 5 < 6 nên số dư là 5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-d7df714ffe97fb4d",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t5",
+    "fingerprint": "98e2032a97310bcbe6be030b70094af5",
+    "generatorParams": {
+      "dividend": 227,
+      "divisor": 7,
+      "quotient": 32,
+      "remainder": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "227 chia cho 7 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "227 = 7 × 32 + 3; 3 < 7 nên số dư là 3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-0ca138e74b59c847",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t1",
+    "fingerprint": "5a7b95547cae5a688f5ee4c080e9909d",
+    "generatorParams": {
+      "dividend": 121,
+      "divisor": 4,
+      "quotient": 30,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "121 chia cho 4 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "121 = 4 × 30 + 1; 1 < 4 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-2952ba45bc8f2beb",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t2",
+    "fingerprint": "4ed4403127c9549657059d1256d9cf08",
+    "generatorParams": {
+      "dividend": 159,
+      "divisor": 5,
+      "quotient": 31,
+      "remainder": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "159 chia cho 5 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 4
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "159 = 5 × 31 + 4; 4 < 5 nên số dư là 4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-b0f26696379216e7",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t3",
+    "fingerprint": "5b15c11e42c1c410b15b5b90d419cd90",
+    "generatorParams": {
+      "dividend": 193,
+      "divisor": 6,
+      "quotient": 32,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "193 chia cho 6 có số dư là bao nhiêu?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1"
+      },
+      {
+        "id": "option-2",
+        "label": "2"
+      },
+      {
+        "id": "option-3",
+        "label": "0"
+      },
+      {
+        "id": "option-4",
+        "label": "3"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "193 = 6 × 32 + 1; 1 < 6 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-175ecc5f53cd5e41",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t4",
+    "fingerprint": "89c6c3fba8d9336e413676cf60e3646a",
+    "generatorParams": {
+      "dividend": 235,
+      "divisor": 7,
+      "quotient": 33,
+      "remainder": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "235 chia cho 7 có số dư là bao nhiêu? Bạn An cho rằng đáp án là 4. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "235 = 7 × 33 + 4; 4 < 7 nên số dư là 4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-8eb7470fb07c1a26",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t5",
+    "fingerprint": "1796cebb80e568dbab80f394f60ca7a4",
+    "generatorParams": {
+      "dividend": 274,
+      "divisor": 8,
+      "quotient": 34,
+      "remainder": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "274 chia cho 8 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "274 = 8 × 34 + 2; 2 < 8 nên số dư là 2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-a04adca27fb876ab",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t1",
+    "fingerprint": "edccd72ff096906b01a480dcfc5fced6",
+    "generatorParams": {
+      "dividend": 161,
+      "divisor": 5,
+      "quotient": 32,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "161 chia cho 5 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "161 = 5 × 32 + 1; 1 < 5 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-5c8d5ee500c05003",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t2",
+    "fingerprint": "5062dfbfcc954db8f269e51a718a0d45",
+    "generatorParams": {
+      "dividend": 200,
+      "divisor": 6,
+      "quotient": 33,
+      "remainder": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "200 chia cho 6 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "200 = 6 × 33 + 2; 2 < 6 nên số dư là 2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-b5ac5c4f104368d6",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t3",
+    "fingerprint": "aaf6dbbb9a61f46b223c01b3b2e89f8c",
+    "generatorParams": {
+      "dividend": 243,
+      "divisor": 7,
+      "quotient": 34,
+      "remainder": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "243 chia cho 7 có số dư là bao nhiêu?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "7"
+      },
+      {
+        "id": "option-2",
+        "label": "6"
+      },
+      {
+        "id": "option-3",
+        "label": "5"
+      },
+      {
+        "id": "option-4",
+        "label": "4"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "243 = 7 × 34 + 5; 5 < 7 nên số dư là 5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-e8be83c325658e6c",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t4",
+    "fingerprint": "0a590c88d42438649a60857850cf9fd9",
+    "generatorParams": {
+      "dividend": 283,
+      "divisor": 8,
+      "quotient": 35,
+      "remainder": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "283 chia cho 8 có số dư là bao nhiêu? Bạn An cho rằng đáp án là 4. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "283 = 8 × 35 + 3; 3 < 8 nên số dư là 3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-e3af7b8f055f812e",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t5",
+    "fingerprint": "fa4359ca31047cb91f3b66af563a510d",
+    "generatorParams": {
+      "dividend": 325,
+      "divisor": 9,
+      "quotient": 36,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "325 chia cho 9 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "325 = 9 × 36 + 1; 1 < 9 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-15b971ae86a7dbd6",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t1",
+    "fingerprint": "c04904b3f35fa6ce12bbae7e2a69327c",
+    "generatorParams": {
+      "dividend": 207,
+      "divisor": 6,
+      "quotient": 34,
+      "remainder": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "207 chia cho 6 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "207 = 6 × 34 + 3; 3 < 6 nên số dư là 3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-aa3061b2d8333a84",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t2",
+    "fingerprint": "b344ce9bc6046363c057a108362cecfe",
+    "generatorParams": {
+      "dividend": 251,
+      "divisor": 7,
+      "quotient": 35,
+      "remainder": 6
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "251 chia cho 7 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 6
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "251 = 7 × 35 + 6; 6 < 7 nên số dư là 6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-20d0fe5ffb6ed48d",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t3",
+    "fingerprint": "db05c34ab54436136307b2334ac948ed",
+    "generatorParams": {
+      "dividend": 292,
+      "divisor": 8,
+      "quotient": 36,
+      "remainder": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "292 chia cho 8 có số dư là bao nhiêu?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3"
+      },
+      {
+        "id": "option-2",
+        "label": "4"
+      },
+      {
+        "id": "option-3",
+        "label": "6"
+      },
+      {
+        "id": "option-4",
+        "label": "5"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "292 = 8 × 36 + 4; 4 < 8 nên số dư là 4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-a8f3312173d0da10",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t4",
+    "fingerprint": "cafec6864d7511bd01f97d50d3b7bcbc",
+    "generatorParams": {
+      "dividend": 335,
+      "divisor": 9,
+      "quotient": 37,
+      "remainder": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "335 chia cho 9 có số dư là bao nhiêu? Bạn An cho rằng đáp án là 2. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "335 = 9 × 37 + 2; 2 < 9 nên số dư là 2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-c7fafc3dbb8bc8a8",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t5",
+    "fingerprint": "d33158e3990b55935261b165eecfb0a6",
+    "generatorParams": {
+      "dividend": 389,
+      "divisor": 10,
+      "quotient": 38,
+      "remainder": 9
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "389 chia cho 10 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 9
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "389 = 10 × 38 + 9; 9 < 10 nên số dư là 9.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-c0c4806b39307f77",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t1",
+    "fingerprint": "5ef6c8bbd13e00a5011ca36beb607b26",
+    "generatorParams": {
+      "dividend": 253,
+      "divisor": 7,
+      "quotient": 36,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "253 chia cho 7 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "253 = 7 × 36 + 1; 1 < 7 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-7eb682b5b9602a98",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t2",
+    "fingerprint": "df1996392d3e7c26425c9c39c194ee2d",
+    "generatorParams": {
+      "dividend": 301,
+      "divisor": 8,
+      "quotient": 37,
+      "remainder": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "301 chia cho 8 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 5
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "301 = 8 × 37 + 5; 5 < 8 nên số dư là 5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-929b10abaeef1ecf",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t3",
+    "fingerprint": "6c211a50979e85f6453a98f57e388cbb",
+    "generatorParams": {
+      "dividend": 345,
+      "divisor": 9,
+      "quotient": 38,
+      "remainder": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "345 chia cho 9 có số dư là bao nhiêu?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2"
+      },
+      {
+        "id": "option-2",
+        "label": "4"
+      },
+      {
+        "id": "option-3",
+        "label": "3"
+      },
+      {
+        "id": "option-4",
+        "label": "5"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "345 = 9 × 38 + 3; 3 < 9 nên số dư là 3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-f8a6bf744d5a5f44",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t4",
+    "fingerprint": "5a679c6b2b6a707ddb798500f2dafcd4",
+    "generatorParams": {
+      "dividend": 391,
+      "divisor": 10,
+      "quotient": 39,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "391 chia cho 10 có số dư là bao nhiêu? Bạn An cho rằng đáp án là 2. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "391 = 10 × 39 + 1; 1 < 10 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-519ba875a0a207b3",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t5",
+    "fingerprint": "2103093adb3e848da4572dd6dc6f76e7",
+    "generatorParams": {
+      "dividend": 121,
+      "divisor": 3,
+      "quotient": 40,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "121 chia cho 3 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "121 = 3 × 40 + 1; 1 < 3 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-1457a28e71e81f53",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t1",
+    "fingerprint": "059b81359db967e47160838a2640851d",
+    "generatorParams": {
+      "dividend": 310,
+      "divisor": 8,
+      "quotient": 38,
+      "remainder": 6
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "310 chia cho 8 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 6
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "310 = 8 × 38 + 6; 6 < 8 nên số dư là 6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-803d28da18a74cba",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t2",
+    "fingerprint": "1bf38dffd394642f9841cdd31ed496a6",
+    "generatorParams": {
+      "dividend": 355,
+      "divisor": 9,
+      "quotient": 39,
+      "remainder": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "355 chia cho 9 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 4
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "355 = 9 × 39 + 4; 4 < 9 nên số dư là 4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-ecc6867be97f6afa",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t3",
+    "fingerprint": "37f9a718ae850a6932b9a3222c669107",
+    "generatorParams": {
+      "dividend": 402,
+      "divisor": 10,
+      "quotient": 40,
+      "remainder": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "402 chia cho 10 có số dư là bao nhiêu?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "2"
+      },
+      {
+        "id": "option-2",
+        "label": "3"
+      },
+      {
+        "id": "option-3",
+        "label": "4"
+      },
+      {
+        "id": "option-4",
+        "label": "1"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "402 = 10 × 40 + 2; 2 < 10 nên số dư là 2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-3ef15668a6739b7d",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t4",
+    "fingerprint": "b2c6d06d8b2e44880a62eb8cacf77ecd",
+    "generatorParams": {
+      "dividend": 125,
+      "divisor": 3,
+      "quotient": 41,
+      "remainder": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "125 chia cho 3 có số dư là bao nhiêu? Bạn An cho rằng đáp án là 2. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "125 = 3 × 41 + 2; 2 < 3 nên số dư là 2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-c46b8de35d29cfdb",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t5",
+    "fingerprint": "9971be169817ddba2a8e478681278ec6",
+    "generatorParams": {
+      "dividend": 169,
+      "divisor": 4,
+      "quotient": 42,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "169 chia cho 4 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "169 = 4 × 42 + 1; 1 < 4 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-385e689a4f6bf6dd",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t1",
+    "fingerprint": "c74b4c81a249a68663d77acddc4024db",
+    "generatorParams": {
+      "dividend": 365,
+      "divisor": 9,
+      "quotient": 40,
+      "remainder": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "365 chia cho 9 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 5
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "365 = 9 × 40 + 5; 5 < 9 nên số dư là 5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-280ad222c1dbd8d9",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t2",
+    "fingerprint": "f95de3f9cfc5f881c0bf0db0f8391610",
+    "generatorParams": {
+      "dividend": 413,
+      "divisor": 10,
+      "quotient": 41,
+      "remainder": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "413 chia cho 10 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "413 = 10 × 41 + 3; 3 < 10 nên số dư là 3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-cd28a64c0f6a7de4",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t3",
+    "fingerprint": "1efdb2398724bb7cc297755c552f9d36",
+    "generatorParams": {
+      "dividend": 127,
+      "divisor": 3,
+      "quotient": 42,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "127 chia cho 3 có số dư là bao nhiêu?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1"
+      },
+      {
+        "id": "option-2",
+        "label": "2"
+      },
+      {
+        "id": "option-3",
+        "label": "0"
+      },
+      {
+        "id": "option-4",
+        "label": "3"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "127 = 3 × 42 + 1; 1 < 3 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-84920e94a286abe0",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t4",
+    "fingerprint": "d0512f0f6c257345b764a67477a53257",
+    "generatorParams": {
+      "dividend": 174,
+      "divisor": 4,
+      "quotient": 43,
+      "remainder": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "174 chia cho 4 có số dư là bao nhiêu? Bạn An cho rằng đáp án là 3. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "174 = 4 × 43 + 2; 2 < 4 nên số dư là 2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-9f44c5f5d918194f",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t5",
+    "fingerprint": "a5e8f4062a0a9634351c6ae137190ecd",
+    "generatorParams": {
+      "dividend": 221,
+      "divisor": 5,
+      "quotient": 44,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "221 chia cho 5 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "221 = 5 × 44 + 1; 1 < 5 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-39c58c5a81a216ec",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t1",
+    "fingerprint": "c2d71607fbb4ae73ef24b0888bb2ea91",
+    "generatorParams": {
+      "dividend": 424,
+      "divisor": 10,
+      "quotient": 42,
+      "remainder": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "424 chia cho 10 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 4
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "424 = 10 × 42 + 4; 4 < 10 nên số dư là 4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-1950f111e4337d71",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t2",
+    "fingerprint": "cc5f98466952df5165bfe5da21151a23",
+    "generatorParams": {
+      "dividend": 131,
+      "divisor": 3,
+      "quotient": 43,
+      "remainder": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "131 chia cho 3 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "131 = 3 × 43 + 2; 2 < 3 nên số dư là 2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-a4b5db49e83b7c98",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t3",
+    "fingerprint": "24fae93610fbf79cacf851c572f88b73",
+    "generatorParams": {
+      "dividend": 179,
+      "divisor": 4,
+      "quotient": 44,
+      "remainder": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "179 chia cho 4 có số dư là bao nhiêu?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3"
+      },
+      {
+        "id": "option-2",
+        "label": "2"
+      },
+      {
+        "id": "option-3",
+        "label": "4"
+      },
+      {
+        "id": "option-4",
+        "label": "5"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "179 = 4 × 44 + 3; 3 < 4 nên số dư là 3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-c0e6f9f93d1facb3",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t4",
+    "fingerprint": "7c036b278feec016edf6787a17c43dae",
+    "generatorParams": {
+      "dividend": 227,
+      "divisor": 5,
+      "quotient": 45,
+      "remainder": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "227 chia cho 5 có số dư là bao nhiêu? Bạn An cho rằng đáp án là 2. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "227 = 5 × 45 + 2; 2 < 5 nên số dư là 2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-93c51c87d26df9e2",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t5",
+    "fingerprint": "d91ee438e42f4fa4195d5af5dfe105f9",
+    "generatorParams": {
+      "dividend": 281,
+      "divisor": 6,
+      "quotient": 46,
+      "remainder": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "281 chia cho 6 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 5
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "281 = 6 × 46 + 5; 5 < 6 nên số dư là 5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-4f2f78bc30797075",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t1",
+    "fingerprint": "a2110d905801a83f2e9238a089855775",
+    "generatorParams": {
+      "dividend": 181,
+      "divisor": 3,
+      "quotient": 60,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "181 chia cho 3 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "181 = 3 × 60 + 1; 1 < 3 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-ef19afe5983ae7ca",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t2",
+    "fingerprint": "b71d924225812a5b8e0e4f04e89326a4",
+    "generatorParams": {
+      "dividend": 245,
+      "divisor": 4,
+      "quotient": 61,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "245 chia cho 4 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "245 = 4 × 61 + 1; 1 < 4 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-92e374e3af608dfb",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t3",
+    "fingerprint": "3af3856505caa1b9e5086a04091e4080",
+    "generatorParams": {
+      "dividend": 313,
+      "divisor": 5,
+      "quotient": 62,
+      "remainder": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "313 chia cho 5 có số dư là bao nhiêu?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "3"
+      },
+      {
+        "id": "option-2",
+        "label": "2"
+      },
+      {
+        "id": "option-3",
+        "label": "4"
+      },
+      {
+        "id": "option-4",
+        "label": "5"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "313 = 5 × 62 + 3; 3 < 5 nên số dư là 3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-70a0989d2cee0a35",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t4",
+    "fingerprint": "182b4a898b9f60984a8b089826af6500",
+    "generatorParams": {
+      "dividend": 379,
+      "divisor": 6,
+      "quotient": 63,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "379 chia cho 6 có số dư là bao nhiêu? Bạn An cho rằng đáp án là 2. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "379 = 6 × 63 + 1; 1 < 6 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-ca795a98ea220157",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t5",
+    "fingerprint": "02eba516a3f8c33ec0f1597478301d6d",
+    "generatorParams": {
+      "dividend": 449,
+      "divisor": 7,
+      "quotient": 64,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "449 chia cho 7 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "449 = 7 × 64 + 1; 1 < 7 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-0c3d9216e72706ac",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t1",
+    "fingerprint": "87f43fd749a0c2c65a4f5f844ac96321",
+    "generatorParams": {
+      "dividend": 254,
+      "divisor": 4,
+      "quotient": 63,
+      "remainder": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "254 chia cho 4 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "254 = 4 × 63 + 2; 2 < 4 nên số dư là 2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-8d26bdb21a787340",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t2",
+    "fingerprint": "acfd3a11944758e2f407117df56ac351",
+    "generatorParams": {
+      "dividend": 324,
+      "divisor": 5,
+      "quotient": 64,
+      "remainder": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "324 chia cho 5 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 4
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "324 = 5 × 64 + 4; 4 < 5 nên số dư là 4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-6e674acdbae7efce",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t3",
+    "fingerprint": "390c95c604763c4f483bbd8fe04501e9",
+    "generatorParams": {
+      "dividend": 392,
+      "divisor": 6,
+      "quotient": 65,
+      "remainder": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "392 chia cho 6 có số dư là bao nhiêu?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "1"
+      },
+      {
+        "id": "option-2",
+        "label": "4"
+      },
+      {
+        "id": "option-3",
+        "label": "2"
+      },
+      {
+        "id": "option-4",
+        "label": "3"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "392 = 6 × 65 + 2; 2 < 6 nên số dư là 2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-c800e3cc228c69de",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t4",
+    "fingerprint": "3d44cbb529ba8eab383c0bc5365e0845",
+    "generatorParams": {
+      "dividend": 464,
+      "divisor": 7,
+      "quotient": 66,
+      "remainder": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "464 chia cho 7 có số dư là bao nhiêu? Bạn An cho rằng đáp án là 2. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "464 = 7 × 66 + 2; 2 < 7 nên số dư là 2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-4a4dcc2788ee80e6",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t5",
+    "fingerprint": "9d3f314c7c6d6a9388a82cf820abb5fd",
+    "generatorParams": {
+      "dividend": 540,
+      "divisor": 8,
+      "quotient": 67,
+      "remainder": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "540 chia cho 8 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 4
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "540 = 8 × 67 + 4; 4 < 8 nên số dư là 4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-89c471af7413c987",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t1",
+    "fingerprint": "1fdda39706a06841f3935d5431d45855",
+    "generatorParams": {
+      "dividend": 331,
+      "divisor": 5,
+      "quotient": 66,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "331 chia cho 5 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "331 = 5 × 66 + 1; 1 < 5 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-6781e878f7ca0632",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t2",
+    "fingerprint": "dc755cadfa702cd14e5ac365220555a1",
+    "generatorParams": {
+      "dividend": 405,
+      "divisor": 6,
+      "quotient": 67,
+      "remainder": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "405 chia cho 6 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "405 = 6 × 67 + 3; 3 < 6 nên số dư là 3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-0f8da65fa1888794",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t3",
+    "fingerprint": "16ac266b8eafac986b09e2d7147cf959",
+    "generatorParams": {
+      "dividend": 479,
+      "divisor": 7,
+      "quotient": 68,
+      "remainder": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "479 chia cho 7 có số dư là bao nhiêu?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "4"
+      },
+      {
+        "id": "option-2",
+        "label": "2"
+      },
+      {
+        "id": "option-3",
+        "label": "5"
+      },
+      {
+        "id": "option-4",
+        "label": "3"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "479 = 7 × 68 + 3; 3 < 7 nên số dư là 3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-538aac5aff998d2f",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t4",
+    "fingerprint": "b11b55c92ada29e4305b3b2d2ef67cdd",
+    "generatorParams": {
+      "dividend": 557,
+      "divisor": 8,
+      "quotient": 69,
+      "remainder": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "557 chia cho 8 có số dư là bao nhiêu? Bạn An cho rằng đáp án là 6. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "557 = 8 × 69 + 5; 5 < 8 nên số dư là 5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-d7fd700a491cce51",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t5",
+    "fingerprint": "db3ed2d947757bd2568ee8794fdc6538",
+    "generatorParams": {
+      "dividend": 631,
+      "divisor": 9,
+      "quotient": 70,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "631 chia cho 9 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "631 = 9 × 70 + 1; 1 < 9 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-0266863648a1f427",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t1",
+    "fingerprint": "cf24510b13b7d89efcbefec4f9c87043",
+    "generatorParams": {
+      "dividend": 418,
+      "divisor": 6,
+      "quotient": 69,
+      "remainder": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "418 chia cho 6 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 4
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "418 = 6 × 69 + 4; 4 < 6 nên số dư là 4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-25958eadebf98354",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t2",
+    "fingerprint": "ed7b972a6254722bb45dcbf482092c80",
+    "generatorParams": {
+      "dividend": 494,
+      "divisor": 7,
+      "quotient": 70,
+      "remainder": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "494 chia cho 7 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 4
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "494 = 7 × 70 + 4; 4 < 7 nên số dư là 4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-ea977bdddc73acc9",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t3",
+    "fingerprint": "07fe1d94c765b3b6ab562b9b0375aa13",
+    "generatorParams": {
+      "dividend": 574,
+      "divisor": 8,
+      "quotient": 71,
+      "remainder": 6
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "574 chia cho 8 có số dư là bao nhiêu?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "5"
+      },
+      {
+        "id": "option-2",
+        "label": "7"
+      },
+      {
+        "id": "option-3",
+        "label": "8"
+      },
+      {
+        "id": "option-4",
+        "label": "6"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "574 = 8 × 71 + 6; 6 < 8 nên số dư là 6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-642bb93537561b5b",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t4",
+    "fingerprint": "a7594e3c4d1fc15e23c15ab02bcceb1a",
+    "generatorParams": {
+      "dividend": 650,
+      "divisor": 9,
+      "quotient": 72,
+      "remainder": 2
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "650 chia cho 9 có số dư là bao nhiêu? Bạn An cho rằng đáp án là 2. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "650 = 9 × 72 + 2; 2 < 9 nên số dư là 2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-25db6223d460b3f7",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t5",
+    "fingerprint": "28e208f17823ff4aa77276eb8a33a7f0",
+    "generatorParams": {
+      "dividend": 737,
+      "divisor": 10,
+      "quotient": 73,
+      "remainder": 7
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "737 chia cho 10 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 7
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "737 = 10 × 73 + 7; 7 < 10 nên số dư là 7.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-0614d01cba3ab9cb",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t1",
+    "fingerprint": "3f514506c7e41f7cb1e1342a870b9137",
+    "generatorParams": {
+      "dividend": 509,
+      "divisor": 7,
+      "quotient": 72,
+      "remainder": 5
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "509 chia cho 7 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 5
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "509 = 7 × 72 + 5; 5 < 7 nên số dư là 5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-1567963b2cc59963",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t2",
+    "fingerprint": "1a5907e50d5c6af353a74842c2878932",
+    "generatorParams": {
+      "dividend": 591,
+      "divisor": 8,
+      "quotient": 73,
+      "remainder": 7
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "591 chia cho 8 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 7
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "591 = 8 × 73 + 7; 7 < 8 nên số dư là 7.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-36fea4953fbd51a3",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t3",
+    "fingerprint": "249b2168a7fbea9440d3146223770ba5",
+    "generatorParams": {
+      "dividend": 669,
+      "divisor": 9,
+      "quotient": 74,
+      "remainder": 3
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "669 chia cho 9 có số dư là bao nhiêu?",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "4"
+      },
+      {
+        "id": "option-2",
+        "label": "5"
+      },
+      {
+        "id": "option-3",
+        "label": "3"
+      },
+      {
+        "id": "option-4",
+        "label": "2"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "669 = 9 × 74 + 3; 3 < 9 nên số dư là 3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-cd55adfb68dc13b1",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t4",
+    "fingerprint": "0b19314dc17bef851f67b0092e0c634d",
+    "generatorParams": {
+      "dividend": 758,
+      "divisor": 10,
+      "quotient": 75,
+      "remainder": 8
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "758 chia cho 10 có số dư là bao nhiêu? Bạn An cho rằng đáp án là 9. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "758 = 10 × 75 + 8; 8 < 10 nên số dư là 8.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-division-remainder-ccc07fd5e0b1d053",
+    "contentVersion": "grade4-v3",
+    "templateId": "division-remainder-t5",
+    "fingerprint": "687dcf508c27cd2342d8362943d7eb3f",
+    "generatorParams": {
+      "dividend": 229,
+      "divisor": 3,
+      "quotient": 76,
+      "remainder": 1
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "division",
+    "skillId": "division-remainder-skill",
+    "problemTypeId": "division-remainder",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "229 chia cho 3 có số dư là bao nhiêu?",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "id": "check",
+        "instruction": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định các số và điều đề bài yêu cầu."
+      },
+      {
+        "level": 2,
+        "text": "Tìm bội lớn nhất của số chia không vượt quá số bị chia."
+      },
+      {
+        "level": 3,
+        "text": "Lập phép tính, tính cẩn thận rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "DIVISION_FACT_GAP",
+        "feedback": "Em dùng phép nhân để kiểm tra thương và số dư nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "229 = 3 × 76 + 1; 1 < 3 nên số dư là 1.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]
