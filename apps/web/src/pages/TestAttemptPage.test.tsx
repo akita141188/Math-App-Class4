@@ -1,18 +1,33 @@
-import type { StudentAnswer, TestAttempt } from '@math-app/shared';
+import type {
+  HistoryFileStore,
+  LearningHistoryRecord,
+  StudentAnswer,
+  TestAttempt,
+} from '@math-app/shared';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { cleanup, render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { MemoryRouter, Route, Routes } from 'react-router-dom';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
-import { studentQuestion } from '../test/fixtures';
+import { historyFileRepository } from '../features/progress/historyFileRepository';
 import { localLearningHistoryRepository } from '../features/progress/learningHistoryRepository';
+import { studentQuestion } from '../test/fixtures';
 import { TestAttemptPage } from './TestAttemptPage';
 
 const questions = [
   studentQuestion('test-q1', 'Tính 3 × 4.'),
   studentQuestion('test-q2', 'Tính 5 × 6.'),
 ];
+
 let attempt: TestAttempt;
+let historyStore: HistoryFileStore;
+
+function historyResponse(): Response {
+  return new Response(JSON.stringify(historyStore), {
+    status: 200,
+    headers: { 'Content-Type': 'application/json' },
+  });
+}
 
 function renderAttempt() {
   const client = new QueryClient({ defaultOptions: { queries: { retry: false } } });
@@ -33,6 +48,16 @@ function renderAttempt() {
 
 beforeEach(() => {
   window.localStorage.clear();
+  historyFileRepository.resetForTests();
+
+  historyStore = {
+    version: 1,
+    updatedAt: '2026-09-11T10:00:00.000Z',
+    records: [],
+    inProgress: [],
+    completions: [],
+  };
+
   attempt = {
     id: 'test-1',
     blueprintId: 'comprehensive',
@@ -43,11 +68,48 @@ beforeEach(() => {
     questions,
     answers: {},
   };
+
   vi.spyOn(window, 'confirm').mockReturnValue(true);
+
   vi.stubGlobal(
     'fetch',
     vi.fn((input: RequestInfo | URL, init?: RequestInit) => {
       const url = typeof input === 'string' ? input : input instanceof URL ? input.href : input.url;
+      const method = init?.method ?? 'GET';
+
+      if (url.endsWith('/api/v1/history') && method === 'GET') {
+        return Promise.resolve(historyResponse());
+      }
+
+      if (url.endsWith('/api/v1/history/records') && method === 'POST') {
+        const record = JSON.parse(
+          typeof init?.body === 'string' ? init.body : '{}',
+        ) as LearningHistoryRecord;
+
+        historyStore = {
+          ...historyStore,
+          updatedAt: '2026-09-11T10:05:00.000Z',
+          records: [record, ...historyStore.records.filter((item) => item.id !== record.id)],
+        };
+
+        return Promise.resolve(historyResponse());
+      }
+
+      if (url.includes('/api/v1/history/in-progress/') && method === 'DELETE') {
+        const id = decodeURIComponent(url.split('/').at(-1) ?? '');
+        historyStore = {
+          ...historyStore,
+          updatedAt: '2026-09-11T10:05:00.000Z',
+          inProgress: historyStore.inProgress.filter((draft) => draft.id !== id),
+        };
+
+        return Promise.resolve(historyResponse());
+      }
+
+      if (url.includes('/api/v1/history/in-progress/') && method === 'PUT') {
+        return Promise.resolve(historyResponse());
+      }
+
       if (init?.method === 'PUT') {
         const body = JSON.parse(typeof init.body === 'string' ? init.body : '') as {
           answer: StudentAnswer;
@@ -55,6 +117,7 @@ beforeEach(() => {
         const questionId = url.split('/').at(-1)!;
         attempt = { ...attempt, answers: { ...attempt.answers, [questionId]: body.answer } };
       }
+
       if (url.endsWith('/submit')) {
         attempt = {
           ...attempt,
@@ -100,6 +163,7 @@ beforeEach(() => {
           },
         };
       }
+
       return Promise.resolve(
         new Response(JSON.stringify(attempt), {
           status: 200,
@@ -120,18 +184,27 @@ describe('TestAttemptPage', () => {
   it('hides hints and correctness, permits answer edits, then saves and reveals result after submit', async () => {
     const user = userEvent.setup();
     renderAttempt();
+
     const input = await screen.findByLabelText('Đáp án của em');
     expect(screen.getByRole('complementary', { name: 'Tiến trình bài kiểm tra' })).toBeVisible();
     expect(screen.queryByRole('button', { name: /Gợi ý/i })).not.toBeInTheDocument();
     expect(screen.queryByText('Đáp án đúng: 12')).not.toBeInTheDocument();
+
     await user.type(input, '13');
     await user.clear(input);
     await user.type(input, '12');
     await user.click(screen.getByRole('button', { name: /Câu tiếp theo/i }));
+
     expect(await screen.findByText('Tính 5 × 6.')).toBeVisible();
+
     await user.click(screen.getByRole('button', { name: 'Nộp bài' }));
     expect(await screen.findByRole('heading', { name: 'Điểm: 5/10' })).toBeVisible();
-    await waitFor(() => expect(localLearningHistoryRepository.list('TEST')).toHaveLength(1));
+
+    await waitFor(() => {
+      expect(historyStore.records).toHaveLength(1);
+      expect(localLearningHistoryRepository.list('TEST')).toHaveLength(1);
+    });
+
     await user.click(screen.getByRole('link', { name: 'Xem lại bài' }));
     expect(await screen.findByText('Đáp án đúng: 12')).toBeVisible();
     expect(screen.getByLabelText('Đáp án của em')).toBeDisabled();

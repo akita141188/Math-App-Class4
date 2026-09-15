@@ -5,6 +5,10 @@ import type {
   CurriculumCatalog,
   CurriculumTopic,
   DemoProblem,
+  LearningHistoryRecord,
+  InProgressSessionDraft,
+  HistoryLocalImportRequest,
+  HistoryFileStore,
   OfficialCurriculumGuide,
   PracticeSession,
   StudentAnswer,
@@ -122,5 +126,53 @@ export function submitTestAttempt(
   return request(`/api/v1/test-attempts/${id}/submit`, {
     method: 'POST',
     body: JSON.stringify({ answers }),
+  });
+}
+
+export function getHistoryFileStore(): Promise<HistoryFileStore> {
+  return request('/api/v1/history');
+}
+
+export function saveHistoryRecord(record: LearningHistoryRecord): Promise<HistoryFileStore> {
+  return request('/api/v1/history/records', {
+    method: 'POST',
+    body: JSON.stringify(record),
+    keepalive: true,
+  });
+}
+
+export function saveHistoryDraft(draft: InProgressSessionDraft): Promise<HistoryFileStore> {
+  return request(`/api/v1/history/in-progress/${encodeURIComponent(draft.id)}`, {
+    method: 'PUT',
+    body: JSON.stringify(draft),
+    keepalive: true,
+  });
+}
+
+export function deleteHistoryRecord(id: string): Promise<HistoryFileStore> {
+  return request(`/api/v1/history/records/${encodeURIComponent(id)}`, {
+    method: 'DELETE',
+    keepalive: true,
+  });
+}
+
+export function deleteHistoryDraft(id: string): Promise<HistoryFileStore> {
+  return request(`/api/v1/history/in-progress/${encodeURIComponent(id)}`, {
+    method: 'DELETE',
+    keepalive: true,
+  });
+}
+
+export function importLocalHistory(input: HistoryLocalImportRequest): Promise<HistoryFileStore> {
+  return request('/api/v1/history/import-local', {
+    method: 'POST',
+    body: JSON.stringify(input),
+  });
+}
+
+export function clearHistoryFile(): Promise<HistoryFileStore> {
+  return request('/api/v1/history', {
+    method: 'DELETE',
+    keepalive: true,
   });
 }

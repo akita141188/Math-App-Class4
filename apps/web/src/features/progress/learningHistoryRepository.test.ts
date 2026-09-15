@@ -3,11 +3,9 @@ import type {
   StoredQuestionResult,
   TestHistoryRecord,
 } from '@math-app/shared';
-import { beforeEach, describe, expect, it } from 'vitest';
-import {
-  learningHistoryStorageKey,
-  localLearningHistoryRepository,
-} from './learningHistoryRepository';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { historyFileRepository } from './historyFileRepository';
+import { localLearningHistoryRepository } from './learningHistoryRepository';
 
 function result(index: number, correct = true): StoredQuestionResult {
   return {
@@ -19,7 +17,7 @@ function result(index: number, correct = true): StoredQuestionResult {
     correct,
     unanswered: false,
     hintCount: 0,
-    answeredAt: `2026-09-11T10:${String(index).padStart(2, '0')}:00.000Z`,
+    answeredAt: `2026-09-11T10:${String(index % 60).padStart(2, '0')}:00.000Z`,
     questionSummary: `Câu ${index}`,
   };
 }
@@ -51,14 +49,33 @@ function practice(
   };
 }
 
-beforeEach(() => window.localStorage.clear());
+beforeEach(() => {
+  historyFileRepository.resetForTests();
+  vi.stubGlobal(
+    'fetch',
+    vi.fn(
+      () =>
+        new Response(
+          JSON.stringify({
+            version: 1,
+            updatedAt: new Date().toISOString(),
+            records: historyFileRepository.getSnapshot().records,
+            inProgress: historyFileRepository.getSnapshot().inProgress,
+            completions: historyFileRepository.getSnapshot().completions,
+          }),
+          { status: 200, headers: { 'Content-Type': 'application/json' } },
+        ),
+    ),
+  );
+});
 
-describe('learning history repository', () => {
-  it('persists completed practice with timestamp and sorts newest first after reload', () => {
+describe('file-backed learning history repository', () => {
+  it('keeps completed practice sorted newest first in the shared file cache', () => {
     localLearningHistoryRepository.save(practice('old', '2026-09-10T10:00:00.000Z', [result(1)]));
     localLearningHistoryRepository.save(
       practice('new', '2026-09-11T10:00:00.000Z', [result(2, false)]),
     );
+
     expect(localLearningHistoryRepository.list().map((item) => item.id)).toEqual(['new', 'old']);
     expect(localLearningHistoryRepository.get('new')).toMatchObject({
       correctCount: 0,
@@ -67,7 +84,7 @@ describe('learning history repository', () => {
     });
   });
 
-  it('distinguishes practice and test and rejects invalid stored data', () => {
+  it('distinguishes practice and test history', () => {
     const test = {
       id: 'test-1',
       sessionType: 'TEST',
@@ -86,24 +103,25 @@ describe('learning history repository', () => {
       topicBreakdown: [],
       questionResults: [result(1)],
     } satisfies TestHistoryRecord;
+
     localLearningHistoryRepository.save(test);
+
     expect(localLearningHistoryRepository.list('TEST')).toHaveLength(1);
     expect(localLearningHistoryRepository.list('PRACTICE')).toHaveLength(0);
-    window.localStorage.setItem(learningHistoryStorageKey, '{bad');
-    expect(localLearningHistoryRepository.list()).toEqual([]);
   });
 
   it('enforces the retention limit', () => {
-    for (let index = 0; index < 205; index += 1)
+    for (let index = 0; index < 205; index += 1) {
       localLearningHistoryRepository.save(
         practice(`p-${index}`, new Date(Date.UTC(2026, 0, 1, 0, index)).toISOString(), [
           result(index),
         ]),
       );
+    }
     expect(localLearningHistoryRepository.list()).toHaveLength(200);
   });
 
-  it('marks completion after repeated independent work and preserves completedAt on review decline', () => {
+  it('preserves completedAt when later independent accuracy declines', () => {
     localLearningHistoryRepository.save(
       practice(
         'p1',
@@ -118,10 +136,11 @@ describe('learning history repository', () => {
         Array.from({ length: 10 }, (_, index) => result(index + 10)),
       ),
     );
+
     const completed = localLearningHistoryRepository.getCompletion('leaf-a');
     expect(completed.status).toBe('COMPLETED');
     expect(completed.completedAt).toBeDefined();
-    const firstCompletedAt = completed.completedAt;
+
     localLearningHistoryRepository.save(
       practice(
         'p3',
@@ -129,9 +148,10 @@ describe('learning history repository', () => {
         Array.from({ length: 10 }, (_, index) => result(index + 20, false)),
       ),
     );
+
     expect(localLearningHistoryRepository.getCompletion('leaf-a')).toMatchObject({
       status: 'NEEDS_REVIEW',
-      completedAt: firstCompletedAt,
+      completedAt: completed.completedAt,
     });
   });
 });

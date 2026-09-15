@@ -1,16 +1,36 @@
 import type { LearningHistoryRecord } from '@math-app/shared';
-import { BookOpenCheck, ClipboardCheck, Clock3, PlayCircle } from 'lucide-react';
+import { BookOpenCheck, ClipboardCheck, Clock3, Database, PlayCircle, Trash2 } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { PageContainer } from '../components/PageContainer';
+import {
+  historyFileRepository,
+  useHistoryFileStore,
+} from '../features/progress/historyFileRepository';
 import { inProgressSessionRepository } from '../features/progress/inProgressSessionRepository';
 import { localLearningHistoryRepository } from '../features/progress/learningHistoryRepository';
+import { countDraftQuestionStates } from '../features/progress/sessionDraftSnapshot';
 
 function completedAt(record: LearningHistoryRecord): string {
   return record.sessionType === 'PRACTICE' ? record.completedAt : record.submittedAt;
 }
 
+function draftProgressText(
+  draft: ReturnType<typeof inProgressSessionRepository.list>[number],
+): string {
+  if (!draft.questionStates) return `Đã làm ${draft.answeredCount}/${draft.totalQuestions} câu`;
+
+  const counts = countDraftQuestionStates(draft.questionStates);
+
+  if (draft.sessionType === 'PRACTICE') {
+    return `Hoàn thành ${counts.correct} · đang sai ${counts.wrong} · đang làm ${counts.working} · chưa làm ${counts.unanswered}`;
+  }
+
+  return `Đã trả lời ${counts.answered} · đang làm ${counts.working} · chưa trả lời ${counts.unanswered}`;
+}
+
 export function HistoryPage() {
+  useHistoryFileStore();
   const [filter, setFilter] = useState<'ALL' | 'PRACTICE' | 'TEST'>('ALL');
   const drafts = inProgressSessionRepository
     .list()
@@ -19,13 +39,40 @@ export function HistoryPage() {
     .list()
     .filter((record) => filter === 'ALL' || record.sessionType === filter);
 
+  const deleteDraft = (id: string) => {
+    if (window.confirm('Xóa bài đang làm dở này?')) inProgressSessionRepository.remove(id);
+  };
+
+  const deleteRecord = (id: string) => {
+    if (window.confirm('Xóa kết quả này khỏi lịch sử?')) localLearningHistoryRepository.delete(id);
+  };
+
+  const clearAll = () => {
+    if (
+      window.confirm('Xóa toàn bộ lịch sử và các bài đang làm dở? Thao tác này không thể hoàn tác.')
+    )
+      historyFileRepository.clearAll();
+  };
+
   return (
     <PageContainer>
       <header className={'page-intro'}>
         <span className={'page-kicker'}>Lịch sử học</span>
         <h1>Bài đang làm dở và kết quả đã hoàn thành</h1>
-        <p>Khi em thoát một bài đang làm, ứng dụng sẽ lưu lại tại đây để em có thể tiếp tục sau.</p>
+        <p>Dữ liệu được lưu trong tệp của dự án nên có thể mang theo khi copy cả thư mục app.</p>
       </header>
+
+      <div className={'history-storage-note'}>
+        <div>
+          <Database size={20} aria-hidden={'true'} />
+          <span>
+            Lưu tại <strong>data/history/history.json</strong>
+          </span>
+        </div>
+        <button type={'button'} className={'history-clear-button'} onClick={clearAll}>
+          <Trash2 size={17} /> Xóa toàn bộ lịch sử
+        </button>
+      </div>
 
       <div className={'history-filters'} role={'group'} aria-label={'Lọc lịch sử'}>
         {(['ALL', 'PRACTICE', 'TEST'] as const).map((value) => (
@@ -68,19 +115,27 @@ export function HistoryPage() {
                   <time dateTime={draft.savedAt}>
                     Lưu lúc {new Date(draft.savedAt).toLocaleString('vi-VN')}
                   </time>
-                  <p>
-                    Đã làm {draft.answeredCount}/{draft.totalQuestions} câu
-                    {draft.sessionType === 'PRACTICE' && draft.selectedLeafTypeIds.length > 0
-                      ? ` · ${draft.selectedLeafTypeIds.slice(0, 3).join(', ')}`
-                      : ''}
-                  </p>
+                  <p>{draftProgressText(draft)}</p>
+                  {draft.sessionType === 'PRACTICE' && draft.selectedLeafTypeIds.length > 0 && (
+                    <p>{draft.selectedLeafTypeIds.slice(0, 3).join(', ')}</p>
+                  )}
                 </div>
                 <strong className={'history-score history-draft-progress'}>
                   {draft.answeredCount}/{draft.totalQuestions}
                 </strong>
-                <Link className={'button button-primary'} to={draft.resumePath}>
-                  <PlayCircle size={17} /> Làm tiếp
-                </Link>
+                <div className={'history-card-actions'}>
+                  <Link className={'button button-primary'} to={draft.resumePath}>
+                    <PlayCircle size={17} /> Làm tiếp
+                  </Link>
+                  <button
+                    type={'button'}
+                    className={'history-delete-button'}
+                    onClick={() => deleteDraft(draft.id)}
+                    aria-label={`Xóa bài đang làm dở ${draft.title}`}
+                  >
+                    <Trash2 size={17} />
+                  </button>
+                </div>
               </article>
             ))}
           </div>
@@ -131,9 +186,19 @@ export function HistoryPage() {
                       ? `${record.finalScore10}/10`
                       : `${record.accuracyPercent}%`}
                   </strong>
-                  <Link className={'button button-secondary'} to={`/history/${record.id}`}>
-                    Xem chi tiết
-                  </Link>
+                  <div className={'history-card-actions'}>
+                    <Link className={'button button-secondary'} to={`/history/${record.id}`}>
+                      Xem chi tiết
+                    </Link>
+                    <button
+                      type={'button'}
+                      className={'history-delete-button'}
+                      onClick={() => deleteRecord(record.id)}
+                      aria-label={'Xóa kết quả lịch sử'}
+                    >
+                      <Trash2 size={17} />
+                    </button>
+                  </div>
                 </article>
               ))}
             </div>

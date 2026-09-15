@@ -98,7 +98,7 @@ export function HomePage() {
         <div className={'home-hero-copy'}>
           <span className={'hero-kicker'}>Học Toán thật vui mỗi ngày</span>
           <h1>
-            <span>Chào Minh!</span>
+            <span>Chào Xuân Nam!</span>
             <span>Hôm nay em muốn học gì?</span>
           </h1>
           <p>Em cứ khám phá, luyện tập và tiến bộ từng ngày nhé!</p>

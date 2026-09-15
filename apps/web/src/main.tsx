@@ -11,6 +11,7 @@ import './ui-v8.css';
 import './ui-v9.css';
 import './ui-v10.css';
 import './ui-v10-3.css';
+import './ui-v11.css';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

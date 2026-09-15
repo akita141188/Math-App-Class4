@@ -11,7 +11,7 @@ import {
   Trophy,
 } from 'lucide-react';
 import type { CSSProperties } from 'react';
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { getTestAttempt, submitTestAttempt, updateTestAnswer } from '../api/client';
 import { Button } from '../components/Button';
@@ -20,6 +20,10 @@ import { ProgressIndicator } from '../components/ProgressIndicator';
 import { QuestionNavigator } from '../components/QuestionNavigator';
 import { localLearningHistoryRepository } from '../features/progress/learningHistoryRepository';
 import { inProgressSessionRepository } from '../features/progress/inProgressSessionRepository';
+import {
+  buildTestQuestionStates,
+  snapshotDraftQuestions,
+} from '../features/progress/sessionDraftSnapshot';
 import { useSessionExitGuard } from '../hooks/useSessionExitGuard';
 import { AnswerInput } from '../features/question/AnswerInput';
 import { QuestionVisualRendererV2 } from '../features/question/QuestionVisualRendererV2';
@@ -142,8 +146,10 @@ export function TestAttemptPage({ reviewMode = false }: { reviewMode?: boolean }
     ? attempt.questions.filter((item) => answered(answers[item.id])).length
     : 0;
 
-  const persistDraft = () => {
+  const persistDraft = useCallback(() => {
     if (!attempt || reviewMode || attempt.status !== 'IN_PROGRESS') return;
+
+    const questionStates = buildTestQuestionStates(attempt.questions, currentIndex, answers);
 
     inProgressSessionRepository.save({
       id: attempt.id,
@@ -157,8 +163,18 @@ export function TestAttemptPage({ reviewMode = false }: { reviewMode?: boolean }
       answeredCount: draftAnsweredCount,
       testBlueprintId: attempt.blueprintId,
       answers,
+      questions: snapshotDraftQuestions(attempt.questions),
+      questionStates,
     });
-  };
+  }, [answers, attempt, currentIndex, draftAnsweredCount, reviewMode]);
+
+  useEffect(() => {
+    if (!attempt || reviewMode || attempt.status !== 'IN_PROGRESS') return undefined;
+    if (draftAnsweredCount === 0 && currentIndex === 0) return undefined;
+
+    const timeout = window.setTimeout(persistDraft, 450);
+    return () => window.clearTimeout(timeout);
+  }, [attempt, currentIndex, draftAnsweredCount, persistDraft, reviewMode]);
 
   useSessionExitGuard({
     enabled: Boolean(attempt && !reviewMode && attempt.status === 'IN_PROGRESS'),

@@ -4,52 +4,16 @@ import type {
   LearningHistoryStore,
   PracticeHistoryRecord,
 } from '@math-app/shared';
-import { HISTORY_RETENTION_LIMIT, HISTORY_STORAGE_VERSION } from '@math-app/shared';
-
-export const learningHistoryStorageKey = 'math-app-class4-learning-history-v3';
-
-function emptyStore(): LearningHistoryStore {
-  return { version: HISTORY_STORAGE_VERSION, records: [], completions: [] };
-}
-
-function timestamp(record: LearningHistoryRecord): string {
-  return record.sessionType === 'PRACTICE' ? record.completedAt : record.submittedAt;
-}
-
-function isHistoryRecord(value: unknown): value is LearningHistoryRecord {
-  if (!value || typeof value !== 'object') return false;
-  const record = value as Partial<LearningHistoryRecord>;
-  return (
-    typeof record.id === 'string' &&
-    (record.sessionType === 'PRACTICE' || record.sessionType === 'TEST') &&
-    typeof record.contentVersion === 'string' &&
-    Array.isArray(record.questionResults)
-  );
-}
+import { HISTORY_STORAGE_VERSION } from '@math-app/shared';
+import { historyFileRepository } from './historyFileRepository';
 
 function read(): LearningHistoryStore {
-  try {
-    const raw = window.localStorage.getItem(learningHistoryStorageKey);
-    if (!raw) return emptyStore();
-    const parsed = JSON.parse(raw) as Partial<LearningHistoryStore>;
-    if (parsed.version !== HISTORY_STORAGE_VERSION || !Array.isArray(parsed.records))
-      return emptyStore();
-    return {
-      version: HISTORY_STORAGE_VERSION,
-      records: parsed.records
-        .filter(isHistoryRecord)
-        .sort((a, b) => timestamp(b).localeCompare(timestamp(a)))
-        .slice(0, HISTORY_RETENTION_LIMIT),
-      completions: Array.isArray(parsed.completions)
-        ? parsed.completions.filter(
-            (item): item is LeafCompletionRecord =>
-              Boolean(item) && typeof item.leafTypeId === 'string',
-          )
-        : [],
-    };
-  } catch {
-    return emptyStore();
-  }
+  const file = historyFileRepository.getSnapshot();
+  return {
+    version: HISTORY_STORAGE_VERSION,
+    records: file.records,
+    completions: file.completions,
+  };
 }
 
 function completionFor(
@@ -77,6 +41,7 @@ function completionFor(
         : qualifies || completedAt
           ? 'COMPLETED'
           : 'PRACTICING';
+
   return {
     leafTypeId,
     status,
@@ -87,19 +52,22 @@ function completionFor(
   };
 }
 
-function recomputeCompletions(store: LearningHistoryStore): LeafCompletionRecord[] {
-  const practices = store.records.filter(
+function recomputeCompletions(
+  records: readonly LearningHistoryRecord[],
+  priorCompletions: readonly LeafCompletionRecord[] = [],
+): LeafCompletionRecord[] {
+  const practices = records.filter(
     (record): record is PracticeHistoryRecord => record.sessionType === 'PRACTICE',
   );
   const leafIds = new Set([
-    ...store.completions.map((item) => item.leafTypeId),
+    ...priorCompletions.map((item) => item.leafTypeId),
     ...practices.flatMap((record) => record.selectedLeafTypeIds),
   ]);
   return [...leafIds].map((leafTypeId) =>
     completionFor(
       leafTypeId,
       practices,
-      store.completions.find((item) => item.leafTypeId === leafTypeId),
+      priorCompletions.find((item) => item.leafTypeId === leafTypeId),
     ),
   );
 }
@@ -117,28 +85,31 @@ export const localLearningHistoryRepository = {
   },
 
   save(record: LearningHistoryRecord): LearningHistoryStore {
-    const current = read();
-    const next: LearningHistoryStore = {
-      version: HISTORY_STORAGE_VERSION,
-      records: [record, ...current.records.filter((item) => item.id !== record.id)]
-        .sort((a, b) => timestamp(b).localeCompare(timestamp(a)))
-        .slice(0, HISTORY_RETENTION_LIMIT),
-      completions: current.completions,
-    };
-    next.completions = recomputeCompletions(next);
-    window.localStorage.setItem(learningHistoryStorageKey, JSON.stringify(next));
-    return next;
+    const records = [record, ...read().records.filter((item) => item.id !== record.id)];
+    const completions = recomputeCompletions(records, read().completions);
+    historyFileRepository.optimisticSaveRecord(record, completions);
+    return read();
+  },
+
+  delete(id: string): LearningHistoryStore {
+    const records = read().records.filter((record) => record.id !== id);
+    const completions = recomputeCompletions(records);
+    historyFileRepository.optimisticDeleteRecord(id, completions);
+    return read();
   },
 
   getCompletion(leafTypeId: string): LeafCompletionRecord {
     const store = read();
     return (
       store.completions.find((item) => item.leafTypeId === leafTypeId) ??
-      completionFor(leafTypeId, [], undefined)
+      completionFor(leafTypeId, [])
     );
   },
 
   clear(): void {
-    window.localStorage.removeItem(learningHistoryStorageKey);
+    for (const record of read().records) {
+      const remaining = read().records.filter((item) => item.id !== record.id);
+      historyFileRepository.optimisticDeleteRecord(record.id, recomputeCompletions(remaining));
+    }
   },
 };

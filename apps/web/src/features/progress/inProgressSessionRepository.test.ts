@@ -1,13 +1,29 @@
-import { beforeEach, describe, expect, it } from 'vitest';
-import {
-  inProgressSessionRepository,
-  inProgressSessionStorageKey,
-} from './inProgressSessionRepository';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { historyFileRepository } from './historyFileRepository';
+import { inProgressSessionRepository } from './inProgressSessionRepository';
 
-beforeEach(() => window.localStorage.clear());
+beforeEach(() => {
+  historyFileRepository.resetForTests();
+  vi.stubGlobal(
+    'fetch',
+    vi.fn(
+      () =>
+        new Response(
+          JSON.stringify({
+            version: 1,
+            updatedAt: new Date().toISOString(),
+            records: historyFileRepository.getSnapshot().records,
+            inProgress: historyFileRepository.getSnapshot().inProgress,
+            completions: historyFileRepository.getSnapshot().completions,
+          }),
+          { status: 200, headers: { 'Content-Type': 'application/json' } },
+        ),
+    ),
+  );
+});
 
-describe('in-progress session repository', () => {
-  it('stores and removes resumable practice drafts', () => {
+describe('file-backed in-progress session repository', () => {
+  it('stores and removes resumable practice drafts in the shared file cache', () => {
     inProgressSessionRepository.save({
       id: 'practice-1',
       sessionType: 'PRACTICE',
@@ -33,6 +49,5 @@ describe('in-progress session repository', () => {
 
     inProgressSessionRepository.remove('practice-1');
     expect(inProgressSessionRepository.list()).toEqual([]);
-    expect(window.localStorage.getItem(inProgressSessionStorageKey)).toBe('[]');
   });
 });

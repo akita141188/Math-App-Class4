@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { PageContainer } from '../components/PageContainer';
 import { localProgressRepository } from '../features/progress/progressRepository';
 import { localLearningHistoryRepository } from '../features/progress/learningHistoryRepository';
+import { useHistoryFileStore } from '../features/progress/historyFileRepository';
 
 const mistakeLabels: Record<string, string> = {
   ARITHMETIC_SLIP: 'Kiểm tra lại từng bước tính',
@@ -18,15 +19,25 @@ const mistakeLabels: Record<string, string> = {
 };
 
 export function MePage() {
+  useHistoryFileStore();
   const progress = localProgressRepository.getSummary();
-  const recentHistory = localLearningHistoryRepository.list().slice(0, 6);
+  const allHistory = localLearningHistoryRepository.list();
+  const recentHistory = allHistory.slice(0, 6);
+  const historyResults = allHistory.flatMap((record) => record.questionResults);
+  const historyIndependentCorrect = historyResults.filter(
+    (result) => result.correct && result.hintCount === 0,
+  ).length;
+  const historyHintedCorrect = historyResults.filter(
+    (result) => result.correct && result.hintCount > 0,
+  ).length;
+  const historySkillCount = new Set(historyResults.map((result) => result.leafTypeId)).size;
   const recentMistakeCodes = progress.skills.flatMap((skill) => skill.recentMistakes);
   const recentMistakes = [...new Set<string>(recentMistakeCodes)]
     .slice(0, 5)
     .map((code) => mistakeLabels[code] ?? 'Kiểm tra lại dữ kiện');
-  const correct = progress.independentCorrect + progress.hintedCorrect;
-  const accuracy = progress.totalQuestions
-    ? Math.round((correct / progress.totalQuestions) * 100)
+  const historyCorrect = historyIndependentCorrect + historyHintedCorrect;
+  const accuracy = historyResults.length
+    ? Math.round((historyCorrect / historyResults.length) * 100)
     : 0;
 
   return (
@@ -50,7 +61,7 @@ export function MePage() {
                 </span>
                 <div>
                   <strong>Tổng quan tiến bộ</strong>
-                  <small>Số liệu được cập nhật trên thiết bị này</small>
+                  <small>Số liệu từ tệp lịch sử</small>
                 </div>
               </div>
               <span className={'period-pill'}>30 ngày gần đây</span>
@@ -58,22 +69,22 @@ export function MePage() {
             <div className={'progress-stat-grid'}>
               <div className={'progress-stat stat-blue'}>
                 <History size={24} />
-                <strong>{progress.totalQuestions}</strong>
+                <strong>{historyResults.length}</strong>
                 <span>Câu hỏi đã làm</span>
               </div>
               <div className={'progress-stat stat-green'}>
                 <Target size={24} />
-                <strong>{progress.independentCorrect}</strong>
+                <strong>{historyIndependentCorrect}</strong>
                 <span>Tự làm đúng</span>
               </div>
               <div className={'progress-stat stat-gold'}>
                 <Lightbulb size={24} />
-                <strong>{progress.hintedCorrect}</strong>
+                <strong>{historyHintedCorrect}</strong>
                 <span>Đúng sau gợi ý</span>
               </div>
               <div className={'progress-stat stat-violet'}>
                 <Trophy size={24} />
-                <strong>{progress.skills.length}</strong>
+                <strong>{historySkillCount}</strong>
                 <span>Kỹ năng đã luyện</span>
               </div>
             </div>

@@ -16,9 +16,14 @@ import { PageContainer } from '../components/PageContainer';
 import { buildWeakSkillRecommendations } from '../features/progress/practiceRecommendations';
 import { localProgressRepository } from '../features/progress/progressRepository';
 import { localLearningHistoryRepository } from '../features/progress/learningHistoryRepository';
+import { useHistoryFileStore } from '../features/progress/historyFileRepository';
 
 export function ParentPage() {
+  useHistoryFileStore();
   const progress = localProgressRepository.getSummary();
+  const allHistory = localLearningHistoryRepository.list();
+  const historyResults = allHistory.flatMap((record) => record.questionResults);
+  const historyCorrect = historyResults.filter((result) => result.correct).length;
   const practiceHistory = localLearningHistoryRepository
     .list('PRACTICE')
     .filter((record) => record.sessionType === 'PRACTICE');
@@ -32,9 +37,8 @@ export function ParentPage() {
   const weakSkillRecords = catalogQuery.data
     ? buildWeakSkillRecommendations(progress, catalogQuery.data)
     : [];
-  const correct = progress.independentCorrect + progress.hintedCorrect;
-  const accuracy = progress.totalQuestions
-    ? Math.round((correct / progress.totalQuestions) * 100)
+  const accuracy = historyResults.length
+    ? Math.round((historyCorrect / historyResults.length) * 100)
     : 0;
   const latestTest = testHistory[0];
 
@@ -57,7 +61,7 @@ export function ParentPage() {
           <div>
             <small>Tổng số lượt học</small>
             <strong>{practiceHistory.length + testHistory.length}</strong>
-            <span>trên thiết bị này</span>
+            <span>trong tệp lịch sử</span>
           </div>
         </article>
         <article>
@@ -143,20 +147,15 @@ export function ParentPage() {
             <Link to={'/history'}>Xem tất cả</Link>
           </div>
           <div className={'parent-activity-list'}>
-            {localLearningHistoryRepository
-              .list()
-              .slice(0, 5)
-              .map((record) => (
-                <div key={record.id}>
-                  <span>{record.sessionType === 'TEST' ? 'Kiểm tra' : 'Luyện tập'}</span>
-                  <strong>
-                    {record.correctCount}/{record.questionResults.length}
-                  </strong>
-                </div>
-              ))}
-            {localLearningHistoryRepository.list().length === 0 && (
-              <p>Chưa có hoạt động hoàn thành.</p>
-            )}
+            {allHistory.slice(0, 5).map((record) => (
+              <div key={record.id}>
+                <span>{record.sessionType === 'TEST' ? 'Kiểm tra' : 'Luyện tập'}</span>
+                <strong>
+                  {record.correctCount}/{record.questionResults.length}
+                </strong>
+              </div>
+            ))}
+            {allHistory.length === 0 && <p>Chưa có hoạt động hoàn thành.</p>}
           </div>
         </article>
 

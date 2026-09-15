@@ -2,8 +2,10 @@ import { ArrowLeft } from 'lucide-react';
 import { Link, useParams } from 'react-router-dom';
 import { PageContainer } from '../components/PageContainer';
 import { localLearningHistoryRepository } from '../features/progress/learningHistoryRepository';
+import { useHistoryFileStore } from '../features/progress/historyFileRepository';
 
 export function HistoryDetailPage() {
+  useHistoryFileStore();
   const { historyId = '' } = useParams();
   const record = localLearningHistoryRepository.get(historyId);
   if (!record)

@@ -4,6 +4,7 @@ import { configuration, validateEnvironment } from './configuration';
 import { ContentModule } from './content/content.module';
 import { CurriculumModule } from './curriculum/curriculum.module';
 import { HealthModule } from './health/health.module';
+import { HistoryFileModule } from './history/history-file.module';
 import { LearningSessionModule } from './learning-session/learning-session.module';
 import { ProblemModule } from './problem/problem.module';
 import { PracticeModule } from './practice/practice.module';
@@ -17,6 +18,8 @@ import { TestModeModule } from './test-mode/test-mode.module';
       validate: validateEnvironment,
     }),
     HealthModule,
+
+    HistoryFileModule,
     CurriculumModule,
     ProblemModule,
     LearningSessionModule,

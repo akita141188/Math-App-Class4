@@ -20,7 +20,7 @@ import {
   Star,
   Trophy,
 } from 'lucide-react';
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { createPracticeSession, getPracticeSession, submitPracticeAnswer } from '../api/client';
 import { Button } from '../components/Button';
@@ -32,6 +32,11 @@ import { localLearningHistoryRepository } from '../features/progress/learningHis
 import { localProgressRepository } from '../features/progress/progressRepository';
 import { localQuestionHistoryRepository } from '../features/progress/questionHistoryRepository';
 import { inProgressSessionRepository } from '../features/progress/inProgressSessionRepository';
+import {
+  buildPracticeQuestionStates,
+  hasStoredAnswer,
+  snapshotDraftQuestions,
+} from '../features/progress/sessionDraftSnapshot';
 import { useSessionExitGuard } from '../hooks/useSessionExitGuard';
 import { AnswerInput } from '../features/question/AnswerInput';
 import { QuestionVisualRendererV2 } from '../features/question/QuestionVisualRendererV2';
@@ -162,6 +167,19 @@ export function PracticeSessionPage() {
         setAnswers(draft.answers);
         setHintLevels(draft.hintLevels);
         resultsRef.current = new Map(draft.results.map((result) => [result.questionId, result]));
+        if (draft.questionStates && Object.keys(draft.questionStates).length > 0) {
+          const entries = Object.entries(draft.questionStates);
+          setSolvedQuestionIds(
+            new Set(entries.filter(([, state]) => state === 'CORRECT').map(([id]) => id)),
+          );
+          setAttemptedQuestionIds(
+            new Set(
+              entries
+                .filter(([, state]) => state === 'CORRECT' || state === 'WRONG')
+                .map(([id]) => id),
+            ),
+          );
+        }
       }
       restoredDraftRef.current = true;
     }
@@ -267,7 +285,8 @@ export function PracticeSessionPage() {
   });
 
   const solvedCount = solvedQuestionIds.size;
-  const persistDraft = () => {
+
+  const persistDraft = useCallback(() => {
     if (!session || session.completed || lastResult?.completed) return;
 
     const practiceLabel =
@@ -276,6 +295,17 @@ export function PracticeSessionPage() {
         : session.mode === 'LEARN'
           ? 'Học có gợi ý đang làm dở'
           : 'Luyện tập đang làm dở';
+
+    const questionStates = buildPracticeQuestionStates(
+      session.questions,
+      currentIndex,
+      answers,
+      solvedQuestionIds,
+      attemptedQuestionIds,
+    );
+    const answeredCount = Object.values(questionStates).filter(
+      (state) => state === 'CORRECT' || state === 'WRONG',
+    ).length;
 
     inProgressSessionRepository.save({
       id: session.id,
@@ -286,14 +316,37 @@ export function PracticeSessionPage() {
       resumePath: `/practice?resume=${encodeURIComponent(session.id)}`,
       currentIndex,
       totalQuestions: session.questionCount,
-      answeredCount: solvedCount,
+      answeredCount,
       practiceMode: session.mode,
       selectedLeafTypeIds: session.selectedProblemTypes,
       answers,
       hintLevels,
       results: [...resultsRef.current.values()],
+      questions: snapshotDraftQuestions(session.questions),
+      questionStates,
     });
-  };
+  }, [
+    answers,
+    attemptedQuestionIds,
+    currentIndex,
+    hintLevels,
+    lastResult,
+    session,
+    solvedQuestionIds,
+  ]);
+
+  useEffect(() => {
+    const hasProgress =
+      attemptedQuestionIds.size > 0 ||
+      currentIndex > 0 ||
+      Object.values(hintLevels).some((level) => level > 0) ||
+      Object.values(answers).some((value) => hasStoredAnswer(value));
+
+    if (!hasProgress) return undefined;
+
+    const timeout = window.setTimeout(persistDraft, 450);
+    return () => window.clearTimeout(timeout);
+  }, [answers, attemptedQuestionIds, currentIndex, hintLevels, persistDraft]);
 
   useSessionExitGuard({
     enabled: Boolean(session && !session.completed && !lastResult?.completed),

@@ -2,7 +2,8 @@ import type { TestHistoryRecord } from '@math-app/shared';
 import { cleanup, render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { MemoryRouter, Route, Routes } from 'react-router-dom';
-import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { historyFileRepository } from '../features/progress/historyFileRepository';
 import { localLearningHistoryRepository } from '../features/progress/learningHistoryRepository';
 import { HistoryDetailPage } from './HistoryDetailPage';
 import { HistoryPage } from './HistoryPage';
@@ -44,11 +45,30 @@ const testRecord: TestHistoryRecord = {
 };
 
 beforeEach(() => {
-  window.localStorage.clear();
+  historyFileRepository.resetForTests();
+  vi.stubGlobal(
+    'fetch',
+    vi.fn(
+      () =>
+        new Response(
+          JSON.stringify({
+            version: 1,
+            updatedAt: new Date().toISOString(),
+            records: historyFileRepository.getSnapshot().records,
+            inProgress: historyFileRepository.getSnapshot().inProgress,
+            completions: historyFileRepository.getSnapshot().completions,
+          }),
+          { status: 200, headers: { 'Content-Type': 'application/json' } },
+        ),
+    ),
+  );
   localLearningHistoryRepository.save(testRecord);
 });
 
-afterEach(cleanup);
+afterEach(() => {
+  cleanup();
+  vi.unstubAllGlobals();
+});
 
 describe('history pages', () => {
   it('displays saved test history and its post-submission review detail', async () => {
