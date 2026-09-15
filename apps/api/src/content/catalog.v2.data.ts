@@ -1,23 +1,39 @@
-﻿import type { ProblemBlueprint } from './catalog.data';
+import type { ProblemBlueprint } from './catalog.data';
 import { problemBlueprints as legacyBlueprints } from './catalog.data';
 
 /**
- * Grade 4 taxonomy locked after the CTGDPT 2018 audit.
+ * Grade 4 practice taxonomy audited against:
+ * - CTGDPT 2018
+ * - Toán 4 - Kết nối tri thức với cuộc sống
+ * - national textbook policy effective from school year 2026-2027
+ *
  * Existing ids are retained where possible so saved progress remains useful.
- * Broad legacy labels are narrowed here; separately practicable tasks get a new id.
+ * New ids are only added for independently practicable skills that were missing.
  */
 const narrowed: Record<string, Pick<ProblemBlueprint, 'name' | 'description'>> = {
   'read-write-numbers': {
     name: 'Đọc số tự nhiên',
-    description: 'Đọc đúng số tự nhiên theo lớp và hàng.',
+    description: 'Đọc đúng số tự nhiên theo lớp và hàng, gồm các số đến lớp triệu.',
   },
   'compare-numbers': {
     name: 'So sánh số tự nhiên',
     description: 'So sánh hai số tự nhiên có nhiều chữ số.',
   },
+  'round-numbers': {
+    name: 'Làm tròn số tự nhiên',
+    description: 'Làm tròn số đến hàng chục, trăm, nghìn, chục nghìn hoặc trăm nghìn.',
+  },
   'read-write-fraction': {
     name: 'Xác định tử số và mẫu số',
     description: 'Xác định đúng tử số, mẫu số của một phân số.',
+  },
+  'compare-fractions': {
+    name: 'So sánh phân số',
+    description: 'So sánh phân số bằng các cách phù hợp chương trình lớp 4.',
+  },
+  'classify-angles': {
+    name: 'Góc nhọn, góc vuông, góc tù, góc bẹt',
+    description: 'Phân loại góc dựa vào số đo và hình minh họa.',
   },
   'parallel-perpendicular': {
     name: 'Nhận biết hai đường thẳng song song',
@@ -30,6 +46,10 @@ const narrowed: Record<string, Pick<ProblemBlueprint, 'name' | 'description'>> =
   'read-bar-chart': {
     name: 'Đọc giá trị trên biểu đồ cột',
     description: 'Đọc và tổng hợp số liệu từ biểu đồ cột.',
+  },
+  'number-pattern': {
+    name: 'Quy luật số (bổ trợ)',
+    description: 'Bài luyện tư duy về quy luật số; dùng như học liệu bổ trợ.',
   },
 };
 
@@ -143,7 +163,7 @@ const additionalBlueprints: ProblemBlueprint[] = [
     domainId: 'measurement',
     topicId: 'units',
     name: 'Đổi đơn vị diện tích',
-    description: 'Đổi các đơn vị diện tích liền kề phù hợp lớp 4.',
+    description: 'Đổi giữa đề-xi-mét vuông, mét vuông, mi-li-mét vuông và các đơn vị phù hợp.',
     family: 'UNIT_CONVERSION',
   },
   {
@@ -151,7 +171,7 @@ const additionalBlueprints: ProblemBlueprint[] = [
     domainId: 'measurement',
     topicId: 'time-and-money',
     name: 'Đổi đơn vị thời gian',
-    description: 'Đổi giờ, phút, giây, ngày và tuần trong tình huống đơn giản.',
+    description: 'Đổi giờ, phút, giây, ngày, tuần và thế kỉ trong tình huống phù hợp.',
     family: 'DURATION',
   },
   {
@@ -175,7 +195,7 @@ const additionalBlueprints: ProblemBlueprint[] = [
     domainId: 'geometry',
     topicId: 'geometry-basics',
     name: 'Nhận biết hình bình hành và hình thoi',
-    description: 'Nhận biết hình qua các cặp cạnh và đặc điểm trực quan.',
+    description: 'Nhận biết hình bình hành và hình thoi qua đặc điểm cạnh.',
     family: 'SHAPE',
   },
   {
@@ -226,6 +246,136 @@ const additionalBlueprints: ProblemBlueprint[] = [
     description: 'Tìm chênh lệch, lớn nhất hoặc nhỏ nhất trên biểu đồ cột.',
     family: 'DATA',
   },
+
+  // Missing independently-practicable skills from Toán 4 Kết nối tri thức.
+  {
+    id: 'even-odd-numbers',
+    domainId: 'number-and-operations',
+    topicId: 'natural-numbers',
+    name: 'Số chẵn, số lẻ',
+    description: 'Nhận biết số chẵn, số lẻ dựa vào chữ số tận cùng.',
+    family: 'PLACE_VALUE',
+  },
+  {
+    id: 'variable-expression',
+    domainId: 'number-and-operations',
+    topicId: 'expressions',
+    name: 'Biểu thức chứa chữ',
+    description: 'Tính giá trị biểu thức chứa chữ khi biết giá trị của chữ.',
+    family: 'EXPRESSION',
+  },
+  {
+    id: 'three-step-word-problem',
+    domainId: 'word-problems',
+    topicId: 'multi-step-word-problems',
+    name: 'Bài toán có ba bước tính',
+    description: 'Giải bài toán thực tế cần ba bước tính liên tiếp.',
+    family: 'WORD_PROBLEM',
+  },
+  {
+    id: 'measure-angle-degrees',
+    domainId: 'geometry',
+    topicId: 'geometry-basics',
+    name: 'Đo góc và đơn vị độ',
+    description: 'Đọc số đo góc theo đơn vị độ trên hình minh họa.',
+    family: 'ANGLE',
+  },
+  {
+    id: 'place-and-class',
+    domainId: 'number-and-operations',
+    topicId: 'natural-numbers',
+    name: 'Hàng và lớp',
+    description: 'Xác định hàng và lớp của chữ số trong số có nhiều chữ số.',
+    family: 'PLACE_VALUE',
+  },
+  {
+    id: 'numbers-to-million',
+    domainId: 'number-and-operations',
+    topicId: 'natural-numbers',
+    name: 'Số có sáu chữ số và số 1 000 000',
+    description: 'Đọc, viết và cấu tạo số có sáu chữ số, số một triệu.',
+    family: 'PLACE_VALUE',
+  },
+  {
+    id: 'natural-number-sequence',
+    domainId: 'number-and-operations',
+    topicId: 'natural-numbers',
+    name: 'Dãy số tự nhiên',
+    description: 'Nhận biết số liền trước, số liền sau và điền số trong dãy số tự nhiên.',
+    family: 'SEQUENCE',
+  },
+  {
+    id: 'addition-properties',
+    domainId: 'number-and-operations',
+    topicId: 'addition',
+    name: 'Tính chất giao hoán và kết hợp của phép cộng',
+    description: 'Vận dụng tính chất phép cộng để tính thuận tiện.',
+    family: 'ADD',
+  },
+  {
+    id: 'multiplication-properties',
+    domainId: 'number-and-operations',
+    topicId: 'multiplication',
+    name: 'Tính chất giao hoán và kết hợp của phép nhân',
+    description: 'Vận dụng tính chất phép nhân để tính thuận tiện.',
+    family: 'MULTIPLY',
+  },
+  {
+    id: 'multiply-divide-powers-of-ten',
+    domainId: 'number-and-operations',
+    topicId: 'multiplication',
+    name: 'Nhân, chia với 10, 100, 1 000',
+    description: 'Nhân hoặc chia số tự nhiên với 10, 100, 1 000 và các lũy thừa 10 phù hợp.',
+    family: 'MULTIPLY',
+  },
+  {
+    id: 'distributive-property',
+    domainId: 'number-and-operations',
+    topicId: 'multiplication',
+    name: 'Tính chất phân phối của phép nhân đối với phép cộng',
+    description: 'Vận dụng a × (b + c) = a × b + a × c để tính thuận tiện.',
+    family: 'MULTIPLY',
+  },
+  {
+    id: 'estimate-calculation',
+    domainId: 'number-and-operations',
+    topicId: 'multiplication',
+    name: 'Ước lượng trong tính toán',
+    description: 'Làm tròn các số thích hợp để ước lượng kết quả phép tính.',
+    family: 'ROUND',
+  },
+  {
+    id: 'statistical-data-series',
+    domainId: 'data-and-statistics',
+    topicId: 'tables-and-charts',
+    name: 'Dãy số liệu thống kê',
+    description: 'Đọc, nhận xét và khai thác dãy số liệu thống kê đơn giản.',
+    family: 'DATA',
+  },
+  {
+    id: 'event-frequency',
+    domainId: 'data-and-statistics',
+    topicId: 'tables-and-charts',
+    name: 'Số lần xuất hiện của một sự kiện',
+    description: 'Đếm và so sánh số lần một sự kiện xuất hiện trong phép thử đơn giản.',
+    family: 'DATA',
+  },
+  {
+    id: 'fraction-as-division',
+    domainId: 'fractions',
+    topicId: 'grade-4-fractions',
+    name: 'Phân số và phép chia số tự nhiên',
+    description: 'Viết thương của hai số tự nhiên dưới dạng phân số.',
+    family: 'FRACTION',
+  },
+  {
+    id: 'fraction-basic-property',
+    domainId: 'fractions',
+    topicId: 'grade-4-fractions',
+    name: 'Tính chất cơ bản của phân số',
+    description: 'Nhân hoặc chia cả tử số và mẫu số với cùng một số khác 0.',
+    family: 'FRACTION',
+  },
 ];
 
 export const finalizedProblemBlueprints: ProblemBlueprint[] = [
@@ -234,7 +384,7 @@ export const finalizedProblemBlueprints: ProblemBlueprint[] = [
 ];
 
 export const GRADE4_CONTENT_VERSION = 'grade4-v3';
-export const GRADE4_GENERATION_SEED = 'grade4-bank-v3-reviewed-100';
+export const GRADE4_GENERATION_SEED = 'grade4-bank-v3-kntt2026-80x100';
 export const MIN_QUESTIONS_PER_LEAF_TYPE = 100;
 export const MAX_QUESTIONS_PER_LEAF_TYPE = 100;
 export const QUESTIONS_PER_PROBLEM_TYPE = 100;

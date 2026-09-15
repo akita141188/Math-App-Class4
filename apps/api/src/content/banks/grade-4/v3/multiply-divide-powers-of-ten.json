@@ -1,0 +1,6862 @@
+[
+  {
+    "id": "g4-multiply-divide-powers-of-ten-6e944937eb9900a5",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t1",
+    "fingerprint": "686d60cf7e0b4728c1bf90a6d6c432ab",
+    "generatorParams": {
+      "base": 15,
+      "power": 10,
+      "divide": false,
+      "source": 15
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 15 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 150
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 × 10 = 150.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-5e534fbfe039b048",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t2",
+    "fingerprint": "4db2d2d7b48c44fbded08851fca973dc",
+    "generatorParams": {
+      "base": 16,
+      "power": 100,
+      "divide": false,
+      "source": 16
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 16 × 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1600
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 × 100 = 1.600.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-531c0480afe675a7",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t3",
+    "fingerprint": "5c3af353d7b90fde4d661aabaafba4e7",
+    "generatorParams": {
+      "base": 17,
+      "power": 1000,
+      "divide": false,
+      "source": 17
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 17 × 1.000.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "15.300"
+      },
+      {
+        "id": "option-2",
+        "label": "17.000"
+      },
+      {
+        "id": "option-3",
+        "label": "20.400"
+      },
+      {
+        "id": "option-4",
+        "label": "18.700"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 × 1.000 = 17.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-712a5e3ace29b344",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t4",
+    "fingerprint": "8f7d0b38e1e146e10054d8da1c57f174",
+    "generatorParams": {
+      "base": 18,
+      "power": 10,
+      "divide": true,
+      "source": 180
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 180 : 10. Bạn An cho rằng đáp án là 18. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "180 : 10 = 18.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-c01a39773941a6cf",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t5",
+    "fingerprint": "e4df89653cde05265502fcacdaa26538",
+    "generatorParams": {
+      "base": 19,
+      "power": 100,
+      "divide": true,
+      "source": 1900
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 1.900 : 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 19
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "1.900 : 100 = 19.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-ae2ae266b8aee736",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t1",
+    "fingerprint": "2f81778b54bc78ca3eb9b54abbd3bd0b",
+    "generatorParams": {
+      "base": 18,
+      "power": 10,
+      "divide": false,
+      "source": 18
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 18 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 180
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 × 10 = 180.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-e78fb1371be449f8",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t2",
+    "fingerprint": "b742f15527313798d3b5b53b2dcc697f",
+    "generatorParams": {
+      "base": 19,
+      "power": 100,
+      "divide": false,
+      "source": 19
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 19 × 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1900
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 100 = 1.900.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-c7d7beb0a711707d",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t3",
+    "fingerprint": "afae10a9c4db8a643e9e2d64452974ff",
+    "generatorParams": {
+      "base": 20,
+      "power": 1000,
+      "divide": false,
+      "source": 20
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 20 × 1.000.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "22.000"
+      },
+      {
+        "id": "option-2",
+        "label": "20.000"
+      },
+      {
+        "id": "option-3",
+        "label": "18.000"
+      },
+      {
+        "id": "option-4",
+        "label": "24.000"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 1.000 = 20.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-bc9e6b2f8f464df7",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t4",
+    "fingerprint": "131377d20b07f701dba9560a83e6064e",
+    "generatorParams": {
+      "base": 21,
+      "power": 10,
+      "divide": true,
+      "source": 210
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 210 : 10. Bạn An cho rằng đáp án là 23. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "210 : 10 = 21.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-9ba3995f3063f91d",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t5",
+    "fingerprint": "d57d38e6d6da04aa35c64974e39c87b3",
+    "generatorParams": {
+      "base": 22,
+      "power": 100,
+      "divide": true,
+      "source": 2200
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2.200 : 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 22
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.200 : 100 = 22.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-7f6926236e1996f1",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t1",
+    "fingerprint": "8bf30b3cd0cc3904bd35f428f8089194",
+    "generatorParams": {
+      "base": 21,
+      "power": 10,
+      "divide": false,
+      "source": 21
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 21 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 210
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 10 = 210.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-1819f34d6fe43082",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t2",
+    "fingerprint": "4b5a3c4b7a375e1d5a343fe258f52a02",
+    "generatorParams": {
+      "base": 22,
+      "power": 100,
+      "divide": false,
+      "source": 22
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 22 × 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2200
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "22 × 100 = 2.200.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-6a55671a94d1c500",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t3",
+    "fingerprint": "9c49f9b4f2daf45aefd48cdd00d22528",
+    "generatorParams": {
+      "base": 23,
+      "power": 1000,
+      "divide": false,
+      "source": 23
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 23 × 1.000.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "20.700"
+      },
+      {
+        "id": "option-2",
+        "label": "23.000"
+      },
+      {
+        "id": "option-3",
+        "label": "25.300"
+      },
+      {
+        "id": "option-4",
+        "label": "27.600"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23 × 1.000 = 23.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-3d59b15f386a80d7",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t4",
+    "fingerprint": "733e3d4a41d47ea6996da0e75d09bb45",
+    "generatorParams": {
+      "base": 24,
+      "power": 10,
+      "divide": true,
+      "source": 240
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 240 : 10. Bạn An cho rằng đáp án là 24. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "240 : 10 = 24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-ff35231337583c75",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t5",
+    "fingerprint": "99260c5ea49d202920fb280748fac572",
+    "generatorParams": {
+      "base": 25,
+      "power": 100,
+      "divide": true,
+      "source": 2500
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2.500 : 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 25
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.500 : 100 = 25.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-89702038de6fab7a",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t1",
+    "fingerprint": "7e4f7b516fb393f1e1289bf16867915f",
+    "generatorParams": {
+      "base": 24,
+      "power": 10,
+      "divide": false,
+      "source": 24
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 24 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 240
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "24 × 10 = 240.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-f05979720051604b",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t2",
+    "fingerprint": "15cfe79756de14f0126e9f874fcb6e80",
+    "generatorParams": {
+      "base": 25,
+      "power": 100,
+      "divide": false,
+      "source": 25
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 25 × 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2500
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "25 × 100 = 2.500.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-141aeb600ee96a5e",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t3",
+    "fingerprint": "9307c07decb10494420e773ebd78e9ed",
+    "generatorParams": {
+      "base": 26,
+      "power": 1000,
+      "divide": false,
+      "source": 26
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 26 × 1.000.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "23.400"
+      },
+      {
+        "id": "option-2",
+        "label": "28.600"
+      },
+      {
+        "id": "option-3",
+        "label": "26.000"
+      },
+      {
+        "id": "option-4",
+        "label": "31.200"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "26 × 1.000 = 26.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-8a5efd9d802a58b8",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t4",
+    "fingerprint": "a446cb2919828605636fd77c324b573d",
+    "generatorParams": {
+      "base": 27,
+      "power": 10,
+      "divide": true,
+      "source": 270
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 270 : 10. Bạn An cho rằng đáp án là 29. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "270 : 10 = 27.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-eec13c2077cb055d",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t5",
+    "fingerprint": "a2b94dfe7c5a3f17a3237f22d72bdd12",
+    "generatorParams": {
+      "base": 28,
+      "power": 100,
+      "divide": true,
+      "source": 2800
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 2.800 : 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 28
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2.800 : 100 = 28.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-7fc30a2643b2bd86",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t1",
+    "fingerprint": "45d9b0e1afd0f16946d3c9d663cc14db",
+    "generatorParams": {
+      "base": 27,
+      "power": 10,
+      "divide": false,
+      "source": 27
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 27 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 270
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "27 × 10 = 270.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-0a0701da3f2ee5a8",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t2",
+    "fingerprint": "11c219d60cf600ad1bd3f3b06ff6db46",
+    "generatorParams": {
+      "base": 28,
+      "power": 100,
+      "divide": false,
+      "source": 28
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 28 × 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2800
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "28 × 100 = 2.800.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-bcd146fe0ac77c98",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t3",
+    "fingerprint": "aac4612c69665f6e05d2ff9cfc2b86f5",
+    "generatorParams": {
+      "base": 29,
+      "power": 1000,
+      "divide": false,
+      "source": 29
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 29 × 1.000.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "26.100"
+      },
+      {
+        "id": "option-2",
+        "label": "31.900"
+      },
+      {
+        "id": "option-3",
+        "label": "34.800"
+      },
+      {
+        "id": "option-4",
+        "label": "29.000"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "29 × 1.000 = 29.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-42abc919dd84fb2b",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t4",
+    "fingerprint": "0e7b151102c51dbc0aadcbdac4284b6d",
+    "generatorParams": {
+      "base": 30,
+      "power": 10,
+      "divide": true,
+      "source": 300
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 300 : 10. Bạn An cho rằng đáp án là 30. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "300 : 10 = 30.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-519b961e0af20406",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t5",
+    "fingerprint": "0d9c67516cfd7d04995e3bf71f745748",
+    "generatorParams": {
+      "base": 31,
+      "power": 100,
+      "divide": true,
+      "source": 3100
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3.100 : 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 31
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3.100 : 100 = 31.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-54fdc269484a5022",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t1",
+    "fingerprint": "53332a29998794486c1bbdf26b1dd3c8",
+    "generatorParams": {
+      "base": 30,
+      "power": 10,
+      "divide": false,
+      "source": 30
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 30 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 300
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "30 × 10 = 300.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-b0b2b8ba5e17363f",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t2",
+    "fingerprint": "03ee812fc3112e22dc2f78987124875e",
+    "generatorParams": {
+      "base": 31,
+      "power": 100,
+      "divide": false,
+      "source": 31
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 31 × 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3100
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "31 × 100 = 3.100.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-fc9ca309ae2c9410",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t3",
+    "fingerprint": "7d26545fa7208bb0809f24882e7a4990",
+    "generatorParams": {
+      "base": 32,
+      "power": 1000,
+      "divide": false,
+      "source": 32
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 32 × 1.000.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "35.200"
+      },
+      {
+        "id": "option-2",
+        "label": "32.000"
+      },
+      {
+        "id": "option-3",
+        "label": "28.800"
+      },
+      {
+        "id": "option-4",
+        "label": "38.400"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "32 × 1.000 = 32.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-c96757808e0cf539",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t4",
+    "fingerprint": "19a17f50eea90b338e61bb1f544ea3d1",
+    "generatorParams": {
+      "base": 33,
+      "power": 10,
+      "divide": true,
+      "source": 330
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 330 : 10. Bạn An cho rằng đáp án là 36. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "330 : 10 = 33.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-e3652897caeabdfa",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t5",
+    "fingerprint": "d9af9f5b180746bebe223a72649f8c5e",
+    "generatorParams": {
+      "base": 34,
+      "power": 100,
+      "divide": true,
+      "source": 3400
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3.400 : 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 34
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3.400 : 100 = 34.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-c2b2deba4ce1145a",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t1",
+    "fingerprint": "68a8262269512b3dcd2f5d561ed3ac47",
+    "generatorParams": {
+      "base": 33,
+      "power": 10,
+      "divide": false,
+      "source": 33
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 33 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 330
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "33 × 10 = 330.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-4ca1d5d457c56d00",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t2",
+    "fingerprint": "604d35dcec759cba5424f172c6fe6428",
+    "generatorParams": {
+      "base": 34,
+      "power": 100,
+      "divide": false,
+      "source": 34
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 34 × 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3400
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "34 × 100 = 3.400.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-afed39b6053ccc98",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t3",
+    "fingerprint": "efd9d23d9cd5425966a970f510d0cbb1",
+    "generatorParams": {
+      "base": 35,
+      "power": 1000,
+      "divide": false,
+      "source": 35
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 35 × 1.000.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "31.500"
+      },
+      {
+        "id": "option-2",
+        "label": "35.000"
+      },
+      {
+        "id": "option-3",
+        "label": "42.000"
+      },
+      {
+        "id": "option-4",
+        "label": "38.500"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "35 × 1.000 = 35.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-4360ba64dd7d5da2",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t4",
+    "fingerprint": "25ed06cecb7b4f0a154afabeb5bc2771",
+    "generatorParams": {
+      "base": 36,
+      "power": 10,
+      "divide": true,
+      "source": 360
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 360 : 10. Bạn An cho rằng đáp án là 36. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "360 : 10 = 36.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-44203f08e2e905f1",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t5",
+    "fingerprint": "ef55a737be3f8797f7eb51fa3ee24434",
+    "generatorParams": {
+      "base": 37,
+      "power": 100,
+      "divide": true,
+      "source": 3700
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 3.700 : 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 37
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3.700 : 100 = 37.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-8f7607bf31390c37",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t1",
+    "fingerprint": "85fd7774a0ffeaa92a53fc7b66bf5dcc",
+    "generatorParams": {
+      "base": 36,
+      "power": 10,
+      "divide": false,
+      "source": 36
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 36 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 360
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "36 × 10 = 360.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-68a60941e1161bec",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t2",
+    "fingerprint": "f16f65e41e98a29318f057390620e3d0",
+    "generatorParams": {
+      "base": 37,
+      "power": 100,
+      "divide": false,
+      "source": 37
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 37 × 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3700
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "37 × 100 = 3.700.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-b6abcc1ac3024ad8",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t3",
+    "fingerprint": "a4b9ed8a9428edfc332cdd13bda22529",
+    "generatorParams": {
+      "base": 38,
+      "power": 1000,
+      "divide": false,
+      "source": 38
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 38 × 1.000.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "41.800"
+      },
+      {
+        "id": "option-2",
+        "label": "38.000"
+      },
+      {
+        "id": "option-3",
+        "label": "34.200"
+      },
+      {
+        "id": "option-4",
+        "label": "45.600"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "38 × 1.000 = 38.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-99902be0976dcc89",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t4",
+    "fingerprint": "36bd4a38fcc26a99b0e61006b5fbc7b0",
+    "generatorParams": {
+      "base": 39,
+      "power": 10,
+      "divide": true,
+      "source": 390
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 390 : 10. Bạn An cho rằng đáp án là 42. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "390 : 10 = 39.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-c9ce21ef836f9db8",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t5",
+    "fingerprint": "237030427eaacd4c596765b6908800eb",
+    "generatorParams": {
+      "base": 40,
+      "power": 100,
+      "divide": true,
+      "source": 4000
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4.000 : 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 40
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4.000 : 100 = 40.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-a203fe8c93cf4b07",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t1",
+    "fingerprint": "b9bb61849a07d1229eca890221ae48ab",
+    "generatorParams": {
+      "base": 39,
+      "power": 10,
+      "divide": false,
+      "source": 39
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 39 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 390
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "39 × 10 = 390.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-89fc29abcd46d1c0",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t2",
+    "fingerprint": "8d489d1ce492f24253886653ee30fb7b",
+    "generatorParams": {
+      "base": 40,
+      "power": 100,
+      "divide": false,
+      "source": 40
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 40 × 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 4000
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "40 × 100 = 4.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-1b6336121150c63b",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t3",
+    "fingerprint": "aba04a9ad8467d186a7aa4d3d660f4f1",
+    "generatorParams": {
+      "base": 41,
+      "power": 1000,
+      "divide": false,
+      "source": 41
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 41 × 1.000.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "49.200"
+      },
+      {
+        "id": "option-2",
+        "label": "41.000"
+      },
+      {
+        "id": "option-3",
+        "label": "36.900"
+      },
+      {
+        "id": "option-4",
+        "label": "45.100"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "41 × 1.000 = 41.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-b88e9b0c20cfeff7",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t4",
+    "fingerprint": "17df38ad079299c5fcecbbfe46ce2984",
+    "generatorParams": {
+      "base": 42,
+      "power": 10,
+      "divide": true,
+      "source": 420
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 420 : 10. Bạn An cho rằng đáp án là 42. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "420 : 10 = 42.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-9f6bde4563a1d08f",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t5",
+    "fingerprint": "cc06b94dacb7de1e6dcd4d27124a9048",
+    "generatorParams": {
+      "base": 43,
+      "power": 100,
+      "divide": true,
+      "source": 4300
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4.300 : 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 43
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4.300 : 100 = 43.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-cb744058dd05993a",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t1",
+    "fingerprint": "735f7f959ab5492483afd636cd3f17ab",
+    "generatorParams": {
+      "base": 42,
+      "power": 10,
+      "divide": false,
+      "source": 42
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 42 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 420
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "42 × 10 = 420.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-bb60680eb523a2de",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t2",
+    "fingerprint": "08b5bd9efc6a2abb20ffd5e4bf682236",
+    "generatorParams": {
+      "base": 43,
+      "power": 100,
+      "divide": false,
+      "source": 43
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 43 × 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 4300
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "43 × 100 = 4.300.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-3d58e1d4487c61b0",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t3",
+    "fingerprint": "813fcc1951fa11083cf23b4a8bcb0f59",
+    "generatorParams": {
+      "base": 44,
+      "power": 1000,
+      "divide": false,
+      "source": 44
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 44 × 1.000.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "39.600"
+      },
+      {
+        "id": "option-2",
+        "label": "48.400"
+      },
+      {
+        "id": "option-3",
+        "label": "44.000"
+      },
+      {
+        "id": "option-4",
+        "label": "52.800"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "44 × 1.000 = 44.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-65c5664bebfd9b2c",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t4",
+    "fingerprint": "611faf8c03ec97831b69ceec1afbd0ae",
+    "generatorParams": {
+      "base": 45,
+      "power": 10,
+      "divide": true,
+      "source": 450
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 450 : 10. Bạn An cho rằng đáp án là 49. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "450 : 10 = 45.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-9ddb4354164a7dc7",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t5",
+    "fingerprint": "556c91f8b2ed61784907cad091d57a12",
+    "generatorParams": {
+      "base": 46,
+      "power": 100,
+      "divide": true,
+      "source": 4600
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4.600 : 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 46
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4.600 : 100 = 46.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-3fd75dbe0ad73e65",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t1",
+    "fingerprint": "5d0cef5be54adbffe31b781131dc2c98",
+    "generatorParams": {
+      "base": 45,
+      "power": 10,
+      "divide": false,
+      "source": 45
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 45 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 450
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "45 × 10 = 450.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-e1d0f963a8eaef22",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t2",
+    "fingerprint": "96084801a1893070a1ecd05efb4ff241",
+    "generatorParams": {
+      "base": 46,
+      "power": 100,
+      "divide": false,
+      "source": 46
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 46 × 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 4600
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "46 × 100 = 4.600.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-4f7ab68034c2e9c7",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t3",
+    "fingerprint": "e754b83ec85a512cf1a7518daff39db0",
+    "generatorParams": {
+      "base": 47,
+      "power": 1000,
+      "divide": false,
+      "source": 47
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 47 × 1.000.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "51.700"
+      },
+      {
+        "id": "option-2",
+        "label": "56.400"
+      },
+      {
+        "id": "option-3",
+        "label": "42.300"
+      },
+      {
+        "id": "option-4",
+        "label": "47.000"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "47 × 1.000 = 47.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-8d8cba71d8554d33",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t4",
+    "fingerprint": "0808ef887b46d33dc7126501cebfb476",
+    "generatorParams": {
+      "base": 48,
+      "power": 10,
+      "divide": true,
+      "source": 480
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 480 : 10. Bạn An cho rằng đáp án là 48. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "480 : 10 = 48.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-c5eda670c0323601",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t5",
+    "fingerprint": "57012911f6d16748eb85077b704c2bfe",
+    "generatorParams": {
+      "base": 49,
+      "power": 100,
+      "divide": true,
+      "source": 4900
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 4.900 : 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 49
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4.900 : 100 = 49.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-3a040c7e5a080603",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t1",
+    "fingerprint": "af7746d2b5d839467f883e9089fc0b8b",
+    "generatorParams": {
+      "base": 48,
+      "power": 10,
+      "divide": false,
+      "source": 48
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 48 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 480
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "48 × 10 = 480.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-b6c6abcd14f3d54b",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t2",
+    "fingerprint": "fe8ac28eb3e35dc5a776551d215d8132",
+    "generatorParams": {
+      "base": 49,
+      "power": 100,
+      "divide": false,
+      "source": 49
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 49 × 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 4900
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "49 × 100 = 4.900.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-3ce8ccaaa7717b15",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t3",
+    "fingerprint": "2d723dad0b0a8e8b25f6096f79a26c41",
+    "generatorParams": {
+      "base": 50,
+      "power": 1000,
+      "divide": false,
+      "source": 50
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 50 × 1.000.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "60.000"
+      },
+      {
+        "id": "option-2",
+        "label": "55.000"
+      },
+      {
+        "id": "option-3",
+        "label": "45.000"
+      },
+      {
+        "id": "option-4",
+        "label": "50.000"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "50 × 1.000 = 50.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-940aca4a990aba2f",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t4",
+    "fingerprint": "5507cd9ecd356c823a4b41b5d22fd926",
+    "generatorParams": {
+      "base": 51,
+      "power": 10,
+      "divide": true,
+      "source": 510
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 510 : 10. Bạn An cho rằng đáp án là 56. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "510 : 10 = 51.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-517dcf0fdead6d77",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t5",
+    "fingerprint": "8b5216d3f53902af6dd187b2fa68068e",
+    "generatorParams": {
+      "base": 52,
+      "power": 100,
+      "divide": true,
+      "source": 5200
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5.200 : 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 52
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5.200 : 100 = 52.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-4c7886f93fca19d2",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t1",
+    "fingerprint": "bad3a804a6c56aff80d16d6f69a57a9f",
+    "generatorParams": {
+      "base": 51,
+      "power": 10,
+      "divide": false,
+      "source": 51
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 51 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 510
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "51 × 10 = 510.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-47ad99e4e9d897ce",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t2",
+    "fingerprint": "9d1f8f4979dfd7c4c2407b35a633d843",
+    "generatorParams": {
+      "base": 52,
+      "power": 100,
+      "divide": false,
+      "source": 52
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 52 × 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 5200
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "52 × 100 = 5.200.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-974a4f003ee4227b",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t3",
+    "fingerprint": "203c5307816ac6e208885f318719da95",
+    "generatorParams": {
+      "base": 53,
+      "power": 1000,
+      "divide": false,
+      "source": 53
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 53 × 1.000.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "47.700"
+      },
+      {
+        "id": "option-2",
+        "label": "63.600"
+      },
+      {
+        "id": "option-3",
+        "label": "58.300"
+      },
+      {
+        "id": "option-4",
+        "label": "53.000"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "53 × 1.000 = 53.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-118a3e53a7083c4e",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t4",
+    "fingerprint": "72dd7b8fe13c8c0af3eb478123405a01",
+    "generatorParams": {
+      "base": 54,
+      "power": 10,
+      "divide": true,
+      "source": 540
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 540 : 10. Bạn An cho rằng đáp án là 54. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "540 : 10 = 54.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-2a3708c42d1e53aa",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t5",
+    "fingerprint": "67a87dfe0c708e7737a638f8b7d13578",
+    "generatorParams": {
+      "base": 55,
+      "power": 100,
+      "divide": true,
+      "source": 5500
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5.500 : 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 55
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5.500 : 100 = 55.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-660aa7eb6ee2d61f",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t1",
+    "fingerprint": "650e0a2ad4a1e5872c2fafb5b9ffa02e",
+    "generatorParams": {
+      "base": 54,
+      "power": 10,
+      "divide": false,
+      "source": 54
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 54 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 540
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "54 × 10 = 540.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-5f7cd7a389874e0b",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t2",
+    "fingerprint": "175b0220d1ea2837d3c06a1b5a3428b5",
+    "generatorParams": {
+      "base": 55,
+      "power": 100,
+      "divide": false,
+      "source": 55
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 55 × 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 5500
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "55 × 100 = 5.500.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-7035bdc99cadcacb",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t3",
+    "fingerprint": "c149caca6848fa1189ad71a332c5df46",
+    "generatorParams": {
+      "base": 56,
+      "power": 1000,
+      "divide": false,
+      "source": 56
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 56 × 1.000.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "67.200"
+      },
+      {
+        "id": "option-2",
+        "label": "56.000"
+      },
+      {
+        "id": "option-3",
+        "label": "61.600"
+      },
+      {
+        "id": "option-4",
+        "label": "50.400"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "56 × 1.000 = 56.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-6fb61a78f8ba76ea",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t4",
+    "fingerprint": "a7cbc67ac22009f739a667613e50983b",
+    "generatorParams": {
+      "base": 57,
+      "power": 10,
+      "divide": true,
+      "source": 570
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 570 : 10. Bạn An cho rằng đáp án là 62. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "570 : 10 = 57.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-2d7bb01b9c3bfca0",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t5",
+    "fingerprint": "bca841e03dff39809ef21b153d1a67c5",
+    "generatorParams": {
+      "base": 58,
+      "power": 100,
+      "divide": true,
+      "source": 5800
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 5.800 : 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 58
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5.800 : 100 = 58.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-f38bf7265b7f2e8a",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t1",
+    "fingerprint": "d7f6408c5ed61bb501e596a5a087f47d",
+    "generatorParams": {
+      "base": 57,
+      "power": 10,
+      "divide": false,
+      "source": 57
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 57 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 570
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "57 × 10 = 570.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-5d14510bd04613ed",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t2",
+    "fingerprint": "85ba66fc21b1fc197b0e8a92f9b74d50",
+    "generatorParams": {
+      "base": 58,
+      "power": 100,
+      "divide": false,
+      "source": 58
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 58 × 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 5800
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "58 × 100 = 5.800.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-743dd383c34857b2",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t3",
+    "fingerprint": "58c90450eb9a0afe05a5e8aba4183ef5",
+    "generatorParams": {
+      "base": 59,
+      "power": 1000,
+      "divide": false,
+      "source": 59
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 59 × 1.000.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "53.100"
+      },
+      {
+        "id": "option-2",
+        "label": "59.000"
+      },
+      {
+        "id": "option-3",
+        "label": "64.900"
+      },
+      {
+        "id": "option-4",
+        "label": "70.800"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "59 × 1.000 = 59.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-88ee05d03bac6346",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t4",
+    "fingerprint": "db67553ff5de06ee901ab55373840f4e",
+    "generatorParams": {
+      "base": 60,
+      "power": 10,
+      "divide": true,
+      "source": 600
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 600 : 10. Bạn An cho rằng đáp án là 60. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "600 : 10 = 60.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-ba094f10c55f97c8",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t5",
+    "fingerprint": "1b723478f93f3afcaf2fb4be9c22431f",
+    "generatorParams": {
+      "base": 61,
+      "power": 100,
+      "divide": true,
+      "source": 6100
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6.100 : 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 61
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6.100 : 100 = 61.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-e7edfc12ff9e1610",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t1",
+    "fingerprint": "832851d0d8e7331814efd52441012fab",
+    "generatorParams": {
+      "base": 60,
+      "power": 10,
+      "divide": false,
+      "source": 60
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 60 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 600
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "60 × 10 = 600.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-5a3e2a99948872d6",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t2",
+    "fingerprint": "d23c16402b69d509198711ac9d391a41",
+    "generatorParams": {
+      "base": 61,
+      "power": 100,
+      "divide": false,
+      "source": 61
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 61 × 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 6100
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "61 × 100 = 6.100.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-8f052d2964fc084b",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t3",
+    "fingerprint": "38fb4855e2f5ff1a10004973048412c7",
+    "generatorParams": {
+      "base": 62,
+      "power": 1000,
+      "divide": false,
+      "source": 62
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 62 × 1.000.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "55.800"
+      },
+      {
+        "id": "option-2",
+        "label": "62.000"
+      },
+      {
+        "id": "option-3",
+        "label": "68.200"
+      },
+      {
+        "id": "option-4",
+        "label": "74.400"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "62 × 1.000 = 62.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-0d041a1ead8b1d2e",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t4",
+    "fingerprint": "0f564d9ca1d5a70dc801347b88ba8064",
+    "generatorParams": {
+      "base": 63,
+      "power": 10,
+      "divide": true,
+      "source": 630
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 630 : 10. Bạn An cho rằng đáp án là 69. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "630 : 10 = 63.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-b5b2f45c6b0e28c0",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t5",
+    "fingerprint": "e0811182b2ec4f7b793dd83eb0ce79e4",
+    "generatorParams": {
+      "base": 64,
+      "power": 100,
+      "divide": true,
+      "source": 6400
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6.400 : 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 64
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6.400 : 100 = 64.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-3d5c22463b7a1288",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t1",
+    "fingerprint": "038fc974c3443deee2b473c7cdcd13a0",
+    "generatorParams": {
+      "base": 63,
+      "power": 10,
+      "divide": false,
+      "source": 63
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 63 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 630
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "63 × 10 = 630.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-5260531d1c29749b",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t2",
+    "fingerprint": "26b430743535779315bfe6e2399c8cbd",
+    "generatorParams": {
+      "base": 64,
+      "power": 100,
+      "divide": false,
+      "source": 64
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 64 × 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 6400
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "64 × 100 = 6.400.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-4dd6ea24987ba78b",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t3",
+    "fingerprint": "3f57fefcdb81ae3edc66987582c3ed9c",
+    "generatorParams": {
+      "base": 65,
+      "power": 1000,
+      "divide": false,
+      "source": 65
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 65 × 1.000.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "71.500"
+      },
+      {
+        "id": "option-2",
+        "label": "58.500"
+      },
+      {
+        "id": "option-3",
+        "label": "78.000"
+      },
+      {
+        "id": "option-4",
+        "label": "65.000"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "65 × 1.000 = 65.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-f3d2c61cf0f4ae5a",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t4",
+    "fingerprint": "4e0ffd0784a0f603c01cc93fc26a87ae",
+    "generatorParams": {
+      "base": 66,
+      "power": 10,
+      "divide": true,
+      "source": 660
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 660 : 10. Bạn An cho rằng đáp án là 66. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "660 : 10 = 66.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-184ee217dc559873",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t5",
+    "fingerprint": "9810e10068aa341a8e36e931f36de8c1",
+    "generatorParams": {
+      "base": 67,
+      "power": 100,
+      "divide": true,
+      "source": 6700
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 6.700 : 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 67
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6.700 : 100 = 67.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-ae4e86c419d0306e",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t1",
+    "fingerprint": "8aebc1e5387d1a007850e812a98d77c1",
+    "generatorParams": {
+      "base": 66,
+      "power": 10,
+      "divide": false,
+      "source": 66
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 66 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 660
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "66 × 10 = 660.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-32d9c0d9f7018af0",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t2",
+    "fingerprint": "e4166cf4c4533a842ab9e8b389bd1ef2",
+    "generatorParams": {
+      "base": 67,
+      "power": 100,
+      "divide": false,
+      "source": 67
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 67 × 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 6700
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "67 × 100 = 6.700.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-1a260e74d2369f25",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t3",
+    "fingerprint": "06fe704dfddcc30bf5a6990623cc4a00",
+    "generatorParams": {
+      "base": 68,
+      "power": 1000,
+      "divide": false,
+      "source": 68
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 68 × 1.000.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "81.600"
+      },
+      {
+        "id": "option-2",
+        "label": "68.000"
+      },
+      {
+        "id": "option-3",
+        "label": "74.800"
+      },
+      {
+        "id": "option-4",
+        "label": "61.200"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "68 × 1.000 = 68.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-b0664ecd76f87da1",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t4",
+    "fingerprint": "6808c36da867170f3f16a2a1e9688440",
+    "generatorParams": {
+      "base": 69,
+      "power": 10,
+      "divide": true,
+      "source": 690
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 690 : 10. Bạn An cho rằng đáp án là 75. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "690 : 10 = 69.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-830f1a2f4c917633",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t5",
+    "fingerprint": "b73fcf03ca23c712800a10e40331558c",
+    "generatorParams": {
+      "base": 70,
+      "power": 100,
+      "divide": true,
+      "source": 7000
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7.000 : 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 70
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7.000 : 100 = 70.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-3972df73614057d0",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t1",
+    "fingerprint": "0fdbc9c287a030ef240a8ca757c4ccc0",
+    "generatorParams": {
+      "base": 69,
+      "power": 10,
+      "divide": false,
+      "source": 69
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 69 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 690
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "69 × 10 = 690.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-d4a60e30d13e3e51",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t2",
+    "fingerprint": "45000ef11e30d0d962ed4c9589f2ceed",
+    "generatorParams": {
+      "base": 70,
+      "power": 100,
+      "divide": false,
+      "source": 70
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 70 × 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 7000
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "70 × 100 = 7.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-7f4e82912d3e8f8c",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t3",
+    "fingerprint": "ce4aef9fc1bc582d372fb2b38e1c8204",
+    "generatorParams": {
+      "base": 71,
+      "power": 1000,
+      "divide": false,
+      "source": 71
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 71 × 1.000.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "78.100"
+      },
+      {
+        "id": "option-2",
+        "label": "63.900"
+      },
+      {
+        "id": "option-3",
+        "label": "71.000"
+      },
+      {
+        "id": "option-4",
+        "label": "85.200"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "71 × 1.000 = 71.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-0eb89bdb475bbeab",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t4",
+    "fingerprint": "545eefad4a79e13cef505270ed659b78",
+    "generatorParams": {
+      "base": 72,
+      "power": 10,
+      "divide": true,
+      "source": 720
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 720 : 10. Bạn An cho rằng đáp án là 72. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "720 : 10 = 72.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-57faa553053e8c15",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t5",
+    "fingerprint": "c63fc427827423d38edbc1cce319ddad",
+    "generatorParams": {
+      "base": 73,
+      "power": 100,
+      "divide": true,
+      "source": 7300
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7.300 : 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 73
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7.300 : 100 = 73.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-63ef36f1349da131",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t1",
+    "fingerprint": "544edf1e1c528594eae47781a2414a74",
+    "generatorParams": {
+      "base": 72,
+      "power": 10,
+      "divide": false,
+      "source": 72
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 72 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 720
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 10, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "72 × 10 = 720.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-d4b14c966fa88a9c",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t2",
+    "fingerprint": "9be4d33821f38af62bc83e5ebcb9c367",
+    "generatorParams": {
+      "base": 73,
+      "power": 100,
+      "divide": false,
+      "source": 73
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 73 × 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 7300
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 100, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "73 × 100 = 7.300.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-aa1ad064d4d38179",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t3",
+    "fingerprint": "6b722bf3dcb68a7a7b827b1b3543a2dc",
+    "generatorParams": {
+      "base": 74,
+      "power": 1000,
+      "divide": false,
+      "source": 74
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 74 × 1.000.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "88.800"
+      },
+      {
+        "id": "option-2",
+        "label": "74.000"
+      },
+      {
+        "id": "option-3",
+        "label": "66.600"
+      },
+      {
+        "id": "option-4",
+        "label": "81.400"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi nhân với 1.000, thêm số chữ số 0 tương ứng vào bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "74 × 1.000 = 74.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-15c4be9b62929bcb",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t4",
+    "fingerprint": "b99fab6a318863420938245ee74bb98a",
+    "generatorParams": {
+      "base": 75,
+      "power": 10,
+      "divide": true,
+      "source": 750
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 750 : 10. Bạn An cho rằng đáp án là 82. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 10, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "750 : 10 = 75.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiply-divide-powers-of-ten-642ee337044a668f",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiply-divide-powers-of-ten-t5",
+    "fingerprint": "adeeff72567135bd989418ab15e953f0",
+    "generatorParams": {
+      "base": 76,
+      "power": 100,
+      "divide": true,
+      "source": 7600
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiply-divide-powers-of-ten-skill",
+    "problemTypeId": "multiply-divide-powers-of-ten",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính 7.600 : 100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 76
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Khi chia số tròn cho 100, bỏ số chữ số 0 tương ứng ở bên phải."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7.600 : 100 = 76.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

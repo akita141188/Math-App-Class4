@@ -1,0 +1,460 @@
+/*
+ * UI V6 — one-viewport content panels + question navigator.
+ * Imported after redesign.css so these are intentional final overrides.
+ */
+
+.viewport-scroll-panel {
+  min-height: 0;
+  display: grid;
+  align-content: start;
+  gap: 12px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  padding: 1px 5px 12px 1px;
+}
+
+.viewport-scroll-panel::-webkit-scrollbar,
+.session-question-workspace::-webkit-scrollbar,
+.question-navigator::-webkit-scrollbar {
+  width: 8px;
+}
+
+.viewport-scroll-panel::-webkit-scrollbar-thumb,
+.session-question-workspace::-webkit-scrollbar-thumb,
+.question-navigator::-webkit-scrollbar-thumb {
+  background: #b9d8d0;
+  border-radius: 999px;
+}
+
+.viewport-scroll-panel::-webkit-scrollbar-track,
+.session-question-workspace::-webkit-scrollbar-track,
+.question-navigator::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.tests-scroll-panel .test-list-heading,
+.me-scroll-panel .history-showcase {
+  margin: 0 !important;
+}
+
+/* Fix compressed/overlapping stat content on the "Của em" screen. */
+.progress-stat {
+  box-sizing: border-box !important;
+  padding: 12px 14px !important;
+  display: grid !important;
+  grid-template-columns: 28px minmax(0, 1fr) !important;
+  grid-template-rows: auto auto !important;
+  grid-template-areas:
+    'icon value'
+    'icon label' !important;
+  align-content: center !important;
+  align-items: center !important;
+  column-gap: 9px !important;
+  row-gap: 4px !important;
+  overflow: hidden !important;
+}
+
+.progress-stat > svg {
+  grid-area: icon !important;
+  align-self: start !important;
+  width: 22px !important;
+  height: 22px !important;
+}
+
+.progress-stat > strong {
+  grid-area: value !important;
+  min-width: 0 !important;
+  font-size: 1.38rem !important;
+  line-height: 1 !important;
+}
+
+.progress-stat > span {
+  grid-area: label !important;
+  min-width: 0 !important;
+  font-size: 0.69rem !important;
+  line-height: 1.25 !important;
+  white-space: normal !important;
+  overflow-wrap: anywhere !important;
+}
+
+.accuracy-strip {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) auto !important;
+  align-items: center !important;
+  gap: 7px 10px !important;
+}
+
+.accuracy-strip > div {
+  grid-column: 1 / -1 !important;
+  min-width: 0 !important;
+}
+
+/* Shared left-side question navigator. */
+.question-navigator {
+  box-sizing: border-box;
+  min-width: 0;
+  min-height: 0;
+  padding: 14px;
+  overflow: auto;
+  border: 1px solid #d6e8e3;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.98);
+  box-shadow: var(--rd-shadow);
+}
+
+.question-navigator-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.question-navigator-heading strong,
+.question-navigator-heading span {
+  display: block;
+}
+
+.question-navigator-heading strong {
+  color: #0b4f46;
+  font-size: 0.88rem;
+}
+
+.question-navigator-heading span {
+  margin-top: 3px;
+  color: #748982;
+  font-size: 0.67rem;
+}
+
+.question-navigator-heading b {
+  flex: 0 0 auto;
+  padding: 5px 8px;
+  color: #08705d;
+  background: #e4f6f0;
+  border-radius: 999px;
+  font-size: 0.69rem;
+}
+
+.question-navigator-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.question-nav-button {
+  aspect-ratio: 1;
+  min-width: 0;
+  border: 1px solid #d6e5e1;
+  border-radius: 11px;
+  background: #f8fcfa;
+  color: #58736c;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.75rem;
+  font-weight: 900;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    border-color 0.15s ease,
+    background 0.15s ease;
+}
+
+.question-nav-button:hover:not(:disabled) {
+  transform: translateY(-1px);
+  border-color: #8fcbbb;
+  box-shadow: 0 6px 14px rgba(21, 93, 77, 0.1);
+}
+
+.question-nav-button.done:not(.current) {
+  color: #056654;
+  background: #dcf6ed;
+  border-color: #72c7b1;
+  box-shadow: inset 0 0 0 1px rgba(19, 143, 112, 0.08);
+}
+
+.question-nav-button.working:not(.current) {
+  color: #8a5b00;
+  background: #fff4d8;
+  border-color: #e9c96f;
+}
+
+.question-nav-button.current {
+  color: #fff;
+  background: linear-gradient(180deg, #10a98b, #05755f);
+  border-color: #05755f;
+  box-shadow: 0 7px 15px rgba(5, 117, 95, 0.2);
+}
+
+.question-nav-button:disabled {
+  cursor: wait;
+  opacity: 0.68;
+}
+
+.question-navigator-legend {
+  margin-top: 13px;
+  display: grid;
+  gap: 6px;
+  color: #71857f;
+  font-size: 0.64rem;
+}
+
+.question-navigator-legend span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.question-navigator-legend i {
+  width: 9px;
+  height: 9px;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+.legend-current {
+  background: #07826b;
+}
+
+.legend-done {
+  background: #9ddfcf;
+}
+
+.legend-working {
+  background: #f3cf77;
+}
+
+.session-question-workspace {
+  min-width: 0;
+  min-height: 0 !important;
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+
+.session-three-column {
+  min-width: 0;
+  min-height: 0;
+}
+
+.test-elapsed {
+  white-space: nowrap;
+}
+
+/* Keep right-side illustration decorative, never on top of cards/text. */
+.practice-companion,
+.test-attempt-companion {
+  box-sizing: border-box;
+}
+
+.practice-companion-art {
+  pointer-events: none;
+}
+
+@media (min-width: 1160px) {
+  /* Hero stays fixed; only the content below it scrolls. */
+  .redesign-tests,
+  .redesign-me {
+    box-sizing: border-box !important;
+    height: calc(100dvh - 70px) !important;
+    min-height: 0 !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    overflow: hidden !important;
+    grid-template-rows: auto minmax(0, 1fr) !important;
+  }
+
+  .redesign-tests {
+    gap: 10px !important;
+  }
+
+  .redesign-me {
+    gap: 12px !important;
+  }
+
+  .tests-hero,
+  .me-hero {
+    flex: 0 0 auto !important;
+    margin: 0 !important;
+  }
+
+  .tests-scroll-panel,
+  .me-scroll-panel {
+    min-height: 0 !important;
+  }
+
+  /* Study/test view: one browser viewport, three deliberate columns. */
+  .session-viewport-page {
+    box-sizing: border-box !important;
+    height: calc(100dvh - 70px) !important;
+    min-height: 0 !important;
+    padding-top: 10px !important;
+    padding-bottom: 12px !important;
+    overflow: hidden !important;
+    display: grid !important;
+    grid-template-rows: auto minmax(0, 1fr) !important;
+    gap: 9px !important;
+  }
+
+  .session-viewport-page .session-topline {
+    min-height: 42px !important;
+    margin: 0 !important;
+  }
+
+  .practice-page .session-topline {
+    grid-template-columns: auto minmax(0, 1fr) !important;
+  }
+
+  .test-attempt-page .session-topline {
+    grid-template-columns: auto minmax(0, 1fr) auto !important;
+  }
+
+  .session-three-column,
+  .practice-stage,
+  .test-layout {
+    height: 100% !important;
+    min-height: 0 !important;
+    grid-template-columns: 220px minmax(0, 1fr) 278px !important;
+    gap: 12px !important;
+    align-items: stretch !important;
+  }
+
+  .session-three-column > * {
+    min-height: 0 !important;
+  }
+
+  .session-question-workspace,
+  .practice-page .question-workspace,
+  .test-attempt-page .question-workspace {
+    box-sizing: border-box !important;
+    height: 100% !important;
+    min-height: 0 !important;
+    padding: clamp(22px, 2vw, 34px) !important;
+  }
+
+  .practice-companion,
+  .test-attempt-companion {
+    position: relative !important;
+    height: 100% !important;
+    min-height: 0 !important;
+    padding: 16px 16px 142px !important;
+    overflow: hidden !important;
+  }
+
+  .companion-progress-ring {
+    width: 94px !important;
+    height: 94px !important;
+    margin: 12px auto 10px !important;
+  }
+
+  .companion-progress-ring::after {
+    inset: 11px !important;
+  }
+
+  .companion-progress-ring strong {
+    font-size: 1.55rem !important;
+  }
+
+  .companion-card {
+    min-height: 52px !important;
+    margin-top: 7px !important;
+    padding: 8px 10px !important;
+  }
+
+  .companion-encouragement {
+    margin-top: 8px !important;
+    padding: 9px 10px !important;
+  }
+
+  .practice-companion-art {
+    left: 0 !important;
+    right: 0 !important;
+    bottom: -6px !important;
+    width: 100% !important;
+    height: 145px !important;
+    object-fit: cover !important;
+    object-position: center bottom !important;
+    opacity: 0.92 !important;
+    mask-image: linear-gradient(180deg, transparent 0%, #000 40%, #000 100%) !important;
+  }
+
+  /* Explicitly override old redesign rule that hid the test palette on desktop. */
+  .test-layout > .question-navigator {
+    display: block !important;
+    grid-column: 1 !important;
+  }
+
+  .test-attempt-page .session-question-workspace {
+    grid-column: 2 !important;
+  }
+
+  .test-attempt-companion {
+    grid-column: 3 !important;
+  }
+}
+
+@media (max-width: 1159px) {
+  .viewport-scroll-panel {
+    overflow: visible;
+    padding-right: 0;
+  }
+
+  .redesign-tests,
+  .redesign-me,
+  .session-viewport-page {
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  .session-three-column,
+  .practice-stage,
+  .test-layout {
+    grid-template-columns: 1fr !important;
+  }
+
+  .question-navigator {
+    overflow: visible;
+  }
+
+  .question-navigator-grid {
+    grid-template-columns: repeat(8, minmax(38px, 1fr));
+  }
+
+  .question-nav-button {
+    aspect-ratio: auto;
+    min-height: 42px;
+  }
+
+  .practice-companion,
+  .test-attempt-companion {
+    min-height: 260px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .practice-companion-art {
+    display: none !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .question-navigator-grid {
+    grid-template-columns: repeat(5, minmax(36px, 1fr));
+  }
+
+  .question-navigator-legend {
+    grid-template-columns: repeat(3, auto);
+    justify-content: start;
+    gap: 10px;
+  }
+
+  .session-viewport-page .session-topline,
+  .test-attempt-page .session-topline,
+  .practice-page .session-topline {
+    grid-template-columns: 1fr !important;
+  }
+
+  .test-elapsed {
+    justify-self: start;
+  }
+}

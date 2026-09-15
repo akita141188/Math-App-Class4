@@ -21,4 +21,25 @@ describe('canonical question schema', () => {
       'contentVersion must be a non-empty string',
     );
   });
+  it('accepts a 180-degree straight angle and rejects angles above 180 degrees', () => {
+    const base = generateQuestion(
+      finalizedProblemBlueprints.find((type) => type.id === 'classify-angles')!,
+      0,
+    );
+    const straight = {
+      ...base,
+      visual: {
+        type: 'ANGLE' as const,
+        alt: 'Góc bẹt 180 độ.',
+        degrees: 180,
+      },
+    };
+    expect(validateQuestionSchema(straight)).toEqual([]);
+    expect(
+      validateQuestionSchema({
+        ...straight,
+        visual: { ...straight.visual, degrees: 181 },
+      }),
+    ).toContain('angle visual is invalid');
+  });
 });

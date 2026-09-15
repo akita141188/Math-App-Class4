@@ -74,7 +74,7 @@ function validateVisual(value: unknown): string[] {
         ? []
         : ['shape visual is invalid'];
     case 'ANGLE':
-      return typeof value.degrees === 'number' && value.degrees > 0 && value.degrees < 180
+      return typeof value.degrees === 'number' && value.degrees > 0 && value.degrees <= 180
         ? []
         : ['angle visual is invalid'];
     case 'LINE_RELATION':

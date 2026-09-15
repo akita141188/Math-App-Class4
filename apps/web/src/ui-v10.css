@@ -1,0 +1,191 @@
+/*
+ * UI V10
+ * - Home uses all available desktop viewport height without crowding at the top.
+ * - Parent and child navigation are separated.
+ * - Review recommendations are compact 2/3-column cards.
+ */
+
+@media (min-width: 1160px) {
+  /*
+   * V9 used fixed-small rows, which removed scrolling but left a large dead area below.
+   * These minmax/fr tracks keep the same one-viewport contract while distributing
+   * the remaining vertical space across the four Home sections.
+   */
+  .redesign-shell > main > .redesign-home,
+  .app-shell > main > .redesign-home {
+    height: 100% !important;
+    min-height: 0 !important;
+    max-height: 100% !important;
+    padding: 12px 0 !important;
+    overflow: hidden !important;
+    display: grid !important;
+    grid-template-rows:
+      minmax(260px, 1.3fr)
+      minmax(150px, 0.75fr)
+      minmax(175px, 0.95fr)
+      minmax(150px, 0.8fr) !important;
+    gap: 10px !important;
+    align-content: stretch !important;
+  }
+
+  .redesign-home > section {
+    min-height: 0 !important;
+    height: 100% !important;
+  }
+
+  .redesign-home .home-start-section,
+  .redesign-home .home-topics-section {
+    grid-template-rows: 38px minmax(0, 1fr) !important;
+    gap: 8px !important;
+  }
+
+  .redesign-home .redesign-action-grid,
+  .redesign-home .action-grid,
+  .redesign-home .redesign-topic-grid,
+  .redesign-home .featured-topic-grid,
+  .redesign-home .home-middle-grid {
+    height: 100% !important;
+    min-height: 0 !important;
+  }
+
+  .redesign-home .redesign-action-tile,
+  .redesign-home .action-tile,
+  .redesign-home .continue-card-v3,
+  .redesign-home .continue-card,
+  .redesign-home .home-stats-card,
+  .redesign-home .topic-visual-card {
+    height: 100% !important;
+    min-height: 0 !important;
+  }
+
+  .redesign-home .home-hero,
+  .redesign-home .home-hero-v3 {
+    height: 100% !important;
+    min-height: 0 !important;
+  }
+
+  /* Parent area has its own navigation only. */
+  .parent-only-nav {
+    justify-self: center !important;
+    margin-inline: auto !important;
+  }
+
+  .parent-toggle-only {
+    justify-self: end !important;
+  }
+
+  .parent-area-toggle {
+    min-width: 150px !important;
+    justify-content: center !important;
+  }
+
+  /*
+   * Review cards: three columns on wide desktop.
+   * Each card keeps text at the top and a compact CTA footer at the bottom.
+   */
+  .review-page {
+    height: 100% !important;
+    min-height: 0 !important;
+    overflow-y: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  .review-intro {
+    margin-bottom: 18px !important;
+  }
+
+  .review-card-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 14px !important;
+    align-items: stretch !important;
+  }
+
+  .review-card {
+    min-height: 190px !important;
+    padding: 18px !important;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: minmax(0, 1fr) auto !important;
+    gap: 16px !important;
+    align-items: stretch !important;
+  }
+
+  .review-card-heading {
+    display: grid !important;
+    grid-template-columns: 52px minmax(0, 1fr) !important;
+    gap: 14px !important;
+    align-items: start !important;
+  }
+
+  .review-card-heading h2 {
+    margin: 2px 0 6px !important;
+    font-size: 1rem !important;
+    line-height: 1.25 !important;
+  }
+
+  .review-card-heading p {
+    margin: 0 !important;
+    font-size: 0.8rem !important;
+    line-height: 1.45 !important;
+  }
+
+  .review-card-footer {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 12px !important;
+    padding-top: 12px !important;
+    border-top: 1px solid #edf3f1 !important;
+  }
+
+  .review-card-footer a {
+    min-height: 40px !important;
+    padding-inline: 14px !important;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1159px) {
+  .review-card-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 12px !important;
+  }
+
+  .review-card {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr auto !important;
+  }
+
+  .review-card-heading {
+    display: grid !important;
+    grid-template-columns: 52px minmax(0, 1fr) !important;
+    gap: 12px !important;
+  }
+
+  .review-card-footer {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 10px !important;
+    margin-top: 12px !important;
+  }
+}
+
+@media (max-width: 759px) {
+  .review-card-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .review-card {
+    grid-template-columns: 1fr !important;
+  }
+
+  .review-card-footer {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 10px !important;
+    margin-top: 12px !important;
+  }
+}

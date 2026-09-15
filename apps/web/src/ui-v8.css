@@ -1,0 +1,97 @@
+/*
+ * UI V8 — remove the shell/main scrollbar on desktop.
+ *
+ * The top application chrome stays fixed. Route pages own their own scrolling:
+ * - ordinary routes scroll inside their PageContainer;
+ * - routes with a fixed hero/session layout keep PageContainer overflow hidden
+ *   and use their existing inner scroll panel.
+ */
+
+@media (min-width: 901px) {
+  html,
+  body,
+  #root {
+    width: 100%;
+    height: 100dvh !important;
+    min-height: 0 !important;
+    overflow: hidden !important;
+  }
+
+  .app-shell,
+  .redesign-shell,
+  .parent-shell,
+  .redesign-parent-shell {
+    width: 100%;
+    height: 100dvh !important;
+    min-height: 0 !important;
+    grid-template-rows: 70px minmax(0, 1fr) !important;
+    overflow: hidden !important;
+  }
+
+  /*
+   * This is the scrollbar that appeared at the extreme right edge of every page.
+   * The shell main element must only be a viewport host, never a scroll owner.
+   */
+  .redesign-shell > main,
+  .redesign-parent-shell > main,
+  .app-shell > main,
+  .parent-shell > main {
+    width: 100%;
+    height: 100%;
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden !important;
+    scrollbar-gutter: auto !important;
+  }
+
+  /*
+   * Default routes scroll inside the actual route content, so the scrollbar sits
+   * with the content instead of on the browser's far-right edge.
+   */
+  .redesign-shell > main > .page-container,
+  .redesign-parent-shell > main > .page-container,
+  .app-shell > main > .page-container,
+  .parent-shell > main > .page-container {
+    box-sizing: border-box !important;
+    max-height: 100% !important;
+    min-height: 0 !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-gutter: stable;
+  }
+
+  /*
+   * These screens already have their own deliberate inner scroll region.
+   * Keep their page container locked so hero/header/session chrome does not move.
+   */
+  .redesign-shell > main > .problem-types-page,
+  .redesign-shell > main > .redesign-tests,
+  .redesign-shell > main > .redesign-me,
+  .redesign-shell > main > .session-viewport-page,
+  .redesign-parent-shell > main > .redesign-parent-page {
+    overflow: hidden !important;
+  }
+
+  .redesign-shell > main > .page-container::-webkit-scrollbar,
+  .redesign-parent-shell > main > .page-container::-webkit-scrollbar,
+  .app-shell > main > .page-container::-webkit-scrollbar,
+  .parent-shell > main > .page-container::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .redesign-shell > main > .page-container::-webkit-scrollbar-thumb,
+  .redesign-parent-shell > main > .page-container::-webkit-scrollbar-thumb,
+  .app-shell > main > .page-container::-webkit-scrollbar-thumb,
+  .parent-shell > main > .page-container::-webkit-scrollbar-thumb {
+    background: #b9d8d0;
+    border-radius: 999px;
+  }
+
+  .redesign-shell > main > .page-container::-webkit-scrollbar-track,
+  .redesign-parent-shell > main > .page-container::-webkit-scrollbar-track,
+  .app-shell > main > .page-container::-webkit-scrollbar-track,
+  .parent-shell > main > .page-container::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}

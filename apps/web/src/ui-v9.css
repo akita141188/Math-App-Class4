@@ -1,0 +1,86 @@
+/*
+ * UI V9
+ * 1) Home is a true one-viewport dashboard on desktop (no route scrollbar).
+ * 2) V8 shell scroll ownership remains unchanged for other routes.
+ */
+
+@media (min-width: 1160px) {
+  .redesign-shell > main > .redesign-home,
+  .app-shell > main > .redesign-home {
+    box-sizing: border-box !important;
+    width: calc(100vw - 48px) !important;
+    height: 100% !important;
+    max-height: 100% !important;
+    min-height: 0 !important;
+    padding: 10px 0 !important;
+    overflow: hidden !important;
+    display: grid !important;
+    grid-template-rows:
+      clamp(220px, 31vh, 286px)
+      132px
+      146px
+      124px !important;
+    gap: 8px !important;
+    align-content: start !important;
+  }
+
+  .redesign-home > section {
+    min-height: 0 !important;
+    overflow: hidden !important;
+  }
+
+  .redesign-home .home-hero,
+  .redesign-home .home-hero-v3 {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 0 !important;
+  }
+
+  .redesign-home .home-start-section,
+  .redesign-home .home-topics-section {
+    display: grid !important;
+    grid-template-rows: 32px minmax(0, 1fr) !important;
+    gap: 6px !important;
+  }
+
+  .redesign-home .redesign-action-grid,
+  .redesign-home .action-grid,
+  .redesign-home .redesign-topic-grid,
+  .redesign-home .featured-topic-grid {
+    min-height: 0 !important;
+    height: 100% !important;
+  }
+
+  .redesign-home .redesign-action-tile,
+  .redesign-home .action-tile {
+    min-height: 0 !important;
+    height: 100% !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .redesign-home .home-middle-grid {
+    min-height: 0 !important;
+    height: 100% !important;
+  }
+
+  .redesign-home .continue-card-v3,
+  .redesign-home .continue-card,
+  .redesign-home .home-stats-card {
+    min-height: 0 !important;
+    height: 100% !important;
+  }
+
+  .redesign-home .topic-visual-card {
+    min-height: 0 !important;
+    height: 100% !important;
+  }
+}
+
+/* On narrower desktop widths, keep route scrolling available instead of clipping content. */
+@media (min-width: 901px) and (max-width: 1159px) {
+  .redesign-shell > main > .redesign-home,
+  .app-shell > main > .redesign-home {
+    overflow-y: auto !important;
+  }
+}

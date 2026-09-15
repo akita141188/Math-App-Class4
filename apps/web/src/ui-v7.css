@@ -1,0 +1,150 @@
+/*
+ * UI V7 follow-up
+ * - fixed catalog hero with inner content scroll
+ * - resumable history cards
+ * - compact written-solution answer field
+ */
+
+.written-answer.written-answer-final-only {
+  display: block !important;
+}
+
+.written-answer.written-answer-final-only label {
+  display: grid !important;
+  gap: 8px !important;
+  color: #254b43 !important;
+  font-weight: 800 !important;
+}
+
+.written-answer.written-answer-final-only input {
+  width: 100% !important;
+  min-height: 54px !important;
+  padding: 0 16px !important;
+  border: 1px solid #bcd8d0 !important;
+  border-radius: 13px !important;
+  background: #fff !important;
+  color: #143e37 !important;
+  font: inherit !important;
+}
+
+.history-in-progress,
+.history-completed-section {
+  display: grid;
+  gap: 12px;
+}
+
+.history-in-progress + .history-completed-section {
+  margin-top: 24px;
+}
+
+.history-section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.history-section-title > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.history-section-title h2 {
+  margin: 0;
+  color: #0b5147;
+  font-size: 1.05rem;
+}
+
+.history-section-title > span {
+  padding: 5px 9px;
+  border-radius: 999px;
+  color: #637a74;
+  background: #edf5f2;
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.history-card-draft {
+  border-color: #e9cf8d !important;
+  background: linear-gradient(145deg, #fffef9, #fff8e7) !important;
+}
+
+.history-card-draft > svg {
+  color: #c78713 !important;
+}
+
+.history-card-draft .page-kicker {
+  color: #9b6810 !important;
+}
+
+.history-draft-progress {
+  color: #a56d0d !important;
+}
+
+@media (min-width: 1160px) {
+  .problem-types-page {
+    box-sizing: border-box !important;
+    height: calc(100dvh - 70px) !important;
+    min-height: 0 !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    overflow: hidden !important;
+    grid-template-rows: auto minmax(0, 1fr) !important;
+  }
+
+  .problem-types-page > .catalog-hero {
+    min-height: 0 !important;
+    margin: 0 !important;
+  }
+
+  .catalog-scroll-panel {
+    min-height: 0 !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    overscroll-behavior: contain;
+    scrollbar-gutter: stable;
+    scrollbar-width: thin;
+    display: grid !important;
+    align-content: start !important;
+    gap: 12px !important;
+    padding: 1px 5px 10px 1px !important;
+  }
+
+  .catalog-scroll-panel::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .catalog-scroll-panel::-webkit-scrollbar-thumb {
+    background: #b9d8d0;
+    border-radius: 999px;
+  }
+
+  .catalog-scroll-panel .catalog-tools,
+  .catalog-scroll-panel .select-all-control,
+  .catalog-scroll-panel .problem-type-grid,
+  .catalog-scroll-panel .empty-state {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .catalog-scroll-panel .practice-config {
+    position: sticky !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 1159px) {
+  .catalog-scroll-panel {
+    overflow: visible !important;
+  }
+
+  .problem-types-page {
+    height: auto !important;
+    overflow: visible !important;
+  }
+}

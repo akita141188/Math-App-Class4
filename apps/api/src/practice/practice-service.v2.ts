@@ -28,14 +28,17 @@ export class PracticeServiceV2 {
       input.problemTypeIds.some((id) => !allProblemTypes.has(id))
     )
       throw new BadRequestException('Có dạng toán không hợp lệ.');
+
     const filteredDifficulty = input.difficulty === 'ALL' ? undefined : input.difficulty;
     const eligible = this.contentService.getFullQuestions({
       problemTypeIds: input.problemTypeIds,
       difficulty: filteredDifficulty,
     });
     const requestedCount = input.questionCount === 'ALL' ? eligible.length : input.questionCount;
+
     if (requestedCount > eligible.length)
       throw new BadRequestException(`Only ${eligible.length} eligible questions are available.`);
+
     const seed = input.randomSeed ?? `${Date.now()}-${randomBytes(12).toString('hex')}`;
     const selectedQuestions = selectRotatingPracticeQuestions({
       questions: eligible,
@@ -44,6 +47,7 @@ export class PracticeServiceV2 {
       recentQuestions: input.recentQuestions,
       rng: seededRandom(seed),
     });
+
     if (selectedQuestions.length !== requestedCount)
       throw new BadRequestException(
         `Không đủ câu hỏi phù hợp: cần ${input.questionCount}, chọn được ${selectedQuestions.length}.`,
@@ -70,7 +74,11 @@ export class PracticeServiceV2 {
       completed: false,
       questions: selectedQuestions.map(toStudentQuestion),
     };
-    this.sessions.set(id, { publicSession, questionSnapshots: structuredClone(selectedQuestions) });
+
+    this.sessions.set(id, {
+      publicSession,
+      questionSnapshots: structuredClone(selectedQuestions),
+    });
     return publicSession;
   }
 
@@ -80,14 +88,26 @@ export class PracticeServiceV2 {
 
   answer(id: string, input: SubmitPracticeAnswerDto): SubmitPracticeAnswerResponse {
     const session = this.getInternal(id);
-    const question = session.questionSnapshots[session.publicSession.currentQuestionIndex];
-    if (!question || question.id !== input.questionId)
-      throw new BadRequestException('Câu trả lời không khớp câu hỏi hiện tại.');
+    const questionIndex = session.questionSnapshots.findIndex(
+      (question) => question.id === input.questionId,
+    );
+    const question = session.questionSnapshots[questionIndex];
+
+    if (questionIndex < 0 || !question)
+      throw new BadRequestException('Câu trả lời không thuộc phiên luyện tập hiện tại.');
+
+    const alreadySolved = session.publicSession.attempts.some(
+      (attempt) => attempt.questionId === input.questionId && attempt.correct,
+    );
+    if (alreadySolved) throw new BadRequestException('Câu này đã được hoàn thành.');
+
     const result = validateStudentAnswer(question, input.answer);
     const previousHintCount = session.publicSession.attempts
       .filter((attempt) => attempt.questionId === input.questionId)
       .reduce((maximum, attempt) => Math.max(maximum, attempt.hintCount), 0);
+
     session.publicSession.hintUsage += Math.max(0, input.hintCount - previousHintCount);
+
     const answeredAt = new Date().toISOString();
     session.publicSession.attempts.push({
       questionId: input.questionId,
@@ -96,6 +116,7 @@ export class PracticeServiceV2 {
       misconception: result.misconception,
       answeredAt,
     });
+
     if (!result.correct && result.misconception)
       session.publicSession.mistakes.push({
         questionId: input.questionId,
@@ -103,12 +124,33 @@ export class PracticeServiceV2 {
         misconception: result.misconception,
         occurredAt: answeredAt,
       });
-    if (result.correct) {
-      session.publicSession.correctCount += 1;
-      session.publicSession.currentQuestionIndex += 1;
-      session.publicSession.completed =
-        session.publicSession.currentQuestionIndex >= session.publicSession.questionCount;
+
+    const solvedIds = new Set(
+      session.publicSession.attempts
+        .filter((attempt) => attempt.correct)
+        .map((attempt) => attempt.questionId),
+    );
+
+    session.publicSession.correctCount = solvedIds.size;
+    session.publicSession.completed = solvedIds.size >= session.publicSession.questionCount;
+
+    if (session.publicSession.completed) {
+      session.publicSession.currentQuestionIndex = session.publicSession.questionCount;
+    } else if (!result.correct) {
+      session.publicSession.currentQuestionIndex = questionIndex;
+    } else {
+      let nextIndex = questionIndex;
+      for (let offset = 1; offset <= session.questionSnapshots.length; offset += 1) {
+        const candidateIndex = (questionIndex + offset) % session.questionSnapshots.length;
+        const candidate = session.questionSnapshots[candidateIndex];
+        if (candidate && !solvedIds.has(candidate.id)) {
+          nextIndex = candidateIndex;
+          break;
+        }
+      }
+      session.publicSession.currentQuestionIndex = nextIndex;
     }
+
     return {
       result,
       correctAnswerSummary: result.correct ? expectedAnswerSummary(question) : undefined,

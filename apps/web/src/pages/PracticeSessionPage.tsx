@@ -20,22 +20,21 @@ import {
   Star,
   Trophy,
 } from 'lucide-react';
-import { useEffect, useReducer, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
-import { createPracticeSession, submitPracticeAnswer } from '../api/client';
+import { createPracticeSession, getPracticeSession, submitPracticeAnswer } from '../api/client';
 import { Button } from '../components/Button';
 import { FeedbackState } from '../components/FeedbackState';
 import { PageContainer } from '../components/PageContainer';
 import { ProgressIndicator } from '../components/ProgressIndicator';
+import { QuestionNavigator } from '../components/QuestionNavigator';
+import { localLearningHistoryRepository } from '../features/progress/learningHistoryRepository';
+import { localProgressRepository } from '../features/progress/progressRepository';
+import { localQuestionHistoryRepository } from '../features/progress/questionHistoryRepository';
+import { inProgressSessionRepository } from '../features/progress/inProgressSessionRepository';
+import { useSessionExitGuard } from '../hooks/useSessionExitGuard';
 import { AnswerInput } from '../features/question/AnswerInput';
 import { QuestionVisualRendererV2 } from '../features/question/QuestionVisualRendererV2';
-import {
-  initialPracticeFlow,
-  practiceFlowReducer,
-} from '../features/learning-session/practiceFlowReducer';
-import { localProgressRepository } from '../features/progress/progressRepository';
-import { localLearningHistoryRepository } from '../features/progress/learningHistoryRepository';
-import { localQuestionHistoryRepository } from '../features/progress/questionHistoryRepository';
 
 function isFractionAnswer(answer: StudentAnswer): answer is FractionAnswer {
   if (typeof answer !== 'object' || Array.isArray(answer) || answer === null) return false;
@@ -67,6 +66,27 @@ function submittedAnswer(answer: StudentAnswer | null, question: StudentQuestion
   return '';
 }
 
+function withoutKey<T>(record: Record<string, T>, key: string): Record<string, T> {
+  const next = { ...record };
+  delete next[key];
+  return next;
+}
+
+function recentQuestionsForRequest(
+  problemTypeIds: readonly string[],
+  requestedCount: number | 'ALL',
+) {
+  if (requestedCount === 'ALL') return [];
+
+  // A previous 1,000-question session can leave ~1,000 history references in localStorage.
+  // Sending all of them can exceed Express' default JSON body limit. Keep a broad,
+  // recent window for rotation while bounding the request payload.
+  return localQuestionHistoryRepository
+    .getRecent(problemTypeIds)
+    .sort((left, right) => right.lastSeenAt.localeCompare(left.lastSeenAt))
+    .slice(0, 300);
+}
+
 export function PracticeSessionPage() {
   const [searchParams] = useSearchParams();
   const problemTypeIds = (searchParams.get('types') ?? 'multiply-one-digit')
@@ -78,16 +98,21 @@ export function PracticeSessionPage() {
   const requestedCount =
     countParam === 'ALL' ? 'ALL' : Math.min(50, Math.max(1, Number(countParam)));
   const runSeed = searchParams.get('run') ?? undefined;
+  const resumeSessionId = searchParams.get('resume') ?? undefined;
+
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [answer, setAnswer] = useState<StudentAnswer | null>(null);
-  const [flow, dispatch] = useReducer(practiceFlowReducer, initialPracticeFlow);
-  const hintCount = flow.hintLevel;
-  const [lastResult, setLastResult] = useState<SubmitPracticeAnswerResponse | null>(null);
+  const [answers, setAnswers] = useState<Record<string, StudentAnswer>>({});
+  const [hintLevels, setHintLevels] = useState<Record<string, number>>({});
+  const [responses, setResponses] = useState<Record<string, SubmitPracticeAnswerResponse>>({});
+  const [solvedQuestionIds, setSolvedQuestionIds] = useState<Set<string>>(() => new Set());
+  const [attemptedQuestionIds, setAttemptedQuestionIds] = useState<Set<string>>(() => new Set());
   const resultsRef = useRef(new Map<string, StoredQuestionResult>());
+  const restoredDraftRef = useRef(false);
 
   const sessionQuery = useQuery({
     queryKey: [
       'practice-session',
+      resumeSessionId ?? 'new',
       problemTypeIds.join(','),
       difficulty,
       mode,
@@ -95,60 +120,106 @@ export function PracticeSessionPage() {
       runSeed,
     ],
     queryFn: () =>
-      createPracticeSession({
-        grade: 4,
-        problemTypeIds,
-        difficulty: difficulty ?? undefined,
-        questionCount: requestedCount,
-        mode,
-        recentQuestions: localQuestionHistoryRepository.getRecent(problemTypeIds),
-        randomSeed: runSeed,
-      }),
+      resumeSessionId
+        ? getPracticeSession(resumeSessionId)
+        : createPracticeSession({
+            grade: 4,
+            problemTypeIds,
+            difficulty: difficulty ?? undefined,
+            questionCount: requestedCount,
+            mode,
+            recentQuestions: recentQuestionsForRequest(problemTypeIds, requestedCount),
+            randomSeed: runSeed,
+          }),
     staleTime: Infinity,
     retry: false,
   });
+
   const session = sessionQuery.data;
   const question = session?.questions[currentIndex];
+  const answer = question ? (answers[question.id] ?? null) : null;
+  const hintCount = question ? (hintLevels[question.id] ?? 0) : 0;
+  const lastResult = question ? (responses[question.id] ?? null) : null;
 
   useEffect(() => {
-    if (session) localQuestionHistoryRepository.record(session.questions, session.startedAt);
-  }, [session]);
+    if (!session) return;
+
+    if (!resumeSessionId) {
+      localQuestionHistoryRepository.record(session.questions, session.startedAt);
+    }
+
+    setSolvedQuestionIds(
+      new Set(
+        session.attempts.filter((attempt) => attempt.correct).map((attempt) => attempt.questionId),
+      ),
+    );
+    setAttemptedQuestionIds(new Set(session.attempts.map((attempt) => attempt.questionId)));
+
+    if (resumeSessionId && !restoredDraftRef.current) {
+      const draft = inProgressSessionRepository.get(session.id);
+      if (draft?.sessionType === 'PRACTICE') {
+        setCurrentIndex(Math.min(draft.currentIndex, Math.max(0, session.questionCount - 1)));
+        setAnswers(draft.answers);
+        setHintLevels(draft.hintLevels);
+        resultsRef.current = new Map(draft.results.map((result) => [result.questionId, result]));
+      }
+      restoredDraftRef.current = true;
+    }
+  }, [resumeSessionId, session]);
 
   const answerMutation = useMutation({
     mutationFn: ({
       sessionId,
-      question: activeQuestion,
+      activeQuestion,
+      submitted,
+      usedHints,
     }: {
       sessionId: string;
-      question: StudentQuestion;
+      activeQuestion: StudentQuestion;
+      submitted: StudentAnswer;
+      usedHints: number;
     }) =>
       submitPracticeAnswer(sessionId, {
         questionId: activeQuestion.id,
-        answer: submittedAnswer(answer, activeQuestion),
-        hintCount,
+        answer: submitted,
+        hintCount: usedHints,
       }),
-    onSuccess: (response) => {
-      if (!question) return;
-      localProgressRepository.recordAttempt(question.skillId, response.result, hintCount);
-      const prior = resultsRef.current.get(question.id);
+    onSuccess: (response, variables) => {
+      const activeQuestion = variables.activeQuestion;
+      setAttemptedQuestionIds((current) => new Set(current).add(activeQuestion.id));
+
+      localProgressRepository.recordAttempt(
+        activeQuestion.skillId,
+        response.result,
+        variables.usedHints,
+      );
+
+      const prior = resultsRef.current.get(activeQuestion.id);
       const storedResult: StoredQuestionResult = {
-        questionId: question.id,
-        leafTypeId: question.problemTypeId,
-        topicId: question.topicId,
-        difficulty: question.difficulty,
-        assessmentLevel: question.assessmentLevel,
-        format: question.format,
+        questionId: activeQuestion.id,
+        leafTypeId: activeQuestion.problemTypeId,
+        topicId: activeQuestion.topicId,
+        difficulty: activeQuestion.difficulty,
+        assessmentLevel: activeQuestion.assessmentLevel,
+        format: activeQuestion.format,
         correct: response.result.correct && prior?.correct !== false,
         unanswered: false,
-        hintCount: Math.max(hintCount, prior?.hintCount ?? 0),
+        hintCount: Math.max(variables.usedHints, prior?.hintCount ?? 0),
         answeredAt: new Date().toISOString(),
-        studentAnswer: submittedAnswer(answer, question),
+        studentAnswer: variables.submitted,
         correctAnswerSummary: response.correctAnswerSummary,
-        questionSummary: question.stem,
+        questionSummary: activeQuestion.stem,
         explanation: response.result.explanation,
       };
-      resultsRef.current.set(question.id, storedResult);
+      resultsRef.current.set(activeQuestion.id, storedResult);
+
+      if (response.result.correct) {
+        setSolvedQuestionIds((current) => new Set(current).add(activeQuestion.id));
+      }
+      setResponses((current) => ({ ...current, [activeQuestion.id]: response }));
+
       if (response.completed && session) {
+        inProgressSessionRepository.remove(session.id);
         const completedAt = new Date().toISOString();
         const questionResults = session.questions.map(
           (item): StoredQuestionResult =>
@@ -192,13 +263,43 @@ export function PracticeSessionPage() {
         };
         localLearningHistoryRepository.save(history);
       }
-      setLastResult(response);
-      dispatch({
-        type: 'ANSWER_RESULT',
-        correct: response.result.correct,
-        completed: response.completed,
-      });
     },
+  });
+
+  const solvedCount = solvedQuestionIds.size;
+  const persistDraft = () => {
+    if (!session || session.completed || lastResult?.completed) return;
+
+    const practiceLabel =
+      session.mode === 'REVIEW'
+        ? 'Ôn tập đang làm dở'
+        : session.mode === 'LEARN'
+          ? 'Học có gợi ý đang làm dở'
+          : 'Luyện tập đang làm dở';
+
+    inProgressSessionRepository.save({
+      id: session.id,
+      sessionType: 'PRACTICE',
+      title: practiceLabel,
+      startedAt: session.startedAt,
+      savedAt: new Date().toISOString(),
+      resumePath: `/practice?resume=${encodeURIComponent(session.id)}`,
+      currentIndex,
+      totalQuestions: session.questionCount,
+      answeredCount: solvedCount,
+      practiceMode: session.mode,
+      selectedLeafTypeIds: session.selectedProblemTypes,
+      answers,
+      hintLevels,
+      results: [...resultsRef.current.values()],
+    });
+  };
+
+  useSessionExitGuard({
+    enabled: Boolean(session && !session.completed && !lastResult?.completed),
+    message:
+      'Em đang làm dở. Nếu thoát, bài sẽ được lưu vào Lịch sử để em có thể làm tiếp sau. Thoát bây giờ?',
+    onConfirmedExit: persistDraft,
   });
 
   if (sessionQuery.isLoading) {
@@ -210,14 +311,26 @@ export function PracticeSessionPage() {
       </PageContainer>
     );
   }
+
   if (!session || !question) {
     return (
       <PageContainer>
         <div className={'empty-state'}>
-          <h1>Chưa tạo được phiên luyện tập</h1>
-          <p>Hãy chọn lại dạng Toán hoặc mức độ khác.</p>
-          <Link className={'button button-secondary'} to={'/learn/types'}>
-            Chọn dạng Toán
+          <h1>
+            {resumeSessionId ? 'Chưa thể mở lại bài đang làm dở' : 'Chưa tạo được phiên luyện tập'}
+          </h1>
+          <p>
+            {resumeSessionId
+              ? 'Phiên này không còn trên máy chủ hiện tại. Em có thể quay lại Lịch sử hoặc chọn một bộ mới.'
+              : sessionQuery.error instanceof Error
+                ? sessionQuery.error.message
+                : 'Hãy chọn lại dạng Toán hoặc mức độ khác.'}
+          </p>
+          <Link
+            className={'button button-secondary'}
+            to={resumeSessionId ? '/history' : '/learn/types'}
+          >
+            {resumeSessionId ? 'Về lịch sử' : 'Chọn dạng Toán'}
           </Link>
         </div>
       </PageContainer>
@@ -233,8 +346,13 @@ export function PracticeSessionPage() {
         ? completed.incorrectCount
         : session.questionCount - correctCount;
     const accuracy = Math.round((correctCount / session.questionCount) * 100);
-    const similarParams = new URLSearchParams(searchParams);
+    const similarParams = new URLSearchParams();
+    similarParams.set('types', session.selectedProblemTypes.join(','));
+    similarParams.set('difficulty', session.difficulty ?? 'ALL');
+    similarParams.set('mode', session.mode);
+    similarParams.set('count', String(session.requestedQuestionCount));
     similarParams.set('run', `${Date.now()}`);
+
     return (
       <PageContainer>
         <section className={'practice-complete'}>
@@ -264,18 +382,33 @@ export function PracticeSessionPage() {
     );
   }
 
-  const showHint = () => dispatch({ type: 'SHOW_HINT', maximum: question.hints.length });
+  const showHint = () => {
+    setHintLevels((current) => ({
+      ...current,
+      [question.id]: Math.min(question.hints.length, (current[question.id] ?? 0) + 1),
+    }));
+  };
+
+  const goToQuestion = (index: number) => {
+    if (answerMutation.isPending || index < 0 || index >= session.questions.length) return;
+    setCurrentIndex(index);
+  };
+
   const nextQuestion = () => {
     if (!lastResult?.result.correct) return;
-    setCurrentIndex(lastResult.currentQuestionIndex);
-    setAnswer(null);
-    dispatch({ type: 'NEXT_QUESTION', transfer: lastResult.currentQuestionIndex > 0 });
-    setLastResult(null);
-    answerMutation.reset();
+
+    for (let offset = 1; offset <= session.questions.length; offset += 1) {
+      const index = (currentIndex + offset) % session.questions.length;
+      const candidate = session.questions[index];
+      if (candidate && !solvedQuestionIds.has(candidate.id)) {
+        setCurrentIndex(index);
+        return;
+      }
+    }
   };
 
   return (
-    <PageContainer className={'practice-page'}>
+    <PageContainer className={'practice-page session-viewport-page'}>
       <div className={'session-topline'}>
         <Link className={'back-link'} to={'/learn/types'}>
           <ArrowLeft size={18} /> Kết thúc
@@ -284,12 +417,38 @@ export function PracticeSessionPage() {
           current={currentIndex + 1}
           total={session.questionCount}
           label={
-            mode === 'LEARN' ? 'Học có gợi ý' : mode === 'REVIEW' ? 'Ôn phần còn yếu' : 'Tự luyện'
+            session.mode === 'LEARN'
+              ? 'Học có gợi ý'
+              : session.mode === 'REVIEW'
+                ? 'Ôn phần còn yếu'
+                : 'Tự luyện'
           }
         />
       </div>
-      <div className={'practice-stage'}>
-        <article className={'question-workspace'}>
+
+      <div className={'practice-stage session-three-column'}>
+        <QuestionNavigator
+          ariaLabel={'Danh sách câu luyện tập'}
+          currentIndex={currentIndex}
+          total={session.questionCount}
+          summary={`${solvedCount}/${session.questionCount} đã hoàn thành`}
+          disabled={answerMutation.isPending}
+          stateForIndex={(index) => {
+            const item = session.questions[index];
+            if (!item) return 'unanswered';
+            if (solvedQuestionIds.has(item.id)) return 'done';
+            if (
+              attemptedQuestionIds.has(item.id) ||
+              (Object.hasOwn(answers, item.id) && hasAnswer(answers[item.id] ?? null, item)) ||
+              (hintLevels[item.id] ?? 0) > 0
+            )
+              return 'working';
+            return 'unanswered';
+          }}
+          onSelect={goToQuestion}
+        />
+
+        <article className={'question-workspace session-question-workspace'}>
           <header>
             <div>
               <span className={'page-kicker'}>Câu {currentIndex + 1}</span>
@@ -306,17 +465,19 @@ export function PracticeSessionPage() {
             </div>
             <h1>{question.stem}</h1>
           </header>
+
           {question.visual && <QuestionVisualRendererV2 visual={question.visual} />}
+
           <AnswerInput
             question={question}
             value={answer}
             onChange={(value) => {
-              setAnswer(value);
-              setLastResult(null);
-              dispatch({ type: 'BEGIN_ATTEMPT' });
+              setAnswers((current) => ({ ...current, [question.id]: value }));
+              setResponses((current) => withoutKey(current, question.id));
             }}
-            disabled={answerMutation.isPending || Boolean(lastResult?.result.correct)}
+            disabled={answerMutation.isPending || solvedQuestionIds.has(question.id)}
           />
+
           {hintCount > 0 && (
             <aside className={'hint-panel'} aria-live={'polite'}>
               <strong>
@@ -327,6 +488,7 @@ export function PracticeSessionPage() {
               ))}
             </aside>
           )}
+
           {lastResult && (
             <>
               <FeedbackState kind={lastResult.result.correct ? 'success' : 'retry'}>
@@ -337,6 +499,7 @@ export function PracticeSessionPage() {
               )}
             </>
           )}
+
           {answerMutation.isError && (
             <FeedbackState kind={'retry'}>
               {answerMutation.error instanceof Error
@@ -344,8 +507,9 @@ export function PracticeSessionPage() {
                 : 'Chưa gửi được câu trả lời. Em thử lại nhé.'}
             </FeedbackState>
           )}
+
           <div className={'practice-actions'}>
-            {!lastResult?.result.correct && (
+            {!solvedQuestionIds.has(question.id) && (
               <Button
                 variant={'quiet'}
                 onClick={showHint}
@@ -354,15 +518,21 @@ export function PracticeSessionPage() {
                 <Lightbulb size={19} /> Gợi ý từng bước
               </Button>
             )}
-            {lastResult?.result.correct ? (
+
+            {solvedQuestionIds.has(question.id) ? (
               <Button onClick={nextQuestion}>
                 Câu tiếp theo <ArrowRight size={19} />
               </Button>
             ) : (
               <Button
                 onClick={() => {
-                  dispatch({ type: 'SUBMIT' });
-                  answerMutation.mutate({ sessionId: session.id, question });
+                  const submitted = submittedAnswer(answer, question);
+                  answerMutation.mutate({
+                    sessionId: session.id,
+                    activeQuestion: question,
+                    submitted,
+                    usedHints: hintCount,
+                  });
                 }}
                 disabled={!hasAnswer(answer, question) || answerMutation.isPending}
               >
@@ -371,6 +541,7 @@ export function PracticeSessionPage() {
             )}
           </div>
         </article>
+
         <aside className={'practice-companion'} aria-label={'Tiến trình luyện tập'}>
           <div className={'companion-heading'}>
             <Trophy size={22} />
@@ -380,30 +551,30 @@ export function PracticeSessionPage() {
             className={'companion-progress-ring'}
             style={
               {
-                '--companion-progress': `${Math.round(((currentIndex + 1) / session.questionCount) * 100)}%`,
+                '--companion-progress': `${Math.round((solvedCount / session.questionCount) * 100)}%`,
               } as CSSProperties
             }
           >
-            <strong>{currentIndex + 1}</strong>
+            <strong>{solvedCount}</strong>
             <span>/ {session.questionCount}</span>
           </div>
           <div className={'companion-card'}>
             <Flame size={24} />
             <div>
-              <strong>{Math.max(1, currentIndex + 1)}</strong>
-              <span>Nhịp học hôm nay</span>
+              <strong>{solvedCount}</strong>
+              <span>Câu đã hoàn thành</span>
             </div>
           </div>
           <div className={'companion-card companion-topic'}>
             <BookOpen size={24} />
             <div>
-              <span>Dạng bài hôm nay</span>
+              <span>Dạng bài hiện tại</span>
               <strong>{question.problemTypeId.replaceAll('-', ' ')}</strong>
             </div>
           </div>
           <div className={'companion-encouragement'}>
             <Star size={22} />
-            <strong>Suy nghĩ kỹ rồi chọn đáp án nhé!</strong>
+            <strong>Có thể chọn câu bất kỳ ở menu bên trái.</strong>
           </div>
           <img
             className={'practice-companion-art'}

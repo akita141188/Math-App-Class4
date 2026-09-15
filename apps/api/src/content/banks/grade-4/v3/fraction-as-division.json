@@ -1,0 +1,6782 @@
+[
+  {
+    "id": "g4-fraction-as-division-c638d994bb71d7b1",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t1",
+    "fingerprint": "43f602cfab5310611c063667ee017269",
+    "generatorParams": {
+      "dividend": 8,
+      "divisor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 8 : 2 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 8,
+      "denominator": 2,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 : 2 = 8/2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-69a8f632a93a43d6",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t2",
+    "fingerprint": "2bb02d00e973105c0f487c745078b681",
+    "generatorParams": {
+      "dividend": 10,
+      "divisor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 10 : 3 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 10,
+      "denominator": 3,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "10 : 3 = 10/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-c36adc441d2bacbd",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t3",
+    "fingerprint": "a394b352bc907317e2d4ce650fb04b52",
+    "generatorParams": {
+      "dividend": 12,
+      "divisor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 12 : 4 dưới dạng phân số.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "12/4"
+      },
+      {
+        "id": "option-2",
+        "label": "13/4"
+      },
+      {
+        "id": "option-3",
+        "label": "4/12"
+      },
+      {
+        "id": "option-4",
+        "label": "12/5"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12 : 4 = 12/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-c12a85b12aff7c84",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t4",
+    "fingerprint": "59ab0d30cf93cb00f01fd90a71d95016",
+    "generatorParams": {
+      "dividend": 14,
+      "divisor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 14 : 5 dưới dạng phân số. Bạn An cho rằng đáp án là 14/5. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 : 5 = 14/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-abc64afcb60c30dd",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t5",
+    "fingerprint": "96c302e251935658b43d589bbceffb3a",
+    "generatorParams": {
+      "dividend": 16,
+      "divisor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 16 : 6 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 16,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 : 6 = 16/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-9d006b047a2f7549",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t1",
+    "fingerprint": "f5b6dc7704b2a0cbfe7e01b74b2bac32",
+    "generatorParams": {
+      "dividend": 15,
+      "divisor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 15 : 2 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 15,
+      "denominator": 2,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 : 2 = 15/2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-0cace3715ce4d252",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t2",
+    "fingerprint": "de3b92a902c5feb642432850992d4c98",
+    "generatorParams": {
+      "dividend": 17,
+      "divisor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 17 : 3 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 17,
+      "denominator": 3,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 : 3 = 17/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-967b449c678f3e6b",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t3",
+    "fingerprint": "977472d6af15aa15e36a6f5495eb095f",
+    "generatorParams": {
+      "dividend": 19,
+      "divisor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 19 : 4 dưới dạng phân số.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "20/4"
+      },
+      {
+        "id": "option-2",
+        "label": "19/4"
+      },
+      {
+        "id": "option-3",
+        "label": "4/19"
+      },
+      {
+        "id": "option-4",
+        "label": "19/5"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 : 4 = 19/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-f1eb65d68c129cb8",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t4",
+    "fingerprint": "632b96922cbc5f08661ba8bb1f9a8ae5",
+    "generatorParams": {
+      "dividend": 21,
+      "divisor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 21 : 5 dưới dạng phân số. Bạn An cho rằng đáp án là 5/21. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 : 5 = 21/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-9ffd28ea69dc741d",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t5",
+    "fingerprint": "7ecb270f61ffa98f0292b2f00d9e79f2",
+    "generatorParams": {
+      "dividend": 23,
+      "divisor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 23 : 6 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 23,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23 : 6 = 23/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-0fc1ea5773708186",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t1",
+    "fingerprint": "7615684980e129038ddcc437bfe30a6f",
+    "generatorParams": {
+      "dividend": 22,
+      "divisor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 22 : 2 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 22,
+      "denominator": 2,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "22 : 2 = 22/2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-9f3f41243c987934",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t2",
+    "fingerprint": "0366615309da42c78d9182064b538e3b",
+    "generatorParams": {
+      "dividend": 24,
+      "divisor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 24 : 3 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 24,
+      "denominator": 3,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "24 : 3 = 24/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-f12416dfb86e627f",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t3",
+    "fingerprint": "6ad0c3895b8239d81bc74c31e6a54112",
+    "generatorParams": {
+      "dividend": 26,
+      "divisor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 26 : 4 dưới dạng phân số.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "27/4"
+      },
+      {
+        "id": "option-2",
+        "label": "26/5"
+      },
+      {
+        "id": "option-3",
+        "label": "26/4"
+      },
+      {
+        "id": "option-4",
+        "label": "4/26"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "26 : 4 = 26/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-aa82df0581f5fc69",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t4",
+    "fingerprint": "91dbf0477f712fe9a4e6092614d88be6",
+    "generatorParams": {
+      "dividend": 28,
+      "divisor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 28 : 5 dưới dạng phân số. Bạn An cho rằng đáp án là 28/5. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "28 : 5 = 28/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-a737b71a1e202c0a",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t5",
+    "fingerprint": "98ddffb72a69b801aeeadd489469e2c6",
+    "generatorParams": {
+      "dividend": 30,
+      "divisor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 30 : 6 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 30,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "30 : 6 = 30/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-9740b7c1e4b18c91",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t1",
+    "fingerprint": "1dfa11aa1a88dffbcc41b726b46cc915",
+    "generatorParams": {
+      "dividend": 29,
+      "divisor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 29 : 2 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 29,
+      "denominator": 2,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "29 : 2 = 29/2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-e105db901a0fd4fe",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t2",
+    "fingerprint": "9a5e08642abab7600b9eaf44d456d1cd",
+    "generatorParams": {
+      "dividend": 31,
+      "divisor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 31 : 3 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 31,
+      "denominator": 3,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "31 : 3 = 31/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-81f0c0e8bc095d7d",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t3",
+    "fingerprint": "0a470fb3629c56e8eef754b049449b20",
+    "generatorParams": {
+      "dividend": 33,
+      "divisor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 33 : 4 dưới dạng phân số.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "34/4"
+      },
+      {
+        "id": "option-2",
+        "label": "4/33"
+      },
+      {
+        "id": "option-3",
+        "label": "33/5"
+      },
+      {
+        "id": "option-4",
+        "label": "33/4"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "33 : 4 = 33/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-31a3b96521ac4187",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t4",
+    "fingerprint": "a0d50477ab2f5a225db054f830798cbe",
+    "generatorParams": {
+      "dividend": 35,
+      "divisor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 35 : 5 dưới dạng phân số. Bạn An cho rằng đáp án là 5/35. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "35 : 5 = 35/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-ee91f600d411cbfd",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t5",
+    "fingerprint": "4e3b5f494b1d04a044f439d80f29d34e",
+    "generatorParams": {
+      "dividend": 37,
+      "divisor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 37 : 6 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 37,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "37 : 6 = 37/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-16f4e4fbb01af623",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t1",
+    "fingerprint": "a35474d4b599942069e3d09722c6c90d",
+    "generatorParams": {
+      "dividend": 36,
+      "divisor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 36 : 2 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 36,
+      "denominator": 2,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "36 : 2 = 36/2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-417946f0b20e3b60",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t2",
+    "fingerprint": "a930ef8570f70b6d8f2d5006eadc6b84",
+    "generatorParams": {
+      "dividend": 38,
+      "divisor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 38 : 3 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 38,
+      "denominator": 3,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "38 : 3 = 38/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-cf8d4cfcd6ed73a6",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t3",
+    "fingerprint": "dc1ef944b5745e43ec022fc2eda81231",
+    "generatorParams": {
+      "dividend": 40,
+      "divisor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 40 : 4 dưới dạng phân số.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "4/40"
+      },
+      {
+        "id": "option-2",
+        "label": "40/5"
+      },
+      {
+        "id": "option-3",
+        "label": "41/4"
+      },
+      {
+        "id": "option-4",
+        "label": "40/4"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "40 : 4 = 40/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-000b8ae645972552",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t4",
+    "fingerprint": "e175bb8f4bede4973f2d2559788f64b5",
+    "generatorParams": {
+      "dividend": 42,
+      "divisor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 42 : 5 dưới dạng phân số. Bạn An cho rằng đáp án là 42/5. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "42 : 5 = 42/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-ef9ce645b1deed94",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t5",
+    "fingerprint": "7cf0638c772ea8e8b7d7ef93263565bf",
+    "generatorParams": {
+      "dividend": 44,
+      "divisor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 44 : 6 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 44,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "44 : 6 = 44/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-c1f9c670b659611c",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t1",
+    "fingerprint": "13c3b94becedeb88249b1ac318398fc1",
+    "generatorParams": {
+      "dividend": 43,
+      "divisor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 43 : 2 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 43,
+      "denominator": 2,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "43 : 2 = 43/2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-eed797f3acb64634",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t2",
+    "fingerprint": "1f9ee822941cc655f85a02639f9d45c9",
+    "generatorParams": {
+      "dividend": 45,
+      "divisor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 45 : 3 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 45,
+      "denominator": 3,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "45 : 3 = 45/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-e0e3a46e2f0a9377",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t3",
+    "fingerprint": "19ac3cf87249ee70bb4a00be06c4418b",
+    "generatorParams": {
+      "dividend": 47,
+      "divisor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 47 : 4 dưới dạng phân số.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "48/4"
+      },
+      {
+        "id": "option-2",
+        "label": "4/47"
+      },
+      {
+        "id": "option-3",
+        "label": "47/5"
+      },
+      {
+        "id": "option-4",
+        "label": "47/4"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "47 : 4 = 47/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-2cbbe4e5fc1270a3",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t4",
+    "fingerprint": "1b25f81030f6ff5a59f2a32a8985a211",
+    "generatorParams": {
+      "dividend": 49,
+      "divisor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 49 : 5 dưới dạng phân số. Bạn An cho rằng đáp án là 5/49. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "49 : 5 = 49/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-b87ba729c032c767",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t5",
+    "fingerprint": "ce6816a96ad605496cbd6e8b766e74d2",
+    "generatorParams": {
+      "dividend": 51,
+      "divisor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 51 : 6 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 51,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "51 : 6 = 51/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-f8a0014434a0cb11",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t1",
+    "fingerprint": "6337c59503c504e66274ca7de5d66c84",
+    "generatorParams": {
+      "dividend": 50,
+      "divisor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 50 : 2 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 50,
+      "denominator": 2,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "50 : 2 = 50/2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-8a21e4da1595ef73",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t2",
+    "fingerprint": "b400d6bb2842292b2313321f6c11a1c2",
+    "generatorParams": {
+      "dividend": 52,
+      "divisor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 52 : 3 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 52,
+      "denominator": 3,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "52 : 3 = 52/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-6e82ceaf2ede62dd",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t3",
+    "fingerprint": "0c3b534edf04e1bc9b2e7b1011e878cb",
+    "generatorParams": {
+      "dividend": 54,
+      "divisor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 54 : 4 dưới dạng phân số.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "4/54"
+      },
+      {
+        "id": "option-2",
+        "label": "54/4"
+      },
+      {
+        "id": "option-3",
+        "label": "54/5"
+      },
+      {
+        "id": "option-4",
+        "label": "55/4"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "54 : 4 = 54/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-491a2dc3fde0331c",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t4",
+    "fingerprint": "cb5af79494b5d36d6e711df46992de9a",
+    "generatorParams": {
+      "dividend": 56,
+      "divisor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 56 : 5 dưới dạng phân số. Bạn An cho rằng đáp án là 56/5. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "56 : 5 = 56/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-f888cad341976bb7",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t5",
+    "fingerprint": "a36eb39af11791f9ce89599d72291433",
+    "generatorParams": {
+      "dividend": 58,
+      "divisor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 58 : 6 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 58,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "58 : 6 = 58/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-019e301a19ea5ae2",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t1",
+    "fingerprint": "285fb1ff43d8a0dd0b6e8e05a4b4883f",
+    "generatorParams": {
+      "dividend": 57,
+      "divisor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 57 : 2 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 57,
+      "denominator": 2,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "57 : 2 = 57/2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-2e2a11d9a3dd6959",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t2",
+    "fingerprint": "c788a14d942feeed442def98fff80f93",
+    "generatorParams": {
+      "dividend": 59,
+      "divisor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 59 : 3 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 59,
+      "denominator": 3,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "59 : 3 = 59/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-e2462b2bf5cbf0c1",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t3",
+    "fingerprint": "53a1b51dce5d55730cbae423f3e03e11",
+    "generatorParams": {
+      "dividend": 61,
+      "divisor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 61 : 4 dưới dạng phân số.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "61/4"
+      },
+      {
+        "id": "option-2",
+        "label": "61/5"
+      },
+      {
+        "id": "option-3",
+        "label": "4/61"
+      },
+      {
+        "id": "option-4",
+        "label": "62/4"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "61 : 4 = 61/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-4f995e2777722088",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t4",
+    "fingerprint": "7548acba067226b20dff0e6c9789ffce",
+    "generatorParams": {
+      "dividend": 63,
+      "divisor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 63 : 5 dưới dạng phân số. Bạn An cho rằng đáp án là 5/63. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "63 : 5 = 63/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-1787990c538cfee0",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t5",
+    "fingerprint": "e0fc7f08c5b238a2bdd8148eeb5b6c17",
+    "generatorParams": {
+      "dividend": 65,
+      "divisor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 65 : 6 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 65,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "65 : 6 = 65/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-a8187ec2729b8c60",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t1",
+    "fingerprint": "1f66983d75a1e5808bf2c6335047feb5",
+    "generatorParams": {
+      "dividend": 64,
+      "divisor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 64 : 2 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 64,
+      "denominator": 2,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "64 : 2 = 64/2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-c1f550badef2b61a",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t2",
+    "fingerprint": "5fe75d2910bde3f4edbe4e0d6e249d35",
+    "generatorParams": {
+      "dividend": 66,
+      "divisor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 66 : 3 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 66,
+      "denominator": 3,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "66 : 3 = 66/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-c54c6ae0737f25a2",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t3",
+    "fingerprint": "7eaccbf9199234659dbfee3c273f59aa",
+    "generatorParams": {
+      "dividend": 68,
+      "divisor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 68 : 4 dưới dạng phân số.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "69/4"
+      },
+      {
+        "id": "option-2",
+        "label": "68/4"
+      },
+      {
+        "id": "option-3",
+        "label": "68/5"
+      },
+      {
+        "id": "option-4",
+        "label": "4/68"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "68 : 4 = 68/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-4f2c18cf1ab34937",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t4",
+    "fingerprint": "cbedecd1a694ea0edbb711f42f25bc3e",
+    "generatorParams": {
+      "dividend": 70,
+      "divisor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 70 : 5 dưới dạng phân số. Bạn An cho rằng đáp án là 70/5. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "70 : 5 = 70/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-69854e32ee1e864a",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t5",
+    "fingerprint": "cb70894a147c3d5faf366751dfce20dd",
+    "generatorParams": {
+      "dividend": 72,
+      "divisor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 72 : 6 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 72,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "72 : 6 = 72/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-3a28151282251029",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t1",
+    "fingerprint": "017c4aa9a8f5e926eadfe83519bfd01e",
+    "generatorParams": {
+      "dividend": 71,
+      "divisor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 71 : 2 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 71,
+      "denominator": 2,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "71 : 2 = 71/2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-32f0622cb47136ff",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t2",
+    "fingerprint": "a59a578c201eecfe23bd8f048d29db26",
+    "generatorParams": {
+      "dividend": 73,
+      "divisor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 73 : 3 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 73,
+      "denominator": 3,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "73 : 3 = 73/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-7880687bb1d6c9cb",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t3",
+    "fingerprint": "0fdea46691c1fb4b471e1a3c44d3d632",
+    "generatorParams": {
+      "dividend": 75,
+      "divisor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 75 : 4 dưới dạng phân số.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "75/5"
+      },
+      {
+        "id": "option-2",
+        "label": "76/4"
+      },
+      {
+        "id": "option-3",
+        "label": "4/75"
+      },
+      {
+        "id": "option-4",
+        "label": "75/4"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "75 : 4 = 75/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-4ae1e4afd9c3ab11",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t4",
+    "fingerprint": "36a4cffefe5dd59318db6f8fcd60e6e2",
+    "generatorParams": {
+      "dividend": 77,
+      "divisor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 77 : 5 dưới dạng phân số. Bạn An cho rằng đáp án là 5/77. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "77 : 5 = 77/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-d58d21a813fdfd53",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t5",
+    "fingerprint": "5aa7b6e82c973526689a4e367891070d",
+    "generatorParams": {
+      "dividend": 79,
+      "divisor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 79 : 6 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 79,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "79 : 6 = 79/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-8f9eeeee497ff78d",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t1",
+    "fingerprint": "3eb2a9649a98a121c98b563f3209e335",
+    "generatorParams": {
+      "dividend": 78,
+      "divisor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 78 : 2 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 78,
+      "denominator": 2,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "78 : 2 = 78/2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-9845f08b87b8ee85",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t2",
+    "fingerprint": "4fdb36df60904192ab47a3d113eb7606",
+    "generatorParams": {
+      "dividend": 80,
+      "divisor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 80 : 3 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 80,
+      "denominator": 3,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "80 : 3 = 80/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-a7630ff6a019a029",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t3",
+    "fingerprint": "442409736acb0b5f067b1758de1a3fde",
+    "generatorParams": {
+      "dividend": 82,
+      "divisor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 82 : 4 dưới dạng phân số.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "83/4"
+      },
+      {
+        "id": "option-2",
+        "label": "82/4"
+      },
+      {
+        "id": "option-3",
+        "label": "4/82"
+      },
+      {
+        "id": "option-4",
+        "label": "82/5"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "82 : 4 = 82/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-30d40e25be360253",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t4",
+    "fingerprint": "a752f9f4513425af87f2fb59dc69c6b7",
+    "generatorParams": {
+      "dividend": 84,
+      "divisor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 84 : 5 dưới dạng phân số. Bạn An cho rằng đáp án là 84/5. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "84 : 5 = 84/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-4606d420e9df45e2",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t5",
+    "fingerprint": "c6c5637580dd60cc9aed17e489de1d00",
+    "generatorParams": {
+      "dividend": 86,
+      "divisor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 86 : 6 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 86,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "86 : 6 = 86/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-eb3ed9cda0364941",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t1",
+    "fingerprint": "8d27390b9efcd654083316e553a79b57",
+    "generatorParams": {
+      "dividend": 85,
+      "divisor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 85 : 2 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 85,
+      "denominator": 2,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "85 : 2 = 85/2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-c5aca01f27dd343c",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t2",
+    "fingerprint": "dfaaadb24cd5c42f1bfe5f56d81e5b36",
+    "generatorParams": {
+      "dividend": 87,
+      "divisor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 87 : 3 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 87,
+      "denominator": 3,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "87 : 3 = 87/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-27adbf1969c91ec5",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t3",
+    "fingerprint": "ffaf281cb454f7701a0188fecf4b14ac",
+    "generatorParams": {
+      "dividend": 89,
+      "divisor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 89 : 4 dưới dạng phân số.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "89/4"
+      },
+      {
+        "id": "option-2",
+        "label": "90/4"
+      },
+      {
+        "id": "option-3",
+        "label": "4/89"
+      },
+      {
+        "id": "option-4",
+        "label": "89/5"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "89 : 4 = 89/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-107e2de5a44f0afa",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t4",
+    "fingerprint": "27e5f94643055f88547753e866339ff9",
+    "generatorParams": {
+      "dividend": 91,
+      "divisor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 91 : 5 dưới dạng phân số. Bạn An cho rằng đáp án là 5/91. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "91 : 5 = 91/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-a6173b5dff4f69fd",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t5",
+    "fingerprint": "3a8cec0fe996cc31d043047c589c1847",
+    "generatorParams": {
+      "dividend": 93,
+      "divisor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 93 : 6 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 93,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "93 : 6 = 93/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-69418c4398c30b7f",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t1",
+    "fingerprint": "986a39077614b6a2da5bef24a7a1ce44",
+    "generatorParams": {
+      "dividend": 92,
+      "divisor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 92 : 2 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 92,
+      "denominator": 2,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "92 : 2 = 92/2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-71803f25d2d1ee62",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t2",
+    "fingerprint": "e8d91adb39b8ce026ce351d1e15fcc12",
+    "generatorParams": {
+      "dividend": 94,
+      "divisor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 94 : 3 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 94,
+      "denominator": 3,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "94 : 3 = 94/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-eb630dc03e399a01",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t3",
+    "fingerprint": "4b92c77c770e57bf10cd4834f927ce70",
+    "generatorParams": {
+      "dividend": 96,
+      "divisor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 96 : 4 dưới dạng phân số.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "97/4"
+      },
+      {
+        "id": "option-2",
+        "label": "4/96"
+      },
+      {
+        "id": "option-3",
+        "label": "96/5"
+      },
+      {
+        "id": "option-4",
+        "label": "96/4"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "96 : 4 = 96/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-7b107bf38e959400",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t4",
+    "fingerprint": "872baa633eb8c45e20633b65f472794a",
+    "generatorParams": {
+      "dividend": 98,
+      "divisor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 98 : 5 dưới dạng phân số. Bạn An cho rằng đáp án là 98/5. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "98 : 5 = 98/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-065b7abecd57e510",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t5",
+    "fingerprint": "a54170a9cbdd1bd910ad8b7b15841aff",
+    "generatorParams": {
+      "dividend": 100,
+      "divisor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 100 : 6 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 100,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "100 : 6 = 100/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-6d41e62c4ad2b454",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t1",
+    "fingerprint": "93869e436f76736398f6b969cc6de0e7",
+    "generatorParams": {
+      "dividend": 99,
+      "divisor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 99 : 2 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 99,
+      "denominator": 2,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "99 : 2 = 99/2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-f29daaeda805c77a",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t2",
+    "fingerprint": "6900614fce184a0ba455be46add304d0",
+    "generatorParams": {
+      "dividend": 101,
+      "divisor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 101 : 3 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 101,
+      "denominator": 3,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "101 : 3 = 101/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-ffcbe826ea783cb7",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t3",
+    "fingerprint": "88769e21a857da1e648df92c20ed7f20",
+    "generatorParams": {
+      "dividend": 103,
+      "divisor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 103 : 4 dưới dạng phân số.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "103/5"
+      },
+      {
+        "id": "option-2",
+        "label": "4/103"
+      },
+      {
+        "id": "option-3",
+        "label": "104/4"
+      },
+      {
+        "id": "option-4",
+        "label": "103/4"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "103 : 4 = 103/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-5a271f938db53af7",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t4",
+    "fingerprint": "45fefc2e6d59cc288bddec80a5b4d5c1",
+    "generatorParams": {
+      "dividend": 105,
+      "divisor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 105 : 5 dưới dạng phân số. Bạn An cho rằng đáp án là 5/105. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "105 : 5 = 105/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-176e83a88f8bdb78",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t5",
+    "fingerprint": "a9d721be5036f630ec34fc6380f0740a",
+    "generatorParams": {
+      "dividend": 107,
+      "divisor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 107 : 6 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 107,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "107 : 6 = 107/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-777a6877f998fd03",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t1",
+    "fingerprint": "f818f5a310272747f626965a1074e93e",
+    "generatorParams": {
+      "dividend": 106,
+      "divisor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 106 : 2 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 106,
+      "denominator": 2,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "106 : 2 = 106/2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-2a85d52fe8f95b9a",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t2",
+    "fingerprint": "91804ee8f80749ba46850c3b1bf5e0a0",
+    "generatorParams": {
+      "dividend": 108,
+      "divisor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 108 : 3 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 108,
+      "denominator": 3,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "108 : 3 = 108/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-2ebbb4297949158e",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t3",
+    "fingerprint": "56ee088c9d65d2dff98b3d8bd228d87c",
+    "generatorParams": {
+      "dividend": 110,
+      "divisor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 110 : 4 dưới dạng phân số.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "110/5"
+      },
+      {
+        "id": "option-2",
+        "label": "4/110"
+      },
+      {
+        "id": "option-3",
+        "label": "111/4"
+      },
+      {
+        "id": "option-4",
+        "label": "110/4"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "110 : 4 = 110/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-ecd1d79ad8d15dd3",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t4",
+    "fingerprint": "4d7d547163aed4414d994087cf6b6463",
+    "generatorParams": {
+      "dividend": 112,
+      "divisor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 112 : 5 dưới dạng phân số. Bạn An cho rằng đáp án là 112/5. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "112 : 5 = 112/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-dc8883afdf2a980f",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t5",
+    "fingerprint": "e86bbe4d80c159cd4593c4b0939fe7bb",
+    "generatorParams": {
+      "dividend": 114,
+      "divisor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 114 : 6 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 114,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "114 : 6 = 114/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-18a7cde7902baf7a",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t1",
+    "fingerprint": "d0413b13e38113dc2fdc1741fd1db337",
+    "generatorParams": {
+      "dividend": 113,
+      "divisor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 113 : 2 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 113,
+      "denominator": 2,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "113 : 2 = 113/2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-b6756c1869761cb6",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t2",
+    "fingerprint": "5b63b008fc762c22d5eda840b724d720",
+    "generatorParams": {
+      "dividend": 115,
+      "divisor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 115 : 3 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 115,
+      "denominator": 3,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "115 : 3 = 115/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-4208f25ac1f0b505",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t3",
+    "fingerprint": "4d57a461eeb3fa6731d91ff29f24a346",
+    "generatorParams": {
+      "dividend": 117,
+      "divisor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 117 : 4 dưới dạng phân số.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "117/5"
+      },
+      {
+        "id": "option-2",
+        "label": "4/117"
+      },
+      {
+        "id": "option-3",
+        "label": "117/4"
+      },
+      {
+        "id": "option-4",
+        "label": "118/4"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "117 : 4 = 117/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-66a79a387fa35bf2",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t4",
+    "fingerprint": "a3480e3c3aa3fd2b2aa95028dca32f59",
+    "generatorParams": {
+      "dividend": 119,
+      "divisor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 119 : 5 dưới dạng phân số. Bạn An cho rằng đáp án là 5/119. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "119 : 5 = 119/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-873037dfd13f8765",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t5",
+    "fingerprint": "13f87594ab12e1a4d54fe8ab3cef2b21",
+    "generatorParams": {
+      "dividend": 121,
+      "divisor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 121 : 6 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 121,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "121 : 6 = 121/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-40f15170f2ed1b58",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t1",
+    "fingerprint": "50771132e77f241217267e21c49dc000",
+    "generatorParams": {
+      "dividend": 120,
+      "divisor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 120 : 2 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 120,
+      "denominator": 2,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "120 : 2 = 120/2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-66d93afa4240aebd",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t2",
+    "fingerprint": "7114854704b079803b8e60cd3cb4a162",
+    "generatorParams": {
+      "dividend": 122,
+      "divisor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 122 : 3 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 122,
+      "denominator": 3,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "122 : 3 = 122/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-dc41c2bc677a24b8",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t3",
+    "fingerprint": "db6a172d0b17add8a4f6e35da0ee769d",
+    "generatorParams": {
+      "dividend": 124,
+      "divisor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 124 : 4 dưới dạng phân số.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "124/4"
+      },
+      {
+        "id": "option-2",
+        "label": "124/5"
+      },
+      {
+        "id": "option-3",
+        "label": "4/124"
+      },
+      {
+        "id": "option-4",
+        "label": "125/4"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "124 : 4 = 124/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-9b0e3a3b94ffaec7",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t4",
+    "fingerprint": "ee856dbfc7e34bb71fb9516e596be3d2",
+    "generatorParams": {
+      "dividend": 126,
+      "divisor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 126 : 5 dưới dạng phân số. Bạn An cho rằng đáp án là 126/5. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "126 : 5 = 126/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-98c8bbc7c21e12e9",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t5",
+    "fingerprint": "6c0bf410a5cd13cd178e3ee9ad209f20",
+    "generatorParams": {
+      "dividend": 128,
+      "divisor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 128 : 6 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 128,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "128 : 6 = 128/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-73dd8e06bfca9d1b",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t1",
+    "fingerprint": "5f7c72801deef2b7680cfc6153054326",
+    "generatorParams": {
+      "dividend": 127,
+      "divisor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 127 : 2 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 127,
+      "denominator": 2,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "127 : 2 = 127/2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-b65ef0a36b9b8239",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t2",
+    "fingerprint": "7d102fe077bf7305e872fdfef40f1dc1",
+    "generatorParams": {
+      "dividend": 129,
+      "divisor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 129 : 3 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 129,
+      "denominator": 3,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "129 : 3 = 129/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-96eecbba11bf62f3",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t3",
+    "fingerprint": "04fab95ef573cd51d603d8a127553784",
+    "generatorParams": {
+      "dividend": 131,
+      "divisor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 131 : 4 dưới dạng phân số.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "4/131"
+      },
+      {
+        "id": "option-2",
+        "label": "131/4"
+      },
+      {
+        "id": "option-3",
+        "label": "131/5"
+      },
+      {
+        "id": "option-4",
+        "label": "132/4"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "131 : 4 = 131/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-598867dd94526c7c",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t4",
+    "fingerprint": "3dcce609ad58608336e520e5f9a0a00b",
+    "generatorParams": {
+      "dividend": 133,
+      "divisor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 133 : 5 dưới dạng phân số. Bạn An cho rằng đáp án là 5/133. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "133 : 5 = 133/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-baca70ed2886e11e",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t5",
+    "fingerprint": "4b0384c7cd9f537cd2cb3ec12c7bf668",
+    "generatorParams": {
+      "dividend": 135,
+      "divisor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 135 : 6 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 135,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "135 : 6 = 135/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-7884480cc272fefe",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t1",
+    "fingerprint": "1a784af6ecd7e9cd4b5b370f3a8fb8fe",
+    "generatorParams": {
+      "dividend": 134,
+      "divisor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 134 : 2 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 134,
+      "denominator": 2,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "134 : 2 = 134/2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-fd883f41f0c78201",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t2",
+    "fingerprint": "02f382a077a2de4396a325acd710e439",
+    "generatorParams": {
+      "dividend": 136,
+      "divisor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 136 : 3 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 136,
+      "denominator": 3,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "136 : 3 = 136/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-485824b663097043",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t3",
+    "fingerprint": "4c4dce09e846eabb4b11d8a35cb1649f",
+    "generatorParams": {
+      "dividend": 138,
+      "divisor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 138 : 4 dưới dạng phân số.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "138/5"
+      },
+      {
+        "id": "option-2",
+        "label": "138/4"
+      },
+      {
+        "id": "option-3",
+        "label": "4/138"
+      },
+      {
+        "id": "option-4",
+        "label": "139/4"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "138 : 4 = 138/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-7049e0b52dd8cd14",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t4",
+    "fingerprint": "2559882b38253df0b8419dfcfe873cf9",
+    "generatorParams": {
+      "dividend": 140,
+      "divisor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 140 : 5 dưới dạng phân số. Bạn An cho rằng đáp án là 140/5. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "140 : 5 = 140/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-05968b3b6171b042",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t5",
+    "fingerprint": "d7f7d58818e3c593019b42d0456b14ee",
+    "generatorParams": {
+      "dividend": 142,
+      "divisor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 142 : 6 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 142,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "142 : 6 = 142/6.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-c155e070c12e7233",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t1",
+    "fingerprint": "ee2ca711ac9750d1f5d319a369739d88",
+    "generatorParams": {
+      "dividend": 141,
+      "divisor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 141 : 2 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 141,
+      "denominator": 2,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "141 : 2 = 141/2.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-5dfc8995a9275c2a",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t2",
+    "fingerprint": "f9a943c3a0f075b433ef1fd6eb19ad0a",
+    "generatorParams": {
+      "dividend": 143,
+      "divisor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 143 : 3 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 143,
+      "denominator": 3,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "143 : 3 = 143/3.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-fd1995d09a67ca2b",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t3",
+    "fingerprint": "7d66dee7441c2485a9a980a98a8e7940",
+    "generatorParams": {
+      "dividend": 145,
+      "divisor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 145 : 4 dưới dạng phân số.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "145/5"
+      },
+      {
+        "id": "option-2",
+        "label": "4/145"
+      },
+      {
+        "id": "option-3",
+        "label": "146/4"
+      },
+      {
+        "id": "option-4",
+        "label": "145/4"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "145 : 4 = 145/4.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-97574e1718a9f411",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t4",
+    "fingerprint": "063a58d2443392f39b3b1b4877ecef3a",
+    "generatorParams": {
+      "dividend": 147,
+      "divisor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 147 : 5 dưới dạng phân số. Bạn An cho rằng đáp án là 5/147. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "147 : 5 = 147/5.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-as-division-3036792dc6d052f3",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-as-division-t5",
+    "fingerprint": "496d426f2fd5f294818d1b947b0ddf3f",
+    "generatorParams": {
+      "dividend": 149,
+      "divisor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-as-division-skill",
+    "problemTypeId": "fraction-as-division",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Viết thương 149 : 6 dưới dạng phân số.",
+    "expectedAnswer": {
+      "kind": "FRACTION",
+      "numerator": 149,
+      "denominator": 6,
+      "requireExactForm": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "id": "check",
+        "instruction": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Xác định đúng tử số và mẫu số cần tìm."
+      },
+      {
+        "level": 2,
+        "text": "Số bị chia viết ở tử số, số chia khác 0 viết ở mẫu số."
+      },
+      {
+        "level": 3,
+        "text": "Kiểm tra lại bằng tính chất của phân số."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "149 : 6 = 149/6.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

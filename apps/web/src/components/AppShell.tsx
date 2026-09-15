@@ -3,6 +3,7 @@ import {
   BookOpenCheck,
   ChevronDown,
   ClipboardCheck,
+  History,
   Home,
   LibraryBig,
   UsersRound,
@@ -15,6 +16,7 @@ const navigation = [
   { to: '/learn', label: 'Học theo dạng', icon: LibraryBig, end: false },
   { to: '/tests', label: 'Kiểm tra', icon: ClipboardCheck, end: false },
   { to: '/review', label: 'Ôn tập', icon: BookOpen, end: false },
+  { to: '/history', label: 'Lịch sử', icon: History, end: false },
   { to: '/me', label: 'Của em', icon: UserRound, end: false },
 ];
 

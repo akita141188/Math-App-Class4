@@ -1,0 +1,6762 @@
+[
+  {
+    "id": "g4-multiplication-properties-c9a50c9e2c5f66b5",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t1",
+    "fingerprint": "e44dcb73a308da93acfb956bda4b9eb5",
+    "generatorParams": {
+      "a": 2,
+      "b": 27,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 27 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 540
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 540.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-f2df6df4aa9819c7",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t2",
+    "fingerprint": "a8b569e860f97268658df949507c6d86",
+    "generatorParams": {
+      "a": 3,
+      "b": 128,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 3 × 128 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1536
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 1.536.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-08a88e0518e6cdee",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t3",
+    "fingerprint": "16cff903e517372047870001fb5975f4",
+    "generatorParams": {
+      "a": 4,
+      "b": 229,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 4 × 229 × 10.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "8.244"
+      },
+      {
+        "id": "option-2",
+        "label": "10.992"
+      },
+      {
+        "id": "option-3",
+        "label": "9.160"
+      },
+      {
+        "id": "option-4",
+        "label": "10.076"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 9.160.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-87460f0bd24066ee",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t4",
+    "fingerprint": "bb535da70f667b1864d3e190eccf21cb",
+    "generatorParams": {
+      "a": 5,
+      "b": 330,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 5 × 330 × 4. Bạn An cho rằng đáp án là 6.600. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 6.600.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-7ef48eb809641ebf",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t5",
+    "fingerprint": "7ecaf01808427a4275700e0900020cfa",
+    "generatorParams": {
+      "a": 2,
+      "b": 431,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 431 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 8620
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 8.620.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-f2e19aa3944960c7",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t1",
+    "fingerprint": "515233eefdab35c0900d399c371f7297",
+    "generatorParams": {
+      "a": 2,
+      "b": 34,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 34 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 680
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 680.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-a0708a97247c2579",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t2",
+    "fingerprint": "5599da0664db329c9f0812ae71ffee05",
+    "generatorParams": {
+      "a": 3,
+      "b": 135,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 3 × 135 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1620
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 1.620.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-e956f1722da2d777",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t3",
+    "fingerprint": "a20f58758f493fee74415d1726ecc214",
+    "generatorParams": {
+      "a": 4,
+      "b": 236,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 4 × 236 × 10.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "10.384"
+      },
+      {
+        "id": "option-2",
+        "label": "8.496"
+      },
+      {
+        "id": "option-3",
+        "label": "9.440"
+      },
+      {
+        "id": "option-4",
+        "label": "11.328"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 9.440.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-d077b0818b22b6bc",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t4",
+    "fingerprint": "f20a26197165893b31e9f7325f55ca81",
+    "generatorParams": {
+      "a": 5,
+      "b": 337,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 5 × 337 × 4. Bạn An cho rằng đáp án là 7.414. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 6.740.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-3a14928abcd2bfc5",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t5",
+    "fingerprint": "f8be1351884fc452c27443c370fce638",
+    "generatorParams": {
+      "a": 2,
+      "b": 438,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 438 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 8760
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 8.760.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-666bea47af761493",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t1",
+    "fingerprint": "5c6620d1d592143bf0dbcd6e045241b9",
+    "generatorParams": {
+      "a": 2,
+      "b": 41,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 41 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 820
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 820.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-09d9f12d7c28e2be",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t2",
+    "fingerprint": "130efba03c0d284fdc2ff714209fcb03",
+    "generatorParams": {
+      "a": 3,
+      "b": 142,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 3 × 142 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1704
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 1.704.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-4c76d9ddb0c2069b",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t3",
+    "fingerprint": "1d295377ac3a1a64653466f674dcd215",
+    "generatorParams": {
+      "a": 4,
+      "b": 243,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 4 × 243 × 10.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "11.664"
+      },
+      {
+        "id": "option-2",
+        "label": "8.748"
+      },
+      {
+        "id": "option-3",
+        "label": "10.692"
+      },
+      {
+        "id": "option-4",
+        "label": "9.720"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 9.720.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-8d4b48096fb8a378",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t4",
+    "fingerprint": "0b7e02acd18574adb4b5b6ec0d6e9897",
+    "generatorParams": {
+      "a": 5,
+      "b": 344,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 5 × 344 × 4. Bạn An cho rằng đáp án là 6.880. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 6.880.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-c0d69bc0631ff633",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t5",
+    "fingerprint": "e1291e30fea59727ef3e531298dd54f3",
+    "generatorParams": {
+      "a": 2,
+      "b": 445,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 445 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 8900
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 8.900.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-e58a47ea3dc3a97c",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t1",
+    "fingerprint": "0037aa02b3aef9930ecf25dd031a39df",
+    "generatorParams": {
+      "a": 2,
+      "b": 48,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 48 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 960
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 960.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-ac65b037cbfd770f",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t2",
+    "fingerprint": "4fb6abd1a3bd3e7fe04d789618ef5ae9",
+    "generatorParams": {
+      "a": 3,
+      "b": 149,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 3 × 149 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1788
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 1.788.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-7d869630a3e0820c",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t3",
+    "fingerprint": "e41214dad65297b87c73c6cd45433b33",
+    "generatorParams": {
+      "a": 4,
+      "b": 250,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 4 × 250 × 10.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "9.000"
+      },
+      {
+        "id": "option-2",
+        "label": "11.000"
+      },
+      {
+        "id": "option-3",
+        "label": "12.000"
+      },
+      {
+        "id": "option-4",
+        "label": "10.000"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 10.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-fe9c0fb43b2e91bf",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t4",
+    "fingerprint": "4caa4de8d747d8dc47f4779a3e06dd7f",
+    "generatorParams": {
+      "a": 5,
+      "b": 351,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 5 × 351 × 4. Bạn An cho rằng đáp án là 7.722. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 7.020.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-7f379d617ffee58a",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t5",
+    "fingerprint": "cc2b06cb3128549a4e8e1d16ce580c92",
+    "generatorParams": {
+      "a": 2,
+      "b": 452,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 452 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 9040
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 9.040.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-25b06f19bc559401",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t1",
+    "fingerprint": "e9201c4b890bbaf47cfc1b727c72bdc0",
+    "generatorParams": {
+      "a": 2,
+      "b": 55,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 55 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1100
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 1.100.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-af00e6225a0c997b",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t2",
+    "fingerprint": "8a59d70972bfa33978fcc39dd7664ced",
+    "generatorParams": {
+      "a": 3,
+      "b": 156,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 3 × 156 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1872
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 1.872.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-c89f0540df945d87",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t3",
+    "fingerprint": "ea5930059dc9d3842c83842306fe70ac",
+    "generatorParams": {
+      "a": 4,
+      "b": 257,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 4 × 257 × 10.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "10.280"
+      },
+      {
+        "id": "option-2",
+        "label": "9.252"
+      },
+      {
+        "id": "option-3",
+        "label": "12.336"
+      },
+      {
+        "id": "option-4",
+        "label": "11.308"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 10.280.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-488d71c07ee52131",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t4",
+    "fingerprint": "7430284c25527e0baf79c342047a7e47",
+    "generatorParams": {
+      "a": 5,
+      "b": 358,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 5 × 358 × 4. Bạn An cho rằng đáp án là 7.160. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 7.160.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-409d8cce40e54e57",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t5",
+    "fingerprint": "8e2af935b3bc94aff0c37637d6e55c7c",
+    "generatorParams": {
+      "a": 2,
+      "b": 459,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 459 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 9180
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 9.180.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-2a0ccb0f66bdfb96",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t1",
+    "fingerprint": "60a6d3cca317a56cff75dd40681f64ca",
+    "generatorParams": {
+      "a": 2,
+      "b": 62,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 62 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1240
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 1.240.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-e46f9e953356917e",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t2",
+    "fingerprint": "5d4a3e491db6b1739c9aefccb831775a",
+    "generatorParams": {
+      "a": 3,
+      "b": 163,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 3 × 163 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1956
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 1.956.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-68b2766c1b02df81",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t3",
+    "fingerprint": "635708828dcd5c76cda8460ed9cdec5b",
+    "generatorParams": {
+      "a": 4,
+      "b": 264,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 4 × 264 × 10.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "9.504"
+      },
+      {
+        "id": "option-2",
+        "label": "10.560"
+      },
+      {
+        "id": "option-3",
+        "label": "12.672"
+      },
+      {
+        "id": "option-4",
+        "label": "11.616"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 10.560.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-13bb4f744aae4656",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t4",
+    "fingerprint": "c5d764520db44f77e86958626241d0ab",
+    "generatorParams": {
+      "a": 5,
+      "b": 365,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 5 × 365 × 4. Bạn An cho rằng đáp án là 8.030. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 7.300.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-1f219f53f37fcf8e",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t5",
+    "fingerprint": "c6f8526468c7abe17848cb9bd7ec409e",
+    "generatorParams": {
+      "a": 2,
+      "b": 466,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 466 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 9320
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 9.320.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-60beb5d178615e70",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t1",
+    "fingerprint": "5cf7f843e5946467b55983adf5c52a94",
+    "generatorParams": {
+      "a": 2,
+      "b": 69,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 69 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1380
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 1.380.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-03d6d9e76fe355cb",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t2",
+    "fingerprint": "dd1eeec00fe35454d974ca276eb13c67",
+    "generatorParams": {
+      "a": 3,
+      "b": 170,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 3 × 170 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2040
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 2.040.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-b491e97e6d1a6d31",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t3",
+    "fingerprint": "3415c34f340205892018812b9e656cf7",
+    "generatorParams": {
+      "a": 4,
+      "b": 271,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 4 × 271 × 10.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "11.924"
+      },
+      {
+        "id": "option-2",
+        "label": "10.840"
+      },
+      {
+        "id": "option-3",
+        "label": "9.756"
+      },
+      {
+        "id": "option-4",
+        "label": "13.008"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 10.840.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-5a345a886b09d304",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t4",
+    "fingerprint": "a37926157c4662aa4609d505666aaea0",
+    "generatorParams": {
+      "a": 5,
+      "b": 372,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 5 × 372 × 4. Bạn An cho rằng đáp án là 7.440. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 7.440.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-d9b8fdb16b629437",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t5",
+    "fingerprint": "d0c8dd6abd2b4bc0e99501572227f558",
+    "generatorParams": {
+      "a": 2,
+      "b": 473,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 473 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 9460
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 9.460.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-6652cbd7c5ed15e0",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t1",
+    "fingerprint": "26cba77e80e8d9bcae32125cd53d2494",
+    "generatorParams": {
+      "a": 2,
+      "b": 76,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 76 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1520
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 1.520.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-7393650438251b1f",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t2",
+    "fingerprint": "78d00d91d83627fb0e2e3fd3fd3d8ca8",
+    "generatorParams": {
+      "a": 3,
+      "b": 177,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 3 × 177 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2124
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 2.124.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-ef56e16c1b77c01d",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t3",
+    "fingerprint": "54d89fcbda81bf492cbec4ec6d223931",
+    "generatorParams": {
+      "a": 4,
+      "b": 278,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 4 × 278 × 10.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "10.008"
+      },
+      {
+        "id": "option-2",
+        "label": "12.232"
+      },
+      {
+        "id": "option-3",
+        "label": "13.344"
+      },
+      {
+        "id": "option-4",
+        "label": "11.120"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 11.120.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-19fc248acd7ce9b2",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t4",
+    "fingerprint": "d23fcc31a548454aab9d2aed5ef817e7",
+    "generatorParams": {
+      "a": 5,
+      "b": 379,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 5 × 379 × 4. Bạn An cho rằng đáp án là 8.338. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 7.580.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-047e6a860f655bf6",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t5",
+    "fingerprint": "e067ff2fa34ca7e37abdea7356a9b0a8",
+    "generatorParams": {
+      "a": 2,
+      "b": 480,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 480 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 9600
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 9.600.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-e29fff899f3ffb8e",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t1",
+    "fingerprint": "7ef9be7fd437452474eb5b0c1c50b517",
+    "generatorParams": {
+      "a": 2,
+      "b": 83,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 83 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1660
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 1.660.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-56f2c969cf12af1d",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t2",
+    "fingerprint": "7253f86b360d048b0edd9fb1283409d6",
+    "generatorParams": {
+      "a": 3,
+      "b": 184,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 3 × 184 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2208
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 2.208.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-d1f33953b2f36f68",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t3",
+    "fingerprint": "6c6903114b3381a012a69f6784425e39",
+    "generatorParams": {
+      "a": 4,
+      "b": 285,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 4 × 285 × 10.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "12.540"
+      },
+      {
+        "id": "option-2",
+        "label": "13.680"
+      },
+      {
+        "id": "option-3",
+        "label": "10.260"
+      },
+      {
+        "id": "option-4",
+        "label": "11.400"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 11.400.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-36337317a83eb275",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t4",
+    "fingerprint": "6a31b7dfc9c10869584c6534a021f63f",
+    "generatorParams": {
+      "a": 5,
+      "b": 386,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 5 × 386 × 4. Bạn An cho rằng đáp án là 7.720. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 7.720.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-c6b0aad3342cc0a0",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t5",
+    "fingerprint": "8654813839f87822dae4b2908c5797b8",
+    "generatorParams": {
+      "a": 2,
+      "b": 487,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 487 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 9740
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 9.740.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-b04a0c68d6d3ed89",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t1",
+    "fingerprint": "e13cd14f3702482e85da7f2cf48cb08e",
+    "generatorParams": {
+      "a": 2,
+      "b": 90,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 90 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1800
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 1.800.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-b5f739b6a44658bf",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t2",
+    "fingerprint": "9c7b6f7aedad5f3645bf1c85fb0c299a",
+    "generatorParams": {
+      "a": 3,
+      "b": 191,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 3 × 191 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2292
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 2.292.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-a4d2bcdfbdbabdb7",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t3",
+    "fingerprint": "00088c571cf0e8601af24de703d0a524",
+    "generatorParams": {
+      "a": 4,
+      "b": 292,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 4 × 292 × 10.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "12.848"
+      },
+      {
+        "id": "option-2",
+        "label": "14.016"
+      },
+      {
+        "id": "option-3",
+        "label": "11.680"
+      },
+      {
+        "id": "option-4",
+        "label": "10.512"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 11.680.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-d3d0967620c735c2",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t4",
+    "fingerprint": "129e4353c24a687c7ce128684c78c839",
+    "generatorParams": {
+      "a": 5,
+      "b": 393,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 5 × 393 × 4. Bạn An cho rằng đáp án là 8.646. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 7.860.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-09a72fc9dd3451f5",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t5",
+    "fingerprint": "43b351ccd5f43fba5e65ce4ae2b2429e",
+    "generatorParams": {
+      "a": 2,
+      "b": 494,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 494 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 9880
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 9.880.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-573b1a4183735f60",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t1",
+    "fingerprint": "3973646d1c89d51c6816ad083e547811",
+    "generatorParams": {
+      "a": 2,
+      "b": 97,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 97 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 1940
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 1.940.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-794e35cde07d4837",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t2",
+    "fingerprint": "399d94b3d305acdc07c6276b8a92c52c",
+    "generatorParams": {
+      "a": 3,
+      "b": 198,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 3 × 198 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2376
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 2.376.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-69da9df50796d766",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t3",
+    "fingerprint": "838c7f2fb4a060259d464ea703079690",
+    "generatorParams": {
+      "a": 4,
+      "b": 299,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 4 × 299 × 10.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "14.352"
+      },
+      {
+        "id": "option-2",
+        "label": "10.764"
+      },
+      {
+        "id": "option-3",
+        "label": "11.960"
+      },
+      {
+        "id": "option-4",
+        "label": "13.156"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 11.960.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-1a51c17e13f59e25",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t4",
+    "fingerprint": "1cb819fe40480b3b9e36b08eeb86d452",
+    "generatorParams": {
+      "a": 5,
+      "b": 400,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 5 × 400 × 4. Bạn An cho rằng đáp án là 8.000. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 8.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-a2ed7d02d0f3772f",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t5",
+    "fingerprint": "822f53d68b40857be03cc51da9315e35",
+    "generatorParams": {
+      "a": 2,
+      "b": 501,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 501 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 10020
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 10.020.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-04b2192b72eab8ad",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t1",
+    "fingerprint": "8098666d5f0071473f11130158691993",
+    "generatorParams": {
+      "a": 2,
+      "b": 104,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 104 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2080
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 2.080.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-bb5e8d61d0d3b4e5",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t2",
+    "fingerprint": "45591541f90fb0e6ea203e12fdbafe00",
+    "generatorParams": {
+      "a": 3,
+      "b": 205,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 3 × 205 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2460
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 2.460.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-b281033998d29925",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t3",
+    "fingerprint": "63af52f3f4dce2e0096f0fec0d8cd892",
+    "generatorParams": {
+      "a": 4,
+      "b": 306,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 4 × 306 × 10.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "14.688"
+      },
+      {
+        "id": "option-2",
+        "label": "13.464"
+      },
+      {
+        "id": "option-3",
+        "label": "11.016"
+      },
+      {
+        "id": "option-4",
+        "label": "12.240"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 12.240.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-3d09ebeb325c5d04",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t4",
+    "fingerprint": "132056eddf3cefeed86af9f9bc5a7004",
+    "generatorParams": {
+      "a": 5,
+      "b": 407,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 5 × 407 × 4. Bạn An cho rằng đáp án là 8.954. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 8.140.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-919606ccd70845f3",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t5",
+    "fingerprint": "cbfab099dbfae73499b1414c5df7a890",
+    "generatorParams": {
+      "a": 2,
+      "b": 508,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 508 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 10160
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 10.160.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-5a9fd2773d8e1682",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t1",
+    "fingerprint": "1f37281c6a9a9c13ddad19f1ef9fbd5d",
+    "generatorParams": {
+      "a": 2,
+      "b": 111,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 111 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2220
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 2.220.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-03b069413cee5c57",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t2",
+    "fingerprint": "6533096c292dbf5407b1ecbc5e1aa919",
+    "generatorParams": {
+      "a": 3,
+      "b": 212,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 3 × 212 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2544
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 2.544.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-0e4e9d08fac65da7",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t3",
+    "fingerprint": "aad713cf925575b91b147aeb0e84a209",
+    "generatorParams": {
+      "a": 4,
+      "b": 313,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 4 × 313 × 10.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "12.520"
+      },
+      {
+        "id": "option-2",
+        "label": "15.024"
+      },
+      {
+        "id": "option-3",
+        "label": "11.268"
+      },
+      {
+        "id": "option-4",
+        "label": "13.772"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 12.520.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-a475bd9cff12b0a4",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t4",
+    "fingerprint": "3202796d1925fa329e8a8ced4af2c51c",
+    "generatorParams": {
+      "a": 5,
+      "b": 414,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 5 × 414 × 4. Bạn An cho rằng đáp án là 8.280. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 8.280.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-4f30dd69cfb6dff1",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t5",
+    "fingerprint": "4344ca38782d442d0dee22519a7d7a27",
+    "generatorParams": {
+      "a": 2,
+      "b": 515,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 515 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 10300
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 10.300.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-8c09697ffda3631c",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t1",
+    "fingerprint": "b9b8351b9f50dc7f807742901c79b754",
+    "generatorParams": {
+      "a": 2,
+      "b": 118,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 118 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2360
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 2.360.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-2f4b7e8a1f471c24",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t2",
+    "fingerprint": "e1b1a136e6cfcb6a3a5cbf4a2f8fa516",
+    "generatorParams": {
+      "a": 3,
+      "b": 219,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 3 × 219 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2628
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 2.628.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-4f86fcbed005187e",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t3",
+    "fingerprint": "84b5fdb36a809a705d051c258577fdcc",
+    "generatorParams": {
+      "a": 4,
+      "b": 320,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 4 × 320 × 10.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "15.360"
+      },
+      {
+        "id": "option-2",
+        "label": "14.080"
+      },
+      {
+        "id": "option-3",
+        "label": "11.520"
+      },
+      {
+        "id": "option-4",
+        "label": "12.800"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 12.800.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-650d997226caea63",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t4",
+    "fingerprint": "c2408c9071e4b23ad1643288741f94a0",
+    "generatorParams": {
+      "a": 5,
+      "b": 421,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 5 × 421 × 4. Bạn An cho rằng đáp án là 9.262. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 8.420.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-e3aa3cf8647a851a",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t5",
+    "fingerprint": "eb363ef113a51c51a5dcd32aab5ff90f",
+    "generatorParams": {
+      "a": 2,
+      "b": 522,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 522 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 10440
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 10.440.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-a0a175ce2f2eb0d2",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t1",
+    "fingerprint": "d6edb990be8b16d6bac5a0b9ad4d6518",
+    "generatorParams": {
+      "a": 2,
+      "b": 125,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 125 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2500
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 2.500.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-6f7223b074c031af",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t2",
+    "fingerprint": "d015d0b839a1b92da1ff5c4f09c04672",
+    "generatorParams": {
+      "a": 3,
+      "b": 226,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 3 × 226 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2712
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 2.712.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-e592ee35e7ee17f9",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t3",
+    "fingerprint": "c0ef0a9c80f62f0bc5af2df39a208eb6",
+    "generatorParams": {
+      "a": 4,
+      "b": 327,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 4 × 327 × 10.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "13.080"
+      },
+      {
+        "id": "option-2",
+        "label": "14.388"
+      },
+      {
+        "id": "option-3",
+        "label": "15.696"
+      },
+      {
+        "id": "option-4",
+        "label": "11.772"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 13.080.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-42dc7a0d0da323fe",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t4",
+    "fingerprint": "a0c50e71557dddadbaaacfc6d4f557c9",
+    "generatorParams": {
+      "a": 5,
+      "b": 428,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 5 × 428 × 4. Bạn An cho rằng đáp án là 8.560. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 8.560.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-bba95597829114ce",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t5",
+    "fingerprint": "453a56caab9939c9456c19e979cb5f60",
+    "generatorParams": {
+      "a": 2,
+      "b": 529,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 529 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 10580
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 10.580.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-62b7bb1039276b49",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t1",
+    "fingerprint": "c61aaf8a7bd4bdc16b045cb05c171947",
+    "generatorParams": {
+      "a": 2,
+      "b": 132,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 132 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2640
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 2.640.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-803920e40f25672f",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t2",
+    "fingerprint": "63cf0bd9aeb15457216d527a2daba76e",
+    "generatorParams": {
+      "a": 3,
+      "b": 233,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 3 × 233 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2796
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 2.796.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-f57dcfc7a98eb483",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t3",
+    "fingerprint": "774836bc467068c8bd3440fca964975c",
+    "generatorParams": {
+      "a": 4,
+      "b": 334,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 4 × 334 × 10.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "16.032"
+      },
+      {
+        "id": "option-2",
+        "label": "14.696"
+      },
+      {
+        "id": "option-3",
+        "label": "12.024"
+      },
+      {
+        "id": "option-4",
+        "label": "13.360"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 13.360.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-b0e2d1330ef77659",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t4",
+    "fingerprint": "2680e9058377f52303418df0fdbdd7d4",
+    "generatorParams": {
+      "a": 5,
+      "b": 435,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 5 × 435 × 4. Bạn An cho rằng đáp án là 9.570. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 8.700.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-331c3b7c6b3f122a",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t5",
+    "fingerprint": "1022b950a5179c8d8f57d0200affb357",
+    "generatorParams": {
+      "a": 2,
+      "b": 536,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 536 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 10720
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 10.720.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-e13bfd8bb9983f9c",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t1",
+    "fingerprint": "f9da8f5ca5dbf3a2e3363657ac4c6729",
+    "generatorParams": {
+      "a": 2,
+      "b": 139,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 139 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2780
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 2.780.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-d3bc126c21f8f971",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t2",
+    "fingerprint": "adcdc73650380ee50881aa05e323f047",
+    "generatorParams": {
+      "a": 3,
+      "b": 240,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 3 × 240 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2880
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 2.880.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-0a407300807147d5",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t3",
+    "fingerprint": "b8351b8453976dcddbb1077fe5f325d3",
+    "generatorParams": {
+      "a": 4,
+      "b": 341,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 4 × 341 × 10.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "12.276"
+      },
+      {
+        "id": "option-2",
+        "label": "16.368"
+      },
+      {
+        "id": "option-3",
+        "label": "15.004"
+      },
+      {
+        "id": "option-4",
+        "label": "13.640"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 13.640.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-d3818b628eb4a2da",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t4",
+    "fingerprint": "286d6f14e91e7ab014ab7f9412edaff6",
+    "generatorParams": {
+      "a": 5,
+      "b": 442,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 5 × 442 × 4. Bạn An cho rằng đáp án là 8.840. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 8.840.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-1f0cb3370e821317",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t5",
+    "fingerprint": "d4921d1c6f36e0541a9d16ce6295908c",
+    "generatorParams": {
+      "a": 2,
+      "b": 543,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 543 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 10860
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 10.860.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-c3dd26c4770aca2d",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t1",
+    "fingerprint": "046abcc0455ebff240d6c5145a826c24",
+    "generatorParams": {
+      "a": 2,
+      "b": 146,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 146 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2920
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 2.920.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-a22e7cbc048e0cfe",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t2",
+    "fingerprint": "a03fd82907ed01f67bdb86645e5a7cf0",
+    "generatorParams": {
+      "a": 3,
+      "b": 247,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 3 × 247 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 2964
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 2.964.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-a394884dd89b3e96",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t3",
+    "fingerprint": "7d7da8b2bf34f1f1c83bce397902823c",
+    "generatorParams": {
+      "a": 4,
+      "b": 348,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 4 × 348 × 10.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "15.312"
+      },
+      {
+        "id": "option-2",
+        "label": "13.920"
+      },
+      {
+        "id": "option-3",
+        "label": "16.704"
+      },
+      {
+        "id": "option-4",
+        "label": "12.528"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 13.920.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-8302dbaefe515434",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t4",
+    "fingerprint": "4190d96a240641a128bf0e9d67441cd6",
+    "generatorParams": {
+      "a": 5,
+      "b": 449,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 5 × 449 × 4. Bạn An cho rằng đáp án là 9.878. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 8.980.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-95c689957e9024ef",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t5",
+    "fingerprint": "794a1d08a852241ee6d128e14c9a36a3",
+    "generatorParams": {
+      "a": 2,
+      "b": 550,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 550 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 11000
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 11.000.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-591a67284c5ebc54",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t1",
+    "fingerprint": "341b2764348dacf9fc105b9bced48eb3",
+    "generatorParams": {
+      "a": 2,
+      "b": 153,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 153 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3060
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 3.060.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-4826d6fa82e84857",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t2",
+    "fingerprint": "95ba9aa077b072c58046d5acc9f7b17d",
+    "generatorParams": {
+      "a": 3,
+      "b": 254,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 3 × 254 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3048
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 3.048.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-e30cee2870a41074",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t3",
+    "fingerprint": "2a1bce385710ac856c88992b56e75e89",
+    "generatorParams": {
+      "a": 4,
+      "b": 355,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 4 × 355 × 10.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "14.200"
+      },
+      {
+        "id": "option-2",
+        "label": "12.780"
+      },
+      {
+        "id": "option-3",
+        "label": "17.040"
+      },
+      {
+        "id": "option-4",
+        "label": "15.620"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 14.200.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-2b08d44c0bd53e48",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t4",
+    "fingerprint": "e4e53e70e826333e10376274b7e71c53",
+    "generatorParams": {
+      "a": 5,
+      "b": 456,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 5 × 456 × 4. Bạn An cho rằng đáp án là 9.120. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 9.120.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-692f2b0490f5d57c",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t5",
+    "fingerprint": "fe123e416bbe06e93353da4301eef3a8",
+    "generatorParams": {
+      "a": 2,
+      "b": 557,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 557 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 11140
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 11.140.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-499f3209ece95206",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t1",
+    "fingerprint": "65a4fec3eead9f5d00d8f499ecee4501",
+    "generatorParams": {
+      "a": 2,
+      "b": 160,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 160 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3200
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 3.200.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-da281e9dc255b341",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t2",
+    "fingerprint": "f35fd871e65c63fba1a13141647ff74a",
+    "generatorParams": {
+      "a": 3,
+      "b": 261,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 3 × 261 × 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 3132
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 3.132.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-770b0aa3e99f73f4",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t3",
+    "fingerprint": "ad05decd9f2aa3206c2bfc596e97ebfb",
+    "generatorParams": {
+      "a": 4,
+      "b": 362,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 4 × 362 × 10.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "15.928"
+      },
+      {
+        "id": "option-2",
+        "label": "14.480"
+      },
+      {
+        "id": "option-3",
+        "label": "17.376"
+      },
+      {
+        "id": "option-4",
+        "label": "13.032"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 14.480.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-1b48287690caeb72",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t4",
+    "fingerprint": "b68cffe89fdb48cd8e7707217aea9e05",
+    "generatorParams": {
+      "a": 5,
+      "b": 463,
+      "c": 4
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 5 × 463 × 4. Bạn An cho rằng đáp án là 10.186. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 9.260.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-multiplication-properties-7df0acd8e3cc77cd",
+    "contentVersion": "grade4-v3",
+    "templateId": "multiplication-properties-t5",
+    "fingerprint": "e5668d362db2f82aee91141109adbd08",
+    "generatorParams": {
+      "a": 2,
+      "b": 564,
+      "c": 10
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "multiplication",
+    "skillId": "multiplication-properties-skill",
+    "problemTypeId": "multiplication-properties",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính thuận tiện: 2 × 564 × 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 11280
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Đổi chỗ hoặc nhóm các thừa số để tạo tích dễ tính trước."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "MULTIPLICATION_FACT_GAP",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Vận dụng tính chất giao hoán và kết hợp của phép nhân, ta được kết quả 11.280.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

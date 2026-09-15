@@ -8,6 +8,7 @@ import type {
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { domains, grade4, problemBlueprints, skills, topics } from './catalog.data';
 import { getContentStats, validateContent } from './content-validation';
+import { grade4Kntt2026Curriculum } from './kntt-2026-curriculum';
 import { questionBank } from './question-bank.data';
 
 export interface QuestionFilters {
@@ -101,6 +102,10 @@ export class ContentService {
       skills,
       problemTypes: this.getProblemTypes(),
     };
+  }
+
+  getOfficialCurriculum() {
+    return grade4Kntt2026Curriculum;
   }
 
   getFullQuestions(filters: QuestionFilters = {}): Question[] {

@@ -10,6 +10,7 @@ import { domains, grade4, topics } from './catalog.data';
 import { finalizedSkills } from './catalog.v2-derived';
 import { finalizedProblemBlueprints } from './catalog.v2.data';
 import { auditBank, contentStats } from './content-quality.v2';
+import { grade4Kntt2026Curriculum } from './kntt-2026-curriculum';
 import { bankManifest, questionBank } from './question-bank.v2.data';
 
 export interface QuestionFilters {
@@ -97,6 +98,10 @@ export class ContentServiceV2 {
       skills: finalizedSkills,
       problemTypes: this.getProblemTypes(),
     };
+  }
+
+  getOfficialCurriculum() {
+    return grade4Kntt2026Curriculum;
   }
 
   getFullQuestions(filters: QuestionFilters = {}): Question[] {

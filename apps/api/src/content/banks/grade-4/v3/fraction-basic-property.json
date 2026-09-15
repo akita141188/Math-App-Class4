@@ -1,0 +1,6762 @@
+[
+  {
+    "id": "g4-fraction-basic-property-34fd2b08df3b9d2a",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t1",
+    "fingerprint": "252150b37f73868fb192975adac2c6b1",
+    "generatorParams": {
+      "numerator": 2,
+      "denominator": 12,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 2/12 = □/24.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 4
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "2 × 2 = 4, nên 2/12 = 4/24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-f0a83da0a0e36d81",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t2",
+    "fingerprint": "0aab6f116274070baec16280bdf22c85",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 13,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 5/13 = □/39.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 15
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 3 = 15, nên 5/13 = 15/39.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-0b5991144deef0df",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t3",
+    "fingerprint": "f4cc627da2b08ca42f066cac9f218183",
+    "generatorParams": {
+      "numerator": 8,
+      "denominator": 14,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 8/14 = □/56.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "29"
+      },
+      {
+        "id": "option-2",
+        "label": "38"
+      },
+      {
+        "id": "option-3",
+        "label": "32"
+      },
+      {
+        "id": "option-4",
+        "label": "35"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 4 = 32, nên 8/14 = 32/56.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-7c55fc5207f43bfc",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t4",
+    "fingerprint": "a9b70b94d3207030fb8c42bb49d735c9",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 15,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 11/15 = □/75. Bạn An cho rằng đáp án là 55. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "11 × 5 = 55, nên 11/15 = 55/75.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-1849c596fa3fa410",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t5",
+    "fingerprint": "ab5967e6ecd08915481dec63d4a0769d",
+    "generatorParams": {
+      "numerator": 14,
+      "denominator": 16,
+      "factor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 14/16 = □/96.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 84
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 × 6 = 84, nên 14/16 = 84/96.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-47d2766a871543cd",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t1",
+    "fingerprint": "f2e0c42eb7cd9cc9a54bb93fb6b18445",
+    "generatorParams": {
+      "numerator": 3,
+      "denominator": 14,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 3/14 = □/28.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 6
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "3 × 2 = 6, nên 3/14 = 6/28.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-b45008b446f9871a",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t2",
+    "fingerprint": "256a1feed185ddff25925f023dea8404",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 15,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 6/15 = □/45.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 18
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 3 = 18, nên 6/15 = 18/45.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-4bd6ba3056d98ffb",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t3",
+    "fingerprint": "a0ec7eb3adb79cf02aa3f0ac60dbe310",
+    "generatorParams": {
+      "numerator": 9,
+      "denominator": 16,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 9/16 = □/64.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "39"
+      },
+      {
+        "id": "option-2",
+        "label": "42"
+      },
+      {
+        "id": "option-3",
+        "label": "36"
+      },
+      {
+        "id": "option-4",
+        "label": "33"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9 × 4 = 36, nên 9/16 = 36/64.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-8ef0827676f48804",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t4",
+    "fingerprint": "0e8af6092d3a1dcdec82364b511b7b72",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 17,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 12/17 = □/85. Bạn An cho rằng đáp án là 66. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12 × 5 = 60, nên 12/17 = 60/85.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-552e8c0498573e88",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t5",
+    "fingerprint": "d8874be55f3e2bfce1f5f3be84099c95",
+    "generatorParams": {
+      "numerator": 15,
+      "denominator": 18,
+      "factor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 15/18 = □/108.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 90
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 × 6 = 90, nên 15/18 = 90/108.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-71c4903af9b544fa",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t1",
+    "fingerprint": "6104469782a85f4063bd69b07ab968a3",
+    "generatorParams": {
+      "numerator": 4,
+      "denominator": 16,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 4/16 = □/32.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 8
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "4 × 2 = 8, nên 4/16 = 8/32.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-8d32e4ca9bbbad2a",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t2",
+    "fingerprint": "5cd86a9f08ad238bfd4a6dd0cddbae3f",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 17,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 7/17 = □/51.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 21
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 3 = 21, nên 7/17 = 21/51.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-ce56d6ae5af4f57b",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t3",
+    "fingerprint": "62b95eae7dd71346b3228c0cb5248df5",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 18,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 10/18 = □/72.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "44"
+      },
+      {
+        "id": "option-2",
+        "label": "36"
+      },
+      {
+        "id": "option-3",
+        "label": "40"
+      },
+      {
+        "id": "option-4",
+        "label": "48"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "10 × 4 = 40, nên 10/18 = 40/72.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-afc0c6aca5eeea66",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t4",
+    "fingerprint": "5780b13549f52c04c40032342af9211c",
+    "generatorParams": {
+      "numerator": 13,
+      "denominator": 19,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 13/19 = □/95. Bạn An cho rằng đáp án là 65. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "13 × 5 = 65, nên 13/19 = 65/95.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-fb0115d609664103",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t5",
+    "fingerprint": "2a3341bafb48a0059a9b0644a986bec0",
+    "generatorParams": {
+      "numerator": 16,
+      "denominator": 20,
+      "factor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 16/20 = □/120.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 96
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 × 6 = 96, nên 16/20 = 96/120.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-abcdff7f7243911f",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t1",
+    "fingerprint": "92f9cb4c809febe97daca55e7739b658",
+    "generatorParams": {
+      "numerator": 5,
+      "denominator": 18,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 5/18 = □/36.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 10
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "5 × 2 = 10, nên 5/18 = 10/36.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-add393840e6d36ed",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t2",
+    "fingerprint": "7732e908e9e3eb0ac6dce804bc5750fb",
+    "generatorParams": {
+      "numerator": 8,
+      "denominator": 19,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 8/19 = □/57.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 24
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 3 = 24, nên 8/19 = 24/57.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-d221cb44d34fdb15",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t3",
+    "fingerprint": "2f07bfcd9dcd9d720d56015500664eec",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 20,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 11/20 = □/80.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "40"
+      },
+      {
+        "id": "option-2",
+        "label": "48"
+      },
+      {
+        "id": "option-3",
+        "label": "44"
+      },
+      {
+        "id": "option-4",
+        "label": "52"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "11 × 4 = 44, nên 11/20 = 44/80.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-866ca48a37d24e94",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t4",
+    "fingerprint": "37fd3db6aab1368b36ac30d339526e1f",
+    "generatorParams": {
+      "numerator": 14,
+      "denominator": 21,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 14/21 = □/105. Bạn An cho rằng đáp án là 77. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 × 5 = 70, nên 14/21 = 70/105.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-c6155cd02f40460e",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t5",
+    "fingerprint": "675bc84400aa885e5632d9ac11a52873",
+    "generatorParams": {
+      "numerator": 17,
+      "denominator": 22,
+      "factor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 17/22 = □/132.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 102
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 × 6 = 102, nên 17/22 = 102/132.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-0aae55a622d065c3",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t1",
+    "fingerprint": "922041246b8f74f5f41474226294cc24",
+    "generatorParams": {
+      "numerator": 6,
+      "denominator": 20,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 6/20 = □/40.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 12
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "6 × 2 = 12, nên 6/20 = 12/40.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-e1b70d46a5269c55",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t2",
+    "fingerprint": "580d012cd12ccc8c6dc7793862ab27ef",
+    "generatorParams": {
+      "numerator": 9,
+      "denominator": 21,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 9/21 = □/63.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 27
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9 × 3 = 27, nên 9/21 = 27/63.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-cfffcc53d8b5326f",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t3",
+    "fingerprint": "eceddd4a0e9752437a4a70fe5b65a2eb",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 22,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 12/22 = □/88.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "52"
+      },
+      {
+        "id": "option-2",
+        "label": "44"
+      },
+      {
+        "id": "option-3",
+        "label": "56"
+      },
+      {
+        "id": "option-4",
+        "label": "48"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12 × 4 = 48, nên 12/22 = 48/88.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-2ed725fb369429e4",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t4",
+    "fingerprint": "4e32e396e6f8952abde5973375f730f6",
+    "generatorParams": {
+      "numerator": 15,
+      "denominator": 23,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 15/23 = □/115. Bạn An cho rằng đáp án là 75. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 × 5 = 75, nên 15/23 = 75/115.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-015f384de5bd1fdc",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t5",
+    "fingerprint": "057f88c7f582bf168d3f0a762db0b343",
+    "generatorParams": {
+      "numerator": 18,
+      "denominator": 24,
+      "factor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 18/24 = □/144.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 108
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 × 6 = 108, nên 18/24 = 108/144.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-b20a919d97889c80",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t1",
+    "fingerprint": "0581cf6e604729450de443315e4b37ec",
+    "generatorParams": {
+      "numerator": 7,
+      "denominator": 22,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 7/22 = □/44.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 14
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "7 × 2 = 14, nên 7/22 = 14/44.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-f56c91f1937fe41a",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t2",
+    "fingerprint": "928b2217e13cfdb18c7e1b0d09258a73",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 23,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 10/23 = □/69.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 30
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "10 × 3 = 30, nên 10/23 = 30/69.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-8fe317543301f383",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t3",
+    "fingerprint": "db89774735ddb43f3aeba89079a38bc4",
+    "generatorParams": {
+      "numerator": 13,
+      "denominator": 24,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 13/24 = □/96.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "47"
+      },
+      {
+        "id": "option-2",
+        "label": "52"
+      },
+      {
+        "id": "option-3",
+        "label": "62"
+      },
+      {
+        "id": "option-4",
+        "label": "57"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "13 × 4 = 52, nên 13/24 = 52/96.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-351a1013791b8556",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t4",
+    "fingerprint": "421995e4263f349f2123823de8ccaf4f",
+    "generatorParams": {
+      "numerator": 16,
+      "denominator": 25,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 16/25 = □/125. Bạn An cho rằng đáp án là 88. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 × 5 = 80, nên 16/25 = 80/125.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-84bfc1cf373da1aa",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t5",
+    "fingerprint": "808226be8faac3a5352fa4ef866dc78f",
+    "generatorParams": {
+      "numerator": 19,
+      "denominator": 26,
+      "factor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 19/26 = □/156.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 114
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 6 = 114, nên 19/26 = 114/156.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-72e7495f39eff933",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t1",
+    "fingerprint": "e0addedb0e13f7d0ef3c2479c440a98f",
+    "generatorParams": {
+      "numerator": 8,
+      "denominator": 24,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 8/24 = □/48.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 16
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "8 × 2 = 16, nên 8/24 = 16/48.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-63c33b88be5a1b8c",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t2",
+    "fingerprint": "6deb022b29945baf091bddf9b0248b7f",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 25,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 11/25 = □/75.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 33
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "11 × 3 = 33, nên 11/25 = 33/75.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-8bb1c62d86627b07",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t3",
+    "fingerprint": "04c633c36112215edc5d6ec2b296ebf7",
+    "generatorParams": {
+      "numerator": 14,
+      "denominator": 26,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 14/26 = □/104.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "51"
+      },
+      {
+        "id": "option-2",
+        "label": "66"
+      },
+      {
+        "id": "option-3",
+        "label": "61"
+      },
+      {
+        "id": "option-4",
+        "label": "56"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 × 4 = 56, nên 14/26 = 56/104.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-cea8fdc2a211f0bd",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t4",
+    "fingerprint": "7640783145d92cad0ac581148d3fc08d",
+    "generatorParams": {
+      "numerator": 17,
+      "denominator": 27,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 17/27 = □/135. Bạn An cho rằng đáp án là 85. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 × 5 = 85, nên 17/27 = 85/135.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-7e2a142ec1978a19",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t5",
+    "fingerprint": "b0d3f986efd09de8f23865d3cc99f482",
+    "generatorParams": {
+      "numerator": 20,
+      "denominator": 28,
+      "factor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 20/28 = □/168.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 120
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 6 = 120, nên 20/28 = 120/168.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-4610e2eac4f1cea4",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t1",
+    "fingerprint": "0a38504fa807e1ed0583c935b41388b8",
+    "generatorParams": {
+      "numerator": 9,
+      "denominator": 26,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 9/26 = □/52.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 18
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "9 × 2 = 18, nên 9/26 = 18/52.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-f4eb83186bd6f33d",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t2",
+    "fingerprint": "30ddc6a7a433053683ffab6fbb6dedf2",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 27,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 12/27 = □/81.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 36
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12 × 3 = 36, nên 12/27 = 36/81.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-1417edca00f33044",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t3",
+    "fingerprint": "bdcd5a2d8fe094225b92ee50d33feb3e",
+    "generatorParams": {
+      "numerator": 15,
+      "denominator": 28,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 15/28 = □/112.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "66"
+      },
+      {
+        "id": "option-2",
+        "label": "54"
+      },
+      {
+        "id": "option-3",
+        "label": "60"
+      },
+      {
+        "id": "option-4",
+        "label": "72"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 × 4 = 60, nên 15/28 = 60/112.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-85794155aaffa675",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t4",
+    "fingerprint": "3a65b4e0e6d2aae6f318507b58ba64d0",
+    "generatorParams": {
+      "numerator": 18,
+      "denominator": 29,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 18/29 = □/145. Bạn An cho rằng đáp án là 99. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 × 5 = 90, nên 18/29 = 90/145.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-8fd1c97ce74eb724",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t5",
+    "fingerprint": "5d96f4fd01ded03a7f4924fa609b94b8",
+    "generatorParams": {
+      "numerator": 21,
+      "denominator": 30,
+      "factor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 21/30 = □/180.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 126
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 6 = 126, nên 21/30 = 126/180.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-c4132c887500658c",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t1",
+    "fingerprint": "f97e28111e3e2b51a7c4cb7d757e626d",
+    "generatorParams": {
+      "numerator": 10,
+      "denominator": 28,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 10/28 = □/56.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 20
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "10 × 2 = 20, nên 10/28 = 20/56.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-1af7d0ff1b298970",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t2",
+    "fingerprint": "fa5636a8175f9831f4b776f124e0194c",
+    "generatorParams": {
+      "numerator": 13,
+      "denominator": 29,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 13/29 = □/87.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 39
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "13 × 3 = 39, nên 13/29 = 39/87.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-d94f81c29feac8cd",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t3",
+    "fingerprint": "7eebe941207bcd62f841b7151e851ddd",
+    "generatorParams": {
+      "numerator": 16,
+      "denominator": 30,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 16/30 = □/120.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "58"
+      },
+      {
+        "id": "option-2",
+        "label": "76"
+      },
+      {
+        "id": "option-3",
+        "label": "70"
+      },
+      {
+        "id": "option-4",
+        "label": "64"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 × 4 = 64, nên 16/30 = 64/120.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-78f62ba823188b62",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t4",
+    "fingerprint": "757a3534e360a71e3e21299548ae3652",
+    "generatorParams": {
+      "numerator": 19,
+      "denominator": 31,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 19/31 = □/155. Bạn An cho rằng đáp án là 95. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 5 = 95, nên 19/31 = 95/155.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-f625386fcd24b021",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t5",
+    "fingerprint": "550f46351e40c8e840e3ef9a608f96da",
+    "generatorParams": {
+      "numerator": 22,
+      "denominator": 32,
+      "factor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 22/32 = □/192.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 132
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "22 × 6 = 132, nên 22/32 = 132/192.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-fe1da689430587db",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t1",
+    "fingerprint": "2d21f1be2377e890f0c17dd78b5f55e5",
+    "generatorParams": {
+      "numerator": 11,
+      "denominator": 30,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 11/30 = □/60.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 22
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "11 × 2 = 22, nên 11/30 = 22/60.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-6b4bd60251a71a87",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t2",
+    "fingerprint": "c5840a7cfc53e11dd5c3cafdab3a1c62",
+    "generatorParams": {
+      "numerator": 14,
+      "denominator": 31,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 14/31 = □/93.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 42
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 × 3 = 42, nên 14/31 = 42/93.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-71e5aa50907928dc",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t3",
+    "fingerprint": "c753a4563a8141d0f2277b94d7e4f0c8",
+    "generatorParams": {
+      "numerator": 17,
+      "denominator": 32,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 17/32 = □/128.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "62"
+      },
+      {
+        "id": "option-2",
+        "label": "68"
+      },
+      {
+        "id": "option-3",
+        "label": "74"
+      },
+      {
+        "id": "option-4",
+        "label": "80"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 × 4 = 68, nên 17/32 = 68/128.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-60c4a342e04dd5af",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t4",
+    "fingerprint": "f5b9e531ae0c3d219cb89732f1a0b187",
+    "generatorParams": {
+      "numerator": 20,
+      "denominator": 33,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 20/33 = □/165. Bạn An cho rằng đáp án là 110. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 5 = 100, nên 20/33 = 100/165.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-24a35c54248e46f5",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t5",
+    "fingerprint": "c9d899b15b2c476f7e1638fffaac9260",
+    "generatorParams": {
+      "numerator": 23,
+      "denominator": 34,
+      "factor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 23/34 = □/204.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 138
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23 × 6 = 138, nên 23/34 = 138/204.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-04f494d303646372",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t1",
+    "fingerprint": "a38ee3ef06d6c4dc3dbb5b1cd49501f1",
+    "generatorParams": {
+      "numerator": 12,
+      "denominator": 32,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 12/32 = □/64.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 24
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "12 × 2 = 24, nên 12/32 = 24/64.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-2b4f3f9cede0cd91",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t2",
+    "fingerprint": "dca975615a9149809f04461cdc4dd848",
+    "generatorParams": {
+      "numerator": 15,
+      "denominator": 33,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 15/33 = □/99.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 45
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 × 3 = 45, nên 15/33 = 45/99.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-260e649963659e2e",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t3",
+    "fingerprint": "56609b6fbf5afb3326bb80619b7b6064",
+    "generatorParams": {
+      "numerator": 18,
+      "denominator": 34,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 18/34 = □/136.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "86"
+      },
+      {
+        "id": "option-2",
+        "label": "79"
+      },
+      {
+        "id": "option-3",
+        "label": "72"
+      },
+      {
+        "id": "option-4",
+        "label": "65"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 × 4 = 72, nên 18/34 = 72/136.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-57c52b50b4b7f181",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t4",
+    "fingerprint": "9e571e4de97b6ce05244fff45fc65074",
+    "generatorParams": {
+      "numerator": 21,
+      "denominator": 35,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 21/35 = □/175. Bạn An cho rằng đáp án là 105. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 5 = 105, nên 21/35 = 105/175.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-d737b639cb9fd0d5",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t5",
+    "fingerprint": "917552a1e5cb2a76b7bf7c1e00e911b8",
+    "generatorParams": {
+      "numerator": 24,
+      "denominator": 36,
+      "factor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 24/36 = □/216.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 144
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "24 × 6 = 144, nên 24/36 = 144/216.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-868fdde22fd586ef",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t1",
+    "fingerprint": "e07a910a795fc476316a3fb3f9903730",
+    "generatorParams": {
+      "numerator": 13,
+      "denominator": 34,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 13/34 = □/68.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 26
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "13 × 2 = 26, nên 13/34 = 26/68.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-b0fc3fb9fe01c8b3",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t2",
+    "fingerprint": "80381efa56035004f365ddecac96a152",
+    "generatorParams": {
+      "numerator": 16,
+      "denominator": 35,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 16/35 = □/105.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 48
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 × 3 = 48, nên 16/35 = 48/105.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-248c8dba92b26d13",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t3",
+    "fingerprint": "cbade851c7d290b977de6a975437d5bb",
+    "generatorParams": {
+      "numerator": 19,
+      "denominator": 36,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 19/36 = □/144.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "90"
+      },
+      {
+        "id": "option-2",
+        "label": "76"
+      },
+      {
+        "id": "option-3",
+        "label": "69"
+      },
+      {
+        "id": "option-4",
+        "label": "83"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 4 = 76, nên 19/36 = 76/144.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-b76a43567f9aaff2",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t4",
+    "fingerprint": "8131d94be48b7ff8256093687d81d516",
+    "generatorParams": {
+      "numerator": 22,
+      "denominator": 37,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 22/37 = □/185. Bạn An cho rằng đáp án là 121. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "22 × 5 = 110, nên 22/37 = 110/185.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-aa4e439679d7f5ef",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t5",
+    "fingerprint": "2880d19f75818f970e1215bb4a96b455",
+    "generatorParams": {
+      "numerator": 25,
+      "denominator": 38,
+      "factor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 25/38 = □/228.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 150
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "25 × 6 = 150, nên 25/38 = 150/228.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-5a22db7bd1b8c9c0",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t1",
+    "fingerprint": "1a5dbdcb1b110f7cc8d2ea015503c3be",
+    "generatorParams": {
+      "numerator": 14,
+      "denominator": 36,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 14/36 = □/72.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 28
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "14 × 2 = 28, nên 14/36 = 28/72.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-bcbaa6ffd05cccbb",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t2",
+    "fingerprint": "679ef13378fe835bb458d8a03352c3a3",
+    "generatorParams": {
+      "numerator": 17,
+      "denominator": 37,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 17/37 = □/111.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 51
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 × 3 = 51, nên 17/37 = 51/111.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-af14401ee82ec52a",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t3",
+    "fingerprint": "7e73e051c7b72b0ceba037304258d960",
+    "generatorParams": {
+      "numerator": 20,
+      "denominator": 38,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 20/38 = □/152.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "88"
+      },
+      {
+        "id": "option-2",
+        "label": "80"
+      },
+      {
+        "id": "option-3",
+        "label": "96"
+      },
+      {
+        "id": "option-4",
+        "label": "72"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 4 = 80, nên 20/38 = 80/152.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-644ff5134fca8883",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t4",
+    "fingerprint": "147f1acdb405600fc5600212bc7a21bb",
+    "generatorParams": {
+      "numerator": 23,
+      "denominator": 39,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 23/39 = □/195. Bạn An cho rằng đáp án là 115. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23 × 5 = 115, nên 23/39 = 115/195.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-a56009e3a030acb2",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t5",
+    "fingerprint": "cdc576a6a516edbfbf5b140fe73c6259",
+    "generatorParams": {
+      "numerator": 26,
+      "denominator": 40,
+      "factor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 26/40 = □/240.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 156
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "26 × 6 = 156, nên 26/40 = 156/240.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-d328891368fe9f45",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t1",
+    "fingerprint": "308840985f42419314c8e7465b58cdd4",
+    "generatorParams": {
+      "numerator": 15,
+      "denominator": 38,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 15/38 = □/76.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 30
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "15 × 2 = 30, nên 15/38 = 30/76.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-a39aa1acaef5ed03",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t2",
+    "fingerprint": "46a3509d75dbbb9eaccff923c99b7b4c",
+    "generatorParams": {
+      "numerator": 18,
+      "denominator": 39,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 18/39 = □/117.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 54
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 × 3 = 54, nên 18/39 = 54/117.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-54a059c28dc114cf",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t3",
+    "fingerprint": "142729294c0986ac665679a3c13ab3a2",
+    "generatorParams": {
+      "numerator": 21,
+      "denominator": 40,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 21/40 = □/160.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "100"
+      },
+      {
+        "id": "option-2",
+        "label": "76"
+      },
+      {
+        "id": "option-3",
+        "label": "92"
+      },
+      {
+        "id": "option-4",
+        "label": "84"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 4 = 84, nên 21/40 = 84/160.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-2e7195142046f4c9",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t4",
+    "fingerprint": "ca94d82162f0d7daddf6a34868f208bf",
+    "generatorParams": {
+      "numerator": 24,
+      "denominator": 41,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 24/41 = □/205. Bạn An cho rằng đáp án là 132. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "24 × 5 = 120, nên 24/41 = 120/205.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-5399133b212a4076",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t5",
+    "fingerprint": "de13ad90c12e3ae43603db45275452b7",
+    "generatorParams": {
+      "numerator": 27,
+      "denominator": 42,
+      "factor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 27/42 = □/252.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 162
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "27 × 6 = 162, nên 27/42 = 162/252.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-f5d0364bafc547cd",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t1",
+    "fingerprint": "ce1273e22f93c0e4c0e344b3dbbea374",
+    "generatorParams": {
+      "numerator": 16,
+      "denominator": 40,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 16/40 = □/80.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 32
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "16 × 2 = 32, nên 16/40 = 32/80.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-1e3a3fffbdd78291",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t2",
+    "fingerprint": "f90383de0f0fc8629cd3e5737bca54c6",
+    "generatorParams": {
+      "numerator": 19,
+      "denominator": 41,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 19/41 = □/123.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 57
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 3 = 57, nên 19/41 = 57/123.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-6e6a6b6a59a5265f",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t3",
+    "fingerprint": "a3f06e1196119d524b14675d35186bf4",
+    "generatorParams": {
+      "numerator": 22,
+      "denominator": 42,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 22/42 = □/168.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "104"
+      },
+      {
+        "id": "option-2",
+        "label": "96"
+      },
+      {
+        "id": "option-3",
+        "label": "80"
+      },
+      {
+        "id": "option-4",
+        "label": "88"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "22 × 4 = 88, nên 22/42 = 88/168.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-431f2c59e19facf7",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t4",
+    "fingerprint": "a36b77150c27e9c0dfbb9a91cf0c67eb",
+    "generatorParams": {
+      "numerator": 25,
+      "denominator": 43,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 25/43 = □/215. Bạn An cho rằng đáp án là 125. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "25 × 5 = 125, nên 25/43 = 125/215.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-05b3e6e6dfca9214",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t5",
+    "fingerprint": "7078715e3fce347153f956fc5978f7d2",
+    "generatorParams": {
+      "numerator": 28,
+      "denominator": 44,
+      "factor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 28/44 = □/264.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 168
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "28 × 6 = 168, nên 28/44 = 168/264.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-1b4e874e4aaf6685",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t1",
+    "fingerprint": "8c093b00c6d437b72f21668e94921d96",
+    "generatorParams": {
+      "numerator": 17,
+      "denominator": 42,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 17/42 = □/84.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 34
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "17 × 2 = 34, nên 17/42 = 34/84.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-0a031c138ed56d98",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t2",
+    "fingerprint": "afe3298d19f40b0b81c2da37802518c6",
+    "generatorParams": {
+      "numerator": 20,
+      "denominator": 43,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 20/43 = □/129.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 60
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 3 = 60, nên 20/43 = 60/129.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-a6642985035bf5dc",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t3",
+    "fingerprint": "757fb0eb47da8931f42aee43189ac75e",
+    "generatorParams": {
+      "numerator": 23,
+      "denominator": 44,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 23/44 = □/176.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "110"
+      },
+      {
+        "id": "option-2",
+        "label": "83"
+      },
+      {
+        "id": "option-3",
+        "label": "101"
+      },
+      {
+        "id": "option-4",
+        "label": "92"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23 × 4 = 92, nên 23/44 = 92/176.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-7a8a60ba585a6017",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t4",
+    "fingerprint": "9d5987753d8c970aa4387f4e63219b84",
+    "generatorParams": {
+      "numerator": 26,
+      "denominator": 45,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 26/45 = □/225. Bạn An cho rằng đáp án là 143. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "26 × 5 = 130, nên 26/45 = 130/225.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-b1e1f6bad0161f2e",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t5",
+    "fingerprint": "37bf9c8c313bb22cfceafc424df3fc34",
+    "generatorParams": {
+      "numerator": 29,
+      "denominator": 46,
+      "factor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 29/46 = □/276.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 174
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "29 × 6 = 174, nên 29/46 = 174/276.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-ff60988a3764b88b",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t1",
+    "fingerprint": "8f8dbe442703562f3c791a2c44dfc40a",
+    "generatorParams": {
+      "numerator": 18,
+      "denominator": 44,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 18/44 = □/88.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 36
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "18 × 2 = 36, nên 18/44 = 36/88.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-b25db2719a3c3158",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t2",
+    "fingerprint": "7a14508158fb98d8f0509cd2650aa8aa",
+    "generatorParams": {
+      "numerator": 21,
+      "denominator": 45,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 21/45 = □/135.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 63
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 3 = 63, nên 21/45 = 63/135.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-77f1c574d895eb36",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t3",
+    "fingerprint": "58f33d1079756e968bc1fd1660561f97",
+    "generatorParams": {
+      "numerator": 24,
+      "denominator": 46,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 24/46 = □/184.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "96"
+      },
+      {
+        "id": "option-2",
+        "label": "105"
+      },
+      {
+        "id": "option-3",
+        "label": "87"
+      },
+      {
+        "id": "option-4",
+        "label": "114"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "24 × 4 = 96, nên 24/46 = 96/184.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-13555312fecb2758",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t4",
+    "fingerprint": "36cde4f7c2510ce076fd6195a1df0ea2",
+    "generatorParams": {
+      "numerator": 27,
+      "denominator": 47,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 27/47 = □/235. Bạn An cho rằng đáp án là 135. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "27 × 5 = 135, nên 27/47 = 135/235.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-afd0a41813673fa7",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t5",
+    "fingerprint": "3a1b48a8c9e50865ee5230ab8d310e8f",
+    "generatorParams": {
+      "numerator": 30,
+      "denominator": 48,
+      "factor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 30/48 = □/288.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 180
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "30 × 6 = 180, nên 30/48 = 180/288.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-b0544fed3539c43c",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t1",
+    "fingerprint": "8c64147f81eaa86698f6fa3820084313",
+    "generatorParams": {
+      "numerator": 19,
+      "denominator": 46,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 19/46 = □/92.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 38
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "19 × 2 = 38, nên 19/46 = 38/92.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-b8e1a8fc5b23a8f2",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t2",
+    "fingerprint": "7c827ef83a3e99d8806479d78e784f90",
+    "generatorParams": {
+      "numerator": 22,
+      "denominator": 47,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 22/47 = □/141.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 66
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "22 × 3 = 66, nên 22/47 = 66/141.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-355d601450291cb9",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t3",
+    "fingerprint": "8504a5108e493c54ea240094b3125985",
+    "generatorParams": {
+      "numerator": 25,
+      "denominator": 48,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 25/48 = □/192.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "120"
+      },
+      {
+        "id": "option-2",
+        "label": "90"
+      },
+      {
+        "id": "option-3",
+        "label": "110"
+      },
+      {
+        "id": "option-4",
+        "label": "100"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "25 × 4 = 100, nên 25/48 = 100/192.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-dbd808f5d0da9f05",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t4",
+    "fingerprint": "0dd3cb4be63b87d5a209f5ee418f9ab7",
+    "generatorParams": {
+      "numerator": 28,
+      "denominator": 49,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 28/49 = □/245. Bạn An cho rằng đáp án là 154. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "28 × 5 = 140, nên 28/49 = 140/245.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-e48c062de927d3e2",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t5",
+    "fingerprint": "f748840da7a5582edc9235ec70645ff6",
+    "generatorParams": {
+      "numerator": 31,
+      "denominator": 50,
+      "factor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 31/50 = □/300.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 186
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "31 × 6 = 186, nên 31/50 = 186/300.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-2f24ab309ffcb7ef",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t1",
+    "fingerprint": "b00610372043b6fe5f9c0222c1848ad2",
+    "generatorParams": {
+      "numerator": 20,
+      "denominator": 48,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 20/48 = □/96.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 40
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "20 × 2 = 40, nên 20/48 = 40/96.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-61032510408db824",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t2",
+    "fingerprint": "102c37ef2b04c508ea1a1cf3d698c746",
+    "generatorParams": {
+      "numerator": 23,
+      "denominator": 49,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 23/49 = □/147.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 69
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "23 × 3 = 69, nên 23/49 = 69/147.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-c8adb4b82d4c3a69",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t3",
+    "fingerprint": "88fef8b000584dbf6eb86ee0a5531cea",
+    "generatorParams": {
+      "numerator": 26,
+      "denominator": 50,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 26/50 = □/200.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "114"
+      },
+      {
+        "id": "option-2",
+        "label": "104"
+      },
+      {
+        "id": "option-3",
+        "label": "94"
+      },
+      {
+        "id": "option-4",
+        "label": "124"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "26 × 4 = 104, nên 26/50 = 104/200.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-6bc20495da8efebf",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t4",
+    "fingerprint": "daf86a6daac97c280f3ac747c6ef9691",
+    "generatorParams": {
+      "numerator": 29,
+      "denominator": 51,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 29/51 = □/255. Bạn An cho rằng đáp án là 145. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "29 × 5 = 145, nên 29/51 = 145/255.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-499a400cbafb5d64",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t5",
+    "fingerprint": "b657583556a000672f973f0f2c97ccc1",
+    "generatorParams": {
+      "numerator": 32,
+      "denominator": 52,
+      "factor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 32/52 = □/312.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 192
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "32 × 6 = 192, nên 32/52 = 192/312.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-2357b4ab693afab9",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t1",
+    "fingerprint": "fbac65610499157734a3221431b902bb",
+    "generatorParams": {
+      "numerator": 21,
+      "denominator": 50,
+      "factor": 2
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 21/50 = □/100.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 42
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 2, vì vậy tử số cũng phải nhân với 2."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "21 × 2 = 42, nên 21/50 = 42/100.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-7dd61ab0e9663d7b",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t2",
+    "fingerprint": "f7347359c2f4bce597d4e9e29acedc10",
+    "generatorParams": {
+      "numerator": 24,
+      "denominator": 51,
+      "factor": 3
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 24/51 = □/153.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 72
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 3, vì vậy tử số cũng phải nhân với 3."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "24 × 3 = 72, nên 24/51 = 72/153.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-86b8b13a14fc503d",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t3",
+    "fingerprint": "971f6575cf53937e3538b622fa1caf90",
+    "generatorParams": {
+      "numerator": 27,
+      "denominator": 52,
+      "factor": 4
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 27/52 = □/208.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "118"
+      },
+      {
+        "id": "option-2",
+        "label": "108"
+      },
+      {
+        "id": "option-3",
+        "label": "128"
+      },
+      {
+        "id": "option-4",
+        "label": "98"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 4, vì vậy tử số cũng phải nhân với 4."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "27 × 4 = 108, nên 27/52 = 108/208.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-fac7eb94f2e56aa3",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t4",
+    "fingerprint": "9a70d9b1baa2e36122bc8db5d4c56911",
+    "generatorParams": {
+      "numerator": 30,
+      "denominator": 53,
+      "factor": 5
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 30/53 = □/265. Bạn An cho rằng đáp án là 165. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 5, vì vậy tử số cũng phải nhân với 5."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "30 × 5 = 150, nên 30/53 = 150/265.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-fraction-basic-property-6d4e2a696d13a75a",
+    "contentVersion": "grade4-v3",
+    "templateId": "fraction-basic-property-t5",
+    "fingerprint": "b03db6229cb0aa9c6f1de855341b397c",
+    "generatorParams": {
+      "numerator": 33,
+      "denominator": 54,
+      "factor": 6
+    },
+    "grade": 4,
+    "domainId": "fractions",
+    "topicId": "grade-4-fractions",
+    "skillId": "fraction-basic-property-skill",
+    "problemTypeId": "fraction-basic-property",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Điền số thích hợp: 33/54 = □/324.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 198
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Mẫu số được nhân với 6, vì vậy tử số cũng phải nhân với 6."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "FRACTION_PART_WHOLE_CONFUSION",
+        "feedback": "Em kiểm tra lại tử số, mẫu số và phép tính với phân số nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "33 × 6 = 198, nên 33/54 = 198/324.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

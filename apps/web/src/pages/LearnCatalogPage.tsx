@@ -190,9 +190,12 @@ export function LearnCatalogPage({ allTypes = false }: Props) {
     return (
       <PageContainer>
         <header className={'page-intro catalog-intro'}>
-          <span className={'page-kicker'}>Bản đồ học tập</span>
+          <span className={'page-kicker'}>Kết nối tri thức · 2026–2027</span>
           <h1>Toán lớp 4 có những gì?</h1>
-          <p>Chọn một nhóm kiến thức để xem từng dạng bài. Em không cần học tất cả cùng lúc.</p>
+          <p>
+            80 dạng luyện tập được đối chiếu với 13 chủ đề, 73 bài Toán 4 Kết nối tri thức. Chọn một
+            nhóm kiến thức để học theo kỹ năng.
+          </p>
           <Link className={'button button-secondary'} to={'/learn/types'}>
             Xem tất cả các dạng Toán
           </Link>
@@ -250,124 +253,126 @@ export function LearnCatalogPage({ allTypes = false }: Props) {
           </p>
         </div>
       </section>
-      <div className={'catalog-tools'}>
-        <label className={'search-field'}>
-          <Search size={19} />
-          <span className={'sr-only'}>Tìm dạng Toán</span>
+      <div className={'viewport-scroll-panel catalog-scroll-panel'}>
+        <div className={'catalog-tools'}>
+          <label className={'search-field'}>
+            <Search size={19} />
+            <span className={'sr-only'}>Tìm dạng Toán</span>
+            <input
+              value={search}
+              onChange={(event) => setSearch(event.target.value)}
+              placeholder={'Tìm dạng Toán…'}
+            />
+          </label>
+          {allTypes && (
+            <label>
+              <span className={'sr-only'}>Lọc theo chủ đề</span>
+              <select value={topicFilter} onChange={(event) => setTopicFilter(event.target.value)}>
+                <option value={''}>Tất cả chủ đề</option>
+                {catalog.topics.map((topic) => (
+                  <option key={topic.id} value={topic.id}>
+                    {topic.name}
+                  </option>
+                ))}
+              </select>
+            </label>
+          )}
+        </div>
+        <label className={'select-all-control'}>
           <input
-            value={search}
-            onChange={(event) => setSearch(event.target.value)}
-            placeholder={'Tìm dạng Toán…'}
+            ref={selectAllRef}
+            type={'checkbox'}
+            checked={allVisibleSelected}
+            onChange={toggleAllVisible}
           />
+          <span>{allTypes ? 'Chọn tất cả kết quả đang hiển thị' : 'Chọn tất cả các dạng'}</span>
         </label>
-        {allTypes && (
+        <div className={'problem-type-grid'}>
+          {visibleProblemTypes.map((problemType) => (
+            <ProblemTypeSelector
+              key={problemType.id}
+              problemType={problemType}
+              selected={selectedIds.includes(problemType.id)}
+              masteryLevel={(() => {
+                const completion = localLearningHistoryRepository.getCompletion(
+                  problemType.id,
+                ).status;
+                if (completion === 'COMPLETED') return 'CONFIDENT';
+                if (completion === 'NEEDS_REVIEW') return 'NEEDS_REVIEW';
+                if (completion === 'PRACTICING') return 'PRACTICING';
+                return (
+                  progress.skills.find((skill) => skill.skillId === problemType.skillId)
+                    ?.masteryLevel ?? 'NEW'
+                );
+              })()}
+              onToggle={() => toggle(problemType.id)}
+            />
+          ))}
+        </div>
+        {visibleProblemTypes.length === 0 && (
+          <div className={'empty-state'}>
+            <h2>Chưa tìm thấy dạng phù hợp</h2>
+            <p>Em thử từ khóa ngắn hơn nhé.</p>
+          </div>
+        )}
+        <section className={'practice-config'} aria-labelledby={'practice-config-title'}>
+          <div>
+            <span className={'page-kicker'}>Bắt đầu luyện</span>
+            <h2 id={'practice-config-title'}>{selectedIds.length} dạng đã chọn</h2>
+            <p>Có {availableCount} câu phù hợp</p>
+          </div>
           <label>
-            <span className={'sr-only'}>Lọc theo chủ đề</span>
-            <select value={topicFilter} onChange={(event) => setTopicFilter(event.target.value)}>
-              <option value={''}>Tất cả chủ đề</option>
-              {catalog.topics.map((topic) => (
-                <option key={topic.id} value={topic.id}>
-                  {topic.name}
+            Mức độ
+            <select
+              value={difficulty}
+              onChange={(event) => setDifficulty(event.target.value as DifficultyMode)}
+            >
+              {Object.entries(difficultyLabels).map(([value, label]) => (
+                <option key={value} value={value}>
+                  {label}
                 </option>
               ))}
             </select>
           </label>
-        )}
-      </div>
-      <label className={'select-all-control'}>
-        <input
-          ref={selectAllRef}
-          type={'checkbox'}
-          checked={allVisibleSelected}
-          onChange={toggleAllVisible}
-        />
-        <span>{allTypes ? 'Chọn tất cả kết quả đang hiển thị' : 'Chọn tất cả các dạng'}</span>
-      </label>
-      <div className={'problem-type-grid'}>
-        {visibleProblemTypes.map((problemType) => (
-          <ProblemTypeSelector
-            key={problemType.id}
-            problemType={problemType}
-            selected={selectedIds.includes(problemType.id)}
-            masteryLevel={(() => {
-              const completion = localLearningHistoryRepository.getCompletion(
-                problemType.id,
-              ).status;
-              if (completion === 'COMPLETED') return 'CONFIDENT';
-              if (completion === 'NEEDS_REVIEW') return 'NEEDS_REVIEW';
-              if (completion === 'PRACTICING') return 'PRACTICING';
-              return (
-                progress.skills.find((skill) => skill.skillId === problemType.skillId)
-                  ?.masteryLevel ?? 'NEW'
-              );
-            })()}
-            onToggle={() => toggle(problemType.id)}
-          />
-        ))}
-      </div>
-      {visibleProblemTypes.length === 0 && (
-        <div className={'empty-state'}>
-          <h2>Chưa tìm thấy dạng phù hợp</h2>
-          <p>Em thử từ khóa ngắn hơn nhé.</p>
-        </div>
-      )}
-      <section className={'practice-config'} aria-labelledby={'practice-config-title'}>
-        <div>
-          <span className={'page-kicker'}>Bắt đầu luyện</span>
-          <h2 id={'practice-config-title'}>{selectedIds.length} dạng đã chọn</h2>
-          <p>Có {availableCount} câu phù hợp</p>
-        </div>
-        <label>
-          Mức độ
-          <select
-            value={difficulty}
-            onChange={(event) => setDifficulty(event.target.value as DifficultyMode)}
-          >
-            {Object.entries(difficultyLabels).map(([value, label]) => (
-              <option key={value} value={value}>
-                {label}
-              </option>
-            ))}
-          </select>
-        </label>
-        <label>
-          Cách học
-          <select value={mode} onChange={(event) => setMode(event.target.value as PracticeMode)}>
-            {Object.entries(modeLabels).map(([value, label]) => (
-              <option key={value} value={value}>
-                {label}
-              </option>
-            ))}
-          </select>
-        </label>
-        <label>
-          Số câu
-          <select
-            value={availableCount > 0 ? questionCount : ''}
-            disabled={availableCount === 0}
-            onChange={(event) =>
-              setQuestionCount(event.target.value === 'ALL' ? 'ALL' : Number(event.target.value))
-            }
-          >
-            {availableCount === 0 && <option value={''}>Chưa có câu phù hợp</option>}
-            {[5, 10, 15, 20, 30, 40, 50]
-              .filter((count) => count <= availableCount)
-              .map((count) => (
-                <option key={count} value={count}>
-                  {count} câu
+          <label>
+            Cách học
+            <select value={mode} onChange={(event) => setMode(event.target.value as PracticeMode)}>
+              {Object.entries(modeLabels).map(([value, label]) => (
+                <option key={value} value={value}>
+                  {label}
                 </option>
               ))}
-            {availableCount > 0 && <option value={'ALL'}>Tất cả ({availableCount} câu)</option>}
-          </select>
-        </label>
-        {selectedIds.length > 0 ? (
-          <Link className={'button button-primary'} to={practiceUrl}>
-            Luyện các dạng đã chọn <ArrowRight size={18} />
-          </Link>
-        ) : (
-          <span className={'selection-reminder'}>Chọn ít nhất một dạng Toán</span>
-        )}
-      </section>
+            </select>
+          </label>
+          <label>
+            Số câu
+            <select
+              value={availableCount > 0 ? questionCount : ''}
+              disabled={availableCount === 0}
+              onChange={(event) =>
+                setQuestionCount(event.target.value === 'ALL' ? 'ALL' : Number(event.target.value))
+              }
+            >
+              {availableCount === 0 && <option value={''}>Chưa có câu phù hợp</option>}
+              {[5, 10, 15, 20, 30, 40, 50]
+                .filter((count) => count <= availableCount)
+                .map((count) => (
+                  <option key={count} value={count}>
+                    {count} câu
+                  </option>
+                ))}
+              {availableCount > 0 && <option value={'ALL'}>Tất cả ({availableCount} câu)</option>}
+            </select>
+          </label>
+          {selectedIds.length > 0 ? (
+            <Link className={'button button-primary'} to={practiceUrl}>
+              Luyện các dạng đã chọn <ArrowRight size={18} />
+            </Link>
+          ) : (
+            <span className={'selection-reminder'}>Chọn ít nhất một dạng Toán</span>
+          )}
+        </section>
+      </div>
     </PageContainer>
   );
 }

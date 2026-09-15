@@ -1,4 +1,4 @@
-﻿import type {
+import type {
   AssessmentLevel,
   CommonError,
   Difficulty,
@@ -14,6 +14,7 @@ import { generateArithmeticCore } from './arithmetic-generators';
 import { fisherYates, stableHash } from './content-math';
 import { generateFractionCore } from './fraction-generators';
 import type { GeneratedCore } from './generator-types';
+import { generateKnttCore } from './kntt-generators';
 import { generateQualityOverride } from './quality-overrides';
 import { applySemanticTemplate } from './semantic-template';
 
@@ -21,9 +22,13 @@ function difficultyFor(index: number): Difficulty {
   return index < 30 ? 'EASY' : index < 80 ? 'MEDIUM' : 'HARD';
 }
 
-/** Assessment level is explicit metadata, even where the reviewed V3 bank maps it to difficulty. */
+/**
+ * Assessment level is independent from UI difficulty.
+ * The 3/5/2 cycle keeps a healthy LEVEL_1/2/3 distribution inside every difficulty band.
+ */
 function assessmentLevelFor(index: number): AssessmentLevel {
-  return index < 30 ? 'LEVEL_1' : index < 80 ? 'LEVEL_2' : 'LEVEL_3';
+  const slot = index % 10;
+  return slot < 3 ? 'LEVEL_1' : slot < 8 ? 'LEVEL_2' : 'LEVEL_3';
 }
 
 function formatFor(core: GeneratedCore, index: number): QuestionFormat {
@@ -85,6 +90,7 @@ function falseClaim(core: GeneratedCore): string {
 export function generateQuestion(blueprint: ProblemBlueprint, index: number): Question {
   const rawCore =
     generateQualityOverride(blueprint, index) ??
+    generateKnttCore(blueprint, index) ??
     generateArithmeticCore(blueprint, index) ??
     generateFractionCore(blueprint, index) ??
     generateAppliedCore(blueprint, index);

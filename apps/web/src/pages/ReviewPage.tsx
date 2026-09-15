@@ -23,14 +23,14 @@ export function ReviewPage() {
     : [];
   const problemTypes =
     weakProblemTypes.length > 0
-      ? weakProblemTypes.slice(0, 4)
+      ? weakProblemTypes.slice(0, 6)
       : (catalogQuery.data?.problemTypes ?? []).filter((item) =>
           defaultReviewIds.includes(item.skillId),
         );
 
   return (
-    <PageContainer>
-      <header className={'page-intro'}>
+    <PageContainer className={'review-page'}>
+      <header className={'page-intro review-intro'}>
         <span className={'page-kicker'}>Ôn phần em còn yếu</span>
         <h1>Mỗi ngày vững hơn một chút</h1>
         <p>
@@ -39,23 +39,30 @@ export function ReviewPage() {
             : 'Em chưa có nhiều lượt luyện, nên mình bắt đầu bằng ba kỹ năng nền tảng.'}
         </p>
       </header>
-      <div className={'review-list'}>
+
+      <div className={'review-list review-card-grid'}>
         {problemTypes.map((problemType) => (
-          <article className={'review-row'} key={problemType.id}>
-            <span className={'review-icon'}>
-              <RefreshCw size={24} aria-hidden={'true'} />
-            </span>
-            <div>
-              <h2>{problemType.name}</h2>
-              <p>{problemType.description}</p>
+          <article className={'review-row review-card'} key={problemType.id}>
+            <div className={'review-card-heading'}>
+              <span className={'review-icon'}>
+                <RefreshCw size={24} aria-hidden={'true'} />
+              </span>
+              <div>
+                <h2>{problemType.name}</h2>
+                <p>{problemType.description}</p>
+              </div>
             </div>
-            <span className={'practice-length'}>5 câu</span>
-            <Link to={`/practice?types=${problemType.id}&difficulty=MEDIUM&mode=REVIEW&count=5`}>
-              Ôn ngay <ArrowRight size={18} />
-            </Link>
+
+            <div className={'review-card-footer'}>
+              <span className={'practice-length'}>5 câu</span>
+              <Link to={`/practice?types=${problemType.id}&difficulty=MEDIUM&mode=REVIEW&count=5`}>
+                Ôn ngay <ArrowRight size={18} />
+              </Link>
+            </div>
           </article>
         ))}
       </div>
+
       {catalogQuery.isLoading && (
         <div className={'catalog-loading'} role={'status'}>
           Đang chuẩn bị gợi ý ôn tập…

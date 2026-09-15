@@ -5,12 +5,13 @@ import type {
   CurriculumCatalog,
   CurriculumTopic,
   DemoProblem,
+  OfficialCurriculumGuide,
   PracticeSession,
+  StudentAnswer,
   SubmitPracticeAnswerRequest,
   SubmitPracticeAnswerResponse,
   TestAttempt,
   TestBlueprint,
-  StudentAnswer,
 } from '@math-app/shared';
 
 const configuredApiUrl: unknown = import.meta.env.VITE_API_URL;
@@ -60,6 +61,10 @@ export function getGradeCatalog(grade = 4): Promise<CurriculumCatalog> {
   return request(`/api/v1/grades/${grade}/catalog`);
 }
 
+export function getOfficialGrade4Curriculum(): Promise<OfficialCurriculumGuide> {
+  return request('/api/v1/grades/4/official-curriculum');
+}
+
 export function createPracticeSession(
   input: CreatePracticeSessionRequest,
 ): Promise<PracticeSession> {
@@ -67,6 +72,10 @@ export function createPracticeSession(
     method: 'POST',
     body: JSON.stringify(input),
   });
+}
+
+export function getPracticeSession(id: string): Promise<PracticeSession> {
+  return request(`/api/v1/practice-sessions/${id}`);
 }
 
 export function submitPracticeAnswer(

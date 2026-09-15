@@ -1,0 +1,6862 @@
+[
+  {
+    "id": "g4-variable-expression-c93da1276936358e",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t1",
+    "fingerprint": "cb173d8feba84e30294adcf9276f728f",
+    "generatorParams": {
+      "variable": "a",
+      "value": 4,
+      "factor": 2,
+      "offset": 12
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức a + 12 khi a = 4.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 16
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay a bằng 4, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay a bằng 4, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay a = 4 vào biểu thức và tính được 16.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-06b6b1457cff9a17",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t2",
+    "fingerprint": "fb2906c002e0a5af22893c7bdc93b934",
+    "generatorParams": {
+      "variable": "b",
+      "value": 5,
+      "factor": 3,
+      "offset": 13
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức 38 − b khi b = 5.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 33
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay b bằng 5, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay b bằng 5, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay b = 5 vào biểu thức và tính được 33.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-8d1424e61bd62502",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t3",
+    "fingerprint": "d207879147ac17c77f60b93c32f7642d",
+    "generatorParams": {
+      "variable": "m",
+      "value": 6,
+      "factor": 4,
+      "offset": 14
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức m × 4 khi m = 6.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "24"
+      },
+      {
+        "id": "option-2",
+        "label": "28"
+      },
+      {
+        "id": "option-3",
+        "label": "22"
+      },
+      {
+        "id": "option-4",
+        "label": "26"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay m bằng 6, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay m bằng 6, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay m = 6 vào biểu thức và tính được 24.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-24bd359070295d10",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t4",
+    "fingerprint": "8efae7d51a00d77789bf61e25ce1cbac",
+    "generatorParams": {
+      "variable": "n",
+      "value": 7,
+      "factor": 5,
+      "offset": 15
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức n × 5 + 15 khi n = 7. Bạn An cho rằng đáp án là 50. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay n bằng 7, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay n bằng 7, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay n = 7 vào biểu thức và tính được 50.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-efbb35e83a327507",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t5",
+    "fingerprint": "466dd2ddea643211d4138e132bfdf90f",
+    "generatorParams": {
+      "variable": "x",
+      "value": 8,
+      "factor": 6,
+      "offset": 16
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức (x + 16) × 6 khi x = 8.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 144
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay x bằng 8, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay x bằng 8, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay x = 8 vào biểu thức và tính được 144.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-d845fda5715af941",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t1",
+    "fingerprint": "bc7dad032e2ad2122bd1f4b785396821",
+    "generatorParams": {
+      "variable": "a",
+      "value": 5,
+      "factor": 2,
+      "offset": 14
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức a + 14 khi a = 5.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 19
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay a bằng 5, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay a bằng 5, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay a = 5 vào biểu thức và tính được 19.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-b71d82d642dc5ab6",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t2",
+    "fingerprint": "7b75ea63bfb9808f114f22ea01aa6b45",
+    "generatorParams": {
+      "variable": "b",
+      "value": 6,
+      "factor": 3,
+      "offset": 15
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức 41 − b khi b = 6.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 35
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay b bằng 6, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay b bằng 6, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay b = 6 vào biểu thức và tính được 35.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-8cc7d44d8ff6d435",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t3",
+    "fingerprint": "90ac5e2d4c20844d7bcdbcd2379c78c3",
+    "generatorParams": {
+      "variable": "m",
+      "value": 7,
+      "factor": 4,
+      "offset": 16
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức m × 4 khi m = 7.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "28"
+      },
+      {
+        "id": "option-2",
+        "label": "26"
+      },
+      {
+        "id": "option-3",
+        "label": "32"
+      },
+      {
+        "id": "option-4",
+        "label": "30"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay m bằng 7, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay m bằng 7, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay m = 7 vào biểu thức và tính được 28.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-27b3847a1542f955",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t4",
+    "fingerprint": "9ea38ce399da6e488498d32c280fe05e",
+    "generatorParams": {
+      "variable": "n",
+      "value": 8,
+      "factor": 5,
+      "offset": 17
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức n × 5 + 17 khi n = 8. Bạn An cho rằng đáp án là 62. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay n bằng 8, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay n bằng 8, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay n = 8 vào biểu thức và tính được 57.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-c7054b313c0e6896",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t5",
+    "fingerprint": "3df8c1ad4842a720a433216b9014e324",
+    "generatorParams": {
+      "variable": "x",
+      "value": 9,
+      "factor": 6,
+      "offset": 18
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức (x + 18) × 6 khi x = 9.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 162
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay x bằng 9, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay x bằng 9, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay x = 9 vào biểu thức và tính được 162.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-36389325423bc424",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t1",
+    "fingerprint": "5675f4b7dbc4be6cbee5bcecefa2dd1c",
+    "generatorParams": {
+      "variable": "a",
+      "value": 6,
+      "factor": 2,
+      "offset": 16
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức a + 16 khi a = 6.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 22
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay a bằng 6, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay a bằng 6, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay a = 6 vào biểu thức và tính được 22.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-2dc98dcd76ecce51",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t2",
+    "fingerprint": "66eb224a9b4db0e4fdedf481ae143c10",
+    "generatorParams": {
+      "variable": "b",
+      "value": 7,
+      "factor": 3,
+      "offset": 17
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức 44 − b khi b = 7.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 37
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay b bằng 7, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay b bằng 7, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay b = 7 vào biểu thức và tính được 37.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-ee288c184e131e53",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t3",
+    "fingerprint": "d3e55da2e60d279761bb56231e2c47b4",
+    "generatorParams": {
+      "variable": "m",
+      "value": 8,
+      "factor": 4,
+      "offset": 18
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức m × 4 khi m = 8.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "32"
+      },
+      {
+        "id": "option-2",
+        "label": "35"
+      },
+      {
+        "id": "option-3",
+        "label": "29"
+      },
+      {
+        "id": "option-4",
+        "label": "38"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay m bằng 8, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay m bằng 8, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay m = 8 vào biểu thức và tính được 32.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-f017658e5f707aaa",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t4",
+    "fingerprint": "c4bb6b0d16b679885cbc4fa011ccdeaa",
+    "generatorParams": {
+      "variable": "n",
+      "value": 9,
+      "factor": 5,
+      "offset": 19
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức n × 5 + 19 khi n = 9. Bạn An cho rằng đáp án là 64. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay n bằng 9, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay n bằng 9, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay n = 9 vào biểu thức và tính được 64.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-bb9ced2c559ffa5d",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t5",
+    "fingerprint": "375a9ffb6306d58f30177b5c815a1b74",
+    "generatorParams": {
+      "variable": "x",
+      "value": 10,
+      "factor": 6,
+      "offset": 20
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức (x + 20) × 6 khi x = 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 180
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay x bằng 10, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay x bằng 10, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay x = 10 vào biểu thức và tính được 180.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-dcd424dbb3fe07b3",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t1",
+    "fingerprint": "ba085e28fba64f965a0f53b0ae65f66c",
+    "generatorParams": {
+      "variable": "a",
+      "value": 7,
+      "factor": 2,
+      "offset": 18
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức a + 18 khi a = 7.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 25
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay a bằng 7, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay a bằng 7, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay a = 7 vào biểu thức và tính được 25.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-11b3d6d9f904358c",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t2",
+    "fingerprint": "f3be4ca0a75417d9ec5d7e540b854be8",
+    "generatorParams": {
+      "variable": "b",
+      "value": 8,
+      "factor": 3,
+      "offset": 19
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức 47 − b khi b = 8.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 39
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay b bằng 8, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay b bằng 8, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay b = 8 vào biểu thức và tính được 39.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-d7213671c7bb6e4c",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t3",
+    "fingerprint": "81975ecabec5f244f4f8a51534fa8a74",
+    "generatorParams": {
+      "variable": "m",
+      "value": 9,
+      "factor": 4,
+      "offset": 20
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức m × 4 khi m = 9.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "36"
+      },
+      {
+        "id": "option-2",
+        "label": "39"
+      },
+      {
+        "id": "option-3",
+        "label": "33"
+      },
+      {
+        "id": "option-4",
+        "label": "42"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay m bằng 9, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay m bằng 9, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay m = 9 vào biểu thức và tính được 36.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-ccddd731d0626af5",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t4",
+    "fingerprint": "85b6286eb48872169df0cf2db7be8b46",
+    "generatorParams": {
+      "variable": "n",
+      "value": 10,
+      "factor": 5,
+      "offset": 21
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức n × 5 + 21 khi n = 10. Bạn An cho rằng đáp án là 78. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay n bằng 10, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay n bằng 10, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay n = 10 vào biểu thức và tính được 71.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-e2b3f7704a9cbba4",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t5",
+    "fingerprint": "eae88fb01027b67ed105cfa3450ed607",
+    "generatorParams": {
+      "variable": "x",
+      "value": 11,
+      "factor": 6,
+      "offset": 22
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức (x + 22) × 6 khi x = 11.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 198
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay x bằng 11, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay x bằng 11, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay x = 11 vào biểu thức và tính được 198.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-ae6727b1d80b54c3",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t1",
+    "fingerprint": "6ef76f443883ea65813b41ea68d6faf1",
+    "generatorParams": {
+      "variable": "a",
+      "value": 8,
+      "factor": 2,
+      "offset": 20
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức a + 20 khi a = 8.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 28
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay a bằng 8, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay a bằng 8, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay a = 8 vào biểu thức và tính được 28.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-4589b918c0f400ec",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t2",
+    "fingerprint": "347a5068e3f5ed2fcc1b1d700fef7686",
+    "generatorParams": {
+      "variable": "b",
+      "value": 9,
+      "factor": 3,
+      "offset": 21
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức 50 − b khi b = 9.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 41
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay b bằng 9, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay b bằng 9, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay b = 9 vào biểu thức và tính được 41.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-ae6e41c23e2ea1cd",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t3",
+    "fingerprint": "d5db380482432cab6584cdb85664d30b",
+    "generatorParams": {
+      "variable": "m",
+      "value": 10,
+      "factor": 4,
+      "offset": 22
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức m × 4 khi m = 10.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "36"
+      },
+      {
+        "id": "option-2",
+        "label": "40"
+      },
+      {
+        "id": "option-3",
+        "label": "48"
+      },
+      {
+        "id": "option-4",
+        "label": "44"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay m bằng 10, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay m bằng 10, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay m = 10 vào biểu thức và tính được 40.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-58afe6f6aa5dbc3c",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t4",
+    "fingerprint": "1f40392c18ce08ec77d1361e7b17fb8a",
+    "generatorParams": {
+      "variable": "n",
+      "value": 11,
+      "factor": 5,
+      "offset": 23
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức n × 5 + 23 khi n = 11. Bạn An cho rằng đáp án là 78. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay n bằng 11, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay n bằng 11, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay n = 11 vào biểu thức và tính được 78.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-506cf20ca98319f0",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t5",
+    "fingerprint": "bd52acc9494917aa897623d29b41128c",
+    "generatorParams": {
+      "variable": "x",
+      "value": 12,
+      "factor": 6,
+      "offset": 24
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức (x + 24) × 6 khi x = 12.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 216
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay x bằng 12, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay x bằng 12, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay x = 12 vào biểu thức và tính được 216.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-6c65333657b32cc1",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t1",
+    "fingerprint": "e396e6804c74d293dfa58607cce458e8",
+    "generatorParams": {
+      "variable": "a",
+      "value": 9,
+      "factor": 2,
+      "offset": 22
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức a + 22 khi a = 9.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 31
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay a bằng 9, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay a bằng 9, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay a = 9 vào biểu thức và tính được 31.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-f3a9715ca6f77b4f",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t2",
+    "fingerprint": "69625f245350836ad920d6a36b522ece",
+    "generatorParams": {
+      "variable": "b",
+      "value": 10,
+      "factor": 3,
+      "offset": 23
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức 53 − b khi b = 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 43
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay b bằng 10, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay b bằng 10, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay b = 10 vào biểu thức và tính được 43.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-aa80263471dbadca",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t3",
+    "fingerprint": "2967858c4e1e09dc4971c4e11b601d47",
+    "generatorParams": {
+      "variable": "m",
+      "value": 11,
+      "factor": 4,
+      "offset": 24
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức m × 4 khi m = 11.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "48"
+      },
+      {
+        "id": "option-2",
+        "label": "40"
+      },
+      {
+        "id": "option-3",
+        "label": "52"
+      },
+      {
+        "id": "option-4",
+        "label": "44"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay m bằng 11, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay m bằng 11, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay m = 11 vào biểu thức và tính được 44.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-bd45f51297071bfa",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t4",
+    "fingerprint": "573bc98d104e8a02413aa5fe2cc810ad",
+    "generatorParams": {
+      "variable": "n",
+      "value": 12,
+      "factor": 5,
+      "offset": 25
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức n × 5 + 25 khi n = 12. Bạn An cho rằng đáp án là 93. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay n bằng 12, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay n bằng 12, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay n = 12 vào biểu thức và tính được 85.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-5e2eda7d7cf30d0e",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t5",
+    "fingerprint": "f30956a385273d0142e413293a3edc5e",
+    "generatorParams": {
+      "variable": "x",
+      "value": 13,
+      "factor": 6,
+      "offset": 26
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức (x + 26) × 6 khi x = 13.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 234
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay x bằng 13, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay x bằng 13, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay x = 13 vào biểu thức và tính được 234.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-ae821e16c38bbcce",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t1",
+    "fingerprint": "88a3f022a388dc671fe4954a1ae5e96d",
+    "generatorParams": {
+      "variable": "a",
+      "value": 10,
+      "factor": 2,
+      "offset": 24
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức a + 24 khi a = 10.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 34
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay a bằng 10, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay a bằng 10, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay a = 10 vào biểu thức và tính được 34.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-ef8fa41f8badcbe7",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t2",
+    "fingerprint": "deb85d4f8dce2e247066157971d0ef14",
+    "generatorParams": {
+      "variable": "b",
+      "value": 11,
+      "factor": 3,
+      "offset": 25
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức 56 − b khi b = 11.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 45
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay b bằng 11, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay b bằng 11, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay b = 11 vào biểu thức và tính được 45.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-023fa6e62b9d7160",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t3",
+    "fingerprint": "e68ac587dec9063c8218527ccb2b7169",
+    "generatorParams": {
+      "variable": "m",
+      "value": 12,
+      "factor": 4,
+      "offset": 26
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức m × 4 khi m = 12.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "52"
+      },
+      {
+        "id": "option-2",
+        "label": "48"
+      },
+      {
+        "id": "option-3",
+        "label": "44"
+      },
+      {
+        "id": "option-4",
+        "label": "56"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay m bằng 12, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay m bằng 12, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay m = 12 vào biểu thức và tính được 48.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-cf481696dca729b7",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t4",
+    "fingerprint": "ae64d3a0b7e08b77b05fbf04f476ca9f",
+    "generatorParams": {
+      "variable": "n",
+      "value": 13,
+      "factor": 5,
+      "offset": 27
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức n × 5 + 27 khi n = 13. Bạn An cho rằng đáp án là 92. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay n bằng 13, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay n bằng 13, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay n = 13 vào biểu thức và tính được 92.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-f5bbf58751eb3581",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t5",
+    "fingerprint": "e7f6709b2708f50bd8b9f816e4ddfbe0",
+    "generatorParams": {
+      "variable": "x",
+      "value": 14,
+      "factor": 6,
+      "offset": 28
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức (x + 28) × 6 khi x = 14.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 252
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay x bằng 14, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay x bằng 14, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay x = 14 vào biểu thức và tính được 252.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-af2f90c3b970d8a7",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t1",
+    "fingerprint": "215615212bd002e16334d17fa599f4e7",
+    "generatorParams": {
+      "variable": "a",
+      "value": 11,
+      "factor": 2,
+      "offset": 26
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức a + 26 khi a = 11.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 37
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay a bằng 11, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay a bằng 11, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay a = 11 vào biểu thức và tính được 37.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-a5c36369e3080ddb",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t2",
+    "fingerprint": "06405569f214afa57b747d4a79d782bc",
+    "generatorParams": {
+      "variable": "b",
+      "value": 12,
+      "factor": 3,
+      "offset": 27
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức 59 − b khi b = 12.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 47
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay b bằng 12, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay b bằng 12, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay b = 12 vào biểu thức và tính được 47.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-70f9096366a93495",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t3",
+    "fingerprint": "0d5aa9d6ceff511fe1506999e8c0f1ed",
+    "generatorParams": {
+      "variable": "m",
+      "value": 13,
+      "factor": 4,
+      "offset": 28
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức m × 4 khi m = 13.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "52"
+      },
+      {
+        "id": "option-2",
+        "label": "47"
+      },
+      {
+        "id": "option-3",
+        "label": "62"
+      },
+      {
+        "id": "option-4",
+        "label": "57"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay m bằng 13, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay m bằng 13, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay m = 13 vào biểu thức và tính được 52.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-1c4bcdd830067861",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t4",
+    "fingerprint": "fdc806929746dcda04c2e20c5b18756f",
+    "generatorParams": {
+      "variable": "n",
+      "value": 14,
+      "factor": 5,
+      "offset": 29
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức n × 5 + 29 khi n = 14. Bạn An cho rằng đáp án là 108. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay n bằng 14, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay n bằng 14, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay n = 14 vào biểu thức và tính được 99.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-4268f6c1df2a8647",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t5",
+    "fingerprint": "9e02ed38a2423c34b096aac510a516f1",
+    "generatorParams": {
+      "variable": "x",
+      "value": 15,
+      "factor": 6,
+      "offset": 30
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức (x + 30) × 6 khi x = 15.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 270
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay x bằng 15, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay x bằng 15, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay x = 15 vào biểu thức và tính được 270.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-52da51cf37855432",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t1",
+    "fingerprint": "208502ef75e1b0da97dd3a3de10af9b4",
+    "generatorParams": {
+      "variable": "a",
+      "value": 12,
+      "factor": 2,
+      "offset": 28
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức a + 28 khi a = 12.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 40
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay a bằng 12, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay a bằng 12, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay a = 12 vào biểu thức và tính được 40.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-512d77c9dc816dcd",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t2",
+    "fingerprint": "37e59dd743d7d1cbbe1e7859615ad3c2",
+    "generatorParams": {
+      "variable": "b",
+      "value": 13,
+      "factor": 3,
+      "offset": 29
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức 62 − b khi b = 13.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 49
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay b bằng 13, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay b bằng 13, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay b = 13 vào biểu thức và tính được 49.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-fc0adc3b61f9ed67",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t3",
+    "fingerprint": "019430b8895185736fd2d1173a69748f",
+    "generatorParams": {
+      "variable": "m",
+      "value": 14,
+      "factor": 4,
+      "offset": 30
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức m × 4 khi m = 14.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "51"
+      },
+      {
+        "id": "option-2",
+        "label": "56"
+      },
+      {
+        "id": "option-3",
+        "label": "66"
+      },
+      {
+        "id": "option-4",
+        "label": "61"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay m bằng 14, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay m bằng 14, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay m = 14 vào biểu thức và tính được 56.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-cf2ea9f53f79c530",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t4",
+    "fingerprint": "8fadb4da681f95fe46f1b52a0e672944",
+    "generatorParams": {
+      "variable": "n",
+      "value": 15,
+      "factor": 5,
+      "offset": 31
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức n × 5 + 31 khi n = 15. Bạn An cho rằng đáp án là 106. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay n bằng 15, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay n bằng 15, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay n = 15 vào biểu thức và tính được 106.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-3bb027267f815ad0",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t5",
+    "fingerprint": "103ab4503dd447d2ef3793f1a96af79c",
+    "generatorParams": {
+      "variable": "x",
+      "value": 16,
+      "factor": 6,
+      "offset": 32
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức (x + 32) × 6 khi x = 16.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 288
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay x bằng 16, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay x bằng 16, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay x = 16 vào biểu thức và tính được 288.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-c385147507a25eea",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t1",
+    "fingerprint": "e8f801b8f5c6ecaf0e3fb840858009bd",
+    "generatorParams": {
+      "variable": "a",
+      "value": 13,
+      "factor": 2,
+      "offset": 30
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức a + 30 khi a = 13.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 43
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay a bằng 13, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay a bằng 13, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay a = 13 vào biểu thức và tính được 43.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-761b895834576f01",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t2",
+    "fingerprint": "ab30a13e27da58fd7127c85025fe7e28",
+    "generatorParams": {
+      "variable": "b",
+      "value": 14,
+      "factor": 3,
+      "offset": 31
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức 65 − b khi b = 14.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 51
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay b bằng 14, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay b bằng 14, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay b = 14 vào biểu thức và tính được 51.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-c38aa70cf6925fd1",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t3",
+    "fingerprint": "d3d076947937d9ff003e5e29259828ed",
+    "generatorParams": {
+      "variable": "m",
+      "value": 15,
+      "factor": 4,
+      "offset": 32
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức m × 4 khi m = 15.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "54"
+      },
+      {
+        "id": "option-2",
+        "label": "72"
+      },
+      {
+        "id": "option-3",
+        "label": "66"
+      },
+      {
+        "id": "option-4",
+        "label": "60"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay m bằng 15, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay m bằng 15, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay m = 15 vào biểu thức và tính được 60.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-86bb8743bb0bccee",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t4",
+    "fingerprint": "50cd54d4213f2a30d49091c3138f7850",
+    "generatorParams": {
+      "variable": "n",
+      "value": 16,
+      "factor": 5,
+      "offset": 33
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức n × 5 + 33 khi n = 16. Bạn An cho rằng đáp án là 124. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay n bằng 16, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay n bằng 16, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay n = 16 vào biểu thức và tính được 113.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-28ee8e2bfededae7",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t5",
+    "fingerprint": "616c505e69b5488e9908ac0e57b2f643",
+    "generatorParams": {
+      "variable": "x",
+      "value": 17,
+      "factor": 6,
+      "offset": 34
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức (x + 34) × 6 khi x = 17.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 306
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay x bằng 17, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay x bằng 17, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay x = 17 vào biểu thức và tính được 306.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-f345030a4ce08aab",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t1",
+    "fingerprint": "b89e3863a3b64923440eecd5c7cb6fdb",
+    "generatorParams": {
+      "variable": "a",
+      "value": 14,
+      "factor": 2,
+      "offset": 32
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức a + 32 khi a = 14.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 46
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay a bằng 14, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay a bằng 14, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay a = 14 vào biểu thức và tính được 46.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-46a13fc8e7df6d49",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t2",
+    "fingerprint": "a03e64e3629be4fb3331f11ed845c54a",
+    "generatorParams": {
+      "variable": "b",
+      "value": 15,
+      "factor": 3,
+      "offset": 33
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức 68 − b khi b = 15.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 53
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay b bằng 15, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay b bằng 15, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay b = 15 vào biểu thức và tính được 53.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-7afa9481a79cc41c",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t3",
+    "fingerprint": "f628c4cf6cc6d6c5bdcaa2d3f89f7f26",
+    "generatorParams": {
+      "variable": "m",
+      "value": 16,
+      "factor": 4,
+      "offset": 34
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức m × 4 khi m = 16.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "76"
+      },
+      {
+        "id": "option-2",
+        "label": "64"
+      },
+      {
+        "id": "option-3",
+        "label": "58"
+      },
+      {
+        "id": "option-4",
+        "label": "70"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay m bằng 16, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay m bằng 16, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay m = 16 vào biểu thức và tính được 64.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-7c93d8557e01d283",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t4",
+    "fingerprint": "3397aec0643a5196b779a2107aaaeb7d",
+    "generatorParams": {
+      "variable": "n",
+      "value": 17,
+      "factor": 5,
+      "offset": 35
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức n × 5 + 35 khi n = 17. Bạn An cho rằng đáp án là 120. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay n bằng 17, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay n bằng 17, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay n = 17 vào biểu thức và tính được 120.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-b9d86604f110e980",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t5",
+    "fingerprint": "8c70bd34957c9d696a7c47777de461e3",
+    "generatorParams": {
+      "variable": "x",
+      "value": 18,
+      "factor": 6,
+      "offset": 36
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức (x + 36) × 6 khi x = 18.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 324
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay x bằng 18, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay x bằng 18, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay x = 18 vào biểu thức và tính được 324.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-e86f7a23f00abd74",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t1",
+    "fingerprint": "0741b2d9bfc8fc29bfa71a168fa4580b",
+    "generatorParams": {
+      "variable": "a",
+      "value": 15,
+      "factor": 2,
+      "offset": 34
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức a + 34 khi a = 15.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 49
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay a bằng 15, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay a bằng 15, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay a = 15 vào biểu thức và tính được 49.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-1a23865afae91439",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t2",
+    "fingerprint": "92b4f02375d2d866883f86c745e9d384",
+    "generatorParams": {
+      "variable": "b",
+      "value": 16,
+      "factor": 3,
+      "offset": 35
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức 71 − b khi b = 16.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 55
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay b bằng 16, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay b bằng 16, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay b = 16 vào biểu thức và tính được 55.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-d771afe0608eb97d",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t3",
+    "fingerprint": "78aa951dc5974693bf9772ff5f2dc254",
+    "generatorParams": {
+      "variable": "m",
+      "value": 17,
+      "factor": 4,
+      "offset": 36
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức m × 4 khi m = 17.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "62"
+      },
+      {
+        "id": "option-2",
+        "label": "74"
+      },
+      {
+        "id": "option-3",
+        "label": "80"
+      },
+      {
+        "id": "option-4",
+        "label": "68"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay m bằng 17, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay m bằng 17, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay m = 17 vào biểu thức và tính được 68.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-c5ea582f6c3bc0ea",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t4",
+    "fingerprint": "10c13554bda3346835078d7e5cd6c49c",
+    "generatorParams": {
+      "variable": "n",
+      "value": 18,
+      "factor": 5,
+      "offset": 37
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức n × 5 + 37 khi n = 18. Bạn An cho rằng đáp án là 139. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay n bằng 18, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay n bằng 18, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay n = 18 vào biểu thức và tính được 127.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-f78e7c06715068c5",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t5",
+    "fingerprint": "2d467c30866a652195cbb968a0b51587",
+    "generatorParams": {
+      "variable": "x",
+      "value": 19,
+      "factor": 6,
+      "offset": 38
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức (x + 38) × 6 khi x = 19.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 342
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay x bằng 19, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay x bằng 19, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay x = 19 vào biểu thức và tính được 342.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-aa31b7dfbec60d46",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t1",
+    "fingerprint": "678d4d15e00dfe2d9c0946554d55ffe9",
+    "generatorParams": {
+      "variable": "a",
+      "value": 16,
+      "factor": 2,
+      "offset": 36
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức a + 36 khi a = 16.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 52
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay a bằng 16, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay a bằng 16, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay a = 16 vào biểu thức và tính được 52.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-c77c8f91e7c4611d",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t2",
+    "fingerprint": "0d5306ddccac0b7af69d91d182374c7e",
+    "generatorParams": {
+      "variable": "b",
+      "value": 17,
+      "factor": 3,
+      "offset": 37
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức 74 − b khi b = 17.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 57
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay b bằng 17, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay b bằng 17, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay b = 17 vào biểu thức và tính được 57.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-33cec3aa57abb0bd",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t3",
+    "fingerprint": "f6b844356bd7208193517a1b47aec492",
+    "generatorParams": {
+      "variable": "m",
+      "value": 18,
+      "factor": 4,
+      "offset": 38
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức m × 4 khi m = 18.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "65"
+      },
+      {
+        "id": "option-2",
+        "label": "79"
+      },
+      {
+        "id": "option-3",
+        "label": "72"
+      },
+      {
+        "id": "option-4",
+        "label": "86"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay m bằng 18, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay m bằng 18, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay m = 18 vào biểu thức và tính được 72.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-cba70198fd9413d0",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t4",
+    "fingerprint": "7d76618121a4f2d04b28cdb9039dbc07",
+    "generatorParams": {
+      "variable": "n",
+      "value": 19,
+      "factor": 5,
+      "offset": 39
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức n × 5 + 39 khi n = 19. Bạn An cho rằng đáp án là 134. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay n bằng 19, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay n bằng 19, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay n = 19 vào biểu thức và tính được 134.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-be13226f9363e7e0",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t5",
+    "fingerprint": "abeccbf40bbbc4906c6442756a5eb7ab",
+    "generatorParams": {
+      "variable": "x",
+      "value": 20,
+      "factor": 6,
+      "offset": 40
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức (x + 40) × 6 khi x = 20.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 360
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay x bằng 20, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay x bằng 20, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay x = 20 vào biểu thức và tính được 360.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-683b62a6ddf6c904",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t1",
+    "fingerprint": "2dd7339da55db3cf8f8e07318fbb49de",
+    "generatorParams": {
+      "variable": "a",
+      "value": 17,
+      "factor": 2,
+      "offset": 38
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức a + 38 khi a = 17.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 55
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay a bằng 17, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay a bằng 17, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay a = 17 vào biểu thức và tính được 55.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-7bd184dabecf47a2",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t2",
+    "fingerprint": "b40bea0860da9bd6847c4e665285c4b9",
+    "generatorParams": {
+      "variable": "b",
+      "value": 18,
+      "factor": 3,
+      "offset": 39
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức 77 − b khi b = 18.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 59
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay b bằng 18, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay b bằng 18, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay b = 18 vào biểu thức và tính được 59.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-aa5c6027cf16c270",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t3",
+    "fingerprint": "26af90237a07074678a6fe968d4b560e",
+    "generatorParams": {
+      "variable": "m",
+      "value": 19,
+      "factor": 4,
+      "offset": 40
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức m × 4 khi m = 19.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "76"
+      },
+      {
+        "id": "option-2",
+        "label": "69"
+      },
+      {
+        "id": "option-3",
+        "label": "90"
+      },
+      {
+        "id": "option-4",
+        "label": "83"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay m bằng 19, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay m bằng 19, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay m = 19 vào biểu thức và tính được 76.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-a0431b7ec98ea140",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t4",
+    "fingerprint": "29ff147b31bc1dd24b0eae63c4eee363",
+    "generatorParams": {
+      "variable": "n",
+      "value": 20,
+      "factor": 5,
+      "offset": 41
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức n × 5 + 41 khi n = 20. Bạn An cho rằng đáp án là 155. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay n bằng 20, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay n bằng 20, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay n = 20 vào biểu thức và tính được 141.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-117a93b42b302e3f",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t5",
+    "fingerprint": "fa35cd87dbce63b244ee15e9e3223a27",
+    "generatorParams": {
+      "variable": "x",
+      "value": 21,
+      "factor": 6,
+      "offset": 42
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức (x + 42) × 6 khi x = 21.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 378
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay x bằng 21, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay x bằng 21, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay x = 21 vào biểu thức và tính được 378.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-962f0da016938f2e",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t1",
+    "fingerprint": "976e9c088a6784dfd5d373ef87943816",
+    "generatorParams": {
+      "variable": "a",
+      "value": 18,
+      "factor": 2,
+      "offset": 40
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức a + 40 khi a = 18.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 58
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay a bằng 18, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay a bằng 18, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay a = 18 vào biểu thức và tính được 58.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-7e536faee7774bd5",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t2",
+    "fingerprint": "8fa4fa562d4dd0993860d2b920aad177",
+    "generatorParams": {
+      "variable": "b",
+      "value": 19,
+      "factor": 3,
+      "offset": 41
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức 80 − b khi b = 19.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 61
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay b bằng 19, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay b bằng 19, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay b = 19 vào biểu thức và tính được 61.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-4671f2321bfc852d",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t3",
+    "fingerprint": "bcddd7bb5ed66b4216373be1b29a3b7c",
+    "generatorParams": {
+      "variable": "m",
+      "value": 20,
+      "factor": 4,
+      "offset": 42
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức m × 4 khi m = 20.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "72"
+      },
+      {
+        "id": "option-2",
+        "label": "88"
+      },
+      {
+        "id": "option-3",
+        "label": "96"
+      },
+      {
+        "id": "option-4",
+        "label": "80"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay m bằng 20, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay m bằng 20, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay m = 20 vào biểu thức và tính được 80.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-73beb45b7e4fcd10",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t4",
+    "fingerprint": "66cbfdaee5b43aa71bed8fb90496ebfe",
+    "generatorParams": {
+      "variable": "n",
+      "value": 21,
+      "factor": 5,
+      "offset": 43
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức n × 5 + 43 khi n = 21. Bạn An cho rằng đáp án là 148. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay n bằng 21, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay n bằng 21, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay n = 21 vào biểu thức và tính được 148.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-a14c944f5658a413",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t5",
+    "fingerprint": "8c9ebf9f8bbc0ac67a88433866653f8f",
+    "generatorParams": {
+      "variable": "x",
+      "value": 22,
+      "factor": 6,
+      "offset": 44
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức (x + 44) × 6 khi x = 22.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 396
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay x bằng 22, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay x bằng 22, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay x = 22 vào biểu thức và tính được 396.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-6d1c020fb6ea07e0",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t1",
+    "fingerprint": "f7dac1840d219beb65a90828df164fb8",
+    "generatorParams": {
+      "variable": "a",
+      "value": 19,
+      "factor": 2,
+      "offset": 42
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "SHORT_ANSWER",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức a + 42 khi a = 19.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 61
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay a bằng 19, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay a bằng 19, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay a = 19 vào biểu thức và tính được 61.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-7445c2919a08a4f6",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t2",
+    "fingerprint": "960a40d3330ee650d05ad81c93ee83a9",
+    "generatorParams": {
+      "variable": "b",
+      "value": 20,
+      "factor": 3,
+      "offset": 43
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "FILL_BLANK",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức 83 − b khi b = 20.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 63
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay b bằng 20, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay b bằng 20, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay b = 20 vào biểu thức và tính được 63.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-e35c2251f72fdfcd",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t3",
+    "fingerprint": "94c75336ed53861251acb12319c7781c",
+    "generatorParams": {
+      "variable": "m",
+      "value": 21,
+      "factor": 4,
+      "offset": 44
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức m × 4 khi m = 21.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "76"
+      },
+      {
+        "id": "option-2",
+        "label": "100"
+      },
+      {
+        "id": "option-3",
+        "label": "92"
+      },
+      {
+        "id": "option-4",
+        "label": "84"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay m bằng 21, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay m bằng 21, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay m = 21 vào biểu thức và tính được 84.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-c499631492e622b6",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t4",
+    "fingerprint": "72e1764ee4e233ac61d6727eb14a2468",
+    "generatorParams": {
+      "variable": "n",
+      "value": 22,
+      "factor": 5,
+      "offset": 45
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "TRUE_FALSE",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức n × 5 + 45 khi n = 22. Bạn An cho rằng đáp án là 170. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay n bằng 22, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay n bằng 22, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay n = 22 vào biểu thức và tính được 155.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-d13dbbd5998dd627",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t5",
+    "fingerprint": "e85a7603c6789f143eb205becd6966ce",
+    "generatorParams": {
+      "variable": "x",
+      "value": 23,
+      "factor": 6,
+      "offset": 46
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "MEDIUM",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức (x + 46) × 6 khi x = 23.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 414
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay x bằng 23, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay x bằng 23, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay x = 23 vào biểu thức và tính được 414.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-d9b06cb165c6ce47",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t1",
+    "fingerprint": "596fb4cf26143aadda954a5832d89c3d",
+    "generatorParams": {
+      "variable": "a",
+      "value": 20,
+      "factor": 2,
+      "offset": 44
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức a + 44 khi a = 20.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 64
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay a bằng 20, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay a bằng 20, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay a = 20 vào biểu thức và tính được 64.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-72e22e757ed0a151",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t2",
+    "fingerprint": "088d07406a02f5d961a7d24ee4f5725c",
+    "generatorParams": {
+      "variable": "b",
+      "value": 21,
+      "factor": 3,
+      "offset": 45
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức 86 − b khi b = 21.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 65
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay b bằng 21, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay b bằng 21, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay b = 21 vào biểu thức và tính được 65.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-e378b3863d50c118",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t3",
+    "fingerprint": "2b8af581a2c8fd6b0b0d291fd09b627e",
+    "generatorParams": {
+      "variable": "m",
+      "value": 22,
+      "factor": 4,
+      "offset": 46
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức m × 4 khi m = 22.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "88"
+      },
+      {
+        "id": "option-2",
+        "label": "96"
+      },
+      {
+        "id": "option-3",
+        "label": "80"
+      },
+      {
+        "id": "option-4",
+        "label": "104"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay m bằng 22, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay m bằng 22, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay m = 22 vào biểu thức và tính được 88.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-cba179f46e5513ce",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t4",
+    "fingerprint": "677a096bec0ffe5111768d6c6c009422",
+    "generatorParams": {
+      "variable": "n",
+      "value": 23,
+      "factor": 5,
+      "offset": 47
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức n × 5 + 47 khi n = 23. Bạn An cho rằng đáp án là 162. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay n bằng 23, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay n bằng 23, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay n = 23 vào biểu thức và tính được 162.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-694cf1e2bcc03ff8",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t5",
+    "fingerprint": "2f8d0945d99f1b69d21b531f0c1f582d",
+    "generatorParams": {
+      "variable": "x",
+      "value": 24,
+      "factor": 6,
+      "offset": 48
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức (x + 48) × 6 khi x = 24.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 432
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay x bằng 24, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay x bằng 24, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay x = 24 vào biểu thức và tính được 432.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-6d8c9803a5ac09e2",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t1",
+    "fingerprint": "6aa5c9e372489ba213facdcd3f08b256",
+    "generatorParams": {
+      "variable": "a",
+      "value": 21,
+      "factor": 2,
+      "offset": 46
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức a + 46 khi a = 21.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 67
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay a bằng 21, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay a bằng 21, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay a = 21 vào biểu thức và tính được 67.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-26beb1fe362f1ceb",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t2",
+    "fingerprint": "42fb6c9d031eaf44148996081b9861f2",
+    "generatorParams": {
+      "variable": "b",
+      "value": 22,
+      "factor": 3,
+      "offset": 47
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức 89 − b khi b = 22.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 67
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay b bằng 22, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay b bằng 22, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay b = 22 vào biểu thức và tính được 67.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-5ceaf37718d6f413",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t3",
+    "fingerprint": "6bda39a205676cd36b42f1bdc5eb9e1d",
+    "generatorParams": {
+      "variable": "m",
+      "value": 23,
+      "factor": 4,
+      "offset": 48
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức m × 4 khi m = 23.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "83"
+      },
+      {
+        "id": "option-2",
+        "label": "92"
+      },
+      {
+        "id": "option-3",
+        "label": "110"
+      },
+      {
+        "id": "option-4",
+        "label": "101"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-2"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay m bằng 23, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay m bằng 23, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay m = 23 vào biểu thức và tính được 92.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-b05bdc52648c0145",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t4",
+    "fingerprint": "1e499ed5ddf1c6a8bab638dcc715524f",
+    "generatorParams": {
+      "variable": "n",
+      "value": 24,
+      "factor": 5,
+      "offset": 49
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức n × 5 + 49 khi n = 24. Bạn An cho rằng đáp án là 185. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay n bằng 24, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay n bằng 24, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay n = 24 vào biểu thức và tính được 169.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-d4eb0102c5af6bd3",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t5",
+    "fingerprint": "710b694a80b28cadf76f1118e63d624f",
+    "generatorParams": {
+      "variable": "x",
+      "value": 25,
+      "factor": 6,
+      "offset": 50
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức (x + 50) × 6 khi x = 25.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 450
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay x bằng 25, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay x bằng 25, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay x = 25 vào biểu thức và tính được 450.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-a1a16965af1e3b22",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t1",
+    "fingerprint": "a18fe07f05e48b98b9aefd0d5a98bb38",
+    "generatorParams": {
+      "variable": "a",
+      "value": 22,
+      "factor": 2,
+      "offset": 48
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức a + 48 khi a = 22.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 70
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay a bằng 22, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay a bằng 22, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay a = 22 vào biểu thức và tính được 70.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-a6fcc0c37e8354f5",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t2",
+    "fingerprint": "00cea5fb1807d24fa985b34b726be91a",
+    "generatorParams": {
+      "variable": "b",
+      "value": 23,
+      "factor": 3,
+      "offset": 49
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức 92 − b khi b = 23.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 69
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay b bằng 23, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay b bằng 23, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay b = 23 vào biểu thức và tính được 69.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-dc811f67e783e14a",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t3",
+    "fingerprint": "9f6ff6cea71db93d7462e80657ea7a52",
+    "generatorParams": {
+      "variable": "m",
+      "value": 24,
+      "factor": 4,
+      "offset": 50
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_1",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức m × 4 khi m = 24.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "87"
+      },
+      {
+        "id": "option-2",
+        "label": "114"
+      },
+      {
+        "id": "option-3",
+        "label": "96"
+      },
+      {
+        "id": "option-4",
+        "label": "105"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-3"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay m bằng 24, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay m bằng 24, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay m = 24 vào biểu thức và tính được 96.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-c2a7934c436fe1ea",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t4",
+    "fingerprint": "bd439ef4adb5e3e4ee1a3f8a07e820fb",
+    "generatorParams": {
+      "variable": "n",
+      "value": 25,
+      "factor": 5,
+      "offset": 51
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức n × 5 + 51 khi n = 25. Bạn An cho rằng đáp án là 176. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay n bằng 25, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay n bằng 25, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay n = 25 vào biểu thức và tính được 176.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-b4f7c4d93056b1c0",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t5",
+    "fingerprint": "a0a94c9e81a4bfba26283567b188dd1d",
+    "generatorParams": {
+      "variable": "x",
+      "value": 26,
+      "factor": 6,
+      "offset": 52
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức (x + 52) × 6 khi x = 26.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 468
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay x bằng 26, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay x bằng 26, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay x = 26 vào biểu thức và tính được 468.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-58b8ad0ae3a33547",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t1",
+    "fingerprint": "2444e098d8a65e3c309991b75771d8e9",
+    "generatorParams": {
+      "variable": "a",
+      "value": 23,
+      "factor": 2,
+      "offset": 50
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "SHORT_ANSWER",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức a + 50 khi a = 23.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 73
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay a bằng 23, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay a bằng 23, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay a = 23 vào biểu thức và tính được 73.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-03a19999d73ccb0a",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t2",
+    "fingerprint": "4d7611233ba8fa8bec165c3e8005b570",
+    "generatorParams": {
+      "variable": "b",
+      "value": 24,
+      "factor": 3,
+      "offset": 51
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "FILL_BLANK",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức 95 − b khi b = 24.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 71
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay b bằng 24, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay b bằng 24, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay b = 24 vào biểu thức và tính được 71.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-525c6ad9cf5d7a10",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t3",
+    "fingerprint": "2daf9a4c41aad0c333ee52f97a128f3c",
+    "generatorParams": {
+      "variable": "m",
+      "value": 25,
+      "factor": 4,
+      "offset": 52
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức m × 4 khi m = 25.",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "110"
+      },
+      {
+        "id": "option-2",
+        "label": "90"
+      },
+      {
+        "id": "option-3",
+        "label": "120"
+      },
+      {
+        "id": "option-4",
+        "label": "100"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-4"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay m bằng 25, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay m bằng 25, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay m = 25 vào biểu thức và tính được 100.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-eec85cfad47763a8",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t4",
+    "fingerprint": "22c15b0206da20959b756f10520f11bf",
+    "generatorParams": {
+      "variable": "n",
+      "value": 26,
+      "factor": 5,
+      "offset": 53
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "TRUE_FALSE",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức n × 5 + 53 khi n = 26. Bạn An cho rằng đáp án là 201. Bạn An nói đúng hay sai?",
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": false
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay n bằng 26, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay n bằng 26, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay n = 26 vào biểu thức và tính được 183.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-variable-expression-f8bb5df6ef10d78c",
+    "contentVersion": "grade4-v3",
+    "templateId": "variable-expression-t5",
+    "fingerprint": "d8c595652c9b5cdf626604e0e4373300",
+    "generatorParams": {
+      "variable": "x",
+      "value": 27,
+      "factor": 6,
+      "offset": 54
+    },
+    "grade": 4,
+    "domainId": "number-and-operations",
+    "topicId": "expressions",
+    "skillId": "variable-expression-skill",
+    "problemTypeId": "variable-expression",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "HARD",
+    "assessmentLevel": "LEVEL_3",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Tính giá trị biểu thức (x + 54) × 6 khi x = 27.",
+    "expectedAnswer": {
+      "kind": "NUMBER",
+      "value": 486
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Thay x bằng 27, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "id": "check",
+        "instruction": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Đọc kĩ dữ kiện và xác định điều đề bài đang hỏi."
+      },
+      {
+        "level": 2,
+        "text": "Thay x bằng 27, sau đó thực hiện phép tính theo đúng thứ tự."
+      },
+      {
+        "level": 3,
+        "text": "Thực hiện phép tính rồi kiểm tra lại kết quả."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "PROCEDURE_ERROR",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Thay x = 27 vào biểu thức và tính được 486.",
+    "status": "REVIEWED",
+    "version": 2
+  }
+]

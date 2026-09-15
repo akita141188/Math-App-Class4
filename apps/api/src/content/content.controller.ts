@@ -28,6 +28,11 @@ export class ContentController {
     return grade === 4 ? this.contentService.getCatalog() : null;
   }
 
+  @Get('grades/:grade/official-curriculum')
+  getOfficialCurriculum(@Param('grade', ParseIntPipe) grade: number) {
+    return grade === 4 ? this.contentService.getOfficialCurriculum() : null;
+  }
+
   @Get('topics/:topicId/problem-types')
   getProblemTypes(@Param('topicId') topicId: string) {
     return this.contentService.getProblemTypes(topicId);

@@ -1,6 +1,7 @@
 import { finalizedProblemBlueprints } from '../catalog.v2.data';
 import { gcd, lcm, reduceFraction } from './content-math';
 import { generateFractionCore } from './fraction-generators';
+import { generateKnttCore } from './kntt-generators';
 
 describe('fraction generator oracles', () => {
   const types = finalizedProblemBlueprints.filter((type) => type.family === 'FRACTION');
@@ -8,7 +9,9 @@ describe('fraction generator oracles', () => {
   it('matches independent fraction arithmetic for every generated parameter set', () => {
     for (const type of types) {
       for (let index = 0; index < 100; index += 1) {
-        const core = generateFractionCore(type, index)!;
+        const core = generateKnttCore(type, index) ?? generateFractionCore(type, index);
+        expect(core).not.toBeNull();
+        if (!core) continue;
         const p = core.params;
         const expected = core.expectedAnswer;
         if (type.id === 'reduce-fractions') {
@@ -48,6 +51,19 @@ describe('fraction generator oracles', () => {
           expect(expected).toMatchObject({
             kind: 'NUMBER',
             value: (Number(p.whole) * Number(p.partNumerator)) / Number(p.partDenominator),
+          });
+        }
+        if (type.id === 'fraction-as-division') {
+          expect(expected).toMatchObject({
+            kind: 'FRACTION',
+            numerator: Number(p.dividend),
+            denominator: Number(p.divisor),
+          });
+        }
+        if (type.id === 'fraction-basic-property') {
+          expect(expected).toMatchObject({
+            kind: 'NUMBER',
+            value: Number(p.numerator) * Number(p.factor),
           });
         }
       }

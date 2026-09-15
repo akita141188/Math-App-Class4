@@ -49,27 +49,40 @@ function blueprint(
   };
 }
 
+/**
+ * The four periodic blueprints follow the Kết nối tri thức sequence used from
+ * school year 2026-2027. Exact school test scope can still vary by local teaching pace,
+ * so descriptions deliberately say "phạm vi tham khảo".
+ */
 export const testBlueprints: TestBlueprint[] = [
   blueprint(
     'mid-term-1',
     'Giữa học kỳ I',
     'MID_TERM_1',
-    ['natural-numbers', 'addition', 'subtraction', 'geometry-basics'],
-    'Ôn số tự nhiên, cộng trừ và hình học cơ bản.',
+    ['natural-numbers', 'expressions', 'geometry-basics', 'multi-step-word-problems'],
+    'Phạm vi tham khảo theo tiến độ đầu học kỳ I: ôn tập, số chẵn/lẻ, biểu thức chứa chữ, bài toán nhiều bước, góc và số có nhiều chữ số.',
   ),
   blueprint(
     'end-term-1',
     'Cuối học kỳ I',
     'END_TERM_1',
-    ['natural-numbers', 'multiplication', 'division', 'units', 'multi-step-word-problems'],
-    'Đánh giá tổng hợp kiến thức trọng tâm học kỳ I.',
+    [
+      'natural-numbers',
+      'expressions',
+      'addition',
+      'subtraction',
+      'units',
+      'geometry-basics',
+      'multi-step-word-problems',
+    ],
+    'Phạm vi tham khảo học kỳ I: số đến lớp triệu, đo lường, cộng trừ, tổng-hiệu, góc, vuông góc, song song, hình bình hành và hình thoi.',
   ),
   blueprint(
     'mid-term-2',
     'Giữa học kỳ II',
     'MID_TERM_2',
-    ['grade-4-fractions', 'time-and-money', 'perimeter-and-area', 'tables-and-charts'],
-    'Ôn phân số, đo lường, hình học và dữ liệu.',
+    ['multiplication', 'division', 'tables-and-charts', 'multi-step-word-problems'],
+    'Phạm vi tham khảo đầu học kỳ II: phép nhân, phép chia, ước lượng, trung bình cộng, rút về đơn vị và thống kê - xác suất.',
   ),
   blueprint(
     'end-year',
@@ -77,19 +90,34 @@ export const testBlueprints: TestBlueprint[] = [
     'END_YEAR',
     [
       'natural-numbers',
+      'addition',
+      'subtraction',
+      'multiplication',
+      'division',
       'grade-4-fractions',
       'units',
+      'geometry-basics',
       'perimeter-and-area',
       'multi-step-word-problems',
       'tables-and-charts',
     ],
-    'Đánh giá tổng hợp các mạch kiến thức Toán lớp 4.',
+    'Đánh giá tổng hợp cuối năm theo các mạch số và phép tính, phân số, hình học - đo lường, bài toán thực tế, thống kê và xác suất.',
   ),
   blueprint(
     'comprehensive',
-    'Kiểm tra tổng hợp',
+    'Luyện đề tổng hợp',
     'COMPREHENSIVE',
-    ['expressions', 'grade-4-fractions', 'time-and-money', 'geometry-basics', 'patterns'],
-    'Một đề tổng hợp để tự đánh giá trước khi ôn tiếp.',
+    [
+      'natural-numbers',
+      'expressions',
+      'multiplication',
+      'division',
+      'grade-4-fractions',
+      'units',
+      'geometry-basics',
+      'multi-step-word-problems',
+      'tables-and-charts',
+    ],
+    'Đề luyện tổng hợp để tự đánh giá; không đại diện cho phạm vi bắt buộc của một trường cụ thể.',
   ),
 ];

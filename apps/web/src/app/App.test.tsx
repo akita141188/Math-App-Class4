@@ -126,7 +126,16 @@ describe('student frontend', () => {
     render(<App />);
 
     expect(screen.getByRole('main')).toHaveTextContent('Theo dõi việc học của Minh');
-    expect(screen.getByRole('navigation', { name: 'Điều hướng chính' })).toHaveClass('parent-nav');
+
+    const parentNav = screen.getByRole('navigation', { name: 'Khu vực phụ huynh' });
+    expect(parentNav).toHaveClass('parent-only-nav');
+    expect(parentNav).toHaveTextContent('Tổng quan');
+    expect(parentNav).not.toHaveTextContent('Học theo dạng');
+    expect(parentNav).not.toHaveTextContent('Kiểm tra');
+    expect(parentNav).not.toHaveTextContent('Ôn tập');
+    expect(parentNav).not.toHaveTextContent('Của em');
+
+    expect(screen.getByRole('link', { name: /Khu vực của con/i })).toBeInTheDocument();
     expect(
       screen.queryByRole('navigation', { name: 'Điều hướng chính trên điện thoại' }),
     ).not.toBeInTheDocument();

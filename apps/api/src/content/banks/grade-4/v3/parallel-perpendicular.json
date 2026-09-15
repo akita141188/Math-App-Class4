@@ -1,6 +1,6 @@
 [
   {
-    "id": "g4-parallel-perpendicular-7fe1e59fd665d9f4",
+    "id": "g4-parallel-perpendicular-9e20b15acb7a54ed",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t1",
     "fingerprint": "970be9f7083016acd8311b1c50c7bde1",
@@ -73,7 +73,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-9cf79dfb1f8277b1",
+    "id": "g4-parallel-perpendicular-10696df67a2e1287",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t2",
     "fingerprint": "14c9186da9d75d0743407ab06ebc2b52",
@@ -146,10 +146,10 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-4c0605cd5ffe1c82",
+    "id": "g4-parallel-perpendicular-eeb06ee4e82cd7d2",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t3",
-    "fingerprint": "bf6faac2cc10257b787b16fcbffaa73e",
+    "fingerprint": "32b6990ee5156cc0830e9a5191fab66f",
     "generatorParams": {
       "relation": "song song",
       "rotationDegrees": 10,
@@ -172,6 +172,385 @@
       "relation": "PARALLEL",
       "rotationDegrees": 10,
       "separation": 31
+    },
+    "options": [
+      {
+        "id": "option-1",
+        "label": "song song"
+      },
+      {
+        "id": "option-2",
+        "label": "vuông góc"
+      },
+      {
+        "id": "option-3",
+        "label": "cắt nhau nhưng không vuông góc"
+      },
+      {
+        "id": "option-4",
+        "label": "Cần tính lại 3"
+      }
+    ],
+    "expectedAnswer": {
+      "kind": "OPTION",
+      "optionId": "option-1"
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Quan sát toàn bộ hình hoặc dữ kiện trước khi trả lời."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhớ lại tính chất định nghĩa của đối tượng được hỏi."
+      },
+      {
+        "id": "check",
+        "instruction": "Loại các phương án trái với tính chất đó."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Quan sát toàn bộ hình hoặc dữ kiện trước khi trả lời."
+      },
+      {
+        "level": 2,
+        "text": "Nhớ lại tính chất định nghĩa của đối tượng được hỏi."
+      },
+      {
+        "level": 3,
+        "text": "Loại các phương án trái với tính chất đó."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "GEOMETRY_PROPERTY_CONFUSION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Hai đường trong hình có cùng phương và không cắt nhau, nên chúng song song.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-parallel-perpendicular-a10bd4431fbf9765",
+    "contentVersion": "grade4-v3",
+    "templateId": "parallel-perpendicular-t4",
+    "fingerprint": "4e855d20aa52479713296d85807c791c",
+    "generatorParams": {
+      "relation": "song song",
+      "rotationDegrees": 15,
+      "separation": 32
+    },
+    "grade": 4,
+    "domainId": "geometry",
+    "topicId": "geometry-basics",
+    "skillId": "parallel-perpendicular-skill",
+    "problemTypeId": "parallel-perpendicular",
+    "format": "TRUE_FALSE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau? Bạn An cho rằng đáp án là song song. Bạn An nói đúng hay sai?",
+    "visual": {
+      "type": "LINE_RELATION",
+      "alt": "Hai đường thẳng song song.",
+      "relation": "PARALLEL",
+      "rotationDegrees": 15,
+      "separation": 32
+    },
+    "expectedAnswer": {
+      "kind": "BOOLEAN",
+      "value": true
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Quan sát toàn bộ hình hoặc dữ kiện trước khi trả lời."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhớ lại tính chất định nghĩa của đối tượng được hỏi."
+      },
+      {
+        "id": "check",
+        "instruction": "Loại các phương án trái với tính chất đó."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Quan sát toàn bộ hình hoặc dữ kiện trước khi trả lời."
+      },
+      {
+        "level": 2,
+        "text": "Nhớ lại tính chất định nghĩa của đối tượng được hỏi."
+      },
+      {
+        "level": 3,
+        "text": "Loại các phương án trái với tính chất đó."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "GEOMETRY_PROPERTY_CONFUSION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Hai đường trong hình có cùng phương và không cắt nhau, nên chúng song song.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-parallel-perpendicular-fdf817fcd65234e7",
+    "contentVersion": "grade4-v3",
+    "templateId": "parallel-perpendicular-t5",
+    "fingerprint": "2686b94ef7f166aa07dbdcd88bff23a8",
+    "generatorParams": {
+      "relation": "song song",
+      "rotationDegrees": 20,
+      "separation": 33
+    },
+    "grade": 4,
+    "domainId": "geometry",
+    "topicId": "geometry-basics",
+    "skillId": "parallel-perpendicular-skill",
+    "problemTypeId": "parallel-perpendicular",
+    "format": "WRITTEN_SOLUTION",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
+    "visual": {
+      "type": "LINE_RELATION",
+      "alt": "Hai đường thẳng song song.",
+      "relation": "PARALLEL",
+      "rotationDegrees": 20,
+      "separation": 33
+    },
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "song song"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Quan sát toàn bộ hình hoặc dữ kiện trước khi trả lời."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhớ lại tính chất định nghĩa của đối tượng được hỏi."
+      },
+      {
+        "id": "check",
+        "instruction": "Loại các phương án trái với tính chất đó."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Quan sát toàn bộ hình hoặc dữ kiện trước khi trả lời."
+      },
+      {
+        "level": 2,
+        "text": "Nhớ lại tính chất định nghĩa của đối tượng được hỏi."
+      },
+      {
+        "level": 3,
+        "text": "Loại các phương án trái với tính chất đó."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "GEOMETRY_PROPERTY_CONFUSION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Hai đường trong hình có cùng phương và không cắt nhau, nên chúng song song.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-parallel-perpendicular-043ba3dd05b088f5",
+    "contentVersion": "grade4-v3",
+    "templateId": "parallel-perpendicular-t1",
+    "fingerprint": "76c09d789aebad7c1fbb20c999d1afe5",
+    "generatorParams": {
+      "relation": "song song",
+      "rotationDegrees": 9,
+      "separation": 30
+    },
+    "grade": 4,
+    "domainId": "geometry",
+    "topicId": "geometry-basics",
+    "skillId": "parallel-perpendicular-skill",
+    "problemTypeId": "parallel-perpendicular",
+    "format": "SHORT_ANSWER",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
+    "visual": {
+      "type": "LINE_RELATION",
+      "alt": "Hai đường thẳng song song.",
+      "relation": "PARALLEL",
+      "rotationDegrees": 9,
+      "separation": 30
+    },
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "song song"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Quan sát toàn bộ hình hoặc dữ kiện trước khi trả lời."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhớ lại tính chất định nghĩa của đối tượng được hỏi."
+      },
+      {
+        "id": "check",
+        "instruction": "Loại các phương án trái với tính chất đó."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Quan sát toàn bộ hình hoặc dữ kiện trước khi trả lời."
+      },
+      {
+        "level": 2,
+        "text": "Nhớ lại tính chất định nghĩa của đối tượng được hỏi."
+      },
+      {
+        "level": 3,
+        "text": "Loại các phương án trái với tính chất đó."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "GEOMETRY_PROPERTY_CONFUSION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Hai đường trong hình có cùng phương và không cắt nhau, nên chúng song song.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-parallel-perpendicular-44c09a59719c4194",
+    "contentVersion": "grade4-v3",
+    "templateId": "parallel-perpendicular-t2",
+    "fingerprint": "165a82705b0629811298cf40bbad34a7",
+    "generatorParams": {
+      "relation": "song song",
+      "rotationDegrees": 14,
+      "separation": 31
+    },
+    "grade": 4,
+    "domainId": "geometry",
+    "topicId": "geometry-basics",
+    "skillId": "parallel-perpendicular-skill",
+    "problemTypeId": "parallel-perpendicular",
+    "format": "FILL_BLANK",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
+    "visual": {
+      "type": "LINE_RELATION",
+      "alt": "Hai đường thẳng song song.",
+      "relation": "PARALLEL",
+      "rotationDegrees": 14,
+      "separation": 31
+    },
+    "expectedAnswer": {
+      "kind": "TEXT",
+      "accepted": [
+        "song song"
+      ]
+    },
+    "solutionSteps": [
+      {
+        "id": "understand",
+        "instruction": "Quan sát toàn bộ hình hoặc dữ kiện trước khi trả lời."
+      },
+      {
+        "id": "strategy",
+        "instruction": "Nhớ lại tính chất định nghĩa của đối tượng được hỏi."
+      },
+      {
+        "id": "check",
+        "instruction": "Loại các phương án trái với tính chất đó."
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Quan sát toàn bộ hình hoặc dữ kiện trước khi trả lời."
+      },
+      {
+        "level": 2,
+        "text": "Nhớ lại tính chất định nghĩa của đối tượng được hỏi."
+      },
+      {
+        "level": 3,
+        "text": "Loại các phương án trái với tính chất đó."
+      }
+    ],
+    "commonErrors": [
+      {
+        "code": "GEOMETRY_PROPERTY_CONFUSION",
+        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
+      }
+    ],
+    "prerequisiteSkillIds": [],
+    "explanation": "Hai đường trong hình có cùng phương và không cắt nhau, nên chúng song song.",
+    "status": "REVIEWED",
+    "version": 2
+  },
+  {
+    "id": "g4-parallel-perpendicular-e08ff90cfb1a364a",
+    "contentVersion": "grade4-v3",
+    "templateId": "parallel-perpendicular-t3",
+    "fingerprint": "f05d05e9ff4c0ccc231d946b53cd6729",
+    "generatorParams": {
+      "relation": "song song",
+      "rotationDegrees": 19,
+      "separation": 32
+    },
+    "grade": 4,
+    "domainId": "geometry",
+    "topicId": "geometry-basics",
+    "skillId": "parallel-perpendicular-skill",
+    "problemTypeId": "parallel-perpendicular",
+    "format": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "assessmentLevel": "LEVEL_2",
+    "testEligible": true,
+    "scoreWeight": 1,
+    "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
+    "visual": {
+      "type": "LINE_RELATION",
+      "alt": "Hai đường thẳng song song.",
+      "relation": "PARALLEL",
+      "rotationDegrees": 19,
+      "separation": 32
     },
     "options": [
       {
@@ -235,386 +614,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-c9fc56757bde2ce4",
-    "contentVersion": "grade4-v3",
-    "templateId": "parallel-perpendicular-t4",
-    "fingerprint": "4e855d20aa52479713296d85807c791c",
-    "generatorParams": {
-      "relation": "song song",
-      "rotationDegrees": 15,
-      "separation": 32
-    },
-    "grade": 4,
-    "domainId": "geometry",
-    "topicId": "geometry-basics",
-    "skillId": "parallel-perpendicular-skill",
-    "problemTypeId": "parallel-perpendicular",
-    "format": "TRUE_FALSE",
-    "difficulty": "EASY",
-    "assessmentLevel": "LEVEL_1",
-    "testEligible": true,
-    "scoreWeight": 1,
-    "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau? Bạn An cho rằng đáp án là song song. Bạn An nói đúng hay sai?",
-    "visual": {
-      "type": "LINE_RELATION",
-      "alt": "Hai đường thẳng song song.",
-      "relation": "PARALLEL",
-      "rotationDegrees": 15,
-      "separation": 32
-    },
-    "expectedAnswer": {
-      "kind": "BOOLEAN",
-      "value": true
-    },
-    "solutionSteps": [
-      {
-        "id": "understand",
-        "instruction": "Quan sát toàn bộ hình hoặc dữ kiện trước khi trả lời."
-      },
-      {
-        "id": "strategy",
-        "instruction": "Nhớ lại tính chất định nghĩa của đối tượng được hỏi."
-      },
-      {
-        "id": "check",
-        "instruction": "Loại các phương án trái với tính chất đó."
-      }
-    ],
-    "hints": [
-      {
-        "level": 1,
-        "text": "Quan sát toàn bộ hình hoặc dữ kiện trước khi trả lời."
-      },
-      {
-        "level": 2,
-        "text": "Nhớ lại tính chất định nghĩa của đối tượng được hỏi."
-      },
-      {
-        "level": 3,
-        "text": "Loại các phương án trái với tính chất đó."
-      }
-    ],
-    "commonErrors": [
-      {
-        "code": "GEOMETRY_PROPERTY_CONFUSION",
-        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
-      }
-    ],
-    "prerequisiteSkillIds": [],
-    "explanation": "Hai đường trong hình có cùng phương và không cắt nhau, nên chúng song song.",
-    "status": "REVIEWED",
-    "version": 2
-  },
-  {
-    "id": "g4-parallel-perpendicular-d1a69d3a9f06878b",
-    "contentVersion": "grade4-v3",
-    "templateId": "parallel-perpendicular-t5",
-    "fingerprint": "2686b94ef7f166aa07dbdcd88bff23a8",
-    "generatorParams": {
-      "relation": "song song",
-      "rotationDegrees": 20,
-      "separation": 33
-    },
-    "grade": 4,
-    "domainId": "geometry",
-    "topicId": "geometry-basics",
-    "skillId": "parallel-perpendicular-skill",
-    "problemTypeId": "parallel-perpendicular",
-    "format": "WRITTEN_SOLUTION",
-    "difficulty": "EASY",
-    "assessmentLevel": "LEVEL_1",
-    "testEligible": true,
-    "scoreWeight": 1,
-    "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
-    "visual": {
-      "type": "LINE_RELATION",
-      "alt": "Hai đường thẳng song song.",
-      "relation": "PARALLEL",
-      "rotationDegrees": 20,
-      "separation": 33
-    },
-    "expectedAnswer": {
-      "kind": "TEXT",
-      "accepted": [
-        "song song"
-      ]
-    },
-    "solutionSteps": [
-      {
-        "id": "understand",
-        "instruction": "Quan sát toàn bộ hình hoặc dữ kiện trước khi trả lời."
-      },
-      {
-        "id": "strategy",
-        "instruction": "Nhớ lại tính chất định nghĩa của đối tượng được hỏi."
-      },
-      {
-        "id": "check",
-        "instruction": "Loại các phương án trái với tính chất đó."
-      }
-    ],
-    "hints": [
-      {
-        "level": 1,
-        "text": "Quan sát toàn bộ hình hoặc dữ kiện trước khi trả lời."
-      },
-      {
-        "level": 2,
-        "text": "Nhớ lại tính chất định nghĩa của đối tượng được hỏi."
-      },
-      {
-        "level": 3,
-        "text": "Loại các phương án trái với tính chất đó."
-      }
-    ],
-    "commonErrors": [
-      {
-        "code": "GEOMETRY_PROPERTY_CONFUSION",
-        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
-      }
-    ],
-    "prerequisiteSkillIds": [],
-    "explanation": "Hai đường trong hình có cùng phương và không cắt nhau, nên chúng song song.",
-    "status": "REVIEWED",
-    "version": 2
-  },
-  {
-    "id": "g4-parallel-perpendicular-c084df04e4215ee9",
-    "contentVersion": "grade4-v3",
-    "templateId": "parallel-perpendicular-t1",
-    "fingerprint": "76c09d789aebad7c1fbb20c999d1afe5",
-    "generatorParams": {
-      "relation": "song song",
-      "rotationDegrees": 9,
-      "separation": 30
-    },
-    "grade": 4,
-    "domainId": "geometry",
-    "topicId": "geometry-basics",
-    "skillId": "parallel-perpendicular-skill",
-    "problemTypeId": "parallel-perpendicular",
-    "format": "SHORT_ANSWER",
-    "difficulty": "EASY",
-    "assessmentLevel": "LEVEL_1",
-    "testEligible": true,
-    "scoreWeight": 1,
-    "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
-    "visual": {
-      "type": "LINE_RELATION",
-      "alt": "Hai đường thẳng song song.",
-      "relation": "PARALLEL",
-      "rotationDegrees": 9,
-      "separation": 30
-    },
-    "expectedAnswer": {
-      "kind": "TEXT",
-      "accepted": [
-        "song song"
-      ]
-    },
-    "solutionSteps": [
-      {
-        "id": "understand",
-        "instruction": "Quan sát toàn bộ hình hoặc dữ kiện trước khi trả lời."
-      },
-      {
-        "id": "strategy",
-        "instruction": "Nhớ lại tính chất định nghĩa của đối tượng được hỏi."
-      },
-      {
-        "id": "check",
-        "instruction": "Loại các phương án trái với tính chất đó."
-      }
-    ],
-    "hints": [
-      {
-        "level": 1,
-        "text": "Quan sát toàn bộ hình hoặc dữ kiện trước khi trả lời."
-      },
-      {
-        "level": 2,
-        "text": "Nhớ lại tính chất định nghĩa của đối tượng được hỏi."
-      },
-      {
-        "level": 3,
-        "text": "Loại các phương án trái với tính chất đó."
-      }
-    ],
-    "commonErrors": [
-      {
-        "code": "GEOMETRY_PROPERTY_CONFUSION",
-        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
-      }
-    ],
-    "prerequisiteSkillIds": [],
-    "explanation": "Hai đường trong hình có cùng phương và không cắt nhau, nên chúng song song.",
-    "status": "REVIEWED",
-    "version": 2
-  },
-  {
-    "id": "g4-parallel-perpendicular-24fc3d66c80471c2",
-    "contentVersion": "grade4-v3",
-    "templateId": "parallel-perpendicular-t2",
-    "fingerprint": "165a82705b0629811298cf40bbad34a7",
-    "generatorParams": {
-      "relation": "song song",
-      "rotationDegrees": 14,
-      "separation": 31
-    },
-    "grade": 4,
-    "domainId": "geometry",
-    "topicId": "geometry-basics",
-    "skillId": "parallel-perpendicular-skill",
-    "problemTypeId": "parallel-perpendicular",
-    "format": "FILL_BLANK",
-    "difficulty": "EASY",
-    "assessmentLevel": "LEVEL_1",
-    "testEligible": true,
-    "scoreWeight": 1,
-    "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
-    "visual": {
-      "type": "LINE_RELATION",
-      "alt": "Hai đường thẳng song song.",
-      "relation": "PARALLEL",
-      "rotationDegrees": 14,
-      "separation": 31
-    },
-    "expectedAnswer": {
-      "kind": "TEXT",
-      "accepted": [
-        "song song"
-      ]
-    },
-    "solutionSteps": [
-      {
-        "id": "understand",
-        "instruction": "Quan sát toàn bộ hình hoặc dữ kiện trước khi trả lời."
-      },
-      {
-        "id": "strategy",
-        "instruction": "Nhớ lại tính chất định nghĩa của đối tượng được hỏi."
-      },
-      {
-        "id": "check",
-        "instruction": "Loại các phương án trái với tính chất đó."
-      }
-    ],
-    "hints": [
-      {
-        "level": 1,
-        "text": "Quan sát toàn bộ hình hoặc dữ kiện trước khi trả lời."
-      },
-      {
-        "level": 2,
-        "text": "Nhớ lại tính chất định nghĩa của đối tượng được hỏi."
-      },
-      {
-        "level": 3,
-        "text": "Loại các phương án trái với tính chất đó."
-      }
-    ],
-    "commonErrors": [
-      {
-        "code": "GEOMETRY_PROPERTY_CONFUSION",
-        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
-      }
-    ],
-    "prerequisiteSkillIds": [],
-    "explanation": "Hai đường trong hình có cùng phương và không cắt nhau, nên chúng song song.",
-    "status": "REVIEWED",
-    "version": 2
-  },
-  {
-    "id": "g4-parallel-perpendicular-5d2e93c98ef30f21",
-    "contentVersion": "grade4-v3",
-    "templateId": "parallel-perpendicular-t3",
-    "fingerprint": "b4969414e68223781856038658e6f561",
-    "generatorParams": {
-      "relation": "song song",
-      "rotationDegrees": 19,
-      "separation": 32
-    },
-    "grade": 4,
-    "domainId": "geometry",
-    "topicId": "geometry-basics",
-    "skillId": "parallel-perpendicular-skill",
-    "problemTypeId": "parallel-perpendicular",
-    "format": "MULTIPLE_CHOICE",
-    "difficulty": "EASY",
-    "assessmentLevel": "LEVEL_1",
-    "testEligible": true,
-    "scoreWeight": 1,
-    "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
-    "visual": {
-      "type": "LINE_RELATION",
-      "alt": "Hai đường thẳng song song.",
-      "relation": "PARALLEL",
-      "rotationDegrees": 19,
-      "separation": 32
-    },
-    "options": [
-      {
-        "id": "option-1",
-        "label": "song song"
-      },
-      {
-        "id": "option-2",
-        "label": "cắt nhau nhưng không vuông góc"
-      },
-      {
-        "id": "option-3",
-        "label": "Cần tính lại 3"
-      },
-      {
-        "id": "option-4",
-        "label": "vuông góc"
-      }
-    ],
-    "expectedAnswer": {
-      "kind": "OPTION",
-      "optionId": "option-1"
-    },
-    "solutionSteps": [
-      {
-        "id": "understand",
-        "instruction": "Quan sát toàn bộ hình hoặc dữ kiện trước khi trả lời."
-      },
-      {
-        "id": "strategy",
-        "instruction": "Nhớ lại tính chất định nghĩa của đối tượng được hỏi."
-      },
-      {
-        "id": "check",
-        "instruction": "Loại các phương án trái với tính chất đó."
-      }
-    ],
-    "hints": [
-      {
-        "level": 1,
-        "text": "Quan sát toàn bộ hình hoặc dữ kiện trước khi trả lời."
-      },
-      {
-        "level": 2,
-        "text": "Nhớ lại tính chất định nghĩa của đối tượng được hỏi."
-      },
-      {
-        "level": 3,
-        "text": "Loại các phương án trái với tính chất đó."
-      }
-    ],
-    "commonErrors": [
-      {
-        "code": "GEOMETRY_PROPERTY_CONFUSION",
-        "feedback": "Em đọc lại dữ kiện, chọn đúng phép tính rồi kiểm tra kết quả nhé."
-      }
-    ],
-    "prerequisiteSkillIds": [],
-    "explanation": "Hai đường trong hình có cùng phương và không cắt nhau, nên chúng song song.",
-    "status": "REVIEWED",
-    "version": 2
-  },
-  {
-    "id": "g4-parallel-perpendicular-c5c7fd00f991c155",
+    "id": "g4-parallel-perpendicular-d58c03a51d69a494",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t4",
     "fingerprint": "1b48b97f1c9c7c26531d8897707de895",
@@ -630,7 +630,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "TRUE_FALSE",
     "difficulty": "EASY",
-    "assessmentLevel": "LEVEL_1",
+    "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau? Bạn An cho rằng đáp án là vuông góc. Bạn An nói đúng hay sai?",
@@ -685,7 +685,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-90e14f1c96a8a9f5",
+    "id": "g4-parallel-perpendicular-bc5c7eb29a1700ba",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t5",
     "fingerprint": "c51e0c24e5a1e34e73d7baac31cebcdb",
@@ -701,7 +701,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "WRITTEN_SOLUTION",
     "difficulty": "EASY",
-    "assessmentLevel": "LEVEL_1",
+    "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -758,7 +758,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-05509355c12a77cc",
+    "id": "g4-parallel-perpendicular-3cf6bf36e324c8c5",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t1",
     "fingerprint": "69596878bb76cb8e0307ea82071a84ab",
@@ -831,7 +831,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-6bf32ee3bdcabd59",
+    "id": "g4-parallel-perpendicular-83df2c5e9efa7564",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t2",
     "fingerprint": "82842ac948922244f33732e115c64203",
@@ -904,10 +904,10 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-a5697b55fb135969",
+    "id": "g4-parallel-perpendicular-25a1957c33847f30",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t3",
-    "fingerprint": "5cd20c4202395b69b0bc01c49bee6578",
+    "fingerprint": "837a31e8e467846752f43d47aecc23e1",
     "generatorParams": {
       "relation": "song song",
       "rotationDegrees": 28,
@@ -934,24 +934,24 @@
     "options": [
       {
         "id": "option-1",
-        "label": "cắt nhau nhưng không vuông góc"
-      },
-      {
-        "id": "option-2",
-        "label": "Cần tính lại 3"
-      },
-      {
-        "id": "option-3",
         "label": "song song"
       },
       {
-        "id": "option-4",
+        "id": "option-2",
         "label": "vuông góc"
+      },
+      {
+        "id": "option-3",
+        "label": "cắt nhau nhưng không vuông góc"
+      },
+      {
+        "id": "option-4",
+        "label": "Cần tính lại 3"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-3"
+      "optionId": "option-1"
     },
     "solutionSteps": [
       {
@@ -993,7 +993,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-2972e6f9d64c6b64",
+    "id": "g4-parallel-perpendicular-c1057a0ac5f4d84f",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t4",
     "fingerprint": "367d3a53c2146f5717f3b6d25a293a9b",
@@ -1009,7 +1009,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "TRUE_FALSE",
     "difficulty": "EASY",
-    "assessmentLevel": "LEVEL_1",
+    "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau? Bạn An cho rằng đáp án là song song. Bạn An nói đúng hay sai?",
@@ -1064,7 +1064,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-5ff5ff27d8ee876c",
+    "id": "g4-parallel-perpendicular-b603de223b4d5450",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t5",
     "fingerprint": "88c846a34a160b29e851a01c1ebd013b",
@@ -1080,7 +1080,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "WRITTEN_SOLUTION",
     "difficulty": "EASY",
-    "assessmentLevel": "LEVEL_1",
+    "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -1137,7 +1137,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-eee7f3aaaf24ad25",
+    "id": "g4-parallel-perpendicular-17f57356b66b23bf",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t1",
     "fingerprint": "c8880d31e7a17b8dc19e529763cce5bf",
@@ -1153,7 +1153,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "SHORT_ANSWER",
     "difficulty": "EASY",
-    "assessmentLevel": "LEVEL_1",
+    "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -1210,7 +1210,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-fc328c67cf7345d6",
+    "id": "g4-parallel-perpendicular-e3f9b785ce088ad9",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t2",
     "fingerprint": "22d8d467d9b84c591e6493933cb7e4f0",
@@ -1226,7 +1226,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "FILL_BLANK",
     "difficulty": "EASY",
-    "assessmentLevel": "LEVEL_1",
+    "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -1283,10 +1283,10 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-5647b24b0878557b",
+    "id": "g4-parallel-perpendicular-05771378b4f7eeee",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t3",
-    "fingerprint": "af2a61c51fbcf279ac64c1048e2aab3e",
+    "fingerprint": "085d4c5209f82065d73551b46b496239",
     "generatorParams": {
       "relation": "song song",
       "rotationDegrees": 37,
@@ -1299,7 +1299,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "MULTIPLE_CHOICE",
     "difficulty": "EASY",
-    "assessmentLevel": "LEVEL_1",
+    "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -1317,20 +1317,20 @@
       },
       {
         "id": "option-2",
-        "label": "vuông góc"
+        "label": "song song"
       },
       {
         "id": "option-3",
-        "label": "Cần tính lại 3"
+        "label": "vuông góc"
       },
       {
         "id": "option-4",
-        "label": "song song"
+        "label": "Cần tính lại 3"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-4"
+      "optionId": "option-2"
     },
     "solutionSteps": [
       {
@@ -1372,7 +1372,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-b23a4e4e25a079c7",
+    "id": "g4-parallel-perpendicular-124eba20b20421c9",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t4",
     "fingerprint": "518e6b3532f640873e5962672084492c",
@@ -1388,7 +1388,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "TRUE_FALSE",
     "difficulty": "EASY",
-    "assessmentLevel": "LEVEL_1",
+    "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau? Bạn An cho rằng đáp án là vuông góc. Bạn An nói đúng hay sai?",
@@ -1443,7 +1443,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-5ac2ca93c1b0e97c",
+    "id": "g4-parallel-perpendicular-a7c8acf215f6df27",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t5",
     "fingerprint": "6fdf84c879ba5407384ba2e7d363adbb",
@@ -1459,7 +1459,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "WRITTEN_SOLUTION",
     "difficulty": "EASY",
-    "assessmentLevel": "LEVEL_1",
+    "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -1516,7 +1516,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-9b82357b30589cc1",
+    "id": "g4-parallel-perpendicular-d1d381f18f49677c",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t1",
     "fingerprint": "5d3cb803942ef404dd50ae3eaa99156d",
@@ -1589,7 +1589,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-e057566035c5f64c",
+    "id": "g4-parallel-perpendicular-e749d03502d2d673",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t2",
     "fingerprint": "b28f7735c520490a4ae6cd53016c186b",
@@ -1662,10 +1662,10 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-bb8cd4a7c6826a4a",
+    "id": "g4-parallel-perpendicular-a5b5b32ed982c454",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t3",
-    "fingerprint": "71d30b094c20151670e065e3e36fe27a",
+    "fingerprint": "3c82b4a42db6ccaedfe8882c9596452a",
     "generatorParams": {
       "relation": "song song",
       "rotationDegrees": 46,
@@ -1692,24 +1692,24 @@
     "options": [
       {
         "id": "option-1",
-        "label": "cắt nhau nhưng không vuông góc"
+        "label": "song song"
       },
       {
         "id": "option-2",
-        "label": "Cần tính lại 3"
+        "label": "cắt nhau nhưng không vuông góc"
       },
       {
         "id": "option-3",
-        "label": "vuông góc"
+        "label": "Cần tính lại 3"
       },
       {
         "id": "option-4",
-        "label": "song song"
+        "label": "vuông góc"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-4"
+      "optionId": "option-1"
     },
     "solutionSteps": [
       {
@@ -1751,7 +1751,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-cf1b070e3b09f98c",
+    "id": "g4-parallel-perpendicular-a878e6e2dd98ed8b",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t4",
     "fingerprint": "7338c432ecad90f2cd2aa97f500e2d89",
@@ -1767,7 +1767,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "TRUE_FALSE",
     "difficulty": "EASY",
-    "assessmentLevel": "LEVEL_1",
+    "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau? Bạn An cho rằng đáp án là song song. Bạn An nói đúng hay sai?",
@@ -1822,7 +1822,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-62632e0820e8f290",
+    "id": "g4-parallel-perpendicular-d07cb6fa518b7757",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t5",
     "fingerprint": "13b0783fbe7063f9a285d878cc336c25",
@@ -1838,7 +1838,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "WRITTEN_SOLUTION",
     "difficulty": "EASY",
-    "assessmentLevel": "LEVEL_1",
+    "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -1895,7 +1895,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-08b8dc12c42e8129",
+    "id": "g4-parallel-perpendicular-e5d0f420b391e609",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t1",
     "fingerprint": "3681e68984ca03b7daf9e1e96eafc3b8",
@@ -1911,7 +1911,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "SHORT_ANSWER",
     "difficulty": "EASY",
-    "assessmentLevel": "LEVEL_1",
+    "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -1968,7 +1968,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-3a5f35fa69e237d8",
+    "id": "g4-parallel-perpendicular-9a10d55c42ce93f7",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t2",
     "fingerprint": "a7c4ea8239f94a89c5f1ff2df3c5723d",
@@ -1984,7 +1984,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "FILL_BLANK",
     "difficulty": "EASY",
-    "assessmentLevel": "LEVEL_1",
+    "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -2041,10 +2041,10 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-e1c7771ca4e2ccae",
+    "id": "g4-parallel-perpendicular-45dba35185800b18",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t3",
-    "fingerprint": "7e38f457b063a1efa3629e1bc7f7388e",
+    "fingerprint": "c6f48f19a614368178a53424aca16d03",
     "generatorParams": {
       "relation": "song song",
       "rotationDegrees": 55,
@@ -2057,7 +2057,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "MULTIPLE_CHOICE",
     "difficulty": "EASY",
-    "assessmentLevel": "LEVEL_1",
+    "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -2075,20 +2075,20 @@
       },
       {
         "id": "option-2",
-        "label": "cắt nhau nhưng không vuông góc"
+        "label": "vuông góc"
       },
       {
         "id": "option-3",
-        "label": "song song"
+        "label": "cắt nhau nhưng không vuông góc"
       },
       {
         "id": "option-4",
-        "label": "vuông góc"
+        "label": "song song"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-3"
+      "optionId": "option-4"
     },
     "solutionSteps": [
       {
@@ -2130,7 +2130,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-1ffeec1440d6fec1",
+    "id": "g4-parallel-perpendicular-6c4dab200540524d",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t4",
     "fingerprint": "91adb6c68c8e828438a804434c02b57c",
@@ -2146,7 +2146,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "TRUE_FALSE",
     "difficulty": "EASY",
-    "assessmentLevel": "LEVEL_1",
+    "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau? Bạn An cho rằng đáp án là vuông góc. Bạn An nói đúng hay sai?",
@@ -2201,7 +2201,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-a258ea30c4aa639a",
+    "id": "g4-parallel-perpendicular-a7e0069e8d0065ff",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t5",
     "fingerprint": "86166ef998bf8f3f80f6f1153c44761f",
@@ -2217,7 +2217,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "WRITTEN_SOLUTION",
     "difficulty": "EASY",
-    "assessmentLevel": "LEVEL_1",
+    "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -2274,7 +2274,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-dc2e02d0ef26ddca",
+    "id": "g4-parallel-perpendicular-6d5ad1c0799a5723",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t1",
     "fingerprint": "329573ef19ebf5353152c0c15bb725b5",
@@ -2290,7 +2290,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "SHORT_ANSWER",
     "difficulty": "MEDIUM",
-    "assessmentLevel": "LEVEL_2",
+    "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -2347,7 +2347,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-daf7640238bd8d21",
+    "id": "g4-parallel-perpendicular-b1d682159661a7a9",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t2",
     "fingerprint": "93b424cf35c010d626140d78453777ff",
@@ -2363,7 +2363,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "FILL_BLANK",
     "difficulty": "MEDIUM",
-    "assessmentLevel": "LEVEL_2",
+    "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -2420,10 +2420,10 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-3ea7423c39ead944",
+    "id": "g4-parallel-perpendicular-99f1da4448025cd8",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t3",
-    "fingerprint": "5cc8cdf9819064e08d3aea17c18d8a23",
+    "fingerprint": "43b7437066fce286da1a4a04a81564f4",
     "generatorParams": {
       "relation": "song song",
       "rotationDegrees": 64,
@@ -2436,7 +2436,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "MULTIPLE_CHOICE",
     "difficulty": "MEDIUM",
-    "assessmentLevel": "LEVEL_2",
+    "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -2450,24 +2450,24 @@
     "options": [
       {
         "id": "option-1",
-        "label": "cắt nhau nhưng không vuông góc"
+        "label": "Cần tính lại 3"
       },
       {
         "id": "option-2",
-        "label": "vuông góc"
-      },
-      {
-        "id": "option-3",
         "label": "song song"
       },
       {
+        "id": "option-3",
+        "label": "cắt nhau nhưng không vuông góc"
+      },
+      {
         "id": "option-4",
-        "label": "Cần tính lại 3"
+        "label": "vuông góc"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-3"
+      "optionId": "option-2"
     },
     "solutionSteps": [
       {
@@ -2509,7 +2509,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-3c4287cdf279f5d5",
+    "id": "g4-parallel-perpendicular-756f7ff4ccd7806f",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t4",
     "fingerprint": "704a8f95ee092e72ec3b7be6353e76c1",
@@ -2580,7 +2580,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-65e356f36b512ca8",
+    "id": "g4-parallel-perpendicular-986bed34ac1c7594",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t5",
     "fingerprint": "c121f9532987668b4b280de67c63da29",
@@ -2653,7 +2653,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-8b86e412e0753859",
+    "id": "g4-parallel-perpendicular-61ee436fc7eedfbc",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t1",
     "fingerprint": "0f378f8f59788b70a611bc0b3f47838a",
@@ -2726,7 +2726,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-ac453ea6766693b0",
+    "id": "g4-parallel-perpendicular-cecf48a115cedb25",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t2",
     "fingerprint": "89f0f7570cf4ca8bed1c5b08704e6714",
@@ -2799,10 +2799,10 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-70e4cf55986039dd",
+    "id": "g4-parallel-perpendicular-53503ae93678ccb8",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t3",
-    "fingerprint": "31e5c0d58b0b1792899844afa6f07226",
+    "fingerprint": "fe21e7438e548997d14a470ccb6ae3b2",
     "generatorParams": {
       "relation": "song song",
       "rotationDegrees": 73,
@@ -2829,24 +2829,24 @@
     "options": [
       {
         "id": "option-1",
-        "label": "Cần tính lại 3"
-      },
-      {
-        "id": "option-2",
-        "label": "vuông góc"
-      },
-      {
-        "id": "option-3",
         "label": "cắt nhau nhưng không vuông góc"
       },
       {
-        "id": "option-4",
+        "id": "option-2",
+        "label": "Cần tính lại 3"
+      },
+      {
+        "id": "option-3",
         "label": "song song"
+      },
+      {
+        "id": "option-4",
+        "label": "vuông góc"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-4"
+      "optionId": "option-3"
     },
     "solutionSteps": [
       {
@@ -2888,7 +2888,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-97e1ac4b53977c78",
+    "id": "g4-parallel-perpendicular-25b140c68eb29549",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t4",
     "fingerprint": "412bae9f4602cc5e62093f86f722d02a",
@@ -2904,7 +2904,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "TRUE_FALSE",
     "difficulty": "MEDIUM",
-    "assessmentLevel": "LEVEL_2",
+    "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau? Bạn An cho rằng đáp án là vuông góc. Bạn An nói đúng hay sai?",
@@ -2959,7 +2959,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-b04f5e121e47f1e7",
+    "id": "g4-parallel-perpendicular-5f73bdb18c84e3c3",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t5",
     "fingerprint": "309c4bf6211a04909480443dcfbb87f9",
@@ -2975,7 +2975,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "WRITTEN_SOLUTION",
     "difficulty": "MEDIUM",
-    "assessmentLevel": "LEVEL_2",
+    "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -3032,7 +3032,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-890c63e4a29cac4e",
+    "id": "g4-parallel-perpendicular-3ed210ed9ad4a87f",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t1",
     "fingerprint": "7c5323d3036354b5527c19d103a5d0b3",
@@ -3048,7 +3048,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "SHORT_ANSWER",
     "difficulty": "MEDIUM",
-    "assessmentLevel": "LEVEL_2",
+    "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -3105,7 +3105,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-8c40b37c255090ee",
+    "id": "g4-parallel-perpendicular-a8aca56b81dd2f76",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t2",
     "fingerprint": "0c85e10b29a52826f5325d1394525fee",
@@ -3121,7 +3121,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "FILL_BLANK",
     "difficulty": "MEDIUM",
-    "assessmentLevel": "LEVEL_2",
+    "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -3178,10 +3178,10 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-4b5db4aa072bc38f",
+    "id": "g4-parallel-perpendicular-9e56c5c2b593c9a8",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t3",
-    "fingerprint": "0272d78152b00da97fbb63cf14c5b2fd",
+    "fingerprint": "e359a51ce79778f971185a28e37dfc32",
     "generatorParams": {
       "relation": "song song",
       "rotationDegrees": 82,
@@ -3194,7 +3194,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "MULTIPLE_CHOICE",
     "difficulty": "MEDIUM",
-    "assessmentLevel": "LEVEL_2",
+    "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -3208,7 +3208,7 @@
     "options": [
       {
         "id": "option-1",
-        "label": "vuông góc"
+        "label": "cắt nhau nhưng không vuông góc"
       },
       {
         "id": "option-2",
@@ -3216,11 +3216,11 @@
       },
       {
         "id": "option-3",
-        "label": "cắt nhau nhưng không vuông góc"
+        "label": "Cần tính lại 3"
       },
       {
         "id": "option-4",
-        "label": "Cần tính lại 3"
+        "label": "vuông góc"
       }
     ],
     "expectedAnswer": {
@@ -3267,7 +3267,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-21f53c660c01d453",
+    "id": "g4-parallel-perpendicular-c1891da938a35d08",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t4",
     "fingerprint": "38c40a8daa2997273f29f8ea34430ace",
@@ -3338,7 +3338,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-12798a51b536d2fc",
+    "id": "g4-parallel-perpendicular-bd084e39d3fe51c0",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t5",
     "fingerprint": "7e9d00c3e9a6fc2a1c7c0288bd5b4da2",
@@ -3411,7 +3411,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-db79e68052cce81a",
+    "id": "g4-parallel-perpendicular-5206cf20973469fa",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t1",
     "fingerprint": "be5bc688a4240faca1ad7d6d177861df",
@@ -3484,7 +3484,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-41293a026a927a74",
+    "id": "g4-parallel-perpendicular-2692366477e4c66f",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t2",
     "fingerprint": "a6da811aa73811ebec81fada6206fc4d",
@@ -3557,10 +3557,10 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-7a53e5eba0b6896a",
+    "id": "g4-parallel-perpendicular-160d2d754b615c70",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t3",
-    "fingerprint": "fdcf647be244cc3bc7d52e7c3b4b0d6d",
+    "fingerprint": "2133b99a671b87523fcab7eeb7d3a8c3",
     "generatorParams": {
       "relation": "song song",
       "rotationDegrees": 91,
@@ -3595,16 +3595,16 @@
       },
       {
         "id": "option-3",
-        "label": "cắt nhau nhưng không vuông góc"
+        "label": "song song"
       },
       {
         "id": "option-4",
-        "label": "song song"
+        "label": "cắt nhau nhưng không vuông góc"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-4"
+      "optionId": "option-3"
     },
     "solutionSteps": [
       {
@@ -3646,7 +3646,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-a3a67617fdd2dbbc",
+    "id": "g4-parallel-perpendicular-9b913fa60773c83d",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t4",
     "fingerprint": "cd1b5f54c518815267b4ac6145fea3ec",
@@ -3662,7 +3662,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "TRUE_FALSE",
     "difficulty": "MEDIUM",
-    "assessmentLevel": "LEVEL_2",
+    "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau? Bạn An cho rằng đáp án là vuông góc. Bạn An nói đúng hay sai?",
@@ -3717,7 +3717,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-72d0353c909e1498",
+    "id": "g4-parallel-perpendicular-9e77c9a479a11f36",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t5",
     "fingerprint": "5a09172288a79164f3a9b1480bec97ca",
@@ -3733,7 +3733,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "WRITTEN_SOLUTION",
     "difficulty": "MEDIUM",
-    "assessmentLevel": "LEVEL_2",
+    "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -3790,7 +3790,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-ebeb50552dd390b9",
+    "id": "g4-parallel-perpendicular-720c2cdace9f13d3",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t1",
     "fingerprint": "4dfcca3b9e74161203d8078db10fe13b",
@@ -3806,7 +3806,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "SHORT_ANSWER",
     "difficulty": "MEDIUM",
-    "assessmentLevel": "LEVEL_2",
+    "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -3863,7 +3863,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-a08cac025e5a86a2",
+    "id": "g4-parallel-perpendicular-485b4a6001725fe3",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t2",
     "fingerprint": "dc60a39c5c2ccf0569dc1ef6b3a9550f",
@@ -3879,7 +3879,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "FILL_BLANK",
     "difficulty": "MEDIUM",
-    "assessmentLevel": "LEVEL_2",
+    "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -3936,10 +3936,10 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-b838678b475729bb",
+    "id": "g4-parallel-perpendicular-aadd4bb8992d80fc",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t3",
-    "fingerprint": "6a8a6e3d567aba767472d2be5378de3a",
+    "fingerprint": "e59fd2120911b3e3f6db809878063d0f",
     "generatorParams": {
       "relation": "song song",
       "rotationDegrees": 100,
@@ -3952,7 +3952,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "MULTIPLE_CHOICE",
     "difficulty": "MEDIUM",
-    "assessmentLevel": "LEVEL_2",
+    "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -3966,11 +3966,11 @@
     "options": [
       {
         "id": "option-1",
-        "label": "vuông góc"
+        "label": "song song"
       },
       {
         "id": "option-2",
-        "label": "song song"
+        "label": "vuông góc"
       },
       {
         "id": "option-3",
@@ -3983,7 +3983,7 @@
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-2"
+      "optionId": "option-1"
     },
     "solutionSteps": [
       {
@@ -4025,7 +4025,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-c472831d6b7ce10c",
+    "id": "g4-parallel-perpendicular-60f94c0270455f83",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t4",
     "fingerprint": "b36c806df3bb8e5827895ac6bca65094",
@@ -4096,7 +4096,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-73efe2f39232bfbf",
+    "id": "g4-parallel-perpendicular-61b9d5901e741ff5",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t5",
     "fingerprint": "0c332285cfab34245d56e9eef62795eb",
@@ -4169,7 +4169,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-a7b350dc1fcfd3ef",
+    "id": "g4-parallel-perpendicular-6a85d4aa6568244b",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t1",
     "fingerprint": "b3a84f96823614f5175893be8959d9e4",
@@ -4242,7 +4242,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-058e18158ac7a396",
+    "id": "g4-parallel-perpendicular-3f4cbc371b929cae",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t2",
     "fingerprint": "6b4a4a697eabd82ec4a4813ac258aae3",
@@ -4315,10 +4315,10 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-b0e1f8753b16ee48",
+    "id": "g4-parallel-perpendicular-4ac6df165ba3318a",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t3",
-    "fingerprint": "18f58ccd4069832c9d76d3a6a507e667",
+    "fingerprint": "2cfe6483dd8a987e9c0e5249e737f39a",
     "generatorParams": {
       "relation": "song song",
       "rotationDegrees": 109,
@@ -4345,15 +4345,15 @@
     "options": [
       {
         "id": "option-1",
-        "label": "Cần tính lại 3"
-      },
-      {
-        "id": "option-2",
         "label": "vuông góc"
       },
       {
-        "id": "option-3",
+        "id": "option-2",
         "label": "song song"
+      },
+      {
+        "id": "option-3",
+        "label": "Cần tính lại 3"
       },
       {
         "id": "option-4",
@@ -4362,7 +4362,7 @@
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-3"
+      "optionId": "option-2"
     },
     "solutionSteps": [
       {
@@ -4404,7 +4404,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-df49bbdc09c07a49",
+    "id": "g4-parallel-perpendicular-0f10f1e1bd9f7ab1",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t4",
     "fingerprint": "a3cdc5239963099af9ee3a8db1535a97",
@@ -4420,7 +4420,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "TRUE_FALSE",
     "difficulty": "MEDIUM",
-    "assessmentLevel": "LEVEL_2",
+    "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau? Bạn An cho rằng đáp án là vuông góc. Bạn An nói đúng hay sai?",
@@ -4475,7 +4475,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-6ccf55ec211e3bd7",
+    "id": "g4-parallel-perpendicular-06ddc3253e5a091a",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t5",
     "fingerprint": "69fffb9b808e7422e2e452964cbadd09",
@@ -4491,7 +4491,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "WRITTEN_SOLUTION",
     "difficulty": "MEDIUM",
-    "assessmentLevel": "LEVEL_2",
+    "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -4548,7 +4548,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-e374a9d465470267",
+    "id": "g4-parallel-perpendicular-84bdf1351a9f0253",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t1",
     "fingerprint": "4310f311a059ece24795bef254203f60",
@@ -4564,7 +4564,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "SHORT_ANSWER",
     "difficulty": "MEDIUM",
-    "assessmentLevel": "LEVEL_2",
+    "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -4621,7 +4621,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-8ef3b8e374fd7b39",
+    "id": "g4-parallel-perpendicular-d45d1872099f4d81",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t2",
     "fingerprint": "3e42decfd346f723339cfb522efc39e8",
@@ -4637,7 +4637,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "FILL_BLANK",
     "difficulty": "MEDIUM",
-    "assessmentLevel": "LEVEL_2",
+    "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -4694,10 +4694,10 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-96e94225079f9d89",
+    "id": "g4-parallel-perpendicular-b213bc64dfda0ccf",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t3",
-    "fingerprint": "643b6f0276bd96eb9fd8b202e553f12f",
+    "fingerprint": "6876ea1f427f55ab7ce6b78afe17a275",
     "generatorParams": {
       "relation": "song song",
       "rotationDegrees": 118,
@@ -4710,7 +4710,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "MULTIPLE_CHOICE",
     "difficulty": "MEDIUM",
-    "assessmentLevel": "LEVEL_2",
+    "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -4724,24 +4724,24 @@
     "options": [
       {
         "id": "option-1",
-        "label": "Cần tính lại 3"
+        "label": "song song"
       },
       {
         "id": "option-2",
-        "label": "cắt nhau nhưng không vuông góc"
-      },
-      {
-        "id": "option-3",
         "label": "vuông góc"
       },
       {
+        "id": "option-3",
+        "label": "Cần tính lại 3"
+      },
+      {
         "id": "option-4",
-        "label": "song song"
+        "label": "cắt nhau nhưng không vuông góc"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-4"
+      "optionId": "option-1"
     },
     "solutionSteps": [
       {
@@ -4783,7 +4783,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-ecfdeeba96ecc076",
+    "id": "g4-parallel-perpendicular-bd8828aa4612aff7",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t4",
     "fingerprint": "31f3be4b72526d1901acb6d361a0b79d",
@@ -4854,7 +4854,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-9f54874014f75922",
+    "id": "g4-parallel-perpendicular-068b0b2c810f680b",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t5",
     "fingerprint": "ef67cc0f74e785ab6de1469b14458292",
@@ -4927,7 +4927,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-cb6d8d51e43f5d72",
+    "id": "g4-parallel-perpendicular-90b6a04d3c5c81cb",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t1",
     "fingerprint": "9028027dcc59b2cc031ac6895d509a8e",
@@ -5000,7 +5000,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-827307b58c8b9d36",
+    "id": "g4-parallel-perpendicular-5e2e7af846fd939f",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t2",
     "fingerprint": "c6dd019f2737da418180cec0afdb2ddd",
@@ -5073,10 +5073,10 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-ba85eca1701868a0",
+    "id": "g4-parallel-perpendicular-0c78c3946b285d92",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t3",
-    "fingerprint": "08ac99ee089f5768e51375ce7c8393db",
+    "fingerprint": "cefec8221536424bc2a60607fa73d1b5",
     "generatorParams": {
       "relation": "song song",
       "rotationDegrees": 127,
@@ -5103,24 +5103,24 @@
     "options": [
       {
         "id": "option-1",
-        "label": "song song"
-      },
-      {
-        "id": "option-2",
-        "label": "Cần tính lại 3"
-      },
-      {
-        "id": "option-3",
         "label": "cắt nhau nhưng không vuông góc"
       },
       {
-        "id": "option-4",
+        "id": "option-2",
         "label": "vuông góc"
+      },
+      {
+        "id": "option-3",
+        "label": "Cần tính lại 3"
+      },
+      {
+        "id": "option-4",
+        "label": "song song"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-1"
+      "optionId": "option-4"
     },
     "solutionSteps": [
       {
@@ -5162,7 +5162,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-0b8944adfae62889",
+    "id": "g4-parallel-perpendicular-54d53792524187a0",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t4",
     "fingerprint": "cc4988adba403f09b435366292fcfa2f",
@@ -5178,7 +5178,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "TRUE_FALSE",
     "difficulty": "MEDIUM",
-    "assessmentLevel": "LEVEL_2",
+    "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau? Bạn An cho rằng đáp án là vuông góc. Bạn An nói đúng hay sai?",
@@ -5233,7 +5233,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-3b7f456b7563d7ea",
+    "id": "g4-parallel-perpendicular-fb958bdbcebaeb07",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t5",
     "fingerprint": "518fbff1372d619fa6f3e44a19d2fb08",
@@ -5249,7 +5249,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "WRITTEN_SOLUTION",
     "difficulty": "MEDIUM",
-    "assessmentLevel": "LEVEL_2",
+    "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -5306,7 +5306,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-8990d51a1053a477",
+    "id": "g4-parallel-perpendicular-0667cfa968010fc2",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t1",
     "fingerprint": "2441e7b710fcb4c99325b179c2050b61",
@@ -5322,7 +5322,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "SHORT_ANSWER",
     "difficulty": "MEDIUM",
-    "assessmentLevel": "LEVEL_2",
+    "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -5379,7 +5379,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-421ac832831fe377",
+    "id": "g4-parallel-perpendicular-a50821a66c12cd55",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t2",
     "fingerprint": "0e599c406b769e3928531ee7fc3da258",
@@ -5395,7 +5395,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "FILL_BLANK",
     "difficulty": "MEDIUM",
-    "assessmentLevel": "LEVEL_2",
+    "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -5452,10 +5452,10 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-c545b5206f2199de",
+    "id": "g4-parallel-perpendicular-3bffd7e9d9e6a62d",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t3",
-    "fingerprint": "ab504a4664566e6735baf24749b7c211",
+    "fingerprint": "dca2db503d70fcc575d4b7c17784a36e",
     "generatorParams": {
       "relation": "song song",
       "rotationDegrees": 136,
@@ -5468,7 +5468,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "MULTIPLE_CHOICE",
     "difficulty": "MEDIUM",
-    "assessmentLevel": "LEVEL_2",
+    "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -5482,24 +5482,24 @@
     "options": [
       {
         "id": "option-1",
-        "label": "Cần tính lại 3"
+        "label": "song song"
       },
       {
         "id": "option-2",
-        "label": "vuông góc"
+        "label": "Cần tính lại 3"
       },
       {
         "id": "option-3",
-        "label": "cắt nhau nhưng không vuông góc"
+        "label": "vuông góc"
       },
       {
         "id": "option-4",
-        "label": "song song"
+        "label": "cắt nhau nhưng không vuông góc"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-4"
+      "optionId": "option-1"
     },
     "solutionSteps": [
       {
@@ -5541,7 +5541,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-a8b2e562af93ccbb",
+    "id": "g4-parallel-perpendicular-04ef795a751b9e22",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t4",
     "fingerprint": "23e2b2969d3695fc396baed99dc4ed70",
@@ -5612,7 +5612,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-6d7931acf1134b42",
+    "id": "g4-parallel-perpendicular-dd76535eb571559d",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t5",
     "fingerprint": "0efd56bfb4e03ce29188171246e8293b",
@@ -5685,7 +5685,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-bedf3e0f81f13304",
+    "id": "g4-parallel-perpendicular-9a874c1befca220a",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t1",
     "fingerprint": "2951de7410a4ee1fb15d8f3324e5ee57",
@@ -5758,7 +5758,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-0f403cde7fdb3f09",
+    "id": "g4-parallel-perpendicular-cd50b527fbf093a6",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t2",
     "fingerprint": "56a2d1784e22ac32acb1a2a0580fcecf",
@@ -5831,10 +5831,10 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-7cbf5e9b246178a0",
+    "id": "g4-parallel-perpendicular-1e062ab887fe1e32",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t3",
-    "fingerprint": "88e65fdddf34789cd5521097c951faa8",
+    "fingerprint": "a2f7f31fc3a220fb8570017195610705",
     "generatorParams": {
       "relation": "song song",
       "rotationDegrees": 145,
@@ -5865,11 +5865,11 @@
       },
       {
         "id": "option-2",
-        "label": "cắt nhau nhưng không vuông góc"
+        "label": "vuông góc"
       },
       {
         "id": "option-3",
-        "label": "vuông góc"
+        "label": "cắt nhau nhưng không vuông góc"
       },
       {
         "id": "option-4",
@@ -5920,7 +5920,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-b26669d3f0715659",
+    "id": "g4-parallel-perpendicular-c020d97399549d04",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t4",
     "fingerprint": "831c9a317b114ef8fc31f91bb5a6465a",
@@ -5936,7 +5936,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "TRUE_FALSE",
     "difficulty": "MEDIUM",
-    "assessmentLevel": "LEVEL_2",
+    "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau? Bạn An cho rằng đáp án là vuông góc. Bạn An nói đúng hay sai?",
@@ -5991,7 +5991,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-5a4efdc2034cd633",
+    "id": "g4-parallel-perpendicular-f02947ecb28dbe9b",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t5",
     "fingerprint": "4f7bef0aabc5afe1b19d0206a7e6ae2a",
@@ -6007,7 +6007,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "WRITTEN_SOLUTION",
     "difficulty": "MEDIUM",
-    "assessmentLevel": "LEVEL_2",
+    "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -6064,7 +6064,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-4365dff367809737",
+    "id": "g4-parallel-perpendicular-9ea9dc6f9b854d43",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t1",
     "fingerprint": "8179b7e77eb8e364789f401463b686a3",
@@ -6080,7 +6080,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "SHORT_ANSWER",
     "difficulty": "HARD",
-    "assessmentLevel": "LEVEL_3",
+    "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -6137,7 +6137,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-a0fe0bf467488a45",
+    "id": "g4-parallel-perpendicular-8a3004dc1ec07ffb",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t2",
     "fingerprint": "c632189c9ad75f721ce8b4992939446c",
@@ -6153,7 +6153,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "FILL_BLANK",
     "difficulty": "HARD",
-    "assessmentLevel": "LEVEL_3",
+    "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -6210,10 +6210,10 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-29ddd8ad588abf93",
+    "id": "g4-parallel-perpendicular-537c8c5762fe1f83",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t3",
-    "fingerprint": "5ce1d01f37a844c91710894efae3b529",
+    "fingerprint": "e577e6f8ea30329b3de94bf2bfaac56f",
     "generatorParams": {
       "relation": "song song",
       "rotationDegrees": 154,
@@ -6226,7 +6226,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "MULTIPLE_CHOICE",
     "difficulty": "HARD",
-    "assessmentLevel": "LEVEL_3",
+    "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -6240,24 +6240,24 @@
     "options": [
       {
         "id": "option-1",
-        "label": "vuông góc"
-      },
-      {
-        "id": "option-2",
-        "label": "song song"
-      },
-      {
-        "id": "option-3",
         "label": "Cần tính lại 3"
       },
       {
-        "id": "option-4",
+        "id": "option-2",
         "label": "cắt nhau nhưng không vuông góc"
+      },
+      {
+        "id": "option-3",
+        "label": "vuông góc"
+      },
+      {
+        "id": "option-4",
+        "label": "song song"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-2"
+      "optionId": "option-4"
     },
     "solutionSteps": [
       {
@@ -6299,7 +6299,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-807b529326ec08ce",
+    "id": "g4-parallel-perpendicular-e26f969f06236193",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t4",
     "fingerprint": "068f3478a15ae86e4cd1cc69911db192",
@@ -6315,7 +6315,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "TRUE_FALSE",
     "difficulty": "HARD",
-    "assessmentLevel": "LEVEL_3",
+    "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau? Bạn An cho rằng đáp án là song song. Bạn An nói đúng hay sai?",
@@ -6370,7 +6370,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-0a5835f4e67e6a6a",
+    "id": "g4-parallel-perpendicular-fc445f2852ef78dc",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t5",
     "fingerprint": "884ce23cb9fe22efcffa7f80ea3559e9",
@@ -6386,7 +6386,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "WRITTEN_SOLUTION",
     "difficulty": "HARD",
-    "assessmentLevel": "LEVEL_3",
+    "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -6443,7 +6443,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-31a5b43400a47244",
+    "id": "g4-parallel-perpendicular-0450205ad72b6ca9",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t1",
     "fingerprint": "4495c1065745135893005acfc66a6126",
@@ -6459,7 +6459,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "SHORT_ANSWER",
     "difficulty": "HARD",
-    "assessmentLevel": "LEVEL_3",
+    "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -6516,7 +6516,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-ebc0f7346d3d69f1",
+    "id": "g4-parallel-perpendicular-7dbc5fd2ed9907b2",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t2",
     "fingerprint": "8f0c25fbe1af16f7b77f4e425c1ae0ba",
@@ -6532,7 +6532,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "FILL_BLANK",
     "difficulty": "HARD",
-    "assessmentLevel": "LEVEL_3",
+    "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -6589,10 +6589,10 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-e90c9a57d22ba738",
+    "id": "g4-parallel-perpendicular-29bfc7971e8a90c0",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t3",
-    "fingerprint": "08a3d3d1983d4ead7b8c2bad18cfca6f",
+    "fingerprint": "246bd22fc6ffbb36ac495711bc59c461",
     "generatorParams": {
       "relation": "song song",
       "rotationDegrees": 163,
@@ -6605,7 +6605,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "MULTIPLE_CHOICE",
     "difficulty": "HARD",
-    "assessmentLevel": "LEVEL_3",
+    "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -6623,11 +6623,11 @@
       },
       {
         "id": "option-2",
-        "label": "song song"
+        "label": "cắt nhau nhưng không vuông góc"
       },
       {
         "id": "option-3",
-        "label": "cắt nhau nhưng không vuông góc"
+        "label": "song song"
       },
       {
         "id": "option-4",
@@ -6636,7 +6636,7 @@
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-2"
+      "optionId": "option-3"
     },
     "solutionSteps": [
       {
@@ -6678,7 +6678,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-76f2b0724f24acb7",
+    "id": "g4-parallel-perpendicular-7183c6914072fbc5",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t4",
     "fingerprint": "62ed556f52a4932b6ff261c690b90df7",
@@ -6749,7 +6749,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-f6168d756dd2c57c",
+    "id": "g4-parallel-perpendicular-175dd933a456aabf",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t5",
     "fingerprint": "0045591733f68695266b303fdc57951d",
@@ -6822,7 +6822,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-23b78e5f98e97c57",
+    "id": "g4-parallel-perpendicular-6ba80f7ee9841642",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t1",
     "fingerprint": "2495de1aa28cec2281a8e4468b9084df",
@@ -6838,7 +6838,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "SHORT_ANSWER",
     "difficulty": "HARD",
-    "assessmentLevel": "LEVEL_3",
+    "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -6895,7 +6895,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-a961de98e79eb1d2",
+    "id": "g4-parallel-perpendicular-3c35d60e187afbcf",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t2",
     "fingerprint": "1f0c9d4d6611fbd37609d1be136db2ed",
@@ -6911,7 +6911,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "FILL_BLANK",
     "difficulty": "HARD",
-    "assessmentLevel": "LEVEL_3",
+    "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -6968,10 +6968,10 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-ca54bfde83e978c5",
+    "id": "g4-parallel-perpendicular-cb37fa512f688cd5",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t3",
-    "fingerprint": "8990e35cb52bf786a1eb63f6a22e58da",
+    "fingerprint": "d9545cf4d608eed56e55bac44ef1ff67",
     "generatorParams": {
       "relation": "song song",
       "rotationDegrees": 172,
@@ -6984,7 +6984,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "MULTIPLE_CHOICE",
     "difficulty": "HARD",
-    "assessmentLevel": "LEVEL_3",
+    "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -6998,7 +6998,7 @@
     "options": [
       {
         "id": "option-1",
-        "label": "cắt nhau nhưng không vuông góc"
+        "label": "vuông góc"
       },
       {
         "id": "option-2",
@@ -7006,11 +7006,11 @@
       },
       {
         "id": "option-3",
-        "label": "Cần tính lại 3"
+        "label": "cắt nhau nhưng không vuông góc"
       },
       {
         "id": "option-4",
-        "label": "vuông góc"
+        "label": "Cần tính lại 3"
       }
     ],
     "expectedAnswer": {
@@ -7057,7 +7057,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-bf5c467e83332bf7",
+    "id": "g4-parallel-perpendicular-522a082e19f6cdd1",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t4",
     "fingerprint": "91e527b5db5b9d92ad76d9d936b43e18",
@@ -7073,7 +7073,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "TRUE_FALSE",
     "difficulty": "HARD",
-    "assessmentLevel": "LEVEL_3",
+    "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau? Bạn An cho rằng đáp án là song song. Bạn An nói đúng hay sai?",
@@ -7128,7 +7128,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-5e9f1aed60a36001",
+    "id": "g4-parallel-perpendicular-112a80b8d2300207",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t5",
     "fingerprint": "f98985c4dc802873609358ff36943855",
@@ -7144,7 +7144,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "WRITTEN_SOLUTION",
     "difficulty": "HARD",
-    "assessmentLevel": "LEVEL_3",
+    "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -7201,7 +7201,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-65bb65b6955da12d",
+    "id": "g4-parallel-perpendicular-d8745bf61f126ce8",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t1",
     "fingerprint": "7c7a5395ee59baef0c0c77ed80b64e9f",
@@ -7217,7 +7217,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "SHORT_ANSWER",
     "difficulty": "HARD",
-    "assessmentLevel": "LEVEL_3",
+    "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -7274,7 +7274,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-8fdbad239889dadb",
+    "id": "g4-parallel-perpendicular-2573d3850da8c74f",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t2",
     "fingerprint": "c33d756fc12f29ee103b983945c61590",
@@ -7290,7 +7290,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "FILL_BLANK",
     "difficulty": "HARD",
-    "assessmentLevel": "LEVEL_3",
+    "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -7347,10 +7347,10 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-65d991bfb08298bd",
+    "id": "g4-parallel-perpendicular-2191efa5700495e8",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t3",
-    "fingerprint": "2ee892ca7cdf9c1184778dccbd66eaec",
+    "fingerprint": "cb2606f439d4f23037339fe8cc2bd4ff",
     "generatorParams": {
       "relation": "song song",
       "rotationDegrees": 1,
@@ -7363,7 +7363,7 @@
     "problemTypeId": "parallel-perpendicular",
     "format": "MULTIPLE_CHOICE",
     "difficulty": "HARD",
-    "assessmentLevel": "LEVEL_3",
+    "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
     "stem": "Quan sát hai đường thẳng trong hình. Chúng song song hay vuông góc với nhau?",
@@ -7377,11 +7377,11 @@
     "options": [
       {
         "id": "option-1",
-        "label": "cắt nhau nhưng không vuông góc"
+        "label": "song song"
       },
       {
         "id": "option-2",
-        "label": "Cần tính lại 3"
+        "label": "cắt nhau nhưng không vuông góc"
       },
       {
         "id": "option-3",
@@ -7389,12 +7389,12 @@
       },
       {
         "id": "option-4",
-        "label": "song song"
+        "label": "Cần tính lại 3"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-4"
+      "optionId": "option-1"
     },
     "solutionSteps": [
       {
@@ -7436,7 +7436,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-f3b01a85b56e8ece",
+    "id": "g4-parallel-perpendicular-c50620d26b5415dc",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t4",
     "fingerprint": "e4d05cf71bb6bec5f8191b5155a55b61",
@@ -7507,7 +7507,7 @@
     "version": 2
   },
   {
-    "id": "g4-parallel-perpendicular-6a2b6c8c239ca33a",
+    "id": "g4-parallel-perpendicular-b66b90337fca0ee4",
     "contentVersion": "grade4-v3",
     "templateId": "parallel-perpendicular-t5",
     "fingerprint": "3cfdfe11945bbc08bf0b4686b2f9a5ed",

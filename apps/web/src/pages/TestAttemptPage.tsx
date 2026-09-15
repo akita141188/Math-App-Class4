@@ -11,13 +11,16 @@ import {
   Trophy,
 } from 'lucide-react';
 import type { CSSProperties } from 'react';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { getTestAttempt, submitTestAttempt, updateTestAnswer } from '../api/client';
 import { Button } from '../components/Button';
 import { PageContainer } from '../components/PageContainer';
 import { ProgressIndicator } from '../components/ProgressIndicator';
+import { QuestionNavigator } from '../components/QuestionNavigator';
 import { localLearningHistoryRepository } from '../features/progress/learningHistoryRepository';
+import { inProgressSessionRepository } from '../features/progress/inProgressSessionRepository';
+import { useSessionExitGuard } from '../hooks/useSessionExitGuard';
 import { AnswerInput } from '../features/question/AnswerInput';
 import { QuestionVisualRendererV2 } from '../features/question/QuestionVisualRendererV2';
 
@@ -52,21 +55,40 @@ export function TestAttemptPage({ reviewMode = false }: { reviewMode?: boolean }
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<string, StudentAnswer>>({});
   const [clockNow, setClockNow] = useState(() => Date.now());
+  const restoredDraftRef = useRef(false);
+
   useEffect(() => {
-    if (query.data) setAnswers(query.data.answers);
+    if (!query.data) return;
+
+    const draft = inProgressSessionRepository.get(query.data.id);
+    if (draft?.sessionType === 'TEST' && !restoredDraftRef.current) {
+      setAnswers({ ...query.data.answers, ...draft.answers });
+      setCurrentIndex(Math.min(draft.currentIndex, Math.max(0, query.data.questions.length - 1)));
+      restoredDraftRef.current = true;
+    } else {
+      setAnswers(query.data.answers);
+    }
+
+    if (query.data.status === 'SUBMITTED') {
+      inProgressSessionRepository.remove(query.data.id);
+    }
   }, [query.data]);
+
   useEffect(() => {
     if (reviewMode) setCurrentIndex(0);
   }, [reviewMode]);
+
   useEffect(() => {
     if (query.data?.status !== 'IN_PROGRESS') return undefined;
     const interval = window.setInterval(() => setClockNow(Date.now()), 1000);
     return () => window.clearInterval(interval);
   }, [query.data?.status]);
+
   const update = useMutation({
     mutationFn: ({ questionId, answer }: { questionId: string; answer: StudentAnswer }) =>
       updateTestAnswer(attemptId, questionId, answer),
   });
+
   const submit = useMutation({
     mutationFn: () => submitTestAttempt(attemptId, answers),
     onSuccess: (attempt) => {
@@ -110,11 +132,41 @@ export function TestAttemptPage({ reviewMode = false }: { reviewMode?: boolean }
         }),
       };
       localLearningHistoryRepository.save(record);
+      inProgressSessionRepository.remove(attempt.id);
       void query.refetch();
     },
   });
 
   const attempt = submit.data ?? query.data;
+  const draftAnsweredCount = attempt
+    ? attempt.questions.filter((item) => answered(answers[item.id])).length
+    : 0;
+
+  const persistDraft = () => {
+    if (!attempt || reviewMode || attempt.status !== 'IN_PROGRESS') return;
+
+    inProgressSessionRepository.save({
+      id: attempt.id,
+      sessionType: 'TEST',
+      title: attempt.title,
+      startedAt: attempt.startedAt,
+      savedAt: new Date().toISOString(),
+      resumePath: `/tests/attempt/${encodeURIComponent(attempt.id)}`,
+      currentIndex,
+      totalQuestions: attempt.questions.length,
+      answeredCount: draftAnsweredCount,
+      testBlueprintId: attempt.blueprintId,
+      answers,
+    });
+  };
+
+  useSessionExitGuard({
+    enabled: Boolean(attempt && !reviewMode && attempt.status === 'IN_PROGRESS'),
+    message:
+      'Em đang làm dở bài kiểm tra. Nếu thoát, bài sẽ được lưu vào Lịch sử để em có thể làm tiếp sau. Thoát bây giờ?',
+    onConfirmedExit: persistDraft,
+  });
+
   if (query.isLoading)
     return (
       <PageContainer>
@@ -123,6 +175,7 @@ export function TestAttemptPage({ reviewMode = false }: { reviewMode?: boolean }
         </div>
       </PageContainer>
     );
+
   if (!attempt)
     return (
       <PageContainer>
@@ -197,12 +250,14 @@ export function TestAttemptPage({ reviewMode = false }: { reviewMode?: boolean }
     (item) => item.questionId === question.id,
   );
   const unansweredCount = attempt.questions.filter((item) => !answered(answers[item.id])).length;
+  const answeredCount = attempt.questions.length - unansweredCount;
   const elapsedSeconds =
     attempt.status === 'SUBMITTED'
       ? (attempt.result?.durationSeconds ?? 0)
       : Math.max(0, Math.floor((clockNow - Date.parse(attempt.startedAt)) / 1000));
+
   return (
-    <PageContainer className={'test-attempt-page'}>
+    <PageContainer className={'test-attempt-page session-viewport-page'}>
       <div className={'session-topline'}>
         <Link className={'back-link'} to={attempt.status === 'SUBMITTED' ? '/history' : '/tests'}>
           <ArrowLeft size={18} /> Kết thúc
@@ -214,21 +269,21 @@ export function TestAttemptPage({ reviewMode = false }: { reviewMode?: boolean }
         />
         <span className={'test-elapsed'}>Đã làm {formatElapsed(elapsedSeconds)}</span>
       </div>
-      <div className={'test-layout'}>
-        <nav className={'question-palette'} aria-label={'Danh sách câu hỏi'}>
-          {attempt.questions.map((item, index) => (
-            <button
-              key={item.id}
-              type={'button'}
-              onClick={() => setCurrentIndex(index)}
-              className={`${index === currentIndex ? 'current' : ''} ${answered(answers[item.id]) ? 'answered' : 'unanswered'}`}
-              aria-label={`Câu ${index + 1}${answered(answers[item.id]) ? ' đã trả lời' : ' chưa trả lời'}`}
-            >
-              {index + 1}
-            </button>
-          ))}
-        </nav>
-        <article className={'question-workspace test-workspace'}>
+
+      <div className={'test-layout session-three-column'}>
+        <QuestionNavigator
+          ariaLabel={'Danh sách câu hỏi kiểm tra'}
+          currentIndex={currentIndex}
+          total={attempt.questions.length}
+          summary={`${answeredCount}/${attempt.questions.length} đã trả lời`}
+          disabled={update.isPending || submit.isPending}
+          stateForIndex={(index) =>
+            answered(answers[attempt.questions[index]?.id ?? '']) ? 'done' : 'unanswered'
+          }
+          onSelect={setCurrentIndex}
+        />
+
+        <article className={'question-workspace test-workspace session-question-workspace'}>
           <span className={'page-kicker'}>Câu {currentIndex + 1}</span>
           <h1>{question.stem}</h1>
           {question.visual && <QuestionVisualRendererV2 visual={question.visual} />}
@@ -241,6 +296,7 @@ export function TestAttemptPage({ reviewMode = false }: { reviewMode?: boolean }
               update.mutate({ questionId: question.id, answer });
             }}
           />
+
           {attempt.status === 'SUBMITTED' && reviewResult && (
             <aside
               className={reviewResult.correct ? 'review-feedback correct' : 'review-feedback wrong'}
@@ -252,6 +308,7 @@ export function TestAttemptPage({ reviewMode = false }: { reviewMode?: boolean }
               <p>{reviewResult.explanation}</p>
             </aside>
           )}
+
           <div className={'practice-actions'}>
             <Button
               variant={'quiet'}
@@ -276,48 +333,51 @@ export function TestAttemptPage({ reviewMode = false }: { reviewMode?: boolean }
               </Button>
             ) : null}
           </div>
+
           {attempt.status === 'IN_PROGRESS' && (
             <p className={'unanswered-note'}>
-              Còn {unansweredCount} câu chưa trả lời. Đáp án chỉ được chấm sau khi nộp bài.
+              Còn {unansweredCount} câu chưa trả lời. Có thể chuyển câu bằng menu bên trái; đáp án
+              chỉ được chấm sau khi nộp bài.
             </p>
           )}
         </article>
+
         <aside
           className={'practice-companion test-attempt-companion'}
           aria-label={'Tiến trình bài kiểm tra'}
         >
           <div className={'companion-heading'}>
             <Trophy size={22} />
-            <strong>Tiến trình bài tập</strong>
+            <strong>Tiến trình bài kiểm tra</strong>
           </div>
           <div
             className={'companion-progress-ring'}
             style={
               {
-                '--companion-progress': `${Math.round(((currentIndex + 1) / attempt.questions.length) * 100)}%`,
+                '--companion-progress': `${Math.round((answeredCount / attempt.questions.length) * 100)}%`,
               } as CSSProperties
             }
           >
-            <strong>{currentIndex + 1}</strong>
+            <strong>{answeredCount}</strong>
             <span>/ {attempt.questions.length}</span>
           </div>
           <div className={'companion-card'}>
             <Flame size={24} />
             <div>
-              <strong>{attempt.questions.length - unansweredCount}</strong>
+              <strong>{answeredCount}</strong>
               <span>Câu đã trả lời</span>
             </div>
           </div>
           <div className={'companion-card companion-topic'}>
             <BookOpen size={24} />
             <div>
-              <span>Dạng bài hôm nay</span>
+              <span>Chủ đề câu hiện tại</span>
               <strong>{question.topicId.replaceAll('-', ' ')}</strong>
             </div>
           </div>
           <div className={'companion-encouragement'}>
             <Star size={22} />
-            <strong>Bình tĩnh và làm thật tốt nhé!</strong>
+            <strong>Có thể chọn câu bất kỳ ở menu bên trái.</strong>
           </div>
           <img
             className={'practice-companion-art'}

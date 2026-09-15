@@ -1,4 +1,4 @@
-﻿import { questionBank } from '../content/question-bank.v2.data';
+import { questionBank } from '../content/question-bank.v2.data';
 import { simulateRotation } from './randomization-simulation';
 
 describe('practice randomization simulation', () => {
@@ -20,7 +20,7 @@ describe('practice randomization simulation', () => {
       immediateRepeats += result.immediateRepeatIncidents;
       expect(result.uniqueQuestionsReached).toBe(100);
     }
-    expect(simulations).toBe(1280);
+    expect(simulations).toBe(leafIds.length * 20);
     expect(duplicateIds).toBe(0);
     expect(duplicateFingerprints).toBe(0);
     expect(immediateRepeats).toBe(0);

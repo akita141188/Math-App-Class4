@@ -55,102 +55,104 @@ export function TestsPage() {
         <img src={'/assets/redesign/test-hero.webp'} alt={''} aria-hidden={'true'} />
       </section>
 
-      <div className={'section-heading redesign-section-heading test-list-heading'}>
-        <div>
-          <span className={'section-number'}>
-            <ClipboardCheck size={17} />
-          </span>
-          <h2>Danh sách bài kiểm tra</h2>
+      <div className={'viewport-scroll-panel tests-scroll-panel'}>
+        <div className={'section-heading redesign-section-heading test-list-heading'}>
+          <div>
+            <span className={'section-number'}>
+              <ClipboardCheck size={17} />
+            </span>
+            <h2>Danh sách bài kiểm tra</h2>
+          </div>
+          <p>Chọn một bài phù hợp để bắt đầu</p>
         </div>
-        <p>Chọn một bài phù hợp để bắt đầu</p>
+
+        {blueprints.isLoading ? (
+          <div className={'catalog-loading'}>
+            <LoaderCircle className={'spin'} /> Đang tải đề…
+          </div>
+        ) : (
+          <div className={'test-blueprint-grid redesign-test-grid'}>
+            {blueprints.data?.map((blueprint, index) => (
+              <article
+                key={blueprint.id}
+                className={`test-blueprint-card redesign-test-card test-tone-${testTones[index % testTones.length]}`}
+              >
+                <div className={'test-card-cover'} aria-hidden={'true'}>
+                  <img
+                    src={
+                      testCoverByBlueprint[blueprint.id] ??
+                      `/assets/redesign/test-cover-${testTones[index % testTones.length]}.webp`
+                    }
+                    alt={''}
+                  />
+                  <span>{blueprint.title}</span>
+                </div>
+                <span className={'score-badge'}>
+                  <Trophy size={15} /> Thang điểm {blueprint.totalScore}
+                </span>
+                <h2>{blueprint.title}</h2>
+                <p>{blueprint.description}</p>
+                <div className={'test-card-meta'}>
+                  <span>
+                    <ClipboardCheck size={17} /> {blueprint.questionCount} câu
+                  </span>
+                  <span>
+                    <Clock3 size={17} />{' '}
+                    {blueprint.durationMinutes
+                      ? `${blueprint.durationMinutes} phút`
+                      : 'Không giới hạn'}
+                  </span>
+                  <span>
+                    <Layers3 size={17} /> {blueprint.topicCoverage.length} nhóm
+                  </span>
+                </div>
+                <Button onClick={() => create.mutate(blueprint.id)} disabled={create.isPending}>
+                  Bắt đầu làm bài <ArrowRight size={18} />
+                </Button>
+              </article>
+            ))}
+          </div>
+        )}
+
+        <section className={'test-rules-panel'}>
+          <div className={'rules-title'}>
+            <Sparkles size={25} />
+            <div>
+              <strong>Quy định khi làm bài kiểm tra</strong>
+              <small>Đọc kỹ để kết quả phản ánh đúng khả năng của em.</small>
+              <small className={'scoring-note'}>
+                Cách tính điểm: Mỗi câu 0,5 điểm · điểm cuối làm tròn số nguyên
+              </small>
+            </div>
+          </div>
+          <div className={'rule-item'}>
+            <span>01</span>
+            <div>
+              <strong>Không có gợi ý</strong>
+              <small>Em tự suy nghĩ và có thể đổi đáp án trước khi nộp.</small>
+            </div>
+          </div>
+          <div className={'rule-item'}>
+            <span>02</span>
+            <div>
+              <strong>Hiển thị điểm sau khi nộp</strong>
+              <small>Kết quả được chấm khi em hoàn thành toàn bộ bài.</small>
+            </div>
+          </div>
+          <div className={'rule-item'}>
+            <span>03</span>
+            <div>
+              <strong>Xem lại bài làm</strong>
+              <small>Em có thể xem lại đáp án và phần giải thích sau đó.</small>
+            </div>
+          </div>
+        </section>
+        {create.isError && (
+          <p className={'error-text'}>
+            {create.error instanceof Error ? create.error.message : 'Chưa tạo được đề.'}
+          </p>
+        )}
       </div>
-
-      {blueprints.isLoading ? (
-        <div className={'catalog-loading'}>
-          <LoaderCircle className={'spin'} /> Đang tải đề…
-        </div>
-      ) : (
-        <div className={'test-blueprint-grid redesign-test-grid'}>
-          {blueprints.data?.map((blueprint, index) => (
-            <article
-              key={blueprint.id}
-              className={`test-blueprint-card redesign-test-card test-tone-${testTones[index % testTones.length]}`}
-            >
-              <div className={'test-card-cover'} aria-hidden={'true'}>
-                <img
-                  src={
-                    testCoverByBlueprint[blueprint.id] ??
-                    `/assets/redesign/test-cover-${testTones[index % testTones.length]}.webp`
-                  }
-                  alt={''}
-                />
-                <span>{blueprint.title}</span>
-              </div>
-              <span className={'score-badge'}>
-                <Trophy size={15} /> Thang điểm {blueprint.totalScore}
-              </span>
-              <h2>{blueprint.title}</h2>
-              <p>{blueprint.description}</p>
-              <div className={'test-card-meta'}>
-                <span>
-                  <ClipboardCheck size={17} /> {blueprint.questionCount} câu
-                </span>
-                <span>
-                  <Clock3 size={17} />{' '}
-                  {blueprint.durationMinutes
-                    ? `${blueprint.durationMinutes} phút`
-                    : 'Không giới hạn'}
-                </span>
-                <span>
-                  <Layers3 size={17} /> {blueprint.topicCoverage.length} nhóm
-                </span>
-              </div>
-              <Button onClick={() => create.mutate(blueprint.id)} disabled={create.isPending}>
-                Bắt đầu làm bài <ArrowRight size={18} />
-              </Button>
-            </article>
-          ))}
-        </div>
-      )}
-
-      <section className={'test-rules-panel'}>
-        <div className={'rules-title'}>
-          <Sparkles size={25} />
-          <div>
-            <strong>Quy định khi làm bài kiểm tra</strong>
-            <small>Đọc kỹ để kết quả phản ánh đúng khả năng của em.</small>
-            <small className={'scoring-note'}>
-              Cách tính điểm: Mỗi câu 0,5 điểm · điểm cuối làm tròn số nguyên
-            </small>
-          </div>
-        </div>
-        <div className={'rule-item'}>
-          <span>01</span>
-          <div>
-            <strong>Không có gợi ý</strong>
-            <small>Em tự suy nghĩ và có thể đổi đáp án trước khi nộp.</small>
-          </div>
-        </div>
-        <div className={'rule-item'}>
-          <span>02</span>
-          <div>
-            <strong>Hiển thị điểm sau khi nộp</strong>
-            <small>Kết quả được chấm khi em hoàn thành toàn bộ bài.</small>
-          </div>
-        </div>
-        <div className={'rule-item'}>
-          <span>03</span>
-          <div>
-            <strong>Xem lại bài làm</strong>
-            <small>Em có thể xem lại đáp án và phần giải thích sau đó.</small>
-          </div>
-        </div>
-      </section>
-      {create.isError && (
-        <p className={'error-text'}>
-          {create.error instanceof Error ? create.error.message : 'Chưa tạo được đề.'}
-        </p>
-      )}
     </PageContainer>
   );
 }

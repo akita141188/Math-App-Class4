@@ -228,30 +228,15 @@ export function AnswerInput({ question, value, onChange, disabled = false }: Pro
   if (question.format === 'WRITTEN_SOLUTION') {
     const written = asRecord(value);
     return (
-      <div className={'written-answer'}>
-        <label>
-          Phép tính
-          <input
-            value={written.calculation ?? ''}
-            onChange={(event) => onChange({ ...written, calculation: event.target.value })}
-            disabled={disabled}
-          />
-        </label>
-        <label>
-          Cách em suy nghĩ
-          <textarea
-            rows={3}
-            value={written.explanation ?? ''}
-            onChange={(event) => onChange({ ...written, explanation: event.target.value })}
-            disabled={disabled}
-          />
-        </label>
+      <div className={'written-answer written-answer-final-only'}>
         <label>
           Đáp số
           <input
+            aria-label={'Đáp số'}
             value={written.final ?? ''}
-            onChange={(event) => onChange({ ...written, final: event.target.value })}
+            onChange={(event) => onChange({ final: event.target.value })}
             disabled={disabled}
+            autoComplete={'off'}
           />
         </label>
       </div>

@@ -1,22 +1,5 @@
-import {
-  ArrowLeft,
-  BookOpen,
-  BookOpenCheck,
-  ClipboardCheck,
-  Home,
-  LibraryBig,
-  ShieldCheck,
-  UserRound,
-} from 'lucide-react';
+import { ArrowLeft, BookOpenCheck, LayoutDashboard } from 'lucide-react';
 import { Link, NavLink, Outlet } from 'react-router-dom';
-
-const navigation = [
-  { to: '/', label: 'Trang chủ', icon: Home, end: true },
-  { to: '/learn', label: 'Học theo dạng', icon: LibraryBig, end: false },
-  { to: '/tests', label: 'Kiểm tra', icon: ClipboardCheck, end: false },
-  { to: '/review', label: 'Ôn tập', icon: BookOpen, end: false },
-  { to: '/me', label: 'Của em', icon: UserRound, end: false },
-];
 
 export function ParentShell() {
   return (
@@ -24,39 +7,36 @@ export function ParentShell() {
       <a className={'skip-link'} href={'#parent-content'}>
         Đi tới nội dung chính
       </a>
+
       <header className={'parent-topbar redesign-parent-topbar'}>
-        <Link
-          to={'/'}
-          className={'brand redesign-brand'}
-          aria-label={'Quay về khu vực học của Minh'}
-        >
+        <Link to={'/parent'} className={'brand redesign-brand'} aria-label={'Khu vực phụ huynh'}>
           <span className={'brand-mark redesign-brand-mark'} aria-hidden={'true'}>
             <BookOpenCheck size={24} />
           </span>
           <span>
             <strong>Học Toán</strong>
-            <small>Lớp 4 · Hà Nội</small>
+            <small>Phụ huynh của Minh</small>
           </span>
         </Link>
 
-        <nav className={'desktop-nav redesign-nav parent-nav'} aria-label={'Điều hướng chính'}>
-          {navigation.map(({ to, label, icon: Icon, end }) => (
-            <NavLink key={to} to={to} end={end}>
-              <Icon aria-hidden={'true'} size={18} strokeWidth={2.2} />
-              <span>{label}</span>
-            </NavLink>
-          ))}
+        <nav
+          className={'desktop-nav redesign-nav parent-only-nav'}
+          aria-label={'Khu vực phụ huynh'}
+        >
+          <NavLink to={'/parent'} end>
+            <LayoutDashboard aria-hidden={'true'} size={18} strokeWidth={2.2} />
+            <span>Tổng quan</span>
+          </NavLink>
         </nav>
 
-        <div className={'parent-shell-actions'}>
-          <span className={'parent-mode-pill'}>
-            <ShieldCheck size={18} /> Khu vực phụ huynh
-          </span>
-          <Link to={'/'} className={'back-link parent-back-button'}>
-            <ArrowLeft size={17} /> Khu vực của con
+        <div className={'parent-shell-actions parent-toggle-only'}>
+          <Link to={'/'} className={'parent-link redesign-parent-link parent-area-toggle'}>
+            <ArrowLeft size={17} aria-hidden={'true'} />
+            <span>Khu vực của con</span>
           </Link>
         </div>
       </header>
+
       <main id={'parent-content'}>
         <Outlet />
       </main>

@@ -1,4 +1,4 @@
-﻿import type { Question } from '@math-app/shared';
+import type { Question } from '@math-app/shared';
 import { domains, topics } from './catalog.data';
 import {
   finalizedProblemBlueprints,
@@ -104,6 +104,15 @@ function auditVisual(question: Question, issues: ContentIssue[]) {
         });
     }
   }
+  if (
+    visual.type === 'ANGLE' &&
+    (!Number.isFinite(visual.degrees) || visual.degrees <= 0 || visual.degrees > 180)
+  )
+    issues.push({
+      code: 'VISUAL_MISMATCH',
+      questionId: question.id,
+      message: 'Angle visual must be greater than 0 degrees and at most 180 degrees.',
+    });
   if (
     visual.type === 'NUMBER_LINE' &&
     (!(visual.start < visual.end) || visual.marker < visual.start || visual.marker > visual.end)

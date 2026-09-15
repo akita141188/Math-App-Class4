@@ -52,9 +52,9 @@ describe('Grade 4 content', () => {
     expect(stats).toMatchObject({
       domains: 7,
       topics: 14,
-      skills: 64,
-      selectableLeafTypes: 64,
-      totalQuestions: 6400,
+      skills: 80,
+      selectableLeafTypes: 80,
+      totalQuestions: 8000,
       minimumQuestionsPerType: 100,
       maximumQuestionsPerType: 100,
       leafTypesBelow100: 0,
@@ -231,7 +231,7 @@ describe('Curriculum and practice API', () => {
     const catalog = await request(server).get('/api/v1/grades/4/catalog').expect(200);
     const catalogBody = catalog.body as CurriculumCatalog;
     expect(catalogBody.domains).toHaveLength(7);
-    expect(catalogBody.problemTypes).toHaveLength(64);
+    expect(catalogBody.problemTypes).toHaveLength(80);
 
     const questions = await request(server)
       .get('/api/v1/questions?problemTypeIds=multiply-one-digit&difficulty=EASY&limit=2')
@@ -359,6 +359,7 @@ describe('Curriculum and practice API', () => {
         selectRotatingPracticeQuestions({
           questions: eligible,
           questionCount: 1,
+          difficulty: 'EASY',
           rng: seededRandom(seed),
         })[0]?.id === target?.id
       )
@@ -370,6 +371,7 @@ describe('Curriculum and practice API', () => {
       .send({
         grade: 4,
         problemTypeIds: ['identify-fraction'],
+        difficulty: 'EASY',
         questionCount: 1,
         mode: 'PRACTICE',
         randomSeed,
