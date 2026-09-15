@@ -11,6 +11,35 @@ import { problemBlueprints as legacyBlueprints } from './catalog.data';
  * New ids are only added for independently practicable skills that were missing.
  */
 const narrowed: Record<string, Pick<ProblemBlueprint, 'name' | 'description'>> = {
+  'multiplication-facts': {
+    name: 'Bảng nhân (Ôn nền)',
+    description:
+      'Ôn lại bảng nhân đã học ở lớp dưới; dùng để củng cố lỗ hổng, không dùng làm câu đánh giá định kỳ lớp 4.',
+  },
+  'equal-groups': {
+    name: 'Nhiều nhóm bằng nhau (Ôn nền)',
+    description:
+      'Ôn mô hình nhóm bằng nhau trước khi học phép nhân lớp 4; không dùng làm câu đánh giá định kỳ.',
+  },
+  'division-facts': {
+    name: 'Bảng chia (Ôn nền)',
+    description:
+      'Ôn lại bảng chia đã học ở lớp dưới; dùng để củng cố lỗ hổng, không dùng làm câu đánh giá định kỳ lớp 4.',
+  },
+  'sharing-equally': {
+    name: 'Chia đều (Ôn nền)',
+    description: 'Ôn ý nghĩa phép chia qua chia đều; không dùng làm câu đánh giá định kỳ lớp 4.',
+  },
+  'recognize-shapes': {
+    name: 'Nhận dạng hình cơ bản (Ôn nền)',
+    description:
+      'Ôn nhận biết hình cơ bản; phần hình học trọng tâm lớp 4 dùng các dạng góc, vuông góc, song song, hình bình hành và hình thoi.',
+  },
+  'read-clock': {
+    name: 'Đọc đồng hồ (Ôn nền)',
+    description:
+      'Ôn đọc đồng hồ kim; bài lớp 4 trọng tâm hơn dùng đổi đơn vị và tính khoảng thời gian.',
+  },
   'read-write-numbers': {
     name: 'Đọc số tự nhiên',
     description: 'Đọc đúng số tự nhiên theo lớp và hàng, gồm các số đến lớp triệu.',

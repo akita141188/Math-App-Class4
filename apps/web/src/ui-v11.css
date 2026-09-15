@@ -201,3 +201,103 @@
     grid-template-columns: minmax(0, 1fr) 42px;
   }
 }
+
+/* V15 — custom session exit modal. */
+.session-exit-backdrop {
+  position: fixed;
+  z-index: 5000;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: rgb(12 42 35 / 42%);
+  backdrop-filter: blur(3px);
+}
+
+.session-exit-dialog {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 16px;
+  width: min(100%, 500px);
+  padding: 24px;
+  border: 1px solid #d9e8e3;
+  border-radius: 22px;
+  background: #fff;
+  box-shadow: 0 24px 70px rgb(16 61 50 / 24%);
+}
+
+.session-exit-dialog h2 {
+  margin: 5px 32px 8px 0;
+  color: #173d34;
+  font-size: 1.35rem;
+}
+
+.session-exit-dialog p {
+  margin: 0;
+  color: #5e716c;
+  line-height: 1.55;
+}
+
+.session-exit-icon {
+  display: grid;
+  width: 52px;
+  height: 52px;
+  place-items: center;
+  border-radius: 16px;
+  background: #fff2d7;
+  color: #ad6b00;
+}
+
+.session-exit-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  display: grid;
+  width: 36px;
+  height: 36px;
+  place-items: center;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  color: #61756f;
+  cursor: pointer;
+}
+
+.session-exit-close:hover {
+  background: #eef6f3;
+}
+
+.session-exit-actions {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.session-exit-actions .button {
+  justify-content: center;
+}
+
+.session-exit-confirm {
+  border-color: #d58a3d;
+  background: #a55b14;
+  color: #fff;
+}
+
+.session-exit-confirm:hover {
+  background: #89480d;
+}
+
+@media (max-width: 560px) {
+  .session-exit-dialog {
+    grid-template-columns: 1fr;
+    padding: 22px 18px 18px;
+  }
+
+  .session-exit-actions {
+    grid-column: 1;
+    grid-template-columns: 1fr;
+  }
+}

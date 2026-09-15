@@ -147,28 +147,221 @@ export function QuestionVisualRendererV2({ visual }: { visual: QuestionVisual })
   }
 
   if (visual.type === 'ANGLE') {
-    const length = 78;
+    const mode = visual.mode ?? 'CLASSIFY';
+    const vertexLabel = visual.vertexLabel ?? 'O';
+    const [firstRayLabel, secondRayLabel] = visual.rayLabels ?? ['A', 'B'];
+
+    if (mode === 'MEASURE') {
+      const cx = 210;
+      const cy = 142;
+      const radius = 94;
+      const radians = (visual.degrees * Math.PI) / 180;
+      const target = {
+        x: cx + Math.cos(radians) * radius,
+        y: cy - Math.sin(radians) * radius,
+      };
+      const arcRadius = 34;
+      const arcTarget = {
+        x: cx + Math.cos(radians) * arcRadius,
+        y: cy - Math.sin(radians) * arcRadius,
+      };
+
+      return (
+        <svg
+          className={'question-visual'}
+          viewBox={'0 0 420 240'}
+          role={'img'}
+          aria-label={visual.alt}
+          data-angle-mode={'MEASURE'}
+        >
+          <path
+            d={`M ${cx - radius} ${cy} A ${radius} ${radius} 0 0 1 ${cx + radius} ${cy}`}
+            fill={'none'}
+            stroke={'#8fb8ad'}
+            strokeWidth={'2'}
+          />
+
+          {Array.from({ length: 37 }, (_, index) => {
+            const degree = index * 5;
+            const tickRadians = (degree * Math.PI) / 180;
+            const major = degree % 10 === 0;
+            const inner = radius - (major ? 13 : 7);
+            return (
+              <line
+                key={degree}
+                data-protractor-tick={degree}
+                x1={cx + Math.cos(tickRadians) * inner}
+                y1={cy - Math.sin(tickRadians) * inner}
+                x2={cx + Math.cos(tickRadians) * radius}
+                y2={cy - Math.sin(tickRadians) * radius}
+                stroke={major ? '#315c52' : '#8fb8ad'}
+                strokeWidth={major ? 2 : 1}
+              />
+            );
+          })}
+
+          {[0, 30, 60, 90, 120, 150, 180].map((degree) => {
+            const labelRadians = (degree * Math.PI) / 180;
+            const labelRadius = radius - 25;
+            return (
+              <text
+                key={degree}
+                x={cx + Math.cos(labelRadians) * labelRadius}
+                y={cy - Math.sin(labelRadians) * labelRadius + 4}
+                textAnchor={'middle'}
+                fontSize={'11'}
+                fill={'#315c52'}
+              >
+                {degree}°
+              </text>
+            );
+          })}
+
+          <line x1={cx} y1={cy} x2={cx + radius} y2={cy} stroke={'#287c68'} strokeWidth={'5'} />
+          <line x1={cx} y1={cy} x2={target.x} y2={target.y} stroke={'#287c68'} strokeWidth={'5'} />
+          <path
+            d={`M ${cx + arcRadius} ${cy} A ${arcRadius} ${arcRadius} 0 0 0 ${arcTarget.x} ${arcTarget.y}`}
+            fill={'none'}
+            stroke={'#e29b25'}
+            strokeWidth={'3'}
+          />
+          <circle cx={cx} cy={cy} r={'5'} fill={'#315c52'} />
+
+          <text x={cx - 4} y={cy + 19} textAnchor={'end'} fontWeight={'700'}>
+            {vertexLabel}
+          </text>
+          <text x={cx + radius + 12} y={cy + 5} fontWeight={'700'}>
+            {firstRayLabel}
+          </text>
+          <text x={target.x - 8} y={target.y - 8} textAnchor={'middle'} fontWeight={'700'}>
+            {secondRayLabel}
+          </text>
+
+          <text x={'210'} y={'207'} textAnchor={'middle'} fontSize={'12'} fontWeight={'700'}>
+            Thước đo góc
+          </text>
+          <text x={'210'} y={'225'} textAnchor={'middle'} fontSize={'12'} fill={'#60756f'}>
+            Đặt OA trùng vạch 0° rồi đọc vạch mà OB đi qua
+          </text>
+        </svg>
+      );
+    }
+
+    const length = 84;
     const radians = (visual.degrees * Math.PI) / 180;
     const end = { x: 210 + Math.cos(radians) * length, y: 120 - Math.sin(radians) * length };
+    const arcRadius = 30;
+    const arcEnd = {
+      x: 210 + Math.cos(radians) * arcRadius,
+      y: 120 - Math.sin(radians) * arcRadius,
+    };
+
     return (
       <svg
         className={'question-visual'}
         viewBox={'0 0 420 220'}
         role={'img'}
         aria-label={visual.alt}
+        data-angle-mode={'CLASSIFY'}
       >
-        <g transform={`rotate(${visual.rotationDegrees} 210 120)`}>
+        <g transform={`rotate(${visual.rotationDegrees ?? 0} 210 120)`}>
           <line x1={'210'} y1={'120'} x2={'310'} y2={'120'} stroke={'#287c68'} strokeWidth={'5'} />
           <line x1={'210'} y1={'120'} x2={end.x} y2={end.y} stroke={'#287c68'} strokeWidth={'5'} />
-          {visual.degrees === 90 && (
+          {visual.degrees === 90 ? (
             <polyline
               points={'230,120 230,100 210,100'}
               fill={'none'}
-              stroke={'#d77783'}
+              stroke={'#e29b25'}
+              strokeWidth={'3'}
+            />
+          ) : (
+            <path
+              d={`M 240 120 A ${arcRadius} ${arcRadius} 0 0 0 ${arcEnd.x} ${arcEnd.y}`}
+              fill={'none'}
+              stroke={'#e29b25'}
               strokeWidth={'3'}
             />
           )}
+          <circle cx={'210'} cy={'120'} r={'5'} fill={'#315c52'} />
+          <text x={'204'} y={'143'} textAnchor={'end'} fontWeight={'700'}>
+            {vertexLabel}
+          </text>
+          <text x={'320'} y={'125'} fontWeight={'700'}>
+            {firstRayLabel}
+          </text>
+          <text x={end.x - 7} y={end.y - 7} textAnchor={'middle'} fontWeight={'700'}>
+            {secondRayLabel}
+          </text>
         </g>
+
+        <g data-angle-reference={'RIGHT_ANGLE'} transform={'translate(300 22)'}>
+          <rect
+            x={'0'}
+            y={'0'}
+            width={'102'}
+            height={'72'}
+            rx={'12'}
+            fill={'#fffaf0'}
+            stroke={'#e8c66f'}
+          />
+          <text x={'51'} y={'18'} textAnchor={'middle'} fontSize={'11'} fontWeight={'700'}>
+            Góc vuông
+          </text>
+          <line x1={'23'} y1={'53'} x2={'23'} y2={'29'} stroke={'#315c52'} strokeWidth={'3'} />
+          <line x1={'23'} y1={'53'} x2={'47'} y2={'53'} stroke={'#315c52'} strokeWidth={'3'} />
+          <polyline
+            points={'23,42 34,42 34,53'}
+            fill={'none'}
+            stroke={'#e29b25'}
+            strokeWidth={'2'}
+          />
+          <text x={'73'} y={'50'} textAnchor={'middle'} fontSize={'13'} fontWeight={'700'}>
+            90°
+          </text>
+        </g>
+      </svg>
+    );
+  }
+
+  if (visual.type === 'TIME_LINE') {
+    const formatTime = (hour: number, minute: number) =>
+      `${hour}:${String(minute).padStart(2, '0')}`;
+    const endText =
+      visual.hideEnd || visual.endHour === undefined || visual.endMinute === undefined
+        ? '?'
+        : formatTime(visual.endHour, visual.endMinute);
+
+    return (
+      <svg
+        className={'question-visual'}
+        viewBox={'0 0 420 220'}
+        role={'img'}
+        aria-label={visual.alt}
+        data-time-line={'true'}
+      >
+        <text x={'85'} y={'52'} textAnchor={'middle'} fontSize={'13'} fill={'#60756f'}>
+          Bắt đầu
+        </text>
+        <text x={'335'} y={'52'} textAnchor={'middle'} fontSize={'13'} fill={'#60756f'}>
+          Kết thúc
+        </text>
+
+        <line x1={'85'} y1={'110'} x2={'335'} y2={'110'} stroke={'#315c52'} strokeWidth={'4'} />
+        <polygon points={'335,110 322,102 322,118'} fill={'#315c52'} />
+        <circle cx={'85'} cy={'110'} r={'9'} fill={'#39a98d'} />
+        <circle cx={'335'} cy={'110'} r={'9'} fill={'#e29b25'} />
+
+        <rect x={'164'} y={'73'} width={'172'} height={'34'} rx={'17'} fill={'#fff4d6'} />
+        <text x={'250'} y={'95'} textAnchor={'middle'} fontWeight={'700'} fill={'#8a5a00'}>
+          +{visual.durationMinutes} phút
+        </text>
+
+        <text x={'85'} y={'145'} textAnchor={'middle'} fontSize={'20'} fontWeight={'700'}>
+          {formatTime(visual.startHour, visual.startMinute)}
+        </text>
+        <text x={'335'} y={'145'} textAnchor={'middle'} fontSize={'20'} fontWeight={'700'}>
+          {endText}
+        </text>
       </svg>
     );
   }

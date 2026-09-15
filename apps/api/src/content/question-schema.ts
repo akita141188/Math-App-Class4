@@ -74,7 +74,10 @@ function validateVisual(value: unknown): string[] {
         ? []
         : ['shape visual is invalid'];
     case 'ANGLE':
-      return typeof value.degrees === 'number' && value.degrees > 0 && value.degrees <= 180
+      return typeof value.degrees === 'number' &&
+        value.degrees > 0 &&
+        value.degrees <= 180 &&
+        (value.mode === undefined || value.mode === 'MEASURE' || value.mode === 'CLASSIFY')
         ? []
         : ['angle visual is invalid'];
     case 'LINE_RELATION':
@@ -97,6 +100,15 @@ function validateVisual(value: unknown): string[] {
         : ['number line is invalid'];
     case 'CLOCK':
       return integer(value.hour) && integer(value.minute) ? [] : ['clock is invalid'];
+    case 'TIME_LINE':
+      return integer(value.startHour) &&
+        integer(value.startMinute) &&
+        integer(value.durationMinutes) &&
+        value.durationMinutes > 0 &&
+        (value.endHour === undefined || integer(value.endHour)) &&
+        (value.endMinute === undefined || integer(value.endMinute))
+        ? []
+        : ['time line is invalid'];
     case 'RULER':
       return typeof value.lengthCm === 'number' ? [] : ['ruler is invalid'];
     case 'MONEY':

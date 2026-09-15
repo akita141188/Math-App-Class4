@@ -184,42 +184,77 @@ export function QuestionVisualRenderer({ visual }: Props) {
         <>
           <circle
             cx={'210'}
-            cy={'110'}
-            r={'88'}
+            cy={'105'}
+            r={'86'}
             fill={'#fff'}
             stroke={'#315c52'}
             strokeWidth={'4'}
           />
+
+          {Array.from({ length: 60 }, (_, index) => {
+            const angle = ((index - 15) * Math.PI) / 30;
+            const major = index % 5 === 0;
+            const outerRadius = 82;
+            const innerRadius = major ? 72 : 77;
+            return (
+              <line
+                key={index}
+                data-clock-minute-tick={index}
+                x1={210 + Math.cos(angle) * innerRadius}
+                y1={105 + Math.sin(angle) * innerRadius}
+                x2={210 + Math.cos(angle) * outerRadius}
+                y2={105 + Math.sin(angle) * outerRadius}
+                stroke={major ? '#315c52' : '#9bb8b1'}
+                strokeWidth={major ? 2 : 1}
+              />
+            );
+          })}
+
           {Array.from({ length: 12 }, (_, index) => {
-            const angle = ((index - 2) * Math.PI) / 6;
+            const number = index + 1;
+            const angle = ((number - 3) * Math.PI) / 6;
             return (
               <text
-                key={index}
-                x={210 + Math.cos(angle) * 70}
-                y={115 + Math.sin(angle) * 70}
+                key={number}
+                x={210 + Math.cos(angle) * 61}
+                y={110 + Math.sin(angle) * 61}
                 textAnchor={'middle'}
+                fontWeight={'700'}
+                fontSize={'13'}
               >
-                {index + 1}
+                {number}
               </text>
             );
           })}
+
           <line
             x1={'210'}
-            y1={'110'}
-            x2={210 + Math.sin((visual.hour * Math.PI) / 6) * 43}
-            y2={110 - Math.cos((visual.hour * Math.PI) / 6) * 43}
+            y1={'105'}
+            x2={210 + Math.sin((((visual.hour % 12) + visual.minute / 60) * Math.PI) / 6) * 42}
+            y2={105 - Math.cos((((visual.hour % 12) + visual.minute / 60) * Math.PI) / 6) * 42}
             stroke={'#315c52'}
-            strokeWidth={'6'}
+            strokeWidth={'7'}
+            strokeLinecap={'round'}
           />
           <line
             x1={'210'}
-            y1={'110'}
-            x2={210 + Math.sin((visual.minute * Math.PI) / 30) * 66}
-            y2={110 - Math.cos((visual.minute * Math.PI) / 30) * 66}
+            y1={'105'}
+            x2={210 + Math.sin((visual.minute * Math.PI) / 30) * 67}
+            y2={105 - Math.cos((visual.minute * Math.PI) / 30) * 67}
             stroke={'#d77783'}
             strokeWidth={'4'}
+            strokeLinecap={'round'}
           />
-          <circle cx={'210'} cy={'110'} r={'6'} fill={'#315c52'} />
+          <circle cx={'210'} cy={'105'} r={'6'} fill={'#315c52'} />
+
+          <line x1={'135'} y1={'204'} x2={'158'} y2={'204'} stroke={'#315c52'} strokeWidth={'6'} />
+          <text x={'164'} y={'209'} fontSize={'12'}>
+            Kim giờ
+          </text>
+          <line x1={'245'} y1={'204'} x2={'268'} y2={'204'} stroke={'#d77783'} strokeWidth={'4'} />
+          <text x={'274'} y={'209'} fontSize={'12'}>
+            Kim phút
+          </text>
         </>
       )}
       {visual.type === 'RULER' && (

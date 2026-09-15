@@ -92,7 +92,25 @@ export type QuestionVisual =
       height: number;
       unit: string;
     }
-  | { type: 'ANGLE'; alt: string; degrees: number; rotationDegrees?: number }
+  | {
+      type: 'ANGLE';
+      alt: string;
+      degrees: number;
+      rotationDegrees?: number;
+      mode?: 'MEASURE' | 'CLASSIFY';
+      vertexLabel?: string;
+      rayLabels?: [string, string];
+    }
+  | {
+      type: 'TIME_LINE';
+      alt: string;
+      startHour: number;
+      startMinute: number;
+      durationMinutes: number;
+      endHour?: number;
+      endMinute?: number;
+      hideEnd?: boolean;
+    }
   | {
       type: 'LINE_RELATION';
       alt: string;

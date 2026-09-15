@@ -18,6 +18,7 @@ import { Button } from '../components/Button';
 import { PageContainer } from '../components/PageContainer';
 import { ProgressIndicator } from '../components/ProgressIndicator';
 import { QuestionNavigator } from '../components/QuestionNavigator';
+import { SessionExitDialog } from '../components/SessionExitDialog';
 import { localLearningHistoryRepository } from '../features/progress/learningHistoryRepository';
 import { inProgressSessionRepository } from '../features/progress/inProgressSessionRepository';
 import {
@@ -176,7 +177,7 @@ export function TestAttemptPage({ reviewMode = false }: { reviewMode?: boolean }
     return () => window.clearTimeout(timeout);
   }, [attempt, currentIndex, draftAnsweredCount, persistDraft, reviewMode]);
 
-  useSessionExitGuard({
+  const exitGuard = useSessionExitGuard({
     enabled: Boolean(attempt && !reviewMode && attempt.status === 'IN_PROGRESS'),
     message:
       'Em đang làm dở bài kiểm tra. Nếu thoát, bài sẽ được lưu vào Lịch sử để em có thể làm tiếp sau. Thoát bây giờ?',
@@ -274,6 +275,7 @@ export function TestAttemptPage({ reviewMode = false }: { reviewMode?: boolean }
 
   return (
     <PageContainer className={'test-attempt-page session-viewport-page'}>
+      <SessionExitDialog {...exitGuard} />
       <div className={'session-topline'}>
         <Link className={'back-link'} to={attempt.status === 'SUBMITTED' ? '/history' : '/tests'}>
           <ArrowLeft size={18} /> Kết thúc

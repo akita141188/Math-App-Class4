@@ -13,6 +13,7 @@ import { generateAppliedCore } from './applied-generators';
 import { generateArithmeticCore } from './arithmetic-generators';
 import { fisherYates, stableHash } from './content-math';
 import { generateFractionCore } from './fraction-generators';
+import { applyGrade4RigorPolicy, isGrade4TestEligible } from './grade4-rigor-policy';
 import type { GeneratedCore } from './generator-types';
 import { generateKnttCore } from './kntt-generators';
 import { generateQualityOverride } from './quality-overrides';
@@ -95,7 +96,8 @@ export function generateQuestion(blueprint: ProblemBlueprint, index: number): Qu
     generateFractionCore(blueprint, index) ??
     generateAppliedCore(blueprint, index);
   if (!rawCore) throw new Error(`Missing v3 generator for ${blueprint.id}`);
-  const core = applySemanticTemplate(blueprint, rawCore, index % 5);
+  const grade4Core = applyGrade4RigorPolicy(blueprint, rawCore);
+  const core = applySemanticTemplate(blueprint, grade4Core, index % 5);
   const format = formatFor(core, index);
   const baseIdentity = {
     grade: 4,
@@ -160,7 +162,7 @@ export function generateQuestion(blueprint: ProblemBlueprint, index: number): Qu
     format,
     difficulty: difficultyFor(index),
     assessmentLevel: assessmentLevelFor(index),
-    testEligible: true,
+    testEligible: isGrade4TestEligible(blueprint.id),
     scoreWeight: 1,
     stem,
     visual: core.visual,

@@ -28,6 +28,7 @@ import { FeedbackState } from '../components/FeedbackState';
 import { PageContainer } from '../components/PageContainer';
 import { ProgressIndicator } from '../components/ProgressIndicator';
 import { QuestionNavigator } from '../components/QuestionNavigator';
+import { SessionExitDialog } from '../components/SessionExitDialog';
 import { localLearningHistoryRepository } from '../features/progress/learningHistoryRepository';
 import { localProgressRepository } from '../features/progress/progressRepository';
 import { localQuestionHistoryRepository } from '../features/progress/questionHistoryRepository';
@@ -348,7 +349,7 @@ export function PracticeSessionPage() {
     return () => window.clearTimeout(timeout);
   }, [answers, attemptedQuestionIds, currentIndex, hintLevels, persistDraft]);
 
-  useSessionExitGuard({
+  const exitGuard = useSessionExitGuard({
     enabled: Boolean(session && !session.completed && !lastResult?.completed),
     message:
       'Em đang làm dở. Nếu thoát, bài sẽ được lưu vào Lịch sử để em có thể làm tiếp sau. Thoát bây giờ?',
@@ -462,6 +463,7 @@ export function PracticeSessionPage() {
 
   return (
     <PageContainer className={'practice-page session-viewport-page'}>
+      <SessionExitDialog {...exitGuard} />
       <div className={'session-topline'}>
         <Link className={'back-link'} to={'/learn/types'}>
           <ArrowLeft size={18} /> Kết thúc

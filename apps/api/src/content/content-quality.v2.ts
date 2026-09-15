@@ -158,6 +158,53 @@ function auditVisual(question: Question, issues: ContentIssue[]) {
     });
 }
 
+function auditAnglePedagogy(question: Question, issues: ContentIssue[]) {
+  const visual = question.visual;
+
+  if (question.problemTypeId === 'measure-angle-degrees') {
+    if (visual?.type !== 'ANGLE' || visual.mode !== 'MEASURE')
+      issues.push({
+        code: 'VISUAL_MISMATCH',
+        questionId: question.id,
+        message: 'Exact angle measurement requires a protractor visual with MEASURE mode.',
+      });
+
+    if (!/thước đo góc/i.test(question.stem) || !/vạch 0°/i.test(question.stem))
+      issues.push({
+        code: 'AMBIGUOUS_WORDING',
+        questionId: question.id,
+        message: 'Exact angle measurement must state the protractor reference and 0-degree ray.',
+      });
+
+    if (
+      visual?.type === 'ANGLE' &&
+      new RegExp(`\\b${visual.degrees}\\s*(?:°|độ)`, 'i').test(visual.alt)
+    )
+      issues.push({
+        code: 'ANSWER_MISMATCH',
+        questionId: question.id,
+        message: 'Angle alt text must not reveal the exact answer before submission.',
+      });
+  }
+
+  if (question.problemTypeId === 'classify-angles') {
+    if (visual?.type !== 'ANGLE' || visual.mode !== 'CLASSIFY')
+      issues.push({
+        code: 'VISUAL_MISMATCH',
+        questionId: question.id,
+        message: 'Angle classification requires CLASSIFY mode with a right-angle reference.',
+      });
+
+    if (!/góc vuông 90°.*tham chiếu/i.test(question.stem))
+      issues.push({
+        code: 'AMBIGUOUS_WORDING',
+        questionId: question.id,
+        message:
+          'Angle classification must tell the learner to compare with the 90-degree reference.',
+      });
+  }
+}
+
 function auditOptions(question: Question, issues: ContentIssue[]) {
   if (question.format !== 'MULTIPLE_CHOICE') return;
   if (
@@ -289,6 +336,7 @@ export function auditQuestion(question: Question): ContentIssue[] {
       questionId: question.id,
       message: 'Expected fraction is invalid.',
     });
+  auditAnglePedagogy(question, issues);
   auditOptions(question, issues);
   auditVisual(question, issues);
   auditPlaceValue(question, issues);
