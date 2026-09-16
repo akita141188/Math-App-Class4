@@ -1,14 +1,18 @@
 [
   {
-    "id": "g4-length-conversion-523b6f85caea5f87",
+    "id": "g4-length-conversion-752ab046ebaccf74",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t1",
-    "fingerprint": "1e9ed92405e1cf0b41901ca8825f364e",
+    "fingerprint": "e9380fc592c778963ead7c2c7066c101",
     "generatorParams": {
-      "value": 3,
-      "factor": 10,
-      "from": "dm",
-      "to": "cm"
+      "major": 3,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "dm",
+      "minorUnit": "",
+      "targetUnit": "cm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -33,7 +37,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -47,7 +51,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -61,20 +65,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "3 × 10 = 30, nên 3 dm = 30 cm.",
+    "explanation": "Vì 1 dm = 10 cm, ta có 3 × 10 = 30 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-a88dc8e564ecf4d2",
+    "id": "g4-length-conversion-78d6f0679c44423c",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t2",
-    "fingerprint": "3cb033b71117ebebf42719f2dd8f3780",
+    "fingerprint": "ce82153c40c5c0ca53a56a5e1ea558ce",
     "generatorParams": {
-      "value": 3,
-      "factor": 100,
-      "from": "m",
-      "to": "cm"
+      "major": 3,
+      "minor": 1,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "m",
+      "minorUnit": "cm",
+      "targetUnit": "cm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -86,10 +94,10 @@
     "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "3 m bằng bao nhiêu cm?",
+    "stem": "3 m 1 cm bằng bao nhiêu cm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 300,
+      "value": 301,
       "unit": "cm"
     },
     "solutionSteps": [
@@ -99,7 +107,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -113,7 +121,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -127,20 +135,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "3 × 100 = 300, nên 3 m = 300 cm.",
+    "explanation": "Vì 1 m = 100 cm và 1 cm = 1 cm, ta có 3 × 100 + 1 × 1 = 301 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-17341d708b285095",
+    "id": "g4-length-conversion-fe09cdc02b8b7939",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t3",
-    "fingerprint": "f706fa46d185e823b2837d26362cde05",
+    "fingerprint": "14d64e4117858d57ad5cce27ac0b6646",
     "generatorParams": {
-      "value": 3,
-      "factor": 1000,
-      "from": "km",
-      "to": "m"
+      "major": 3,
+      "minor": 1,
+      "majorFactor": 1000,
+      "minorFactor": 1,
+      "majorUnit": "km",
+      "minorUnit": "m",
+      "targetUnit": "m",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -152,28 +164,28 @@
     "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "3 km bằng bao nhiêu m?",
+    "stem": "3 km 1 m bằng bao nhiêu m?",
     "options": [
       {
         "id": "option-1",
-        "label": "3000 m"
+        "label": "3301 m"
       },
       {
         "id": "option-2",
-        "label": "2700 m"
+        "label": "3601 m"
       },
       {
         "id": "option-3",
-        "label": "3300 m"
+        "label": "3001 m"
       },
       {
         "id": "option-4",
-        "label": "3600 m"
+        "label": "2701 m"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-1"
+      "optionId": "option-3"
     },
     "solutionSteps": [
       {
@@ -182,7 +194,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+        "instruction": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -196,7 +208,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+        "text": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -210,20 +222,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "3 × 1000 = 3.000, nên 3 km = 3.000 m.",
+    "explanation": "Vì 1 km = 1.000 m và 1 m = 1 m, ta có 3 × 1.000 + 1 × 1 = 3.001 m.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-adca2828341bfdb5",
+    "id": "g4-length-conversion-fd13cb7b0af39bac",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t4",
-    "fingerprint": "8a16e7aa7a14c3341248b1f22266dfdb",
+    "fingerprint": "f11c767a389a6c44cd81cdb0a4535e7b",
     "generatorParams": {
-      "value": 3,
-      "factor": 10,
-      "from": "cm",
-      "to": "mm"
+      "major": 3,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "cm",
+      "minorUnit": "",
+      "targetUnit": "mm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -247,7 +263,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -261,7 +277,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -275,20 +291,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "3 × 10 = 30, nên 3 cm = 30 mm.",
+    "explanation": "Vì 1 cm = 10 mm, ta có 3 × 10 = 30 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-876350f16a9c8347",
+    "id": "g4-length-conversion-1f49acd3cd717f97",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t5",
-    "fingerprint": "c02195851f3cc3f29762fdcf2f415ea0",
+    "fingerprint": "ded3b0bda7c7279e73bdb7bd2c37077a",
     "generatorParams": {
-      "value": 3,
-      "factor": 100,
-      "from": "dm",
-      "to": "mm"
+      "major": 3,
+      "minor": 1,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "dm",
+      "minorUnit": "mm",
+      "targetUnit": "mm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -300,10 +320,10 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "3 dm bằng bao nhiêu mm?",
+    "stem": "3 dm 1 mm bằng bao nhiêu mm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 300,
+      "value": 301,
       "unit": "mm"
     },
     "solutionSteps": [
@@ -313,7 +333,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -327,7 +347,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -341,20 +361,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "3 × 100 = 300, nên 3 dm = 300 mm.",
+    "explanation": "Vì 1 dm = 100 mm và 1 mm = 1 mm, ta có 3 × 100 + 1 × 1 = 301 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-9db15ffe48c952d9",
+    "id": "g4-length-conversion-be04b0e5ede66b7f",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t1",
-    "fingerprint": "1ce5214304f31919ee83c67542cc979a",
+    "fingerprint": "b2b80a1b094acf8e6597d1ab0f194163",
     "generatorParams": {
-      "value": 4,
-      "factor": 10,
-      "from": "dm",
-      "to": "cm"
+      "major": 4,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "dm",
+      "minorUnit": "",
+      "targetUnit": "cm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -379,7 +403,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -393,7 +417,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -407,20 +431,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "4 × 10 = 40, nên 4 dm = 40 cm.",
+    "explanation": "Vì 1 dm = 10 cm, ta có 4 × 10 = 40 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-240a9875de5f3d09",
+    "id": "g4-length-conversion-e95a1abf5bcae946",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t2",
-    "fingerprint": "eb9eacd9d3b78d96baa97bf20dd97874",
+    "fingerprint": "825e2923cbb981e46a2004bc355ed214",
     "generatorParams": {
-      "value": 4,
-      "factor": 100,
-      "from": "m",
-      "to": "cm"
+      "major": 4,
+      "minor": 5,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "m",
+      "minorUnit": "cm",
+      "targetUnit": "cm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -432,10 +460,10 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "4 m bằng bao nhiêu cm?",
+    "stem": "4 m 5 cm bằng bao nhiêu cm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 400,
+      "value": 405,
       "unit": "cm"
     },
     "solutionSteps": [
@@ -445,7 +473,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -459,7 +487,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -473,20 +501,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "4 × 100 = 400, nên 4 m = 400 cm.",
+    "explanation": "Vì 1 m = 100 cm và 1 cm = 1 cm, ta có 4 × 100 + 5 × 1 = 405 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-16f23b5acc527a6d",
+    "id": "g4-length-conversion-a208acbd79386320",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t3",
-    "fingerprint": "7d6b1d5b770915eaba166aa3eeb19776",
+    "fingerprint": "3b7ed8e178f890cdf29c12c95d1c6b7d",
     "generatorParams": {
-      "value": 4,
-      "factor": 1000,
-      "from": "km",
-      "to": "m"
+      "major": 4,
+      "minor": 6,
+      "majorFactor": 1000,
+      "minorFactor": 1,
+      "majorUnit": "km",
+      "minorUnit": "m",
+      "targetUnit": "m",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -498,28 +530,28 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "4 km bằng bao nhiêu m?",
+    "stem": "4 km 6 m bằng bao nhiêu m?",
     "options": [
       {
         "id": "option-1",
-        "label": "3600 m"
+        "label": "4006 m"
       },
       {
         "id": "option-2",
-        "label": "4400 m"
+        "label": "4406 m"
       },
       {
         "id": "option-3",
-        "label": "4800 m"
+        "label": "4806 m"
       },
       {
         "id": "option-4",
-        "label": "4000 m"
+        "label": "3606 m"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-4"
+      "optionId": "option-1"
     },
     "solutionSteps": [
       {
@@ -528,7 +560,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+        "instruction": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -542,7 +574,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+        "text": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -556,20 +588,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "4 × 1000 = 4.000, nên 4 km = 4.000 m.",
+    "explanation": "Vì 1 km = 1.000 m và 1 m = 1 m, ta có 4 × 1.000 + 6 × 1 = 4.006 m.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-c9d23ef8a4bba602",
+    "id": "g4-length-conversion-e965ecdb99d139c5",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t4",
-    "fingerprint": "7108b5326a0accb411163fae20c37479",
+    "fingerprint": "b0318c251b60fcbde17d36a7e3b99200",
     "generatorParams": {
-      "value": 4,
-      "factor": 10,
-      "from": "cm",
-      "to": "mm"
+      "major": 4,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "cm",
+      "minorUnit": "",
+      "targetUnit": "mm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -593,7 +629,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -607,7 +643,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -621,20 +657,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "4 × 10 = 40, nên 4 cm = 40 mm.",
+    "explanation": "Vì 1 cm = 10 mm, ta có 4 × 10 = 40 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-c7edfccabe4a5974",
+    "id": "g4-length-conversion-22b720c6cd5b8492",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t5",
-    "fingerprint": "f51346f0bd17e928a28366734a1f693a",
+    "fingerprint": "3af99b65ca90341b414825226cb63563",
     "generatorParams": {
-      "value": 4,
-      "factor": 100,
-      "from": "dm",
-      "to": "mm"
+      "major": 4,
+      "minor": 8,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "dm",
+      "minorUnit": "mm",
+      "targetUnit": "mm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -646,10 +686,10 @@
     "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "4 dm bằng bao nhiêu mm?",
+    "stem": "4 dm 8 mm bằng bao nhiêu mm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 400,
+      "value": 408,
       "unit": "mm"
     },
     "solutionSteps": [
@@ -659,7 +699,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -673,7 +713,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -687,20 +727,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "4 × 100 = 400, nên 4 dm = 400 mm.",
+    "explanation": "Vì 1 dm = 100 mm và 1 mm = 1 mm, ta có 4 × 100 + 8 × 1 = 408 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-dfcac812df4cf285",
+    "id": "g4-length-conversion-b96763011304c0b7",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t1",
-    "fingerprint": "abd26c599b361e3a264343d3c0e804b0",
+    "fingerprint": "76ef5b6846e8c40a9f3a41774fe327f6",
     "generatorParams": {
-      "value": 5,
-      "factor": 10,
-      "from": "dm",
-      "to": "cm"
+      "major": 5,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "dm",
+      "minorUnit": "",
+      "targetUnit": "cm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -725,7 +769,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -739,7 +783,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -753,20 +797,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "5 × 10 = 50, nên 5 dm = 50 cm.",
+    "explanation": "Vì 1 dm = 10 cm, ta có 5 × 10 = 50 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-4045e953e97d0961",
+    "id": "g4-length-conversion-fb46e74361edcb4d",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t2",
-    "fingerprint": "5fc6167420e2e0484a0ee92172dffa45",
+    "fingerprint": "562b008b643189b982584566d4a8d4be",
     "generatorParams": {
-      "value": 5,
-      "factor": 100,
-      "from": "m",
-      "to": "cm"
+      "major": 5,
+      "minor": 9,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "m",
+      "minorUnit": "cm",
+      "targetUnit": "cm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -778,10 +826,10 @@
     "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "5 m bằng bao nhiêu cm?",
+    "stem": "5 m 9 cm bằng bao nhiêu cm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 500,
+      "value": 509,
       "unit": "cm"
     },
     "solutionSteps": [
@@ -791,7 +839,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -805,7 +853,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -819,20 +867,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "5 × 100 = 500, nên 5 m = 500 cm.",
+    "explanation": "Vì 1 m = 100 cm và 1 cm = 1 cm, ta có 5 × 100 + 9 × 1 = 509 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-9cf912730c7383af",
+    "id": "g4-length-conversion-9d2b2425c37d9860",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t3",
-    "fingerprint": "91dea26ee874e94977754ea043422d1d",
+    "fingerprint": "938134100f366ad981988a6e5f680c20",
     "generatorParams": {
-      "value": 5,
-      "factor": 1000,
-      "from": "km",
-      "to": "m"
+      "major": 5,
+      "minor": 11,
+      "majorFactor": 1000,
+      "minorFactor": 1,
+      "majorUnit": "km",
+      "minorUnit": "m",
+      "targetUnit": "m",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -844,28 +896,28 @@
     "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "5 km bằng bao nhiêu m?",
+    "stem": "5 km 11 m bằng bao nhiêu m?",
     "options": [
       {
         "id": "option-1",
-        "label": "6000 m"
+        "label": "5512 m"
       },
       {
         "id": "option-2",
-        "label": "5500 m"
+        "label": "5011 m"
       },
       {
         "id": "option-3",
-        "label": "5000 m"
+        "label": "4510 m"
       },
       {
         "id": "option-4",
-        "label": "4500 m"
+        "label": "6013 m"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-3"
+      "optionId": "option-2"
     },
     "solutionSteps": [
       {
@@ -874,7 +926,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+        "instruction": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -888,7 +940,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+        "text": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -902,20 +954,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "5 × 1000 = 5.000, nên 5 km = 5.000 m.",
+    "explanation": "Vì 1 km = 1.000 m và 1 m = 1 m, ta có 5 × 1.000 + 11 × 1 = 5.011 m.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-4fa42be3715166dd",
+    "id": "g4-length-conversion-4f73d4bf2a9485a9",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t4",
-    "fingerprint": "5c4707beb1675f5a84abc6a8e561fbab",
+    "fingerprint": "27902f0897ed20c50e9bc4290f93ff67",
     "generatorParams": {
-      "value": 5,
-      "factor": 10,
-      "from": "cm",
-      "to": "mm"
+      "major": 5,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "cm",
+      "minorUnit": "",
+      "targetUnit": "mm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -939,7 +995,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -953,7 +1009,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -967,20 +1023,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "5 × 10 = 50, nên 5 cm = 50 mm.",
+    "explanation": "Vì 1 cm = 10 mm, ta có 5 × 10 = 50 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-11b59830c33260f2",
+    "id": "g4-length-conversion-0abe65353156fbe1",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t5",
-    "fingerprint": "da0994c8c0ee594a240c890dd0369bf2",
+    "fingerprint": "e08cd66de674a6a43fae1025aded34c3",
     "generatorParams": {
-      "value": 5,
-      "factor": 100,
-      "from": "dm",
-      "to": "mm"
+      "major": 5,
+      "minor": 15,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "dm",
+      "minorUnit": "mm",
+      "targetUnit": "mm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -992,10 +1052,10 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "5 dm bằng bao nhiêu mm?",
+    "stem": "5 dm 15 mm bằng bao nhiêu mm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 500,
+      "value": 515,
       "unit": "mm"
     },
     "solutionSteps": [
@@ -1005,7 +1065,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -1019,7 +1079,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -1033,20 +1093,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "5 × 100 = 500, nên 5 dm = 500 mm.",
+    "explanation": "Vì 1 dm = 100 mm và 1 mm = 1 mm, ta có 5 × 100 + 15 × 1 = 515 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-007c91e7a1a0f451",
+    "id": "g4-length-conversion-2e095bdc000d63c6",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t1",
-    "fingerprint": "1a2cb5ecb5cf99b02e0d03a8be9a8d56",
+    "fingerprint": "157ef23d5be4fb0b0182e6e4b154dea0",
     "generatorParams": {
-      "value": 6,
-      "factor": 10,
-      "from": "dm",
-      "to": "cm"
+      "major": 6,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "dm",
+      "minorUnit": "",
+      "targetUnit": "cm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -1071,7 +1135,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -1085,7 +1149,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -1099,20 +1163,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "6 × 10 = 60, nên 6 dm = 60 cm.",
+    "explanation": "Vì 1 dm = 10 cm, ta có 6 × 10 = 60 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-9f927f66cd42f45d",
+    "id": "g4-length-conversion-c08f0ce2c9501926",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t2",
-    "fingerprint": "d58e2f7741007b5353365020559b9e40",
+    "fingerprint": "aee40ccf6ee21fc064b3125b9d8b1514",
     "generatorParams": {
-      "value": 6,
-      "factor": 100,
-      "from": "m",
-      "to": "cm"
+      "major": 6,
+      "minor": 13,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "m",
+      "minorUnit": "cm",
+      "targetUnit": "cm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -1124,10 +1192,10 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "6 m bằng bao nhiêu cm?",
+    "stem": "6 m 13 cm bằng bao nhiêu cm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 600,
+      "value": 613,
       "unit": "cm"
     },
     "solutionSteps": [
@@ -1137,7 +1205,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -1151,7 +1219,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -1165,20 +1233,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "6 × 100 = 600, nên 6 m = 600 cm.",
+    "explanation": "Vì 1 m = 100 cm và 1 cm = 1 cm, ta có 6 × 100 + 13 × 1 = 613 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-35eeb8c745ddad36",
+    "id": "g4-length-conversion-9d623217ee6f9a3f",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t3",
-    "fingerprint": "dca30d7bbbc837a4934e29b97feb8ba3",
+    "fingerprint": "9fb4d9227003cbee7208145e0f100551",
     "generatorParams": {
-      "value": 6,
-      "factor": 1000,
-      "from": "km",
-      "to": "m"
+      "major": 6,
+      "minor": 16,
+      "majorFactor": 1000,
+      "minorFactor": 1,
+      "majorUnit": "km",
+      "minorUnit": "m",
+      "targetUnit": "m",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -1190,28 +1262,28 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "6 km bằng bao nhiêu m?",
+    "stem": "6 km 16 m bằng bao nhiêu m?",
     "options": [
       {
         "id": "option-1",
-        "label": "6000 m"
+        "label": "6617 m"
       },
       {
         "id": "option-2",
-        "label": "5400 m"
+        "label": "7218 m"
       },
       {
         "id": "option-3",
-        "label": "7200 m"
+        "label": "5415 m"
       },
       {
         "id": "option-4",
-        "label": "6600 m"
+        "label": "6016 m"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-1"
+      "optionId": "option-4"
     },
     "solutionSteps": [
       {
@@ -1220,7 +1292,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+        "instruction": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -1234,7 +1306,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+        "text": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -1248,20 +1320,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "6 × 1000 = 6.000, nên 6 km = 6.000 m.",
+    "explanation": "Vì 1 km = 1.000 m và 1 m = 1 m, ta có 6 × 1.000 + 16 × 1 = 6.016 m.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-9fc4fd6a43a51449",
+    "id": "g4-length-conversion-82a3684c2a5b42d0",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t4",
-    "fingerprint": "9e7e506d2c1f29781c88d624404024ef",
+    "fingerprint": "2d2b27b7bbe6294cb2f99e784272c112",
     "generatorParams": {
-      "value": 6,
-      "factor": 10,
-      "from": "cm",
-      "to": "mm"
+      "major": 6,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "cm",
+      "minorUnit": "",
+      "targetUnit": "mm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -1285,7 +1361,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -1299,7 +1375,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -1313,20 +1389,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "6 × 10 = 60, nên 6 cm = 60 mm.",
+    "explanation": "Vì 1 cm = 10 mm, ta có 6 × 10 = 60 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-0ae596439bab5079",
+    "id": "g4-length-conversion-6e18cc2a627e96fe",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t5",
-    "fingerprint": "93b373deb221dd404f5cdcad8fe7b679",
+    "fingerprint": "79813c0f6eeecf288210a2a53367bf1f",
     "generatorParams": {
-      "value": 6,
-      "factor": 100,
-      "from": "dm",
-      "to": "mm"
+      "major": 6,
+      "minor": 22,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "dm",
+      "minorUnit": "mm",
+      "targetUnit": "mm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -1338,10 +1418,10 @@
     "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "6 dm bằng bao nhiêu mm?",
+    "stem": "6 dm 22 mm bằng bao nhiêu mm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 600,
+      "value": 622,
       "unit": "mm"
     },
     "solutionSteps": [
@@ -1351,7 +1431,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -1365,7 +1445,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -1379,20 +1459,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "6 × 100 = 600, nên 6 dm = 600 mm.",
+    "explanation": "Vì 1 dm = 100 mm và 1 mm = 1 mm, ta có 6 × 100 + 22 × 1 = 622 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-54fd184c1a479f3c",
+    "id": "g4-length-conversion-60292cddd06feed6",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t1",
-    "fingerprint": "780d6d72dad1edb52715586aa9fcc9a7",
+    "fingerprint": "ccbbc86e9f76d421888d21fc43682704",
     "generatorParams": {
-      "value": 7,
-      "factor": 10,
-      "from": "dm",
-      "to": "cm"
+      "major": 7,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "dm",
+      "minorUnit": "",
+      "targetUnit": "cm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -1417,7 +1501,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -1431,7 +1515,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -1445,20 +1529,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "7 × 10 = 70, nên 7 dm = 70 cm.",
+    "explanation": "Vì 1 dm = 10 cm, ta có 7 × 10 = 70 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-2ab0cb53d998293b",
+    "id": "g4-length-conversion-d09f624a1b1a020e",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t2",
-    "fingerprint": "3b36d67163b35ab5d64fa526a9d98e65",
+    "fingerprint": "9d3562292a0c5e1fa5d691c5456f4ad2",
     "generatorParams": {
-      "value": 7,
-      "factor": 100,
-      "from": "m",
-      "to": "cm"
+      "major": 7,
+      "minor": 17,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "m",
+      "minorUnit": "cm",
+      "targetUnit": "cm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -1470,10 +1558,10 @@
     "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "7 m bằng bao nhiêu cm?",
+    "stem": "7 m 17 cm bằng bao nhiêu cm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 700,
+      "value": 717,
       "unit": "cm"
     },
     "solutionSteps": [
@@ -1483,7 +1571,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -1497,7 +1585,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -1511,20 +1599,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "7 × 100 = 700, nên 7 m = 700 cm.",
+    "explanation": "Vì 1 m = 100 cm và 1 cm = 1 cm, ta có 7 × 100 + 17 × 1 = 717 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-604694f32fc31f85",
+    "id": "g4-length-conversion-af4a687ab2042cad",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t3",
-    "fingerprint": "6dc1f8bd0b0fc3a7f55b649545844b30",
+    "fingerprint": "7176076b59b0349e69525c325f90864a",
     "generatorParams": {
-      "value": 7,
-      "factor": 1000,
-      "from": "km",
-      "to": "m"
+      "major": 7,
+      "minor": 21,
+      "majorFactor": 1000,
+      "minorFactor": 1,
+      "majorUnit": "km",
+      "minorUnit": "m",
+      "targetUnit": "m",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -1536,28 +1628,28 @@
     "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "7 km bằng bao nhiêu m?",
+    "stem": "7 km 21 m bằng bao nhiêu m?",
     "options": [
       {
         "id": "option-1",
-        "label": "8400 m"
+        "label": "7021 m"
       },
       {
         "id": "option-2",
-        "label": "7000 m"
+        "label": "7723 m"
       },
       {
         "id": "option-3",
-        "label": "6300 m"
+        "label": "8425 m"
       },
       {
         "id": "option-4",
-        "label": "7700 m"
+        "label": "6319 m"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-2"
+      "optionId": "option-1"
     },
     "solutionSteps": [
       {
@@ -1566,7 +1658,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+        "instruction": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -1580,7 +1672,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+        "text": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -1594,20 +1686,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "7 × 1000 = 7.000, nên 7 km = 7.000 m.",
+    "explanation": "Vì 1 km = 1.000 m và 1 m = 1 m, ta có 7 × 1.000 + 21 × 1 = 7.021 m.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-13f0dd29240b418f",
+    "id": "g4-length-conversion-bbd8d71c78173d3b",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t4",
-    "fingerprint": "82d0cd0db3421f47904f34b6ef1c1a87",
+    "fingerprint": "286ecf1e6ac2e29878eda357a7a8a6fa",
     "generatorParams": {
-      "value": 7,
-      "factor": 10,
-      "from": "cm",
-      "to": "mm"
+      "major": 7,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "cm",
+      "minorUnit": "",
+      "targetUnit": "mm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -1631,7 +1727,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -1645,7 +1741,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -1659,20 +1755,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "7 × 10 = 70, nên 7 cm = 70 mm.",
+    "explanation": "Vì 1 cm = 10 mm, ta có 7 × 10 = 70 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-5544fd9e8aa2419b",
+    "id": "g4-length-conversion-f580730fb51462c8",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t5",
-    "fingerprint": "c913be245327e9a36844d87f05035eed",
+    "fingerprint": "bf76f0c8d7ece5d47fe6221a1f6f9908",
     "generatorParams": {
-      "value": 7,
-      "factor": 100,
-      "from": "dm",
-      "to": "mm"
+      "major": 7,
+      "minor": 29,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "dm",
+      "minorUnit": "mm",
+      "targetUnit": "mm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -1684,10 +1784,10 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "7 dm bằng bao nhiêu mm?",
+    "stem": "7 dm 29 mm bằng bao nhiêu mm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 700,
+      "value": 729,
       "unit": "mm"
     },
     "solutionSteps": [
@@ -1697,7 +1797,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -1711,7 +1811,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -1725,20 +1825,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "7 × 100 = 700, nên 7 dm = 700 mm.",
+    "explanation": "Vì 1 dm = 100 mm và 1 mm = 1 mm, ta có 7 × 100 + 29 × 1 = 729 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-71d29d33ce48f4d5",
+    "id": "g4-length-conversion-62b4abc014db7424",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t1",
-    "fingerprint": "f66359b192c064bf11e5193a065d052e",
+    "fingerprint": "21e1986619241f70c8121dd1caedf481",
     "generatorParams": {
-      "value": 8,
-      "factor": 10,
-      "from": "dm",
-      "to": "cm"
+      "major": 8,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "dm",
+      "minorUnit": "",
+      "targetUnit": "cm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -1763,7 +1867,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -1777,7 +1881,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -1791,20 +1895,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "8 × 10 = 80, nên 8 dm = 80 cm.",
+    "explanation": "Vì 1 dm = 10 cm, ta có 8 × 10 = 80 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-53ce138ea3848438",
+    "id": "g4-length-conversion-3ddfe9d1fc59a29c",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t2",
-    "fingerprint": "842179886575c3a466c0161db41cbc09",
+    "fingerprint": "556060b400234b214f481910e44d659f",
     "generatorParams": {
-      "value": 8,
-      "factor": 100,
-      "from": "m",
-      "to": "cm"
+      "major": 8,
+      "minor": 21,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "m",
+      "minorUnit": "cm",
+      "targetUnit": "cm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -1816,10 +1924,10 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "8 m bằng bao nhiêu cm?",
+    "stem": "8 m 21 cm bằng bao nhiêu cm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 800,
+      "value": 821,
       "unit": "cm"
     },
     "solutionSteps": [
@@ -1829,7 +1937,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -1843,7 +1951,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -1857,20 +1965,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "8 × 100 = 800, nên 8 m = 800 cm.",
+    "explanation": "Vì 1 m = 100 cm và 1 cm = 1 cm, ta có 8 × 100 + 21 × 1 = 821 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-0a31b005d61055b3",
+    "id": "g4-length-conversion-ebbc5398d1372adf",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t3",
-    "fingerprint": "6cc01fa5b9849bb96a8c31d4e7dd712b",
+    "fingerprint": "16008336a3dae52871eb3fe62d7e9182",
     "generatorParams": {
-      "value": 8,
-      "factor": 1000,
-      "from": "km",
-      "to": "m"
+      "major": 8,
+      "minor": 26,
+      "majorFactor": 1000,
+      "minorFactor": 1,
+      "majorUnit": "km",
+      "minorUnit": "m",
+      "targetUnit": "m",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -1882,23 +1994,23 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "8 km bằng bao nhiêu m?",
+    "stem": "8 km 26 m bằng bao nhiêu m?",
     "options": [
       {
         "id": "option-1",
-        "label": "9600 m"
+        "label": "9630 m"
       },
       {
         "id": "option-2",
-        "label": "8000 m"
+        "label": "8026 m"
       },
       {
         "id": "option-3",
-        "label": "8800 m"
+        "label": "8828 m"
       },
       {
         "id": "option-4",
-        "label": "7200 m"
+        "label": "7224 m"
       }
     ],
     "expectedAnswer": {
@@ -1912,7 +2024,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+        "instruction": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -1926,7 +2038,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+        "text": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -1940,20 +2052,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "8 × 1000 = 8.000, nên 8 km = 8.000 m.",
+    "explanation": "Vì 1 km = 1.000 m và 1 m = 1 m, ta có 8 × 1.000 + 26 × 1 = 8.026 m.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-027ec912e6977dca",
+    "id": "g4-length-conversion-1846ab81f1d68b35",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t4",
-    "fingerprint": "23fcf06f367fb10a8fcb090f1e24f0c1",
+    "fingerprint": "12e3bf98a3a660a22e4ff1f701113f17",
     "generatorParams": {
-      "value": 8,
-      "factor": 10,
-      "from": "cm",
-      "to": "mm"
+      "major": 8,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "cm",
+      "minorUnit": "",
+      "targetUnit": "mm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -1977,7 +2093,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -1991,7 +2107,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -2005,20 +2121,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "8 × 10 = 80, nên 8 cm = 80 mm.",
+    "explanation": "Vì 1 cm = 10 mm, ta có 8 × 10 = 80 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-3436d13b693c7468",
+    "id": "g4-length-conversion-acdb8c0433ac6f98",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t5",
-    "fingerprint": "14c2f2d0d7f8bf25a81da3ccd27be378",
+    "fingerprint": "5557ffab4ee05c9bbff38705deb1a36e",
     "generatorParams": {
-      "value": 8,
-      "factor": 100,
-      "from": "dm",
-      "to": "mm"
+      "major": 8,
+      "minor": 36,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "dm",
+      "minorUnit": "mm",
+      "targetUnit": "mm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -2030,10 +2150,10 @@
     "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "8 dm bằng bao nhiêu mm?",
+    "stem": "8 dm 36 mm bằng bao nhiêu mm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 800,
+      "value": 836,
       "unit": "mm"
     },
     "solutionSteps": [
@@ -2043,7 +2163,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -2057,7 +2177,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -2071,20 +2191,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "8 × 100 = 800, nên 8 dm = 800 mm.",
+    "explanation": "Vì 1 dm = 100 mm và 1 mm = 1 mm, ta có 8 × 100 + 36 × 1 = 836 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-0b44cde00f6eca72",
+    "id": "g4-length-conversion-f855e20204567bfe",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t1",
-    "fingerprint": "ebf3a4ee6d7053e7509bb215fbffb187",
+    "fingerprint": "56ce0c9bb29a7ac51e20383b20ee5393",
     "generatorParams": {
-      "value": 19,
-      "factor": 10,
-      "from": "dm",
-      "to": "cm"
+      "major": 19,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "dm",
+      "minorUnit": "",
+      "targetUnit": "cm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -2109,7 +2233,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -2123,7 +2247,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -2137,20 +2261,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "19 × 10 = 190, nên 19 dm = 190 cm.",
+    "explanation": "Vì 1 dm = 10 cm, ta có 19 × 10 = 190 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-25e2aaf788820f86",
+    "id": "g4-length-conversion-e3aea9696eae9c1f",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t2",
-    "fingerprint": "9a6e27b35933b832fa58f6a4d4947699",
+    "fingerprint": "3aef41fce8086609612e9541d134ee51",
     "generatorParams": {
-      "value": 19,
-      "factor": 100,
-      "from": "m",
-      "to": "cm"
+      "major": 19,
+      "minor": 30,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "m",
+      "minorUnit": "cm",
+      "targetUnit": "cm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -2162,10 +2290,10 @@
     "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "19 m bằng bao nhiêu cm?",
+    "stem": "19 m 30 cm bằng bao nhiêu cm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 1900,
+      "value": 1930,
       "unit": "cm"
     },
     "solutionSteps": [
@@ -2175,7 +2303,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -2189,7 +2317,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -2203,20 +2331,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "19 × 100 = 1.900, nên 19 m = 1.900 cm.",
+    "explanation": "Vì 1 m = 100 cm và 1 cm = 1 cm, ta có 19 × 100 + 30 × 1 = 1.930 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-c365020c2bcf8d2c",
+    "id": "g4-length-conversion-c4c6c6389dd1f0fb",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t3",
-    "fingerprint": "5a29d246c4fdb1ce3b52f9a2cd95ee23",
+    "fingerprint": "2e625d4c1c4109ac11d0777522fee1dc",
     "generatorParams": {
-      "value": 19,
-      "factor": 1000,
-      "from": "km",
-      "to": "m"
+      "major": 19,
+      "minor": 36,
+      "majorFactor": 1000,
+      "minorFactor": 1,
+      "majorUnit": "km",
+      "minorUnit": "m",
+      "targetUnit": "m",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -2228,28 +2360,28 @@
     "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "19 km bằng bao nhiêu m?",
+    "stem": "19 km 36 m bằng bao nhiêu m?",
     "options": [
       {
         "id": "option-1",
-        "label": "20900 m"
+        "label": "19036 m"
       },
       {
         "id": "option-2",
-        "label": "17100 m"
+        "label": "17133 m"
       },
       {
         "id": "option-3",
-        "label": "22800 m"
+        "label": "20939 m"
       },
       {
         "id": "option-4",
-        "label": "19000 m"
+        "label": "22842 m"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-4"
+      "optionId": "option-1"
     },
     "solutionSteps": [
       {
@@ -2258,7 +2390,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+        "instruction": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -2272,7 +2404,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+        "text": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -2286,20 +2418,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "19 × 1000 = 19.000, nên 19 km = 19.000 m.",
+    "explanation": "Vì 1 km = 1.000 m và 1 m = 1 m, ta có 19 × 1.000 + 36 × 1 = 19.036 m.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-40350ff23edb9f1b",
+    "id": "g4-length-conversion-d1fccbe0d524f1ee",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t4",
-    "fingerprint": "2b9c650b4d14f0cef5b810412ae288f1",
+    "fingerprint": "763920e26bbd93b08ff3dd69182eb467",
     "generatorParams": {
-      "value": 19,
-      "factor": 10,
-      "from": "cm",
-      "to": "mm"
+      "major": 19,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "cm",
+      "minorUnit": "",
+      "targetUnit": "mm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -2323,7 +2459,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -2337,7 +2473,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -2351,20 +2487,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "19 × 10 = 190, nên 19 cm = 190 mm.",
+    "explanation": "Vì 1 cm = 10 mm, ta có 19 × 10 = 190 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-8b211369d174f62f",
+    "id": "g4-length-conversion-d497f34111f145ee",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t5",
-    "fingerprint": "03c39e2b6d479b343268319a860281a3",
+    "fingerprint": "91f8b40fe5527180e650891feccf26b1",
     "generatorParams": {
-      "value": 19,
-      "factor": 100,
-      "from": "dm",
-      "to": "mm"
+      "major": 19,
+      "minor": 48,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "dm",
+      "minorUnit": "mm",
+      "targetUnit": "mm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -2376,10 +2516,10 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "19 dm bằng bao nhiêu mm?",
+    "stem": "19 dm 48 mm bằng bao nhiêu mm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 1900,
+      "value": 1948,
       "unit": "mm"
     },
     "solutionSteps": [
@@ -2389,7 +2529,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -2403,7 +2543,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -2417,20 +2557,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "19 × 100 = 1.900, nên 19 dm = 1.900 mm.",
+    "explanation": "Vì 1 dm = 100 mm và 1 mm = 1 mm, ta có 19 × 100 + 48 × 1 = 1.948 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-31d92e7b7c489855",
+    "id": "g4-length-conversion-6eae9419345cb3ae",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t1",
-    "fingerprint": "1342ba9f028e441a805b3f75f45ae261",
+    "fingerprint": "a29139d1ccd722a9f8cebda4901ec0f0",
     "generatorParams": {
-      "value": 20,
-      "factor": 10,
-      "from": "dm",
-      "to": "cm"
+      "major": 20,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "dm",
+      "minorUnit": "",
+      "targetUnit": "cm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -2455,7 +2599,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -2469,7 +2613,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -2483,20 +2627,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "20 × 10 = 200, nên 20 dm = 200 cm.",
+    "explanation": "Vì 1 dm = 10 cm, ta có 20 × 10 = 200 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-ac6c4efd6af975f0",
+    "id": "g4-length-conversion-489757f87834144d",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t2",
-    "fingerprint": "d6cf1c5c25cec40dd34223815e3b5ebf",
+    "fingerprint": "268d914ea08dd40f427453ac5da2753d",
     "generatorParams": {
-      "value": 20,
-      "factor": 100,
-      "from": "m",
-      "to": "cm"
+      "major": 20,
+      "minor": 34,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "m",
+      "minorUnit": "cm",
+      "targetUnit": "cm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -2508,10 +2656,10 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "20 m bằng bao nhiêu cm?",
+    "stem": "20 m 34 cm bằng bao nhiêu cm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 2000,
+      "value": 2034,
       "unit": "cm"
     },
     "solutionSteps": [
@@ -2521,7 +2669,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -2535,7 +2683,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -2549,20 +2697,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "20 × 100 = 2.000, nên 20 m = 2.000 cm.",
+    "explanation": "Vì 1 m = 100 cm và 1 cm = 1 cm, ta có 20 × 100 + 34 × 1 = 2.034 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-86fbc3280a336853",
+    "id": "g4-length-conversion-05f840eaa63aee18",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t3",
-    "fingerprint": "2ea4ff2a43278dc2cc4db90e540a67b7",
+    "fingerprint": "6c05359353aa2517bf02c4d61122ba7f",
     "generatorParams": {
-      "value": 20,
-      "factor": 1000,
-      "from": "km",
-      "to": "m"
+      "major": 20,
+      "minor": 41,
+      "majorFactor": 1000,
+      "minorFactor": 1,
+      "majorUnit": "km",
+      "minorUnit": "m",
+      "targetUnit": "m",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -2574,28 +2726,28 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "20 km bằng bao nhiêu m?",
+    "stem": "20 km 41 m bằng bao nhiêu m?",
     "options": [
       {
         "id": "option-1",
-        "label": "20000 m"
+        "label": "18037 m"
       },
       {
         "id": "option-2",
-        "label": "24000 m"
+        "label": "20041 m"
       },
       {
         "id": "option-3",
-        "label": "22000 m"
+        "label": "22045 m"
       },
       {
         "id": "option-4",
-        "label": "18000 m"
+        "label": "24049 m"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-1"
+      "optionId": "option-2"
     },
     "solutionSteps": [
       {
@@ -2604,7 +2756,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+        "instruction": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -2618,7 +2770,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+        "text": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -2632,20 +2784,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "20 × 1000 = 20.000, nên 20 km = 20.000 m.",
+    "explanation": "Vì 1 km = 1.000 m và 1 m = 1 m, ta có 20 × 1.000 + 41 × 1 = 20.041 m.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-22bd46c770b9c453",
+    "id": "g4-length-conversion-177085478d5e3914",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t4",
-    "fingerprint": "7a409347eabd08e437a5678d23f0cd67",
+    "fingerprint": "5b3a2818a637598c2d1b47937fc9fa1a",
     "generatorParams": {
-      "value": 20,
-      "factor": 10,
-      "from": "cm",
-      "to": "mm"
+      "major": 20,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "cm",
+      "minorUnit": "",
+      "targetUnit": "mm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -2669,7 +2825,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -2683,7 +2839,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -2697,20 +2853,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "20 × 10 = 200, nên 20 cm = 200 mm.",
+    "explanation": "Vì 1 cm = 10 mm, ta có 20 × 10 = 200 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-e736cfe3ee3a9f05",
+    "id": "g4-length-conversion-38a4ac9c1409537c",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t5",
-    "fingerprint": "1c81f79f9083add78fc70980f2207654",
+    "fingerprint": "51d54be00496cb43994d25a20267d56b",
     "generatorParams": {
-      "value": 20,
-      "factor": 100,
-      "from": "dm",
-      "to": "mm"
+      "major": 20,
+      "minor": 55,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "dm",
+      "minorUnit": "mm",
+      "targetUnit": "mm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -2722,10 +2882,10 @@
     "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "20 dm bằng bao nhiêu mm?",
+    "stem": "20 dm 55 mm bằng bao nhiêu mm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 2000,
+      "value": 2055,
       "unit": "mm"
     },
     "solutionSteps": [
@@ -2735,7 +2895,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -2749,7 +2909,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -2763,20 +2923,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "20 × 100 = 2.000, nên 20 dm = 2.000 mm.",
+    "explanation": "Vì 1 dm = 100 mm và 1 mm = 1 mm, ta có 20 × 100 + 55 × 1 = 2.055 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-5b467b458db82f37",
+    "id": "g4-length-conversion-7759019015228fb8",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t1",
-    "fingerprint": "f12439226c57ea9a3816918bf33e817b",
+    "fingerprint": "e9229efa0c77be83573810ce20a1df6a",
     "generatorParams": {
-      "value": 21,
-      "factor": 10,
-      "from": "dm",
-      "to": "cm"
+      "major": 21,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "dm",
+      "minorUnit": "",
+      "targetUnit": "cm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -2801,7 +2965,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -2815,7 +2979,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -2829,20 +2993,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "21 × 10 = 210, nên 21 dm = 210 cm.",
+    "explanation": "Vì 1 dm = 10 cm, ta có 21 × 10 = 210 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-820bd6de0a807221",
+    "id": "g4-length-conversion-a5d7515c6988db95",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t2",
-    "fingerprint": "4ef7e4e0904eb12df27e2d355a9a2a87",
+    "fingerprint": "c10fc29c62dae5fbbafbcf51c1281e24",
     "generatorParams": {
-      "value": 21,
-      "factor": 100,
-      "from": "m",
-      "to": "cm"
+      "major": 21,
+      "minor": 38,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "m",
+      "minorUnit": "cm",
+      "targetUnit": "cm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -2854,10 +3022,10 @@
     "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "21 m bằng bao nhiêu cm?",
+    "stem": "21 m 38 cm bằng bao nhiêu cm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 2100,
+      "value": 2138,
       "unit": "cm"
     },
     "solutionSteps": [
@@ -2867,7 +3035,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -2881,7 +3049,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -2895,20 +3063,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "21 × 100 = 2.100, nên 21 m = 2.100 cm.",
+    "explanation": "Vì 1 m = 100 cm và 1 cm = 1 cm, ta có 21 × 100 + 38 × 1 = 2.138 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-3d9b96b25948f6db",
+    "id": "g4-length-conversion-aa160d720cdabd02",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t3",
-    "fingerprint": "474157a1fd2b95fbe8ea6c137e9aaf8b",
+    "fingerprint": "e9633cc68868cd2b7c33e6b98754f163",
     "generatorParams": {
-      "value": 21,
-      "factor": 1000,
-      "from": "km",
-      "to": "m"
+      "major": 21,
+      "minor": 46,
+      "majorFactor": 1000,
+      "minorFactor": 1,
+      "majorUnit": "km",
+      "minorUnit": "m",
+      "targetUnit": "m",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -2920,23 +3092,23 @@
     "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "21 km bằng bao nhiêu m?",
+    "stem": "21 km 46 m bằng bao nhiêu m?",
     "options": [
       {
         "id": "option-1",
-        "label": "21000 m"
+        "label": "21046 m"
       },
       {
         "id": "option-2",
-        "label": "23100 m"
+        "label": "18942 m"
       },
       {
         "id": "option-3",
-        "label": "18900 m"
+        "label": "25254 m"
       },
       {
         "id": "option-4",
-        "label": "25200 m"
+        "label": "23150 m"
       }
     ],
     "expectedAnswer": {
@@ -2950,7 +3122,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+        "instruction": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -2964,7 +3136,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+        "text": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -2978,20 +3150,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "21 × 1000 = 21.000, nên 21 km = 21.000 m.",
+    "explanation": "Vì 1 km = 1.000 m và 1 m = 1 m, ta có 21 × 1.000 + 46 × 1 = 21.046 m.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-c960b1fb323fd97c",
+    "id": "g4-length-conversion-bcc8da77c41ab7de",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t4",
-    "fingerprint": "5aff1e43d48b659ae7ad10d7af94958c",
+    "fingerprint": "a1e877eb91af2b96e899c0f6c1236a02",
     "generatorParams": {
-      "value": 21,
-      "factor": 10,
-      "from": "cm",
-      "to": "mm"
+      "major": 21,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "cm",
+      "minorUnit": "",
+      "targetUnit": "mm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -3015,7 +3191,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -3029,7 +3205,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -3043,20 +3219,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "21 × 10 = 210, nên 21 cm = 210 mm.",
+    "explanation": "Vì 1 cm = 10 mm, ta có 21 × 10 = 210 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-ee4ede6d51ea85b5",
+    "id": "g4-length-conversion-6c39cefbb23ac70b",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t5",
-    "fingerprint": "eb01cd5cfce47230049a0f97ea680d5f",
+    "fingerprint": "fe8db3e11a6d465a20a942ee1b9f2ec7",
     "generatorParams": {
-      "value": 21,
-      "factor": 100,
-      "from": "dm",
-      "to": "mm"
+      "major": 21,
+      "minor": 62,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "dm",
+      "minorUnit": "mm",
+      "targetUnit": "mm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -3068,10 +3248,10 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "21 dm bằng bao nhiêu mm?",
+    "stem": "21 dm 62 mm bằng bao nhiêu mm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 2100,
+      "value": 2162,
       "unit": "mm"
     },
     "solutionSteps": [
@@ -3081,7 +3261,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -3095,7 +3275,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -3109,20 +3289,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "21 × 100 = 2.100, nên 21 dm = 2.100 mm.",
+    "explanation": "Vì 1 dm = 100 mm và 1 mm = 1 mm, ta có 21 × 100 + 62 × 1 = 2.162 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-35b40367d92b8009",
+    "id": "g4-length-conversion-ccc2e6db2280c027",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t1",
-    "fingerprint": "5f5548413e76c4188a1e566d037b64da",
+    "fingerprint": "4e82b4ccf23fe9904a9f9599ae24041f",
     "generatorParams": {
-      "value": 22,
-      "factor": 10,
-      "from": "dm",
-      "to": "cm"
+      "major": 22,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "dm",
+      "minorUnit": "",
+      "targetUnit": "cm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -3147,7 +3331,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -3161,7 +3345,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -3175,20 +3359,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "22 × 10 = 220, nên 22 dm = 220 cm.",
+    "explanation": "Vì 1 dm = 10 cm, ta có 22 × 10 = 220 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-65dfbf95ec3b11b7",
+    "id": "g4-length-conversion-2af260a869ce1e3e",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t2",
-    "fingerprint": "35f437d08395ecf2b1c963313d1de7d1",
+    "fingerprint": "cd8a612e0e0ac684e8a6f2ae0c2bbc5a",
     "generatorParams": {
-      "value": 22,
-      "factor": 100,
-      "from": "m",
-      "to": "cm"
+      "major": 22,
+      "minor": 42,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "m",
+      "minorUnit": "cm",
+      "targetUnit": "cm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -3200,10 +3388,10 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "22 m bằng bao nhiêu cm?",
+    "stem": "22 m 42 cm bằng bao nhiêu cm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 2200,
+      "value": 2242,
       "unit": "cm"
     },
     "solutionSteps": [
@@ -3213,7 +3401,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -3227,7 +3415,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -3241,20 +3429,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "22 × 100 = 2.200, nên 22 m = 2.200 cm.",
+    "explanation": "Vì 1 m = 100 cm và 1 cm = 1 cm, ta có 22 × 100 + 42 × 1 = 2.242 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-27d2e4bde57e0696",
+    "id": "g4-length-conversion-b9343887b7f94fa8",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t3",
-    "fingerprint": "332752a36c39bec337380965831c7798",
+    "fingerprint": "11ff04d449bf6fe9b07fbacec3c02b2e",
     "generatorParams": {
-      "value": 22,
-      "factor": 1000,
-      "from": "km",
-      "to": "m"
+      "major": 22,
+      "minor": 51,
+      "majorFactor": 1000,
+      "minorFactor": 1,
+      "majorUnit": "km",
+      "minorUnit": "m",
+      "targetUnit": "m",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -3266,28 +3458,28 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "22 km bằng bao nhiêu m?",
+    "stem": "22 km 51 m bằng bao nhiêu m?",
     "options": [
       {
         "id": "option-1",
-        "label": "22000 m"
+        "label": "19846 m"
       },
       {
         "id": "option-2",
-        "label": "24200 m"
+        "label": "24256 m"
       },
       {
         "id": "option-3",
-        "label": "19800 m"
+        "label": "22051 m"
       },
       {
         "id": "option-4",
-        "label": "26400 m"
+        "label": "26461 m"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-1"
+      "optionId": "option-3"
     },
     "solutionSteps": [
       {
@@ -3296,7 +3488,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+        "instruction": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -3310,7 +3502,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+        "text": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -3324,20 +3516,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "22 × 1000 = 22.000, nên 22 km = 22.000 m.",
+    "explanation": "Vì 1 km = 1.000 m và 1 m = 1 m, ta có 22 × 1.000 + 51 × 1 = 22.051 m.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-eaf4f535a5750271",
+    "id": "g4-length-conversion-b63ec2342d134e38",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t4",
-    "fingerprint": "ba3a47583ef5c1d5acb5e76981d3ae1f",
+    "fingerprint": "3c371f2b3f0f7cb0cc30037b48e43496",
     "generatorParams": {
-      "value": 22,
-      "factor": 10,
-      "from": "cm",
-      "to": "mm"
+      "major": 22,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "cm",
+      "minorUnit": "",
+      "targetUnit": "mm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -3361,7 +3557,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -3375,7 +3571,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -3389,20 +3585,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "22 × 10 = 220, nên 22 cm = 220 mm.",
+    "explanation": "Vì 1 cm = 10 mm, ta có 22 × 10 = 220 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-28c402f0206f74af",
+    "id": "g4-length-conversion-55eee9a9777a19cd",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t5",
-    "fingerprint": "bd518858b12c2d2549977446172439e7",
+    "fingerprint": "612da0708a5e12695959e2b0f569cf25",
     "generatorParams": {
-      "value": 22,
-      "factor": 100,
-      "from": "dm",
-      "to": "mm"
+      "major": 22,
+      "minor": 69,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "dm",
+      "minorUnit": "mm",
+      "targetUnit": "mm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -3414,10 +3614,10 @@
     "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "22 dm bằng bao nhiêu mm?",
+    "stem": "22 dm 69 mm bằng bao nhiêu mm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 2200,
+      "value": 2269,
       "unit": "mm"
     },
     "solutionSteps": [
@@ -3427,7 +3627,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -3441,7 +3641,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -3455,20 +3655,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "22 × 100 = 2.200, nên 22 dm = 2.200 mm.",
+    "explanation": "Vì 1 dm = 100 mm và 1 mm = 1 mm, ta có 22 × 100 + 69 × 1 = 2.269 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-c02786ea9c29aeb8",
+    "id": "g4-length-conversion-c026a7cc34c5181b",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t1",
-    "fingerprint": "e614b77da0b3196385b650677f458b9e",
+    "fingerprint": "61446605e0adad2c468f4a53d15b47eb",
     "generatorParams": {
-      "value": 23,
-      "factor": 10,
-      "from": "dm",
-      "to": "cm"
+      "major": 23,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "dm",
+      "minorUnit": "",
+      "targetUnit": "cm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -3493,7 +3697,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -3507,7 +3711,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -3521,20 +3725,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "23 × 10 = 230, nên 23 dm = 230 cm.",
+    "explanation": "Vì 1 dm = 10 cm, ta có 23 × 10 = 230 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-9215db449332eff3",
+    "id": "g4-length-conversion-27270c46de3a8e03",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t2",
-    "fingerprint": "449d21fa703223def50096d0533691cb",
+    "fingerprint": "de0103c9e8a6aee66eab2125944a5f10",
     "generatorParams": {
-      "value": 23,
-      "factor": 100,
-      "from": "m",
-      "to": "cm"
+      "major": 23,
+      "minor": 46,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "m",
+      "minorUnit": "cm",
+      "targetUnit": "cm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -3546,10 +3754,10 @@
     "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "23 m bằng bao nhiêu cm?",
+    "stem": "23 m 46 cm bằng bao nhiêu cm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 2300,
+      "value": 2346,
       "unit": "cm"
     },
     "solutionSteps": [
@@ -3559,7 +3767,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -3573,7 +3781,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -3587,20 +3795,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "23 × 100 = 2.300, nên 23 m = 2.300 cm.",
+    "explanation": "Vì 1 m = 100 cm và 1 cm = 1 cm, ta có 23 × 100 + 46 × 1 = 2.346 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-fc442fff2a823368",
+    "id": "g4-length-conversion-6cd6d8679dad62ce",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t3",
-    "fingerprint": "1330375ad55b5e77ae71f15bf9ecef48",
+    "fingerprint": "3665628657e9740c5abd90953cbe9d29",
     "generatorParams": {
-      "value": 23,
-      "factor": 1000,
-      "from": "km",
-      "to": "m"
+      "major": 23,
+      "minor": 56,
+      "majorFactor": 1000,
+      "minorFactor": 1,
+      "majorUnit": "km",
+      "minorUnit": "m",
+      "targetUnit": "m",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -3612,23 +3824,23 @@
     "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "23 km bằng bao nhiêu m?",
+    "stem": "23 km 56 m bằng bao nhiêu m?",
     "options": [
       {
         "id": "option-1",
-        "label": "20700 m"
+        "label": "20751 m"
       },
       {
         "id": "option-2",
-        "label": "27600 m"
+        "label": "27666 m"
       },
       {
         "id": "option-3",
-        "label": "23000 m"
+        "label": "23056 m"
       },
       {
         "id": "option-4",
-        "label": "25300 m"
+        "label": "25361 m"
       }
     ],
     "expectedAnswer": {
@@ -3642,7 +3854,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+        "instruction": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -3656,7 +3868,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+        "text": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -3670,20 +3882,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "23 × 1000 = 23.000, nên 23 km = 23.000 m.",
+    "explanation": "Vì 1 km = 1.000 m và 1 m = 1 m, ta có 23 × 1.000 + 56 × 1 = 23.056 m.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-c4c8fcfe37b7db24",
+    "id": "g4-length-conversion-42809bb10cb5e56f",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t4",
-    "fingerprint": "4c05f3005136afe8f0d92fbcf2d11405",
+    "fingerprint": "da9be4e0f27a1bd59cf4da73567b66aa",
     "generatorParams": {
-      "value": 23,
-      "factor": 10,
-      "from": "cm",
-      "to": "mm"
+      "major": 23,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "cm",
+      "minorUnit": "",
+      "targetUnit": "mm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -3707,7 +3923,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -3721,7 +3937,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -3735,20 +3951,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "23 × 10 = 230, nên 23 cm = 230 mm.",
+    "explanation": "Vì 1 cm = 10 mm, ta có 23 × 10 = 230 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-4bc700ca8ea772d3",
+    "id": "g4-length-conversion-cb1d96618fb87490",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t5",
-    "fingerprint": "775a0196edd793618fb79ce240d2d1e5",
+    "fingerprint": "883612db7c3e80d05b7040557a74085e",
     "generatorParams": {
-      "value": 23,
-      "factor": 100,
-      "from": "dm",
-      "to": "mm"
+      "major": 23,
+      "minor": 76,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "dm",
+      "minorUnit": "mm",
+      "targetUnit": "mm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -3760,10 +3980,10 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "23 dm bằng bao nhiêu mm?",
+    "stem": "23 dm 76 mm bằng bao nhiêu mm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 2300,
+      "value": 2376,
       "unit": "mm"
     },
     "solutionSteps": [
@@ -3773,7 +3993,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -3787,7 +4007,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -3801,20 +4021,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "23 × 100 = 2.300, nên 23 dm = 2.300 mm.",
+    "explanation": "Vì 1 dm = 100 mm và 1 mm = 1 mm, ta có 23 × 100 + 76 × 1 = 2.376 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-3833dfeacbd26aab",
+    "id": "g4-length-conversion-0b48e2b6eb849144",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t1",
-    "fingerprint": "d8ca1b530cee11d8f9c1b38d7d1828c8",
+    "fingerprint": "8bd40180a74436659877759c09f07f42",
     "generatorParams": {
-      "value": 24,
-      "factor": 10,
-      "from": "dm",
-      "to": "cm"
+      "major": 24,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "dm",
+      "minorUnit": "",
+      "targetUnit": "cm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -3839,7 +4063,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -3853,7 +4077,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -3867,20 +4091,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "24 × 10 = 240, nên 24 dm = 240 cm.",
+    "explanation": "Vì 1 dm = 10 cm, ta có 24 × 10 = 240 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-00e31ae87b2cb3d3",
+    "id": "g4-length-conversion-356ab439da7576f9",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t2",
-    "fingerprint": "53e3d98c686e3d8cbe7ec5c4ddff7b07",
+    "fingerprint": "b78e67f96c97e765777d1ea826e791ce",
     "generatorParams": {
-      "value": 24,
-      "factor": 100,
-      "from": "m",
-      "to": "cm"
+      "major": 24,
+      "minor": 50,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "m",
+      "minorUnit": "cm",
+      "targetUnit": "cm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -3892,10 +4120,10 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "24 m bằng bao nhiêu cm?",
+    "stem": "24 m 50 cm bằng bao nhiêu cm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 2400,
+      "value": 2450,
       "unit": "cm"
     },
     "solutionSteps": [
@@ -3905,7 +4133,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -3919,7 +4147,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -3933,20 +4161,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "24 × 100 = 2.400, nên 24 m = 2.400 cm.",
+    "explanation": "Vì 1 m = 100 cm và 1 cm = 1 cm, ta có 24 × 100 + 50 × 1 = 2.450 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-7f5be2c78489b587",
+    "id": "g4-length-conversion-d4a264ddbf0a53e8",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t3",
-    "fingerprint": "f5f10c90965d53c30b3014cd244ad04f",
+    "fingerprint": "69c8068a99217aaa4dd49c42d3a56419",
     "generatorParams": {
-      "value": 24,
-      "factor": 1000,
-      "from": "km",
-      "to": "m"
+      "major": 24,
+      "minor": 61,
+      "majorFactor": 1000,
+      "minorFactor": 1,
+      "majorUnit": "km",
+      "minorUnit": "m",
+      "targetUnit": "m",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -3958,28 +4190,28 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "24 km bằng bao nhiêu m?",
+    "stem": "24 km 61 m bằng bao nhiêu m?",
     "options": [
       {
         "id": "option-1",
-        "label": "28800 m"
+        "label": "24061 m"
       },
       {
         "id": "option-2",
-        "label": "21600 m"
+        "label": "26467 m"
       },
       {
         "id": "option-3",
-        "label": "26400 m"
+        "label": "21655 m"
       },
       {
         "id": "option-4",
-        "label": "24000 m"
+        "label": "28873 m"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-4"
+      "optionId": "option-1"
     },
     "solutionSteps": [
       {
@@ -3988,7 +4220,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+        "instruction": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -4002,7 +4234,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+        "text": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -4016,20 +4248,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "24 × 1000 = 24.000, nên 24 km = 24.000 m.",
+    "explanation": "Vì 1 km = 1.000 m và 1 m = 1 m, ta có 24 × 1.000 + 61 × 1 = 24.061 m.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-53c5e8379c01d9aa",
+    "id": "g4-length-conversion-7b96a44f925b97e4",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t4",
-    "fingerprint": "79189a9ffce010d8913d21b3fe89ccb2",
+    "fingerprint": "f327a1ff00af1433a06ddcfdb8a5fb63",
     "generatorParams": {
-      "value": 24,
-      "factor": 10,
-      "from": "cm",
-      "to": "mm"
+      "major": 24,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "cm",
+      "minorUnit": "",
+      "targetUnit": "mm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -4053,7 +4289,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -4067,7 +4303,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -4081,20 +4317,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "24 × 10 = 240, nên 24 cm = 240 mm.",
+    "explanation": "Vì 1 cm = 10 mm, ta có 24 × 10 = 240 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-2d73f00920d1f645",
+    "id": "g4-length-conversion-71113b8dbcb5a935",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t5",
-    "fingerprint": "e1ac972aa14d6e59825fc66a07ead61d",
+    "fingerprint": "464aca0289ffe169e4a03564b2afde07",
     "generatorParams": {
-      "value": 24,
-      "factor": 100,
-      "from": "dm",
-      "to": "mm"
+      "major": 24,
+      "minor": 83,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "dm",
+      "minorUnit": "mm",
+      "targetUnit": "mm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -4106,10 +4346,10 @@
     "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "24 dm bằng bao nhiêu mm?",
+    "stem": "24 dm 83 mm bằng bao nhiêu mm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 2400,
+      "value": 2483,
       "unit": "mm"
     },
     "solutionSteps": [
@@ -4119,7 +4359,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -4133,7 +4373,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -4147,20 +4387,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "24 × 100 = 2.400, nên 24 dm = 2.400 mm.",
+    "explanation": "Vì 1 dm = 100 mm và 1 mm = 1 mm, ta có 24 × 100 + 83 × 1 = 2.483 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-b0fd1a4e661818c7",
+    "id": "g4-length-conversion-d8db5978f18f113b",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t1",
-    "fingerprint": "4bb7ea4dc8fa9f165933b52d7fcb2fb3",
+    "fingerprint": "26d164527b237dda1ea5fff630cc5f29",
     "generatorParams": {
-      "value": 25,
-      "factor": 10,
-      "from": "dm",
-      "to": "cm"
+      "major": 25,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "dm",
+      "minorUnit": "",
+      "targetUnit": "cm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -4185,7 +4429,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -4199,7 +4443,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -4213,20 +4457,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "25 × 10 = 250, nên 25 dm = 250 cm.",
+    "explanation": "Vì 1 dm = 10 cm, ta có 25 × 10 = 250 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-4270feb3cd5e5872",
+    "id": "g4-length-conversion-360af0e2a9835540",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t2",
-    "fingerprint": "1f67bb4255c3331806002e219da7ab01",
+    "fingerprint": "5f24b32fde629aff51ff3238ad9d3a65",
     "generatorParams": {
-      "value": 25,
-      "factor": 100,
-      "from": "m",
-      "to": "cm"
+      "major": 25,
+      "minor": 54,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "m",
+      "minorUnit": "cm",
+      "targetUnit": "cm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -4238,10 +4486,10 @@
     "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "25 m bằng bao nhiêu cm?",
+    "stem": "25 m 54 cm bằng bao nhiêu cm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 2500,
+      "value": 2554,
       "unit": "cm"
     },
     "solutionSteps": [
@@ -4251,7 +4499,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -4265,7 +4513,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -4279,20 +4527,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "25 × 100 = 2.500, nên 25 m = 2.500 cm.",
+    "explanation": "Vì 1 m = 100 cm và 1 cm = 1 cm, ta có 25 × 100 + 54 × 1 = 2.554 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-edad21608fe966bc",
+    "id": "g4-length-conversion-0fb131ad217c52b2",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t3",
-    "fingerprint": "2ce9f2ad4ad8a8b261b3f9e7a27fa74a",
+    "fingerprint": "4a45cf1a9650302312b8ace5d0222121",
     "generatorParams": {
-      "value": 25,
-      "factor": 1000,
-      "from": "km",
-      "to": "m"
+      "major": 25,
+      "minor": 66,
+      "majorFactor": 1000,
+      "minorFactor": 1,
+      "majorUnit": "km",
+      "minorUnit": "m",
+      "targetUnit": "m",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -4304,28 +4556,28 @@
     "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "25 km bằng bao nhiêu m?",
+    "stem": "25 km 66 m bằng bao nhiêu m?",
     "options": [
       {
         "id": "option-1",
-        "label": "25000 m"
+        "label": "27572 m"
       },
       {
         "id": "option-2",
-        "label": "27500 m"
+        "label": "25066 m"
       },
       {
         "id": "option-3",
-        "label": "30000 m"
+        "label": "30078 m"
       },
       {
         "id": "option-4",
-        "label": "22500 m"
+        "label": "22560 m"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-1"
+      "optionId": "option-2"
     },
     "solutionSteps": [
       {
@@ -4334,7 +4586,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+        "instruction": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -4348,7 +4600,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+        "text": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -4362,20 +4614,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "25 × 1000 = 25.000, nên 25 km = 25.000 m.",
+    "explanation": "Vì 1 km = 1.000 m và 1 m = 1 m, ta có 25 × 1.000 + 66 × 1 = 25.066 m.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-ce5e1322fe2556dd",
+    "id": "g4-length-conversion-fd2f5cbcbb5935f5",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t4",
-    "fingerprint": "84c1b87c7b41536424968139123c2118",
+    "fingerprint": "ef14eaf450c8dc8828f98673598f613b",
     "generatorParams": {
-      "value": 25,
-      "factor": 10,
-      "from": "cm",
-      "to": "mm"
+      "major": 25,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "cm",
+      "minorUnit": "",
+      "targetUnit": "mm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -4399,7 +4655,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -4413,7 +4669,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -4427,20 +4683,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "25 × 10 = 250, nên 25 cm = 250 mm.",
+    "explanation": "Vì 1 cm = 10 mm, ta có 25 × 10 = 250 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-5f5582230e22fe76",
+    "id": "g4-length-conversion-73aa317db87b9f16",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t5",
-    "fingerprint": "8301218f3f7358be5ab52fc36fc9d437",
+    "fingerprint": "cb60a2440cf1bbcdfbd2c2d5a4a050bb",
     "generatorParams": {
-      "value": 25,
-      "factor": 100,
-      "from": "dm",
-      "to": "mm"
+      "major": 25,
+      "minor": 90,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "dm",
+      "minorUnit": "mm",
+      "targetUnit": "mm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -4452,10 +4712,10 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "25 dm bằng bao nhiêu mm?",
+    "stem": "25 dm 90 mm bằng bao nhiêu mm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 2500,
+      "value": 2590,
       "unit": "mm"
     },
     "solutionSteps": [
@@ -4465,7 +4725,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -4479,7 +4739,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -4493,20 +4753,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "25 × 100 = 2.500, nên 25 dm = 2.500 mm.",
+    "explanation": "Vì 1 dm = 100 mm và 1 mm = 1 mm, ta có 25 × 100 + 90 × 1 = 2.590 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-1e22f3c5f36f4708",
+    "id": "g4-length-conversion-288d4530cf2f05ff",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t1",
-    "fingerprint": "4c42b6ace0c959517bfb154a401b7c44",
+    "fingerprint": "c4b12dff85cdefe1d46642691aa8c71b",
     "generatorParams": {
-      "value": 26,
-      "factor": 10,
-      "from": "dm",
-      "to": "cm"
+      "major": 26,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "dm",
+      "minorUnit": "",
+      "targetUnit": "cm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -4531,7 +4795,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -4545,7 +4809,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -4559,20 +4823,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "26 × 10 = 260, nên 26 dm = 260 cm.",
+    "explanation": "Vì 1 dm = 10 cm, ta có 26 × 10 = 260 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-8281f1dfaeb3a4bd",
+    "id": "g4-length-conversion-22a5f2f111bd805d",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t2",
-    "fingerprint": "ccbf6b44ff830116c7aa0e1d7146cf29",
+    "fingerprint": "0a3d698ea56d7eaee5b09cf138eb6323",
     "generatorParams": {
-      "value": 26,
-      "factor": 100,
-      "from": "m",
-      "to": "cm"
+      "major": 26,
+      "minor": 58,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "m",
+      "minorUnit": "cm",
+      "targetUnit": "cm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -4584,10 +4852,10 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "26 m bằng bao nhiêu cm?",
+    "stem": "26 m 58 cm bằng bao nhiêu cm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 2600,
+      "value": 2658,
       "unit": "cm"
     },
     "solutionSteps": [
@@ -4597,7 +4865,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -4611,7 +4879,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -4625,20 +4893,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "26 × 100 = 2.600, nên 26 m = 2.600 cm.",
+    "explanation": "Vì 1 m = 100 cm và 1 cm = 1 cm, ta có 26 × 100 + 58 × 1 = 2.658 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-d85bca5e711e4064",
+    "id": "g4-length-conversion-cf0709b368626ad7",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t3",
-    "fingerprint": "c21b61179e7fff7833805d7fbf4c8254",
+    "fingerprint": "ccd04af639ff55744307e1501c701ccb",
     "generatorParams": {
-      "value": 26,
-      "factor": 1000,
-      "from": "km",
-      "to": "m"
+      "major": 26,
+      "minor": 71,
+      "majorFactor": 1000,
+      "minorFactor": 1,
+      "majorUnit": "km",
+      "minorUnit": "m",
+      "targetUnit": "m",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -4650,28 +4922,28 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "26 km bằng bao nhiêu m?",
+    "stem": "26 km 71 m bằng bao nhiêu m?",
     "options": [
       {
         "id": "option-1",
-        "label": "23400 m"
+        "label": "28678 m"
       },
       {
         "id": "option-2",
-        "label": "31200 m"
+        "label": "23464 m"
       },
       {
         "id": "option-3",
-        "label": "26000 m"
+        "label": "31285 m"
       },
       {
         "id": "option-4",
-        "label": "28600 m"
+        "label": "26071 m"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-3"
+      "optionId": "option-4"
     },
     "solutionSteps": [
       {
@@ -4680,7 +4952,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+        "instruction": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -4694,7 +4966,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+        "text": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -4708,20 +4980,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "26 × 1000 = 26.000, nên 26 km = 26.000 m.",
+    "explanation": "Vì 1 km = 1.000 m và 1 m = 1 m, ta có 26 × 1.000 + 71 × 1 = 26.071 m.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-9124fe007a61474f",
+    "id": "g4-length-conversion-3c449c4988f82938",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t4",
-    "fingerprint": "06dd7138a18cf3daaa1f7b020acbe3d0",
+    "fingerprint": "abe7dc0ac8c985bf27d1265804375df1",
     "generatorParams": {
-      "value": 26,
-      "factor": 10,
-      "from": "cm",
-      "to": "mm"
+      "major": 26,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "cm",
+      "minorUnit": "",
+      "targetUnit": "mm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -4745,7 +5021,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -4759,7 +5035,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -4773,20 +5049,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "26 × 10 = 260, nên 26 cm = 260 mm.",
+    "explanation": "Vì 1 cm = 10 mm, ta có 26 × 10 = 260 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-0989b82d2fb2192e",
+    "id": "g4-length-conversion-6ea9f03cab9d1681",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t5",
-    "fingerprint": "9958ca2cfd39ae97e4d5a0b3b68bba15",
+    "fingerprint": "d44f190ca391554e35e98353c7286b98",
     "generatorParams": {
-      "value": 26,
-      "factor": 100,
-      "from": "dm",
-      "to": "mm"
+      "major": 26,
+      "minor": 97,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "dm",
+      "minorUnit": "mm",
+      "targetUnit": "mm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -4798,10 +5078,10 @@
     "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "26 dm bằng bao nhiêu mm?",
+    "stem": "26 dm 97 mm bằng bao nhiêu mm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 2600,
+      "value": 2697,
       "unit": "mm"
     },
     "solutionSteps": [
@@ -4811,7 +5091,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -4825,7 +5105,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -4839,20 +5119,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "26 × 100 = 2.600, nên 26 dm = 2.600 mm.",
+    "explanation": "Vì 1 dm = 100 mm và 1 mm = 1 mm, ta có 26 × 100 + 97 × 1 = 2.697 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-bf038b53a56f7ae8",
+    "id": "g4-length-conversion-4b7af70105e9fc4b",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t1",
-    "fingerprint": "6f9c97c8ced5a51c53791708bd97c555",
+    "fingerprint": "de9d7724c8f492d2bffe33599b120eb2",
     "generatorParams": {
-      "value": 27,
-      "factor": 10,
-      "from": "dm",
-      "to": "cm"
+      "major": 27,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "dm",
+      "minorUnit": "",
+      "targetUnit": "cm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -4877,7 +5161,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -4891,7 +5175,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -4905,20 +5189,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "27 × 10 = 270, nên 27 dm = 270 cm.",
+    "explanation": "Vì 1 dm = 10 cm, ta có 27 × 10 = 270 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-08e6be3ddf1d1c56",
+    "id": "g4-length-conversion-2f6af4d749062ed5",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t2",
-    "fingerprint": "8db942423aa3b9b11e9a17303bef7e38",
+    "fingerprint": "82bdd1abafa6ab10d2a722e253a73ddc",
     "generatorParams": {
-      "value": 27,
-      "factor": 100,
-      "from": "m",
-      "to": "cm"
+      "major": 27,
+      "minor": 62,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "m",
+      "minorUnit": "cm",
+      "targetUnit": "cm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -4930,10 +5218,10 @@
     "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "27 m bằng bao nhiêu cm?",
+    "stem": "27 m 62 cm bằng bao nhiêu cm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 2700,
+      "value": 2762,
       "unit": "cm"
     },
     "solutionSteps": [
@@ -4943,7 +5231,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -4957,7 +5245,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -4971,20 +5259,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "27 × 100 = 2.700, nên 27 m = 2.700 cm.",
+    "explanation": "Vì 1 m = 100 cm và 1 cm = 1 cm, ta có 27 × 100 + 62 × 1 = 2.762 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-fbcf7cd9266ba470",
+    "id": "g4-length-conversion-ba9537f1d38db09a",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t3",
-    "fingerprint": "2c8aba6c0cd668e0a51090aa5993db42",
+    "fingerprint": "dff7abfef007c9241ecf4b420924460a",
     "generatorParams": {
-      "value": 27,
-      "factor": 1000,
-      "from": "km",
-      "to": "m"
+      "major": 27,
+      "minor": 76,
+      "majorFactor": 1000,
+      "minorFactor": 1,
+      "majorUnit": "km",
+      "minorUnit": "m",
+      "targetUnit": "m",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -4996,28 +5288,28 @@
     "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "27 km bằng bao nhiêu m?",
+    "stem": "27 km 76 m bằng bao nhiêu m?",
     "options": [
       {
         "id": "option-1",
-        "label": "32400 m"
+        "label": "27076 m"
       },
       {
         "id": "option-2",
-        "label": "24300 m"
+        "label": "32490 m"
       },
       {
         "id": "option-3",
-        "label": "29700 m"
+        "label": "29783 m"
       },
       {
         "id": "option-4",
-        "label": "27000 m"
+        "label": "24369 m"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-4"
+      "optionId": "option-1"
     },
     "solutionSteps": [
       {
@@ -5026,7 +5318,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+        "instruction": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -5040,7 +5332,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+        "text": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -5054,20 +5346,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "27 × 1000 = 27.000, nên 27 km = 27.000 m.",
+    "explanation": "Vì 1 km = 1.000 m và 1 m = 1 m, ta có 27 × 1.000 + 76 × 1 = 27.076 m.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-bc3e5f2b2eaa82b1",
+    "id": "g4-length-conversion-885317f3efb27b5f",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t4",
-    "fingerprint": "50f007a9fecd4faf58ba7c3d228e2807",
+    "fingerprint": "cf937a9128e7b61d6e4d86dc54e898e5",
     "generatorParams": {
-      "value": 27,
-      "factor": 10,
-      "from": "cm",
-      "to": "mm"
+      "major": 27,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "cm",
+      "minorUnit": "",
+      "targetUnit": "mm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -5091,7 +5387,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -5105,7 +5401,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -5119,20 +5415,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "27 × 10 = 270, nên 27 cm = 270 mm.",
+    "explanation": "Vì 1 cm = 10 mm, ta có 27 × 10 = 270 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-87bf6fd2759620fb",
+    "id": "g4-length-conversion-60bdb70d2c8e5463",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t5",
-    "fingerprint": "7caa137090217741c73fc59f81c41d1b",
+    "fingerprint": "be350ec4ecc4c885f42a612e314a621d",
     "generatorParams": {
-      "value": 27,
-      "factor": 100,
-      "from": "dm",
-      "to": "mm"
+      "major": 27,
+      "minor": 5,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "dm",
+      "minorUnit": "mm",
+      "targetUnit": "mm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -5144,10 +5444,10 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "27 dm bằng bao nhiêu mm?",
+    "stem": "27 dm 5 mm bằng bao nhiêu mm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 2700,
+      "value": 2705,
       "unit": "mm"
     },
     "solutionSteps": [
@@ -5157,7 +5457,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -5171,7 +5471,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -5185,20 +5485,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "27 × 100 = 2.700, nên 27 dm = 2.700 mm.",
+    "explanation": "Vì 1 dm = 100 mm và 1 mm = 1 mm, ta có 27 × 100 + 5 × 1 = 2.705 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-234452fcaa03c339",
+    "id": "g4-length-conversion-0a7859c741bae878",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t1",
-    "fingerprint": "fa32046760a7389301f7805b39973fc6",
+    "fingerprint": "8d85f5c4d156797f0e4988caff2e7c4b",
     "generatorParams": {
-      "value": 28,
-      "factor": 10,
-      "from": "dm",
-      "to": "cm"
+      "major": 28,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "dm",
+      "minorUnit": "",
+      "targetUnit": "cm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -5223,7 +5527,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -5237,7 +5541,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -5251,20 +5555,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "28 × 10 = 280, nên 28 dm = 280 cm.",
+    "explanation": "Vì 1 dm = 10 cm, ta có 28 × 10 = 280 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-6799030cd84ea803",
+    "id": "g4-length-conversion-702ae0b1bd65760f",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t2",
-    "fingerprint": "f5d6493e7e65e84a93b0efcd4fce2219",
+    "fingerprint": "95283874584595b78fbcb5a80ff6f50c",
     "generatorParams": {
-      "value": 28,
-      "factor": 100,
-      "from": "m",
-      "to": "cm"
+      "major": 28,
+      "minor": 66,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "m",
+      "minorUnit": "cm",
+      "targetUnit": "cm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -5276,10 +5584,10 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "28 m bằng bao nhiêu cm?",
+    "stem": "28 m 66 cm bằng bao nhiêu cm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 2800,
+      "value": 2866,
       "unit": "cm"
     },
     "solutionSteps": [
@@ -5289,7 +5597,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -5303,7 +5611,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -5317,20 +5625,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "28 × 100 = 2.800, nên 28 m = 2.800 cm.",
+    "explanation": "Vì 1 m = 100 cm và 1 cm = 1 cm, ta có 28 × 100 + 66 × 1 = 2.866 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-210fd071af12f2f3",
+    "id": "g4-length-conversion-db793ba60684fc52",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t3",
-    "fingerprint": "7f4577ec377d6b09135cfeb1a72bcc28",
+    "fingerprint": "bf7cbbbc584d7c56bf7c27e7427aeb13",
     "generatorParams": {
-      "value": 28,
-      "factor": 1000,
-      "from": "km",
-      "to": "m"
+      "major": 28,
+      "minor": 81,
+      "majorFactor": 1000,
+      "minorFactor": 1,
+      "majorUnit": "km",
+      "minorUnit": "m",
+      "targetUnit": "m",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -5342,23 +5654,23 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "28 km bằng bao nhiêu m?",
+    "stem": "28 km 81 m bằng bao nhiêu m?",
     "options": [
       {
         "id": "option-1",
-        "label": "28000 m"
+        "label": "28081 m"
       },
       {
         "id": "option-2",
-        "label": "30800 m"
+        "label": "25273 m"
       },
       {
         "id": "option-3",
-        "label": "25200 m"
+        "label": "33697 m"
       },
       {
         "id": "option-4",
-        "label": "33600 m"
+        "label": "30889 m"
       }
     ],
     "expectedAnswer": {
@@ -5372,7 +5684,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+        "instruction": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -5386,7 +5698,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+        "text": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -5400,20 +5712,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "28 × 1000 = 28.000, nên 28 km = 28.000 m.",
+    "explanation": "Vì 1 km = 1.000 m và 1 m = 1 m, ta có 28 × 1.000 + 81 × 1 = 28.081 m.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-0d51340cab477982",
+    "id": "g4-length-conversion-a7003dcbfa2df0d8",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t4",
-    "fingerprint": "1b258ee5262728e1d6fd80ba44929b21",
+    "fingerprint": "8693dc6af7b31bec770927af1934e8a2",
     "generatorParams": {
-      "value": 28,
-      "factor": 10,
-      "from": "cm",
-      "to": "mm"
+      "major": 28,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "cm",
+      "minorUnit": "",
+      "targetUnit": "mm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -5437,7 +5753,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -5451,7 +5767,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -5465,20 +5781,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "28 × 10 = 280, nên 28 cm = 280 mm.",
+    "explanation": "Vì 1 cm = 10 mm, ta có 28 × 10 = 280 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-c1154afd276e0837",
+    "id": "g4-length-conversion-220ca193d2d1d1ad",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t5",
-    "fingerprint": "b9628c4923922b068b16ad666585144d",
+    "fingerprint": "2f0dbc7001b3934e0d835feec6df36fc",
     "generatorParams": {
-      "value": 28,
-      "factor": 100,
-      "from": "dm",
-      "to": "mm"
+      "major": 28,
+      "minor": 12,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "dm",
+      "minorUnit": "mm",
+      "targetUnit": "mm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -5490,10 +5810,10 @@
     "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "28 dm bằng bao nhiêu mm?",
+    "stem": "28 dm 12 mm bằng bao nhiêu mm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 2800,
+      "value": 2812,
       "unit": "mm"
     },
     "solutionSteps": [
@@ -5503,7 +5823,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -5517,7 +5837,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -5531,20 +5851,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "28 × 100 = 2.800, nên 28 dm = 2.800 mm.",
+    "explanation": "Vì 1 dm = 100 mm và 1 mm = 1 mm, ta có 28 × 100 + 12 × 1 = 2.812 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-662cf4bdf01f1aef",
+    "id": "g4-length-conversion-1a93706c41dea041",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t1",
-    "fingerprint": "a234a236249945b9ff5c094a13066728",
+    "fingerprint": "7b90e4df12ef081ef82e040852575d25",
     "generatorParams": {
-      "value": 39,
-      "factor": 10,
-      "from": "dm",
-      "to": "cm"
+      "major": 39,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "dm",
+      "minorUnit": "",
+      "targetUnit": "cm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -5569,7 +5893,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -5583,7 +5907,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -5597,20 +5921,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "39 × 10 = 390, nên 39 dm = 390 cm.",
+    "explanation": "Vì 1 dm = 10 cm, ta có 39 × 10 = 390 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-f44104712a19366c",
+    "id": "g4-length-conversion-1ce07b1db1c0c6bb",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t2",
-    "fingerprint": "08e00936ea34ffc418b71071938caa08",
+    "fingerprint": "69dd0d0b71da467d9a4c67198973c1cb",
     "generatorParams": {
-      "value": 39,
-      "factor": 100,
-      "from": "m",
-      "to": "cm"
+      "major": 39,
+      "minor": 75,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "m",
+      "minorUnit": "cm",
+      "targetUnit": "cm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -5622,10 +5950,10 @@
     "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "39 m bằng bao nhiêu cm?",
+    "stem": "39 m 75 cm bằng bao nhiêu cm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 3900,
+      "value": 3975,
       "unit": "cm"
     },
     "solutionSteps": [
@@ -5635,7 +5963,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -5649,7 +5977,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -5663,20 +5991,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "39 × 100 = 3.900, nên 39 m = 3.900 cm.",
+    "explanation": "Vì 1 m = 100 cm và 1 cm = 1 cm, ta có 39 × 100 + 75 × 1 = 3.975 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-fd2db2df153ff57e",
+    "id": "g4-length-conversion-039f377f4ba719a7",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t3",
-    "fingerprint": "d93de58ceb3c599b21f4586a5c7f46eb",
+    "fingerprint": "a014948e5df431f1c3b8b8c19cacb291",
     "generatorParams": {
-      "value": 39,
-      "factor": 1000,
-      "from": "km",
-      "to": "m"
+      "major": 39,
+      "minor": 91,
+      "majorFactor": 1000,
+      "minorFactor": 1,
+      "majorUnit": "km",
+      "minorUnit": "m",
+      "targetUnit": "m",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -5688,23 +6020,23 @@
     "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "39 km bằng bao nhiêu m?",
+    "stem": "39 km 91 m bằng bao nhiêu m?",
     "options": [
       {
         "id": "option-1",
-        "label": "42900 m"
+        "label": "43000 m"
       },
       {
         "id": "option-2",
-        "label": "46800 m"
+        "label": "35182 m"
       },
       {
         "id": "option-3",
-        "label": "39000 m"
+        "label": "39091 m"
       },
       {
         "id": "option-4",
-        "label": "35100 m"
+        "label": "46909 m"
       }
     ],
     "expectedAnswer": {
@@ -5718,7 +6050,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+        "instruction": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -5732,7 +6064,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+        "text": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -5746,20 +6078,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "39 × 1000 = 39.000, nên 39 km = 39.000 m.",
+    "explanation": "Vì 1 km = 1.000 m và 1 m = 1 m, ta có 39 × 1.000 + 91 × 1 = 39.091 m.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-86f488177b4da270",
+    "id": "g4-length-conversion-f34648a011153c27",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t4",
-    "fingerprint": "f86e344da8b7fe313e5df94fb4be5f40",
+    "fingerprint": "139831d49505558f85aa4355162764ba",
     "generatorParams": {
-      "value": 39,
-      "factor": 10,
-      "from": "cm",
-      "to": "mm"
+      "major": 39,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "cm",
+      "minorUnit": "",
+      "targetUnit": "mm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -5783,7 +6119,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -5797,7 +6133,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -5811,20 +6147,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "39 × 10 = 390, nên 39 cm = 390 mm.",
+    "explanation": "Vì 1 cm = 10 mm, ta có 39 × 10 = 390 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-4b97fbb53258d432",
+    "id": "g4-length-conversion-07ed2c05dfe9942d",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t5",
-    "fingerprint": "4c10ebd0c5946d067b703356bab00789",
+    "fingerprint": "66f421f10be78155d97bcc86fb2ced32",
     "generatorParams": {
-      "value": 39,
-      "factor": 100,
-      "from": "dm",
-      "to": "mm"
+      "major": 39,
+      "minor": 24,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "dm",
+      "minorUnit": "mm",
+      "targetUnit": "mm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -5836,10 +6176,10 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "39 dm bằng bao nhiêu mm?",
+    "stem": "39 dm 24 mm bằng bao nhiêu mm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 3900,
+      "value": 3924,
       "unit": "mm"
     },
     "solutionSteps": [
@@ -5849,7 +6189,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -5863,7 +6203,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -5877,20 +6217,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "39 × 100 = 3.900, nên 39 dm = 3.900 mm.",
+    "explanation": "Vì 1 dm = 100 mm và 1 mm = 1 mm, ta có 39 × 100 + 24 × 1 = 3.924 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-81e19c03b344c432",
+    "id": "g4-length-conversion-f037acba7cc2dca6",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t1",
-    "fingerprint": "88391ee72811519e883727797902a286",
+    "fingerprint": "f20298d9bc4fc9d4396f52de7ea25755",
     "generatorParams": {
-      "value": 40,
-      "factor": 10,
-      "from": "dm",
-      "to": "cm"
+      "major": 40,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "dm",
+      "minorUnit": "",
+      "targetUnit": "cm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -5915,7 +6259,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -5929,7 +6273,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -5943,20 +6287,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "40 × 10 = 400, nên 40 dm = 400 cm.",
+    "explanation": "Vì 1 dm = 10 cm, ta có 40 × 10 = 400 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-16b0bc527c3e05b1",
+    "id": "g4-length-conversion-467494abfd4b1ec7",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t2",
-    "fingerprint": "2c52b5187f46005b1ec0df21023af840",
+    "fingerprint": "c88d1a95ca4d1df3edbda9693b6c92b0",
     "generatorParams": {
-      "value": 40,
-      "factor": 100,
-      "from": "m",
-      "to": "cm"
+      "major": 40,
+      "minor": 79,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "m",
+      "minorUnit": "cm",
+      "targetUnit": "cm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -5968,10 +6316,10 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "40 m bằng bao nhiêu cm?",
+    "stem": "40 m 79 cm bằng bao nhiêu cm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 4000,
+      "value": 4079,
       "unit": "cm"
     },
     "solutionSteps": [
@@ -5981,7 +6329,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -5995,7 +6343,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -6009,20 +6357,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "40 × 100 = 4.000, nên 40 m = 4.000 cm.",
+    "explanation": "Vì 1 m = 100 cm và 1 cm = 1 cm, ta có 40 × 100 + 79 × 1 = 4.079 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-bc357e14ec9cf0ee",
+    "id": "g4-length-conversion-37fc5e4707023806",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t3",
-    "fingerprint": "5774a5e0956fe84e99de61745b075923",
+    "fingerprint": "3191ab6c5dcaf4c2ba76e3f354187969",
     "generatorParams": {
-      "value": 40,
-      "factor": 1000,
-      "from": "km",
-      "to": "m"
+      "major": 40,
+      "minor": 96,
+      "majorFactor": 1000,
+      "minorFactor": 1,
+      "majorUnit": "km",
+      "minorUnit": "m",
+      "targetUnit": "m",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -6034,28 +6386,28 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "40 km bằng bao nhiêu m?",
+    "stem": "40 km 96 m bằng bao nhiêu m?",
     "options": [
       {
         "id": "option-1",
-        "label": "48000 m"
+        "label": "36087 m"
       },
       {
         "id": "option-2",
-        "label": "40000 m"
+        "label": "44105 m"
       },
       {
         "id": "option-3",
-        "label": "36000 m"
+        "label": "48114 m"
       },
       {
         "id": "option-4",
-        "label": "44000 m"
+        "label": "40096 m"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-2"
+      "optionId": "option-4"
     },
     "solutionSteps": [
       {
@@ -6064,7 +6416,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+        "instruction": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -6078,7 +6430,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+        "text": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -6092,20 +6444,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "40 × 1000 = 40.000, nên 40 km = 40.000 m.",
+    "explanation": "Vì 1 km = 1.000 m và 1 m = 1 m, ta có 40 × 1.000 + 96 × 1 = 40.096 m.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-b50622bbe572b888",
+    "id": "g4-length-conversion-5998aaedf22081f4",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t4",
-    "fingerprint": "2b6b0dcd1aeebf0d8062233791bb9842",
+    "fingerprint": "03aeeaab0ab208f641edcddfdfeac8c7",
     "generatorParams": {
-      "value": 40,
-      "factor": 10,
-      "from": "cm",
-      "to": "mm"
+      "major": 40,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "cm",
+      "minorUnit": "",
+      "targetUnit": "mm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -6129,7 +6485,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -6143,7 +6499,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -6157,20 +6513,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "40 × 10 = 400, nên 40 cm = 400 mm.",
+    "explanation": "Vì 1 cm = 10 mm, ta có 40 × 10 = 400 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-2b096d2362dc253b",
+    "id": "g4-length-conversion-77a38d03f431764f",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t5",
-    "fingerprint": "07feaee474db36e95377cfb5d2629691",
+    "fingerprint": "5b59093202e2c453524ea9bd6aec0d1b",
     "generatorParams": {
-      "value": 40,
-      "factor": 100,
-      "from": "dm",
-      "to": "mm"
+      "major": 40,
+      "minor": 31,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "dm",
+      "minorUnit": "mm",
+      "targetUnit": "mm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -6182,10 +6542,10 @@
     "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "40 dm bằng bao nhiêu mm?",
+    "stem": "40 dm 31 mm bằng bao nhiêu mm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 4000,
+      "value": 4031,
       "unit": "mm"
     },
     "solutionSteps": [
@@ -6195,7 +6555,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -6209,7 +6569,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -6223,20 +6583,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "40 × 100 = 4.000, nên 40 dm = 4.000 mm.",
+    "explanation": "Vì 1 dm = 100 mm và 1 mm = 1 mm, ta có 40 × 100 + 31 × 1 = 4.031 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-cca9869a4298d0fb",
+    "id": "g4-length-conversion-b735e1dcede1cd58",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t1",
-    "fingerprint": "04a1777cc39069db23cb6b713cf1ea6e",
+    "fingerprint": "4ab82d59c5650afb612c85f6a4263e90",
     "generatorParams": {
-      "value": 41,
-      "factor": 10,
-      "from": "dm",
-      "to": "cm"
+      "major": 41,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "dm",
+      "minorUnit": "",
+      "targetUnit": "cm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -6261,7 +6625,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -6275,7 +6639,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -6289,20 +6653,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "41 × 10 = 410, nên 41 dm = 410 cm.",
+    "explanation": "Vì 1 dm = 10 cm, ta có 41 × 10 = 410 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-d819e6eb959b493c",
+    "id": "g4-length-conversion-f83b5974a4372f0b",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t2",
-    "fingerprint": "849c8350c013e05e59dcb7ff9c7c5b3f",
+    "fingerprint": "786151f43b22d2279ecd159d2d0df230",
     "generatorParams": {
-      "value": 41,
-      "factor": 100,
-      "from": "m",
-      "to": "cm"
+      "major": 41,
+      "minor": 83,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "m",
+      "minorUnit": "cm",
+      "targetUnit": "cm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -6314,10 +6682,10 @@
     "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "41 m bằng bao nhiêu cm?",
+    "stem": "41 m 83 cm bằng bao nhiêu cm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 4100,
+      "value": 4183,
       "unit": "cm"
     },
     "solutionSteps": [
@@ -6327,7 +6695,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -6341,7 +6709,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -6355,20 +6723,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "41 × 100 = 4.100, nên 41 m = 4.100 cm.",
+    "explanation": "Vì 1 m = 100 cm và 1 cm = 1 cm, ta có 41 × 100 + 83 × 1 = 4.183 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-e4835ce743b13f1f",
+    "id": "g4-length-conversion-72392a397737769a",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t3",
-    "fingerprint": "bd85e549ada1fb13a7c62ac719565b06",
+    "fingerprint": "0b0cdb1011dc7f8ed9db94fe8d1e2373",
     "generatorParams": {
-      "value": 41,
-      "factor": 1000,
-      "from": "km",
-      "to": "m"
+      "major": 41,
+      "minor": 101,
+      "majorFactor": 1000,
+      "minorFactor": 1,
+      "majorUnit": "km",
+      "minorUnit": "m",
+      "targetUnit": "m",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -6380,28 +6752,28 @@
     "assessmentLevel": "LEVEL_1",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "41 km bằng bao nhiêu m?",
+    "stem": "41 km 101 m bằng bao nhiêu m?",
     "options": [
       {
         "id": "option-1",
-        "label": "36900 m"
+        "label": "45211 m"
       },
       {
         "id": "option-2",
-        "label": "49200 m"
+        "label": "41101 m"
       },
       {
         "id": "option-3",
-        "label": "45100 m"
+        "label": "36991 m"
       },
       {
         "id": "option-4",
-        "label": "41000 m"
+        "label": "49321 m"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-4"
+      "optionId": "option-2"
     },
     "solutionSteps": [
       {
@@ -6410,7 +6782,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+        "instruction": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -6424,7 +6796,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+        "text": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -6438,20 +6810,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "41 × 1000 = 41.000, nên 41 km = 41.000 m.",
+    "explanation": "Vì 1 km = 1.000 m và 1 m = 1 m, ta có 41 × 1.000 + 101 × 1 = 41.101 m.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-f045078fbb7af4fe",
+    "id": "g4-length-conversion-8485ec838e6a21b6",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t4",
-    "fingerprint": "b3622ce104045d7cebbc65fc6a0c73ad",
+    "fingerprint": "7d642ba5f289d8da9748764702c946f6",
     "generatorParams": {
-      "value": 41,
-      "factor": 10,
-      "from": "cm",
-      "to": "mm"
+      "major": 41,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "cm",
+      "minorUnit": "",
+      "targetUnit": "mm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -6475,7 +6851,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -6489,7 +6865,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -6503,20 +6879,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "41 × 10 = 410, nên 41 cm = 410 mm.",
+    "explanation": "Vì 1 cm = 10 mm, ta có 41 × 10 = 410 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-97aa92f17e3e3822",
+    "id": "g4-length-conversion-4780afce84455774",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t5",
-    "fingerprint": "40cb8e2a8c32badf627c4bd38d5f8998",
+    "fingerprint": "1c2df0406b0aa1594f9457c89207fe4a",
     "generatorParams": {
-      "value": 41,
-      "factor": 100,
-      "from": "dm",
-      "to": "mm"
+      "major": 41,
+      "minor": 38,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "dm",
+      "minorUnit": "mm",
+      "targetUnit": "mm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -6528,10 +6908,10 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "41 dm bằng bao nhiêu mm?",
+    "stem": "41 dm 38 mm bằng bao nhiêu mm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 4100,
+      "value": 4138,
       "unit": "mm"
     },
     "solutionSteps": [
@@ -6541,7 +6921,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -6555,7 +6935,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -6569,20 +6949,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "41 × 100 = 4.100, nên 41 dm = 4.100 mm.",
+    "explanation": "Vì 1 dm = 100 mm và 1 mm = 1 mm, ta có 41 × 100 + 38 × 1 = 4.138 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-782a35e7a1fc98a4",
+    "id": "g4-length-conversion-f437acf42312a4ff",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t1",
-    "fingerprint": "7a1c4fc775783b60306ff003693fae67",
+    "fingerprint": "0a4fe84898bb013a0521fee6de745455",
     "generatorParams": {
-      "value": 42,
-      "factor": 10,
-      "from": "dm",
-      "to": "cm"
+      "major": 42,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "dm",
+      "minorUnit": "",
+      "targetUnit": "cm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -6607,7 +6991,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -6621,7 +7005,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang cm bằng cách nhân với 10."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -6635,20 +7019,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "42 × 10 = 420, nên 42 dm = 420 cm.",
+    "explanation": "Vì 1 dm = 10 cm, ta có 42 × 10 = 420 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-889a40726fd2b04c",
+    "id": "g4-length-conversion-2e00455c815cfa7c",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t2",
-    "fingerprint": "a48f3ff1e73d559e9b0e5750e27f23ba",
+    "fingerprint": "6e60659aad623d0aa661dd421243f769",
     "generatorParams": {
-      "value": 42,
-      "factor": 100,
-      "from": "m",
-      "to": "cm"
+      "major": 42,
+      "minor": 87,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "m",
+      "minorUnit": "cm",
+      "targetUnit": "cm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -6660,10 +7048,10 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "42 m bằng bao nhiêu cm?",
+    "stem": "42 m 87 cm bằng bao nhiêu cm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 4200,
+      "value": 4287,
       "unit": "cm"
     },
     "solutionSteps": [
@@ -6673,7 +7061,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ m sang cm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -6687,7 +7075,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ m sang cm bằng cách nhân với 100."
+        "text": "Đổi từng phần về cm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -6701,20 +7089,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "42 × 100 = 4.200, nên 42 m = 4.200 cm.",
+    "explanation": "Vì 1 m = 100 cm và 1 cm = 1 cm, ta có 42 × 100 + 87 × 1 = 4.287 cm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-118f7299bd11be87",
+    "id": "g4-length-conversion-37cf6ced4ff1a570",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t3",
-    "fingerprint": "dcd84d3bbb04be0f038c007e389dffba",
+    "fingerprint": "02ca8cb1f5db4a3243b04be23f9e1bc6",
     "generatorParams": {
-      "value": 42,
-      "factor": 1000,
-      "from": "km",
-      "to": "m"
+      "major": 42,
+      "minor": 106,
+      "majorFactor": 1000,
+      "minorFactor": 1,
+      "majorUnit": "km",
+      "minorUnit": "m",
+      "targetUnit": "m",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -6726,28 +7118,28 @@
     "assessmentLevel": "LEVEL_2",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "42 km bằng bao nhiêu m?",
+    "stem": "42 km 106 m bằng bao nhiêu m?",
     "options": [
       {
         "id": "option-1",
-        "label": "37800 m"
+        "label": "42106 m"
       },
       {
         "id": "option-2",
-        "label": "50400 m"
+        "label": "37896 m"
       },
       {
         "id": "option-3",
-        "label": "46200 m"
+        "label": "46316 m"
       },
       {
         "id": "option-4",
-        "label": "42000 m"
+        "label": "50526 m"
       }
     ],
     "expectedAnswer": {
       "kind": "OPTION",
-      "optionId": "option-4"
+      "optionId": "option-1"
     },
     "solutionSteps": [
       {
@@ -6756,7 +7148,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ km sang m bằng cách nhân với 1000."
+        "instruction": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -6770,7 +7162,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ km sang m bằng cách nhân với 1000."
+        "text": "Đổi từng phần về m, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -6784,20 +7176,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "42 × 1000 = 42.000, nên 42 km = 42.000 m.",
+    "explanation": "Vì 1 km = 1.000 m và 1 m = 1 m, ta có 42 × 1.000 + 106 × 1 = 42.106 m.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-28c376f58ad9db83",
+    "id": "g4-length-conversion-154398abd822e6e9",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t4",
-    "fingerprint": "731f74dc9d6b74fd67819a66ae30de83",
+    "fingerprint": "9131e348dfc1527084ea9a627951ea8a",
     "generatorParams": {
-      "value": 42,
-      "factor": 10,
-      "from": "cm",
-      "to": "mm"
+      "major": 42,
+      "minor": 0,
+      "majorFactor": 10,
+      "minorFactor": 0,
+      "majorUnit": "cm",
+      "minorUnit": "",
+      "targetUnit": "mm",
+      "mixed": false
     },
     "grade": 4,
     "domainId": "measurement",
@@ -6821,7 +7217,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -6835,7 +7231,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ cm sang mm bằng cách nhân với 10."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -6849,20 +7245,24 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "42 × 10 = 420, nên 42 cm = 420 mm.",
+    "explanation": "Vì 1 cm = 10 mm, ta có 42 × 10 = 420 mm.",
     "status": "REVIEWED",
     "version": 2
   },
   {
-    "id": "g4-length-conversion-504fdcfd03f6ee64",
+    "id": "g4-length-conversion-86f1fc8a1d1461cc",
     "contentVersion": "grade4-v3",
     "templateId": "length-conversion-t5",
-    "fingerprint": "f00c9c1868b11f8b5dddbe33719ed98d",
+    "fingerprint": "33238785f3fe892b0de009fc3e66af75",
     "generatorParams": {
-      "value": 42,
-      "factor": 100,
-      "from": "dm",
-      "to": "mm"
+      "major": 42,
+      "minor": 45,
+      "majorFactor": 100,
+      "minorFactor": 1,
+      "majorUnit": "dm",
+      "minorUnit": "mm",
+      "targetUnit": "mm",
+      "mixed": true
     },
     "grade": 4,
     "domainId": "measurement",
@@ -6874,10 +7274,10 @@
     "assessmentLevel": "LEVEL_3",
     "testEligible": true,
     "scoreWeight": 1,
-    "stem": "42 dm bằng bao nhiêu mm?",
+    "stem": "42 dm 45 mm bằng bao nhiêu mm?",
     "expectedAnswer": {
       "kind": "NUMBER",
-      "value": 4200,
+      "value": 4245,
       "unit": "mm"
     },
     "solutionSteps": [
@@ -6887,7 +7287,7 @@
       },
       {
         "id": "strategy",
-        "instruction": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "instruction": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "id": "check",
@@ -6901,7 +7301,7 @@
       },
       {
         "level": 2,
-        "text": "Đổi từ dm sang mm bằng cách nhân với 100."
+        "text": "Đổi từng phần về mm, rồi cộng các kết quả."
       },
       {
         "level": 3,
@@ -6915,7 +7315,7 @@
       }
     ],
     "prerequisiteSkillIds": [],
-    "explanation": "42 × 100 = 4.200, nên 42 dm = 4.200 mm.",
+    "explanation": "Vì 1 dm = 100 mm và 1 mm = 1 mm, ta có 42 × 100 + 45 × 1 = 4.245 mm.",
     "status": "REVIEWED",
     "version": 2
   }

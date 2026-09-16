@@ -32,6 +32,61 @@ function numeric(
   };
 }
 
+interface UnitConversionTemplate {
+  majorUnit: string;
+  targetUnit: string;
+  majorFactor: number;
+  minorUnit?: string;
+  minorFactor?: number;
+}
+
+function unitConversion(
+  blueprint: ProblemBlueprint,
+  template: number,
+  serial: number,
+  level: number,
+  spec: UnitConversionTemplate,
+): GeneratedCore {
+  const major = 2 + serial + level * 10;
+  const minorFactor = spec.minorFactor ?? 0;
+  const minorRange = spec.minorUnit
+    ? Math.max(2, Math.floor(spec.majorFactor / Math.max(1, minorFactor)))
+    : 1;
+  const minor = spec.minorUnit
+    ? 1 + (((serial - 1) * (template + 3) + level * 5) % (minorRange - 1))
+    : 0;
+  const answer = major * spec.majorFactor + minor * minorFactor;
+  const source = spec.minorUnit
+    ? `${major} ${spec.majorUnit} ${minor} ${spec.minorUnit}`
+    : `${major} ${spec.majorUnit}`;
+  const minorRelation = spec.minorUnit
+    ? ` và 1 ${spec.minorUnit} = ${minorFactor} ${spec.targetUnit}`
+    : '';
+  const calculation = spec.minorUnit
+    ? `${major} × ${formatVi(spec.majorFactor)} + ${minor} × ${formatVi(minorFactor)}`
+    : `${major} × ${formatVi(spec.majorFactor)}`;
+
+  return numeric(
+    blueprint,
+    template,
+    {
+      major,
+      minor,
+      majorFactor: spec.majorFactor,
+      minorFactor,
+      majorUnit: spec.majorUnit,
+      minorUnit: spec.minorUnit ?? '',
+      targetUnit: spec.targetUnit,
+      mixed: Boolean(spec.minorUnit),
+    },
+    `${source} bằng bao nhiêu ${spec.targetUnit}?`,
+    answer,
+    `Đổi từng phần về ${spec.targetUnit}, rồi cộng các kết quả.`,
+    `Vì 1 ${spec.majorUnit} = ${formatVi(spec.majorFactor)} ${spec.targetUnit}${minorRelation}, ta có ${calculation} = ${formatVi(answer)} ${spec.targetUnit}.`,
+    spec.targetUnit,
+  );
+}
+
 export function generateAppliedCore(
   blueprint: ProblemBlueprint,
   index: number,
@@ -42,74 +97,78 @@ export function generateAppliedCore(
   const id = blueprint.id;
 
   if (id === 'length-conversion') {
-    const factors = [10, 100, 1_000, 10, 100];
-    const from = ['dm', 'm', 'km', 'cm', 'dm'];
-    const to = ['cm', 'cm', 'm', 'mm', 'mm'];
-    const value = 2 + serial + level * 10;
-    const factor = factors[template]!;
-    const answer = value * factor;
-    return numeric(
-      blueprint,
-      template,
-      { value, factor, from: from[template]!, to: to[template]! },
-      `${value} ${from[template]} bằng bao nhiêu ${to[template]}?`,
-      answer,
-      `Đổi từ ${from[template]} sang ${to[template]} bằng cách nhân với ${factor}.`,
-      `${value} × ${factor} = ${formatVi(answer)}, nên ${value} ${from[template]} = ${formatVi(answer)} ${to[template]}.`,
-      to[template],
-    );
+    const specs: UnitConversionTemplate[] = [
+      { majorUnit: 'dm', targetUnit: 'cm', majorFactor: 10 },
+      { majorUnit: 'm', minorUnit: 'cm', targetUnit: 'cm', majorFactor: 100, minorFactor: 1 },
+      { majorUnit: 'km', minorUnit: 'm', targetUnit: 'm', majorFactor: 1_000, minorFactor: 1 },
+      { majorUnit: 'cm', targetUnit: 'mm', majorFactor: 10 },
+      { majorUnit: 'dm', minorUnit: 'mm', targetUnit: 'mm', majorFactor: 100, minorFactor: 1 },
+    ];
+    return unitConversion(blueprint, template, serial, level, specs[template]!);
   }
 
   if (id === 'mass-conversion') {
-    const factors = [1_000, 10, 10, 100, 1_000];
-    const from = ['kg', 'yến', 'tạ', 'tạ', 'tấn'];
-    const to = ['g', 'kg', 'yến', 'kg', 'kg'];
-    const value = 2 + serial + level * 5;
-    const factor = factors[template]!;
-    const answer = value * factor;
-    return numeric(
-      blueprint,
-      template,
-      { value, factor, from: from[template]!, to: to[template]! },
-      `${value} ${from[template]} bằng bao nhiêu ${to[template]}?`,
-      answer,
-      `Dùng quan hệ 1 ${from[template]} = ${factor} ${to[template]}.`,
-      `${value} × ${factor} = ${formatVi(answer)} ${to[template]}.`,
-      to[template],
-    );
+    const specs: UnitConversionTemplate[] = [
+      { majorUnit: 'kg', targetUnit: 'g', majorFactor: 1_000 },
+      { majorUnit: 'yến', minorUnit: 'kg', targetUnit: 'kg', majorFactor: 10, minorFactor: 1 },
+      { majorUnit: 'tạ', minorUnit: 'yến', targetUnit: 'kg', majorFactor: 100, minorFactor: 10 },
+      { majorUnit: 'tạ', targetUnit: 'kg', majorFactor: 100 },
+      { majorUnit: 'tấn', minorUnit: 'yến', targetUnit: 'kg', majorFactor: 1_000, minorFactor: 10 },
+    ];
+    return unitConversion(blueprint, template, serial, level, specs[template]!);
   }
 
   if (id === 'area-conversion') {
-    const from = ['m²', 'dm²', 'cm²', 'm²', 'dm²'];
-    const to = ['dm²', 'cm²', 'mm²', 'cm²', 'mm²'];
-    const factors = [100, 100, 100, 10_000, 10_000];
-    const value = 2 + serial + level * 3;
-    const factor = factors[template]!;
-    const answer = value * factor;
-    return numeric(
-      blueprint,
-      template,
-      { value, factor, from: from[template]!, to: to[template]! },
-      `${value} ${from[template]} bằng bao nhiêu ${to[template]}?`,
-      answer,
-      'Với đơn vị diện tích, mỗi bậc liền kề gấp hoặc kém nhau 100 lần.',
-      `${value} × ${formatVi(factor)} = ${formatVi(answer)} ${to[template]}.`,
-      to[template],
-    );
+    const specs: UnitConversionTemplate[] = [
+      { majorUnit: 'm²', targetUnit: 'dm²', majorFactor: 100 },
+      { majorUnit: 'dm²', minorUnit: 'cm²', targetUnit: 'cm²', majorFactor: 100, minorFactor: 1 },
+      { majorUnit: 'cm²', minorUnit: 'mm²', targetUnit: 'mm²', majorFactor: 100, minorFactor: 1 },
+      { majorUnit: 'm²', targetUnit: 'cm²', majorFactor: 10_000 },
+      {
+        majorUnit: 'dm²',
+        minorUnit: 'mm²',
+        targetUnit: 'mm²',
+        majorFactor: 10_000,
+        minorFactor: 1,
+      },
+    ];
+    return unitConversion(blueprint, template, serial, level, specs[template]!);
   }
 
   if (id === 'compare-measurements') {
-    const metres = 2 + serial + level * 5;
-    const centimetres = metres * 100 + 10 + template + serial;
+    const specs: UnitConversionTemplate[] = [
+      { majorUnit: 'm', minorUnit: 'cm', targetUnit: 'cm', majorFactor: 100, minorFactor: 1 },
+      { majorUnit: 'tạ', minorUnit: 'kg', targetUnit: 'kg', majorFactor: 100, minorFactor: 1 },
+      { majorUnit: 'dm²', minorUnit: 'cm²', targetUnit: 'cm²', majorFactor: 100, minorFactor: 1 },
+      { majorUnit: 'giờ', minorUnit: 'phút', targetUnit: 'phút', majorFactor: 60, minorFactor: 1 },
+      { majorUnit: 'tuần', minorUnit: 'ngày', targetUnit: 'ngày', majorFactor: 7, minorFactor: 1 },
+    ];
+    const spec = specs[template]!;
+    const major = 2 + serial + level * 5;
+    const minorRange = Math.floor(spec.majorFactor / (spec.minorFactor ?? 1));
+    const minor = 1 + (((serial - 1) * (template + 2)) % (minorRange - 1));
+    const converted = major * spec.majorFactor + minor * (spec.minorFactor ?? 1);
+    const delta = 2 + serial + level;
+    const comparison = template % 2 === 0 ? converted + delta : converted - delta;
+    const answer = Math.max(converted, comparison);
     return numeric(
       blueprint,
       template,
-      { metres, centimetres },
-      `Đại lượng nào dài hơn: ${metres} m hay ${centimetres} cm? Trả lời bằng số xăng-ti-mét của đại lượng dài hơn.`,
-      centimetres,
-      'Đổi hai đại lượng về cùng đơn vị xăng-ti-mét rồi so sánh.',
-      `${metres} m = ${metres * 100} cm; vì ${centimetres} > ${metres * 100} nên đại lượng dài hơn là ${centimetres} cm.`,
-      'cm',
+      {
+        major,
+        minor,
+        majorFactor: spec.majorFactor,
+        minorFactor: spec.minorFactor ?? 1,
+        majorUnit: spec.majorUnit,
+        minorUnit: spec.minorUnit!,
+        comparison,
+        targetUnit: spec.targetUnit,
+      },
+      `Đại lượng nào lớn hơn: ${major} ${spec.majorUnit} ${minor} ${spec.minorUnit} hay ${formatVi(comparison)} ${spec.targetUnit}? Trả lời bằng số ${spec.targetUnit} của đại lượng lớn hơn.`,
+      answer,
+      `Đổi đại lượng ghép về ${spec.targetUnit}, rồi so sánh hai số.`,
+      `${major} ${spec.majorUnit} ${minor} ${spec.minorUnit} = ${formatVi(converted)} ${spec.targetUnit}; so sánh với ${formatVi(comparison)} ${spec.targetUnit}, đại lượng lớn hơn là ${formatVi(answer)} ${spec.targetUnit}.`,
+      spec.targetUnit,
     );
   }
 
@@ -154,22 +213,20 @@ export function generateAppliedCore(
   }
 
   if (id === 'time-conversion') {
-    const factors = [60, 60, 24, 7, 100];
-    const from = ['giờ', 'phút', 'ngày', 'tuần', 'thế kỉ'];
-    const to = ['phút', 'giây', 'giờ', 'ngày', 'năm'];
-    const value = 2 + serial + level * 3;
-    const factor = factors[template]!;
-    const answer = value * factor;
-    return numeric(
-      blueprint,
-      template,
-      { value, factor, from: from[template]!, to: to[template]! },
-      `${value} ${from[template]} bằng bao nhiêu ${to[template]}?`,
-      answer,
-      `Dùng quan hệ 1 ${from[template]} = ${factor} ${to[template]}.`,
-      `${value} × ${factor} = ${formatVi(answer)} ${to[template]}.`,
-      to[template],
-    );
+    const specs: UnitConversionTemplate[] = [
+      { majorUnit: 'giờ', targetUnit: 'phút', majorFactor: 60 },
+      { majorUnit: 'phút', minorUnit: 'giây', targetUnit: 'giây', majorFactor: 60, minorFactor: 1 },
+      { majorUnit: 'ngày', minorUnit: 'giờ', targetUnit: 'giờ', majorFactor: 24, minorFactor: 1 },
+      { majorUnit: 'tuần', targetUnit: 'ngày', majorFactor: 7 },
+      {
+        majorUnit: 'thế kỉ',
+        minorUnit: 'năm',
+        targetUnit: 'năm',
+        majorFactor: 100,
+        minorFactor: 1,
+      },
+    ];
+    return unitConversion(blueprint, template, serial, level, specs[template]!);
   }
 
   if (id === 'money-change') {

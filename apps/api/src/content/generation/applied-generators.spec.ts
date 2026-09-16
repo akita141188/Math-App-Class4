@@ -16,7 +16,16 @@ describe('measurement, geometry, word-problem and data oracles', () => {
         )
           expect(expected).toMatchObject({
             kind: 'NUMBER',
-            value: Number(p.value) * Number(p.factor),
+            value:
+              Number(p.major) * Number(p.majorFactor) + Number(p.minor) * Number(p.minorFactor),
+          });
+        if (type.id === 'compare-measurements')
+          expect(expected).toMatchObject({
+            kind: 'NUMBER',
+            value: Math.max(
+              Number(p.major) * Number(p.majorFactor) + Number(p.minor) * Number(p.minorFactor),
+              Number(p.comparison),
+            ),
           });
         if (type.id === 'money-change')
           expect(expected).toMatchObject({
